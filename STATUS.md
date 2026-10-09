@@ -10,6 +10,25 @@ GitHub Pages ativado em <https://vangruver.github.io/ficha-l5r4e/> (mesmo esquem
 `data/raw/` (texto traduzido dos livros) subiram junto a pedido do Carlos, ciente do risco de
 copyright (ver README.md da ficha). Pra atualizar o repo depois de rodar os scripts de novo: `git add -A && git commit -m "..." && git push`.
 
+## Tema Oriental (09/out)
+
+Segundo tema, além do escuro ("Clean") que já existia — pergaminho + marca d'água de cerejeira
+(`assets/sakura.svg`), tipografia Shippori Mincho, paleta vermelho-selo/creme. Troca no botão do
+cabeçalho (`src/tema.js`), salvo em `localStorage` (`l5r4e.tema`), aplicado por um script inline no
+`<head>` antes do CSS pintar (sem flash do tema errado). Como todo `style.css` já lia variáveis CSS
+(`--bg`, `--surface`, `--accent`...), só precisou de um bloco `:root[data-tema="oriental"]`
+sobrescrevendo essas variáveis — não mudou nada no resto do CSS. A marca d'água só aparece acima de
+720px de largura (desktop) — no celular fica só a paleta, sem a ilustração, por pedido do Carlos.
+
+Testado com **Chrome headless local** (`chrome.exe --headless=new --screenshot=...`), já que a
+extensão do navegador não conectou nesta sessão: tema Clean sem regressão, tema Oriental ok no
+desktop e no celular — prints enviados ao Carlos direto no chat.
+
+**Gap encontrado, não é do tema (pré-existente):** em telas bem estreitas (~390px), a barra do
+personagem (`.barra-personagem`, select + 2 botões) e algumas linhas de texto longas estouram a
+largura da tela (overflow horizontal) — não tem breakpoint pra isso ainda. Não mexi, só registrando;
+avisar o Carlos se for mexer na responsividade mobile depois.
+
 ## Escopo (8 livros)
 
 Core + Book of Air/Earth/Fire/Water/Void + Sword and Fan + The Great Clans (extra, adicionado depois do escopo original).
