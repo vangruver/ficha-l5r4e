@@ -4,11 +4,24 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ficha L5R 4e</title>
+<script>
+  // Aplica o tema salvo ANTES do CSS pintar a página, pra não dar flash do
+  // tema errado. Fica inline e fora de módulo de propósito (precisa rodar
+  // antes de qualquer coisa, src/app.js só carrega depois do HTML parsear).
+  try {
+    document.documentElement.dataset.tema = localStorage.getItem("l5r4e.tema") || "clean";
+  } catch { document.documentElement.dataset.tema = "clean"; }
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&display=swap">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 <header class="topo">
-  <h1>Lenda dos Cinco Anéis <small>4ª edição</small></h1>
+  <div class="topo-linha1">
+    <h1>Lenda dos Cinco Anéis <small>4ª edição</small></h1>
+    <button id="btn-tema" type="button" class="tema-toggle" title="Trocar tema"></button>
+  </div>
   <p class="aviso">Projeto de fã, não-oficial e sem fins lucrativos. L5R e Rokugan pertencem à FFG/AEG e aos autores do sistema.</p>
   <nav class="tabs-topo">
     <button class="tab-topo on" data-tab="ficha">Ficha</button>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <g id="flor">
+      <g fill="#C97F8E">
+        <ellipse cx="0" cy="-13" rx="8" ry="13" />
+        <ellipse cx="12" cy="-4" rx="8" ry="13" transform="rotate(72 12 -4)" />
+        <ellipse cx="8" cy="11" rx="8" ry="13" transform="rotate(144 8 11)" />
+        <ellipse cx="-8" cy="11" rx="8" ry="13" transform="rotate(216 -8 11)" />
+        <ellipse cx="-12" cy="-4" rx="8" ry="13" transform="rotate(288 -12 -4)" />
+      </g>
+      <circle cx="0" cy="0" r="4" fill="#8E1B22" />
+    </g>
+    <g id="petala">
+      <ellipse cx="0" cy="0" rx="6" ry="10" fill="#C97F8E" />
+      <path d="M0,-10 Q3,0 0,10" stroke="#8E1B22" stroke-width="0.6" fill="none" opacity=".5" />
+    </g>
+  </defs>
+
+  <g opacity=".45">
+    <path d="M60,760 C160,660 150,560 260,480 C340,420 360,340 320,230"
+          stroke="#6B3A2E" stroke-width="7" fill="none" stroke-linecap="round" />
+    <path d="M260,480 C300,470 340,460 380,430" stroke="#6B3A2E" stroke-width="4" fill="none" stroke-linecap="round" />
+    <path d="M320,230 C360,210 390,180 400,120" stroke="#6B3A2E" stroke-width="4" fill="none" stroke-linecap="round" />
+    <path d="M200,560 C230,555 260,540 285,515" stroke="#6B3A2E" stroke-width="3.5" fill="none" stroke-linecap="round" />
+  </g>
+
+  <g opacity=".55">
+    <use href="#flor" x="60" y="760" transform="scale(1.3)" />
+    <use href="#flor" x="140" y="640" />
+    <use href="#flor" x="180" y="560" transform="scale(1.1)" />
+    <use href="#flor" x="285" y="515" />
+    <use href="#flor" x="260" y="480" transform="scale(1.2)" />
+    <use href="#flor" x="380" y="430" />
+    <use href="#flor" x="320" y="230" transform="scale(1.15)" />
+    <use href="#flor" x="400" y="120" />
+    <use href="#flor" x="230" y="610" transform="scale(.8)" />
+  </g>
+
+  <g opacity=".4">
+    <use href="#petala" x="420" y="520" transform="rotate(30 420 520)" />
+    <use href="#petala" x="460" y="470" transform="rotate(-10 460 470)" />
+    <use href="#petala" x="150" y="440" transform="rotate(60 150 440)" />
+    <use href="#petala" x="470" y="200" transform="rotate(15 470 200)" />
+    <use href="#petala" x="90" y="690" transform="rotate(-25 90 690)" />
+  </g>
+</svg>

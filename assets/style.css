@@ -1,3 +1,8 @@
+/* ===========================================================
+   Temas — "Clean" (padrão, escuro) e "Oriental" (pergaminho).
+   Tudo abaixo lê variáveis, então trocar o tema é só isso: o
+   resto do arquivo não sabe (nem precisa saber) qual tá ativo.
+   =========================================================== */
 :root {
   --bg: #0E1013;
   --surface: #171A1F;
@@ -8,6 +13,22 @@
   --muted: #767C86;
   --accent: #C8323F;
   --accent-soft: rgba(200, 50, 63, .14);
+  --font-body: "Segoe UI", system-ui, sans-serif;
+  --font-display: var(--font-body);
+}
+
+:root[data-tema="oriental"] {
+  --bg: #E8DFC6;
+  --surface: rgba(248, 243, 231, .93);
+  --surface-2: rgba(241, 233, 212, .95);
+  --line: #C7B896;
+  --ink: #2A2118;
+  --ink-2: #5C4B36;
+  --muted: #8A7A5E;
+  --accent: #8E1B22;
+  --accent-soft: rgba(142, 27, 34, .12);
+  --font-body: "Shippori Mincho", Georgia, "Times New Roman", serif;
+  --font-display: "Shippori Mincho", Georgia, serif;
 }
 
 * { box-sizing: border-box; }
@@ -16,12 +37,39 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
-  font: 15px/1.5 "Segoe UI", system-ui, sans-serif;
+  font: 15px/1.5 var(--font-body);
+}
+h1, h2, h3, h4 { font-family: var(--font-display); }
+
+/* marca d'água de cerejeira — só no tema Oriental, só em telas largas
+   (no celular fica só a paleta, sem a ilustração, de propósito) */
+:root[data-tema="oriental"] body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: url("sakura.svg") no-repeat bottom right / 560px;
+}
+@media (max-width: 720px) {
+  :root[data-tema="oriental"] body::before { display: none; }
+}
+
+.tema-toggle {
+  font-size: 12.5px;
+  white-space: nowrap;
 }
 
 .topo {
   padding: 24px 20px 16px;
   border-bottom: 1px solid var(--line);
+}
+.topo-linha1 {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 .topo h1 {
   margin: 0;
@@ -412,4 +460,21 @@ button.link-clas {
 }
 @media (max-width: 720px) {
   #painel-wiki.painel { grid-template-columns: 1fr; }
+}
+
+/* ---------- retoques do tema Oriental ---------- */
+:root[data-tema="oriental"] .topo {
+  border-bottom-width: 2px;
+  border-bottom-color: var(--accent);
+}
+:root[data-tema="oriental"] .bloco,
+:root[data-tema="oriental"] .card,
+:root[data-tema="oriental"] .anel-box,
+:root[data-tema="oriental"] .item-linha {
+  border-width: 1.5px;
+  box-shadow: 0 1px 3px rgba(60, 40, 20, .12);
+}
+:root[data-tema="oriental"] .tab-topo.on,
+:root[data-tema="oriental"] .aba.on {
+  box-shadow: 0 1px 4px rgba(142, 27, 34, .35);
 }

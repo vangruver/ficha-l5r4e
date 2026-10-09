@@ -3,6 +3,7 @@ import * as storage from "./storage.js";
 import * as regras from "./rules.js";
 import { montarCompendio } from "./compendio.js";
 import { montarWiki } from "./wiki.js";
+import { iniciarTema } from "./tema.js";
 
 function esc(txt) {
   return (txt ?? "")
@@ -34,6 +35,7 @@ let compendioMontado = false;
 let wikiMontada = false;
 
 async function iniciar() {
+  iniciarTema();
   db = await carregarBanco();
   montarTabsTopo();
   iniciarPersonagem();
