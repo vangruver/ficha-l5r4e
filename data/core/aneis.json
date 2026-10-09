@@ -1,0 +1,7 @@
+[
+  { "id": "earth", "nome_en": "Earth", "nome_pt": "Terra", "traits": ["stamina", "willpower"] },
+  { "id": "air", "nome_en": "Air", "nome_pt": "Ar", "traits": ["reflexes", "awareness"] },
+  { "id": "water", "nome_en": "Water", "nome_pt": "Água", "traits": ["strength", "perception"] },
+  { "id": "fire", "nome_en": "Fire", "nome_pt": "Fogo", "traits": ["agility", "intelligence"] },
+  { "id": "void", "nome_en": "Void", "nome_pt": "Vazio", "traits": [] }
+]

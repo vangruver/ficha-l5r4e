@@ -1,0 +1,60 @@
+{
+  "_instrucoes": "Termos fixos do sistema. 'pt' é a tradução a usar na ficha. 'manter_original: true' significa não traduzir (nome próprio, clã, romaji) — usar exatamente como está em 'en'.",
+  "aneis": [
+    { "en": "Air", "pt": "Ar" },
+    { "en": "Earth", "pt": "Terra" },
+    { "en": "Fire", "pt": "Fogo" },
+    { "en": "Water", "pt": "Água" },
+    { "en": "Void", "pt": "Vazio" }
+  ],
+  "traits": [
+    { "en": "Stamina", "pt": "Vigor" },
+    { "en": "Willpower", "pt": "Vontade" },
+    { "en": "Strength", "pt": "Força" },
+    { "en": "Perception", "pt": "Percepção" },
+    { "en": "Reflexes", "pt": "Reflexos" },
+    { "en": "Awareness", "pt": "Prontidão" },
+    { "en": "Agility", "pt": "Agilidade" },
+    { "en": "Intelligence", "pt": "Intelecto" }
+  ],
+  "clas": [
+    { "en": "Crab Clan", "pt": "Clã da Caranguejo" },
+    { "en": "Crane Clan", "pt": "Clã do Grou" },
+    { "en": "Dragon Clan", "pt": "Clã do Dragão" },
+    { "en": "Lion Clan", "pt": "Clã do Leão" },
+    { "en": "Phoenix Clan", "pt": "Clã da Fênix" },
+    { "en": "Scorpion Clan", "pt": "Clã do Escorpião" },
+    { "en": "Unicorn Clan", "pt": "Clã do Unicórnio" },
+    { "en": "Mantis Clan", "pt": "Clã do Mantis" },
+    { "en": "Spider Clan", "pt": "Clã da Aranha" },
+    { "en": "Imperial Families", "pt": "Famílias Imperiais" },
+    { "en": "Minor Clans", "pt": "Clãs Menores" },
+    { "en": "Ronin", "pt": "Ronin", "manter_original": true },
+    { "en": "Brotherhood of Shinsei", "pt": "Irmandade de Shinsei" }
+  ],
+  "termos_sistema": [
+    { "en": "Roll and Keep", "pt": "Rolar e Manter" },
+    { "en": "Honor", "pt": "Honra" },
+    { "en": "Glory", "pt": "Glória" },
+    { "en": "Status", "pt": "Status" },
+    { "en": "Infamy", "pt": "Infâmia" },
+    { "en": "Insight", "pt": "Discernimento" },
+    { "en": "Insight Rank", "pt": "Rank de Discernimento" },
+    { "en": "Void Points", "pt": "Pontos de Vazio" },
+    { "en": "Wound Levels", "pt": "Níveis de Ferida" },
+    { "en": "Technique", "pt": "Técnica" },
+    { "en": "School Technique", "pt": "Técnica de Escola" },
+    { "en": "Emphasis", "pt": "Ênfase" },
+    { "en": "Advantage", "pt": "Vantagem" },
+    { "en": "Disadvantage", "pt": "Desvantagem" },
+    { "en": "Shadowlands Taint", "pt": "Mácula das Terras Sombrias" },
+    { "en": "Kata", "pt": "Kata", "manter_original": true },
+    { "en": "Kiho", "pt": "Kiho", "manter_original": true },
+    { "en": "Shugenja", "pt": "Shugenja", "manter_original": true },
+    { "en": "Bushi", "pt": "Bushi", "manter_original": true },
+    { "en": "Courtier", "pt": "Cortesão" },
+    { "en": "Rokugan", "pt": "Rokugan", "manter_original": true },
+    { "en": "Rokugani", "pt": "Rokugani", "manter_original": true }
+  ],
+  "regra_geral": "Nomes próprios de escola, técnica, kata/kiho, família e personagens ficam em inglês/romaji — só traduz a descrição mecânica do efeito."
+}

@@ -1,0 +1,319 @@
+{
+  "schools": {
+    "schools": [
+      {
+        "nome": "The Order of Rebirth",
+        "cla": "Brotherhood of Shinsei",
+        "familia": "Order of Rebirth",
+        "tipo": "monk",
+        "trait_inicial_bonus": "Intelligence",
+        "skills_de_escola": [
+          "Athletics",
+          "Jiujutsu",
+          "Lore: History",
+          "Lore: Theology",
+          "Meditation",
+          "Any Skill",
+          "Any Skill"
+        ],
+        "honra_inicial": 6.5,
+        "status_inicial": 1,
+        "equipamento_inicial": [],
+        "tecnica_por_rank": [
+          {
+            "rank": 1,
+            "nome": "Changing the Way",
+            "texto_pt": "Os Irmãos de Rebirth celebram abordagens diferentes em todas as suas miríades de formas. Cada vez que, em um determinado encontro, você tentar utilizar um Kiho de um Elemento diferente de qualquer Kiho previamente usado no mesmo encontro, você recebe um bônus de +5 em sua jogada de ativação."
+          }
+        ],
+        "source_book": "Book of Fire",
+        "pagina": 192
+      },
+      {
+        "nome": "Tengoku’s Fist",
+        "cla": "Brotherhood of Shinsei",
+        "familia": "Tengoku’s Fist",
+        "tipo": "monk",
+        "trait_inicial_bonus": "Agility",
+        "skills_de_escola": [
+          "Athletics",
+          "Battle",
+          "Jiujutsu",
+          "Lore: Theology",
+          "Meditation",
+          "Any Skill"
+        ],
+        "honra_inicial": 4.5,
+        "status_inicial": 1,
+        "equipamento_inicial": [],
+        "tecnica_por_rank": [
+          {
+            "rank": 1,
+            "nome": "The Hand of the Heavens",
+            "texto_pt": "Os monges de Tengoku’s Fist atacam com segurança e propósito, e sua força é ampliada pela influência do divino. Ao realizar um ataque desarmado contra um oponente, ou um ataque usando um bisento, uma bo staff, ou uma arma com a propriedade Monk, você pode receber um Aumento Gratuito (Free Raise) na jogada de ataque se o seu Anel de Fogo (Fire Ring) for maior do que o Anel de Fogo do seu oponente."
+          }
+        ],
+        "source_book": "Book of Fire",
+        "pagina": 192
+      },
+      {
+        "nome": "The Temple of Heavenly Wisdom",
+        "cla": "Brotherhood of Shinsei",
+        "familia": "The Temple of Heavenly Wisdom",
+        "tipo": "monk",
+        "trait_inicial_bonus": "Intelligence",
+        "skills_de_escola": [
+          "Courtier",
+          "Etiquette",
+          "Lore: History",
+          "Lore: Theology",
+          "Meditation",
+          "Sincerity",
+          "Any High Skill"
+        ],
+        "honra_inicial": 6.5,
+        "status_inicial": 1,
+        "equipamento_inicial": [],
+        "tecnica_por_rank": [
+          {
+            "rank": 1,
+            "nome": "The Largesse of Fukurokujin",
+            "texto_pt": "O Templo de Heavenly Wisdom derrama suas bênçãos sobre os monges que o reverenciam, concedendo-lhes discernimento nos caminhos da política e da diplomacia onde outros poderiam cometer erros graves. Ao realizar qualquer Jogada de Perícia Social (Social Skill Roll), você pode selecionar qualquer Kiho que possua. Você não pode usar esse Kiho pelo resto do dia, mas você recebe um bônus de +1k1 na Jogada de Perícia Social. Você só pode selecionar cada Kiho que conhece uma vez por dia para este propósito."
+          }
+        ],
+        "source_book": "Book of Fire",
+        "pagina": 192
+      }
+    ]
+  },
+  "kata_kiho": {
+    "kata_kiho": [
+      {
+        "nome": "THE EMPIRE RESTS ON ITS EDGE",
+        "tipo": "kata",
+        "pre_requisito": "Any (Mirumoto and Kakita bushi reduce the Ring requirements by 1). Can only be used with a katana or daisho",
+        "anel_ou_trait": "Air 3 ou Fire 3",
+        "custo": "N/A",
+        "texto_pt": "Ao aprender este Kata, escolha uma High Skill que não seja uma perícia de combate. Você deve gastar +2 Pontos de Experiência cada vez que aumentar seu Rank nessa perícia. Quando você estiver utilizando este Kata, você recebe um bônus no total de seus testes de Kenjutsu ou Iaijutsu igual ao seu Rank na High Skill escolhida.",
+        "source_book": "Book of Fire",
+        "pagina": 180
+      },
+      {
+        "nome": "THE WORLD IS EMPTY",
+        "tipo": "kata",
+        "pre_requisito": "Any (Mirumoto and Kakita bushi reduce Ring requirements by 1). Can only be used with a katana or daisho",
+        "anel_ou_trait": "Air 4 ou Fire 4",
+        "custo": "N/A",
+        "texto_pt": "Quando este Kata é ativado, você recebe um bônus de +Xk0 em seus testes de ataque de Kenjutsu ou Iaijutsu, onde X é igual ao número de Pontos de Vazio que você possui atualmente. O benefício deste Kata dura por um número de Rodadas igual ao número de Pontos de Vazio que você possuía quando o ativou, terminando durante a etapa de Reações da última Rodada. Quando ele termina, você perde 1 Ponto de Vazio.",
+        "source_book": "Book of Fire",
+        "pagina": 181
+      },
+      {
+        "nome": "VICTORY OF THE RIVER",
+        "tipo": "kata",
+        "pre_requisito": "Any (Mirumoto and Kakita bushi reduce Ring requirements by 1). Can only be used with a katana or daisho",
+        "anel_ou_trait": "Air 5 ou Fire 5",
+        "custo": "N/A",
+        "texto_pt": "Quando você atinge com sucesso um oponente enquanto este Kata está ativo, a ND da Armadura dele é reduzida em 10 contra seus ataques subsequentes por um período de três Rodadas. No entanto, sua própria ND da Armadura também é reduzida em 10 enquanto este benefício estiver ativo. Você só pode ter um oponente afetado por este Kata por vez, e os efeitos não são cumulativos, embora ataques subsequentes possam 'reiniciar' o limite de tempo de três Rodadas.",
+        "source_book": "Book of Fire",
+        "pagina": 181
+      },
+      {
+        "nome": "STANDING ON THE HEAVENS",
+        "tipo": "kata",
+        "pre_requisito": "Any (Mirumoto and Kakita bushi reduce Ring requirements by 1). Can only be used with a katana or daisho",
+        "anel_ou_trait": "Air 6 ou Fire 6",
+        "custo": "N/A",
+        "texto_pt": "Uma vez por Rodada, quando você for atingido por uma jogada de ataque bem-sucedida durante o combate, você pode gastar um Ponto de Vazio como uma Ação Livre para forçar seu oponente a rolar novamente o ataque imediatamente.",
+        "source_book": "Book of Fire",
+        "pagina": 181
+      },
+      {
+        "nome": "THE MIND’S FIRE",
+        "tipo": "kiho",
+        "pre_requisito": "Type: Internal",
+        "anel_ou_trait": "Fire 4",
+        "custo": "N/A",
+        "texto_pt": "Ao focar seu chi alinhado ao Fogo em ascendência, um monge pode obter uma clareza incrível. Quando ativo, este Kiho concede a você um bônus de +2k2 em todos os testes de perícia baseados em Intelecto. Quando o Kiho termina, você fica imediatamente Fatigued.",
+        "source_book": "Book of Fire",
+        "pagina": 192
+      },
+      {
+        "nome": "SEVER THE DARK LORD’S TOUCH",
+        "tipo": "kiho",
+        "pre_requisito": "Type: Mystical (Atemi)",
+        "anel_ou_trait": "Fire 5",
+        "custo": "N/A",
+        "texto_pt": "Uma mente em unidade com o universo pode perceber e afetar os laços que ligam o mundo físico ao mundo espiritual, mesmo quando o mundo em questão é tão insidioso e desprezível quanto o Reino do Mal. Enquanto este Kiho estiver ativo, um ataque atemi bem-sucedido contra uma criatura morta-viva irracional resulta em uma Disputa, colocando seu Fogo contra a Mácula das Terras Sombrias do morto-vivo. Se você for bem-sucedido, o morto-vivo é destruído instantaneamente, sua conexão com Jigoku cortada.\n\nEspecial: Este Kiho é bastante popular entre os membros mais agressivos da família Kuni, e seu requisito de Maestria é considerado 1 Rank menor para Kuni Shugenja e Kuni Witch-Hunters.",
+        "source_book": "Book of Fire",
+        "pagina": 193
+      },
+      {
+        "nome": "SEVEN STORM’S FIST",
+        "tipo": "kiho",
+        "pre_requisito": "Type: Martial (Atemi)",
+        "anel_ou_trait": "Fire 6",
+        "custo": "N/A",
+        "texto_pt": "O chi do Fogo flui pelo corpo como todas as formas de chi, mas quando seu fluxo é interrompido, pode ser particularmente doloroso e desorientador para quem não está acostumado com a sensação. Quando este Kiho estiver ativo, um ataque atemi bem-sucedido contra um oponente força um teste resistido de Fogo entre você e esse oponente. Se você for bem-sucedido, seu oponente fica Stunned por uma Rodada.",
+        "source_book": "Book of Fire",
+        "pagina": 193
+      }
+    ]
+  },
+  "skills": {
+    "skills": []
+  },
+  "spells": {
+    "spells": [
+      {
+        "nome": "Fire Kami’s Blessing",
+        "anel": "Fogo",
+        "mastery_level": 1,
+        "area": "One target creature (may be caster)",
+        "duracao": "1 hour",
+        "texto_pt": "Esta prece clama aos kami de Fogo para estimular a mente e a memória, permitindo que o receptor se recorde das informações mais obscuras, detalhes que ele possa ter encontrado apenas uma vez ou brevemente. Pela duração deste feitiço, o alvo ganha um bônus de +Xk0 (onde X é o Anel de Fogo do conjurador) para quaisquer rolagens de High ou Merchant Skill que usem o Atributo Intelecto.",
+        "source_book": "Book of Fire",
+        "pagina": 186
+      },
+      {
+        "nome": "Gift of Amaterasu",
+        "anel": "Fogo",
+        "mastery_level": 1,
+        "area": "50' radius sphere",
+        "duracao": "10 minutes",
+        "texto_pt": "Este feitiço é uma prece para Amaterasu, a Deusa do Sol, pedindo a ela que conceda seu favor ao conjurador na forma de radiantes kami de Fogo. Uma vez que a prece é completada, a luz solar quente brilha sobre a área escolhida, banhando-a em luz do dia total mesmo se for à noite, em ambientes internos ou subterrâneos. Este feitiço é particularmente popular entre shugenja que são designados para ajudar na proteção de castelos e outros locais vitais, já que um clarão repentino de luz do dia pode ser um impedimento muito eficaz para ladrões, assassinos e espiões.",
+        "source_book": "Book of Fire",
+        "pagina": 186
+      },
+      {
+        "nome": "Osano-Wo’s Blessing",
+        "anel": "Fogo",
+        "mastery_level": 1,
+        "area": "40' radius",
+        "duracao": "30 minutes",
+        "texto_pt": "Esta prece age exatamente de forma oposta ao feitiço comumente usado Extinguish; em vez de instar os kami de Fogo a partirem e, assim, apagarem as chamas, ela os instiga a uma maior energia e vigor, tornando as chamas mais difíceis de extinguir. Pela duração deste feitiço, todos os fogos dentro da área de efeito tornam-se impossíveis de serem extintos por meios normais, e qualquer esforço mágico para apagá-los (como o feitiço Extinguish acima mencionado) deve ser bem-sucedido em uma rolagem de disputa de Fogo com o conjurador de Osano-Wo's Blessing.",
+        "source_book": "Book of Fire",
+        "pagina": 186
+      },
+      {
+        "nome": "Warning Flame",
+        "anel": "Fogo",
+        "mastery_level": 1,
+        "area": "One target person (may be caster)",
+        "duracao": "10 Rounds",
+        "texto_pt": "O Fogo é o Elemento da agudeza de espírito e do intelecto, assim como o Elemento da destruição. Este feitiço excita os kami de Fogo dentro da mente, permitindo que o alvo note ameaças e reaja a elas muito mais rápido do que o normal. Pela duração do feitiço, o alvo é imune a ser surpreendido, adiciona +1k0 a quaisquer rolagens de Iniciativa que fizer, e pode adicionar +3 ao seu total de Iniciativa durante a etapa de Reactions de cada rodada.",
+        "source_book": "Book of Fire",
+        "pagina": 187
+      },
+      {
+        "nome": "Purity of Shinsei",
+        "anel": "Fogo",
+        "mastery_level": 2,
+        "area": "One target person/effect",
+        "duracao": "Instantaneous",
+        "texto_pt": "Este feitiço foi originalmente projetado pelos Isawa para lidar com a ameaça da magia dos Yobanjin, e posteriormente espalhou-se pelo resto do Império quando outras ameaças gaijin tornaram-se mais frequentes. O feitiço clama pelos princípios de Shinsei de unidade e harmonia Elemental para se opor à magia estrangeira não natural, usando a energia do Fogo como foco. Purity of Shinsei encerra os efeitos de um feitiço gaijin ou efeito semelhante a feitiço. Normalmente, isso significa atingir um indivíduo que esteja sofrendo com um efeito contínuo de feitiço gaijin (como um samurai sob uma maldição estrangeira), embora também possa atingir um efeito que não esteja afligindo um indivíduo específico (como uma maldição estrangeira sobre um castelo, uma vila ou um item físico). O Mestre tem discrição final sobre se um efeito de magia gaijin específico pode ser combatido com Purity of Shinsei. Se as regras opcionais de Counterspelling estiverem em uso, o Mestre pode optar por permitir que um shugenja que conheça este feitiço tente fazer Counterspell em feitiços de meishodo e magia gaijin.",
+        "source_book": "Book of Fire",
+        "pagina": 187
+      },
+      {
+        "nome": "Wings of Fire",
+        "anel": "Fogo",
+        "mastery_level": 2,
+        "area": "Self",
+        "duracao": "10 minutes",
+        "texto_pt": "Esta prece é uma forma mais simples e menos potente do feitiço Wings of the Phoenix... Quando este feitiço é conjurado, uma nuvem de kami de Fogo se reúne e assume a forma de grandes asas de penas que brotam dos braços e costas do conjurador. O conjurador pode usar essas asas para voar lentamente (normalmente movendo-se a uma velocidade igual a Água 1, independentemente de seu Anel de Água real). Se o conjurador for capaz de planar (por exemplo, já estando a uma altura significativa acima do solo), ele pode mover-se mais rapidamente, como se fosse Água 4. Enquanto o feitiço estiver em efeito, o conjurador não pode usar seus braços para nada além de bater e mover suas asas de fogo, limitando severamente suas ações potenciais; além disso, ele incendiará quaisquer objetos facilmente inflamáveis (como papel ou pergaminhos de feitiço) que tocar, embora os kami de Fogo evitem danificar suas roupas. Quando o feitiço termina, os kami de Fogo dispersam-se imediatamente, independentemente de o conjurador estar no chão ou no ar — ao contrário dos amigáveis kami de Ar, os mercúrios e agressivos kami de Fogo não se importam particularmente com o destino do conjurador uma vez que partem.",
+        "source_book": "Book of Fire",
+        "pagina": 187
+      },
+      {
+        "nome": "Agasha’s Shield (Tamori’s Curse)",
+        "anel": "Fogo",
+        "mastery_level": 3,
+        "area": "30' radius around caster",
+        "duracao": "6 Rounds",
+        "texto_pt": "Originalmente projetado por shugenja Agasha que estavam trabalhando com hanabi (fogos de artifício), em tempos modernos este feitiço foi renomeado como Tamori's Curse pela família Tamori. O feitiço cria uma zona de proteção na qual kami de Fogo amigáveis ao conjurador rejeitam qualquer intrusão de outros kami de Fogo. Qualquer feitiço de Fogo hostil conjurado dentro da Área de Efeito sofre uma penalidade de -4k0 em sua rolagem de Spell Casting. Qualquer feitiço de Fogo hostil conjurado de uma localização externa que tente projetar efeitos de Fogo para dentro da Área de Efeito (como feitiços como Fires From Within) sofrerá uma penalidade de -3k0 em sua RD à medida que Agasha's Shield dispersa e enfraquece os kami.",
+        "source_book": "Book of Fire",
+        "pagina": 187
+      },
+      {
+        "nome": "Oath of the Heavens",
+        "anel": "Fogo",
+        "mastery_level": 3,
+        "area": "Two target persons (see description)",
+        "duracao": "5 Rounds",
+        "texto_pt": "Este feitiço foi originalmente um feitiço secreto da família Agasha... O feitiço clama aos kami de Fogo para formar um elo entre a ferocidade de um bushi e o intelecto de um shugenja, permitindo que ambos trabalhem em conjunto para um efeito maior. O conjurador tradicionalmente alveja a si mesmo e a um bushi aliado (geralmente, embora nem sempre, um yojimbo), embora também seja possível para o conjurador conceder os benefícios do feitiço a um shugenja diferente em vez de si mesmo. Pela duração do feitiço, ambos os receptores recebem um bônus de +2k0 em todas as rolagens envolvendo o Anel de Fogo e os Atributos de Fogo (por exemplo, todas as rolagens envolvendo Agilidade e Intelecto). No entanto, o elo também torna cada receptor vulnerável aos efeitos no outro — se qualquer um dos receptores ficar Fatigued, Dazed ou Stunned, o outro imediatamente compartilha da mesma Condição. Além disso, se qualquer um dos receptores for reduzido a Down, Out ou Dead, os efeitos do feitiço terminam imediatamente.",
+        "source_book": "Book of Fire",
+        "pagina": 188
+      }
+    ]
+  },
+  "advantages_disadvantages": {
+    "advantages": [],
+    "disadvantages": []
+  },
+  "equipment": {
+    "weapons": [
+      {
+        "nome": "Bokken",
+        "dano": "0k2",
+        "preco": "Não listado",
+        "raridade": "Comum",
+        "source_book": "Book of Fire",
+        "pagina": 25
+      },
+      {
+        "nome": "Shinai",
+        "dano": "0k1",
+        "preco": "Não listado",
+        "raridade": "Comum",
+        "source_book": "Book of Fire",
+        "pagina": 25
+      }
+    ],
+    "armor": [],
+    "gear": [
+      {
+        "nome": "Flash Paper (Moeagaru)",
+        "efeito_pt": "Este é um tipo de papel fino tratado com soluções alquímicas especiais. Ele pega fogo com qualquer fricção (como um shugenja esfregando os dedos nele), queimando em uma chama instantânea e brilhante. O papel flash às vezes é usado para escrever mensagens que podem precisar ser destruídas, mas seu uso favorito é acendê-lo diante dos olhos de um oponente, cegando-o momentaneamente. O alvo deve rolar Reflexos em ND 20 ou ser considerado Cego até a etapa de Reações da próxima Rodada.",
+        "preco": "Não listado",
+        "source_book": "Book of Fire",
+        "pagina": 53
+      },
+      {
+        "nome": "Kitsuki Powder",
+        "efeito_pt": "Desenvolvido pela Agasha para ajudar seus primos Kitsuki, este pó cinza suave tem uma afinidade peculiar por pegadas humanas e sangue humano. Se for espalhado por uma área, ele aderirá a quaisquer pegadas ou manchas de sangue feitas nas últimas 24 horas, mesmo que tenham sido limpas ou ocultadas de outra forma.",
+        "preco": "Não listado",
+        "source_book": "Book of Fire",
+        "pagina": 53
+      },
+      {
+        "nome": "Liquid Smoke (Ekitai Kemuri)",
+        "efeito_pt": "Este é um líquido pegajoso que pode ser incendiado. Ele emite uma fumaça preta espessa que queima os olhos e a garganta; as vítimas são consideradas Atordoadas, mas podem fazer um teste normal de Terra para se livrar do efeito. A Fumaça Líquida queima por dez minutos por dose.",
+        "preco": "Não listado",
+        "source_book": "Book of Fire",
+        "pagina": 53
+      },
+      {
+        "nome": "Sleeping Fire (Hinemuri)",
+        "efeito_pt": "Um líquido límpido e fino que é altamente sensível a mudanças de temperatura e se inflama quando exposto a tais mudanças (como um pé quente pisando nele). Sleeping Fire queima rapidamente e, portanto, geralmente causa apenas ferimentos leves (1k1 de dano), mas a explosão repentina de calor pode facilmente incendiar um edifício.",
+        "preco": "Não listado",
+        "source_book": "Book of Fire",
+        "pagina": 53
+      },
+      {
+        "nome": "Extinguishing Lantern",
+        "efeito_pt": "Contém kami do Fogo especialmente empoderados que atraem outros kami para si; assim, em vez de espalhar luz, eles atraem todo o fogo da área circundante para si mesmos, extinguindo todas as chamas em um raio de quinze metros da lanterna.",
+        "preco": "Não listado",
+        "source_book": "Book of Fire",
+        "pagina": 131
+      },
+      {
+        "nome": "Bronze Lanterns",
+        "efeito_pt": "O poder das lanternas é simples, mas potente: elas podem aprisionar os espíritos gaijin conhecidos como jinn, as Crianças do Fogo Sem Fumaça. Cada lanterna contém um único jinn, que pode ser invocado ao pronunciar uma palavra de comando específica e esfregar a parte externa da lanterna. Uma névoa jorra pelo bico da lanterna e se solidifica no jinn, que é compelido a obedecer aos comandos do portador.",
+        "preco": "Não listado",
+        "source_book": "Book of Fire",
+        "pagina": 134
+      }
+    ]
+  }
+}

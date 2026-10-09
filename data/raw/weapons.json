@@ -1,0 +1,155 @@
+[
+  {
+    "id": "katana--core-rulebook",
+    "nome": "Katana",
+    "dano": "3k2",
+    "preco": "Não disponível",
+    "raridade": "N/A",
+    "source_book": "Core Rulebook",
+    "pagina": 203
+  },
+  {
+    "id": "ninja-to--core-rulebook",
+    "nome": "Ninja-to",
+    "dano": "2k2",
+    "preco": "5 kokus",
+    "raridade": "N/A",
+    "source_book": "Core Rulebook",
+    "pagina": 203
+  },
+  {
+    "id": "no-dachi--core-rulebook",
+    "nome": "No-dachi",
+    "dano": "3k3",
+    "preco": "30 kokus",
+    "raridade": "N/A",
+    "source_book": "Core Rulebook",
+    "pagina": 203
+  },
+  {
+    "id": "cimitara--core-rulebook",
+    "nome": "Cimitara",
+    "dano": "2k3",
+    "preco": "20 kokus",
+    "raridade": "N/A",
+    "source_book": "Core Rulebook",
+    "pagina": 204
+  },
+  {
+    "id": "wakizashi--core-rulebook",
+    "nome": "Wakizashi",
+    "dano": "2k2",
+    "preco": "15 kokus",
+    "raridade": "N/A",
+    "source_book": "Core Rulebook",
+    "pagina": 204
+  },
+  {
+    "id": "bisento--core-rulebook",
+    "nome": "Bisento",
+    "dano": "3k3",
+    "preco": "12 kokus",
+    "raridade": "N/A",
+    "source_book": "Core Rulebook",
+    "pagina": 201
+  },
+  {
+    "id": "nagamaki--core-rulebook",
+    "nome": "Nagamaki",
+    "dano": "2k3",
+    "preco": "8 kokus",
+    "raridade": "N/A",
+    "source_book": "Core Rulebook",
+    "pagina": 201
+  },
+  {
+    "id": "naginata--core-rulebook",
+    "nome": "Naginata",
+    "dano": "3k2",
+    "preco": "10 kokus",
+    "raridade": "N/A",
+    "source_book": "Core Rulebook",
+    "pagina": 201
+  },
+  {
+    "id": "yari--core-rulebook",
+    "nome": "Yari",
+    "dano": "2k2",
+    "preco": "5 kokus",
+    "raridade": "N/A",
+    "source_book": "Core Rulebook",
+    "pagina": 205
+  },
+  {
+    "id": "bokken--book-of-fire",
+    "nome": "Bokken",
+    "dano": "0k2",
+    "preco": "Não listado",
+    "raridade": "Comum",
+    "source_book": "Book of Fire",
+    "pagina": 25
+  },
+  {
+    "id": "shinai--book-of-fire",
+    "nome": "Shinai",
+    "dano": "0k1",
+    "preco": "Não listado",
+    "raridade": "Comum",
+    "source_book": "Book of Fire",
+    "pagina": 25
+  },
+  {
+    "id": "beastmaster-s-claws--the-great-clans",
+    "nome": "Beastmaster's Claws",
+    "dano": "0k2",
+    "preco": "N/A",
+    "raridade": "Raro",
+    "source_book": "The Great Clans",
+    "pagina": 138
+  },
+  {
+    "id": "dragon-beard-hook-longxu-hook--book-of-water",
+    "nome": "Dragon Beard Hook (Longxu Hook)",
+    "dano": "1k2",
+    "preco": "4 koku",
+    "raridade": "Rare",
+    "source_book": "Book of Water",
+    "pagina": 176
+  },
+  {
+    "id": "rope-dart--book-of-water",
+    "nome": "Rope Dart",
+    "dano": "1k1",
+    "preco": "5 bu",
+    "raridade": "Rare",
+    "source_book": "Book of Water",
+    "pagina": 176
+  },
+  {
+    "id": "three-section-staff--book-of-water",
+    "nome": "Three-Section Staff",
+    "dano": "2k2",
+    "preco": "1 koku",
+    "raridade": "Rare",
+    "source_book": "Book of Water",
+    "pagina": 176
+  },
+  {
+    "id": "pitchfork--book-of-water",
+    "nome": "Pitchfork",
+    "dano": "1k2",
+    "preco": "3 bu",
+    "raridade": "Common",
+    "source_book": "Book of Water",
+    "pagina": 176
+  },
+  {
+    "id": "torch--book-of-water",
+    "nome": "Torch",
+    "dano": "0k1",
+    "preco": "1 bu",
+    "raridade": "Common",
+    "source_book": "Book of Water",
+    "pagina": 176
+  }
+]

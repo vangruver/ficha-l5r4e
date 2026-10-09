@@ -1,0 +1,36 @@
+{
+  "schools": {
+    "schools": [
+      {
+        "nome": "Children of Doji",
+        "cla": "Crane Clan",
+        "familia": "Doji",
+        "tipo": "courtier",
+        "trait_inicial_bonus": "",
+        "skills_de_escola": [],
+        "honra_inicial": 5.0,
+        "status_inicial": 1.0,
+        "equipamento_inicial": [],
+        "tecnica_por_rank": [
+          {
+            "rank": 1,
+            "nome": "Social Butterfly",
+            "texto_pt": "Um Child of Doji faz amigos como quem respira e é capaz de invocá-los com a mera menção de um nome. Ao fazer qualquer teste Contestado de Perícia Social, você recebe um bônus de +Xk0, onde X é igual ao número de Allies que você possui nesta corte com uma Devotion de 2 ou maior (este bônus não pode exceder o seu Rank de Discernimento em dados). Além disso, se tiver pelo menos três desses Allies nesta corte, você pode gastar (perder) um desses Allies para ganhar a Vantagem Darling of the Court pelo restante desta estação (primavera, inverno, etc.)."
+          },
+          {
+            "rank": 2,
+            "nome": "All is Fair",
+            "texto_pt": "Uma perícia fundamental dos Children of Doji é a habilidade de alcançar além das cortes para controlar o campo de batalha através de sua influência política. Um rikugunshokan que esteja liderando seu exército contra o Crane pode de repente descobrir que o terreno favorável foi considerado sacrossanto e a guerra deve ser travada em um solo menos vantajoso, ou que um carregamento crucial de suprimentos foi desviado para outro lugar. Por outro lado, um aliado do Crane pode ver uma legião de tropas imperiais chegando para ajudar sua causa, ou um duelista derrotando o comandante oponente por uma ofensa pessoal. Você pode manipular uma corte neutra ou amigável para favorecer ou se opor a um conflito militar ocorrendo em outro lugar (você não pode, obviamente, manipular a corte de seu inimigo). Você deve ter pelo menos cinco Allies com Devotion de 2 ou maior na corte, e deve passar uma semana conversando e manobrando na corte, após o qual você pode fazer um teste de Courtier (Manipulation) / Prontidão contra uma ND 40. Um teste bem-sucedido concede um aumento livre (Free Raise) em testes de Perícia de Batalha (Battle Skill Rolls) para o comandante do lado que você favorece, com um aumento adicional concedido para cada aumento (Raise) que você fizer no teste de Courtier. Se suas atividades estiverem sendo opostas por um representante do outro lado do conflito, seu teste de Courtier se torna um teste Contestado contra aquele oponente. Você só pode influenciar cada campanha militar com esta Técnica uma vez (critério do Mestre), e cada aumento livre (Free Raise) é gasto assim que o comandante o utilizar. Se o comandante não usar os aumentos livres (Free Raises) até o final da campanha, eles são perdidos."
+          },
+          {
+            "rank": 3,
+            "nome": "Gild the Lily",
+            "texto_pt": "O Crane compreende que a maneira mais fácil de manter uma forte rede de aliados é oferecer-lhes favores regularmente. Por outro lado, a melhor maneira de flexionar seu músculo político contra um inimigo obstinado é a negação de favores. Você pode conceder a qualquer um de seus Allies uma benção, que assume a forma de qualquer Vantagem Social ou Material com um valor de Pontos de Experiência de até o seu Rank de Honra. (O Mestre pode vetar qualquer Vantagem que considere inadequada.) Isso é feito passando uma hora na corte conversando com o aliado, depois gastando um Ponto de Vazio e fazendo um teste de Courtier (Manipulation) / Prontidão contra uma ND de 20 + (5x o valor em Pontos de Experiência da Vantagem). Os efeitos da benção duram um mês. Você pode usar o mesmo método para negar a um inimigo os efeitos de uma Vantagem Social que ele possua (limitado ao mesmo custo de Pontos de Experiência). Você conversa com a corte em geral por uma hora, gasta um Ponto de Vazio e faz um teste Contestado de Perícia Social de seu Courtier (Manipulation) / Prontidão contra o Etiquette (Courtesy) / Prontidão do inimigo. Com um sucesso, o inimigo não pode usar essa Vantagem por um mês. Você não pode visar o mesmo indivíduo com esta técnica mais de uma vez por mês."
+          }
+        ],
+        "source_book": "Sword and Fan",
+        "pagina": 204
+      }
+    ]
+  }
+}

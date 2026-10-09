@@ -1,0 +1,98 @@
+[
+  {
+    "id": "aljava--core-rulebook",
+    "nome": "Aljava",
+    "efeito_pt": "Bolsa de tecido para flechas (até 60)",
+    "preco": "20 zenis",
+    "source_book": "Core Rulebook",
+    "pagina": 205
+  },
+  {
+    "id": "dedo-de-jade--core-rulebook",
+    "nome": "Dedo de Jade",
+    "efeito_pt": "Raro e usado para repelir as Terras Sombrias",
+    "preco": "1 koku",
+    "source_book": "Core Rulebook",
+    "pagina": 205
+  },
+  {
+    "id": "kit-de-medicina--core-rulebook",
+    "nome": "Kit de Medicina",
+    "efeito_pt": "Agulhas e linhas, bandagens de pano, ervas desinfetantes (10 usos)",
+    "preco": "1 bu ou mais",
+    "source_book": "Core Rulebook",
+    "pagina": 206
+  },
+  {
+    "id": "selo-e-carimbo-pessoal--core-rulebook",
+    "nome": "Selo e Carimbo Pessoal",
+    "efeito_pt": "Usado para assinar documentos formais e verificar identidades",
+    "preco": "4 bus",
+    "source_book": "Core Rulebook",
+    "pagina": 206
+  },
+  {
+    "id": "suporte-de-daisho--core-rulebook",
+    "nome": "Suporte de Daisho",
+    "efeito_pt": "Facilmente desmontado e carregado, este é um suporte para exibir seu daisho e tanto",
+    "preco": "1 koku",
+    "source_book": "Core Rulebook",
+    "pagina": 206
+  },
+  {
+    "id": "flash-paper-moeagaru--book-of-fire",
+    "nome": "Flash Paper (Moeagaru)",
+    "efeito_pt": "Este é um tipo de papel fino tratado com soluções alquímicas especiais. Ele pega fogo com qualquer fricção (como um shugenja esfregando os dedos nele), queimando em uma chama instantânea e brilhante. O papel flash às vezes é usado para escrever mensagens que podem precisar ser destruídas, mas seu uso favorito é acendê-lo diante dos olhos de um oponente, cegando-o momentaneamente. O alvo deve rolar Reflexos em ND 20 ou ser considerado Cego até a etapa de Reações da próxima Rodada.",
+    "preco": "Não listado",
+    "source_book": "Book of Fire",
+    "pagina": 53
+  },
+  {
+    "id": "kitsuki-powder--book-of-fire",
+    "nome": "Kitsuki Powder",
+    "efeito_pt": "Desenvolvido pela Agasha para ajudar seus primos Kitsuki, este pó cinza suave tem uma afinidade peculiar por pegadas humanas e sangue humano. Se for espalhado por uma área, ele aderirá a quaisquer pegadas ou manchas de sangue feitas nas últimas 24 horas, mesmo que tenham sido limpas ou ocultadas de outra forma.",
+    "preco": "Não listado",
+    "source_book": "Book of Fire",
+    "pagina": 53
+  },
+  {
+    "id": "liquid-smoke-ekitai-kemuri--book-of-fire",
+    "nome": "Liquid Smoke (Ekitai Kemuri)",
+    "efeito_pt": "Este é um líquido pegajoso que pode ser incendiado. Ele emite uma fumaça preta espessa que queima os olhos e a garganta; as vítimas são consideradas Atordoadas, mas podem fazer um teste normal de Terra para se livrar do efeito. A Fumaça Líquida queima por dez minutos por dose.",
+    "preco": "Não listado",
+    "source_book": "Book of Fire",
+    "pagina": 53
+  },
+  {
+    "id": "sleeping-fire-hinemuri--book-of-fire",
+    "nome": "Sleeping Fire (Hinemuri)",
+    "efeito_pt": "Um líquido límpido e fino que é altamente sensível a mudanças de temperatura e se inflama quando exposto a tais mudanças (como um pé quente pisando nele). Sleeping Fire queima rapidamente e, portanto, geralmente causa apenas ferimentos leves (1k1 de dano), mas a explosão repentina de calor pode facilmente incendiar um edifício.",
+    "preco": "Não listado",
+    "source_book": "Book of Fire",
+    "pagina": 53
+  },
+  {
+    "id": "extinguishing-lantern--book-of-fire",
+    "nome": "Extinguishing Lantern",
+    "efeito_pt": "Contém kami do Fogo especialmente empoderados que atraem outros kami para si; assim, em vez de espalhar luz, eles atraem todo o fogo da área circundante para si mesmos, extinguindo todas as chamas em um raio de quinze metros da lanterna.",
+    "preco": "Não listado",
+    "source_book": "Book of Fire",
+    "pagina": 131
+  },
+  {
+    "id": "bronze-lanterns--book-of-fire",
+    "nome": "Bronze Lanterns",
+    "efeito_pt": "O poder das lanternas é simples, mas potente: elas podem aprisionar os espíritos gaijin conhecidos como jinn, as Crianças do Fogo Sem Fumaça. Cada lanterna contém um único jinn, que pode ser invocado ao pronunciar uma palavra de comando específica e esfregar a parte externa da lanterna. Uma névoa jorra pelo bico da lanterna e se solidifica no jinn, que é compelido a obedecer aos comandos do portador.",
+    "preco": "Não listado",
+    "source_book": "Book of Fire",
+    "pagina": 134
+  },
+  {
+    "id": "exorcism-wards--the-great-clans",
+    "nome": "Exorcism Wards",
+    "efeito_pt": "Pergaminhos de papel especiais que concedem +2k2 em testes disputados de Vontade para realizar um exorcismo se colocados previamente no alvo. Personagens que não sejam Exorcistas (qualquer shugenja ou monge) podem tentar usar o selo gastando um espaço de magia ou Ponto de Vazio para realizar um exorcismo como uma Ação Complexa, exigindo três Aumentos para ter sucesso (sem receber o bônus de +2k2).",
+    "preco": "N/A",
+    "source_book": "The Great Clans",
+    "pagina": 42
+  }
+]

@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "order-of-the-wind--book-of-air",
+    "nome": "Order of the Wind",
+    "cla": "Irmandade de Shinsei",
+    "familia": "Brotherhood of Shinsei",
+    "tipo": "monk",
+    "trait_inicial_bonus": "Reflexos",
+    "skills_de_escola": [
+      "Athletics",
+      "Defense",
+      "Jiujutsu",
+      "Lore: Theology",
+      "Meditation",
+      "Staves",
+      "Qualquer uma Perícia"
+    ],
+    "honra_inicial": 4.5,
+    "status_inicial": 1,
+    "equipamento_inicial": [
+      "Simple Clothing",
+      "Sandals",
+      "Traveling Pack",
+      "Wooden bowl",
+      "1 koku"
+    ],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "Essence of the Wind",
+        "texto_pt": "Um verdadeiro Brother of the Wind permite que o mundo se mova ao seu redor como uma brisa, permanecendo centrado e seguro em meio ao caos da existência. Qualquer efeito que tenha você como alvo e tente influenciar seu comportamento, seja um feitiço, uma Técnica de cortesão, uma Perícia social ou Vantagem, ou qualquer outra mecânica, exige um Ponto de Vazio adicional para surtir efeito. (No entanto, isso pode ignorar o limite normal de gastar um Ponto de Vazio por Rodada para efeitos de aprimoramento.)"
+      }
+    ],
+    "source_book": "Book of Air",
+    "pagina": 194
+  },
+  {
+    "id": "wind-s-grace-order--book-of-air",
+    "nome": "Wind's Grace Order",
+    "cla": "Irmandade de Shinsei",
+    "familia": "Brotherhood of Shinsei",
+    "tipo": "monk",
+    "trait_inicial_bonus": "Reflexos",
+    "skills_de_escola": [
+      "Calligraphy",
+      "Jiujutsu",
+      "Kyujutsu",
+      "Lore: Theology (Shintao)",
+      "Meditation",
+      "Quaisquer duas Perícias"
+    ],
+    "honra_inicial": 6.5,
+    "status_inicial": 1,
+    "equipamento_inicial": [
+      "Simple Clothing",
+      "Sandals",
+      "Traveling Pack",
+      "Wooden bowl",
+      "1 koku"
+    ],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "Pillars of the Mind’s Eye",
+        "texto_pt": "Ao limpar a mente e abraçar a serenidade e o foco absolutos, um irmão da Wind’s Grace pode compreender a verdade simples: a flecha e o alvo já são um só. Você realiza um ataque de arco e flecha como uma Ação Complexa; para cada Kiho ativo que você tiver no momento, você recebe um bônus de +1k0 no total dessa rolagem. Kihos ativos não podem ter outros efeitos durante uma Rodada na qual você utilize esta Técnica, e apenas um Kiho Marcial pode conceder este benefício. No entanto, sempre que utilizar esta Técnica para realizar um ataque que resulte diretamente na morte de um ser inteligente, você perde 3 pontos de Honra."
+      }
+    ],
+    "source_book": "Book of Air",
+    "pagina": 195
+  },
+  {
+    "id": "fukurokujin-s-eyes--book-of-air",
+    "nome": "Fukurokujin's Eyes",
+    "cla": "Irmandade de Shinsei",
+    "familia": "Brotherhood of Shinsei",
+    "tipo": "monk",
+    "trait_inicial_bonus": "Percepção",
+    "skills_de_escola": [
+      "Calligraphy",
+      "Divination",
+      "Etiquette",
+      "Investigation",
+      "Lore: History",
+      "Lore: Theology",
+      "Qualquer uma Perícia não-Bugei"
+    ],
+    "honra_inicial": 4.5,
+    "status_inicial": 1,
+    "equipamento_inicial": [
+      "Simple Clothing",
+      "Sandals",
+      "Traveling Pack",
+      "Wooden bowl",
+      "1 koku"
+    ],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "Way of the Closed Eye",
+        "texto_pt": "Ao observar e antecipar, os monges de Fukurokujin’s Eyes podem prever com precisão as ações dos outros e tirar vantagem desse conhecimento prévio de várias maneiras. Você não pode ser surpreendido por emboscadas. Além disso, no início de uma escaramuça, antes de rolar a Iniciativa, você pode gastar um Ponto de Vazio e realizar um teste de Percepção com ND 20. Se o teste for bem-sucedido, você pode aumentar sua pontuação de Iniciativa subsequente em 20. No entanto, este bônus é perdido instantaneamente se você realizar qualquer tipo de ataque."
+      }
+    ],
+    "source_book": "Book of Air",
+    "pagina": 195
+  },
+  {
+    "id": "hida-bushi--core-rulebook",
+    "nome": "Hida Bushi",
+    "cla": "Clã da Caranguejo",
+    "familia": "Hida",
+    "tipo": "bushi",
+    "trait_inicial_bonus": "Stamina",
+    "skills_de_escola": [
+      "Athletics",
+      "Defense",
+      "Heavy Weapons (Tetsubo)",
+      "Intimidation",
+      "Kenjutsu",
+      "Lore: Shadowlands",
+      "any one Bugei Skill"
+    ],
+    "honra_inicial": 3.5,
+    "status_inicial": 1.0,
+    "equipamento_inicial": [
+      "Armadura Leve ou Pesada",
+      "Roupas Grossas",
+      "Daisho",
+      "Arma Pesada ou de Haste",
+      "Kit de Viagens",
+      "3 kokus"
+    ],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "The Way of the Crab",
+        "texto_pt": "O bushi Hida é a epítome de “infantaria pesada”, capaz de suportar golpes severos e usar ataques esmagadores em resposta. Você pode ignorar penalidades de NA por usar armadura pesada para qualquer Perícia exceto Furtividade. Ao usar uma Arma Pesada, você ganha um bônus de +1k0 ao total das avaliações de dano."
+      },
+      {
+        "rank": 2,
+        "nome": "The Mountain Does Not Move",
+        "texto_pt": "Os bushis Hida são famosos por sua extraordinária tenacidade, suportando ferimentos que matariam homens normais. Você ganha Redução igual ao seu Anel de Terra."
+      },
+      {
+        "rank": 3,
+        "nome": "Two Pincers, One Mind",
+        "texto_pt": "Um bushi Hida é implacável. Você pode fazer ataques como Ações Simples ao invés de uma Ação Complexa enquanto usa Armas Pesadas ou armas com a palavra-chave Samurai."
+      },
+      {
+        "rank": 4,
+        "nome": "Devastating Blow",
+        "texto_pt": "Um Hida não para por nada até destruir seus inimigos assim que sua ira desperta. Uma vez por encontro, ao empunhar uma Arma Pesada, você pode fazer um golpe calculado contra o inimigo. Diminua a Redução do inimigo em 4 para este ataque. Se o ataque tiver sucesso, você Atordoa o alvo. O alvo pode se recuperar fazendo um teste de Anel de Terra contra um NA igual ao seu teste de Dano durante o Estágio de Reação de cada Rodada. O NA diminui em 5 cada vez que o alvo falhar no teste."
+      },
+      {
+        "rank": 5,
+        "nome": "The Mountain Does Not Fall",
+        "texto_pt": "Nada pode impedir um guerreiro Hida de cumprir seu dever, nem mesmo a ameaça de morte. Você pode gastar um Ponto de Vazio durante o Estágio de Reação. Durante o seu próximo turno, você pode fazer ações como se estivesse no Nível de Ferimentos Saudável. Você ignora os Efeitos Condicionais Atordoado, Fatigado e Paralisado. Os benefícios desta Técnica duram até o próximo Estágio de Reação."
+      }
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 109
+  },
+  {
+    "id": "order-of-the-nameless-gift--book-of-earth",
+    "nome": "Order of the Nameless Gift",
+    "cla": "Irmandade de Shinsei",
+    "familia": "Brotherhood of Shinsei",
+    "tipo": "monk",
+    "trait_inicial_bonus": "Stamina",
+    "skills_de_escola": [
+      "Athletics",
+      "Defense",
+      "Jiujutsu",
+      "Lore (pick one)",
+      "Meditation",
+      "Any Skill",
+      "Any Skill"
+    ],
+    "honra_inicial": 4.5,
+    "status_inicial": 1.0,
+    "equipamento_inicial": [
+      "Robes",
+      "Sandals",
+      "Traveling Pack",
+      "Any 1 Weapon",
+      "Coin purse (1 koku)"
+    ],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "Shinsei’s Gift",
+        "texto_pt": "Um monge ensinado pela Order of the Nameless Gift pode ser um poço sem fim de resiliência, paciência e percepção. Como eles são muito mais mundanos do que muitos outros monges na Irmandade, seu treinamento e experiência somam-se à mente astuta e força em combate típica de um monge. Você recebe um número de Pontos de Vazio por dia igual ao seu Anel de Terra, mas estes Pontos de Vazio só podem ser gastos para reduzir dano ou aumentar seu NA de Armadura. Estes Pontos de Vazio não podem ser gastos simultaneamente com outros Pontos de Vazio ou de qualquer outra forma."
+      }
+    ],
+    "source_book": "Book of Earth",
+    "pagina": 206
+  },
+  {
+    "id": "temple-of-persistence--book-of-earth",
+    "nome": "Temple of Persistence",
+    "cla": "Irmandade de Shinsei",
+    "familia": "Brotherhood of Shinsei",
+    "tipo": "monk",
+    "trait_inicial_bonus": "Stamina",
+    "skills_de_escola": [
+      "Athletics",
+      "Defense",
+      "Jiujutsu (Martial Arts)",
+      "Lore: Theology",
+      "Meditation",
+      "Any Bugei Skill",
+      "Any Skill"
+    ],
+    "honra_inicial": 3.5,
+    "status_inicial": 1.0,
+    "equipamento_inicial": [
+      "Robes",
+      "Sandals",
+      "Traveling Pack",
+      "Any 1 Weapon",
+      "Coin purse (1 koku)"
+    ],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "Unyielding Spirit",
+        "texto_pt": "Membros da Order of Persistence são conhecidos por serem obstinados no corpo e na alma. Eles não apenas suportam os ataques furiosos de outros, mas aprendem a avançar ativamente em direção ao seu objetivo. Você pode gastar um Ponto de Vazio como uma Ação Livre para ignorar todas as penalidades em uma rolagem de dados imediatamente subsequente. Se usar esta Técnica ao realizar uma Rolagem Disputada que você não iniciou ou uma Rolagem de Ataque, você também pode adicionar +Xk0 à rolagem, onde X é o seu Anel de Terra."
+      }
+    ],
+    "source_book": "Book of Earth",
+    "pagina": 206
+  },
+  {
+    "id": "the-order-of-rebirth--book-of-fire",
+    "nome": "The Order of Rebirth",
+    "cla": "Irmandade de Shinsei",
+    "familia": "Order of Rebirth",
+    "tipo": "monk",
+    "trait_inicial_bonus": "Intelligence",
+    "skills_de_escola": [
+      "Athletics",
+      "Jiujutsu",
+      "Lore: History",
+      "Lore: Theology",
+      "Meditation",
+      "Any Skill",
+      "Any Skill"
+    ],
+    "honra_inicial": 6.5,
+    "status_inicial": 1,
+    "equipamento_inicial": [],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "Changing the Way",
+        "texto_pt": "Os Irmãos de Rebirth celebram abordagens diferentes em todas as suas miríades de formas. Cada vez que, em um determinado encontro, você tentar utilizar um Kiho de um Elemento diferente de qualquer Kiho previamente usado no mesmo encontro, você recebe um bônus de +5 em sua jogada de ativação."
+      }
+    ],
+    "source_book": "Book of Fire",
+    "pagina": 192
+  },
+  {
+    "id": "tengokus-fist--book-of-fire",
+    "nome": "Tengoku’s Fist",
+    "cla": "Irmandade de Shinsei",
+    "familia": "Tengoku’s Fist",
+    "tipo": "monk",
+    "trait_inicial_bonus": "Agility",
+    "skills_de_escola": [
+      "Athletics",
+      "Battle",
+      "Jiujutsu",
+      "Lore: Theology",
+      "Meditation",
+      "Any Skill"
+    ],
+    "honra_inicial": 4.5,
+    "status_inicial": 1,
+    "equipamento_inicial": [],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "The Hand of the Heavens",
+        "texto_pt": "Os monges de Tengoku’s Fist atacam com segurança e propósito, e sua força é ampliada pela influência do divino. Ao realizar um ataque desarmado contra um oponente, ou um ataque usando um bisento, uma bo staff, ou uma arma com a propriedade Monk, você pode receber um Aumento Gratuito (Free Raise) na jogada de ataque se o seu Anel de Fogo (Fire Ring) for maior do que o Anel de Fogo do seu oponente."
+      }
+    ],
+    "source_book": "Book of Fire",
+    "pagina": 192
+  },
+  {
+    "id": "the-temple-of-heavenly-wisdom--book-of-fire",
+    "nome": "The Temple of Heavenly Wisdom",
+    "cla": "Irmandade de Shinsei",
+    "familia": "The Temple of Heavenly Wisdom",
+    "tipo": "monk",
+    "trait_inicial_bonus": "Intelligence",
+    "skills_de_escola": [
+      "Courtier",
+      "Etiquette",
+      "Lore: History",
+      "Lore: Theology",
+      "Meditation",
+      "Sincerity",
+      "Any High Skill"
+    ],
+    "honra_inicial": 6.5,
+    "status_inicial": 1,
+    "equipamento_inicial": [],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "The Largesse of Fukurokujin",
+        "texto_pt": "O Templo de Heavenly Wisdom derrama suas bênçãos sobre os monges que o reverenciam, concedendo-lhes discernimento nos caminhos da política e da diplomacia onde outros poderiam cometer erros graves. Ao realizar qualquer Jogada de Perícia Social (Social Skill Roll), você pode selecionar qualquer Kiho que possua. Você não pode usar esse Kiho pelo resto do dia, mas você recebe um bônus de +1k1 na Jogada de Perícia Social. Você só pode selecionar cada Kiho que conhece uma vez por dia para este propósito."
+      }
+    ],
+    "source_book": "Book of Fire",
+    "pagina": 192
+  },
+  {
+    "id": "kaiu-engineer--the-great-clans",
+    "nome": "Kaiu Engineer",
+    "cla": "Clã da Caranguejo",
+    "familia": "Kaiu",
+    "tipo": "bushi",
+    "trait_inicial_bonus": "Intelecto",
+    "skills_de_escola": [
+      "Battle",
+      "Craft: Armorsmithing",
+      "Craft: Weaponsmithing",
+      "Defense",
+      "Engineering (pick one Emphasis)",
+      "Lore: Architecture",
+      "War Fans"
+    ],
+    "honra_inicial": 4.5,
+    "status_inicial": 1,
+    "equipamento_inicial": [
+      "Light or Heavy Armor",
+      "Sturdy Clothing",
+      "Daisho",
+      "Heavy Weapon or War Fan",
+      "Traveling Pack",
+      "3 koku"
+    ],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "The Kaiu Method",
+        "texto_pt": "Um estudante do Método Kaiu é ensinado nas muitas disciplinas básicas essenciais que a família usa para servir a Caranguejo. Você ganha um bônus de +1k0 ao fazer qualquer Teste de Perícia de Escola. Ao gastar um Ponto de Vazio para aumentar um Teste de Perícia de Escola, você ganha um bônus de +2k2 em vez de +1k1. Esses efeitos não são cumulativos."
+      },
+      {
+        "rank": 2,
+        "nome": "The Path of Stone",
+        "texto_pt": "Os Kaiu são temidos no campo de batalha por um bom motivo — eles são os mestres tanto da construção quanto da destruição. Ao construir qualquer estrutura grande (tamanho de templo ou maior), você pode fazer um Teste de Perícia de Engenharia com ND 25 para adicionar um número adicional de Feridas à estrutura igual ao seu Rank de Escola x 100. Além disso, ao comandar uma arma de cerco, você pode rolar novamente uma vez qualquer um dos dados de dano da arma de cerco que rolem abaixo do seu Rank de Escola."
+      },
+      {
+        "rank": 3,
+        "nome": "The Path of the Shell",
+        "texto_pt": "A segurança e proteção dos samurai Caranguejo é um dever sombrio que todos os Kaiu levam muito a sério. Ao criar qualquer conjunto de armadura, você pode dobrar o tempo e o custo de fabricação para adicionar o seu Rank de Escola ao valor de Redução da armadura. Você também pode adicionar metade do seu Rank de Escola (arredondado para cima) ao bônus de ND de Armadura da armadura."
+      },
+      {
+        "rank": 4,
+        "nome": "The Path of War",
+        "texto_pt": "Cada Kaiu é um estudante da batalha, assim como todos os Caranguejo. Quando você rola na Tabela de Batalha de Massa, você pode modificar seu resultado (para cima ou para baixo) em uma quantidade adicional igual a metade do seu Rank de Escola. Além disso, ao lutar com uma katana, dai tsuchi ou leque de guerra, você pode fazer ataques corpo a corpo como uma Ação Simples em vez de uma Ação Complexa."
+      },
+      {
+        "rank": 5,
+        "nome": "The Path of Steel",
+        "texto_pt": "O maior e mais sagrado dever dos Kaiu é criar as armas sagradas do Clã Caranguejo. Ao criar qualquer arma, você pode optar por conceder um bônus de +1k0 para todas as jogadas de ataque feitas com aquela arma, ou um bônus de +0k1 para todas as jogadas de dano feitas com aquela arma. Se a arma for uma katana, você pode gastar todos os seus Pontos de Vazio (um mínimo de um ponto deve ser gasto) para tornar a lâmina inquebrável (conforme a Vantagem Arma Sagrada: Lâmina Kaiu). Fazer isso impede que você recupere Pontos de Vazio por uma semana."
+      }
+    ],
+    "source_book": "The Great Clans",
+    "pagina": 40
+  },
+  {
+    "id": "kuni-witch-hunter--the-great-clans",
+    "nome": "Kuni Witch-Hunter",
+    "cla": "Clã da Caranguejo",
+    "familia": "Kuni",
+    "tipo": "monk",
+    "trait_inicial_bonus": "Vontade",
+    "skills_de_escola": [
+      "Investigation",
+      "Jiujutsu",
+      "Kenjutsu",
+      "Lore: Shadowlands",
+      "Lore: Maho",
+      "Meditation",
+      "Any one skill"
+    ],
+    "honra_inicial": 5.5,
+    "status_inicial": 1,
+    "equipamento_inicial": [
+      "Rugged Clothing",
+      "Daisho",
+      "Knife",
+      "Jade Pendant",
+      "Traveling Pack",
+      "3 koku"
+    ],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "To See the Darkness",
+        "texto_pt": "Os Caçadores de Bruxas são ensinados tanto a sentir o poder de Jigoku quanto a esmagar aqueles que carregam sua marca terrível. Você pode tentar detectar a Mácula em outra pessoa segurando seu pingente de jade (or outro pedaço de jade) e olhando atentamente para ela. Esta é uma Ação Complexa e exige que você faça um Teste Resistido de Investigação (Interrogação) / Prontidão contra a Sinceridade (Enganação) / Vontade do alvo. Você ganha um bônus de +1k0 para este teste para cada Rank completo de Mácula que o alvo possuir. Se você for bem-sucedido no teste e o alvo estiver Maculado (tiver pelo menos 1 Rank de Mácula), você será capaz de sentir a presença da Mácula e sua força aproximada. Se você falhar no teste ou o alvo não estiver Maculado, você não obterá nenhuma informação. Além disso, você ganha +1k1 em seus testes para resistir à Mácula das Terras Sombrias e em suas jogadas de ataque ao atacar um oponente que seja uma criatura das Terras Sombrias ou que você saiba estar Maculado."
+      },
+      {
+        "rank": 2,
+        "nome": "To Ride the Darkness",
+        "texto_pt": "Os Caçadores de Bruxas não se limitam a erradicar homens e mulheres Maculados — eles também aprendem a lutar contra as criaturas das Terras Sombrias e passam um tempo considerável estudando suas forças e fraquezas. Sempre que for confrontado por uma criatura das Terras Sombrias, você pode realizar uma Ação Livre para rolar Conhecimento: Terras Sombrias / Intelecto com ND 20 para recordar uma força específica (como Invulnerabilidade) ou uma fraqueza específica (como jade) daquela criatura. Você escolhe se deseja recordar uma força ou uma fraqueza, mas o Mestre escolhe a informação exata. Você pode fazer Aumentos neste teste para aprender informações adicionais — uma força ou fraqueza por Aumento."
+      },
+      {
+        "rank": 3,
+        "nome": "To Strike the Darkness",
+        "texto_pt": "Neste rank, o Caçador de Bruxas aprende a invocar o poder da pureza para guiar e fortalecer seus golpes. Você pode fazer ataques corpo a corpo como uma Ação Simples quando seu oponente for uma criatura das Terras Sombrias ou quando você souber que o oponente está Maculado."
+      },
+      {
+        "rank": 4,
+        "nome": "To Repel the Darkness",
+        "texto_pt": "O estudo intenso e o treinamento espiritual do Caçador de Bruxas agora lhe dão acesso a poderes esotéricos e tornam quase impossível para as forças das trevas enganá-lo. Você ganha um bônus de +3k0 no teste de sua habilidade de Rank Um para detectar a Mácula e no teste de sua habilidade de Rank Dois. Além disso, você pode aprender um Kiho. (Se a regra opcional que permite Kiho para monges que não pertencem à Irmandade estiver em vigor, este Kiho não conta para o número máximo de Kiho que você pode aprender, embora esteja sujeito às suas outras limitações mecânicas, como o Nível de Maestria.)"
+      },
+      {
+        "rank": 5,
+        "nome": "To Shatter the Darkness",
+        "texto_pt": "O Caçador de Bruxas agora é o verdadeiro nêmesis das forças de Jigoku, capaz de abater seus inimigos com um poder incomparável. Você ganha um bônus de +4k1 em suas jogadas de ataque e dano contra criaturas das Terras Sombrias e contra inimigos que você sabe estarem Maculados. Isso se acumula com o bônus de ataque de sua técnica de Rank Um."
+      }
+    ],
+    "source_book": "The Great Clans",
+    "pagina": 41
+  },
+  {
+    "id": "daidoji-scout--the-great-clans",
+    "nome": "Daidoji Scout",
+    "cla": "Clã do Grou",
+    "familia": "Daidoji",
+    "tipo": "bushi",
+    "trait_inicial_bonus": "Reflexos",
+    "skills_de_escola": [
+      "Athletics",
+      "Hunting (Traps)",
+      "Kenjutsu",
+      "Knives",
+      "Kyujutsu (Yumi)",
+      "Stealth (Sneaking)",
+      "Any one Bugei or Low Skill"
+    ],
+    "honra_inicial": 3.5,
+    "status_inicial": 1,
+    "equipamento_inicial": [
+      "Light or Ashigaru Armor",
+      "Rugged Clothing",
+      "Daisho Set",
+      "Bow",
+      "Knife",
+      "Any one weapon",
+      "Trap-Making Gear",
+      "Camouflage Face-paint",
+      "Traveling Pack",
+      "5 Koku"
+    ],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "Surveying the Land",
+        "texto_pt": "Os batedores Daidoji são mestres da observação e perseguição, rastreando seus oponentes, importunando-os e atrasando-os com armadilhas e emboscadas. Você ganha +1k0 em testes de Furtividade e Caça. Qualquer armadilha rural/improvisada que você criar será excepcionalmente mortal, causando +1k1 de dano extra."
+      },
+      {
+        "rank": 2,
+        "nome": "Scouring the Shadows",
+        "texto_pt": "Os batedores Daidoji atacam a partir da ocultação, atingindo seus oponentes com ataques rápidos e devastadores. Ao atacar um oponente desprevenido, você ganha um bônus de +2k0 em sua jogada de ataque."
+      },
+      {
+        "rank": 3,
+        "nome": "Weaken the Resistance",
+        "texto_pt": "Os Daidoji aprendem a atacar com precisão, atingindo seus oponentes em pontos fracos e escapando de suas armaduras. Você pode ignorar qualquer Redução que seu oponente ganhe por usar armadura ou por técnicas de escola. (Você não pode ignorar a Redução natural de criaturas, ou a Redução concedida por efeitos mágicos ou sobrenaturais.) Se você atacar um oponente que não possui Redução de armadura ou técnicas, você ganha +1k0 em suas jogadas de dano."
+      },
+      {
+        "rank": 4,
+        "nome": "Strike and Move",
+        "texto_pt": "O batedor Daidoji ataca com a rapidez do próprio vento. Você pode fazer ataques como uma Ação Simples em vez de uma Ação Complexa ao empunhar uma katana, wakizashi, faca ou arco. Suas armadilhas agora causam +2k1 de dano extra."
+      },
+      {
+        "rank": 5,
+        "nome": "Cunning of Daidoji",
+        "texto_pt": "O verdadeiro mestre da escola de batedores Daidoji precisa de apenas um único golpe, pois seu oponente nunca sobrevive para ver o segundo. Durante um combate, você pode gastar um Ponto de Vazio como uma Ação Livre para tentar um ataque de precisão mortal no seu próximo ataque (isso pode ser feito com um ataque corpo a corpo ou à distância, mas não pode ser feito mais de uma vez no mesmo Turno). Quaisquer Manobras declaradas neste ataque exigem 1 Aumento a menos (com um mínimo de 1 Aumento), e se você acertar com sucesso, ganhará um bônus de +1k1 em sua jogada de Dano. Além disso, se o seu oponente estiver desprevenido de sua presença, seus Aumentos neste ataque não serão limitados pelo seu Vazio."
+      }
+    ],
+    "source_book": "The Great Clans",
+    "pagina": 71
+  },
+  {
+    "id": "kakita-artisan--the-great-clans",
+    "nome": "Kakita Artisan",
+    "cla": "Clã do Grou",
+    "familia": "Kakita",
+    "tipo": "artisan",
+    "trait_inicial_bonus": "Prontidão",
+    "skills_de_escola": [
+      "Courtier",
+      "Games: Sadane",
+      "Etiquette",
+      "Sincerity",
+      "Any three skills chosen from Acting, Artisan, Perform"
+    ],
+    "honra_inicial": 5.5,
+    "status_inicial": 1,
+    "equipamento_inicial": [
+      "Court Robes",
+      "Beautiful Clothing",
+      "Wakizashi",
+      "Art Supplies",
+      "Fan",
+      "Steed (Rokugani pony)",
+      "Traveling Pack",
+      "10 Koku"
+    ],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "Soul of the Artisan",
+        "texto_pt": "O Artesão Kakita é ensinado desde a mais tenra infância a focar em uma forma específica de arte acima de todas as outras, dedicando-se a ela de corpo e alma e buscando o objetivo da perfeição absoluta em suas formas. Claro, de acordo com a tradição do Grou, o Artesão também é ensinado a ser um crítico implacável com quaisquer rivais artísticos. Selecione uma de suas três Perícias de Escola escolhidas (Atuação, uma perícia de Artesão ou uma perícia de Performance) como o foco do seu treinamento artístico. Esta se torna sua arte escolhida. Ao fazer testes de perícia com sua arte escolhida, você ganha um bônus de +2k0 e seus Aumentos não são limitados pelo seu Vazio. Sempre que estiver usando Jogos: Sadane para criticar a arte ou performance de outra pessoa, você ganha um Aumento Gratuito no seu teste."
+      },
+      {
+        "rank": 2,
+        "nome": "The Soul's Dream",
+        "texto_pt": "O Artesão Kakita é ensinado a usar sua arte para afetar aqueles ao seu redor, inspirando emoções e mudando as visões do público. Ao apresentar uma performance pública ou exibição de sua arte escolhida, você pode fazer um Teste Social Resistido de [arte escolhida]/Prontidão contra a Etiqueta (Cortesia)/Vontade dos membros do público. Aqueles membros do público que falharem em seus testes serão profundamente influenciados e suas emoções mudarão na direção que você desejar — tornando-se mais amigáveis, mais hostis, mais calmos ou qualquer outra mudança emocional que sua arte tenha sido projetada para evocar. Essa mudança emocional normalmente dura um número de horas igual ao seu Rank de Discernimento. Note que nem todas as pessoas são igualmente suscetíveis ao impacto da arte — o Mestre pode decidir que um indivíduo específico é afetado por um período mais curto, ou conceder um bônus ao teste de resistência para pessoas cujas emoções são difíceis de manipular. O Mestre normalmente deve fazer com que cada membro individual do público role separadamente para resistir a esta técnica (isso sempre deve ser feito para PCs ou NPCs importantes), mas com grandes grupos de NPCs comuns o Mestre pode optar por economizar tempo fazendo uma única rolagem para a maioria ou todos eles."
+      },
+      {
+        "rank": 3,
+        "nome": "Free the Spirit",
+        "texto_pt": "Você pode selecionar uma segunda de suas três Perícias de Escola escolhidas como uma arte escolhida, e todos os bônus de Técnica e efeitos que se aplicavam à sua primeira arte escolhida agora se aplicam a ela também. O bônus para os testes de perícia da sua arte escolhida aumenta para +2k1."
+      },
+      {
+        "rank": 4,
+        "nome": "Undying Name",
+        "texto_pt": "Sua arte agora é tão magnífica que você pode criar e destruir as reputações de outros ao representá-los ou fazer referência a eles em seu trabalho. Você pode criar uma peça de arte referente a outra pessoa rolando [arte escolhida]/Prontidão com uma ND igual a 20 mais 5 vezes o Rank de Glória dela. Com um sucesso, você pode aumentar (se a sua arte for elogiosa) ou diminuir (se for crítica) a Glória dela em até 5 pontos, mais 5 pontos adicionais para cada Aumento que fizer no teste. Você pode declarar dois Aumentos adicionais para infligir um ganho de Infâmia no alvo em vez de uma alteração de Glória. Você não pode visar a mesma pessoa com esta técnica mais de uma vez a cada seis meses. Além disso, pessoas de alta posição não podem ter suas reputações danificadas por artistas sem prestígio — o Rank de Status do alvo não pode exceder o seu Rank de Glória ou Status (o que for maior)."
+      },
+      {
+        "rank": 5,
+        "nome": "A Gift Beyond Price",
+        "texto_pt": "Sua arte é agora tão perfeita que um presente dela pode mudar profundamente a atitude de outra pessoa em relação a você e ao seu clã. Uma vez por mês, você pode dar um presente de sua arte escolhida para alguém de outro clã ou facção. Faça um Teste Social Resistido de sua [arte escolhida]/Prontidão contra a Etiqueta (Cortesia)/Vontade deles. (O Mestre pode conceder Aumentos Gratuitos para você ou para o alvo desta técnica com base no tipo e tema da arte e nas atitudes e crenças do alvo — algumas pessoas são mais fáceis de influenciar do que outras.) Com um sucesso, você altera permanentemente a atitude deles em relação ao seu clã/facção em uma direção favorável. Com uma falha, o alvo percebe sua tentativa de manipular suas emoções, e sua atitude em relação ao seu clã/facção muda permanentemente em uma direção hostil."
+      }
+    ],
+    "source_book": "The Great Clans",
+    "pagina": 73
+  },
+  {
+    "id": "matsu-beastmasters--the-great-clans",
+    "nome": "Matsu Beastmasters",
+    "cla": "Clã do Leão",
+    "familia": "Matsu",
+    "tipo": "bushi",
+    "trait_inicial_bonus": "Agilidade",
+    "skills_de_escola": [
+      "Animal Handling 2",
+      "Battle",
+      "Defense",
+      "Iaijutsu",
+      "Kenjutsu",
+      "Any one Bugei Skill"
+    ],
+    "honra_inicial": 5.5,
+    "status_inicial": 1,
+    "equipamento_inicial": [
+      "Light Armor",
+      "Sturdy Clothing",
+      "Daisho",
+      "Any 1 weapon",
+      "Traveling Pack",
+      "4 koku"
+    ],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "One with the Pride",
+        "texto_pt": "Você treinou no dojo altamente secreto dos Domadores de Feras Matsu e forjou um vínculo com um dos lendários warcats do Leão. O leão o acompanhará onde quer que você vá e seguirá comandos básicos sem questionar. Nenhum leão jamais o atacará sem ser compelido a fazê-lo de alguma forma. Você pode ordenar que um de seus warcats Ataque como uma Ação Complexa. Qualquer warcat que não esteja atacando usará a Ação de Proteger para protegê-lo."
+      },
+      {
+        "rank": 2,
+        "nome": "Heart of the Beast",
+        "texto_pt": "Seu treinamento com os warcats aumentou suas habilidades físicas, bem como seu vínculo mental com seus leões. Um leão adicional se junta ao seu bando. Você e seus leões companheiros ganham a característica de criatura Rápido 2 (conforme descrito no livro básico da 4ª Edição, página 320), e todos os seus leões ganham um Rank de Ferida adicional que altera o fim de sua progressão em relação a um leão normal para: 36: +15, 60: Morto."
+      },
+      {
+        "rank": 3,
+        "nome": "The Ferocity Within",
+        "texto_pt": "Você ataca com a mesma ferocidade dos leões com os quais treinou. Ao empunhar uma katana, wakizashi, magari-yari, nage-yari ou qualquer faca, ou ao lutar desarmado, você pode fazer ataques corpo a corpo como uma Ação Simples. Além disso, você pode ordenar que um de seus warcats Ataque como uma Ação Simples."
+      },
+      {
+        "rank": 4,
+        "nome": "All as One",
+        "texto_pt": "A fúria do domador de feras e de seu bando é uma lenda sussurrada entre os inimigos do seu clã, e com razão. Os membros do seu bando podem fazer dois ataques de garra por Turno em vez do ataque normal. Você e todos os membros de seu bando ganham um bônus de +2k1 em todas as jogadas de dano feitas quando estiverem lutando lado a lado. Finalmente, quando você ordenar que um warcat Ataque (uma Ação Complexa para leões), o warcat também poderá realizar uma Ação de Movimento Simples durante o mesmo Turno."
+      },
+      {
+        "rank": 5,
+        "nome": "With the Soul of a Lion",
+        "texto_pt": "Unidos por sua liderança e companheirismo, seu bando se tornou verdadeiramente temível. Um leão adicional se junta ao seu bando. Todos os seus warcats ganham +10 na ND de Armadura, +2 de Redução e +2 de Medo."
+      }
+    ],
+    "source_book": "The Great Clans",
+    "pagina": 138
+  },
+  {
+    "id": "yoritomo-shugenja--the-great-clans",
+    "nome": "Yoritomo Shugenja",
+    "cla": "Clã do Mantis",
+    "familia": "Yoritomo",
+    "tipo": "shugenja",
+    "trait_inicial_bonus": "Percepção",
+    "skills_de_escola": [
+      "Athletics",
+      "Calligraphy",
+      "Knives",
+      "Lore: Theology",
+      "Meditation",
+      "Sailing (Navigation)",
+      "Any one Skill"
+    ],
+    "honra_inicial": 4.5,
+    "status_inicial": 1,
+    "equipamento_inicial": [
+      "Robes",
+      "Wakizashi",
+      "Any 1 weapon",
+      "Scroll Satchel",
+      "Traveling Pack",
+      "10 Koku"
+    ],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "Child of the Sea",
+        "texto_pt": "A linhagem familiar dos Yoritomo que possuem o talento para a magia tem um forte vínculo com o mar e com o clima como um todo. Você pode gastar um espaço de feitiço para alterar as condições do vento em sua localização atual em um grau. Se você também gastar um Ponto de Vazio, poderá alterar o estado climático completo em um grau. Você pode gastar um total máximo combinado de espaços de feitiço e/ou Pontos de Vazio igual ao seu Rank de Escola a cada Turno para decretar essas mudanças. Essas mudanças afetam uma área com um número de milhas igual ao seu Rank de Escola em todas as direções a partir de sua localização atual. Você ganha um Aumento Gratuito em todos os feitiços de Trovão."
+      }
+    ],
+    "source_book": "The Great Clans",
+    "pagina": 170
+  },
+  {
+    "id": "yogo-wardmaster--the-great-clans",
+    "nome": "Yogo Wardmaster",
+    "cla": "Clã do Escorpião",
+    "familia": "Yogo",
+    "tipo": "shugenja",
+    "trait_inicial_bonus": "Intelecto",
+    "skills_de_escola": [
+      "Calligraphy (Cipher)",
+      "Etiquette",
+      "Investigation",
+      "Lore: Theology",
+      "Spellcraft",
+      "Stealth",
+      "Any one High or Low Skill"
+    ],
+    "honra_inicial": 1.5,
+    "status_inicial": 1,
+    "equipamento_inicial": [
+      "Robes",
+      "Wakizashi",
+      "Knife",
+      "Scroll Satchel",
+      "Traveling Pack",
+      "pack of twenty Paper Wards",
+      "3 Koku"
+    ],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "Way of the Wardmaster",
+        "texto_pt": "Os Yogo são mestres em criar pergaminhos de proteção (wards) para uso posterior. Quando você lança qualquer feitiço com a palavra-chave Wards, você pode fazer Aumentos em um número de vezes igual ao Nível de Maestria do feitiço para colocar o feitiço em um pergaminho de proteção de papel. Uma vez feito isso, o pergaminho de proteção manterá o feitiço 'latente' até que você o ative (como uma Ação Simples) colocando-o em um alvo. Apenas você pode ativar seus pergaminhos de proteção. O pergaminho adere ao alvo e descarrega imediatamente o feitiço, cuja duração é medida normalmente a partir daquele momento. Se um feitiço de efeito em área for descarregado em um alvo vivo, ele afetará apenas aquele alvo. Colocar um pergaminho de proteção de papel em um alvo involuntário requer um ataque corpo a corpo desarmado usando um teste de Spellcraft / Agilidade. Um pergaminho de proteção ativo pode ser rasgado/destruído fisicamente, o que encerra instantaneamente quaisquer efeitos de feitiço em andamento; isso requer uma Ação Simples."
+      }
+    ],
+    "source_book": "The Great Clans",
+    "pagina": 230
+  },
+  {
+    "id": "horiuchi-shugenja--the-great-clans",
+    "nome": "Horiuchi Shugenja",
+    "cla": "Clã do Unicórnio",
+    "familia": "Horiuchi",
+    "tipo": "shugenja",
+    "trait_inicial_bonus": "Vigor",
+    "skills_de_escola": [
+      "Calligraphy",
+      "Craft: Meishodo",
+      "Defense",
+      "Lore: Theology",
+      "Meditation",
+      "Spellcraft (Spell Research)",
+      "Any one High or Bugei Skill"
+    ],
+    "honra_inicial": 4.5,
+    "status_inicial": 1,
+    "equipamento_inicial": [
+      "Robes",
+      "Wakizashi",
+      "Knife",
+      "Scroll/Amulet Satchel",
+      "Traveling Pack",
+      "4 koku"
+    ],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "Mysteries of Meishodo",
+        "texto_pt": "Meishodo é uma mistura de magia gaijin e Rokugani, resultando em um método rápido e poderoso de chamar os kami. Shugenja que estudam esses métodos aprendem a criar amuletos meishodo, sintonizados para invocar os elementos de maneiras específicas. Você pode criar um amuleto mágico sendo bem-sucedido em um teste de Ofício: Meishodo/Anel, usando o Anel para o feitiço desejado. A ND deste teste é igual a 15 mais 5 vezes o Nível de Maestria do feitiço. Criar um meishodo requer um número de horas igual ao Nível de Maestria do feitiço. Se o teste for bem-sucedido, você criará um pequeno amuleto imbuído com a prece aos kami que lançará o feitiço escolhido. Cada meishodo armazena apenas um feitiço e é usado no lugar do pergaminho normalmente exigido para lançar o feitiço. Lançar um feitiço através de um meishodo requer apenas uma Ação Complexa, independentemente do Nível de Maestria do feitiço. Você não precisa fazer um Teste de Lançamento de Feitiço para lançar o feitiço, mas o feitiço não pode ganhar quaisquer benefícios de Aumentos (nem mesmo Aumentos Gratuitos). Você gasta um espaço de feitiço normalmente. Você só pode criar meishodo a partir de feitiços de Nível de Maestria igual ou inferior ao seu Rank de Escola de Shugenja, e nunca pode criar meishodo de feitiços de Nível de Maestria 4, 5 ou 6. Outros shugenja podem usar seu meishodo se forem proficientes em magia meishodo (por exemplo, treinados nesta escola)."
+      }
+    ],
+    "source_book": "The Great Clans",
+    "pagina": 259
+  },
+  {
+    "id": "moto-vindicator--the-great-clans",
+    "nome": "Moto Vindicator",
+    "cla": "Clã do Unicórnio",
+    "familia": "Moto",
+    "tipo": "bushi",
+    "trait_inicial_bonus": "Vontade",
+    "skills_de_escola": [
+      "Horsemanship",
+      "Hunting",
+      "Investigation (Notice)",
+      "Kenjutsu",
+      "Kyujutsu",
+      "Lore: Shadowlands",
+      "Any one Bugei skill"
+    ],
+    "honra_inicial": 3.5,
+    "status_inicial": 1,
+    "equipamento_inicial": [
+      "Heavy Armor",
+      "Sturdy Clothing",
+      "Daisho",
+      "any 1 weapon",
+      "Traveling Pack",
+      "Riding Horse",
+      "5 koku"
+    ],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "Purity of the Breath",
+        "texto_pt": "O Vindicador sabe que a única maneira de combater as Terras Sombrias é manter a integridade diante da mais terrível corrupção. No início de cada Turno, você pode escolher um de dois efeitos para aplicar até o final do Turno. Você pode reduzir suas penalidades de ND causadas por Ranks de Ferida em uma quantidade igual ao seu Rank de Escola mais sua Vontade. Ou, em vez disso, você pode optar por adicionar um bônus à sua ND de Armadura igual ao seu Rank de Escola mais sua Vontade. Se você estiver em um combate contra criaturas das Terras Sombrias, o bônus escolhido é dobrado."
+      },
+      {
+        "rank": 2,
+        "nome": "Facing the Dark Within",
+        "texto_pt": "O Vindicador aprende a aguçar seus sentidos para nunca ser surpreendido por aqueles que servem às trevas. Você gain um bônus de +2k0 em todos os testes de Investigação. Este bônus é aumentado para +2k1 se você estiver tentando especificamente notar efeitos da Mácula das Terras Sombrias."
+      },
+      {
+        "rank": 3,
+        "nome": "Justice of Our Ancestors",
+        "texto_pt": "A fúria do Vindicador contra seus inimigos não conhece limites. Você pode fazer ataques corpo a corpo como uma Ação Simples em vez de uma Ação Complexa."
+      },
+      {
+        "rank": 4,
+        "nome": "Avenging Our Own",
+        "texto_pt": "A fúria do Vindicador é provocada principalmente quando direcionada àquelas criaturas que ele um dia chamou de irmãos. Você ganha um bônus de +2k0 em suas jogadas de ataque e dano contra qualquer inimigo que o tenha atacado neste combate e contra qualquer criatura com a Mácula das Terras Sombrias, tenha ela atacado você ou não."
+      },
+      {
+        "rank": 5,
+        "nome": "Bloodied but Unbowed",
+        "texto_pt": "O Vindicador pode ir além dos limites físicos quando seu objetivo está à vista. Uma vez por combate, você pode optar por continuar lutando apesar de seus ferimentos. Ativar esta Técnica é uma Ação Livre. Uma vez ativa, ao fazer ataques corpo a corpo, você ganha um bônus no total de suas jogadas de dano igual às penalidades de ND que você está sofrendo por Ranks de Ferida. (Isso usa as penalidades padrão de Ferida, ignorando modificações de Vantagens, feitiços ou outros efeitos semelhantes.) Os efeitos desta Técnica duram por dois Turnos completos. Você pode optar por estender os efeitos desta Técnica por um Turno adicional sofrendo dez Feridas."
+      }
+    ],
+    "source_book": "The Great Clans",
+    "pagina": 259
+  },
+  {
+    "id": "goju-ninja--the-great-clans",
+    "nome": "Goju Ninja",
+    "cla": "Clã da Aranha",
+    "familia": "Goju",
+    "tipo": "shinobi",
+    "trait_inicial_bonus": "Agilidade",
+    "skills_de_escola": [
+      "Athletics",
+      "Kenjutsu",
+      "Ninjutsu",
+      "Sincerity (Deceit)",
+      "Stealth 2",
+      "any one Skill"
+    ],
+    "honra_inicial": 0.0,
+    "status_inicial": 1,
+    "equipamento_inicial": [
+      "Black Clothing",
+      "Ninja-to",
+      "Tanto",
+      "6 Shuriken or Tsubute",
+      "any one weapon",
+      "50 feet of Rope and Grapple",
+      "Traveling Pack",
+      "1 koku"
+    ],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "The Cloak of Night",
+        "texto_pt": "A primeira lição que um Goju domina é a arte de se envolver em sombras, obtendo ocultação dos inimigos em troca de tornar a ação direta mais difícil. Você pode aumentar sua ND de Armadura até um valor máximo igual ao seu Rank de Escola x 5. A ND de todos os seus testes que não sejam de Atletismo, Defesa e Furtividade é aumentada na mesma quantidade. Ativar esta Técnica é uma Ação Simples e dura pelo combate inteiro."
+      },
+      {
+        "rank": 2,
+        "nome": "Melting Into Shadow",
+        "texto_pt": "Um Goju não é apenas protegido pela escuridão, mas parte dela, e pode se misturar facilmente a ela. Você ganha dados rolados adicionais iguais ao seu Rank de Escola em qualquer teste de Furtividade. Qualquer teste não resistido feito por um oponente tentando detectá-lo tem sua ND aumentada automaticamente em um valor igual ao seu Rank de Escola x 5. Você ganha um Aumento Gratuito em todas as jogadas de ataque feitas contra oponentes que não estejam cientes de sua presença."
+      },
+      {
+        "rank": 3,
+        "nome": "The Shadowed Blade",
+        "texto_pt": "O Goju é um inimigo rápido e implacável. Você pode fazer um ataque como uma Ação Simples em vez de uma Ação Complexa ao atacar com facas ou qualquer arma que use a perícia Ninjutsu. Alternativamente, ao empunhar shuriken, você pode gastar uma Ação Complexa para fazer um número de ataques à distância igual ao seu Rank de Escola."
+      },
+      {
+        "rank": 4,
+        "nome": "Step Within Shadow",
+        "texto_pt": "Como toda a escuridão é uma só com o Goju, este também pode usar a escuridão para se mover entre as sombras sem cruzar o espaço intermediário. Você pode entrar em qualquer sombra grande o suficiente para ocultar um indivíduo do seu tamanho e emergir de qualquer outra sombra de tamanho semelhante próxima. Isso é considerado uma Ação de Movimento Simples. O alcance desse movimento é igual ao seu Rank de Escola x 30 metros (100 pés)."
+      },
+      {
+        "rank": 5,
+        "nome": "Shadow Upon the Moon",
+        "texto_pt": "Um verdadeiro Goju não se assemelha mais nem de longe a um ser humano. Seus traços faciais são apagados permanentemente, deixando apenas uma máscara cinza-clara em seu lugar. Na escuridão ou nas sombras, você pode dissolver seu corpo físico em uma névoa escura vaga. Esta é uma Ação Simples; retornar à forma corpórea é uma Ação Livre. Você pode se mover com sua velocidade total enquanto estiver em forma incorpórea, mas não pode interagir fisicamente com qualquer objeto ou indivíduo e não pode ser ferido por nada exceto cristal. Você pode passar por matéria sólida em uma espessura de até seu Rank de Escola x 12 centímetros (5 polegadas). Você ganha +5 em sua Iniciativa durante o primeiro Turno (apenas) cada vez que retornar à sua forma corpórea."
+      }
+    ],
+    "source_book": "The Great Clans",
+    "pagina": 281
+  },
+  {
+    "id": "ninube-shugenja--the-great-clans",
+    "nome": "Ninube Shugenja",
+    "cla": "Clã da Aranha",
+    "familia": "Ninube",
+    "tipo": "shugenja",
+    "trait_inicial_bonus": "Prontidão",
+    "skills_de_escola": [
+      "Calligraphy",
+      "Knives",
+      "Sincerity (Lying)",
+      "Spellcraft",
+      "Stealth 2",
+      "any Low skill"
+    ],
+    "honra_inicial": 0.0,
+    "status_inicial": 1,
+    "equipamento_inicial": [
+      "Black Clothing",
+      "Wakizashi",
+      "Knife",
+      "Scroll Satchel",
+      "Traveling Pack",
+      "2 Koku"
+    ],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "Mask of the Nothing",
+        "texto_pt": "Como uma Ação Complexa, você pode gastar um espaço de feitiço para dissolver seu eu físico e se tornar uma sombra. Como uma sombra, você fica invisível na escuridão e ganha um bônus de +5k0 em seus testes de Furtividade sob todas as outras circunstâncias. Você é imune à maioria dos ataques mundanos, mas cristal e magia podem afetá-lo. Ataques mágicos que envolvem cristal ou geram luz dobram seus dados de dano rolados contra você. Na forma de sombra, se você sofrer dano que o mataria, em vez disso você retorna à forma física imediatamente com metade de suas Feridas ou com as Feridas que possuía ao entrar na forma de sombra, o que for menor; você fica Atordoado quando isso acontece. Você não pode causar dano a outros de nenhuma forma enquanto estiver na forma de sombra, mas pode lançar feitiços que não causem dano e pode falar na forma de um sussurro incorpóreo. Você ganha um Aumento Gratuito em todos os feitiços de Nada. Você não pode lançar feitiços de maho."
+      }
+    ],
+    "source_book": "The Great Clans",
+    "pagina": 282
+  },
+  {
+    "id": "children-of-doji--sword-and-fan",
+    "nome": "Children of Doji",
+    "cla": "Clã do Grou",
+    "familia": "Doji",
+    "tipo": "courtier",
+    "trait_inicial_bonus": "",
+    "skills_de_escola": [],
+    "honra_inicial": 5.0,
+    "status_inicial": 1.0,
+    "equipamento_inicial": [],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "Social Butterfly",
+        "texto_pt": "Um Child of Doji faz amigos como quem respira e é capaz de invocá-los com a mera menção de um nome. Ao fazer qualquer teste Contestado de Perícia Social, você recebe um bônus de +Xk0, onde X é igual ao número de Allies que você possui nesta corte com uma Devotion de 2 ou maior (este bônus não pode exceder o seu Rank de Discernimento em dados). Além disso, se tiver pelo menos três desses Allies nesta corte, você pode gastar (perder) um desses Allies para ganhar a Vantagem Darling of the Court pelo restante desta estação (primavera, inverno, etc.)."
+      },
+      {
+        "rank": 2,
+        "nome": "All is Fair",
+        "texto_pt": "Uma perícia fundamental dos Children of Doji é a habilidade de alcançar além das cortes para controlar o campo de batalha através de sua influência política. Um rikugunshokan que esteja liderando seu exército contra o Crane pode de repente descobrir que o terreno favorável foi considerado sacrossanto e a guerra deve ser travada em um solo menos vantajoso, ou que um carregamento crucial de suprimentos foi desviado para outro lugar. Por outro lado, um aliado do Crane pode ver uma legião de tropas imperiais chegando para ajudar sua causa, ou um duelista derrotando o comandante oponente por uma ofensa pessoal. Você pode manipular uma corte neutra ou amigável para favorecer ou se opor a um conflito militar ocorrendo em outro lugar (você não pode, obviamente, manipular a corte de seu inimigo). Você deve ter pelo menos cinco Allies com Devotion de 2 ou maior na corte, e deve passar uma semana conversando e manobrando na corte, após o qual você pode fazer um teste de Courtier (Manipulation) / Prontidão contra uma ND 40. Um teste bem-sucedido concede um aumento livre (Free Raise) em testes de Perícia de Batalha (Battle Skill Rolls) para o comandante do lado que você favorece, com um aumento adicional concedido para cada aumento (Raise) que você fizer no teste de Courtier. Se suas atividades estiverem sendo opostas por um representante do outro lado do conflito, seu teste de Courtier se torna um teste Contestado contra aquele oponente. Você só pode influenciar cada campanha militar com esta Técnica uma vez (critério do Mestre), e cada aumento livre (Free Raise) é gasto assim que o comandante o utilizar. Se o comandante não usar os aumentos livres (Free Raises) até o final da campanha, eles são perdidos."
+      },
+      {
+        "rank": 3,
+        "nome": "Gild the Lily",
+        "texto_pt": "O Crane compreende que a maneira mais fácil de manter uma forte rede de aliados é oferecer-lhes favores regularmente. Por outro lado, a melhor maneira de flexionar seu músculo político contra um inimigo obstinado é a negação de favores. Você pode conceder a qualquer um de seus Allies uma benção, que assume a forma de qualquer Vantagem Social ou Material com um valor de Pontos de Experiência de até o seu Rank de Honra. (O Mestre pode vetar qualquer Vantagem que considere inadequada.) Isso é feito passando uma hora na corte conversando com o aliado, depois gastando um Ponto de Vazio e fazendo um teste de Courtier (Manipulation) / Prontidão contra uma ND de 20 + (5x o valor em Pontos de Experiência da Vantagem). Os efeitos da benção duram um mês. Você pode usar o mesmo método para negar a um inimigo os efeitos de uma Vantagem Social que ele possua (limitado ao mesmo custo de Pontos de Experiência). Você conversa com a corte em geral por uma hora, gasta um Ponto de Vazio e faz um teste Contestado de Perícia Social de seu Courtier (Manipulation) / Prontidão contra o Etiquette (Courtesy) / Prontidão do inimigo. Com um sucesso, o inimigo não pode usar essa Vantagem por um mês. Você não pode visar o mesmo indivíduo com esta técnica mais de uma vez por mês."
+      }
+    ],
+    "source_book": "Sword and Fan",
+    "pagina": 204
+  },
+  {
+    "id": "void-mystic--book-of-void",
+    "nome": "Void Mystic",
+    "cla": "Ronin",
+    "familia": "None",
+    "tipo": "shugenja",
+    "trait_inicial_bonus": "Vontade",
+    "skills_de_escola": [
+      "Defense",
+      "Divination",
+      "Hunting",
+      "Lore: Elements (Void)",
+      "Meditation",
+      "Stealth",
+      "any one non-High Skill"
+    ],
+    "honra_inicial": 3.5,
+    "status_inicial": 0,
+    "equipamento_inicial": [
+      "Sturdy Clothing",
+      "Wakizashi",
+      "any 1 weapon",
+      "Travelling Pack",
+      "5 bu"
+    ],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "The Void's Caress",
+        "texto_pt": "O Void Mystic, nascido com uma forte sintonia com o Vazio, mas carecendo de qualquer treinamento convencional, não precisa adquirir pergaminhos de feitiço. Você pode conjurar qualquer feitiço de Vazio até o seu Nível de Maestria atual, gastando um Espaço de Feitiço normalmente. Mecanicamente, o feitiço é conjurado normalmente, mas você não precisa falar em voz alta para conjurar seus feitiços. Você só pode conjurar cada feitiço uma vez por dia, e nunca pode conjurar feitiços de Vazio acima do Rank 5. Você também ganha um Aumento Gratuito na perícia Divination (um subproduto de sua sintonia com o Vazio)."
+      }
+    ],
+    "source_book": "Book of Void",
+    "pagina": 185
+  },
+  {
+    "id": "the-order-of-eternity--book-of-void",
+    "nome": "The Order of Eternity",
+    "cla": "Irmandade de Shinsei",
+    "familia": "None",
+    "tipo": "monk",
+    "trait_inicial_bonus": "Intelecto",
+    "skills_de_escola": [
+      "Defense",
+      "Divination (Astrology)",
+      "Jiujutsu",
+      "Meditation",
+      "Lore: Theology",
+      "any two High Skills"
+    ],
+    "honra_inicial": 4.5,
+    "status_inicial": 1,
+    "equipamento_inicial": [],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "The Touch of Eternity",
+        "texto_pt": "Os monges desta Ordem acreditam que o tempo é uma ilusão e que os eventos do passado, presente e futuro são todos coexistentes. Isso faz com que eles se envolvam em muitas ações estranhas, mas também lhes permite um grau incomum de percepção do mundo ao seu redor. Você pode contemplar uma situação fora de combate, por uma quantidade de tempo determinada pelo Mestre (os monges desta Ordem são conhecidos por avaliar uma situação complexa em um instante, mas também por passar uma hora considerando se devem comer uma tigela de arroz). Ao final de sua contemplação, você rola Meditation / Void contra uma ND 25 (maior para situações complexas). Com um sucesso, você ganha um bônus de +1g1 +Void em quaisquer Rolagens de Perícia que fizer para tentar resolver aquela situação específica. O Mestre deve exercer bom senso ao considerar a aplicação da Técnica da Ordem da Eternidade – algumas situações podem ser complexas demais para serem dominadas com uma única consideração. Em geral, o monge não deve ser capaz de aplicar os benefícios desta Técnica a mais Rolagens de Perícia do que o seu Rank de Vazio – quaisquer rolagens além disso exigirãao contemplação adicional e outra rolagem de Meditation / Void."
+      }
+    ],
+    "source_book": "Book of Void",
+    "pagina": 194
+  },
+  {
+    "id": "the-order-of-jurojins-blessing--book-of-water",
+    "nome": "The Order of Jurojin’s Blessing",
+    "cla": "Irmandade de Shinsei",
+    "familia": "",
+    "tipo": "monk",
+    "trait_inicial_bonus": "Intelecto",
+    "skills_de_escola": [
+      "Athletics",
+      "Jiujutsu",
+      "Lore: Anatomy (Disease)",
+      "Medicine (Disease, Herbalism)",
+      "Meditation",
+      "Staves",
+      "any one Skill"
+    ],
+    "honra_inicial": 5.5,
+    "status_inicial": 1.0,
+    "equipamento_inicial": [],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "Blessings of Longevity",
+        "texto_pt": "Você recebe um bônus de +1k1 em todas as rolagens de Medicine feitas com o propósito de tratar doenças ou infecções, e um bônus de +1k0 em todas as rolagens de Medicine feitas com o propósito de tratar Feridas. Você também pode tentar tratar insanidade natural (não induzida pela Mácula) com uma rolagem de Medicine, embora caiba ao Mestre decidir se seu tratamento de fato terá algum efeito."
+      }
+    ],
+    "source_book": "Book of Water",
+    "pagina": 188
+  },
+  {
+    "id": "the-shrine-of-heavens-mirror--book-of-water",
+    "nome": "The Shrine of Heaven’s Mirror",
+    "cla": "Irmandade de Shinsei",
+    "familia": "",
+    "tipo": "monk",
+    "trait_inicial_bonus": "Percepção",
+    "skills_de_escola": [
+      "Athletics",
+      "Divination (Omens)",
+      "Jiujutsu",
+      "Lore: Omens",
+      "Meditation",
+      "any two Skills"
+    ],
+    "honra_inicial": 3.5,
+    "status_inicial": 1.0,
+    "equipamento_inicial": [],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "Gaze Into the Mirror",
+        "texto_pt": "As práticas peculiares dos monges de Heaven's Mirror lhes concedem visões negadas a outros mortais. Você recebe um bônus de +1k0 em todas as rolagens de Divination. Se a rolagem envolver a interpretação de um presságio, o bônus passa a ser de +1k1. Uma vez por dia, você pode gastar um Ponto de Vazio para interpretar um presságio com precisão absoluta, sem a necessidade de uma rolagem de perícia (embora o Mestre ainda tenha discrição sobre qual é a interpretação correta do presságio)."
+      }
+    ],
+    "source_book": "Book of Water",
+    "pagina": 188
+  }
+]

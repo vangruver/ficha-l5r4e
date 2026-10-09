@@ -1,0 +1,11 @@
+# PDFs dos livros — dois deles são cópias piratas (z-library), nunca sobem
+# pro GitHub, público ou privado. Carlos mantém localmente em pdfs/.
+pdfs/
+
+# Python
+scripts/__pycache__/
+*.pyc
+
+# editores/SO
+.DS_Store
+Thumbs.db

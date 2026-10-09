@@ -1,0 +1,1098 @@
+{
+  "schools": {
+    "schools": [
+      {
+        "nome": "Hida Bushi",
+        "cla": "Crab Clan",
+        "familia": "Hida",
+        "tipo": "bushi",
+        "trait_inicial_bonus": "Stamina",
+        "skills_de_escola": [
+          "Athletics",
+          "Defense",
+          "Heavy Weapons (Tetsubo)",
+          "Intimidation",
+          "Kenjutsu",
+          "Lore: Shadowlands",
+          "any one Bugei Skill"
+        ],
+        "honra_inicial": 3.5,
+        "status_inicial": 1.0,
+        "equipamento_inicial": [
+          "Armadura Leve ou Pesada",
+          "Roupas Grossas",
+          "Daisho",
+          "Arma Pesada ou de Haste",
+          "Kit de Viagens",
+          "3 kokus"
+        ],
+        "tecnica_por_rank": [
+          {
+            "rank": 1,
+            "nome": "The Way of the Crab",
+            "texto_pt": "O bushi Hida é a epítome de “infantaria pesada”, capaz de suportar golpes severos e usar ataques esmagadores em resposta. Você pode ignorar penalidades de NA por usar armadura pesada para qualquer Perícia exceto Furtividade. Ao usar uma Arma Pesada, você ganha um bônus de +1k0 ao total das avaliações de dano."
+          },
+          {
+            "rank": 2,
+            "nome": "The Mountain Does Not Move",
+            "texto_pt": "Os bushis Hida são famosos por sua extraordinária tenacidade, suportando ferimentos que matariam homens normais. Você ganha Redução igual ao seu Anel de Terra."
+          },
+          {
+            "rank": 3,
+            "nome": "Two Pincers, One Mind",
+            "texto_pt": "Um bushi Hida é implacável. Você pode fazer ataques como Ações Simples ao invés de uma Ação Complexa enquanto usa Armas Pesadas ou armas com a palavra-chave Samurai."
+          },
+          {
+            "rank": 4,
+            "nome": "Devastating Blow",
+            "texto_pt": "Um Hida não para por nada até destruir seus inimigos assim que sua ira desperta. Uma vez por encontro, ao empunhar uma Arma Pesada, você pode fazer um golpe calculado contra o inimigo. Diminua a Redução do inimigo em 4 para este ataque. Se o ataque tiver sucesso, você Atordoa o alvo. O alvo pode se recuperar fazendo um teste de Anel de Terra contra um NA igual ao seu teste de Dano durante o Estágio de Reação de cada Rodada. O NA diminui em 5 cada vez que o alvo falhar no teste."
+          },
+          {
+            "rank": 5,
+            "nome": "The Mountain Does Not Fall",
+            "texto_pt": "Nada pode impedir um guerreiro Hida de cumprir seu dever, nem mesmo a ameaça de morte. Você pode gastar um Ponto de Vazio durante o Estágio de Reação. Durante o seu próximo turno, você pode fazer ações como se estivesse no Nível de Ferimentos Saudável. Você ignora os Efeitos Condicionais Atordoado, Fatigado e Paralisado. Os benefícios desta Técnica duram até o próximo Estágio de Reação."
+          }
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 109
+      }
+    ]
+  },
+  "kata_kiho": {
+    "kata_kiho": [
+      {
+        "nome": "Atacando Como a Água",
+        "tipo": "kata",
+        "pre_requisito": "Água 4",
+        "anel_ou_trait": "Água",
+        "custo": "4",
+        "texto_pt": "Quando usar a Postura Ataque, você pode se mover 1,5 m adicional como Ação Livre.",
+        "source_book": "Core Rulebook",
+        "pagina": 259
+      },
+      {
+        "nome": "Atacando Como o Ar",
+        "tipo": "kata",
+        "pre_requisito": "Ar 3",
+        "anel_ou_trait": "Ar",
+        "custo": "3",
+        "texto_pt": "Quando usar a Postura Defesa, seu NA de Armadura tem um aumento igual ao seu Anel de Ar.",
+        "source_book": "Core Rulebook",
+        "pagina": 259
+      },
+      {
+        "nome": "Atacando Como o Fogo",
+        "tipo": "kata",
+        "pre_requisito": "Fogo 3",
+        "anel_ou_trait": "Fogo",
+        "custo": "3",
+        "texto_pt": "Ao usar a Postura Ataque Total, você pode somar seu Anel de Fogo ao total de um Teste de Ataque feita uma vez por rodada.",
+        "source_book": "Core Rulebook",
+        "pagina": 259
+      },
+      {
+        "nome": "Atacando Como a Terra",
+        "tipo": "kata",
+        "pre_requisito": "Terra 3",
+        "anel_ou_trait": "Terra",
+        "custo": "3",
+        "texto_pt": "Ao usar a Postura Defesa Total, você ganha Redução igual ao seu Anel de Terra. Isto é cumulativo com outras formas de Redução.",
+        "source_book": "Core Rulebook",
+        "pagina": 259
+      },
+      {
+        "nome": "Atacando Como o Vazio",
+        "tipo": "kata",
+        "pre_requisito": "Vazio 3",
+        "anel_ou_trait": "Vazio",
+        "custo": "3",
+        "texto_pt": "Ao usar a Postura Centro seu NA de Armadura tem um aumento igual seu Anel de Vazio.",
+        "source_book": "Core Rulebook",
+        "pagina": 259
+      },
+      {
+        "nome": "Estilo Abandono Imprudente",
+        "tipo": "kata",
+        "pre_requisito": "Fogo 4, Escolas: Bushi Daigotsu, Berserker Matsu, Bushi Usagi",
+        "anel_ou_trait": "Fogo",
+        "custo": "4",
+        "texto_pt": "Você pode somar seu Anel de Fogo ao seu NA de Armadura enquanto estiver na Postura Ataque Total.",
+        "source_book": "Core Rulebook",
+        "pagina": 259
+      },
+      {
+        "nome": "Estilo Ameaça Velada",
+        "tipo": "kata",
+        "pre_requisito": "Ar 4, Escolas: Bushi Bayushi, Bushi Hiruma, Arqueiro Tsuruchi, Bushi Yoritomo",
+        "anel_ou_trait": "Ar",
+        "custo": "4",
+        "texto_pt": "Uma vez por turno, você pode somar seu Nível de Perícia Furtividade ao seu NA de Armadura para um ataque.",
+        "source_book": "Core Rulebook",
+        "pagina": 259
+      },
+      {
+        "nome": "Estilo Equilíbrio dos Elementos",
+        "tipo": "kata",
+        "pre_requisito": "Vazio 3, Escolas: Bushi Mirumoto, Bushi Shiba",
+        "anel_ou_trait": "Vazio",
+        "custo": "3",
+        "texto_pt": "Você pode usar seu Anel de Vazio no lugar de seus Reflexos no Teste de Iniciativa.",
+        "source_book": "Core Rulebook",
+        "pagina": 259
+      },
+      {
+        "nome": "Estilo Ferro nas Montanhas",
+        "tipo": "kata",
+        "pre_requisito": "Terra 3, Escolas: Guerreiro de Ferro Daidoji, Bushi Hida",
+        "anel_ou_trait": "Terra",
+        "custo": "3",
+        "texto_pt": "Você pode usar seu Anel de Terra no lugar do seu Anel de Ar para a Postura Defesa.",
+        "source_book": "Core Rulebook",
+        "pagina": 259
+      },
+      {
+        "nome": "Estilo Floresta de Ferro",
+        "tipo": "kata",
+        "pre_requisito": "Ar 4, Escolas: Guerreiro de Ferro Daidoji, Bushi Heichi, Bushi Shiba",
+        "anel_ou_trait": "Ar",
+        "custo": "4",
+        "texto_pt": "Ao usar uma lança ou arma de haste, você pode usar seu Anel de Ar no lugar de Agilidade para jogadas de ataque.",
+        "source_book": "Core Rulebook",
+        "pagina": 259
+      },
+      {
+        "nome": "Estilo Força da Pureza",
+        "tipo": "kata",
+        "pre_requisito": "Vazio 4, Escolas: Bushi Akodo, Bushi Kakita, Berserker Matsu, Dama Guerreira Utaku",
+        "anel_ou_trait": "Vazio",
+        "custo": "4",
+        "texto_pt": "Uma vez por turno, ao avaliar o dano, você pode usar seu Nível de Honra no lugar da Força + ND da arma. Você mantém dados iguais ao ND da arma, como de costume.",
+        "source_book": "Core Rulebook",
+        "pagina": 260
+      },
+      {
+        "nome": "Estilo Força nos Braços",
+        "tipo": "kata",
+        "pre_requisito": "Água 4, Escolas: Bushi Hida, Bushi Ichiro, Bushi Moto",
+        "anel_ou_trait": "Água",
+        "custo": "4",
+        "texto_pt": "Uma vez por Turno, ao empunhar uma Arma Pesada, você pode usar o Atributo Força no lugar de sua Agilidade para um Teste de Ataque.",
+        "source_book": "Core Rulebook",
+        "pagina": 260
+      },
+      {
+        "nome": "Estilo Guerreiro Indomável",
+        "tipo": "kata",
+        "pre_requisito": "Terra 4, Escolas: Bushi Daigotsu, Bushi Hida, Bushi Ichiro, Bushi Moto",
+        "anel_ou_trait": "Terra",
+        "custo": "4",
+        "texto_pt": "Reduza as penalidades de NA por Nível de Ferimentos valor de seu Anel de Terra",
+        "source_book": "Core Rulebook",
+        "pagina": 260
+      },
+      {
+        "nome": "Estilo Lâmina Oculta",
+        "tipo": "kata",
+        "pre_requisito": "Ar 4, Escolas: Bushi Bayushi, Bushi Yoritomo",
+        "anel_ou_trait": "Ar",
+        "custo": "4",
+        "texto_pt": "Seus ataques de Desarme causam dano normal ao invés de 2k1. Você não pode aumentar o dano de seus ataques através de Incrementos (incluindo uso da Manobra Finta).",
+        "source_book": "Core Rulebook",
+        "pagina": 260
+      },
+      {
+        "nome": "Estilo Lâminas Giratórias",
+        "tipo": "kata",
+        "pre_requisito": "Fogo 5, Escolas: Bushi Mirumoto, Bushi Yoritomo",
+        "anel_ou_trait": "Fogo",
+        "custo": "5",
+        "texto_pt": "Uma vez por turno ao empunhar uma arma em cada mão, você pode fazer uma Manobra de Ataque Extra por 3 Incrementos ao invés de 5. O segundo ataque usa a arma da sua mão inábil, causando o dano apropriado. Você não pode anunciar Incrementos em nenhum ataque para aumentar o dano.",
+        "source_book": "Core Rulebook",
+        "pagina": 260
+      },
+      {
+        "nome": "Estilo Mundo Fugaz",
+        "tipo": "kata",
+        "pre_requisito": "Fogo 4, Escolas: Akodo Bushi, Kakita Bushi",
+        "anel_ou_trait": "Fogo",
+        "custo": "4",
+        "texto_pt": "Escolha um oponente. Uma vez por turno contra este oponente, você pode usar seu Atributo Agilidade ao invés de seu Atributo Força em avaliações de dano.",
+        "source_book": "Core Rulebook",
+        "pagina": 260
+      },
+      {
+        "nome": "Estilo Rajada de Vento",
+        "tipo": "kata",
+        "pre_requisito": "Ar 3, Escolas: Bushi Kakita, Bushi Bayushi",
+        "anel_ou_trait": "Ar",
+        "custo": "3",
+        "texto_pt": "Seu Nível de Iniciativa aumenta em 2 durante o Estágio de Reação de cada Rodada de Combate. Este efeito se acumula, mas desaparece imediatamente se o kata não estiver mais em efeito.",
+        "source_book": "Core Rulebook",
+        "pagina": 260
+      },
+      {
+        "nome": "Cavalgar o Dragão da Água",
+        "tipo": "kiho",
+        "pre_requisito": "Água 3",
+        "anel_ou_trait": "Água",
+        "custo": "3",
+        "texto_pt": "Caminhar com o poder do Dragão da Água é contar com as incríveis habilidades restauradoras do oceano. Enquanto este Kiho está ativo, durante um número de Rodadas igual ao seu Nível de Sabedoria, você recupera Ferimentos iguais ao seu Anel de Água durante o Estágio de Reação da Rodada.",
+        "source_book": "Core Rulebook",
+        "pagina": 262
+      },
+      {
+        "nome": "Como a Arrebentação",
+        "tipo": "kiho",
+        "pre_requisito": "Água 5 (Atemi)",
+        "anel_ou_trait": "Água",
+        "custo": "5",
+        "texto_pt": "Ao interromper o fluxo de chi de uma pessoa, você pode detê-la sem feri-la. Com um ataque atemi bem sucedido, o alvo de seu golpe perde uma Ação Simples nesta Rodada. Você só pode atingir oponentes que não tenham agido na Rodada atual, e um oponente não pode ser afetado por este Kiho mais do que uma vez por luta.",
+        "source_book": "Core Rulebook",
+        "pagina": 262
+      },
+      {
+        "nome": "Compartilhando as Ondas",
+        "tipo": "kiho",
+        "pre_requisito": "Água 6",
+        "anel_ou_trait": "Água",
+        "custo": "6",
+        "texto_pt": "Certos monges podem canalizar o poder do oceano em seus corpos, movendo e evitando ataques como o próprio mar. Enquanto este Kiho estiver ativo, você ganha Redução igual ao seu Anel de Água. Isto se acumula com Redução de outras fontes, como feitiços e armadura. Este efeito dura um número de Rodadas igual ao dobro do seu Anel de Água.",
+        "source_book": "Core Rulebook",
+        "pagina": 262
+      }
+    ]
+  },
+  "skills": {
+    "skills": [
+      {
+        "nome": "Adivinhação",
+        "trait_associado": "Intelecto",
+        "categoria": "Alta",
+        "emphases_possiveis": [
+          "Astrologia",
+          "Kawaru"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 135
+      },
+      {
+        "nome": "Arte",
+        "trait_associado": "Prontidão",
+        "categoria": "Alta",
+        "emphases_possiveis": [],
+        "source_book": "Core Rulebook",
+        "pagina": 135
+      },
+      {
+        "nome": "Atuação",
+        "trait_associado": "Prontidão",
+        "categoria": "Alta",
+        "emphases_possiveis": [
+          "Clã",
+          "Gênero",
+          "Profissão"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 135
+      },
+      {
+        "nome": "Caligrafia",
+        "trait_associado": "Intelecto",
+        "categoria": "Alta",
+        "emphases_possiveis": [
+          "Cifra",
+          "Alto Rokugani"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 135
+      },
+      {
+        "nome": "Cerimônia do Chá",
+        "trait_associado": "Vazio",
+        "categoria": "Alta",
+        "emphases_possiveis": [],
+        "source_book": "Core Rulebook",
+        "pagina": 135
+      },
+      {
+        "nome": "Conhecimento",
+        "trait_associado": "Intelecto",
+        "categoria": "Alta",
+        "emphases_possiveis": [],
+        "source_book": "Core Rulebook",
+        "pagina": 136
+      },
+      {
+        "nome": "Corte",
+        "trait_associado": "Prontidão",
+        "categoria": "Alta",
+        "emphases_possiveis": [
+          "Boatos",
+          "Manipulação",
+          "Retórica"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 136
+      },
+      {
+        "nome": "Etiqueta",
+        "trait_associado": "Prontidão",
+        "categoria": "Alta",
+        "emphases_possiveis": [
+          "Burocracia",
+          "Conversação",
+          "Cortesia"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 136
+      },
+      {
+        "nome": "Feitiçaria",
+        "trait_associado": "Intelecto",
+        "categoria": "Alta",
+        "emphases_possiveis": [
+          "Importunar",
+          "Pesquisa de Feitiços"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 137
+      },
+      {
+        "nome": "Investigação",
+        "trait_associado": "Percepção",
+        "categoria": "Alta",
+        "emphases_possiveis": [
+          "Interrogatório",
+          "Notar",
+          "Procurar"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 137
+      },
+      {
+        "nome": "Jogos",
+        "trait_associado": "Variável",
+        "categoria": "Alta",
+        "emphases_possiveis": [],
+        "source_book": "Core Rulebook",
+        "pagina": 137
+      },
+      {
+        "nome": "Medicina",
+        "trait_associado": "Intelecto",
+        "categoria": "Alta",
+        "emphases_possiveis": [
+          "Antídotos",
+          "Doenças",
+          "Fitoterapia",
+          "Inumanos",
+          "Tratamento de Feridas"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 137
+      },
+      {
+        "nome": "Meditação",
+        "trait_associado": "Vazio",
+        "categoria": "Alta",
+        "emphases_possiveis": [
+          "Jejum",
+          "Recuperação de Vazio"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 138
+      },
+      {
+        "nome": "Performance",
+        "trait_associado": "Variável",
+        "categoria": "Alta",
+        "emphases_possiveis": [],
+        "source_book": "Core Rulebook",
+        "pagina": 138
+      },
+      {
+        "nome": "Sinceridade",
+        "trait_associado": "Prontidão",
+        "categoria": "Alta",
+        "emphases_possiveis": [
+          "Honestidade",
+          "Ardil"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 139
+      },
+      {
+        "nome": "Armas de Corrente",
+        "trait_associado": "Agilidade",
+        "categoria": "Bugei",
+        "emphases_possiveis": [
+          "Kusarigama",
+          "Kyoketsu-shogi",
+          "Manrikikusari"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 139
+      },
+      {
+        "nome": "Armas de Haste",
+        "trait_associado": "Agilidade",
+        "categoria": "Bugei",
+        "emphases_possiveis": [
+          "Bisento",
+          "Nagamaki",
+          "Naginata",
+          "Sasumata",
+          "Sodegarami"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 139
+      },
+      {
+        "nome": "Armas Pesadas",
+        "trait_associado": "Agilidade",
+        "categoria": "Bugei",
+        "emphases_possiveis": [
+          "Dai Tsuchi",
+          "Masakari",
+          "Ono",
+          "Tetsubo"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 139
+      },
+      {
+        "nome": "Bastões",
+        "trait_associado": "Agilidade",
+        "categoria": "Bugei",
+        "emphases_possiveis": [
+          "Bo",
+          "Jo",
+          "Machi-kanshisha",
+          "Nunchaku",
+          "Sang Kauw",
+          "Tonfa"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 140
+      },
+      {
+        "nome": "Batalha",
+        "trait_associado": "Percepção",
+        "categoria": "Bugei",
+        "emphases_possiveis": [
+          "Combate em Massa",
+          "Luta"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 140
+      },
+      {
+        "nome": "Caça",
+        "trait_associado": "Percepção",
+        "categoria": "Bugei",
+        "emphases_possiveis": [
+          "Sobrevivência",
+          "Rastros",
+          "Preceder"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 140
+      },
+      {
+        "nome": "Cavalaria",
+        "trait_associado": "Agilidade",
+        "categoria": "Bugei",
+        "emphases_possiveis": [
+          "Cavalo Corredor Gaijin",
+          "Pônei Rokugani",
+          "Corcel Utaku"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 140
+      },
+      {
+        "nome": "Defesa",
+        "trait_associado": "Reflexos",
+        "categoria": "Bugei",
+        "emphases_possiveis": [],
+        "source_book": "Core Rulebook",
+        "pagina": 140
+      },
+      {
+        "nome": "Esportes",
+        "trait_associado": "Força",
+        "categoria": "Bugei",
+        "emphases_possiveis": [
+          "Escalada",
+          "Corrida",
+          "Natação",
+          "Arremesso"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 141
+      },
+      {
+        "nome": "Facas",
+        "trait_associado": "Agilidade",
+        "categoria": "Bugei",
+        "emphases_possiveis": [
+          "Aiguchi",
+          "Jitte",
+          "Kama",
+          "Sai",
+          "Tanto"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 141
+      },
+      {
+        "nome": "Iaijutsu",
+        "trait_associado": "Reflexos",
+        "categoria": "Bugei",
+        "emphases_possiveis": [
+          "Avaliação",
+          "Foco"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 141
+      },
+      {
+        "nome": "Jiujutsu",
+        "trait_associado": "Agilidade",
+        "categoria": "Bugei",
+        "emphases_possiveis": [
+          "Imobilizar",
+          "Armas Improvisadas",
+          "Artes Marciais"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 142
+      },
+      {
+        "nome": "Kenjutsu",
+        "trait_associado": "Agilidade",
+        "categoria": "Bugei",
+        "emphases_possiveis": [],
+        "source_book": "Core Rulebook",
+        "pagina": 142
+      },
+      {
+        "nome": "Kyujutsu",
+        "trait_associado": "Reflexos",
+        "categoria": "Bugei",
+        "emphases_possiveis": [
+          "Dai-kyu",
+          "Han-kyu",
+          "Yumi"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 142
+      },
+      {
+        "nome": "Lanças",
+        "trait_associado": "Agilidade",
+        "categoria": "Bugei",
+        "emphases_possiveis": [
+          "Mai Chong",
+          "Kumade",
+          "Lance",
+          "Nage-yari",
+          "Yari"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 142
+      },
+      {
+        "nome": "Leque de Guerra",
+        "trait_associado": "Agilidade",
+        "categoria": "Bugei",
+        "emphases_possiveis": [],
+        "source_book": "Core Rulebook",
+        "pagina": 142
+      },
+      {
+        "nome": "Ninjutsu",
+        "trait_associado": "Agilidade ou Reflexos",
+        "categoria": "Baixa",
+        "emphases_possiveis": [
+          "Zarabatana",
+          "Shuriken",
+          "Tsubute"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 143
+      },
+      {
+        "nome": "Comércio",
+        "trait_associado": "Intelecto",
+        "categoria": "Mercante",
+        "emphases_possiveis": [
+          "Avaliação",
+          "Cálculos"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 143
+      },
+      {
+        "nome": "Criação",
+        "trait_associado": "Variável",
+        "categoria": "Mercante",
+        "emphases_possiveis": [],
+        "source_book": "Core Rulebook",
+        "pagina": 143
+      },
+      {
+        "nome": "Engenharia",
+        "trait_associado": "Intelecto",
+        "categoria": "Mercante",
+        "emphases_possiveis": [
+          "Construção",
+          "Cerco"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 143
+      },
+      {
+        "nome": "Treinar Animais",
+        "trait_associado": "Prontidão",
+        "categoria": "Mercante",
+        "emphases_possiveis": [],
+        "source_book": "Core Rulebook",
+        "pagina": 143
+      },
+      {
+        "nome": "Velejar",
+        "trait_associado": "Agilidade ou Intelecto",
+        "categoria": "Mercante",
+        "emphases_possiveis": [
+          "Nós",
+          "Navegação"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 144
+      },
+      {
+        "nome": "Falsificação",
+        "trait_associado": "Agilidade",
+        "categoria": "Baixa",
+        "emphases_possiveis": [],
+        "source_book": "Core Rulebook",
+        "pagina": 144
+      },
+      {
+        "nome": "Furtividade",
+        "trait_associado": "Agilidade",
+        "categoria": "Baixa",
+        "emphases_possiveis": [
+          "Emboscada",
+          "Ocultação",
+          "Esgueirar",
+          "Invocação"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 144
+      },
+      {
+        "nome": "Intimidação",
+        "trait_associado": "Vontade",
+        "categoria": "Baixa",
+        "emphases_possiveis": [
+          "Ameaça",
+          "Controle",
+          "Tortura"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 145
+      },
+      {
+        "nome": "Mãos Rápidas",
+        "trait_associado": "Agilidade",
+        "categoria": "Baixa",
+        "emphases_possiveis": [
+          "Ocultar",
+          "Fuga",
+          "Punga",
+          "Prestidigitação"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 145
+      },
+      {
+        "nome": "Tentação",
+        "trait_associado": "Prontidão",
+        "categoria": "Baixa",
+        "emphases_possiveis": [
+          "Corrupção",
+          "Sedução"
+        ],
+        "source_book": "Core Rulebook",
+        "pagina": 145
+      }
+    ]
+  },
+  "spells": {
+    "spells": [
+      {
+        "nome": "Comunicar",
+        "anel": "Todos",
+        "mastery_level": 1,
+        "area": "O Invocador",
+        "duracao": "Concentração",
+        "texto_pt": "Este feitiço pode ser invocado por qualquer elemento exceto Vazio. Ele permite que o invocador fale com um dos kamis elementais locais, fazendo-lhes algumas perguntas, que eles responderão honestamente com o melhor de suas capacidades. Normalmente este feitiço invocará o espírito mais ativo e enérgico do elemento escolhido na área de efeito; se todos os espíritos locais estiverem quietos, o Mestre pode pedir que o invocador faça 1 ou 2 Incrementos para \"acordar\" um espírito local o bastante para responder as perguntas.",
+        "source_book": "Core Rulebook",
+        "pagina": 167
+      },
+      {
+        "nome": "Invocar",
+        "anel": "Todos",
+        "mastery_level": 1,
+        "area": "30 dm³ do material invocado",
+        "duracao": "Permanente",
+        "texto_pt": "Este feitiço pode ser invocado para qualquer um dos quatro elementos padrão. Ele permite que o invocador invoque uma modesta quantidade (30 dm³) do elemento escolhido. A matéria invocada aparece (normalmente em uma forma vagamente esférica) em qualquer espaço aberto dentro do alcance do feitiço. Isto não coloca o material invocado dentro de outro objeto físico ou criatura viva. O elemento invocado se comportará da maneira normal e mundana — terra cai no chão, água molha qualquer coisa em que caia, ar some e fogo se extingue a menos que algo esteja presente para queimar.",
+        "source_book": "Core Rulebook",
+        "pagina": 168
+      },
+      {
+        "nome": "Sentir",
+        "anel": "Todos",
+        "mastery_level": 1,
+        "area": "15 m em volta do invocador",
+        "duracao": "Instantâneo",
+        "texto_pt": "Este feitiço pode ser invocado com qualquer um dos quatro elementos padrões. Ele permite que o invocador sinta a presença, quantidade e localização aproximada de espíritos elementais (não os espíritos malignos conhecidos como kansen) deste elemento no alcance do feitiço.",
+        "source_book": "Core Rulebook",
+        "pagina": 168
+      },
+      {
+        "nome": "Bo de Água",
+        "anel": "Água",
+        "mastery_level": 1,
+        "area": "Uma arma criada",
+        "duracao": "5 minutos",
+        "texto_pt": "Você invoca um bastão de pura água, tão rígido quanto um verdadeiro, apesar de sua natureza fluida. A forma padrão da arma é um bo, mas um Incremento pode mudar sua forma para qualquer outro bastão à sua escolha. A arma tem ND 1k2. Se você não possui a Perícia Bastões, você pode usar seu Nível de Escola em seu lugar. Se você possui a Perícia Bastões, usar a arma lhe concede um Incremento Livre que só pode ser usado na Manobra Derrubar. Esta arma desaparece se você a soltar. Ao invés de invocar o bo para si, você pode fazê-lo aparecer nas mãos de um aliado a 6 m. Ele é tratado como o invocador para os propósitos do feitiço, mas não ganha quaisquer bônus de Incrementos Livres.",
+        "source_book": "Core Rulebook",
+        "pagina": 170
+      },
+      {
+        "nome": "Caminho à Paz Interior",
+        "anel": "Água",
+        "mastery_level": 1,
+        "area": "Um indivíduo alvo",
+        "duracao": "Instantânea",
+        "texto_pt": "Os kamis da água podem influenciar o fluxo de água pelo corpo, acelerando drasticamente o processo de cura natural. Você pode usar este feitiço para curar Ferimentos que outro indivíduo sofreu. Este feitiço restaura um número de Ferimentos do alvo igual à quantidade pela qual o Teste de Conjuração excedeu o NA do feitiço.",
+        "source_book": "Core Rulebook",
+        "pagina": 170
+      },
+      {
+        "nome": "Clareza de Propósito",
+        "anel": "Água",
+        "mastery_level": 1,
+        "area": "3 m ao redor do invocador",
+        "duracao": "2 rodadas",
+        "texto_pt": "Uma das várias forças da água é sua velocidade. Todo aliado na área de efeito deste feitiço ganha um bônus de +5 em seus Níveis de Iniciativa pela duração do feitiço.",
+        "source_book": "Core Rulebook",
+        "pagina": 170
+      },
+      {
+        "nome": "Energias Complacentes",
+        "anel": "Água",
+        "mastery_level": 1,
+        "area": "Um indivíduo alvo",
+        "duracao": "Instantânea",
+        "texto_pt": "As energias fluem entre os seres vivos como a água pela terra. Você pode transferir um efeito de feitiço existente de você para um alvo voluntário deste feitiço. Com três Incrementos, você pode transferir um efeito de feitiço de um alvo voluntário para outro involuntário. Você não pode transferir feitiços entre alvos involuntários.",
+        "source_book": "Core Rulebook",
+        "pagina": 170
+      },
+      {
+        "nome": "Espírito da Água",
+        "anel": "Água",
+        "mastery_level": 1,
+        "area": "Um indivíduo alvo",
+        "duracao": "Instantânea",
+        "texto_pt": "O espírito da água é fluido e rápido. O alvo ganha uma Ação Simples adicional durante o Estágio de Reação da Rodada em que este feitiço é invocado. Esta Ação não pode ser usada para fazer um ataque.",
+        "source_book": "Core Rulebook",
+        "pagina": 170
+      },
+      {
+        "nome": "Força Fluente",
+        "anel": "Água",
+        "mastery_level": 1,
+        "area": "Uma criatura alvo",
+        "duracao": "3 rodadas",
+        "texto_pt": "A energia flui pelo universo como a água flui pelo corpo mortal. Você pode mandar sua energia para outra pessoa, enfraquecendo-se, mas fortalecendo-a no processo. Você pode reduzir qualquer um de seus Atributos Físicos em uma quantidade no máximo igual ao seu Nível de Escola. O alvo deste feitiço aumenta o mesmo Atributo Físico pela mesma quantidade. Se seu Atributo for reduzido a 0 como resultado deste feitiço, você imediatamente cai inconsciente e a duração do feitiço é reduzida para 1 rodada. Nenhum Atributo pode ser aumentado além do dobro de seu nível normal por este feitiço.",
+        "source_book": "Core Rulebook",
+        "pagina": 170
+      },
+      {
+        "nome": "A Onda Crescente",
+        "anel": "Água",
+        "mastery_level": 1,
+        "area": "Um indivíduo alvo",
+        "duracao": "1 rodada",
+        "texto_pt": "Você pode aumentar temporariamente a velocidade do seu alvo. Este feitiço permite que o alvo faça uma Ação de Movimento Livre até o máximo de seu Anel de Água x 3 m (ao invés do normal 1,5 m). Sem Incrementos para Duração, este benefício deve ser usado no próximo turno do alvo ou é perdido.",
+        "source_book": "Core Rulebook",
+        "pagina": 170
+      },
+      {
+        "nome": "Reflexões de Pan Ku",
+        "anel": "Água",
+        "mastery_level": 1,
+        "area": "Um objeto",
+        "duracao": "Instantânea",
+        "texto_pt": "Adivinhar as capacidades de um objeto está entre as lições mais simples que os alunos da água aprendem no templo. Se este feitiço é invocado com sucesso em um objeto, você automaticamente descobre todos os poderes e habilidades que o objeto possui. Isto normalmente é usado para identificar quaisquer qualidades sobrenaturais que um item possua, como uma nemuranai ou uma arma amaldiçoada, mas também pode identificar o feitiço contido no pergaminho de um shugenja.",
+        "source_book": "Core Rulebook",
+        "pagina": 170
+      }
+    ]
+  },
+  "advantages_disadvantages": {
+    "advantages": [
+      {
+        "nome": "Alma da Arte",
+        "custo_pontos": 4,
+        "texto_pt": "Sua alma vibra com o espírito da criatividade. Escolha entre Perícias de Arte ou de Criação ao comprar esta Vantagem. A qualquer momento que você precisar fazer uma Teste sem Perícia para o uso de uma Perícia do tipo escolhido, é considerado que você tem 1 nível nesta Perícia. Personagens da Garça ou cortesãos podem comprar esta Vantagem por 3 pontos.",
+        "source_book": "Core Rulebook",
+        "pagina": 146
+      },
+      {
+        "nome": "Amado pela Corte",
+        "custo_pontos": 2,
+        "texto_pt": "Durante uma recente corte, você fez algo que ganhou a atenção do anfitrião, resultando em um aumento instantâneo de sua importância para todos os que estavam lá. Escolha uma corte, como a corte de Kyuden Bayushi, a corte do distrito Okura em Toshi Ranbo, etc. Quando servir nesta corte, seu Status é efetivamente um nível maior, mas apenas quando a corte está em sessão. Personagens cortesãos podem comprar esta Vantagem por 1 ponto. Você pode comprar esta Vantagem múltiplas vezes para cortes diferentes, mas apenas uma vez para cada corte em particular.",
+        "source_book": "Core Rulebook",
+        "pagina": 146
+      },
+      {
+        "nome": "Amigo da Irmandade",
+        "custo_pontos": 5,
+        "texto_pt": "Você estudou entre seus aliados da Irmandade de Shinsei, e como resultado, você compreende seu lugar no universo um pouco melhor do que os outros. Você pode comprar Kihos (regras para Kihos estão no Livro da Água) como se fosse um Monge da Irmandade de Shinsei, ao invés de pagar um custo maior. Você ainda precisa atender as outras restrições normais para aprender um Kiho. Apenas personagens de Escolas de Monge e Shugenja (e personagens não Monges da Irmandade de Shinsei) podem comprar esta Vantagem. Personagens do Dragão podem comprar esta Vantagem por 4 pontos.",
+        "source_book": "Core Rulebook",
+        "pagina": 146
+      },
+      {
+        "nome": "Amigo dos Elementos",
+        "custo_pontos": 4,
+        "texto_pt": "Os espíritos de um Elemento em particular o circundam sempre, prestando ajuda quando possível mesmo que você nem saiba de sua presença. Escolha um Anel quando esta Vantagem é comprada. Sempre que você fizer um Teste com qualquer Atributo associado a este Anel, você ganha um Incremento Livre. Personagens shugenjas podem comprar esta Vantagem por 3 pontos.",
+        "source_book": "Core Rulebook",
+        "pagina": 146
+      },
+      {
+        "nome": "Astro",
+        "custo_pontos": 3,
+        "texto_pt": "Você é capaz de cativar a multidão, não importando as circunstâncias. Sempre que tiver que fazer um Teste de Perícia usando uma Perícia de Performance que você não possui, considere que você tem 1 nível nesta Perícia.",
+        "source_book": "Core Rulebook",
+        "pagina": 147
+      },
+      {
+        "nome": "Astuto",
+        "custo_pontos": 3,
+        "texto_pt": "Você tem um talento instintivo para saber como fazer coisas que muitas pessoas preferem evitar. Sempre que estiver em uma situação em que for forçado a fazer um Teste sem Perícia para o uso de uma Baixa Perícia, considere que você tem 1 nível na Perícia. Personagens do Escorpião, Aranha ou ninjas podem comprar esta Vantagem por 2 pontos.",
+        "source_book": "Core Rulebook",
+        "pagina": 147
+      },
+      {
+        "nome": "Atento",
+        "custo_pontos": 3,
+        "texto_pt": "Você está constantemente alerta, sempre esperando o inesperado. Ao rolar Investigação (Notar) / Percepção contra Furtividade (Emboscada) / Agilidade para detectar uma emboscada, você soma +1k1 ao seu Teste.",
+        "source_book": "Core Rulebook",
+        "pagina": 147
+      }
+    ],
+    "disadvantages": [
+      {
+        "nome": "Amaldiçoado pelo Reino",
+        "pontos_concedidos": 4,
+        "texto_pt": "A influência dos reinos espirituais pode ser sentida pelo reino mortal do Ningen-dô, e por alguma razão, a essência de um reino em particular o marcou como inimigo de tudo que emana deste reino. Esta Desvantagem vale 5 pontos para personagens shugenjas.",
+        "source_book": "Core Rulebook",
+        "pagina": 155
+      },
+      {
+        "nome": "Amor Perdido",
+        "pontos_concedidos": 3,
+        "texto_pt": "Você divide um laço de amor verdadeiro com outra pessoa, mas a perdeu. Ele não precisa ser um amor romântico, pois amor fraternal ou familiar é igualmente trágico. Você tende a sofrer ímpetos de melancolia quando lembrado de seu amor perdido. Quando você se lembra da sua perda, todos os seus NA’s são aumentados em 5 até você gastar um Ponto de Vazio para recuperar o seu foco. Esta interrupção de sua concentração não pode ocorrer mais do que duas vezes por dia, e pelo menos uma hora deve se passar entre esses casos.",
+        "source_book": "Core Rulebook",
+        "pagina": 156
+      },
+      {
+        "nome": "Amor Verdadeiro",
+        "pontos_concedidos": 3,
+        "texto_pt": "Amor verdadeiro em Rokugan pode ser uma experiência maravilhosa, mas normalmente é um desastre, pois é raro que samurais tenham permissão para se casarem por amor. Sempre que estiver em uma posição em que tiver que escolher entre seu amor e o dever, você deve gastar um Ponto de Vazio antes de escolher seu dever acima de seu amor.",
+        "source_book": "Core Rulebook",
+        "pagina": 156
+      },
+      {
+        "nome": "Aparência Incômoda",
+        "pontos_concedidos": 3,
+        "texto_pt": "Algo em sua aparência faz os outros responderem-lhe com preocupação e atenção. Você não é necessariamente repulsivo, meramente incômodo de algum modo. O NA de qualquer Teste de Perícia Social é aumentado em +5. Esta Desvantagem vale 4 pontos para personagens da Aranha.",
+        "source_book": "Core Rulebook",
+        "pagina": 156
+      },
+      {
+        "nome": "Aposentadoria Forçada",
+        "pontos_concedidos": 4,
+        "texto_pt": "Você foi forçado a se aposentar precocemente, sendo integrando um monastério, talvez por razões políticas ou por desgraça pública. Você não pode avançar mais em sua Escola. Ao obter um novo Nível de Sabedoria, você deve começar a pegar níveis de uma Escola de Monge neutra (vide o Livro da Água). Você não precisa da Vantagem Escolas Múltiplas para isto. Você não é mais considerado membro do seu Clã. Esta Desvantagem vale 5 pontos para personagens monges.",
+        "source_book": "Core Rulebook",
+        "pagina": 156
+      },
+      {
+        "nome": "Assombrado",
+        "pontos_concedidos": 3,
+        "texto_pt": "Um de seus ancestrais escolheu dedicar atenção pessoal a você, constantemente lhe oferecendo conselhos e fazendo exigências. Talvez o ancestral só deseje que você viva de acordo com os ideais de seu Clã e família, ou talvez tenha alguma tarefa inacabada ou dever que deseje que você complete. Você deve mostrar toda a devida deferência e respeito ao seu ancestral, e fazer o melhor para viver de acordo com suas expectativas. Se falhar em fazê-lo, seu ancestral trará má fortuna para você: enquanto seu ancestral continuar furioso, uma vez por sessão uma de suas jogadas (à escolha do Mestre) sofrerá uma penalidade -1k1.",
+        "source_book": "Core Rulebook",
+        "pagina": 156
+      },
+      {
+        "nome": "Baixa Resistência a Dor",
+        "pontos_concedidos": 4,
+        "texto_pt": "Sua capacidade de se concentrar diante da dor é inferior à dos outros. As penalidades de NA que você sofre por Níveis de Ferimentos são aumentadas em +5 em cada nível.",
+        "source_book": "Core Rulebook",
+        "pagina": 156
+      }
+    ]
+  },
+  "equipment": {
+    "weapons": [
+      {
+        "nome": "Katana",
+        "dano": "3k2",
+        "preco": "Não disponível",
+        "raridade": "N/A",
+        "source_book": "Core Rulebook",
+        "pagina": 203
+      },
+      {
+        "nome": "Ninja-to",
+        "dano": "2k2",
+        "preco": "5 kokus",
+        "raridade": "N/A",
+        "source_book": "Core Rulebook",
+        "pagina": 203
+      },
+      {
+        "nome": "No-dachi",
+        "dano": "3k3",
+        "preco": "30 kokus",
+        "raridade": "N/A",
+        "source_book": "Core Rulebook",
+        "pagina": 203
+      },
+      {
+        "nome": "Cimitara",
+        "dano": "2k3",
+        "preco": "20 kokus",
+        "raridade": "N/A",
+        "source_book": "Core Rulebook",
+        "pagina": 204
+      },
+      {
+        "nome": "Wakizashi",
+        "dano": "2k2",
+        "preco": "15 kokus",
+        "raridade": "N/A",
+        "source_book": "Core Rulebook",
+        "pagina": 204
+      },
+      {
+        "nome": "Bisento",
+        "dano": "3k3",
+        "preco": "12 kokus",
+        "raridade": "N/A",
+        "source_book": "Core Rulebook",
+        "pagina": 201
+      },
+      {
+        "nome": "Nagamaki",
+        "dano": "2k3",
+        "preco": "8 kokus",
+        "raridade": "N/A",
+        "source_book": "Core Rulebook",
+        "pagina": 201
+      },
+      {
+        "nome": "Naginata",
+        "dano": "3k2",
+        "preco": "10 kokus",
+        "raridade": "N/A",
+        "source_book": "Core Rulebook",
+        "pagina": 201
+      },
+      {
+        "nome": "Yari",
+        "dano": "2k2",
+        "preco": "5 kokus",
+        "raridade": "N/A",
+        "source_book": "Core Rulebook",
+        "pagina": 205
+      }
+    ],
+    "armor": [
+      {
+        "nome": "Armadura Ashigaru",
+        "bonus_tn": "+3",
+        "reducao_dano": "1",
+        "preco": "5 kokus",
+        "source_book": "Core Rulebook",
+        "pagina": 198
+      },
+      {
+        "nome": "Armadura Leve",
+        "bonus_tn": "+5",
+        "reducao_dano": "3",
+        "preco": "25 koku",
+        "source_book": "Core Rulebook",
+        "pagina": 198
+      },
+      {
+        "nome": "Armadura Pesada",
+        "bonus_tn": "+10",
+        "reducao_dano": "5",
+        "preco": "40 koku",
+        "source_book": "Core Rulebook",
+        "pagina": 198
+      },
+      {
+        "nome": "Armadura de Cavalaria",
+        "bonus_tn": "+4 (+12 quando a cavalo)",
+        "reducao_dano": "4",
+        "preco": "55 koku",
+        "source_book": "Core Rulebook",
+        "pagina": 198
+      }
+    ],
+    "gear": [
+      {
+        "nome": "Aljava",
+        "efeito_pt": "Bolsa de tecido para flechas (até 60)",
+        "preco": "20 zenis",
+        "source_book": "Core Rulebook",
+        "pagina": 205
+      },
+      {
+        "nome": "Dedo de Jade",
+        "efeito_pt": "Raro e usado para repelir as Terras Sombrias",
+        "preco": "1 koku",
+        "source_book": "Core Rulebook",
+        "pagina": 205
+      },
+      {
+        "nome": "Kit de Medicina",
+        "efeito_pt": "Agulhas e linhas, bandagens de pano, ervas desinfetantes (10 usos)",
+        "preco": "1 bu ou mais",
+        "source_book": "Core Rulebook",
+        "pagina": 206
+      },
+      {
+        "nome": "Selo e Carimbo Pessoal",
+        "efeito_pt": "Usado para assinar documentos formais e verificar identidades",
+        "preco": "4 bus",
+        "source_book": "Core Rulebook",
+        "pagina": 206
+      },
+      {
+        "nome": "Suporte de Daisho",
+        "efeito_pt": "Facilmente desmontado e carregado, este é um suporte para exibir seu daisho e tanto",
+        "preco": "1 koku",
+        "source_book": "Core Rulebook",
+        "pagina": 206
+      }
+    ]
+  }
+}

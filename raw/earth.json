@@ -1,0 +1,527 @@
+{
+  "schools": {
+    "schools": [
+      {
+        "nome": "Order of the Nameless Gift",
+        "cla": "Brotherhood of Shinsei",
+        "familia": "Brotherhood of Shinsei",
+        "tipo": "monk",
+        "trait_inicial_bonus": "Stamina",
+        "skills_de_escola": [
+          "Athletics",
+          "Defense",
+          "Jiujutsu",
+          "Lore (pick one)",
+          "Meditation",
+          "Any Skill",
+          "Any Skill"
+        ],
+        "honra_inicial": 4.5,
+        "status_inicial": 1.0,
+        "equipamento_inicial": [
+          "Robes",
+          "Sandals",
+          "Traveling Pack",
+          "Any 1 Weapon",
+          "Coin purse (1 koku)"
+        ],
+        "tecnica_por_rank": [
+          {
+            "rank": 1,
+            "nome": "Shinsei’s Gift",
+            "texto_pt": "Um monge ensinado pela Order of the Nameless Gift pode ser um poço sem fim de resiliência, paciência e percepção. Como eles são muito mais mundanos do que muitos outros monges na Irmandade, seu treinamento e experiência somam-se à mente astuta e força em combate típica de um monge. Você recebe um número de Pontos de Vazio por dia igual ao seu Anel de Terra, mas estes Pontos de Vazio só podem ser gastos para reduzir dano ou aumentar seu NA de Armadura. Estes Pontos de Vazio não podem ser gastos simultaneamente com outros Pontos de Vazio ou de qualquer outra forma."
+          }
+        ],
+        "source_book": "Book of Earth",
+        "pagina": 206
+      },
+      {
+        "nome": "Temple of Persistence",
+        "cla": "Brotherhood of Shinsei",
+        "familia": "Brotherhood of Shinsei",
+        "tipo": "monk",
+        "trait_inicial_bonus": "Stamina",
+        "skills_de_escola": [
+          "Athletics",
+          "Defense",
+          "Jiujutsu (Martial Arts)",
+          "Lore: Theology",
+          "Meditation",
+          "Any Bugei Skill",
+          "Any Skill"
+        ],
+        "honra_inicial": 3.5,
+        "status_inicial": 1.0,
+        "equipamento_inicial": [
+          "Robes",
+          "Sandals",
+          "Traveling Pack",
+          "Any 1 Weapon",
+          "Coin purse (1 koku)"
+        ],
+        "tecnica_por_rank": [
+          {
+            "rank": 1,
+            "nome": "Unyielding Spirit",
+            "texto_pt": "Membros da Order of Persistence são conhecidos por serem obstinados no corpo e na alma. Eles não apenas suportam os ataques furiosos de outros, mas aprendem a avançar ativamente em direção ao seu objetivo. Você pode gastar um Ponto de Vazio como uma Ação Livre para ignorar todas as penalidades em uma rolagem de dados imediatamente subsequente. Se usar esta Técnica ao realizar uma Rolagem Disputada que você não iniciou ou uma Rolagem de Ataque, você também pode adicionar +Xk0 à rolagem, onde X é o seu Anel de Terra."
+          }
+        ],
+        "source_book": "Book of Earth",
+        "pagina": 206
+      }
+    ]
+  },
+  "kata_kiho": {
+    "kata_kiho": [
+      {
+        "nome": "The Power of the Mountain",
+        "tipo": "kata",
+        "pre_requisito": "Ring Mastery: Earth 3",
+        "anel_ou_trait": "Terra",
+        "custo": "N/A",
+        "texto_pt": "Efeito: Quando este Kata é ativado, você reduz sua ND de Armadura em um valor de até seu Anel de Terra; isso dura até que você desative o Kata. Todas as rolagens de dano que você fizer enquanto este Kata estiver em efeito têm seus totais aumentados pelo mesmo valor.",
+        "source_book": "Book of Earth",
+        "pagina": 194
+      },
+      {
+        "nome": "The Strength of the Mountain",
+        "tipo": "kata",
+        "pre_requisito": "Ring Mastery: Earth 3",
+        "anel_ou_trait": "Terra",
+        "custo": "N/A",
+        "texto_pt": "Efeito: Quando este Kata é ativado, você reduz sua Iniciativa em um valor de até seu Anel de Terra. (Isso não pode reduzir sua Iniciativa abaixo de 0.) Esta penalidade de Iniciativa dura até que você desative o Kata. Enquanto este Kata estiver em efeito, sua ND de Armadura é aumentada pelo mesmo valor.",
+        "source_book": "Book of Earth",
+        "pagina": 194
+      },
+      {
+        "nome": "Lee of the Stone",
+        "tipo": "kata",
+        "pre_requisito": "Ring Mastery: Earth 4",
+        "anel_ou_trait": "Terra",
+        "custo": "N/A",
+        "texto_pt": "Efeito: Enquanto estiver nas Posturas de Defesa ou Defesa Total, sua ND de Armadura é aumentada em um valor adicional igual ao seu Anel de Terra.",
+        "source_book": "Book of Earth",
+        "pagina": 195
+      },
+      {
+        "nome": "Strike as the Avalanche",
+        "tipo": "kata",
+        "pre_requisito": "Ring Mastery: Earth 3",
+        "anel_ou_trait": "Terra",
+        "custo": "N/A",
+        "texto_pt": "Efeito: Ao usar a perícia Heavy Weapons, sua Força é considerada um Rank maior para fins de determinação de dano.",
+        "source_book": "Book of Earth",
+        "pagina": 195
+      },
+      {
+        "nome": "Weathered and Unbroken",
+        "tipo": "kata",
+        "pre_requisito": "Ring Mastery: Earth 5",
+        "anel_ou_trait": "Terra",
+        "custo": "N/A",
+        "texto_pt": "Efeito: Sua Água é considerada dois Ranks menor (até um mínimo de 1) para fins de movimento. Todas as rolagens de ataque feitas com a perícia Heavy Weapons ganham o benefício de um Aumento Gratuito que só pode ser usado para a Manobra de Derrubar (Knockdown).",
+        "source_book": "Book of Earth",
+        "pagina": 195
+      },
+      {
+        "nome": "Shadowed Mountain",
+        "tipo": "kiho",
+        "pre_requisito": "Ring Mastery: Earth 6",
+        "anel_ou_trait": "Terra",
+        "custo": "N/A",
+        "texto_pt": "Tipo: Interno. Quando este Kiho está ativo, você pode escolher entrar na Postura de Defesa Total imediatamente antes de ser atacado. Isso não precisa ser a primeira vez que você é atacado após ativar este Kiho, mas só pode ser feito uma vez por ativação. Depois de ativar este Kiho, você não pode mudar de Postura durante sua próxima oportunidade de fazê-lo (durante sua chance normal no seu Turno ou devido a outro efeito). Este Kiho dura pelo resto do dia ou até ser usado.",
+        "source_book": "Book of Earth",
+        "pagina": 205
+      },
+      {
+        "nome": "Depths of the World",
+        "tipo": "kiho",
+        "pre_requisito": "Ring Mastery: Earth 4",
+        "anel_ou_trait": "Terra",
+        "custo": "N/A",
+        "texto_pt": "Tipo: Interno. Quando este Kiho é ativado, você pode imediatamente rolar para se recuperar de uma Condição não permanente ou outro efeito que permita rolagens de recuperação, como Atordoado (Dazed). Este Kiho só pode ser ativado como uma Ação Complexa, mas pode ser ativado (gastando o Ponto de Vazio) mesmo quando você não tem permissão para realizar ações, como quando está Aturdido (Stunned).",
+        "source_book": "Book of Earth",
+        "pagina": 206
+      },
+      {
+        "nome": "Harmony in Earth",
+        "tipo": "kiho",
+        "pre_requisito": "Ring Mastery: Earth 6",
+        "anel_ou_trait": "Terra",
+        "custo": "N/A",
+        "texto_pt": "Tipo: Interno. Quando este Kiho é ativado, você deve permanecer perfeitamente imóvel por um número de Turnos igual a dez menos seu Anel de Terra. Uma vez realizado isso, você é imediatamente capaz de detectar quaisquer impurezas espirituais e físicas a uma distância de quinze metros (50 feet) vezes sua Terra por uma Rodada. ('Impureza' neste sentido não se limita a coisas como a Mácula, mas abrange qualquer coisa que o Mestre julgue fora de lugar física ou espiritualmente.) Você aprende a direção da impureza, sua natureza geral (Mácula das Terras Sombrias, veneno, doença, coisas não nativas de Ningen-do) e sua força relativa em comparação com outras na área. O Mestre pode escolher permitir que você faça uma rolagem de perícia de Lore apropriada para o assunto em questão para aprender mais uma informação útil de sua escolha. Você apenas sentirá um número total de impurezas igual ao seu Vazio, detectando as mais fortes primeiro. Este Kiho não é preciso em apontar a localização exata da impureza. Você saberá uma direção geral, mas não uma localização específica. Seres inteligentes que poderiam ser detectados por este Kiho (como os Perdidos) podem tentar derrotar o poder do Kiho fazendo uma Rolagem de Terra Resistida contra você.",
+        "source_book": "Book of Earth",
+        "pagina": 206
+      },
+      {
+        "nome": "The Rolling Avalanche",
+        "tipo": "kiho",
+        "pre_requisito": "Ring Mastery: Earth 5",
+        "anel_ou_trait": "Terra",
+        "custo": "N/A",
+        "texto_pt": "Tipo: Marcial (Atemi). Este Kiho é desferido através de um ataque atemi que causa dano desarmado normal. No entanto, se o ataque for bem-sucedido, sua rolagem de dano é aumentada em +Xk0, onde X é o seu Anel de Terra.",
+        "source_book": "Book of Earth",
+        "pagina": 206
+      },
+      {
+        "nome": "Earth Palm",
+        "tipo": "kiho",
+        "pre_requisito": "Ring Mastery: Earth 6",
+        "anel_ou_trait": "Terra",
+        "custo": "N/A",
+        "texto_pt": "Tipo: Marcial (Atemi). Este Kiho é ativado com um golpe atemi. Se o golpe for bem-sucedido, você deve declarar se está atacando o Fogo ou a Água do seu alvo. Se você atacar a Água do alvo, ele sofre uma penalidade de -4k0 em todas as rolagens de dano. Se você atacar o Fogo do alvo, ele será forçado a partir de então a fazer dois Aumentos sem benefício em cada rolagem de ataque. (No entanto, esses Aumentos não contam para o número máximo de Aumentos que o alvo pode fazer para a rolagem.) Esses efeitos podem ser combinados através de múltiplas aplicações do Kiho, e ambos duram um número de Rodadas igual ao seu Anel de Terra, terminando no estágio de Reações da Rodada final. Cada nova aplicação do Kiho redefine a duração do efeito escolhido. No entanto, você não pode usar este Kiho mais de uma vez por Turno.",
+        "source_book": "Book of Earth",
+        "pagina": 206
+      },
+      {
+        "nome": "Bishamon’s Grasp",
+        "tipo": "kiho",
+        "pre_requisito": "Ring Mastery: Earth 7",
+        "anel_ou_trait": "Terra",
+        "custo": "N/A",
+        "texto_pt": "Tipo: Kármico. Este Kiho só pode ser ativado quando você está na Postura de Defesa ou Defesa Total. Enquanto o Kiho estiver ativo, em seu Turno você pode fazer rolagens de ataque de Agarrar (Grappling) como Ações Livres contra oponentes que atacaram você desde o seu último Turno. (Você pode fazer um ataque de Ação Livre contra cada oponente qualificado, e esta habilidade anula a restrição normal do livro de regras sobre atacar enquanto estiver nessas Posturas.) Oponentes em um Agarrar que você controla enquanto usa este Kiho podem ser Arremessados (Thrown) como uma Ação Livre em vez de uma Ação Complexa; no entanto, se o Mestre permitir que Arremessos em Agarrar causem dano, a rolagem de dano sofre uma penalidade de -1k1. Enquanto este Kiho estiver ativo, você pode permanecer nas Posturas de Defesa ou Defesa Total enquanto mantém um Agarrar.",
+        "source_book": "Book of Earth",
+        "pagina": 206
+      },
+      {
+        "nome": "Rising Mountain",
+        "tipo": "kiho",
+        "pre_requisito": "Ring Mastery: Earth 6",
+        "anel_ou_trait": "Terra",
+        "custo": "N/A",
+        "texto_pt": "Tipo: Kármico. Uma vez ativado, este Kiho dura um número de Rodadas igual ao seu Rank de Discernimento +1. Enquanto este Kiho estiver ativo, toda vez que um atacante fizer um Aumento ao atacar ou realizar outra ação de combate ofensiva contra você (não incluindo feitiços), você ganha Redução igual ao dobro do número de Aumentos feitos. (Este efeito não é ativado por Aumentos Gratuitos.) A Redução é ganha no momento em que os Aumentos são declarados; o ataque inimigo não precisa ser bem-sucedido. Esses aumentos na Redução são cumulativos, mas a Redução total ganha não pode exceder sua Terra x 5. A Redução dura até que o Kiho seja desativado ou o confronto termine, o que ocorrer primeiro.",
+        "source_book": "Book of Earth",
+        "pagina": 207
+      },
+      {
+        "nome": "Wholeness in All",
+        "tipo": "kiho",
+        "pre_requisito": "Ring Mastery: Earth 6",
+        "anel_ou_trait": "Terra",
+        "custo": "N/A",
+        "texto_pt": "Tipo: Kármico. Este Kiho só pode ser ativado após duas horas de meditação ininterrupta. Depois que o tempo tiver passado, você pode ativar o Kiho como uma Ação Complexa (só pode ser ativado desta maneira). Você deve chamar um Aumento na rolagem de ativação para cada veneno mundano, doença ou efeito não sobrenatural semelhante que o afete. Se a rolagem for bem-sucedida, seu corpo é purificado de um número dessas impurezas igual ao número de Pontos de Vazio que você tem no momento (sem contar o Ponto de Vazio gasto para ativar o Kiho). Todos esses Pontos de Vazio restantes são gastos como parte do efeito do Kiho. Este Kiho não funciona na maioria das aflições sobrenaturais, como a Mácula das Terras Sombrias ou pragas mágicas, mas o Mestre tem discernimento sobre se condições incomuns ou semi-mágicas podem ser limpas por ele.",
+        "source_book": "Book of Earth",
+        "pagina": 207
+      }
+    ]
+  },
+  "skills": {
+    "skills": []
+  },
+  "spells": {
+    "spells": [
+      {
+        "nome": "Drawing on the Mountain",
+        "anel": "Terra",
+        "mastery_level": 5,
+        "area": "Uma estrutura alvo (até um pequeno castelo)",
+        "duracao": "1 dia",
+        "texto_pt": "Este feitiço invoca a força da Terra para fortalecer uma estrutura física contra danos. A madeira e a pedra da estrutura alvo – que pode ser tão grande quanto um castelo – são infundidas com a força das próprias montanhas, permitindo que ela resista a inundações, terremotos e aos ataques de máquinas de cerco. Ao usar as regras de Cerco do suplemento L5R 4ª edição The Great Clans, pela duração deste feitiço os Danos e a Redução da estrutura alvo são duplicados. Quando o feitiço expira, os Danos extras são perdidos – se isso reduzir a estrutura a zero de Danos, ela colapsa imediatamente em ruínas.",
+        "source_book": "Book of Earth",
+        "pagina": 198
+      },
+      {
+        "nome": "Earth Dragon's Ward",
+        "anel": "Terra",
+        "mastery_level": 4,
+        "area": "20' de raio",
+        "duracao": "10 minutos",
+        "texto_pt": "Este feitiço clama pelo poder do Dragão da Terra para proteger uma área contra espíritos perigosos. Foi originalmente desenvolvido pela família Isawa, mas logo foi adotado por outras famílias de shugenja, especialmente os Yogo e os Kuni. O feitiço exige que um símbolo de proteção seja inscrito em uma superfície sólida (o chão, uma parede, etc.) antes da conjuração; isso leva cinco minutos. Uma vez conjurado com sucesso, o feitiço protege a área contra espíritos possessores e efeitos, tornando extremamente difícil para qualquer indivíduo dentro da área de efeito ser possuído (seja por um fantasma, gaki, oni, feitiço ou qualquer outra forma). Qualquer espírito ou ser que tente uma possessão dentro da área de efeito deve primeiro ter sucesso em um teste Resistido de Vontade contra o conjurador. (O conjurador estará ciente de que algo tentou penetrar a Proteção e saberá se foi bem-sucedido ou não, mas não saberá a natureza ou identidade da força possessora.) Este feitiço não pode expulsar um espírito que já esteja possuindo alguém; ele apenas protege contra novas possessões.",
+        "source_book": "Book of Earth",
+        "pagina": 198
+      },
+      {
+        "nome": "Grounding Energy",
+        "anel": "Terra",
+        "mastery_level": 5,
+        "area": "Conjurador e todos os aliados dentro de um raio de 20'",
+        "duracao": "3 Rodadas",
+        "texto_pt": "Este feitiço, originalmente criado pelos Yogo, clama pelos espíritos da Terra para fortificar o conjurador e seus companheiros, permitindo que resistam ao poder de feitiços de maho amaldiçoados. Qualquer feitiço de maho que alveje o conjurador ou qualquer um de seus aliados dentro da área de efeito tem seu TN de Conjuração aumentado em um valor igual a 10 vezes a Terra do alvo.",
+        "source_book": "Book of Earth",
+        "pagina": 199
+      },
+      {
+        "nome": "Groves of Stone",
+        "anel": "Terra",
+        "mastery_level": 3,
+        "area": "Barreira circular de 15' de raio",
+        "duracao": "10 Rodadas",
+        "texto_pt": "Este feitiço é uma variação especializada do feitiço mais comum conhecido como Wall of Earth. Ele implora aos espíritos da Terra para erguerem um conjunto de enormes pedras do chão, irrompendo em um instante através da maioria dos obstáculos físicos (como o chão de uma casa) para criar uma barreira circular ao redor do conjurador. As pedras são fortes demais para serem quebradas por qualquer coisa menor que uma máquina de cerco (contra uma máquina de cerco, elas são consideradas como tendo 500 de Danos e Redução 15), mas podem ser escaladas com uma Ação Complexa e um teste de Athletics / Força contra a Terra do conjurador x5. Quando o feitiço expira, as pedras se desfazem em terra solta e poeira.",
+        "source_book": "Book of Earth",
+        "pagina": 199
+      },
+      {
+        "nome": "Jurojin's Curse",
+        "anel": "Terra",
+        "mastery_level": 2,
+        "area": "Uma criatura alvo",
+        "duracao": "1 dia",
+        "texto_pt": "Este feitiço clama aos kami da Terra para removerem toda a proteção de Jurojin, a Fortuna da Saúde e Longevidade, do alvo. Pela duração do feitiço, a Terra do alvo é considerada 3 Ranks menor (até um mínimo de 1) para fins de cura de ferimentos e resistência a doenças ou venenos.",
+        "source_book": "Book of Earth",
+        "pagina": 199
+      },
+      {
+        "nome": "Maw of the Earth",
+        "anel": "Terra",
+        "mastery_level": 4,
+        "area": "Aproximadamente 10' de raio",
+        "duracao": "Permanente",
+        "texto_pt": "Esta prece faz com que os espíritos da Terra no chão abram uma grande fossa de aproximadamente 20 pés de profundidade, engolindo qualquer um nas proximidades. Qualquer pessoa a até 10' da fossa deve rolar seus Reflexos contra a Terra do conjurador ou cair nela, sofrendo 3k2 de dano. Eles também ficam presos na fossa até que sejam resgatados ou consigam escalar para fora. (Escalar para fora da fossa é uma Ação Complexa e requer um teste de Athletics / Força com uma TN igual à profundidade da fossa em pés).",
+        "source_book": "Book of Earth",
+        "pagina": 200
+      },
+      {
+        "nome": "Murmur of Earth",
+        "anel": "Terra",
+        "mastery_level": 3,
+        "area": "Raio de 100 pés ao redor do conjurador",
+        "duracao": "1 rodada",
+        "texto_pt": "Este feitiço excita e enfurece os espíritos da Terra no chão ao redor do conjurador, fazendo com que tremam brevemente no estilo de um terremoto; no entanto, os espíritos se abstêm de tremer o chão imediatamente abaixo do próprio conjurador. Embora este feitiço não produza um terremoto real, o breve tremor ainda pode causar danos e alarme. Qualquer pessoa dentro da área de efeito deve testar Agilidade contra TN 20 or ser derrubada Caída, sofrendo 1k1 de dano e ficando Atordoada por uma Rodada. Móveis e outros itens semelhantes serão derrubados pelo tremor, o que pode ter uma variedade de efeitos conforme o GM deicidir (ex: uma mesa com uma lanterna caindo pode iniciar um incêndio). Ao usar as regras de Cerco do suplemento L5R 4ª edição The Great Clans, Murmur of Earth causará 4k2 de dano a todas as estruturas dentro de sua área de efeito, ignorando sua Redução.",
+        "source_book": "Book of Earth",
+        "pagina": 200
+      },
+      {
+        "nome": "Rites of Preservation",
+        "anel": "Terra",
+        "mastery_level": 2,
+        "area": "Um cadáver humano",
+        "duracao": "1 dia",
+        "texto_pt": "Este feitiço é usado para preservar os corpos dos mortos até que possam ser descartados adequadamente (tipicamente por cremação). Foi originalmente desenvolvido para permitir que os corpos de imperiais e outros nobres de alto escalão fossem preservados com dignidade até seus funerais, já que os ritos fúnebres de tais senhores importantes não apenas são longos, mas também tendem a atrair convidados de grandes distâncias. O Clã Caranguejo também o achou útil para proteger seus mortos contra a Mácula, embora o feitiço seja difícil de usar no campo de batalha. Rites of Preservation é um feitiço de ritual que requer uma hora para ser conjurado. Quando um cadáver é abençoado com esta prece, os kami da Terra são solicitados a proteger o corpo contra a putrefação e outras influências impuras, permitindo que ele permaneça intocado até a cremação. Esta bênção é um dos deveres religiosos mais importantes dos shugenja e, apesar de sua associação com carne morta, é considerada uma tarefa honrosa. Um corpo abençoado por Rites of Preservation não apodrecerá pela duração do feitiço. Além disso, como a bênção repele a atenção dos kansen, o cadáver fica imune a ser animado por maho ou pela Mácula até que o feitiço expire.",
+        "source_book": "Book of Earth",
+        "pagina": 200
+      },
+      {
+        "nome": "Sapphire Strike",
+        "anel": "Terra",
+        "mastery_level": 4,
+        "area": "Uma criatura alvo",
+        "duracao": "Instantânea",
+        "texto_pt": "Durante a Guerra Contra a Escuridão, a família Kuni do Clã Caranguejo percebeu que as forças da Lying Darkness eram unicamente vulneráveis ao poder do cristal. Os Kuni se dedicaram a pesquisar os caminhos do cristal e aprender como invocar seu poder através do meio dos kami da Terra. Esta prece foi o resultado. Um Sapphire Strike se parece muito com o muito mais conhecido Jade Strike, mas a explosão de energia elemental liberada mostra um tom azul-esverdeado distinto, bem diferente da cor verde brilhante de um Jade Strike, à medida que os kami da Terra clamam pela essência das lágrimas da Lady Sun. O Sapphire Strike tem uma DR de 4k4, mas apenas contra alvos que são especificamente vulneráveis a Jade ou Cristal. Ele é considerado tanto Jade quanto Cristal para o propósito de efeitos de jogo, como penetrar Invulnerabilidade ou Redução.",
+        "source_book": "Book of Earth",
+        "pagina": 200
+      },
+      {
+        "nome": "Shelter of the Earth",
+        "anel": "Terra",
+        "mastery_level": 3,
+        "area": "Uma criatura alvo (pode ser o conjurador)",
+        "duracao": "30 minutos",
+        "texto_pt": "Este feitiço implora aos kami da Terra para ocultarem e esconderem a criatura alvo. A terra flui para cobrir o alvo com um fac-símile de aparência realista de algum objeto natural, como uma árvore ou uma rocha; esta casca desmorona de volta em terra solta quando o feitiço expira. O alvo pode ouvir e respirar normalmente, mas não tem outra interação com o mundo fora da casca ocultadora da Terra; se ele falar, se mover ou for realmente atingido por um ataque, o feitiço termina imediatamente e a casca ocultadora desmorona como acima. Do lado de fora, no entanto, o objeto falso parecerá perfeitamente normal e resistirá a golpes físicos com a mesma força que teria se fosse real.",
+        "source_book": "Book of Earth",
+        "pagina": 200
+      },
+      {
+        "nome": "Soldiers of Clay",
+        "anel": "Terra",
+        "mastery_level": 6,
+        "area": "N/A",
+        "duracao": "1 hora",
+        "texto_pt": "Mais famosamente usado por Isawa Tadaka e Isawa Sezaru no início do século XII, esta variação poderosa de Rise, Earth é encontrada exclusivamente nas bibliotecas da Fênix. Assim, até agora, a Fênix não a compartilhou com nenhum outro clã, embora tenham considerado seriamente fazê-lo durante a Invasão de Kali-Ma. Dependendo das configurações específicas da campanha, o GM também pode introduzir este feitiço ao império mais amplo em uma era anterior. O feitiço cria dez guerreiros de tamanho humano, moldando-os a partir de terra e pedra e animando-os com o poder dos kami da Terra que os infundem. Os guerreiros se moverão, lutarão e agirão conforme o conjurador comandar, obedientemente e sem medo. Eles têm Atributos e Anéis iguais à Terra do conjurador, atacam (com espadas feitas de pedra) como se tivessem Kenjutsu em 4 e têm Redução igual ao dobro da Terra do conjurador. Suas espadas são consideradas como tendo a propriedade de Jade. Quando destruídos (ou quando a duração do feitiço termina), eles desmoronam em pilhas de terra solta.",
+        "source_book": "Book of Earth",
+        "pagina": 201
+      },
+      {
+        "nome": "Stone's Endurance",
+        "anel": "Terra",
+        "mastery_level": 1,
+        "area": "Uma criatura alvo (pode ser o conjurador)",
+        "duracao": "6 horas",
+        "texto_pt": "Este feitiço clama pela força da pedra para aumentar a resistência física e robustez da criatura alvo. Este feitiço foi originalmente idealizado pelo Unicórnio para permitir que seus cavalos cavalgassem por longos períodos de tempo sem se cansar, mas depois que o Unicórnio retornou ao Império, outros clãs também viram valor no feitiço – particularmente o Caranguejo, que o achou bastante útil para situações em que seus soldados precisavam permanecer de serviço por longos períodos de tempo. Pela duração do feitiço, o alvo fica imune a ficar Fatigado devido à falta de repouso e é considerado como tendo um Vigor um Rank maior para o propósito de quaisquer testes ou efeitos que se baseiem especificamente em Vigor (como resistir a venenos, determinar quanto tempo se pode evitar o afogamento, etc). O feitiço pode ser conjurado várias vezes no mesmo alvo, mas os espíritos da Terra não conseguem sustentar o esforço além de um total de 24 horas consecutivas. Uma vez que o feitiço expira, o alvo é automaticamente considerado Fatigado até que descanse por pelo menos metade do tempo em que esteve sob os efeitos do feitiço.",
+        "source_book": "Book of Earth",
+        "pagina": 201
+      },
+      {
+        "nome": "Strike as Stone",
+        "anel": "Terra",
+        "mastery_level": 3,
+        "area": "Uma pessoa alvo (pode ser o conjurador)",
+        "duracao": "5 minutos",
+        "texto_pt": "Este feitiço clama aos espíritos da Terra para fortalecerem as mãos e antebraços do alvo, tornando-os duros como pedra. As mãos do alvo não podem ser fisicamente feridas pela duração do feitiço (permitindo que ele realize uma variedade de feitos, como forçar a abertura de uma fechadura com os dedos), e seu multiplicador de Dano desarmado é aumentado em +2k0.",
+        "source_book": "Book of Earth",
+        "pagina": 201
+      },
+      {
+        "nome": "Taming the Beast",
+        "anel": "Terra",
+        "mastery_level": 2,
+        "area": "Uma criatura natural alvo",
+        "duracao": "1 hora",
+        "texto_pt": "Este feitiço é um segredo da família Kitsune e, até o momento, nunca foi ensinado fora de suas fileiras. Ele clama pelo poder da Terra para acalmar o espírito temperamental de um animal selvagem, fazendo com que ele se torne temporariamente manso. Após completar a prece, o shugenja realiza um teste Resistido de Terra contra a criatura alvo (como uma Ação Livre); com um sucesso, a criatura cessa toda atividade hostil pela duração do feitiço, e o conjurador pode persuadir a criatura a obedecer a comandos simples por meio da perícia Animal Handling (TNs determinadas pelo GM com base na complexidade do comando). Quando a duração do feitiço expira, o animal retorna ao seu comportamento normal – no entanto, em alguns casos, conjurações repetidas deste feitiço no mesmo animal resultaram em ele ser domado permanentemente (discrição do GM). Este feitiço funciona apenas em criaturas naturais (como cobras ou ursos) – não tem efeito sobre espíritos, criaturas sobrenaturais ou criaturas Máculas.",
+        "source_book": "Book of Earth",
+        "pagina": 201
+      },
+      {
+        "nome": "The Earth Flows",
+        "anel": "Terra",
+        "mastery_level": 4,
+        "area": "1 milha quadrada",
+        "duracao": "1 hora (ou duas Rodadas de Batalha de Massa)",
+        "texto_pt": "Este feitiço foi originalmente desenvolvido pela família Kitsu do Leão, mas rapidamente se espalhou para outras famílias devido ao seu valor para qualquer exército no campo de batalha. Ele clama aos kami da Terra para reorganizarem a paisagem de um campo de batalha de uma maneira favorável ao seu lado na batalha. Por exemplo, a encosta de uma colina pode mudar para permitir que o lado do conjurador avance colina abaixo, ou um penhasco que protege o flanco inimigo pode se transformar em uma inclinação suave. O feitiço concede um bônus de +3k2 para qualquer teste realizado pelo comandante do lado do conjurador para determinar quem está vencendo uma Batalha de Massa, e um bônus de +1k1 para quaisquer testes na Tabela de Batalha de Massa realizados por samurais individuais do lado do conjurador. Como este feitiço invoca os kami da Terra em uma escala tão grande, conjurá-lo em ambos os lados da mesma batalha pode levar a uma violenta reação espiritual – normalmente desencadeando um terremoto massivo (equivalente ao feitiço de Rank 5 Terremoto).",
+        "source_book": "Book of Earth",
+        "pagina": 201
+      },
+      {
+        "nome": "Time's Deadly Hand",
+        "anel": "Terra",
+        "mastery_level": 3,
+        "area": "Um objeto físico",
+        "duracao": "Permanente",
+        "texto_pt": "Este feitiço faz com que os kami da Terra dentro de um objeto físico abandonem esse objeto, enfraquecendo sua força física. A madeira empena e descasca, a pedra e o metal tornam-se fracos e quebradiços, o tecido torna-se fino e frágil, e assim por diante. Os efeitos do feitiço são permanentes. Mecanicamente, qualquer arma que seja afetada por este feitiço perderá 2k1 de sua DR, e qualquer armadura perderá 5 de seu bônus de Armor TN e 3 de sua Redução. Uma variedade de outros efeitos não mecânicos também pode ocorrer, sujeitos à adjudicação do GM – por exemplo, um quimono afetado por este feitiço rasgará se for sujeito à menor tensão ou estresse, e um pergaminho rasgará e se desintegrará no momento em que for desenrolado. Pedras ou vigas enfraquecidas podem ser usadas para sabotar uma ponte, para facilitar a entrada em um castelo sitiado, e assim por diante. Em geral, este feitiço não afetará itens despertados (ex: nemuranai), já que seus espíritos empoderados resistem à súplica do shugenja.",
+        "source_book": "Book of Earth",
+        "pagina": 202
+      },
+      {
+        "nome": "Whispers of the Land",
+        "anel": "Terra",
+        "mastery_level": 2,
+        "area": "50' de raio",
+        "duracao": "10 minutos",
+        "texto_pt": "Este feitiço foi originalmente desenvolvido pela família Kitsune do Clã da Raposa, que o usava para ajudar a rastrear invasores nas terras de seu modesto clã. Desde então, espalhou-se para outras famílias que acham suas propriedades úteis, como os Yogo e os Kuni. O feitiço faz com que os espíritos da Terra revelem as pegadas de qualquer pessoa que tenha caminhado sobre eles nos últimos três dias. A superfície – seja pedra, terra ou madeira – literalmente se eleva na forma das pegadas, criando um caminho claro e facilmente seguido. (Note que, ao contrário de feitiços reveladores do Ar, como By the Light of the Moon, este feitiço não apenas revela rastros ocultados ativamente, mas também rastros normais não ocultados que são muito fracos ou antigos para serem vistos normalmente. Por exemplo, By the Light of the Moon não revelaria as pegadas descalças de um servo que caminhou pelo chão de um dojo, mas Whispers of the Land o fará.)",
+        "source_book": "Book of Earth",
+        "pagina": 202
+      },
+      {
+        "nome": "Wooden Prison",
+        "anel": "Terra",
+        "mastery_level": 3,
+        "area": "Uma criatura alvo",
+        "duracao": "5 Rodadas",
+        "texto_pt": "Este feitiço suplica aos kami da Terra que habitam as plantas e árvores vivas, fazendo com que façam as plantas crescerem rapidamente e se entrelaçarem ao redor de um alvo designado. Em segundos, o alvo se encontra enredado em um denso emaranhado de vinhas, trepadeiras e galhos. O alvo é automaticamente Enredado no momento em que o feitiço é conjurado; em seus Turnos subsequentes, o alvo pode tentar escapar como uma Ação Simples realizando um teste de Força resistido contra a Força 4 das plantas. (Alternativamente, o alvo pode ser cortado por aliados – são necessários dois Turnos de esforço para cortar plantas suficientes para libertar o alvo.) Se o alvo escapar, ou se o feitiço expirar, las plantas caem e murcham conforme os kami da Terra cessam de estimulá-las. Este feitiço só funciona em uma área onde plantas vivas estejam presentes, ex: não funcionará dentro de uma construção, no deserto, em uma encosta de montanha estéril ou em outros ambientes semelhantes. Ele não pode alvejar uma criatura voadora.",
+        "source_book": "Book of Earth",
+        "pagina": 202
+      }
+    ]
+  },
+  "advantages_disadvantages": {
+    "advantages": [
+      {
+        "nome": "Bland",
+        "texto_pt": "Embora a notoriedade e a fama possam ser vantajosas em uma sociedade preocupada com o status, às vezes ser capaz de passar despercebido pode ser útil. Esta Vantagem indica que a Terra do personagem se formou de maneira semelhante, tendo poucas características físicas verdadeiramente marcantes.",
+        "source_book": "Book of Earth",
+        "pagina": 11
+      },
+      {
+        "nome": "Crab Hands",
+        "texto_pt": "Todas as armas contêm uma grande quantidade de Terra. Personagens com esta Vantagem têm sua Terra sintonizada de uma forma que ressoa bem com o mesmo Elemento nas armas. Os espíritos da Terra em armas normais e não despertas trabalham para ajudá-lo em algum nível menor.",
+        "source_book": "Book of Earth",
+        "pagina": 11
+      },
+      {
+        "nome": "Hands of Stone",
+        "texto_pt": "Seja por treinamento ou nascimento, a Terra do personagem se manifestou de tal forma que suas mãos são mais resistentes e densas do que a média, facilitando a perturbação da Terra em outras coisas.",
+        "source_book": "Book of Earth",
+        "pagina": 11
+      },
+      {
+        "nome": "Large",
+        "texto_pt": "O personagem simplesmente tem mais Terra do que a maioria, e não de uma forma que necessariamente o torne desajeitado ou lento. Personagens grandes são frequentemente comparados a animais ou fenômenos naturais que mostram força no elemento Terra.",
+        "source_book": "Book of Earth",
+        "pagina": 11
+      },
+      {
+        "nome": "Silent",
+        "texto_pt": "A Terra do personagem é simplesmente 'mais leve' tanto no sentido físico quanto espiritual. Consequentemente, o personagem não é menos robusto, mas é mais leve em seus pés e parece ter menos presença no ambiente.",
+        "source_book": "Book of Earth",
+        "pagina": 11
+      },
+      {
+        "nome": "Strength of the Earth",
+        "texto_pt": "Representa muitas das qualidades essenciais do Elemento Terra: tenacidade, resiliência e força de vontade. A habilidade do personagem de continuar agindo mesmo quando gravemente ferido é ampliada por sua Terra superior superando a resposta usual de dor do corpo.",
+        "source_book": "Book of Earth",
+        "pagina": 12
+      }
+    ],
+    "disadvantages": [
+      {
+        "nome": "Bad Health",
+        "texto_pt": "Algo na Terra deste personagem é malformado, tornando-o fisicamente mais frágil do que a maioria. Ferimentos parecem afetá-lo mais e doenças têm mais facilidade de se instalar em seu corpo.",
+        "source_book": "Book of Earth",
+        "pagina": 12
+      },
+      {
+        "nome": "Disturbing Countenance",
+        "texto_pt": "A Terra do personagem simplesmente se formou de uma maneira que é vista como desagradável ou bizarra no nível subconsciente, causando reações sociais negativas.",
+        "source_book": "Book of Earth",
+        "pagina": 12
+      },
+      {
+        "nome": "Low Pain Threshold",
+        "texto_pt": "Falta ao personagem a força da Terra para lidar com a dor e a punição, fazendo com que os golpes mais leves pareçam amplificados e dolorosos.",
+        "source_book": "Book of Earth",
+        "pagina": 12
+      },
+      {
+        "nome": "Missing Limb (Birth Defect)",
+        "texto_pt": "Nascer sem o número correto de dedos ou membros é visto como um sinal de desfavor das Fortunas, indicando que a Terra do personagem é atrofiada e inacabada.",
+        "source_book": "Book of Earth",
+        "pagina": 12
+      },
+      {
+        "nome": "Permanent Wound",
+        "texto_pt": "Indica que a Terra do personagem se tornou incompleta de alguma forma devido a um ferimento grave que deformou sua Terra Elemental, impedindo que a ferida cicatrize corretamente.",
+        "source_book": "Book of Earth",
+        "pagina": 13
+      },
+      {
+        "nome": "Small",
+        "texto_pt": "O personagem tem sua Terra atrofiada com a deficiência espalhada por todo o corpo, resultando em uma estatura menor, mas sem carregar estigma social ou espiritual.",
+        "source_book": "Book of Earth",
+        "pagina": 13
+      }
+    ]
+  },
+  "equipment": {
+    "weapons": [],
+    "armor": [
+      {
+        "nome": "Bogu",
+        "bonus_tn": "+0",
+        "reducao_dano": "1",
+        "preco": "1 koku",
+        "source_book": "Book of Earth",
+        "pagina": 26
+      },
+      {
+        "nome": "Tatami Armor",
+        "bonus_tn": "+4",
+        "reducao_dano": "1",
+        "preco": "10 koku",
+        "source_book": "Book of Earth",
+        "pagina": 26
+      },
+      {
+        "nome": "Tetsu-Dou",
+        "bonus_tn": "+13",
+        "reducao_dano": "8",
+        "preco": "100 koku",
+        "source_book": "Book of Earth",
+        "pagina": 26
+      },
+      {
+        "nome": "Unicorn Riding Armor",
+        "bonus_tn": "+4 (+12 enquanto montado)",
+        "reducao_dano": "4",
+        "preco": "75 koku",
+        "source_book": "Book of Earth",
+        "pagina": 27
+      },
+      {
+        "nome": "Bagai",
+        "bonus_tn": "+7 para o ND de Armadura da montaria",
+        "reducao_dano": "3",
+        "preco": "25 koku",
+        "source_book": "Book of Earth",
+        "pagina": 27
+      },
+      {
+        "nome": "Ceremonial Armor",
+        "bonus_tn": "+3",
+        "reducao_dano": "1",
+        "preco": "90 koku",
+        "source_book": "Book of Earth",
+        "pagina": 27
+      }
+    ],
+    "gear": []
+  }
+}

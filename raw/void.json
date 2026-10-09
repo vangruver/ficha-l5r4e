@@ -1,0 +1,251 @@
+{
+  "schools": {
+    "schools": [
+      {
+        "nome": "Void Mystic",
+        "cla": "Ronin",
+        "familia": "None",
+        "tipo": "shugenja",
+        "trait_inicial_bonus": "Vontade",
+        "skills_de_escola": [
+          "Defense",
+          "Divination",
+          "Hunting",
+          "Lore: Elements (Void)",
+          "Meditation",
+          "Stealth",
+          "any one non-High Skill"
+        ],
+        "honra_inicial": 3.5,
+        "status_inicial": 0,
+        "equipamento_inicial": [
+          "Sturdy Clothing",
+          "Wakizashi",
+          "any 1 weapon",
+          "Travelling Pack",
+          "5 bu"
+        ],
+        "tecnica_por_rank": [
+          {
+            "rank": 1,
+            "nome": "The Void's Caress",
+            "texto_pt": "O Void Mystic, nascido com uma forte sintonia com o Vazio, mas carecendo de qualquer treinamento convencional, não precisa adquirir pergaminhos de feitiço. Você pode conjurar qualquer feitiço de Vazio até o seu Nível de Maestria atual, gastando um Espaço de Feitiço normalmente. Mecanicamente, o feitiço é conjurado normalmente, mas você não precisa falar em voz alta para conjurar seus feitiços. Você só pode conjurar cada feitiço uma vez por dia, e nunca pode conjurar feitiços de Vazio acima do Rank 5. Você também ganha um Aumento Gratuito na perícia Divination (um subproduto de sua sintonia com o Vazio)."
+          }
+        ],
+        "source_book": "Book of Void",
+        "pagina": 185
+      },
+      {
+        "nome": "The Order of Eternity",
+        "cla": "Irmandade de Shinsei",
+        "familia": "None",
+        "tipo": "monk",
+        "trait_inicial_bonus": "Intelecto",
+        "skills_de_escola": [
+          "Defense",
+          "Divination (Astrology)",
+          "Jiujutsu",
+          "Meditation",
+          "Lore: Theology",
+          "any two High Skills"
+        ],
+        "honra_inicial": 4.5,
+        "status_inicial": 1,
+        "equipamento_inicial": [],
+        "tecnica_por_rank": [
+          {
+            "rank": 1,
+            "nome": "The Touch of Eternity",
+            "texto_pt": "Os monges desta Ordem acreditam que o tempo é uma ilusão e que os eventos do passado, presente e futuro são todos coexistentes. Isso faz com que eles se envolvam em muitas ações estranhas, mas também lhes permite um grau incomum de percepção do mundo ao seu redor. Você pode contemplar uma situação fora de combate, por uma quantidade de tempo determinada pelo Mestre (os monges desta Ordem são conhecidos por avaliar uma situação complexa em um instante, mas também por passar uma hora considerando se devem comer uma tigela de arroz). Ao final de sua contemplação, você rola Meditation / Void contra uma ND 25 (maior para situações complexas). Com um sucesso, você ganha um bônus de +1g1 +Void em quaisquer Rolagens de Perícia que fizer para tentar resolver aquela situação específica. O Mestre deve exercer bom senso ao considerar a aplicação da Técnica da Ordem da Eternidade – algumas situações podem ser complexas demais para serem dominadas com uma única consideração. Em geral, o monge não deve ser capaz de aplicar os benefícios desta Técnica a mais Rolagens de Perícia do que o seu Rank de Vazio – quaisquer rolagens além disso exigirãao contemplação adicional e outra rolagem de Meditation / Void."
+          }
+        ],
+        "source_book": "Book of Void",
+        "pagina": 194
+      }
+    ]
+  },
+  "kata_kiho": {
+    "kata_kiho": [
+      {
+        "nome": "Knowledge From Within",
+        "tipo": "kiho",
+        "pre_requisito": "Internal, Mastery: 4",
+        "anel_ou_trait": "Vazio",
+        "custo": "",
+        "texto_pt": "O poder do Vazio permite a um monge focado sentir a presença de outros efeitos mágicos na área. Você deve estar meditando ou na Stance do Centro para ativar este Kiho. Uma vez ativo, você se torna geralmente consciente da presença de efeitos de feitiços Elementais e nemuranai (dentro de um raio igual ao seu Vazio x 10 em pés) enquanto mantiver o Kiho. Você saberá a direção geral e a natureza dos efeitos/objetos (ex: 'um feitiço de Fogo naquela direção'), mas não sua identidade específica ou localização exata.",
+        "source_book": "Book of Void",
+        "pagina": 193
+      },
+      {
+        "nome": "Mind/No-Mind",
+        "tipo": "kiho",
+        "pre_requisito": "Mystical (atemi), Mastery: 6",
+        "anel_ou_trait": "Vazio",
+        "custo": "",
+        "texto_pt": "Os monges praticam a meditação para alcançar a clareza livre de pensamentos de uma alma pura no caminho para a Iluminação. Este Kiho permite a um monge brevemente bestow essa clareza em outra pessoa... quer essa pessoa deseje ou não. Você faz um ataque atemi e um Teste Resistido do seu Vazio contra o Fogo do alvo. Se você vencer o Teste Resistido, a mente do seu alvo é momentaneamente purgada de todos os pensamentos, e ele esquece tudo o que aconteceu durante o último minuto. A critério do Mestre, isso também pode fazer com que o alvo fique sob o efeito de Atordoado por uma rodada. (Também pode ser notado que este Kiho possui aplicações úteis, como acalmar alguém que esteja dominado por medo, fúria, luto ou outra emoção descontrolada.)",
+        "source_book": "Book of Void",
+        "pagina": 193
+      },
+      {
+        "nome": "Rebuke of the Heavens",
+        "tipo": "kiho",
+        "pre_requisito": "Kharmic, Mastery Level: 5",
+        "anel_ou_trait": "Vazio",
+        "custo": "",
+        "texto_pt": "Sua autoridade sagrada pode subjugar espíritos perturbadores e enfraquecer sua influência. Este Kiho pode ter como alvo qualquer criatura sobrenatural (uma entidade não nativa de Jigoku ou Tengoku). Ele é ativado como uma Ação Complexa ao realizar algum gesto de repreensão espiritual, como entoar um sutra, agitar um cajado com anéis ou formar um mudra com as mãos. (Isso ocorre além do teste normal para ativar um Kiho.) Faça um Teste Resistido de sua Meditação / Vazio contra o Anel mais alto da criatura – se você for bem-sucedido, a criatura sofre uma penalidade de -Xk1 em todas as rolagens, onde X é igual aos seus Ranks de Escola de Monge. Essa penalidade continua até que a criatura seja destruída ou se afaste de sua presença. Este Kiho está disponível apenas para monges, não para shugenja.",
+        "source_book": "Book of Void",
+        "pagina": 193
+      },
+      {
+        "nome": "Sense the Balance",
+        "tipo": "kiho",
+        "pre_requisito": "Kharmic (atemi), Mastery Level: 6",
+        "anel_ou_trait": "Vazio",
+        "custo": "",
+        "texto_pt": "O equilíbrio espiritual dos indivíduos pode ser sentido no fluxo do seu chi. O kiho de Ar chamado Harmony of the Mind permite que os monges sintam alguns dos segredos internos de outra pessoa, mas aqueles que seguem o caminho do Vazio podem fazer isso de forma muito mais eficaz. Se você for bem-sucedido em um ataque atemi em seu alvo, você pode gastar um Ponto de Vazio para descobrir o número total de Vantagens ou Desvantagens Espirituais (uma ou outra, à sua escolha) que o alvo possui. Se você for bem-sucedido em um Teste Resistido de Vazio, você também pode descobrir o nome e a natureza específica da Vantagem / Desvantagem com o maior valor em pontos – ex: você não apenas descobre que o alvo possui Cursed by the Realm, mas também qual Spirit Realm o amaldiçoou. Usos subsequentes deste Kiho contra o mesmo alvo podem revelar uma nova Vantagem ou Desvantagem a cada vez, até que não haja mais nenhuma para aprender.",
+        "source_book": "Book of Void",
+        "pagina": 193
+      },
+      {
+        "nome": "Striking Through the Void",
+        "tipo": "kiho",
+        "pre_requisito": "Martial, Mastery: 7",
+        "anel_ou_trait": "Vazio",
+        "custo": "",
+        "texto_pt": "Este raro Kiho marcial de Vazio permite que você canalize o poder do Vazio em seus ataques desarmados. É controverso dentro das seitas mais pacíficas da Irmandade, que acreditam que o Vazio não deve ser usado como uma arma. Quando ativo, este Kiho permite que você gaste um Ponto de Vazio nas rolagens de dano dos seus ataques desarmados (um Ponto de Vazio por ataque).",
+        "source_book": "Book of Void",
+        "pagina": 193
+      },
+      {
+        "nome": "The World Disappears",
+        "tipo": "kiho",
+        "pre_requisito": "Internal, Mastery: 6",
+        "anel_ou_trait": "Vazio",
+        "custo": "",
+        "texto_pt": "Aqueles que estão se aproximando do limiar da Iluminação flutuam levemente acima do solo, suas almas puras os elevando em direção aos Céus. Este Kiho permite que você alcance temporariamente este estado rarefeito. Você deve estar meditando ou na Stance do Centro para ativar este Kiho. Uma vez ativo, você flutua alguns centímetros acima do chão enquanto ele permanecer ativo, e pode se mover em sua velocidade normal sobre qualquer superfície (terra, água, lava derretida) sem tocá-la. Esta desconexão serena do solo também o torna imune a ataques de Agarrar e Enredar enquanto o Kiho permanecer ativo.",
+        "source_book": "Book of Void",
+        "pagina": 193
+      }
+    ]
+  },
+  "skills": {
+    "skills": []
+  },
+  "spells": {
+    "spells": [
+      {
+        "nome": "Commune with the Void",
+        "anel": "Vazio",
+        "mastery_level": 2,
+        "area": "Pessoal",
+        "duracao": "1 Rodada por pergunta (deve manter concentração)",
+        "texto_pt": "Commune with the Void permite ao conjurador entrar em comunhão direta com o inefável Vazio e, assim, obter informações de uma maneira superficialmente semelhante ao feitiço básico Commune dos outros quatro Elementos. Assim como os outros feitiços de Commune, este feitiço permite ao conjurador buscar informações. No entanto, as respostas tendem a ser muito mais enigmáticas e imprevisíveis do que as oferecidas pelos kami Elementais. O Vazio, afinal, não é uma matriz de espíritos individuais, mas um todo único e abrangente. Assim, embora em termos de jogo o conjurador ainda tenha permissão para fazer duas perguntas (e possa fazer Aumentos para ganhar a habilidade de perguntar mais), na prática o Shugenja não está realmente \"perguntando\" nada, mas está usando o Vazio para seguir as conexões entre as coisas e buscar discernimento sobre sua natureza e história. Em essência, o Mestre pode responder a essas perguntas tão completamente ou de forma tão confusa quanto desejar, e pode fornecer informações não apenas do passado, mas também do futuro. (Claro, um Mestre sábio deve ser cauteloso sobre ser muito específico sobre coisas que ainda não aconteceram.) O Mestre pode até ir além da pergunta específica se desejar, dando ao jogador informações que não foram realmente buscadas. Por outro lado, o Vazio é difícil de compreender – o Mestre também deve se sentir à vontade para fornecer informações confusas ou enganosas, mas nada totalmente falso.",
+        "source_book": "Book of Void",
+        "pagina": 189
+      },
+      {
+        "nome": "Strengthen the Void",
+        "anel": "Vazio",
+        "mastery_level": 2,
+        "area": "Raio de 20' a partir do conjurador",
+        "duracao": "5 Rodadas",
+        "texto_pt": "Este feitiço permite ao conjurador afinar o véu que separa o Vazio da realidade, aumentando o poder do Vazio na área local. Isso é frequentemente usado ao treinar jovens ishi, permitindo-lhes tocar o Vazio mais facilmente, mas tem um valor prático no qual qualquer pessoa sob seu efeito pode harmonizar-se melhor com o Vazio e, assim, alcançar melhor seu próprio potencial físico e espiritual. Enquanto este feitiço estiver em vigor, qualquer pessoa dentro da Área de Efeito ganha um Aumento Gratuito para conjurar feitiços de Vazio; no entanto, a intensidade do Vazio na área torna mais difícil focar o suficiente em Elementos individuais para conjurar outros feitiços, infligindo uma penalidade de +5 na ND em todos os feitiços que não sejam de Vazio. Além disso, qualquer pessoa que gaste um Ponto de Vazio dentro da área de efeito ganha um bônus de +2k1 em vez do +1k1 normal. Qualquer criatura da Lying Darkness (e qualquer mortal com pelo menos 1 Rank de Sombra) que entrar na área de efeito sentirá uma profunda sensação de desconforto. Tais criaturas e indivíduos devem rolar Vontade contra ND 20 ou sofrer uma penalidade de ND +10 em todas as suas rolagens de Perícia e jogadas de ataque feitas enquanto estiverem dentro da área de efeito. Se falharem no teste de Vontade por mais de 10, devem tentar deixar a área de efeito e não podem reentrar voluntariamente.",
+        "source_book": "Book of Void",
+        "pagina": 190
+      },
+      {
+        "nome": "Banish the Void",
+        "anel": "Vazio",
+        "mastery_level": 3,
+        "area": "Raio de 20' a partir do conjurador",
+        "duracao": "5 Rodadas",
+        "texto_pt": "Este feitiço é o contraponto exato de Strengthen the Void; ele engrossa o véu entre o Vazio e a realidade, tornando mais difícil perceber o Vazio ou invocar a harmonia interior que o Vazio representa. Este feitiço é normalmente usado por ishiken para controlar as atividades de seus aprendizes mais poderosos e perigosos, mas às vezes também é empregado em contextos mais práticos. Dentro da área de efeito deste feitiço, conjurar outros feitiços de Vazio sofre uma penalidade de +10 na ND. Além disso, qualquer pessoa que deseje gastar Pontos de Vazio dentro desta área deve gastar dois Pontos de Vazio para obter os efeitos de um. Se o personagem tiver apenas um Ponto de Vazio, ele não poderá gastá-lo dentro da área de efeito.",
+        "source_book": "Book of Void",
+        "pagina": 190
+      },
+      {
+        "nome": "Essence of Void",
+        "anel": "Vazio",
+        "mastery_level": 4,
+        "area": "Uma criatura alvo",
+        "duracao": "Concentração",
+        "texto_pt": "Este feitiço permite ao ishiken permear outra criatura viva com a pura essência do Vazio, sobrecarregando as funções corporais da criatura e tornando-a inerte e imóvel enquanto o feitiço permanecer em efeito. O conjurador deve ser capaz de ver o alvo, e o feitiço requer uma Rolagem Disputada de Vazio bem-sucedida (criaturas sem um Anel de Vazio podem resistir com Name, Akasha ou Vontade a critério do Mestre). Se o alvo falhar na Rolagem Disputada, ele será mantido imóvel, incapaz de se mover, falar ou de outra forma agir por sua própria vontade enquanto o conjurador mantiver a concentração. Na segunda rodada e nas subsequentes do feitiço, o alvo pode fazer outra Rolagem Disputada durante a Etapa de Reações para se livrar dos efeitos do feitiço.",
+        "source_book": "Book of Void",
+        "pagina": 191
+      },
+      {
+        "nome": "Air and Earth",
+        "anel": "Ar / Terra",
+        "mastery_level": 3,
+        "area": "Cone de 50' de comprimento e 30' de largura na base",
+        "duracao": "Instantânea",
+        "texto_pt": "Este feitiço faz com que um feroz ciclone horizontal seja lançado para fora a partir do conjurador, rasgando pedaços de terra em uma barragem de vento e pedra. O conjurador deve estar de pé sobre uma superfície de terra natural (por exemplo, não em um edifício ou em um navio) para conjurar este feitiço. Qualquer pessoa que não seja o conjurador dentro da área de efeito sofre 4k2 de dano de Feridas (este dano é considerado Jade para fins de ferir criaturas sobrenaturais) e fica Atordoado; eles também devem fazer uma rolagem contestada de Terra contra o conjurador ou serem Derrubados.",
+        "source_book": "Book of Void",
+        "pagina": 187
+      },
+      {
+        "nome": "Drown the Spirit",
+        "anel": "Ar / Água / Vazio",
+        "mastery_level": 4,
+        "area": "Uma criatura alvo",
+        "duracao": "3 Rodadas",
+        "texto_pt": "Um dos pouquíssimos feitiços Multi-Elementais conhecidos por usar magia de Vazio, este feitiço só pode ser conjurado por um Shugenja de Vazio. Ele foi idealizado pelos Isawa ishiken como uma forma de punir ou derrotar completamente oponentes poderosos, e funciona usando o Vazio para virar os kami internos de Ar e Água do alvo contra ele mesmo. O feitiço é visualmente espetacular, com o conjurador reunindo uma bola visível de energia escura crepitante em suas mãos e enviando-a para atingir e permear o alvo. O alvo do feitiço tem seu Rank de Força reduzido em uma quantidade igual ao total combinado de seus Anéis de Ar e Água pela duração do feitiço. Se isso reduzir seu Rank de Força a zero, ele ficará impotente e imobilizado, não podendo realizar Ações até que o feitiço expire.",
+        "source_book": "Book of Void",
+        "pagina": 190
+      }
+    ]
+  },
+  "advantages_disadvantages": {
+    "advantages": [
+      {
+        "nome": "Reincarnated",
+        "custo_pontos": 6,
+        "texto_pt": "Apesar de ter passado por Meido, você retém alguma lembrança vaga de sua vida anterior. Você recebe +1k0 em quaisquer três Perícias que não sejam de Escola de sua escolha (sujeito à aprovação do Mestre). Sempre que gastar um Ponto de Vazio para aprimorar uma rolagem usando uma dessas Perícias, você sofre os efeitos da desvantagem Anachronism (do suplemento de L5R 4ª Edição Imperial Histories, página 241) por 1-10 horas. Além disso, você ocasionalmente terá sonhos ou memórias vagas de sua vida anterior, que podem ou não se tornar relevantes para sua existência atual. Nota: Mestres que permitem personagens Naga também podem optar por disponibilizar esta Vantagem para Naga para representar as memórias ancestrais da Akasha. Se usada desta forma, custa 7 pontos e não impõe a penalidade de Anachronism.",
+        "source_book": "Book of Void",
+        "pagina": 192
+      },
+      {
+        "nome": "Watanu-Trained",
+        "custo_pontos": 1,
+        "texto_pt": "Os ronin Watanu de Iron Heart Village são bem conhecidos em toda a região por suas habilidades superiores em metalurgia. Selecione uma Perícia de Craft relacionada à criação de bens metálicos (não armas ou armaduras). Ao fazer testes de Perícia para criar tais itens, você ganha um bônus de +1k1.",
+        "source_book": "Book of Void",
+        "pagina": 196
+      },
+      {
+        "nome": "Iron Heart Native",
+        "custo_pontos": 2,
+        "texto_pt": "Seus ancestrais são da região próxima à Iron Heart Village, e os traços comuns àquela região permanecem manifestos em você. Você ganha um bônus de +1k0 em qualquer teste de Atributo de Vigor ou em qualquer teste que não seja de dano usando o Atributo de Força (incluindo testes para controlar Grapples).",
+        "source_book": "Book of Void",
+        "pagina": 196
+      },
+      {
+        "nome": "Laughing Plains Native",
+        "custo_pontos": 2,
+        "texto_pt": "Você possui os traços nativos do povo de Laughing Plains Village, de onde algum ancestral distante seu se originou. Sua perspectiva sombria e austeramente estoica sobre a vida lhe concede um bônus de +5 ao rolar para resistir a qualquer efeito de Medo.",
+        "source_book": "Book of Void",
+        "pagina": 196
+      },
+      {
+        "nome": "Sacred Forest Native",
+        "custo_pontos": 2,
+        "texto_pt": "O povo espiritual de Sacred Forest Village considera você um dos seus devido à natureza de sua ancestralidade, que inclui alguém daquela região. Você ganha +1k0 em testes com Lore: Theology e Lore: Spirit Realms.",
+        "source_book": "Book of Void",
+        "pagina": 196
+      }
+    ],
+    "disadvantages": [
+      {
+        "nome": "Uncentered",
+        "pontos_concedidos": 4,
+        "texto_pt": "Seja devido a um ensino deficiente, falta de compreensão de sua parte, ou simplesmente a ausência de verdadeira harmonia em sua alma, você é incapaz de dominar os mistérios mais profundos do Vazio. Você não pode aprender nenhum Kiho de Vazio e não pode adquirir as Vantagens Ishiken-do ou Void Versatility.",
+        "source_book": "Book of Void",
+        "pagina": 193
+      }
+    ]
+  },
+  "equipment": {
+    "weapons": [],
+    "armor": [],
+    "gear": []
+  }
+}

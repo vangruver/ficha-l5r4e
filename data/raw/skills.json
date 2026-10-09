@@ -1,0 +1,508 @@
+[
+  {
+    "id": "adivinhacao--core-rulebook",
+    "nome": "Adivinhação",
+    "trait_associado": "Intelecto",
+    "categoria": "Alta",
+    "emphases_possiveis": [
+      "Astrologia",
+      "Kawaru"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 135
+  },
+  {
+    "id": "arte--core-rulebook",
+    "nome": "Arte",
+    "trait_associado": "Prontidão",
+    "categoria": "Alta",
+    "emphases_possiveis": [],
+    "source_book": "Core Rulebook",
+    "pagina": 135
+  },
+  {
+    "id": "atuacao--core-rulebook",
+    "nome": "Atuação",
+    "trait_associado": "Prontidão",
+    "categoria": "Alta",
+    "emphases_possiveis": [
+      "Clã",
+      "Gênero",
+      "Profissão"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 135
+  },
+  {
+    "id": "caligrafia--core-rulebook",
+    "nome": "Caligrafia",
+    "trait_associado": "Intelecto",
+    "categoria": "Alta",
+    "emphases_possiveis": [
+      "Cifra",
+      "Alto Rokugani"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 135
+  },
+  {
+    "id": "cerimonia-do-cha--core-rulebook",
+    "nome": "Cerimônia do Chá",
+    "trait_associado": "Vazio",
+    "categoria": "Alta",
+    "emphases_possiveis": [],
+    "source_book": "Core Rulebook",
+    "pagina": 135
+  },
+  {
+    "id": "conhecimento--core-rulebook",
+    "nome": "Conhecimento",
+    "trait_associado": "Intelecto",
+    "categoria": "Alta",
+    "emphases_possiveis": [],
+    "source_book": "Core Rulebook",
+    "pagina": 136
+  },
+  {
+    "id": "corte--core-rulebook",
+    "nome": "Corte",
+    "trait_associado": "Prontidão",
+    "categoria": "Alta",
+    "emphases_possiveis": [
+      "Boatos",
+      "Manipulação",
+      "Retórica"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 136
+  },
+  {
+    "id": "etiqueta--core-rulebook",
+    "nome": "Etiqueta",
+    "trait_associado": "Prontidão",
+    "categoria": "Alta",
+    "emphases_possiveis": [
+      "Burocracia",
+      "Conversação",
+      "Cortesia"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 136
+  },
+  {
+    "id": "feiticaria--core-rulebook",
+    "nome": "Feitiçaria",
+    "trait_associado": "Intelecto",
+    "categoria": "Alta",
+    "emphases_possiveis": [
+      "Importunar",
+      "Pesquisa de Feitiços"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 137
+  },
+  {
+    "id": "investigacao--core-rulebook",
+    "nome": "Investigação",
+    "trait_associado": "Percepção",
+    "categoria": "Alta",
+    "emphases_possiveis": [
+      "Interrogatório",
+      "Notar",
+      "Procurar"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 137
+  },
+  {
+    "id": "jogos--core-rulebook",
+    "nome": "Jogos",
+    "trait_associado": "Variável",
+    "categoria": "Alta",
+    "emphases_possiveis": [],
+    "source_book": "Core Rulebook",
+    "pagina": 137
+  },
+  {
+    "id": "medicina--core-rulebook",
+    "nome": "Medicina",
+    "trait_associado": "Intelecto",
+    "categoria": "Alta",
+    "emphases_possiveis": [
+      "Antídotos",
+      "Doenças",
+      "Fitoterapia",
+      "Inumanos",
+      "Tratamento de Feridas"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 137
+  },
+  {
+    "id": "meditacao--core-rulebook",
+    "nome": "Meditação",
+    "trait_associado": "Vazio",
+    "categoria": "Alta",
+    "emphases_possiveis": [
+      "Jejum",
+      "Recuperação de Vazio"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 138
+  },
+  {
+    "id": "performance--core-rulebook",
+    "nome": "Performance",
+    "trait_associado": "Variável",
+    "categoria": "Alta",
+    "emphases_possiveis": [],
+    "source_book": "Core Rulebook",
+    "pagina": 138
+  },
+  {
+    "id": "sinceridade--core-rulebook",
+    "nome": "Sinceridade",
+    "trait_associado": "Prontidão",
+    "categoria": "Alta",
+    "emphases_possiveis": [
+      "Honestidade",
+      "Ardil"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 139
+  },
+  {
+    "id": "armas-de-corrente--core-rulebook",
+    "nome": "Armas de Corrente",
+    "trait_associado": "Agilidade",
+    "categoria": "Bugei",
+    "emphases_possiveis": [
+      "Kusarigama",
+      "Kyoketsu-shogi",
+      "Manrikikusari"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 139
+  },
+  {
+    "id": "armas-de-haste--core-rulebook",
+    "nome": "Armas de Haste",
+    "trait_associado": "Agilidade",
+    "categoria": "Bugei",
+    "emphases_possiveis": [
+      "Bisento",
+      "Nagamaki",
+      "Naginata",
+      "Sasumata",
+      "Sodegarami"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 139
+  },
+  {
+    "id": "armas-pesadas--core-rulebook",
+    "nome": "Armas Pesadas",
+    "trait_associado": "Agilidade",
+    "categoria": "Bugei",
+    "emphases_possiveis": [
+      "Dai Tsuchi",
+      "Masakari",
+      "Ono",
+      "Tetsubo"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 139
+  },
+  {
+    "id": "bastoes--core-rulebook",
+    "nome": "Bastões",
+    "trait_associado": "Agilidade",
+    "categoria": "Bugei",
+    "emphases_possiveis": [
+      "Bo",
+      "Jo",
+      "Machi-kanshisha",
+      "Nunchaku",
+      "Sang Kauw",
+      "Tonfa"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 140
+  },
+  {
+    "id": "batalha--core-rulebook",
+    "nome": "Batalha",
+    "trait_associado": "Percepção",
+    "categoria": "Bugei",
+    "emphases_possiveis": [
+      "Combate em Massa",
+      "Luta"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 140
+  },
+  {
+    "id": "caca--core-rulebook",
+    "nome": "Caça",
+    "trait_associado": "Percepção",
+    "categoria": "Bugei",
+    "emphases_possiveis": [
+      "Sobrevivência",
+      "Rastros",
+      "Preceder"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 140
+  },
+  {
+    "id": "cavalaria--core-rulebook",
+    "nome": "Cavalaria",
+    "trait_associado": "Agilidade",
+    "categoria": "Bugei",
+    "emphases_possiveis": [
+      "Cavalo Corredor Gaijin",
+      "Pônei Rokugani",
+      "Corcel Utaku"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 140
+  },
+  {
+    "id": "defesa--core-rulebook",
+    "nome": "Defesa",
+    "trait_associado": "Reflexos",
+    "categoria": "Bugei",
+    "emphases_possiveis": [],
+    "source_book": "Core Rulebook",
+    "pagina": 140
+  },
+  {
+    "id": "esportes--core-rulebook",
+    "nome": "Esportes",
+    "trait_associado": "Força",
+    "categoria": "Bugei",
+    "emphases_possiveis": [
+      "Escalada",
+      "Corrida",
+      "Natação",
+      "Arremesso"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 141
+  },
+  {
+    "id": "facas--core-rulebook",
+    "nome": "Facas",
+    "trait_associado": "Agilidade",
+    "categoria": "Bugei",
+    "emphases_possiveis": [
+      "Aiguchi",
+      "Jitte",
+      "Kama",
+      "Sai",
+      "Tanto"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 141
+  },
+  {
+    "id": "iaijutsu--core-rulebook",
+    "nome": "Iaijutsu",
+    "trait_associado": "Reflexos",
+    "categoria": "Bugei",
+    "emphases_possiveis": [
+      "Avaliação",
+      "Foco"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 141
+  },
+  {
+    "id": "jiujutsu--core-rulebook",
+    "nome": "Jiujutsu",
+    "trait_associado": "Agilidade",
+    "categoria": "Bugei",
+    "emphases_possiveis": [
+      "Imobilizar",
+      "Armas Improvisadas",
+      "Artes Marciais"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 142
+  },
+  {
+    "id": "kenjutsu--core-rulebook",
+    "nome": "Kenjutsu",
+    "trait_associado": "Agilidade",
+    "categoria": "Bugei",
+    "emphases_possiveis": [],
+    "source_book": "Core Rulebook",
+    "pagina": 142
+  },
+  {
+    "id": "kyujutsu--core-rulebook",
+    "nome": "Kyujutsu",
+    "trait_associado": "Reflexos",
+    "categoria": "Bugei",
+    "emphases_possiveis": [
+      "Dai-kyu",
+      "Han-kyu",
+      "Yumi"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 142
+  },
+  {
+    "id": "lancas--core-rulebook",
+    "nome": "Lanças",
+    "trait_associado": "Agilidade",
+    "categoria": "Bugei",
+    "emphases_possiveis": [
+      "Mai Chong",
+      "Kumade",
+      "Lance",
+      "Nage-yari",
+      "Yari"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 142
+  },
+  {
+    "id": "leque-de-guerra--core-rulebook",
+    "nome": "Leque de Guerra",
+    "trait_associado": "Agilidade",
+    "categoria": "Bugei",
+    "emphases_possiveis": [],
+    "source_book": "Core Rulebook",
+    "pagina": 142
+  },
+  {
+    "id": "ninjutsu--core-rulebook",
+    "nome": "Ninjutsu",
+    "trait_associado": "Agilidade ou Reflexos",
+    "categoria": "Baixa",
+    "emphases_possiveis": [
+      "Zarabatana",
+      "Shuriken",
+      "Tsubute"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 143
+  },
+  {
+    "id": "comercio--core-rulebook",
+    "nome": "Comércio",
+    "trait_associado": "Intelecto",
+    "categoria": "Mercante",
+    "emphases_possiveis": [
+      "Avaliação",
+      "Cálculos"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 143
+  },
+  {
+    "id": "criacao--core-rulebook",
+    "nome": "Criação",
+    "trait_associado": "Variável",
+    "categoria": "Mercante",
+    "emphases_possiveis": [],
+    "source_book": "Core Rulebook",
+    "pagina": 143
+  },
+  {
+    "id": "engenharia--core-rulebook",
+    "nome": "Engenharia",
+    "trait_associado": "Intelecto",
+    "categoria": "Mercante",
+    "emphases_possiveis": [
+      "Construção",
+      "Cerco"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 143
+  },
+  {
+    "id": "treinar-animais--core-rulebook",
+    "nome": "Treinar Animais",
+    "trait_associado": "Prontidão",
+    "categoria": "Mercante",
+    "emphases_possiveis": [],
+    "source_book": "Core Rulebook",
+    "pagina": 143
+  },
+  {
+    "id": "velejar--core-rulebook",
+    "nome": "Velejar",
+    "trait_associado": "Agilidade ou Intelecto",
+    "categoria": "Mercante",
+    "emphases_possiveis": [
+      "Nós",
+      "Navegação"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 144
+  },
+  {
+    "id": "falsificacao--core-rulebook",
+    "nome": "Falsificação",
+    "trait_associado": "Agilidade",
+    "categoria": "Baixa",
+    "emphases_possiveis": [],
+    "source_book": "Core Rulebook",
+    "pagina": 144
+  },
+  {
+    "id": "furtividade--core-rulebook",
+    "nome": "Furtividade",
+    "trait_associado": "Agilidade",
+    "categoria": "Baixa",
+    "emphases_possiveis": [
+      "Emboscada",
+      "Ocultação",
+      "Esgueirar",
+      "Invocação"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 144
+  },
+  {
+    "id": "intimidacao--core-rulebook",
+    "nome": "Intimidação",
+    "trait_associado": "Vontade",
+    "categoria": "Baixa",
+    "emphases_possiveis": [
+      "Ameaça",
+      "Controle",
+      "Tortura"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 145
+  },
+  {
+    "id": "maos-rapidas--core-rulebook",
+    "nome": "Mãos Rápidas",
+    "trait_associado": "Agilidade",
+    "categoria": "Baixa",
+    "emphases_possiveis": [
+      "Ocultar",
+      "Fuga",
+      "Punga",
+      "Prestidigitação"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 145
+  },
+  {
+    "id": "tentacao--core-rulebook",
+    "nome": "Tentação",
+    "trait_associado": "Prontidão",
+    "categoria": "Baixa",
+    "emphases_possiveis": [
+      "Corrupção",
+      "Sedução"
+    ],
+    "source_book": "Core Rulebook",
+    "pagina": 145
+  }
+]

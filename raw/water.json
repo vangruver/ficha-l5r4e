@@ -1,0 +1,407 @@
+{
+  "schools": {
+    "schools": [
+      {
+        "nome": "The Order of Jurojin’s Blessing",
+        "cla": "Brotherhood of Shinsei",
+        "familia": "",
+        "tipo": "monk",
+        "trait_inicial_bonus": "Intelecto",
+        "skills_de_escola": [
+          "Athletics",
+          "Jiujutsu",
+          "Lore: Anatomy (Disease)",
+          "Medicine (Disease, Herbalism)",
+          "Meditation",
+          "Staves",
+          "any one Skill"
+        ],
+        "honra_inicial": 5.5,
+        "status_inicial": 1.0,
+        "equipamento_inicial": [],
+        "tecnica_por_rank": [
+          {
+            "rank": 1,
+            "nome": "Blessings of Longevity",
+            "texto_pt": "Você recebe um bônus de +1k1 em todas as rolagens de Medicine feitas com o propósito de tratar doenças ou infecções, e um bônus de +1k0 em todas as rolagens de Medicine feitas com o propósito de tratar Feridas. Você também pode tentar tratar insanidade natural (não induzida pela Mácula) com uma rolagem de Medicine, embora caiba ao Mestre decidir se seu tratamento de fato terá algum efeito."
+          }
+        ],
+        "source_book": "Book of Water",
+        "pagina": 188
+      },
+      {
+        "nome": "The Shrine of Heaven’s Mirror",
+        "cla": "Brotherhood of Shinsei",
+        "familia": "",
+        "tipo": "monk",
+        "trait_inicial_bonus": "Percepção",
+        "skills_de_escola": [
+          "Athletics",
+          "Divination (Omens)",
+          "Jiujutsu",
+          "Lore: Omens",
+          "Meditation",
+          "any two Skills"
+        ],
+        "honra_inicial": 3.5,
+        "status_inicial": 1.0,
+        "equipamento_inicial": [],
+        "tecnica_por_rank": [
+          {
+            "rank": 1,
+            "nome": "Gaze Into the Mirror",
+            "texto_pt": "As práticas peculiares dos monges de Heaven's Mirror lhes concedem visões negadas a outros mortais. Você recebe um bônus de +1k0 em todas as rolagens de Divination. Se a rolagem envolver a interpretação de um presságio, o bônus passa a ser de +1k1. Uma vez por dia, você pode gastar um Ponto de Vazio para interpretar um presságio com precisão absoluta, sem a necessidade de uma rolagem de perícia (embora o Mestre ainda tenha discrição sobre qual é a interpretação correta do presságio)."
+          }
+        ],
+        "source_book": "Book of Water",
+        "pagina": 188
+      }
+    ]
+  },
+  "kata_kiho": {
+    "kata_kiho": [
+      {
+        "nome": "Waves Upon the Breakers",
+        "tipo": "kata",
+        "pre_requisito": "Water 3; Akodo Bushi, Kakita Bushi, Shinjo Bushi",
+        "anel_ou_trait": "Water",
+        "custo": "3 XP",
+        "texto_pt": "Este kata canaliza o chi de um samurai de forma que melhora sua força natural e foco e os traz para o campo de batalha. Quando este kata está ativo e você está empunhando uma arma na qual possui pelo menos três ranks de perícia, seu dano é aumentado em +1k0.",
+        "source_book": "Book of Water",
+        "pagina": 178
+      },
+      {
+        "nome": "Leaves in the Stream",
+        "tipo": "kata",
+        "pre_requisito": "Water 3; Bayushi Bushi, Hiruma Bushi, Mirumoto Bushi, Shiba Bushi",
+        "anel_ou_trait": "Water",
+        "custo": "3 XP",
+        "texto_pt": "Este kata ensina o samurai a abraçar a velocidade fluida da água, permitindo que ele se mova significativamente mais rápido pelo campo de batalha. Enquanto este kata estiver ativo, você pode reduzir seu ND de Armadura em até 5 x sua Água (mas não pode reduzi-lo abaixo de 5). Em troca, você pode aumentar sua distância máxima de movimento possível para a Rodada na mesma quantidade.",
+        "source_book": "Book of Water",
+        "pagina": 178
+      },
+      {
+        "nome": "Power of the Tsunami",
+        "tipo": "kata",
+        "pre_requisito": "Water 4; Daigotsu Bushi, Hida Bushi, Moto Bushi",
+        "anel_ou_trait": "Water",
+        "custo": "4 XP",
+        "texto_pt": "Enquanto este kata estiver ativo, uma vez por Rodada ao atacar um oponente, você pode ignorar uma quantidade de Redução igual ao seu Anel de Água. Por exemplo, se você possui Água 4 e ataca um oponente com Redução 5 enquanto este kata está ativo, uma vez por Rodada aquele inimigo seria tratado como se possuísse apenas Redução 1.",
+        "source_book": "Book of Water",
+        "pagina": 178
+      },
+      {
+        "nome": "Musubi",
+        "tipo": "kiho",
+        "pre_requisito": "Water 5; Tipo: Interno (Bastão)",
+        "anel_ou_trait": "Water",
+        "custo": "5 XP",
+        "texto_pt": "Este kiho invoca a força fluida e o movimento da Água para proteger o monge. Enquanto o kiho estiver ativo, o monge move seu cajado em um redemoinho constante de movimento, rápido e implacável, mas também gracioso e sem pausa ou padrão, guiado apenas pela percepção inata da Água. Ataques inimigos são desviados por esses movimentos, suprimidos e afastados pelo fluxo do poder da Água. Enquanto o Kiho estiver ativo e o monge estiver segurando e movendo seu cajado (para fins mecânicos, mover o cajado desta forma é considerado uma Ação Livre), o monge adiciona o total combinado de seu Anel de Água e seu Rank de Perícia em Staves ao seu ND de Armadura. Além disso, se o monge dedicar mais de seu tempo e esforço aos movimentos giratórios e fluidos do cajado, sua defesa torna-se correspondentemente mais potente; para cada Ação Simples na mesma Rodada que o monge usar para aprimorar o Kiho, ele pode aumentar seu ND de Armadura em seu Anel de Água novamente para aquela Rodada. (Este bônus adicional de ND de Armadura termina no início do próximo Turno do monge.)",
+        "source_book": "Book of Water",
+        "pagina": 189
+      },
+      {
+        "nome": "Dharma Technique",
+        "tipo": "kiho",
+        "pre_requisito": "Water 7; Tipo: Marcial (Bastão)",
+        "anel_ou_trait": "Water",
+        "custo": "7 XP",
+        "texto_pt": "Uma forma mais avançada de Musubi, este Kiho invoca os poderes defensivos da Água para proteger o monge não apenas fisicamente, mas também espiritualmente. Assim como Musubi, este Kiho requer que o monge tenha um cajado e o mantenha em movimento; no entanto, este Kiho exige que o monge gaste uma Ação Simples no movimento do cajado a cada Rodada para fornecer um foco suficiente para seu chi. Enquanto este Kiho estiver em efeito, o monge tem a habilidade de desviar kami com o chi de Água que ele foca através do cajado. Em termos de jogo, quando um feitiço alveja especificamente o monge (não um feitiço de área de efeito), o monge pode fazer um Teste Disputado de Staves/Água contra o teste de Lançamento de Feitiço do shugenja. Se o monge vencer o teste, seu chi interrompe o feitiço e o dispersa, negando seus efeitos contra ele. (Se o feitiço estiver alvejando várias pessoas, os outros alvos não estarão protegidos pelo Kiho.) O monge pode fazer isso um número de vezes por escaramuça igual ao seu Anel de Água. A critério do Mestre, este Kiho também pode ser capaz de defender contra feitiços de maho, usando o chi puro de Água para interromper o kansen. No entanto, o monge deve fazer 3 Aumentos no Teste Disputado para ser bem-sucedido.",
+        "source_book": "Book of Water",
+        "pagina": 190
+      },
+      {
+        "nome": "Tasaii-Do",
+        "tipo": "kiho",
+        "pre_requisito": "Water 6; Tipo: Marcial (Bastão, Atemi)",
+        "anel_ou_trait": "Water",
+        "custo": "6 XP",
+        "texto_pt": "Este Kiho foca o chi de Água do monge ofensivamente, canalizando-o através de seu cajado para sobrepujar seu oponente. É ativado com um ataque da mesma forma que um Kiho de atemi, mas usando um ataque de cajado em vez de um ataque desarmado. Após atingir seu oponente (tipicamente em um local de foco de chi, como a cabeça, peito ou estômago), o monge libera seu chi através do cajado e realiza um Teste Disputado de sua Água contra a Terra do alvo. Com um sucesso, o alvo é Atordoado.",
+        "source_book": "Book of Water",
+        "pagina": 190
+      }
+    ]
+  },
+  "skills": {
+    "skills": []
+  },
+  "spells": {
+    "spells": [
+      {
+        "nome": "Purification of the Kami",
+        "anel": "Água",
+        "mastery_level": 1,
+        "area": "Corpo d'água de até 500 pés de raio",
+        "duracao": "Permanente",
+        "texto_pt": "Este feitiço invoca a pureza e a força de purificação dos kami da Água para purgar sujeira e contaminação de um corpo d'água, como uma lagoa, um fosso ou parte de um riacho ou rio. O conjurador toca a água como parte do ritual de conjuração, e a purificação se propaga a partir daquele ponto em ondas de luz brilhante. Este feitiço torna toda a água dentro da área de efeito totalmente pura e segura para beber, removendo toda sujeira, doença e toxinas. (No entanto, ele não pode purgar a Mácula das Terras Sombrias.) A purificação é um evento único e não pode impedir que sujeira ou veneno retornem à água mais tarde. Este feitiço também pode ser conjurado em água dentro de um único recipiente (como um balde, barril ou garrafa). Se o feitiço for conjurado em uma bebida alcoólica (como sake, shochu ou vinho de ameixa), ele purgará o sabor e o teor alcoólico da bebida, deixando-a como água pura. Aumentos: Área de Efeito (+500 pés de raio por Aumento)",
+        "source_book": "Book of Water",
+        "pagina": 180
+      },
+      {
+        "nome": "The Swell of the Storm",
+        "anel": "Água",
+        "mastery_level": 1,
+        "area": "Uma criatura alvo",
+        "duracao": "Instantâneo",
+        "texto_pt": "Este feitiço evoca uma explosão repentina de água que atinge com o poder pesado e irresistível da maré. A água é invocada, voando do conjurador em uma massa pesada e atingindo o alvo com um poder suave, mas quase irresistível. O alvo deve fazer um Teste Contestado de sua Força contra a Água do conjurador – falha resulta em Derrubada (o alvo é derrubado Caído). O feitiço também extinguirá quaisquer chamas abertas que os alvos estejam carregando (tochas, lanternas, velas, etc.). Este feitiço pode afetar criaturas Enormes, embora o Mestre possa conceder a elas um bônus no Teste Contestado para refletir a maior dificuldade em derrubar alvos tão grandes. Aumentos: Alcance (+10' por Aumento), Área de Efeito (+1 alvo a cada dois Aumentos), Especial (+1g0 no Teste Contestado por Aumento)",
+        "source_book": "Book of Water",
+        "pagina": 180
+      },
+      {
+        "nome": "Suitengu’s Curse",
+        "anel": "Água",
+        "mastery_level": 1,
+        "area": "Uma criatura alvo",
+        "duracao": "10 Rodadas",
+        "texto_pt": "Esta prece invoca Suitengu, a Fortuna do Mar, para arrastar o alvo para baixo com o peso de sua ira sombria. O alvo sente um grande peso em todos os seus membros, como se estivesse tentando nadar em mares agitados. Mecanicamente, a hostilidade de Suitengu reduz o Rank de Reflexos do alvo em 1 e faz com que ele se mova como se sua Água fosse 1 Rank menor pela duração do feitiço. Aumentos: Alcance (+10' por Aumento), Duração (+3 Rodadas por Aumento)",
+        "source_book": "Book of Water",
+        "pagina": 180
+      },
+      {
+        "nome": "Strength of the Tsunami",
+        "anel": "Água",
+        "mastery_level": 2,
+        "area": "Conjurador",
+        "duracao": "3 Rodadas",
+        "texto_pt": "Este feitiço invoca a afinidade da Água com a força física. O fluxo de kami da Água através do corpo melhora brevemente os músculos, permitindo que a pessoa alvo realize feitos prodigiosos. Pela duração do feitiço, o Rank de Força do alvo é aumentado em uma quantidade igual a metade do Anel de Água do conjurador (arredondado para baixo). Isso não pode aumentar o Rank de Força para mais de 9. Aumentos: Área de Efeito (conjurar em outra pessoa por dois Aumentos), Duração (+1 Rodada por Aumento)",
+        "source_book": "Book of Water",
+        "pagina": 180
+      },
+      {
+        "nome": "Surging Soul",
+        "anel": "Água",
+        "mastery_level": 2,
+        "area": "Uma pessoa alvo",
+        "duracao": "3 Rodadas",
+        "texto_pt": "Em contraste com os aspectos mais pacíficos e curativos da Água, esta prece evoca o poder da Água no ataque, liberando uma onda de chi através dos membros do alvo para fortalecer seus golpes. No entanto, a onda maciça de kami da Água através do corpo também dificulta que o alvo permaneça parado. O receptor desta prece desfruta de um bônus de +1g1 em todas as jogadas de Ataque, mas não pode entrar ou se beneficiar da Postura de Centro e deve realizar pelo menos uma Ação de Movimento a cada Rodada pela duração do feitiço. Surging Soul é altamente favorecido entre shugenja guerreiros, como a ala marcial dos Kitsu, Tamori, Kuni e Iuchi, mas encontra menos aceitação em famílias como os Asahina e Isawa. Aumentos: Alcance (+10' por Aumento), Duração (+1 Rodada a cada dois Aumentos)",
+        "source_book": "Book of Water",
+        "pagina": 180
+      },
+      {
+        "nome": "Yuki’s Touch",
+        "anel": "Água",
+        "mastery_level": 2,
+        "area": "Corpo d'água de 100' de raio a partir do conjurador",
+        "duracao": "Instantâneo",
+        "texto_pt": "Este feitiço, nomeado em homenagem ao espírito lendário conhecido como Yuki no Onna, persuade os espíritos da Água em um riacho, rio ou lago a expelirem todo o Fogo de sua presença, fazendo com que a água congele instantaneamente. Um único corpo d'água natural congela solidamente até uma distância de 100 pés a partir do conjurador. Embora isso tenha usos em combate, o uso mais frequente do feitiço é permitir que viajantes ou soldados cruzem barreiras de água. Quaisquer pessoas ou criaturas dentro da água ficarão presas e, se estiverem abaixo da superfície, sufocarão (trate como Afogamento). Libertar-se do gelo exigirá um Teste Contestado de Força contra a Água do conjurador. O gelo derreterá normalmente. Aumentos: Área de Efeito (+50' de raio por Aumento)",
+        "source_book": "Book of Water",
+        "pagina": 181
+      },
+      {
+        "nome": "Heaven’s Tears",
+        "anel": "Água",
+        "mastery_level": 2,
+        "area": "Raio de 30' ao redor do conjurador",
+        "duracao": "2 Rodadas",
+        "texto_pt": "Esta prece evoca a tristeza dos Céus, desencadeando um breve dilúvio de chuva dotado da pureza espiritual do Sol. O feitiço invoca chuva divina do céu e, portanto, só pode ser usado de forma eficaz ao ar livre – não pode fazer chover em ambientes internos ou subterrâneos. Aqueles de alma pura (sem Mácula ou corrupção das sombras, Rank de Honra de 4.0 ou melhor) que forem banhados por Heaven’s Tears are healed a cada Rodada em uma quantidade de Feridas igual à Água do conjurador. Por outro lado, aqueles com Mácula ou corrupção das sombras sofrem 1g1 Feridas a cada Rodada em que estiverem expostos às Tears. Aumentos: Área de Efeito (+5' de raio por Aumento), Duração (+1 Rodada por dois Aumentos, só pode ser feito uma vez)",
+        "source_book": "Book of Water",
+        "pagina": 181
+      },
+      {
+        "nome": "Endless Deluge",
+        "anel": "Água",
+        "mastery_level": 3,
+        "area": "1 milha de diâmetro",
+        "duracao": "12 horas",
+        "texto_pt": "Este feitiço chama os espíritos da Água no céu para se congregarem e descerem à terra, desencadeando uma tempestade de chuva maciça. Conjurar este feitiço é um ritual que exige pelo menos dez minutos; a critério do Mestre, conjurar este feitiço em uma região especialmente seca, ou durante uma seca, pode exigir mais tempo de conjuração ou exigir Aumentos para ter sucesso. Nuvens de chuva se acumulam enquanto o feitiço está sendo conjurado e, uma vez concluído, as nuvens se abrem e a chuva começa a cair torrencialmente, continuando sem cessar por muitas horas. O valor principal deste feitiço é extinguir incêndios (mesmo grandes conflagrações, como incêndios florestais, serão extintas em meia hora ou mais) e atenuar os efeitos da seca. No entanto, a chuva torrencial incessante também obscurece a visibilidade e torna os objetos escorregadios, impondo uma penalidade de -1g0 em todas as ações físicas e uma penalidade de -2g0 em ataques à distância. A chuva também impõe uma penalidade de -1g1 em Testes de Conjuração de feitiços de Fogo dentro dela, pois a água implacável torna os espíritos do Fogo relutantes em agir. Finalmente, devido ao grande volume de chuva em um curto período de tempo, o feitiço pode potencialmente causar inundações repentinas (a critério do Mestre). Aumentos: Área de Efeito (+1 milha a cada dois Aumentos), Duração (+6 horas por Aumento)",
+        "source_book": "Book of Water",
+        "pagina": 181
+      },
+      {
+        "nome": "Sanctuary of the Waves",
+        "anel": "Água",
+        "mastery_level": 3,
+        "area": "Uma pessoa alvo",
+        "duracao": "10 Rodadas",
+        "texto_pt": "Este feitiço chama os espíritos da Água para proteger e ocultar os alvos escolhidos (que devem ser voluntários, e podem incluir o conjurador). O feitiço só pode ser conjurado dentro do alcance de uma grande quantidade de água em um ambiente natural – ex: uma lagoa, riacho ou algo maior. Quando o feitiço é conjurado, a água avança, envolve os alvos e os arrasta para a água, ocultando-os abaixo de sua superfície. Os alvos têm ar suficiente para respirar pela duração do feitiço, mas não mais do que isso. A barreira de água ao redor protege completamente os alvos, mas também os impede totalmente de realizar qualquer tipo de ataque contra aqueles do lado de fora – na verdade, eles sequer serão capazes de ver o que está acontecendo acima da água, a menos que passem em um teste de Percepção contra uma ND de 20 para discernir as imagens borradas. Uma vez expirada a duração do feitiço, a água libera os alvos onde eles estiverem – eles devem nadar até a superfície por conta própria. Aumentos: Duração (+3 Rodadas por Aumento), Área de Efeito (+1 pessoa por Aumento)",
+        "source_book": "Book of Water",
+        "pagina": 182
+      },
+      {
+        "nome": "The Inner Ocean",
+        "anel": "Água",
+        "mastery_level": 3,
+        "area": "Uma pessoa voluntária",
+        "duracao": "5 minutos",
+        "texto_pt": "Este feitiço evoca a Água interior do alvo ao grau máximo, fortalecendo-a a ponto de sobrepujar completamente os outros Elementos do alvo. O alvo – que pode ser o conjurador – é fisicamente transformado em água pura e cristalina, junto com tudo o que estiver vestindo ou carregando no momento em que o feitiço é conjurado. Este estado persiste até que o feitiço expire e, enquanto o alvo for água, ele não poderá falar, atacar, conjurar feitiços ou manipular objetos físicos diretamente. No entanto, he can move more quickly (realizando Ações de Movimento como se tivesse +1 Rank em seu Anel de Água), pode manipular objetos indiretamente empurrando-os e pode fluir seu corpo líquido através de aberturas estreitas. (O alvo é efetivamente imune à maioria dos danos físicos, mas feitiços de Fogo podem danificá-lo, assim como o calor verdadeiramente intenso, como o de um castelo em chamas ou de um fluxo de lava. A critério do Mestre, certos tipos de eventos físicos – como ser dispersado ou parcialmente absorvido por toalhas – também podem ferir a pessoa transformada. Quando a duração do feitiço termina, os Elementos do alvo se reequilibram e ele retorna ao normal. Aumentos: Alcance (+20' por Aumento), Duração (+1 Minuto por Aumento)",
+        "source_book": "Book of Water",
+        "pagina": 182
+      },
+      {
+        "nome": "Typhoon’s Surge",
+        "anel": "Água",
+        "mastery_level": 3,
+        "area": "Um ou mais aliados alvo",
+        "duracao": "Instantâneo",
+        "texto_pt": "Este feitiço, às vezes chamado pelo nome mais mundano de 'Energia Renovada', é uma variação da prece mais usada, Rejuvenating Vapors. O feitiço tem como alvo uma quantidade de aliados ao alcance igual ao Rank de Água do conjurador (alvos adicionais além da Água do conjurador podem ser escolhidos com Aumentos). Todos os alvos experimentam uma onda repentina e poderosa de energia à medida que o feitiço os inunda com chi revigorante. Eles são libertados dos efeitos das condições Fatigado e Atordoado, e cada alvo cura uma quantidade de Feridas igual ao Rank de Água do conjurador. Aumentos: Alcance (+10' por Aumento), Área de Efeito (+1 alvo além da Água do conjurador a cada dois Aumentos)",
+        "source_book": "Book of Water",
+        "pagina": 182
+      },
+      {
+        "nome": "Steed of the Ebbing Tides",
+        "anel": "Água",
+        "mastery_level": 4,
+        "area": "Uma montaria invocada",
+        "duracao": "4 horas",
+        "texto_pt": "Esta prece foi desenvolvida originalmente pelos Iuchi, embora os Isawa tenham criado um feitiço semelhante por conta própria desde então. Ela invoca uma criatura poderosa de kami da Água, que assume a forma física de um cavalo aquoso e translúcido. A Montaria carregará o conjurador (ou uma outra pessoa designada pelo conjurador no momento em que a Montaria é invocada pela primeira vez) da mesma maneira que um cavalo normal, pode ser controlada com Equitação normalmente e lutará desinteressadamente na defesa de seu cavaleiro; para fins de jogo, a Montaria é considerada como tendo as mesmas estatísticas mecânicas de um Utaku Warhorse, mas também possui Redução 15. Ela é incansável enquanto existir. Assim que o feitiço expira, a Montaria desmorona em água normal – o que pode ser uma surpresa desagradável se alguém ainda estiver montado nela. Aumentos: Duração (+2 horas por Aumento)",
+        "source_book": "Book of Water",
+        "pagina": 182
+      },
+      {
+        "nome": "Master of the Rolling River",
+        "anel": "Água",
+        "mastery_level": 4,
+        "area": "Até 25 aliados em um grupo",
+        "duracao": "5 minutos",
+        "texto_pt": "Este feitiço foi originalmente projetado por shugenja de batalha das famílias Kitsu e Iuchi, e continua sendo um dos favoritos entre eles. Ele infunde uma unidade militar com a velocidade fluida e a força implacável da Água, permitindo que os soldados se movam mais rapidamente e golpeiem com mais força no campo de batalha. O conjurador escolhe um grupo de aliados (até aproximadamente um esquadrão) para receber esta bênção; todas as tropas naquela unidade podem se mover como se sua Água fosse 1 Rank maior e são consideradas como tendo Força 1 Rank maior pela duração do feitiço. Este feitiço normalmente só beneficia samurai, mas um conjurador habilidoso pode estender a bênção para cobrir outros aliados. Dois Aumentos permitirão que o feitiço afete humanos não-samurai (ex: ashigaru), enquanto quatro Aumentos permitirão que ele afete aliados não-humanos, como Naga ou Nezumi (Ratlings). Este feitiço também pode ser usado para afetar cenários de Batalha de Massa. Cada conjuração do feitiço durante uma Batalha de Massa concede um bônus igual ao Anel de Água do conjurador no total da próxima jogada de Batalha do general comandante para determinar a vitória ou derrota. Aumentos: Alcance (+50' por Aumento), Duração (+1 minuto por Aumento), Especial (afetar não-samurai, veja a descrição)",
+        "source_book": "Book of Water",
+        "pagina": 183
+      },
+      {
+        "nome": "Seed of Qanan",
+        "anel": "Água",
+        "mastery_level": 4,
+        "area": "Quaisquer duas pessoas",
+        "duracao": "5 Rodadas",
+        "texto_pt": "Um feitiço secreto do Clã do Unicórnio baseado em magia estrangeira (gaijin), esta prece usa o controle dos kami da Água sobre a energia interna para criar temporariamente uma conexão entre duas pessoas, fundindo seus chi e permitindo que eles recorram ao conhecimento e habilidade um do outro. Os alvos devem ser tocados simultaneamente pelo conjurador para estabelecer o vínculo inicial de kami da Água, e devem permanecer a até 50 pés de distância um do outro para que o vínculo continue funcionando – se essa distância for excedida, o feitiço termina imediatamente. Em termos de jogo, as pessoas vinculadas são capazes de usar as Perícias umas das outras, empregando o Rank de Perícia que for maior para uma determinada tarefa. No entanto, eles não ganham os benefícios das Habilidades de Maestria. Aumentos: Duração (+2 Rodadas por Aumento)",
+        "source_book": "Book of Water",
+        "pagina": 183
+      },
+      {
+        "nome": "The Emperor’s Road",
+        "anel": "Água",
+        "mastery_level": 4,
+        "area": "Uma estrada Imperial de até dez milhas de extensão",
+        "duracao": "8 horas",
+        "texto_pt": "Este feitiço foi originalmente idealizado pelos Seppun com o propósito de facilitar e apoiar as jornadas do Imperador de e para o Winter Court Imperial anual. Desde então, o feitiço tem sido aplicado de forma mais ampla, mas ainda é bastante raro fora da família Seppun. O feitiço cria uma aura poderosa de espíritos amigáveis da Água ao longo de uma estrada Imperial específica, facilitando a viagem por sua extensão. A estrada é limpa de todos os pequenos obstáculos e irregularidades (um grande obstáculo físico, como uma árvore caída ou um deslizamento de terra, não será afetado), e os espíritos da Água fazem com que os viajantes honrados que são leais ao Imperador se movam como se sua Água fosse 2 Ranks maior enquanto permanecerem na estrada. Além disso, a bênção infunde esses viajantes e suas montarias com a energia da Água, impedindo que fiquem Fatigados devido à viagem enquanto permanecerem na estrada. Aumentos: Área de Efeito (+1 milha por Aumento)",
+        "source_book": "Book of Water",
+        "pagina": 183
+      },
+      {
+        "nome": "Within the Waves",
+        "anel": "Água",
+        "mastery_level": 4,
+        "area": "Esfera de 10' de diâmetro",
+        "duracao": "Uma hora",
+        "texto_pt": "Este feitiço foi originalmente idealizado por shugenja Isawa que tentavam localizar o lendário reino submarino que supostamente seria o lar da esposa de Shiba. Embora nunca tenham tido sucesso nesse objetivo, o feitiço que criaram teve um uso considerável nos séculos seguintes. Within the Waves persuade os kami da Água a se manterem afastados do conjurador em uma formação esférica, formando assim uma bolha de ar ao seu redor. O conjurador pode mover a bolha concentrando-se, permitindo-lhe explorar livremente abaixo da superfície de um rio, lago ou mesmo do oceano. (Esse movimento ocorre na velocidade normal baseada na Água do conjurador.) Outras pessoas podem entrar e sair da bolha nadando, e um conjurador habilidoso pode carregar alguns passageiros consigo dentro do centro da bolha. Quando a duração do feitiço expira, os kami da Água empurram a bolha para a superfície. Aumentos: Duração (+1/2 hora por Aumento), Especial (adicionar uma pessoa adicional dentro da bolha por três Aumentos)",
+        "source_book": "Book of Water",
+        "pagina": 183
+      },
+      {
+        "nome": "Chi Reversal",
+        "anel": "Água",
+        "mastery_level": 5,
+        "area": "Uma pessoa/criatura alvo",
+        "duracao": "1 hora",
+        "texto_pt": "Esta prece evoca a conexão da Água com o fluxo de chi através do corpo, assumindo o controle desse fluxo para alterar o equilíbrio de energia do alvo. Um 'par' de Atributos mentais e físicos do alvo do mesmo Elemento (escolhido pelo conjurador) tem seus Ranks invertidos pela duração do feitiço. Assim, se o conjurador optou por inverter os Atributos de Fogo do alvo, um Intelecto de 2 e Agilidade de 4 se tornariam um Intelecto de 4 e Agilidade de 2 pela duração do feitiço. O conjurador pode realizar Aumentos para afetar pares adicionais de Atributos. Aumentos: Alcance (+20' por Aumento), Duração (+1/2 hora por Aumento), Especial (um par adicional de Atributos a cada dois Aumentos)",
+        "source_book": "Book of Water",
+        "pagina": 184
+      },
+      {
+        "nome": "Open the Waves",
+        "anel": "Água",
+        "mastery_level": 5,
+        "area": "Trincheira de até 30' de largura e profundidade, e até 300' de comprimento",
+        "duracao": "15 minutos",
+        "texto_pt": "Este feitiço chama os kami da Água para se manterem afastados, criando uma 'trincheira' através de um corpo d'água para permitir a passagem de homens, animais ou mesmo vagões e máquinas de guerra. O feitiço é empregado principalmente por shugenja militares que precisam ajudar os exércitos de seu clã a cruzar obstáculos fluviais, mas também tem sido usado para fins mais pacíficos, como ajudar camponeses a escapar de inundações. A limitação principal do feitiço é que ele nem sempre consegue desobstruir a água até o fundo – há um limite para o que se pode pedir aos kami. Aumentos: Área de Efeito (aumentar a largura ou profundidade da trincheira em 5' por Aumento), Duração (+5 minutos por Aumento)",
+        "source_book": "Book of Water",
+        "pagina": 184
+      },
+      {
+        "nome": "Whirlpool",
+        "anel": "Água",
+        "mastery_level": 5,
+        "area": "Redemoinho de 200' de raio",
+        "duracao": "10 minutos",
+        "texto_pt": "Esta prece é uma das favoritas entre os Yoritomo, aos quais é creditada sua criação inicial. Ela só pode ser conjurada perto ou sobre um grande corpo de água aberta – um lago ou mar. O feitiço excita os kami da Água em uma fúria tremenda, fazendo com que criem um redemoinho enorme e poderoso que sugará quaisquer navios ou nadadores nas proximidades. Qualquer nadador pego dentro da área de efeito estará em perigo de ser sugado, exigindo um teste de Atletismo (Natação) / Força com uma ND de 30 a cada Rodada para evitar isso. Um navio dentro da área de efeito estará igualmente em perigo, e o capitão do navio deve realizar um teste de Navegação / Intelecto com uma ND de 30 a cada minuto para evitar que a embarcação seja sugada. Uma vez debaixo d'água, todas as vítimas estarão sujeitas a Afogamento e só poderão alcançar a superfície novamente passando em um teste de Atletismo (Natação) / Força com uma ND de 40. Aumentos: Área de Efeito (+25' de raio por Aumento), Duração (+2 minutos por Aumento)",
+        "source_book": "Book of Water",
+        "pagina": 184
+      },
+      {
+        "nome": "Opening the Veil",
+        "anel": "Água",
+        "mastery_level": 6,
+        "area": "Um portal espiritual",
+        "duracao": "1 hora",
+        "texto_pt": "Esta prece, um feitiço conhecido apenas pelos Kitsu e Isawa, invoca o aspecto de Viagem da Água para abrir um portal temporário para os Reinos Espirituais. O feitiço normalmente só pode acessar os reinos de Meido ou Chikushudo, mas conjuradores extremamente poderosos às vezes conseguem acessar Yomi, Sakkaku, Toshigoku, Yume-do ou Gaki-do. O portal dura apenas um curto período de tempo, portanto a travessia por ele é repleta de riscos. Além disso, este feitiço não funciona em nenhuma área que tenha sido protegida contra as influências dos Reinos Espirituais (a critério do Mestre). Aumentos: Duração (+10 minutos por Aumento), Especial (alcançar Sakkaku ou Yume-do por um Aumento, Gaki-do ou Toshigoku por dois Aumentos, Yomi por quatro Aumentos)",
+        "source_book": "Book of Water",
+        "pagina": 184
+      },
+      {
+        "nome": "Breath of Mist",
+        "anel": "Água",
+        "mastery_level": 6,
+        "area": "Uma área circular de 200' de raio",
+        "duracao": "30 minutos",
+        "texto_pt": "Este feitiço é especialmente popular entre os tipos mais pacíficos de shugenja, pois fornece uma maneira de evitar uma batalha sem violência real. O feitiço evoca o poder total de centenas de kami da Água para reduzir o solo a um pântano semi-líquido enquanto, ao mesmo tempo, preenche o ar com vapor de água para obscurecer a visão. Exércitos inteiros foram renderizados efetivamente impotentes por este feitiço, incapazes de se mover ou de desferir golpes contra seus inimigos. Em termos de jogo, o feitiço transforma todo o terreno dentro da área de efeito em Terreno Difícil. A névoa reduz a visibilidade normal para 10 pés. Entre 10 e 30 pés, os personagens podem discernir contornos vagos – isso impõe uma penalidade de +15 na ND de quaisquer ataques à distância. Além de 30 pés, todos os personagens ficam efetivamente Cegos. Aumentos: Área de Efeito (+25' de raio por Aumento), Duração (+10 minutos por Aumento)",
+        "source_book": "Book of Water",
+        "pagina": 184
+      }
+    ]
+  },
+  "advantages_disadvantages": {
+    "advantages": [
+      {
+        "nome": "Battle Healing",
+        "custo_pontos": 5,
+        "texto_pt": "Alguns dos mais ardentes e militantes shugenja do Império, incluindo a família Kuni e os Bishamon’s Chosen entre os Kitsu, entendem que a essência de todos os Elementos pode ser usada para preencher a carne rompida de um guerreiro honrado e torná-lo inteiro. Água é superior para tais coisas, é claro, mas os outros Elementos podem ser suficientes quando necessário. Uma vez por dia por pessoa, você pode gastar um espaço de feitiço de Água ou dois espaços de feitiço em qualquer outro(s) Elemento(s) para curar um Rank de Ferida de um Rokugani que você esteja tocando.",
+        "source_book": "Book of Water",
+        "pagina": 178
+      },
+      {
+        "nome": "Spy Network",
+        "custo_pontos": 8,
+        "texto_pt": "Você tem acesso a uma rede de inteligência que pode lhe fornecer uma variedade de informações secretas. Uma vez por sessão, se você puder entrar em contato com sua rede de espionagem, poderá adquirir uma informação útil que de outra forma estaria indisponível. O Mestre tem a palavra final sobre o que você aprende, mas sempre será algo útil para seus esforços atuais. Esta Vantagem não pode ser usada em ambientes onde seria impossível fazer contato com sua rede de espionagem (ex: vagando pelo deserto, explorando as Shadowlands ou a Shinomen Mori, etc).\n\nPersonagens da família Daidoji podem comprar esta Vantagem por 7 pontos, personagens Scorpion por 6 pontos e personagens Kolat por 5 pontos.",
+        "source_book": "Book of Water",
+        "pagina": 185
+      }
+    ],
+    "disadvantages": []
+  },
+  "equipment": {
+    "weapons": [
+      {
+        "nome": "Dragon Beard Hook (Longxu Hook)",
+        "dano": "1k2",
+        "preco": "4 koku",
+        "raridade": "Rare",
+        "source_book": "Book of Water",
+        "pagina": 176
+      },
+      {
+        "nome": "Rope Dart",
+        "dano": "1k1",
+        "preco": "5 bu",
+        "raridade": "Rare",
+        "source_book": "Book of Water",
+        "pagina": 176
+      },
+      {
+        "nome": "Three-Section Staff",
+        "dano": "2k2",
+        "preco": "1 koku",
+        "raridade": "Rare",
+        "source_book": "Book of Water",
+        "pagina": 176
+      },
+      {
+        "nome": "Pitchfork",
+        "dano": "1k2",
+        "preco": "3 bu",
+        "raridade": "Common",
+        "source_book": "Book of Water",
+        "pagina": 176
+      },
+      {
+        "nome": "Torch",
+        "dano": "0k1",
+        "preco": "1 bu",
+        "raridade": "Common",
+        "source_book": "Book of Water",
+        "pagina": 176
+      }
+    ],
+    "armor": [],
+    "gear": []
+  }
+}

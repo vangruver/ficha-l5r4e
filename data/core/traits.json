@@ -1,0 +1,10 @@
+[
+  { "id": "stamina", "nome_en": "Stamina", "nome_pt": "Vigor", "anel": "earth" },
+  { "id": "willpower", "nome_en": "Willpower", "nome_pt": "Vontade", "anel": "earth" },
+  { "id": "reflexes", "nome_en": "Reflexes", "nome_pt": "Reflexos", "anel": "air" },
+  { "id": "awareness", "nome_en": "Awareness", "nome_pt": "Prontidão", "anel": "air" },
+  { "id": "strength", "nome_en": "Strength", "nome_pt": "Força", "anel": "water" },
+  { "id": "perception", "nome_en": "Perception", "nome_pt": "Percepção", "anel": "water" },
+  { "id": "agility", "nome_en": "Agility", "nome_pt": "Agilidade", "anel": "fire" },
+  { "id": "intelligence", "nome_en": "Intelligence", "nome_pt": "Intelecto", "anel": "fire" }
+]

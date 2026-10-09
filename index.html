@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ficha L5R 4e</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topo">
+  <h1>Lenda dos Cinco Anéis <small>4ª edição</small></h1>
+  <p class="aviso">Projeto de fã, não-oficial e sem fins lucrativos. L5R e Rokugan pertencem à FFG/AEG e aos autores do sistema.</p>
+  <nav class="tabs-topo">
+    <button class="tab-topo on" data-tab="ficha">Ficha</button>
+    <button class="tab-topo" data-tab="compendio">Compêndio</button>
+  </nav>
+</header>
+
+<!-- ================= FICHA ================= -->
+<main id="painel-ficha" class="painel">
+  <section class="barra-personagem">
+    <select id="sel-personagem"></select>
+    <button id="btn-novo-personagem" type="button">Novo</button>
+    <button id="btn-excluir-personagem" type="button" class="perigo">Excluir</button>
+    <span id="salvo-indicador" class="salvo"></span>
+  </section>
+
+  <section class="bloco">
+    <h2>Identidade</h2>
+    <div class="form-grid">
+      <label>Nome<input id="f-nome" type="text" placeholder="Nome do personagem"></label>
+      <label>Clã<select id="f-cla"></select></label>
+      <label>Família<input id="f-familia" type="text" placeholder="Família"></label>
+      <label>Escola<select id="f-escola"></select></label>
+      <label>Rank de Escola<input id="f-rank-escola" type="number" min="1" max="10" value="1"></label>
+    </div>
+    <p id="escola-resumo" class="nota"></p>
+  </section>
+
+  <section class="bloco">
+    <h2>Anéis e Traits</h2>
+    <div id="grid-aneis" class="grid-aneis"></div>
+  </section>
+
+  <section class="bloco">
+    <h2>Skills</h2>
+    <div class="linha-add">
+      <select id="f-skill-select"></select>
+      <button id="btn-add-skill" type="button">Adicionar</button>
+    </div>
+    <div id="lista-skills" class="lista-itens"></div>
+  </section>
+
+  <section class="bloco">
+    <h2>Técnicas de Escola</h2>
+    <div id="lista-tecnicas" class="lista-itens"></div>
+  </section>
+
+  <section class="bloco">
+    <h2>Vantagens e Desvantagens</h2>
+    <div class="linha-add">
+      <select id="f-vantagem-select"></select>
+      <button id="btn-add-vantagem" type="button">+ Vantagem</button>
+      <select id="f-desvantagem-select"></select>
+      <button id="btn-add-desvantagem" type="button">+ Desvantagem</button>
+    </div>
+    <p id="saldo-vd" class="nota"></p>
+    <div id="lista-vantagens" class="lista-itens"></div>
+    <div id="lista-desvantagens" class="lista-itens"></div>
+  </section>
+
+  <section class="bloco">
+    <h2>Honra, Glória, Status, Infâmia</h2>
+    <div class="form-grid">
+      <label>Honra<input id="f-honra" type="number" step="0.1" min="0" max="10"></label>
+      <label>Glória<input id="f-gloria" type="number" step="0.1" min="0" max="10"></label>
+      <label>Status<input id="f-status" type="number" step="0.1" min="0" max="10"></label>
+      <label>Infâmia<input id="f-infamia" type="number" step="0.1" min="0" max="10"></label>
+    </div>
+  </section>
+
+  <section class="bloco">
+    <h2>Vazio e Ferimentos</h2>
+    <div class="form-grid">
+      <label>Anel de Vazio<input id="f-anel-vazio" type="number" min="1" max="10"></label>
+      <label>Pontos de Vazio gastos<input id="f-vazio-gastos" type="number" min="0"></label>
+      <label>Dano acumulado<input id="f-feridas" type="number" min="0"></label>
+    </div>
+    <p class="nota">Tabela oficial de Níveis de Ferimento (penalidade por nível) ainda não extraída do Core — ver STATUS.md. Por enquanto só o dano acumulado é registrado, sem penalidade automática.</p>
+  </section>
+
+  <section class="bloco">
+    <h2>Equipamento e Dinheiro</h2>
+    <div id="equip-inicial-wrap"></div>
+    <div class="linha-add">
+      <input id="f-equip-nome" type="text" placeholder="Item">
+      <input id="f-equip-qtd" type="number" min="1" value="1" style="width:70px">
+      <button id="btn-add-equip" type="button">Adicionar</button>
+    </div>
+    <div id="lista-equipamento" class="lista-itens"></div>
+    <div class="form-grid">
+      <label>Koku<input id="f-koku" type="number" min="0"></label>
+      <label>Bu<input id="f-bu" type="number" min="0"></label>
+      <label>Zeni<input id="f-zeni" type="number" min="0"></label>
+    </div>
+  </section>
+
+  <section class="bloco">
+    <h2>Notas</h2>
+    <textarea id="f-notas" rows="4" placeholder="Notas livres..."></textarea>
+  </section>
+</main>
+
+<!-- ================= COMPÊNDIO ================= -->
+<main id="painel-compendio" class="painel" hidden>
+  <nav id="abas" class="abas"></nav>
+  <div class="barra-busca">
+    <input id="busca" type="search" placeholder="Buscar por nome ou texto...">
+    <span id="filtro-wrap" class="filtro" hidden>
+      <label id="filtro-rotulo" for="filtro-valor"></label>
+      <select id="filtro-valor"></select>
+    </span>
+    <span id="contagem" class="contagem"></span>
+  </div>
+  <div id="resultados" class="resultados"></div>
+</main>
+
+<script type="module" src="src/app.js"></script>
+</body>
+</html>

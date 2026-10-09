@@ -1,0 +1,116 @@
+[
+  {
+    "id": "amaldicoado-pelo-reino--core-rulebook",
+    "nome": "Amaldiçoado pelo Reino",
+    "pontos_concedidos": 4,
+    "texto_pt": "A influência dos reinos espirituais pode ser sentida pelo reino mortal do Ningen-dô, e por alguma razão, a essência de um reino em particular o marcou como inimigo de tudo que emana deste reino. Esta Desvantagem vale 5 pontos para personagens shugenjas.",
+    "source_book": "Core Rulebook",
+    "pagina": 155
+  },
+  {
+    "id": "amor-perdido--core-rulebook",
+    "nome": "Amor Perdido",
+    "pontos_concedidos": 3,
+    "texto_pt": "Você divide um laço de amor verdadeiro com outra pessoa, mas a perdeu. Ele não precisa ser um amor romântico, pois amor fraternal ou familiar é igualmente trágico. Você tende a sofrer ímpetos de melancolia quando lembrado de seu amor perdido. Quando você se lembra da sua perda, todos os seus NA’s são aumentados em 5 até você gastar um Ponto de Vazio para recuperar o seu foco. Esta interrupção de sua concentração não pode ocorrer mais do que duas vezes por dia, e pelo menos uma hora deve se passar entre esses casos.",
+    "source_book": "Core Rulebook",
+    "pagina": 156
+  },
+  {
+    "id": "amor-verdadeiro--core-rulebook",
+    "nome": "Amor Verdadeiro",
+    "pontos_concedidos": 3,
+    "texto_pt": "Amor verdadeiro em Rokugan pode ser uma experiência maravilhosa, mas normalmente é um desastre, pois é raro que samurais tenham permissão para se casarem por amor. Sempre que estiver em uma posição em que tiver que escolher entre seu amor e o dever, você deve gastar um Ponto de Vazio antes de escolher seu dever acima de seu amor.",
+    "source_book": "Core Rulebook",
+    "pagina": 156
+  },
+  {
+    "id": "aparencia-incomoda--core-rulebook",
+    "nome": "Aparência Incômoda",
+    "pontos_concedidos": 3,
+    "texto_pt": "Algo em sua aparência faz os outros responderem-lhe com preocupação e atenção. Você não é necessariamente repulsivo, meramente incômodo de algum modo. O NA de qualquer Teste de Perícia Social é aumentado em +5. Esta Desvantagem vale 4 pontos para personagens da Aranha.",
+    "source_book": "Core Rulebook",
+    "pagina": 156
+  },
+  {
+    "id": "aposentadoria-forcada--core-rulebook",
+    "nome": "Aposentadoria Forçada",
+    "pontos_concedidos": 4,
+    "texto_pt": "Você foi forçado a se aposentar precocemente, sendo integrando um monastério, talvez por razões políticas ou por desgraça pública. Você não pode avançar mais em sua Escola. Ao obter um novo Nível de Sabedoria, você deve começar a pegar níveis de uma Escola de Monge neutra (vide o Livro da Água). Você não precisa da Vantagem Escolas Múltiplas para isto. Você não é mais considerado membro do seu Clã. Esta Desvantagem vale 5 pontos para personagens monges.",
+    "source_book": "Core Rulebook",
+    "pagina": 156
+  },
+  {
+    "id": "assombrado--core-rulebook",
+    "nome": "Assombrado",
+    "pontos_concedidos": 3,
+    "texto_pt": "Um de seus ancestrais escolheu dedicar atenção pessoal a você, constantemente lhe oferecendo conselhos e fazendo exigências. Talvez o ancestral só deseje que você viva de acordo com os ideais de seu Clã e família, ou talvez tenha alguma tarefa inacabada ou dever que deseje que você complete. Você deve mostrar toda a devida deferência e respeito ao seu ancestral, e fazer o melhor para viver de acordo com suas expectativas. Se falhar em fazê-lo, seu ancestral trará má fortuna para você: enquanto seu ancestral continuar furioso, uma vez por sessão uma de suas jogadas (à escolha do Mestre) sofrerá uma penalidade -1k1.",
+    "source_book": "Core Rulebook",
+    "pagina": 156
+  },
+  {
+    "id": "baixa-resistencia-a-dor--core-rulebook",
+    "nome": "Baixa Resistência a Dor",
+    "pontos_concedidos": 4,
+    "texto_pt": "Sua capacidade de se concentrar diante da dor é inferior à dos outros. As penalidades de NA que você sofre por Níveis de Ferimentos são aumentadas em +5 em cada nível.",
+    "source_book": "Core Rulebook",
+    "pagina": 156
+  },
+  {
+    "id": "bad-health--book-of-earth",
+    "nome": "Bad Health",
+    "texto_pt": "Algo na Terra deste personagem é malformado, tornando-o fisicamente mais frágil do que a maioria. Ferimentos parecem afetá-lo mais e doenças têm mais facilidade de se instalar em seu corpo.",
+    "source_book": "Book of Earth",
+    "pagina": 12
+  },
+  {
+    "id": "disturbing-countenance--book-of-earth",
+    "nome": "Disturbing Countenance",
+    "texto_pt": "A Terra do personagem simplesmente se formou de uma maneira que é vista como desagradável ou bizarra no nível subconsciente, causando reações sociais negativas.",
+    "source_book": "Book of Earth",
+    "pagina": 12
+  },
+  {
+    "id": "low-pain-threshold--book-of-earth",
+    "nome": "Low Pain Threshold",
+    "texto_pt": "Falta ao personagem a força da Terra para lidar com a dor e a punição, fazendo com que os golpes mais leves pareçam amplificados e dolorosos.",
+    "source_book": "Book of Earth",
+    "pagina": 12
+  },
+  {
+    "id": "missing-limb-birth-defect--book-of-earth",
+    "nome": "Missing Limb (Birth Defect)",
+    "texto_pt": "Nascer sem o número correto de dedos ou membros é visto como um sinal de desfavor das Fortunas, indicando que a Terra do personagem é atrofiada e inacabada.",
+    "source_book": "Book of Earth",
+    "pagina": 12
+  },
+  {
+    "id": "permanent-wound--book-of-earth",
+    "nome": "Permanent Wound",
+    "texto_pt": "Indica que a Terra do personagem se tornou incompleta de alguma forma devido a um ferimento grave que deformou sua Terra Elemental, impedindo que a ferida cicatrize corretamente.",
+    "source_book": "Book of Earth",
+    "pagina": 13
+  },
+  {
+    "id": "small--book-of-earth",
+    "nome": "Small",
+    "texto_pt": "O personagem tem sua Terra atrofiada com a deficiência espalhada por todo o corpo, resultando em uma estatura menor, mas sem carregar estigma social ou espiritual.",
+    "source_book": "Book of Earth",
+    "pagina": 13
+  },
+  {
+    "id": "enlightened-madness--the-great-clans",
+    "nome": "Enlightened Madness",
+    "pontos_concedidos": 4,
+    "texto_pt": "O toque do vislumbre divino retorceu sua mente e alma, levando você a atos estranhos e violentos. Escolha um Anel ou uma Perícia. Se você for das ordens tatuadas, você também pode escolher uma de suas tatuagens. Sempre que você usar a Perícia/tatuagem ou fizer uma rolagem de Anel ou Rolagem de Lançamento de Feitiço usando o Anel, você deve rolar Vontade ou ser temporariamente consumido pela loucura, passando para o controle do Mestre pelas próximas oito horas. O TN da rolagem de Vontade é 20 para a versão de 4 pontos desta Desvantagem, e 30 para a versão de 6 pontos.",
+    "source_book": "The Great Clans",
+    "pagina": 102
+  },
+  {
+    "id": "uncentered--book-of-void",
+    "nome": "Uncentered",
+    "pontos_concedidos": 4,
+    "texto_pt": "Seja devido a um ensino deficiente, falta de compreensão de sua parte, ou simplesmente a ausência de verdadeira harmonia em sua alma, você é incapaz de dominar os mistérios mais profundos do Vazio. Você não pode aprender nenhum Kiho de Vazio e não pode adquirir as Vantagens Ishiken-do ou Void Versatility.",
+    "source_book": "Book of Void",
+    "pagina": 193
+  }
+]

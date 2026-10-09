@@ -1,0 +1,172 @@
+[
+  {
+    "id": "alma-da-arte--core-rulebook",
+    "nome": "Alma da Arte",
+    "custo_pontos": 4,
+    "texto_pt": "Sua alma vibra com o espírito da criatividade. Escolha entre Perícias de Arte ou de Criação ao comprar esta Vantagem. A qualquer momento que você precisar fazer uma Teste sem Perícia para o uso de uma Perícia do tipo escolhido, é considerado que você tem 1 nível nesta Perícia. Personagens da Garça ou cortesãos podem comprar esta Vantagem por 3 pontos.",
+    "source_book": "Core Rulebook",
+    "pagina": 146
+  },
+  {
+    "id": "amado-pela-corte--core-rulebook",
+    "nome": "Amado pela Corte",
+    "custo_pontos": 2,
+    "texto_pt": "Durante uma recente corte, você fez algo que ganhou a atenção do anfitrião, resultando em um aumento instantâneo de sua importância para todos os que estavam lá. Escolha uma corte, como a corte de Kyuden Bayushi, a corte do distrito Okura em Toshi Ranbo, etc. Quando servir nesta corte, seu Status é efetivamente um nível maior, mas apenas quando a corte está em sessão. Personagens cortesãos podem comprar esta Vantagem por 1 ponto. Você pode comprar esta Vantagem múltiplas vezes para cortes diferentes, mas apenas uma vez para cada corte em particular.",
+    "source_book": "Core Rulebook",
+    "pagina": 146
+  },
+  {
+    "id": "amigo-da-irmandade--core-rulebook",
+    "nome": "Amigo da Irmandade",
+    "custo_pontos": 5,
+    "texto_pt": "Você estudou entre seus aliados da Irmandade de Shinsei, e como resultado, você compreende seu lugar no universo um pouco melhor do que os outros. Você pode comprar Kihos (regras para Kihos estão no Livro da Água) como se fosse um Monge da Irmandade de Shinsei, ao invés de pagar um custo maior. Você ainda precisa atender as outras restrições normais para aprender um Kiho. Apenas personagens de Escolas de Monge e Shugenja (e personagens não Monges da Irmandade de Shinsei) podem comprar esta Vantagem. Personagens do Dragão podem comprar esta Vantagem por 4 pontos.",
+    "source_book": "Core Rulebook",
+    "pagina": 146
+  },
+  {
+    "id": "amigo-dos-elementos--core-rulebook",
+    "nome": "Amigo dos Elementos",
+    "custo_pontos": 4,
+    "texto_pt": "Os espíritos de um Elemento em particular o circundam sempre, prestando ajuda quando possível mesmo que você nem saiba de sua presença. Escolha um Anel quando esta Vantagem é comprada. Sempre que você fizer um Teste com qualquer Atributo associado a este Anel, você ganha um Incremento Livre. Personagens shugenjas podem comprar esta Vantagem por 3 pontos.",
+    "source_book": "Core Rulebook",
+    "pagina": 146
+  },
+  {
+    "id": "astro--core-rulebook",
+    "nome": "Astro",
+    "custo_pontos": 3,
+    "texto_pt": "Você é capaz de cativar a multidão, não importando as circunstâncias. Sempre que tiver que fazer um Teste de Perícia usando uma Perícia de Performance que você não possui, considere que você tem 1 nível nesta Perícia.",
+    "source_book": "Core Rulebook",
+    "pagina": 147
+  },
+  {
+    "id": "astuto--core-rulebook",
+    "nome": "Astuto",
+    "custo_pontos": 3,
+    "texto_pt": "Você tem um talento instintivo para saber como fazer coisas que muitas pessoas preferem evitar. Sempre que estiver em uma situação em que for forçado a fazer um Teste sem Perícia para o uso de uma Baixa Perícia, considere que você tem 1 nível na Perícia. Personagens do Escorpião, Aranha ou ninjas podem comprar esta Vantagem por 2 pontos.",
+    "source_book": "Core Rulebook",
+    "pagina": 147
+  },
+  {
+    "id": "atento--core-rulebook",
+    "nome": "Atento",
+    "custo_pontos": 3,
+    "texto_pt": "Você está constantemente alerta, sempre esperando o inesperado. Ao rolar Investigação (Notar) / Percepção contra Furtividade (Emboscada) / Agilidade para detectar uma emboscada, você soma +1k1 ao seu Teste.",
+    "source_book": "Core Rulebook",
+    "pagina": 147
+  },
+  {
+    "id": "bland--book-of-earth",
+    "nome": "Bland",
+    "texto_pt": "Embora a notoriedade e a fama possam ser vantajosas em uma sociedade preocupada com o status, às vezes ser capaz de passar despercebido pode ser útil. Esta Vantagem indica que a Terra do personagem se formou de maneira semelhante, tendo poucas características físicas verdadeiramente marcantes.",
+    "source_book": "Book of Earth",
+    "pagina": 11
+  },
+  {
+    "id": "crab-hands--book-of-earth",
+    "nome": "Crab Hands",
+    "texto_pt": "Todas as armas contêm uma grande quantidade de Terra. Personagens com esta Vantagem têm sua Terra sintonizada de uma forma que ressoa bem com o mesmo Elemento nas armas. Os espíritos da Terra em armas normais e não despertas trabalham para ajudá-lo em algum nível menor.",
+    "source_book": "Book of Earth",
+    "pagina": 11
+  },
+  {
+    "id": "hands-of-stone--book-of-earth",
+    "nome": "Hands of Stone",
+    "texto_pt": "Seja por treinamento ou nascimento, a Terra do personagem se manifestou de tal forma que suas mãos são mais resistentes e densas do que a média, facilitando a perturbação da Terra em outras coisas.",
+    "source_book": "Book of Earth",
+    "pagina": 11
+  },
+  {
+    "id": "large--book-of-earth",
+    "nome": "Large",
+    "texto_pt": "O personagem simplesmente tem mais Terra do que a maioria, e não de uma forma que necessariamente o torne desajeitado ou lento. Personagens grandes são frequentemente comparados a animais ou fenômenos naturais que mostram força no elemento Terra.",
+    "source_book": "Book of Earth",
+    "pagina": 11
+  },
+  {
+    "id": "silent--book-of-earth",
+    "nome": "Silent",
+    "texto_pt": "A Terra do personagem é simplesmente 'mais leve' tanto no sentido físico quanto espiritual. Consequentemente, o personagem não é menos robusto, mas é mais leve em seus pés e parece ter menos presença no ambiente.",
+    "source_book": "Book of Earth",
+    "pagina": 11
+  },
+  {
+    "id": "strength-of-the-earth--book-of-earth",
+    "nome": "Strength of the Earth",
+    "texto_pt": "Representa muitas das qualidades essenciais do Elemento Terra: tenacidade, resiliência e força de vontade. A habilidade do personagem de continuar agindo mesmo quando gravemente ferido é ampliada por sua Terra superior superando a resposta usual de dor do corpo.",
+    "source_book": "Book of Earth",
+    "pagina": 12
+  },
+  {
+    "id": "heartless--the-great-clans",
+    "nome": "Heartless",
+    "custo_pontos": 4,
+    "texto_pt": "Você tem um coração de pedra. Tentativas de cortejar você ou influenciar seu coração — seja por meio de amor, cortesia, compaixão ou misericórdia — caem em ouvidos moucos. Você recebe um bônus de +1k0 em rolagens feitas para resistir a qualquer rolagem de Courtier, Sincerity ou Temptation feita com o propósito de persuadir você, seduzir você ou de outra forma mudar sua mente.",
+    "source_book": "The Great Clans",
+    "pagina": 137
+  },
+  {
+    "id": "void-versatility--the-great-clans",
+    "nome": "Void Versatility",
+    "custo_pontos": 4,
+    "texto_pt": "Você tem uma grande capacidade de extrair a força do Vazio como ele existe dentro de outros elementos. Selecione qualquer Anel que não seja de Vazio. Você pode gastar espaços de feitiço associados a esse Anel para usar feitiços de Vazio além de seu uso normal. Apenas Shugenja com Afinidade para feitiços de Vazio podem comprar esta Vantagem.",
+    "source_book": "The Great Clans",
+    "pagina": 200
+  },
+  {
+    "id": "reincarnated--book-of-void",
+    "nome": "Reincarnated",
+    "custo_pontos": 6,
+    "texto_pt": "Apesar de ter passado por Meido, você retém alguma lembrança vaga de sua vida anterior. Você recebe +1k0 em quaisquer três Perícias que não sejam de Escola de sua escolha (sujeito à aprovação do Mestre). Sempre que gastar um Ponto de Vazio para aprimorar uma rolagem usando uma dessas Perícias, você sofre os efeitos da desvantagem Anachronism (do suplemento de L5R 4ª Edição Imperial Histories, página 241) por 1-10 horas. Além disso, você ocasionalmente terá sonhos ou memórias vagas de sua vida anterior, que podem ou não se tornar relevantes para sua existência atual. Nota: Mestres que permitem personagens Naga também podem optar por disponibilizar esta Vantagem para Naga para representar as memórias ancestrais da Akasha. Se usada desta forma, custa 7 pontos e não impõe a penalidade de Anachronism.",
+    "source_book": "Book of Void",
+    "pagina": 192
+  },
+  {
+    "id": "watanu-trained--book-of-void",
+    "nome": "Watanu-Trained",
+    "custo_pontos": 1,
+    "texto_pt": "Os ronin Watanu de Iron Heart Village são bem conhecidos em toda a região por suas habilidades superiores em metalurgia. Selecione uma Perícia de Craft relacionada à criação de bens metálicos (não armas ou armaduras). Ao fazer testes de Perícia para criar tais itens, você ganha um bônus de +1k1.",
+    "source_book": "Book of Void",
+    "pagina": 196
+  },
+  {
+    "id": "iron-heart-native--book-of-void",
+    "nome": "Iron Heart Native",
+    "custo_pontos": 2,
+    "texto_pt": "Seus ancestrais são da região próxima à Iron Heart Village, e os traços comuns àquela região permanecem manifestos em você. Você ganha um bônus de +1k0 em qualquer teste de Atributo de Vigor ou em qualquer teste que não seja de dano usando o Atributo de Força (incluindo testes para controlar Grapples).",
+    "source_book": "Book of Void",
+    "pagina": 196
+  },
+  {
+    "id": "laughing-plains-native--book-of-void",
+    "nome": "Laughing Plains Native",
+    "custo_pontos": 2,
+    "texto_pt": "Você possui os traços nativos do povo de Laughing Plains Village, de onde algum ancestral distante seu se originou. Sua perspectiva sombria e austeramente estoica sobre a vida lhe concede um bônus de +5 ao rolar para resistir a qualquer efeito de Medo.",
+    "source_book": "Book of Void",
+    "pagina": 196
+  },
+  {
+    "id": "sacred-forest-native--book-of-void",
+    "nome": "Sacred Forest Native",
+    "custo_pontos": 2,
+    "texto_pt": "O povo espiritual de Sacred Forest Village considera você um dos seus devido à natureza de sua ancestralidade, que inclui alguém daquela região. Você ganha +1k0 em testes com Lore: Theology e Lore: Spirit Realms.",
+    "source_book": "Book of Void",
+    "pagina": 196
+  },
+  {
+    "id": "battle-healing--book-of-water",
+    "nome": "Battle Healing",
+    "custo_pontos": 5,
+    "texto_pt": "Alguns dos mais ardentes e militantes shugenja do Império, incluindo a família Kuni e os Bishamon’s Chosen entre os Kitsu, entendem que a essência de todos os Elementos pode ser usada para preencher a carne rompida de um guerreiro honrado e torná-lo inteiro. Água é superior para tais coisas, é claro, mas os outros Elementos podem ser suficientes quando necessário. Uma vez por dia por pessoa, você pode gastar um espaço de feitiço de Água ou dois espaços de feitiço em qualquer outro(s) Elemento(s) para curar um Rank de Ferida de um Rokugani que você esteja tocando.",
+    "source_book": "Book of Water",
+    "pagina": 178
+  },
+  {
+    "id": "spy-network--book-of-water",
+    "nome": "Spy Network",
+    "custo_pontos": 8,
+    "texto_pt": "Você tem acesso a uma rede de inteligência que pode lhe fornecer uma variedade de informações secretas. Uma vez por sessão, se você puder entrar em contato com sua rede de espionagem, poderá adquirir uma informação útil que de outra forma estaria indisponível. O Mestre tem a palavra final sobre o que você aprende, mas sempre será algo útil para seus esforços atuais. Esta Vantagem não pode ser usada em ambientes onde seria impossível fazer contato com sua rede de espionagem (ex: vagando pelo deserto, explorando as Shadowlands ou a Shinomen Mori, etc).\n\nPersonagens da família Daidoji podem comprar esta Vantagem por 7 pontos, personagens Scorpion por 6 pontos e personagens Kolat por 5 pontos.",
+    "source_book": "Book of Water",
+    "pagina": 185
+  }
+]

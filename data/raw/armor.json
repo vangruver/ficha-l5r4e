@@ -1,0 +1,101 @@
+[
+  {
+    "id": "armadura-ashigaru--core-rulebook",
+    "nome": "Armadura Ashigaru",
+    "bonus_tn": "+3",
+    "reducao_dano": "1",
+    "preco": "5 kokus",
+    "source_book": "Core Rulebook",
+    "pagina": 198
+  },
+  {
+    "id": "armadura-leve--core-rulebook",
+    "nome": "Armadura Leve",
+    "bonus_tn": "+5",
+    "reducao_dano": "3",
+    "preco": "25 koku",
+    "source_book": "Core Rulebook",
+    "pagina": 198
+  },
+  {
+    "id": "armadura-pesada--core-rulebook",
+    "nome": "Armadura Pesada",
+    "bonus_tn": "+10",
+    "reducao_dano": "5",
+    "preco": "40 koku",
+    "source_book": "Core Rulebook",
+    "pagina": 198
+  },
+  {
+    "id": "armadura-de-cavalaria--core-rulebook",
+    "nome": "Armadura de Cavalaria",
+    "bonus_tn": "+4 (+12 quando a cavalo)",
+    "reducao_dano": "4",
+    "preco": "55 koku",
+    "source_book": "Core Rulebook",
+    "pagina": 198
+  },
+  {
+    "id": "bogu--book-of-earth",
+    "nome": "Bogu",
+    "bonus_tn": "+0",
+    "reducao_dano": "1",
+    "preco": "1 koku",
+    "source_book": "Book of Earth",
+    "pagina": 26
+  },
+  {
+    "id": "tatami-armor--book-of-earth",
+    "nome": "Tatami Armor",
+    "bonus_tn": "+4",
+    "reducao_dano": "1",
+    "preco": "10 koku",
+    "source_book": "Book of Earth",
+    "pagina": 26
+  },
+  {
+    "id": "tetsu-dou--book-of-earth",
+    "nome": "Tetsu-Dou",
+    "bonus_tn": "+13",
+    "reducao_dano": "8",
+    "preco": "100 koku",
+    "source_book": "Book of Earth",
+    "pagina": 26
+  },
+  {
+    "id": "unicorn-riding-armor--book-of-earth",
+    "nome": "Unicorn Riding Armor",
+    "bonus_tn": "+4 (+12 enquanto montado)",
+    "reducao_dano": "4",
+    "preco": "75 koku",
+    "source_book": "Book of Earth",
+    "pagina": 27
+  },
+  {
+    "id": "bagai--book-of-earth",
+    "nome": "Bagai",
+    "bonus_tn": "+7 para o ND de Armadura da montaria",
+    "reducao_dano": "3",
+    "preco": "25 koku",
+    "source_book": "Book of Earth",
+    "pagina": 27
+  },
+  {
+    "id": "ceremonial-armor--book-of-earth",
+    "nome": "Ceremonial Armor",
+    "bonus_tn": "+3",
+    "reducao_dano": "1",
+    "preco": "90 koku",
+    "source_book": "Book of Earth",
+    "pagina": 27
+  },
+  {
+    "id": "kaiu-armor--the-great-clans",
+    "nome": "Kaiu Armor",
+    "bonus_tn": "+metade do Rank da Escola (arredondado para cima)",
+    "reducao_dano": "+Rank da Escola",
+    "preco": "5 a 10 vezes o custo normal (ou Vantagem Concedida por 3 + Rank da Escola do criador)",
+    "source_book": "The Great Clans",
+    "pagina": 39
+  }
+]

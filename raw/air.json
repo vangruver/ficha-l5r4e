@@ -1,0 +1,487 @@
+{
+  "schools": {
+    "schools": [
+      {
+        "nome": "Order of the Wind",
+        "cla": "Irmandade de Shinsei",
+        "familia": "Brotherhood of Shinsei",
+        "tipo": "monk",
+        "trait_inicial_bonus": "Reflexos",
+        "skills_de_escola": [
+          "Athletics",
+          "Defense",
+          "Jiujutsu",
+          "Lore: Theology",
+          "Meditation",
+          "Staves",
+          "Qualquer uma Perícia"
+        ],
+        "honra_inicial": 4.5,
+        "status_inicial": 1,
+        "equipamento_inicial": [
+          "Simple Clothing",
+          "Sandals",
+          "Traveling Pack",
+          "Wooden bowl",
+          "1 koku"
+        ],
+        "tecnica_por_rank": [
+          {
+            "rank": 1,
+            "nome": "Essence of the Wind",
+            "texto_pt": "Um verdadeiro Brother of the Wind permite que o mundo se mova ao seu redor como uma brisa, permanecendo centrado e seguro em meio ao caos da existência. Qualquer efeito que tenha você como alvo e tente influenciar seu comportamento, seja um feitiço, uma Técnica de cortesão, uma Perícia social ou Vantagem, ou qualquer outra mecânica, exige um Ponto de Vazio adicional para surtir efeito. (No entanto, isso pode ignorar o limite normal de gastar um Ponto de Vazio por Rodada para efeitos de aprimoramento.)"
+          }
+        ],
+        "source_book": "Book of Air",
+        "pagina": 194
+      },
+      {
+        "nome": "Wind's Grace Order",
+        "cla": "Irmandade de Shinsei",
+        "familia": "Brotherhood of Shinsei",
+        "tipo": "monk",
+        "trait_inicial_bonus": "Reflexos",
+        "skills_de_escola": [
+          "Calligraphy",
+          "Jiujutsu",
+          "Kyujutsu",
+          "Lore: Theology (Shintao)",
+          "Meditation",
+          "Quaisquer duas Perícias"
+        ],
+        "honra_inicial": 6.5,
+        "status_inicial": 1,
+        "equipamento_inicial": [
+          "Simple Clothing",
+          "Sandals",
+          "Traveling Pack",
+          "Wooden bowl",
+          "1 koku"
+        ],
+        "tecnica_por_rank": [
+          {
+            "rank": 1,
+            "nome": "Pillars of the Mind’s Eye",
+            "texto_pt": "Ao limpar a mente e abraçar a serenidade e o foco absolutos, um irmão da Wind’s Grace pode compreender a verdade simples: a flecha e o alvo já são um só. Você realiza um ataque de arco e flecha como uma Ação Complexa; para cada Kiho ativo que você tiver no momento, você recebe um bônus de +1k0 no total dessa rolagem. Kihos ativos não podem ter outros efeitos durante uma Rodada na qual você utilize esta Técnica, e apenas um Kiho Marcial pode conceder este benefício. No entanto, sempre que utilizar esta Técnica para realizar um ataque que resulte diretamente na morte de um ser inteligente, você perde 3 pontos de Honra."
+          }
+        ],
+        "source_book": "Book of Air",
+        "pagina": 195
+      },
+      {
+        "nome": "Fukurokujin's Eyes",
+        "cla": "Irmandade de Shinsei",
+        "familia": "Brotherhood of Shinsei",
+        "tipo": "monk",
+        "trait_inicial_bonus": "Percepção",
+        "skills_de_escola": [
+          "Calligraphy",
+          "Divination",
+          "Etiquette",
+          "Investigation",
+          "Lore: History",
+          "Lore: Theology",
+          "Qualquer uma Perícia não-Bugei"
+        ],
+        "honra_inicial": 4.5,
+        "status_inicial": 1,
+        "equipamento_inicial": [
+          "Simple Clothing",
+          "Sandals",
+          "Traveling Pack",
+          "Wooden bowl",
+          "1 koku"
+        ],
+        "tecnica_por_rank": [
+          {
+            "rank": 1,
+            "nome": "Way of the Closed Eye",
+            "texto_pt": "Ao observar e antecipar, os monges de Fukurokujin’s Eyes podem prever com precisão as ações dos outros e tirar vantagem desse conhecimento prévio de várias maneiras. Você não pode ser surpreendido por emboscadas. Além disso, no início de uma escaramuça, antes de rolar a Iniciativa, você pode gastar um Ponto de Vazio e realizar um teste de Percepção com ND 20. Se o teste for bem-sucedido, você pode aumentar sua pontuação de Iniciativa subsequente em 20. No entanto, este bônus é perdido instantaneamente se você realizar qualquer tipo de ataque."
+          }
+        ],
+        "source_book": "Book of Air",
+        "pagina": 195
+      }
+    ]
+  },
+  "kata_kiho": {
+    "kata_kiho": [
+      {
+        "nome": "North Wind Style",
+        "tipo": "kata",
+        "pre_requisito": "Air 4, Any bushi School",
+        "anel_ou_trait": "Ar",
+        "custo": "4",
+        "texto_pt": "Você pode adicionar seu Anel de Ar ao total de qualquer rolagem de ataque realizada ao tentar a Manobra de Dano Aumentado (Increased Damage).",
+        "source_book": "Book of Air",
+        "pagina": 176
+      },
+      {
+        "nome": "South Wind Style",
+        "tipo": "kata",
+        "pre_requisito": "Air 4, Any bushi School",
+        "anel_ou_trait": "Ar",
+        "custo": "4",
+        "texto_pt": "Você pode adicionar seu Anel de Ar ao total de qualquer rolagem de ataque realizada ao tentar as Manobras de Tiro Direcionado (Called Shot) ou Derrubar (Knockdown).",
+        "source_book": "Book of Air",
+        "pagina": 176
+      },
+      {
+        "nome": "Eye of the Eagle",
+        "tipo": "kiho",
+        "pre_requisito": "Air 5",
+        "anel_ou_trait": "Ar",
+        "custo": "N/A",
+        "texto_pt": "O poder do vento pode carregar mensagens e informações muito além dos limites da fraqueza humana. Enquanto este Kiho estiver ativo, você pode, como uma Ação Complexa, focar seu chi permanecendo totalmente imóvel e sem se mover. Uma vez feito isso, contanto que mantenha a concentração e não se mova de sua posição atual, você pode ver um número de milhas igual ao seu Rank de Escola. O nível de detalhe é suficiente para notar coisas como as características físicas dos indivíduos, mas não tão aguçado a ponto de permitir detalhes extremamente finos, como leitura.",
+        "source_book": "Book of Air",
+        "pagina": 191
+      },
+      {
+        "nome": "The Wind’s Vision",
+        "tipo": "kiho",
+        "pre_requisito": "Air 4",
+        "anel_ou_trait": "Ar",
+        "custo": "N/A",
+        "texto_pt": "Ao focar na omnipresença do Ar e se desapegar da percepção mundana, você é capaz de disparar uma flecha contra um alvo que está fora de vista, mas que esteja dentro do alcance. A flecha ainda deve ser capaz de viajar em linha reta até o alvo — ela não irá perfurar pedra de repente ou fazer curvas, por exemplo, mas disparar através de uma tela de papel, em meio à escuridão total, ou através de fumaça densa são todos possíveis. Você deve saber que o alvo existe e sua localização aproximada dentro de 30 pés de sua localização real.",
+        "source_book": "Book of Air",
+        "pagina": 191
+      },
+      {
+        "nome": "Calling the East Wind",
+        "tipo": "kiho",
+        "pre_requisito": "Air 5",
+        "anel_ou_trait": "Ar",
+        "custo": "N/A",
+        "texto_pt": "Quando este Kiho é ativado, você realiza um único ataque de chute desarmado. Como parte deste ataque, você pode saltar pelo ar uma distância significativa, até um máximo igual ao seu Anel de Ar x 10 pés. O poder deste movimento repentino adiciona +1k0 de dano adicional a qualquer ataque bem-sucedido desferido como resultado deste Kiho, e você ganha uma Elevação Livre para o uso da Manobra Derrubar (Knockdown) neste ataque.",
+        "source_book": "Book of Air",
+        "pagina": 192
+      },
+      {
+        "nome": "Censure of Thunder",
+        "tipo": "kiho",
+        "pre_requisito": "Air 7",
+        "anel_ou_trait": "Ar",
+        "custo": "N/A",
+        "texto_pt": "Se você desferir um golpe atemi desarmado bem-sucedido enquanto usa este Kiho, seu alvo imediatamente sofre 1k1 Feridas pelo pequeno choque elétrico que acompanha seu toque. Ele também deixa cair sua arma automaticamente como se sofresse de uma Manobra de Desarmar bem-sucedida, já que seu golpe interrompe o fluxo de chi através do corpo dele. O alvo pode gastar dois Pontos de Vazio para negar o Desarmar, mas se o fizer, ele sofre 2k2 Feridas adicionais do choque elétrico mais severo. O dano causado por este Kiho ignora a Redução conferida por armadura.",
+        "source_book": "Book of Air",
+        "pagina": 192
+      },
+      {
+        "nome": "Hurricane Palm",
+        "tipo": "kiho",
+        "pre_requisito": "Air 7",
+        "anel_ou_trait": "Ar",
+        "custo": "N/A",
+        "texto_pt": "Depois de realizar um ataque desarmado bem-sucedido, você gasta um Ponto de Vazio. Seu ataque inflige apenas metade do dano normal (arredondado para baixo), mas empurra seu oponente de volta um número de pés igual a duas vezes o seu Anel de Ar, após o qual ele cai Caído (Prone). Qualquer oponente atingido com sucesso por este ataque é movido pelo efeito do Kiho, mesmo que não sofra nenhuma Ferida com o golpe.",
+        "source_book": "Book of Air",
+        "pagina": 193
+      },
+      {
+        "nome": "Touch of the Storm",
+        "tipo": "kiho",
+        "pre_requisito": "Air 6",
+        "anel_ou_trait": "Ar",
+        "custo": "N/A",
+        "texto_pt": "Este Kiho requer um golpe atemi bem-sucedido. Quando tal ataque atinge com sucesso, você realiza uma Rolagem de Ar Disputada contra seu oponente. Se você for bem-sucedido, seu oponente sofre dano (com uma RD igual ao seu Anel de Ar) na forma de uma violenta descarga elétrica do ar ao seu redor. O dano deste Kiho ignora todas as formas de Redução, a menos que mencione especificamente dano elétrico.",
+        "source_book": "Book of Air",
+        "pagina": 193
+      },
+      {
+        "nome": "Inari’s Wrath",
+        "tipo": "kiho",
+        "pre_requisito": "Air 8",
+        "anel_ou_trait": "Ar",
+        "custo": "N/A",
+        "texto_pt": "Você deve gastar um Ponto de Vazio como uma Ação Livre para ativar este Kiho, então, como uma Ação Complexa, você respira fundo e segura. Você libera o sopro na Rodada seguinte como uma Ação Complexa. Isso cria um cone de ar congelante que se estende por um número de pés igual ao seu Rank de Escola x 5, tão largo na extremidade quanto o seu Rank de Escola x 2 em pés. Qualquer criatura viva pega dentro da área de efeito sofre dano de frio com uma RD igual ao seu Anel de Ar. A critério do Mestre, certos materiais físicos também podem sofrer danos.",
+        "source_book": "Book of Air",
+        "pagina": 193
+      },
+      {
+        "nome": "Strike through the Wind",
+        "tipo": "kiho",
+        "pre_requisito": "Air 5",
+        "anel_ou_trait": "Ar",
+        "custo": "N/A",
+        "texto_pt": "Você canaliza a força dos seus golpes através do ar, atingindo alvos à distância como se estivessem ao alcance do braço. Você deve gastar um Ponto de Vazio como uma Ação Livre para ativar este Kiho. Enquanto este Kiho estiver ativo, você realiza ataques corpo a corpo desarmados como uma Ação Complexa, e seus ataques corpo a corpo podem visar oponentes a uma distância de até seu Rank de Escola x 25 pés.",
+        "source_book": "Book of Air",
+        "pagina": 193
+      },
+      {
+        "nome": "Thunder’s Word",
+        "tipo": "kiho",
+        "pre_requisito": "Air 6",
+        "anel_ou_trait": "Ar",
+        "custo": "N/A",
+        "texto_pt": "Este Kiho evoca o poder do Dragão do Trovão, um patrono do Clã do Mantis, e enche os pulmões com o poder do Trovão. Como uma Ação Complexa, você respira fundo e grita uma única palavra de poder, um comando repleto da essência do próprio Dragão do Trovão. Todos os seres vivos capazes de ouvir seu grito devem realizar uma Rolagem de Ar Disputada contra você (cada um rola separadamente e compara com uma única rolagem feita por você). Aqueles que falharem na rolagem ficam Atordoados (Dazed) por um número de rodadas igual ao seu Anel de Ar.",
+        "source_book": "Book of Air",
+        "pagina": 193
+      }
+    ]
+  },
+  "skills": {
+    "skills": []
+  },
+  "spells": {
+    "spells": [
+      {
+        "nome": "Air Kami’s Blessing",
+        "anel": "Ar",
+        "mastery_level": 3,
+        "area": "Conjurador",
+        "duracao": "8 horas",
+        "texto_pt": "Uma prece única que é tanto uma meditação quanto qualquer outra coisa, este feitiço é ensinado apenas em Escolas de shugenja que possuem afinidade com Ar. Ele faz com que o kami do Ar dentro da alma do conjurador fique mais alinhado, dando ao conjurador uma compreensão muito maior sobre os corações e almas de outros homens, junto com uma certa rapidez de reação. Enquanto a bênção durar, o shugenja pode adicionar seu Anel do Ar ao total de todas as rolagens baseadas em Prontidão, bem como à sua ND de Armadura. Normalmente, aqueles que conhecem este feitiço realizam a Bênção a cada manhã durante suas meditações diárias. Os efeitos deste feitiço não acumulam.",
+        "source_book": "Book of Air",
+        "pagina": 182
+      },
+      {
+        "nome": "Arrow’s Flight",
+        "anel": "Ar",
+        "mastery_level": 1,
+        "area": "Uma flecha",
+        "duracao": "3 Rodadas",
+        "texto_pt": "Uma prece usada por shugenja para ajudar bushi quando uma flecha absolutamente deve atingir seu alvo. O shugenja suplica ao kami do Ar para jogar um jogo guiando uma única flecha até seu alvo. A prece imbui esses kami em uma flecha, e se a flecha for disparada dentro da duração do feitiço, ela atingirá infalivelmente seu alvo. (Ela ainda deve ser disparada por alguém com um entendimento mínimo de arquearia — pelo menos um Rank em Kyujutsu.) No entanto, por serem os kami que ultimamente garantem que a flecha atingirá o alvo, o disparo não pode se beneficiar dos efeitos de Aumentos ou Técnicas.",
+        "source_book": "Book of Air",
+        "pagina": 182
+      },
+      {
+        "nome": "Castle of Air",
+        "anel": "Ar",
+        "mastery_level": 4,
+        "area": "Raio de 20’ ao redor do conjurador",
+        "duracao": "10 rodadas",
+        "texto_pt": "A prece comumente conhecida como Castle of Water protege o conjurador criando uma barreira física de kami da água para obstruir os atacantes. O Castle of Air, por outro lado, protege o conjurador criando uma ilusão astuta que confunde e desconcerta os atacantes. Os kami do Ar criam uma barreira circular de sons e imagens falsas, tornando incrivelmente difícil para os atacantes realmente perceberem a localização correta de qualquer pessoa dentro dos limites do Castle of Air. Um atacante pode acreditar que está golpeando o conjurador quando na verdade está atacando o espaço vazio. A barreira circular de ilusões é centrada no conjurador. Uma vez conjurado, ela permanece no lugar independentemente de o conjurador se mover ou para onde se mover. As ilusões só podem ser totalmente percebidas por aqueles que estavam fora do Castle of Air quando ele foi conjurado; aqueles dentro do castelo quando ele aparece podem facilmente perceber a natureza sombria e insubstancial das ilusões. Se inimigos de fora do castelo tentarem atacar aqueles dentro dele, as ilusões tentarão redirecioná-los ou enganá-los. Mecanicamente, tais atacantes devem fazer uma Rolagem Contestada de sua Percepção contra o Ar do conjurador cada vez que tentarem atacar alguém dentro do castelo. Um sucesso significa que eles conseguem ver brevemente através da ilusão e podem atacar normalmente por aquela rodada (apenas). Uma falha significa que a ilusão os engana e eles sofrem uma penalidade de -5k0 em suas rolagens de ataque naquela rodada. As ilusões não podem afetar feitiços inimigos, uma vez que os kami do Ar não podem enganar outros kami.",
+        "source_book": "Book of Air",
+        "pagina": 183
+      },
+      {
+        "nome": "Defender from Beyond",
+        "anel": "Ar",
+        "mastery_level": 5,
+        "area": "Um espírito invocado",
+        "duracao": "5 minutos",
+        "texto_pt": "Entre os círculos mais internos da família Kitsu estão os ancestral shugenja que carregam as linhagens dos primeiros espíritos kitsu. Esses shugenja secretos descobriram rituais que podem persuadir os kami do Ar a levar uma mensagem para a própria Yomi, pedindo a ajuda de um shiryo ancestral. Apenas shugenja da família Kitsu podem aprender este feitiço, que é um segredo da ordem sodan-senzo. Quando o feitiço é conjurado, o shugenja suplica aos espíritos ancestrais de Yomi que enviem ajuda. Se a Rolagem de Conjuração for bem-sucedida, um shiryo — um espírito de Yomi — chegará ao local em cinco Rodadas. Uma vez que chega, o espírito recupera sua forma mortal, mas sua natureza espiritual é facilmente sentida pelo brilho celestial que o cerca. Ele oferecerá qualquer ajuda que puder ao conjurador, seja conselho, conhecimento ou combate, mas não fará nada desonroso. Mecanicamente, um shiryo típico terá o traço de criatura Espírito e possuirá Rank 3 em todos os seus Anéis e Atributos e Rank 4 em quaisquer Perícias úteis. Assim que a duração do feitiço expirar, o shiryo retorna imediatamente para Yomi. Ele também parte para Yomi se seu corpo físico for destruído (por exemplo, se for reduzido a zero Feridas). Embora este feitiço normalmente invoque um shiryo 'genérico', o Mestre pode optar por permitir que o shugenja invoque um espírito ancestral específico nomeado com Aumentos adicionais. O Mestre também pode escolher fazer com que um shiryo mais poderoso ou famoso responda ao feitiço se as circunstâncias específicas parecerem justificar. Shiryo mais poderosos possuirão uma Escola apropriada para seu clã ancestral, tipicamente com um Rank de Escola entre 3 e 5.",
+        "source_book": "Book of Air",
+        "pagina": 183
+      },
+      {
+        "nome": "Elemental Cipher",
+        "anel": "Ar",
+        "mastery_level": 2,
+        "area": "Uma página escrita",
+        "duracao": "Um mês",
+        "texto_pt": "Compreender os caminhos do Ar revela a linha indistinta que existe entre linguagem e cifra. Um shugenja pode fazer com que um pedaço de escrita seja colocado sob uma cifra elemental, instigando o kami a jogar um pequeno jogo com aqueles que leem o texto. O bloco de texto torna-se completamente ininteligível, a menos que seja lido pelo autor original ou pelo destinatário pretendido, cujo nome é sussurrado quando o feitiço é conjurado. Normalmente, um Elemental Cipher não pode ser quebrado por descriptografia tradicional e o kami revelará o texto verdadeiro apenas ao destinatário pretendido. No entanto, outros shugenja podem decifrar o jogo do kami e ler o texto fazendo um teste de Spellcraft / Intelecto com uma ND igual ao total da rolagem de conjuração original. Este feitiço é conhecido apenas pelas famílias Imperiais, e é um feitiço favorito dos shugenja Seppun (cuja Técnica de Escola se beneficia dele).",
+        "source_book": "Book of Air",
+        "pagina": 184
+      },
+      {
+        "nome": "Flight of Doves",
+        "anel": "Ar",
+        "mastery_level": 2,
+        "area": "História contada por um alvo",
+        "duracao": "10 minutos",
+        "texto_pt": "Este feitiço foi originalmente criado pelos Shiba Illusionists e é uma de suas poucas contribuições significativas para os caminhos da magia em Rokugan. Mantendo as tradições dos Shiba Illusionists, este feitiço é destinado principalmente ao entretenimento, mas às vezes pode ter aplicações mais práticas (como ajudar um mensageiro a descrever suas experiências para seu senhor). O feitiço invoca o kami do Ar para 'ilustrar' uma história contada por outro indivíduo (designado pelo conjurador). Os espíritos fornecerão uma ilusão visual e auditiva para acompanhar a história, extraindo os sons e imagens da mente do contador de histórias. A mistura resultante de história, som e imagem pode ser bastante fascinante, e contadores de histórias Kakita são conhecidos por procurar mestres deste feitiço para auxiliar sua arte.",
+        "source_book": "Book of Air",
+        "pagina": 184
+      },
+      {
+        "nome": "Freedom of the Air",
+        "anel": "Ar",
+        "mastery_level": 2,
+        "area": "Uma casa ou outro edifício residencial",
+        "duracao": "Horas igual ao Ar do conjurador",
+        "texto_pt": "Um ritual de purificação usado por shugenja ao preparar uma casa ou outro edifício para um evento importante, como um casamento ou um festival. O feitiço roga ao kami do Ar para levantar um vento suave, mas cuidadosamente controlado, que varre toda a sujeira, insetos e outras imundícies para fora do edifício. O feitiço também tem um efeito espiritualmente purificador, tornando espíritos malignos ou malévolos relutantes em permanecer na residência — qualquer kansen, fantasma ou outro espírito hostil sem corpo dentro do edifício sairá por um número de horas igual ao Ar do conjurador. (Espíritos malignos que são excepcionalmente fortes ou que têm uma ligação extremamente forte com o edifício não podem ser banidos por este feitiço básico, contudo — fica a critério do Mestre se um espírito é forte o suficiente para resistir a Freedom of the Air.) Este feitiço foi originalmente criado pelos shugenja Seppun, mas devido à sua grande utilidade, mais tarde espalhou-se pelo Império. A técnica de Escola dos Shugenja Seppun pode ser aplicada a este feitiço.",
+        "source_book": "Book of Air",
+        "pagina": 184
+      },
+      {
+        "nome": "Funeral Rites",
+        "anel": "Ar",
+        "mastery_level": 4,
+        "area": "N/A",
+        "duracao": "5 minutos",
+        "texto_pt": "Este ritual foi originalmente criado pelos Kitsu sodan-senzo, mas devido à sua ampla aplicabilidade, rapidamente se espalhou para outras famílias e escolas de shugenja. Os Kitsu desejavam que todos os Rokugani venerassem adequadamente os ancestrais e, assim, não tiveram dificuldade em compartilhar sua descoberta com os Isawa e os outros clãs também. Para aqueles que não têm sangue Kitsu, este feitiço é uma das poucas maneiras pelas quais um shugenja pode realmente se comunicar com os ancestrais enquanto estiver em Ningen-Do. O feitiço é, na verdade, uma oração ritual de uma hora que só pode ser realizada na companhia de um parente de um indivíduo recém-falecido dentro de vinte e quatro horas do funeral (do qual tanto o shugenja quanto o parente devem ter participado adequadamente). Outros shugenja podem ajudar no ritual se também conhecerem o feitiço; eles não precisam fazer testes de Conjuração, mas ainda assim são considerados como tendo usado um espaço de feitiço. Uma vez que a oração é devidamente concluída (uma Rolagem de Conjuração bem-sucedida pelo shugenja principal), o conjurador e o parente podem conversar por alguns minutos com o espírito do recém-falecido. (If shugenja extras ajudarem no ritual, cada shugenja assistente adiciona +1 minuto à duração do feitiço.) Tipicamente, este ritual é usado apenas em situações em que os parentes vivos querem ter certeza absoluta de que estão lembrando e honrando adequadamente seu ancestral recém-falecido. Os resultados exatos da comunhão com um parente falecido ficam a critério do Mestre, mas podem incluir aprender informações importantes, receber conselhos e orientações, ou assumir uma tarefa que o samurai morto deixou incompleta.",
+        "source_book": "Book of Air",
+        "pagina": 184
+      },
+      {
+        "nome": "Facing Your Devils",
+        "anel": "Ar",
+        "mastery_level": 5,
+        "area": "Uma pessoa ou criatura alvo",
+        "duracao": "10 rodadas",
+        "texto_pt": "Este é um feitiço perigoso e poderoso que apareceu entre shugenja ronin de tempos em tempos por quase mil anos de história de Rokugani. O feitiço é frequentemente considerado maligno por shugenja de clã, de modo que os ronin que o aprendem guardam seus segredos cuidadosamente e apenas o transmitem para seus alunos mais confiáveis. Tipicamente, não mais do que um ou dois shugenja em uma geração irão aprendê-lo. Na época das Guerras de Clãs, o usuário mais famoso do feitiço foi o ronin Heichi Chokei, que afirmava ser descendente do há muito perdido Clã do Javali. Quando lhe perguntaram sobre o propósito do feitiço, Chokei respondeu com um sorriso: 'É para quem for corajoso o suficiente para usá-lo.' Em anos posteriores, também ganhou fama como um feitiço favorito de Naka Kuro, o assim chamado Grão-Mestre dos Elementos, e seu aluno e sucessor Naka Tokei. Facing Your Devils parece invocar os kami do Ar para testar o equilíbrio cármico e elemental de uma alma, desalinhando deliberadamente os Elementos do alvo. O feitiço inverte os Atributos mais altos e mais baixos do alvo pela duração. Isso pode resultar em mudanças nos Ranks de Anel do alvo, com consequências potencialmente graves (por exemplo, a queda de um Anel da Terra reduzindo as Feridas disponíveis, por exemplo). O conjurador pode escolher os Atributos afetados em caso de empate. Aqueles que usam Facing Your Devils veem isso como um meio de ensinar a outros a importância do equilíbrio em todas as coisas, mas usos muito mais nefastos e cruéis são certamente possíveis e foram empregados mais de uma vez, conferindo ao feitiço uma reputação sinistra. Os espíritos do Ar parecem achar o feitiço divertido, pois nem sempre reconhecem o dano que ele pode causar.",
+        "source_book": "Book of Air",
+        "pagina": 185
+      },
+      {
+        "nome": "Gathering Swirl",
+        "anel": "Ar",
+        "mastery_level": 1,
+        "area": "Centrado no conjurador",
+        "duracao": "1 Rodada",
+        "texto_pt": "Este feitiço, frequentemente encontrado nas bolsas de pergaminhos de magistrados e seus assistentes, parece ser uma versão mais simples da mesma prece usada para Freedom of the Air. Ele faz com que o kami do Ar sopre furiosamente pela área de efeito e, embora inicialmente isso pareça produzir nada além de caos, dentro de alguns momentos os ventos reúnem vários itens desacompanhados e os depositam em uma pilha arrumada (embora não organizada) em qualquer local dentro da área que o conjurador desejar, incluindo nas mãos de alguém se for preferível. O conjurador deve nomear os itens a serem coletados quando o feitiço for conjurado, e apenas esses itens serão coletados — uma maneira conveniente de reunir papéis espalhados, encontrar uma nota enterrada sob uma pilha ou de outra forma recuperar algo importante com o mínimo de esforço. Também pode ser usado, de forma mais astuta, para recuperar um item oculto ou escondido, um uso que os magistrados consideram bastante valioso. No entanto, não pode ser usado para arrancar itens do aperto ou da pessoa de outra pessoa — os espíritos do Ar consideram que isso estraga a diversão.",
+        "source_book": "Book of Air",
+        "pagina": 185
+      },
+      {
+        "nome": "Garbled Tongue",
+        "anel": "Ar",
+        "mastery_level": 3,
+        "area": "Duas pessoas conversando (uma pode ser o conjurador)",
+        "duracao": "5 minutos",
+        "texto_pt": "Originalmente desenvolvido por shugenja Asahina, este feitiço encontrou o caminho para as mãos dos Soshi e de algumas outras ordens após vários incidentes menores na corte. Às vezes é considerado um feitiço desonroso, mas de fato seus usos não precisam ser por subterfúgio. Em vez disso, assim como a técnica Cadence dos cortesãos do Grou, o feitiço permite discrição na comunicação em situações onde isso normalmente não seria possível. Baseia-se na jovialidade dos kami do Ar e nas sutilezas da linguagem. O feitiço faz com que os kami obscureçam uma conversa entre duas (or mais) pessoas. Os espíritos do Ar criam uma segunda camada de fala, ouvida por todos exceto por aqueles que realmente participam da conversa (que pode incluir o conjurador). Embora os falantes estejam cientes dessa falsa camada de fala, eles ouvirão claramente a conversa real acontecendo. A ilusão normalmente não pode ser penetrada, exceto por leitura labial (já que os lábios não corresponderão à falsa conversa), embora um shugenja possa quebrar a farsa vencendo um teste de Rank de Escola / Ar Contestado contra o conjurador.",
+        "source_book": "Book of Air",
+        "pagina": 185
+      },
+      {
+        "nome": "Howl of Isora",
+        "anel": "Ar",
+        "mastery_level": 4,
+        "area": "40’ de diâmetro",
+        "duracao": "Instantâneo",
+        "texto_pt": "Este feitiço invoca o poder de Isora, a Fortuna da Costa Marítima, para liberar uma rajada de ar atormentado pela tempestade e relâmpagos que castigam uma área dentro do alcance. O ataque repentino e estrondoso de vento, chuva e relâmpagos causa 3k2 de  dano a todos dentro da área de efeito, e eles devem rolar sua Terra contra uma ND 30 ou ficarão Fatigados pelo uivo de Isora. O feitiço também danifica objetos físicos fracos ou vulneráveis — paredes de papel serão destruídas, pergaminhos encharcados com água, etc. Aqueles que têm a sorte de serem abençoados com Blood of Osano-Wo são imunes aos efeitos deste feitiço.",
+        "source_book": "Book of Air",
+        "pagina": 186
+      },
+      {
+        "nome": "Look into the Soul",
+        "anel": "Ar",
+        "mastery_level": 4,
+        "area": "Uma pessoa ou criatura alvo",
+        "duracao": "1 Rodada",
+        "texto_pt": "Quando um sacerdote invoca este encantamento, os kami do Ar se reúnem e formam uma lente mística através da qual o shugenja pode ver o mundo como os próprios espíritos o percebem. Lente dura apenas alguns instantes e o conjurador normalmente só pode usá-la para observar uma pessoa ou criatura. Esse breve momento de observação, no entanto, permite ao conjurador aprender os dois Anéis mais baixos do alvo e os valores de seus Atributos constituintes, mostrando efetivamente parte da composição Elemental da pessoa. Anéis adicionais podem ser aprendidos com Aumentos. (Se os Anéis do personagem forem todos perfeitamente equilibrados, o feitiço os revela aleatoriamente.) No entanto, o feitiço não pode e não revelará o Vazio do alvo, pois esse nível de compreensão e percepção só é possível através do domínio de Ishiken-do.",
+        "source_book": "Book of Air",
+        "pagina": 186
+      },
+      {
+        "nome": "Piercing the Heavens",
+        "anel": "Ar",
+        "mastery_level": 6,
+        "area": "N/A",
+        "duracao": "5 Rodadas",
+        "texto_pt": "Conhecido apenas por verdadeiros mestres da magia, este feitiço é um segredo da Fênix e nunca foi compartilhado intencionalmente com nenhuma outra escola de shugenja, nem mesmo a Imperial. É considerado uma confiança sagrada entre os sacerdotes da Fênix de mais alto escalão, e nem todos os Mestres Elementais foram considerados dignos de seu poder... pois abusar desta prece é clamar pela própria ira dos Céus. Esta prece pede a atenção direta de uma Fortuna nomeada pelo shugenja. Ela só pode ser realizada dentro de um templo ou santuário especificamente dedicado a essa Fortuna, e nunca pode ser conjurada mais de uma vez por mês para não enfurecer toda a Tengoku. Se o feitiço for conjurado com sucesso, uma partícula da essência da Fortuna se manifestará dentro do ícone sagrado do santuário e o shugenja terá permissão para comungar brevemente com o ser divino. A Fortuna não é compelida a responder às perguntas feitas nem a conceder os favores solicitados, e a máxima reverência deve ser mantida para que sua ira imediata e terrível não seja desencadeada. Contudo, se a verdadeira reverência for oferecida e a causa for digna, a Fortuna pode oferecer ajuda não disponível em nenhum outro lugar.",
+        "source_book": "Book of Air",
+        "pagina": 187
+      },
+      {
+        "nome": "Quiescence of Air",
+        "anel": "Ar",
+        "mastery_level": 2,
+        "area": "Esfera de 30 pés de diâmetro",
+        "duracao": "10 Rodadas",
+        "texto_pt": "A segurança na comunicação é de suma importância em muitas situações, e os shugenja muitas vezes se encontram em situações em que uma conversa deve ser completamente privada, ou quando não podem se permitir ser interrompidos por sons estranhos. Ao aplacar os espíritos do Ar, um shugenja pode convencê-los a criar uma barreira contra sons, uma bolha de silêncio através da qual o som não passará. A barreira de som esférica é normalmente centrada no conjurador, embora com maior esforço também possa ser centrada em um objeto físico a até vinte metros de distância. Uma vez conjurado este feitiço, os kami não permitirão que nenhum som entre ou saia desta bolha, criando privacidade absoluta para quem estiver dentro do espaço. Uma vez criada, a bolha de silêncio não se moverá, mesmo que o conjurador (ou o objeto alvo) se mude. Personagens de um lado da barreira do feitiço Quiescence of Air ganham dois Aumentos Gratuitos em testes de Stealth feitos contra personagens do outro lado.",
+        "source_book": "Book of Air",
+        "pagina": 187
+      },
+      {
+        "nome": "Request to Hato-no-Kami",
+        "anel": "Ar",
+        "mastery_level": 2,
+        "area": "Um pássaro",
+        "duracao": "1 hora",
+        "texto_pt": "Uma variação especializada de Nature’s Touch, este feitiço é uma prece às Fortunas que é levada pelos kami do ar aos ouvidos de um pássaro aleatório dentro do alcance do feitiço. (Se nenhum pássaro estiver disponível, o feitiço não tem efeito.) O pássaro voa para baixo e pousa na mão do conjurador, e este pode instruí-lo a realizar uma tarefa simples (como carregar uma mensagem ou distrair um inimigo) pela duração do feitiço. Com um teste bem-sucedido de Animal Handling / Prontidão em ND 20, o conjurador pode persuadir o pássaro a realizar uma tarefa mais complexa, como vasculhar a área em busca de inimigos em potencial e reportar de volta. Esse tipo de tarefa está sujeito ao julgamento do Mestre, pois se a tarefa for muito complexa o pássaro não será capaz de compreendê-la. Em qualquer dos casos, o pássaro não tomará ações suicidas (como voar para o fogo) e irá imediatamente recuar e fugir se for ferido.",
+        "source_book": "Book of Air",
+        "pagina": 187
+      },
+      {
+        "nome": "Seeking the Way",
+        "anel": "Ar",
+        "mastery_level": 4,
+        "area": "Trilha do conjurador por meia milha",
+        "duracao": "3 horas",
+        "texto_pt": "Este feitiço é uma ilusão sutil usada para ocultar a trilha de um shugenja de seus perseguidores. O feitiço convence os travessos kami do Ar a esconder as pegadas do shugenja (e de sua montaria, se houver), junto com qualquer outra evidência de sua passagem (como galhos quebrados). Em seu lugar, ele cria uma trilha falsa de evidências semelhantes que levam a uma direção completamente diferente pela mesma distância. A trilha ilusória seguirá uma rota razoável (por exemplo, não subirá penhascos íngremes ou entrará diretamente em um lago) e normalmente será perfeita para a percepção dos outros; contudo, alguém rastreando pelo cheiro será capaz de sentir a trilha original, e rastreadores habilidosos podem potencialmente ver através da ilusão rolando Caça / Percepção contra Spellcraft / Ar do conjurador. Shugenja poderosos podem persuadir os kami a ocultar as trilhas de seus companheiros (e montarias), bem como as suas próprias, além de prolongar a quantidade de trilha que é ocultada e substituída.",
+        "source_book": "Book of Air",
+        "pagina": 187
+      },
+      {
+        "nome": "Soul of Kaze-no-Kami",
+        "anel": "Ar",
+        "mastery_level": 3,
+        "area": "Uma pessoa alvo",
+        "duracao": "10 minutos",
+        "texto_pt": "Este feitiço invoca a Fortuna do Vento para infundir a alma do alvo com a serenidade refrescante de uma brisa gélida do norte, tornando-o resistente às pressões da emoção e do estresse. O alvo parece imune a qualquer tipo de manipulação emocional ou pressão psicológica; na realidade, ele sente emoções normais, mas a presença dos kami do Ar amortece seu impacto, de modo que o alvo pode perceber suas próprias emoções como algo distante e abstrato. O alvo deste feitiço ganha um bônus de +2k2 para resistir aos efeitos de qualquer teste de Perícias Sociais ou efeito de Medo. No entanto, a mesma serenidade gelada que o torna resistente à manipulação alheia também dificulta a percepção das emoções dos outros; ele sofre uma penalidade de -2k0 em qualquer rolagem Social baseada em Prontidão.",
+        "source_book": "Book of Air",
+        "pagina": 188
+      },
+      {
+        "nome": "Tenjin’s Ear",
+        "anel": "Ar",
+        "mastery_level": 4,
+        "area": "Raio de 30’ ao redor do conjurador",
+        "duracao": "5 minutos",
+        "texto_pt": "Nomeado em homenagem à Fortuna dos Escribas, este poderoso encantamento foi originalmente criado pelo Unicórnio e derivado de sua magia secreta Meishodo. Até onde se sabe, o feitiço nunca foi ensinado a ninguém fora do Clã do Unicórnio. O feitiço persuade os kami do Ar a levarem o verdadeiro significado das palavras aos ouvidos do conjurador, permitindo-lhe perceber a língua de estrangeiros. Pela duração do feitiço, toda fala humana audível dentro da área de efeito torna-se inteligível para o conjurador, independentemente do idioma usado. O feitiço não concede nenhuma audição aprimorada (portanto, sussurros ainda não podem ser ouvidos), nem concede qualquer capacidade de falar de volta.",
+        "source_book": "Book of Air",
+        "pagina": 188
+      },
+      {
+        "nome": "Touch of Air’s Grace",
+        "anel": "Ar",
+        "mastery_level": 3,
+        "area": "Uma pessoa alvo",
+        "duracao": "1 hora",
+        "texto_pt": "Esta ilusão foi originalmente criada pela família Soshi, mas preces semelhantes foram desenvolvidas desde então entre outros clãs que passam tempo nos salões e jardins dos palácios corteses de Rokugan. O feitiço atrai os kami do Ar para realçar sutilmente a atratividade física do alvo, enfatizando seus melhores traços e suavizando quaisquer imperfeições. Os kami do Ar acham este um jogo delicioso e também serão bastante criativos nos pequenos truques que realizam para melhorar o apelo do alvo. Mecanicamente, o feitiço nega os efeitos das desvantagens Disturbing Countenance e Benten’s Curse pela sua duração. Se o alvo não possuir uma ou ambas as desvantagens, em vez disso ele ganha os benefícios das vantagens correspondentes (Dangerous Beauty e Benten’s Blessing). Se o alvo já possuir ambas as vantagens, o feitiço não concede nenhum benefício adicional (os kami do Ar acham chato tentar melhorar alguém que já é tão atraente).",
+        "source_book": "Book of Air",
+        "pagina": 188
+      },
+      {
+        "nome": "Voice of the Wind",
+        "anel": "Ar",
+        "mastery_level": 1,
+        "area": "Uma pessoa alvo",
+        "duracao": "10 minutos",
+        "texto_pt": "Os kami do Ar gostam de sons, que são carregados através de seu Elemento, e podem emprestar seu poder para fortalecer a beleza, paixão e convicção da voz humana. O destinatário deste feitiço descobre que sua voz ganha timbre, profundidade e ressonância, tornando-se de todas as formas mais impressionante. Pela duração do feitiço, o alvo beneficia-se da vantagem Voice (se ele já possuir Voice, os benefícios se acumulam) e também ganha um bônus de +1k0 em quaisquer testes de Perícias Sociais que envolvam fala.",
+        "source_book": "Book of Air",
+        "pagina": 188
+      },
+      {
+        "nome": "Whispers of the Forgotten",
+        "anel": "Ar",
+        "mastery_level": 4,
+        "area": "Uma pessoa alvo",
+        "duracao": "5 minutos",
+        "texto_pt": "As memórias dos homens são coisas instáveis e distantes, alojadas no fundo de suas mentes, e quase todos os mortais possuem algum pecado passado, alguma vergonha que preferiam ter esquecido. Este feitiço, um favorito do Escorpião, faz com que os kami do Ar evoquem as memórias desses pecados, atormentando o alvo com lembranças amargas e visões de crimes passados. As constantes memórias dolorosas distraem e afligem a vítima do feitiço, tornando difícil para ela realizar qualquer coisa. Pela duração do feitiço, ela deve declarar um Aumento para nenhum efeito em quaisquer rolagens de Perícia ou rolagens de Conjuração que realizar. Se possuir 3 ou mais pontos em desvantagens Mentais ou Sociais, deverá declarar dois Aumentos em vez disso.",
+        "source_book": "Book of Air",
+        "pagina": 188
+      },
+      {
+        "nome": "Wind of the Moon",
+        "anel": "Ar",
+        "mastery_level": 6,
+        "area": "Uma pessoa alvo",
+        "duracao": "1 minuto",
+        "texto_pt": "Acólitos do Ar de certa potência percebem que é possível ler as mentes de outros, mas alguns shugenja viram isso apenas como o começo do que pode ser feito com o Ar. Através de invocações extremamente avançadas e poderosas dos kami do Ar, é possível para um shugenja não apenas ler os pensamentos superficiais de outro, mas transmitir seus próprios pensamentos na mente dessa pessoa. Isto é considerado um ato altamente questionável, e o Clã da Fênix considera que este feitiço beira a blasfêmia. No entanto, as imensas vantagens que podem ser obtidas com tal manipulação total de outrem significa que o feitiço continua a circular secretamente pelo Império. Para que esta prece tenha sucesso, o conjurador deve saber o nome do alvo e deve ser capaz de vê-lo claramente. Sem a conexão visual, os pensamentos do alvo serão muito distorcidos para serem decifráveis, resultando apenas em uma dor de cabeça dolorosa tanto para o conjurador quanto para o alvo. Se o nome que o conjurador conhece for falso (por exemplo, o alvo está usando um pseudônimo), a Rolagem de Conjuração sofre uma penalidade de +10 na ND, pois o nome falso confunde os espíritos. Além disso, para impor seus pensamentos com sucesso na mente do alvo, o conjurador deve ser bem-sucedido em uma Rolagem de Ar Contestada contra o alvo; falha significa que o contato foi rompido e ambos os lados sofrem uma dor de cabeça severa, como citado acima. No entanto, se a rolagem de Ar for bem-sucedida, o alvo não terá conhecimento do contato mental e, pela duração do feitiço, acreditará que os pensamentos surgindo em sua mente são inteiramente seus. O conjurador deve manter concentração parcial pela duração do feitiço — se esta for interrompida, o feitiço termina imediatamente.",
+        "source_book": "Book of Air",
+        "pagina": 189
+      },
+      {
+        "nome": "Wind-Born Slumbers",
+        "anel": "Ar",
+        "mastery_level": 2,
+        "area": "Uma pessoa alvo",
+        "duracao": "5 minutos",
+        "texto_pt": "Este feitiço faz com que os kami do Ar se insinuem sutilmente no corpo do alvo, instigando-o ao cansaço e ao sono. Um alvo que esteja física e mentalmente inativo (como um guarda de prontidão à noite, ou um samurai meditando em seu dojo) adormecerá automaticamente ao ser alvo deste feitiço. (O alvo acordará normalmente se for tocado ou ouvir um barulho alto, mas caso contrário dormirá até que a duração do feitiço expire.) Se o alvo estiver física ou mentalmente ativo, o feitiço não o fará dormir, mas ele sofrerá os efeitos de estar Fatigado pela duração do feitiço. (Se o alvo já estiver Fatigado, suas penalidades de fadiga aumentam como se ele tivesse passado mais um dia sem descanso.)",
+        "source_book": "Book of Air",
+        "pagina": 190
+      },
+      {
+        "nome": "Wisdom of the Kami",
+        "anel": "Ar",
+        "mastery_level": 4,
+        "area": "Conjurador",
+        "duracao": "1 minuto",
+        "texto_pt": "Esta prece convida os kami do Ar para a mente do próprio shugenja, aprimorando a mente e os pensamentos do shugenja, fazendo com que ele seja capaz de fazer melhor uso de suas habilidades e conhecimentos. Pela duração do feitiço, o conjurador ganha 1 Rank em todas as Perícias que possui normalmente, e pode se beneficiar de quaisquer Habilidades de Maestria que isso concederia. Isto só pode conceder ranks em Perícias que o shugenja já possui — os kami do Ar não podem evocar conhecimentos que o conjurador não possui. Quando a duração do feitiço expira, todos os benefícios são perdidos e quaisquer memórias de conhecimento ou percepção que o shugenja obteve durante a duração do feitiço são, na melhor das hipóteses, confusas; nenhum relato preciso ou detalhado jamais poderá ser dado, e dores de cabeça severas são conhecidas por atormentar aqueles que se esforçam demais. Os benefícios deste feitiço aplicam-se apenas às Perícias que o conjurador realmente conhece — ele não pode aumentar o Rank de Perícias que o conjurador adquiriu temporariamente através de magia, nem pode se combinar com vantagens como Crafty.",
+        "source_book": "Book of Air",
+        "pagina": 190
+      }
+    ]
+  },
+  "advantages_disadvantages": {
+    "advantages": [],
+    "disadvantages": []
+  },
+  "equipment": {
+    "weapons": [],
+    "armor": [],
+    "gear": []
+  }
+}
