@@ -20,7 +20,7 @@ let cache = null;
 
 export async function carregarBanco() {
   if (cache) return cache;
-  const [aneis, traits, schools, kataKiho, skills, spells, advantages, disadvantages, weapons, armor, gear] =
+  const [aneis, traits, schools, kataKiho, skills, spells, advantages, disadvantages, weapons, armor, gear, lore] =
     await Promise.all([
       carregarJSON("data/core/aneis.json"),
       carregarJSON("data/core/traits.json"),
@@ -33,8 +33,12 @@ export async function carregarBanco() {
       carregarJSON("data/raw/weapons.json"),
       carregarJSON("data/raw/armor.json"),
       carregarJSON("data/raw/gear.json"),
+      // Wiki de lore (clãs) — gerada por scripts/extract_lore.py +
+      // scripts/build_lore.py. Ainda não foi extraída (precisa de cota do
+      // Gemini) — fica [] até lá, e a aba Wiki mostra um aviso.
+      carregarJSON("data/lore/clas.json"),
     ]);
-  cache = { aneis, traits, schools, kataKiho, skills, spells, advantages, disadvantages, weapons, armor, gear };
+  cache = { aneis, traits, schools, kataKiho, skills, spells, advantages, disadvantages, weapons, armor, gear, lore };
   return cache;
 }
 

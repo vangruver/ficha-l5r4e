@@ -2,6 +2,7 @@ import { carregarBanco, porId } from "./database.js";
 import * as storage from "./storage.js";
 import * as regras from "./rules.js";
 import { montarCompendio } from "./compendio.js";
+import { montarWiki } from "./wiki.js";
 
 function esc(txt) {
   return (txt ?? "")
@@ -30,6 +31,7 @@ function traitKeyPorNome(nome) {
 let db = null;
 let personagem = null;
 let compendioMontado = false;
+let wikiMontada = false;
 
 async function iniciar() {
   db = await carregarBanco();
@@ -47,9 +49,14 @@ function montarTabsTopo() {
       const alvo = btn.dataset.tab;
       $("painel-ficha").hidden = alvo !== "ficha";
       $("painel-compendio").hidden = alvo !== "compendio";
+      $("painel-wiki").hidden = alvo !== "wiki";
       if (alvo === "compendio" && !compendioMontado) {
         montarCompendio(db);
         compendioMontado = true;
+      }
+      if (alvo === "wiki" && !wikiMontada) {
+        montarWiki(db);
+        wikiMontada = true;
       }
     });
   });

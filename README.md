@@ -1,7 +1,8 @@
 # Ficha de Lenda dos Cinco Anéis (L5R) 4ª edição
 
 Ficha de personagem de **Lenda dos Cinco Anéis / Legend of the Five Rings, 4ª edição** (AEG), com
-compêndio pesquisável de escolas, kata/kiho, skills, magias, vantagens/desvantagens e equipamento.
+compêndio pesquisável de escolas, kata/kiho, skills, magias, vantagens/desvantagens e equipamento, e
+uma wiki navegável de clãs (lore, valores, relações entre clãs, ganchos de roleplay).
 Roda 100% no navegador — publicável no GitHub Pages, sem back-end. Feita no mesmo esquema da
 [ficha de D&D 5e](https://github.com/vangruver/dnd-sheet) e da
 [ficha de Tormenta 20](https://github.com/vangruver/ficha-tormenta20), adaptada pras regras de L5R 4e.
@@ -19,7 +20,9 @@ eles.
 Diferente da ficha de Tormenta 20 (que escreve resumos mecânicos originais em vez de copiar o texto
 do livro), os dados aqui em `raw/` e `data/raw/` incluem **tradução do texto mecânico original dos
 livros** (descrição de técnicas, magias, vantagens e desvantagens) — não só números e listas. Isso é
-conteúdo derivado de obra comercial. Se você tem direito sobre esse conteúdo e quer que ele saia
+conteúdo derivado de obra comercial. A wiki de clãs (`data/lore/`) segue a abordagem da
+ficha-tormenta20: é **resumo original**, escrito a partir dos fatos do livro, nunca tradução do texto
+da AEG — ver `scripts/extract_lore.py`. Se você tem direito sobre esse conteúdo e quer que ele saia
 daqui, abra uma Issue explicando o pedido.
 
 **Se você joga L5R, compre os livros.** A ficha não substitui nenhum deles; ela só organiza o
@@ -40,6 +43,8 @@ personagem de quem já joga.
   armaduras e equipamento geral — busca por texto e filtro por campo (clã, anel, tipo...), cada item
   com o livro e a página de origem.
 - **Múltiplos personagens salvos** no navegador (localStorage) — trocar, criar, excluir.
+- **Wiki de clãs**: resumo, valores, aparência, papel no Império e relações com outros clãs
+  (clicáveis — clicar num clã relacionado pula pra página dele), mais ganchos de roleplay.
 
 ## O que ainda falta (ver `STATUS.md`)
 
@@ -48,7 +53,8 @@ personagem de quem já joga.
   que ainda não foram extraídas — ver `scripts/extract_core_tables.py`.
   Hoje o Rank de Escola é digitado manualmente e o dano é só acumulado, sem penalidade automática.
 - **Magias conhecidas/preparadas** (Shugenja): o campo já existe no personagem, a interface ainda não.
-- **Banco de dados tipo wiki** sobre clãs/lore (próxima fase, depois da ficha — ver `STATUS.md`).
+- **Dados da wiki de clãs**: o pipeline (`scripts/extract_lore.py`/`build_lore.py`) e a aba já
+  existem; falta rodar a extração de verdade (precisa de cota do Gemini).
 
 ## Fonte dos dados
 

@@ -60,8 +60,9 @@ Responda só com o JSON no schema fornecido.
 """
 
 
-def extrair(pdf_path: str, slug: str, source_book: str | None = None, categorias: dict | None = None):
+def extrair(pdf_path: str, slug: str, source_book: str | None = None, categorias: dict | None = None, montar_prompt_fn=None):
     categorias = categorias if categorias is not None else CATEGORIAS
+    montar_prompt_fn = montar_prompt_fn or montar_prompt
     source_book = source_book or os.path.basename(pdf_path)
     glossario = carregar_glossario()
 
@@ -91,7 +92,7 @@ def extrair(pdf_path: str, slug: str, source_book: str | None = None, categorias
     for categoria in pendentes:
         response_schema = categorias[categoria]
         print(f"  extraindo categoria: {categoria}")
-        prompt = montar_prompt(categoria, source_book, glossario)
+        prompt = montar_prompt_fn(categoria, source_book, glossario)
 
         for tentativa in range(1, 6):
             try:

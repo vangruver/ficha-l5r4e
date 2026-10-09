@@ -56,7 +56,7 @@ Decisão do Carlos: esperar o reset (de graça), não ativar billing.
 ## Retomar
 
 Depois do reset (`$env:GEMINI_API_KEY` já setado como variável de ambiente de usuário no PC do
-Carlos), rodar nessa ordem (cabe fácil num dia de 20 requests — são só 6 no total):
+Carlos), rodar nessa ordem (cabe fácil num dia de 20 requests — são só 7 no total):
 
 1. `D:\ficha pasta git\ficha-l5r4e\scripts\run_all.ps1` (powershell) — termina o `sword-and-fan`
    (5 categorias; com save incremental, não regasta o que já tem).
@@ -64,11 +64,15 @@ Carlos), rodar nessa ordem (cabe fácil num dia de 20 requests — são só 6 no
    (níveis de ferimento, ranks de Discernimento, custos de evolução) pra `raw/core-tables.json`.
 3. `py scripts/build_core.py` — sem gastar cota, converte `raw/core-tables.json` pra
    `data/core/niveis-ferimento.json`, `ranks-discernimento.json`, `custos-evolucao.json`, `formulas.json`.
-4. `py scripts/merge.py` — sem gastar cota, regera `data/raw/*.json` já com o Sword and Fan completo
+4. `py scripts/extract_lore.py` — 1 request, extrai a wiki de clãs do The Great Clans (resumo
+   original, não tradução — ver "Wiki de clãs" abaixo) pra `raw/lore.json`.
+5. `py scripts/build_lore.py` — sem gastar cota, converte `raw/lore.json` pra `data/lore/clas.json`.
+6. `py scripts/merge.py` — sem gastar cota, regera `data/raw/*.json` já com o Sword and Fan completo
    (compêndio final dos 8 livros).
+7. `git add -A && git commit -m "..." && git push` — manda tudo isso pro
+   [repo no GitHub](https://github.com/vangruver/ficha-l5r4e) (ver seção "Publicado no GitHub" acima).
 
-Depois disso a extração está 100% feita e dá pra começar a ficha de personagem em si (ver seção
-acima, "O que falta pra ficha em si").
+Depois disso a extração está 100% feita.
 
 ## Notas sobre modelo
 
@@ -133,14 +137,30 @@ Baseada no mesmo esquema do [dnd-sheet](https://github.com/vangruver/dnd-sheet) 
   de cor; o risco de errar silenciosamente um cálculo da ficha é maior que o custo de **mais 1
   request** no Gemini. Ainda não rodou (precisa de cota) — ver "Retomar".
 
-## Próxima fase (depois da ficha)
+## Wiki de clãs (iniciada em 09/out, não é mais "próxima fase")
 
-Carlos quer, além da ficha, um banco de dados tipo wiki sobre o sistema — clãs, características
-mecânicas e de roleplay, pesquisável pelos players. Isso é um schema separado (`lore.json`: clã →
-resumo, valores, aparência, relação com outros clãs, hooks de roleplay) extraído como **resumo
-original**, não tradução 1:1 do texto do livro — tanto por ser mais apropriado pra formato de wiki
-quanto por ser prosa autoral da AEG, diferente de fato de regra solto. Não começar antes da ficha
-estar pronta.
+Carlos pediu pra começar já (antes só estava planejada como fase seguinte): um banco de dados tipo
+wiki sobre o sistema — clã → resumo, valores, aparência, papel no Império, relação com outros clãs,
+ganchos de roleplay — navegável como enciclopédia (clicar num clã relacionado pula pra página dele).
+
+- **`scripts/schema.py` (`LORE`)** — schema por clã, com instrução explícita no prompt (ver
+  `extract_lore.py`) pra escrever **resumo original**, nunca tradução/cópia de frase do livro — essa
+  é a parte NARRATIVA/autoral da AEG, risco de copyright maior que traduzir uma lista de vantagens
+  (que é só fato de regra). Roda só contra **The Great Clans** (o livro dedicado a isso).
+- **`scripts/extract_lore.py`** — 1 request, prompt próprio (`montar_prompt_lore`, diferente do
+  `montar_prompt` genérico de `extract.py` — por isso `extract.py` ganhou um parâmetro
+  `montar_prompt_fn` opcional). Salva em `raw/lore.json`.
+- **`scripts/build_lore.py`** — converte `raw/lore.json` em `data/lore/clas.json`, normalizando o
+  nome do clã (reaproveita `carregar_mapa_cla()`/`slugify()` de `merge.py`) e gerando `id`/`claId`
+  pra cada relação entre clãs (link clicável na wiki).
+- **`src/wiki.js`** — aba **Wiki** nova na ficha: lista de clãs + artigo com resumo/valores/
+  aparência/papel/relações (clicáveis, pulam pro clã relacionado)/ganchos de roleplay. Mostra aviso
+  se `data/lore/clas.json` ainda não existir (caso de agora — só rodou com dado sintético pra testar
+  o pipeline, removido antes de commitar).
+- **Testado:** pipeline `extract_lore.py`→`build_lore.py` com um clã sintético (normalização de
+  nome, geração de id e de link entre clãs) — passou. **Não testado:** dado de verdade (precisa da
+  extração rodar) nem a aba Wiki num navegador de fato.
+- Ainda não rodou (precisa de cota) — ver "Retomar" acima.
 
 ## Segurança
 

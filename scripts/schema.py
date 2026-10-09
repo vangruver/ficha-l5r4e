@@ -258,3 +258,51 @@ CORE_TABLES = {
         "source_book": {"type": "string"},
     }
 }
+
+# ---------------------------------------------------------------------------
+# Wiki de lore (clãs) — diferente de tudo acima: não é extração de regra
+# mecânica, é a parte NARRATIVA do livro (história, cultura, relações entre
+# clãs). Por isso o prompt (ver extract_lore.py) pede expressamente um
+# RESUMO ORIGINAL escrito a partir dos fatos do livro, nunca tradução ou
+# cópia de frase — é prosa autoral da AEG, risco de copyright bem maior que
+# traduzir uma lista de vantagens. Roda só contra The Great Clans (o livro
+# dedicado a isso) — script e arquivo de saída próprios
+# (scripts/extract_lore.py -> raw/lore.json).
+# ---------------------------------------------------------------------------
+LORE = {
+    "type": "object",
+    "properties": {
+        "clas": {
+            "type": "array",
+            "description": "um item por clã (os 7 grandes clãs + clãs menores relevantes + Ronin/Irmandade se o livro cobrir)",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "cla": {"type": "string", "description": "nome do clã em inglês, ex. 'Crab Clan'"},
+                    "resumo_pt": {"type": "string", "description": "resumo ORIGINAL (suas palavras, não tradução) de quem é o clã e seu papel em Rokugan, 3-5 frases"},
+                    "valores_pt": {"type": "string", "description": "resumo original dos valores/filosofia que o clã preza"},
+                    "aparencia_pt": {"type": "string", "description": "resumo original da estética/cultura visível (vestimenta, arquitetura, maneirismos)"},
+                    "papel_pt": {"type": "string", "description": "resumo original do papel oficial do clã no Império (ex. defesa, diplomacia, lei)"},
+                    "relacoes": {
+                        "type": "array",
+                        "description": "relação com outros clãs",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "cla": {"type": "string", "description": "nome do outro clã em inglês"},
+                                "tipo": {"type": "string", "description": "aliado, rival, neutro, tenso, etc."},
+                                "descricao_pt": {"type": "string", "description": "resumo original do porquê dessa relação"}
+                            }
+                        }
+                    },
+                    "ganchos_roleplay": {
+                        "type": "array",
+                        "items": {"type": "string"},
+                        "description": "3-6 ganchos de roleplay originais (situações, conflitos, ideias de história) pra um personagem desse clã"
+                    },
+                    "source_book": {"type": "string"},
+                }
+            }
+        }
+    }
+}
