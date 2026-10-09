@@ -1,0 +1,34 @@
+[
+  {
+    "anel": "Air",
+    "traits": [
+      "Reflexes",
+      "Awareness"
+    ]
+  },
+  {
+    "anel": "Earth",
+    "traits": [
+      "Stamina",
+      "Willpower"
+    ]
+  },
+  {
+    "anel": "Fire",
+    "traits": [
+      "Agility",
+      "Intelligence"
+    ]
+  },
+  {
+    "anel": "Water",
+    "traits": [
+      "Strength",
+      "Perception"
+    ]
+  },
+  {
+    "anel": "Void",
+    "traits": []
+  }
+]

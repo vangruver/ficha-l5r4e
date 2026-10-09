@@ -1,0 +1,58 @@
+[
+  {
+    "ordem": 1,
+    "nome_en": "Healthy",
+    "nome_pt": "Saudável",
+    "multiplicador_anel_terra": 5.0,
+    "penalidade": 0
+  },
+  {
+    "ordem": 2,
+    "nome_en": "Nicked",
+    "nome_pt": "Escoriado",
+    "multiplicador_anel_terra": 2.0,
+    "penalidade": 3
+  },
+  {
+    "ordem": 3,
+    "nome_en": "Grazed",
+    "nome_pt": "Machucado",
+    "multiplicador_anel_terra": 2.0,
+    "penalidade": 5
+  },
+  {
+    "ordem": 4,
+    "nome_en": "Hurt",
+    "nome_pt": "Ferido",
+    "multiplicador_anel_terra": 2.0,
+    "penalidade": 10
+  },
+  {
+    "ordem": 5,
+    "nome_en": "Injured",
+    "nome_pt": "Gravemente Ferido",
+    "multiplicador_anel_terra": 2.0,
+    "penalidade": 15
+  },
+  {
+    "ordem": 6,
+    "nome_en": "Crippled",
+    "nome_pt": "Incapacitado",
+    "multiplicador_anel_terra": 2.0,
+    "penalidade": 20
+  },
+  {
+    "ordem": 7,
+    "nome_en": "Down",
+    "nome_pt": "Abatido",
+    "multiplicador_anel_terra": 2.0,
+    "penalidade": 40
+  },
+  {
+    "ordem": 8,
+    "nome_en": "Out of Action",
+    "nome_pt": "Inconsciente",
+    "multiplicador_anel_terra": 0.0,
+    "penalidade": 0
+  }
+]

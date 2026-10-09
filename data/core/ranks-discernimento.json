@@ -1,0 +1,42 @@
+[
+  {
+    "rank": 1,
+    "discernimento_minimo": 0,
+    "discernimento_maximo": 149
+  },
+  {
+    "rank": 2,
+    "discernimento_minimo": 150,
+    "discernimento_maximo": 174
+  },
+  {
+    "rank": 3,
+    "discernimento_minimo": 175,
+    "discernimento_maximo": 199
+  },
+  {
+    "rank": 4,
+    "discernimento_minimo": 200,
+    "discernimento_maximo": 224
+  },
+  {
+    "rank": 5,
+    "discernimento_minimo": 225,
+    "discernimento_maximo": 249
+  },
+  {
+    "rank": 6,
+    "discernimento_minimo": 250,
+    "discernimento_maximo": 274
+  },
+  {
+    "rank": 7,
+    "discernimento_minimo": 275,
+    "discernimento_maximo": 299
+  },
+  {
+    "rank": 8,
+    "discernimento_minimo": 300,
+    "discernimento_maximo": 324
+  }
+]

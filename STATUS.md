@@ -1,8 +1,10 @@
 # Status — ficha-l5r4e
 
 Ficha modular de L5R 4ª edição (AEG), nos moldes do dnd-sheet/ficha-tormenta20.
-Fase atual: extração de dados dos livros via Gemini (quase terminada) + primeira versão do
-compêndio pesquisável e da ficha de personagem (prontas, rodando com os 7/8 livros já extraídos).
+
+**Extração 100% completa desde 09/out/2026** — os 8 livros, as tabelas universais do Core e a wiki
+de 9 clãs. Fase atual: terminar a automação da ficha de personagem em cima desses dados (ver
+"O que falta pra ficha em si", perto do fim deste arquivo).
 
 **Publicado no GitHub em 09/out/2026:** repo público [vangruver/ficha-l5r4e](https://github.com/vangruver/ficha-l5r4e),
 GitHub Pages ativado em <https://vangruver.github.io/ficha-l5r4e/> (mesmo esquema do dnd-sheet).
@@ -45,8 +47,10 @@ está configurada** como variável de usuário no PC do Carlos (`setx`, 09/out) 
 `AQ.` em vez do `AIzaSy...` que eu esperava — AI Studio deve ter mudado o formato depois do meu
 corte de conhecimento.
 
-Com as duas contas, a cota de hoje à noite vira **40/dia** em vez de 20 — mais que suficiente pros
-7 requests que faltam (Sword and Fan + core-tables + lore), tudo numa rodada só.
+**Resultado:** funcionou perfeitamente — `sword-and-fan` esgotou a conta 1 bem no meio (na categoria
+`skills`), trocou pra conta 2 sozinho e terminou as 4 categorias que faltavam; `extract_core_tables.py`
+e `extract_lore.py` também rodaram sem problema. **Extração 100% completa em 09/out/2026, no mesmo dia,
+sem esperar reset nenhum.**
 
 ## Escopo (8 livros)
 
@@ -61,56 +65,40 @@ PDFs em `pdfs/`, vieram do Drive do Carlos (pasta "Lenda dos 5 aneis").
 - `scripts/extract.py` — sobe o PDF pro Gemini File API, extrai categoria por categoria, salva em `raw/<slug>.json` com `source_book`+`pagina` por item. **Salva incremental** (categoria por categoria) e **retoma** sozinho — se rodar de novo num livro que já tem progresso parcial, só busca o que falta.
 - `scripts/run_all.ps1` — roda `extract.py` nos livros que faltam, em sequência.
 
-## Status dos livros
+## Status dos livros — todos ✅ (09/out/2026)
 
-| Livro | Slug | Status |
-|---|---|---|
-| Book of Air | `air` | ✅ feito (piloto) |
-| Core Rulebook | `core` | ✅ feito |
-| Book of Water | `water` | ✅ feito |
-| Book of Fire | `fire` | ✅ feito (08/out) |
-| Book of Earth | `earth` | ✅ feito (09/out) |
-| Book of Void | `void` | ✅ feito (09/out) |
-| The Great Clans | `great-clans` | ✅ feito (09/out) |
-| Sword and Fan | `sword-and-fan` | 🟡 parcial — só `schools` (09/out); faltam `kata_kiho`, `skills`, `spells`, `advantages_disadvantages`, `equipment` (5 categorias) |
+Book of Air, Core Rulebook, Book of Water, Book of Fire, Book of Earth, Book of Void, The Great
+Clans, Sword and Fan — os 8, completos. `extract_core_tables.py` (tabelas universais) e
+`extract_lore.py` (wiki de 9 clãs) também já rodaram. Free tier do Gemini (20 requests/dia por
+conta) não foi mais um bloqueio depois da 2ª conta configurada (ver seção acima) — sobrou cota
+tranquilamente pros 7 requests que faltavam.
 
-Só falta **Sword and Fan** (5 categorias) pra terminar a extração dos 8 livros.
+Se precisar reprocessar algo no futuro (livro novo, categoria nova): `scripts/run_all.ps1` continua
+retomando sozinho (só busca o que falta em cada `raw/<slug>.json`); `extract_core_tables.py` e
+`extract_lore.py` têm o mesmo comportamento incremental. Depois de qualquer extração nova, rodar
+`scripts/merge.py` (recompila `data/raw/*.json`) e `scripts/build_core.py`/`build_lore.py` se for o
+caso, e então `git add -A && git commit -m "..." && git push`.
 
-## Bloqueio atual
+## Conferência dos dados extraídos (09/out)
 
-Free tier do Gemini API: **20 requests/dia** por modelo (`gemini-3.5-flash`). Cada livro = 6 requests
-(uma por categoria). 3ª batida de cota em **09/out/2026 ~09:55** (logo depois de extrair `schools` do
-Sword and Fan) — mensagem de erro dizia "retry em 11h30", ou seja reset previsto **~09/out ~21:30**
-(confirmar hora exata na mensagem de erro se for retomar antes).
-
-Nota: na 1ª categoria do Sword and Fan, numa rodada anterior (08/out), o Gemini devolveu um JSON
-malformado (`Invalid \uXXXX escape`) que quebrou o parser — não era erro de cota, foi uma resposta
-ruim do modelo. Não se repetiu na tentativa seguinte (09/out), então parece intermitente; se voltar a
-acontecer em `sword-and-fan`/`schools` especificamente, vale investigar se é algo no PDF daquele livro
-(ex. caractere especial que o Gemini escapa errado).
-
-Decisão do Carlos: esperar o reset (de graça), não ativar billing.
-
-## Retomar
-
-Depois do reset (`$env:GEMINI_API_KEY` já setado como variável de ambiente de usuário no PC do
-Carlos), rodar nessa ordem (cabe fácil num dia de 20 requests — são só 7 no total):
-
-1. `D:\ficha pasta git\ficha-l5r4e\scripts\run_all.ps1` (powershell) — termina o `sword-and-fan`
-   (5 categorias; com save incremental, não regasta o que já tem).
-2. `py scripts/extract_core_tables.py` — 1 request, extrai as tabelas universais do Core
-   (níveis de ferimento, ranks de Discernimento, custos de evolução) pra `raw/core-tables.json`.
-3. `py scripts/build_core.py` — sem gastar cota, converte `raw/core-tables.json` pra
-   `data/core/niveis-ferimento.json`, `ranks-discernimento.json`, `custos-evolucao.json`, `formulas.json`.
-4. `py scripts/extract_lore.py` — 1 request, extrai a wiki de clãs do The Great Clans (resumo
-   original, não tradução — ver "Wiki de clãs" abaixo) pra `raw/lore.json`.
-5. `py scripts/build_lore.py` — sem gastar cota, converte `raw/lore.json` pra `data/lore/clas.json`.
-6. `py scripts/merge.py` — sem gastar cota, regera `data/raw/*.json` já com o Sword and Fan completo
-   (compêndio final dos 8 livros).
-7. `git add -A && git commit -m "..." && git push` — manda tudo isso pro
-   [repo no GitHub](https://github.com/vangruver/ficha-l5r4e) (ver seção "Publicado no GitHub" acima).
-
-Depois disso a extração está 100% feita.
+- **`data/core/aneis-traits-conferencia.json`**: o mapeamento Anel↔Trait extraído do Core bateu
+  **exatamente** com o que eu já tinha escrito à mão em `data/core/aneis.json`/`traits.json`
+  (Terra: Stamina/Willpower, Ar: Reflexes/Awareness, Água: Strength/Perception, Fogo:
+  Agility/Intelligence, Vazio: nenhum). Confirmado, não precisa mudar nada.
+- **Correção manual em `data/core/formulas.json`**: a fórmula de Iniciativa saiu do Gemini como
+  "Reflexos + **Nível de Sabedoria**" — termo que não existe em L5R (parece ter confundido com
+  "Wisdom" de outro sistema, ou é só uma tradução inconsistente de "Insight Rank"). Corrigi pra
+  "Reflexos + **Rank de Discernimento**" (nosso termo canônico do glossário) à mão — é só o nome do
+  termo que estava errado, a mecânica em si (Reflexos + Insight Rank, mantendo Reflexos) bate com o
+  que eu já sabia do sistema.
+- **`data/core/ranks-discernimento.json` só vai até o Rank 8** (0–324 pontos de Discernimento) — o
+  livro pode ter ranks mais altos que a extração não pegou (não confirmei se é porque a tabela do
+  Core realmente para aí, ou se o Gemini só não listou o resto). Não travar a ficha num personagem de
+  Rank 9+ sem checar isso contra o PDF antes.
+- **`data/lore/clas.json`**: 9 clãs (os 7 grandes + Mantis + Aranha), resumos originais, boa
+  qualidade. Uma relação da Aranha aponta pro clã genérico `"All Clans"` (não é um clã de verdade) —
+  o link da wiki pra essa relação especificamente fica sem ação ao clicar (`wiki.js` já trata isso
+  sem quebrar, só não navega pra lugar nenhum), resto das relações normais funciona.
 
 ## Notas sobre modelo
 
@@ -126,14 +114,14 @@ Baseada no mesmo esquema do [dnd-sheet](https://github.com/vangruver/dnd-sheet) 
 
 - **`scripts/merge.py`** — junta todo `raw/<slug>.json` (um por livro) num compêndio plano por
   categoria em `data/raw/*.json`, com um `id` estável por item (nome + livro de origem). Não chama
-  o Gemini, não gasta cota — roda a qualquer momento que `raw/` mudar. Já rodou uma vez com os 7
-  livros prontos: **25 schools, 75 kata/kiho, 42 skills, 91 spells, 22 advantages, 15 disadvantages,
-  17 weapons, 11 armor, 12 gear** (310 itens).
+  o Gemini, não gasta cota — roda a qualquer momento que `raw/` mudar. **Compêndio final dos 8
+  livros (09/out): 25 schools, 75 kata/kiho, 42 skills, 91 spells, 24 advantages, 15 disadvantages,
+  17 weapons, 11 armor, 12 gear — 312 itens.**
 - **`data/core/aneis.json` e `data/core/traits.json`** — os 5 Anéis e os 8 Traits com o mapeamento
   Anel→Trait (Terra: Vigor/Vontade, Ar: Reflexos/Prontidão, Água: Força/Percepção, Fogo:
   Agilidade/Intelecto, Vazio: nenhum) — escrito à mão, é regra básica estável do sistema desde
-  sempre. Fica pra conferir contra `core_tables` (abaixo) quando essa extração rodar, só por
-  garantia.
+  sempre. **Conferido contra a extração real do Core em 09/out** (ver "Conferência dos dados
+  extraídos" acima) — bateu certo, sem mudança.
 - **Bug de dados corrigido no merge:** o campo `cla` das escolas saía ora em inglês ("Crab Clan"),
   ora em português ("Clã da Caranguejo"), dependendo do livro que extraiu (inconsistência da
   tradução via Gemini, não dos dados em si). `scripts/merge.py` agora normaliza os dois pro valor
@@ -163,17 +151,15 @@ Baseada no mesmo esquema do [dnd-sheet](https://github.com/vangruver/dnd-sheet) 
   vantagens/desvantagens, busca/filtro) — todos os testes passaram. **O que não foi testado:** cliques
   e renderização de fato num navegador — abrir `index.html` (local, `python -m http.server`, ou
   publicado) e confirmar visualmente na primeira oportunidade.
-- **O que falta pra ficha em si:** Insight Rank (depende do `core_tables`, ver abaixo) — hoje o Rank de
-  Escola é digitado manualmente em vez de calculado; penalidade de Nível de Ferimento (mesma
-  dependência); magias conhecidas/preparadas pra Shugenja (schema do personagem já tem o campo,
-  UI ainda não feita); NA de combate e Iniciativa (fórmulas também vêm do `core_tables`).
+- **O que falta pra ficha em si (próximo passo real):** os dados (`data/core/niveis-ferimento.json`,
+  `ranks-discernimento.json`, `custos-evolucao.json`, `formulas.json`) já existem, extraídos de
+  verdade — falta **ligar isso em `src/rules.js`/`src/app.js`**: calcular Insight Rank de verdade
+  (hoje o Rank de Escola ainda é digitado manualmente), aplicar penalidade por Nível de Ferimento,
+  calcular NA de combate e Iniciativa pelas fórmulas extraídas. Magias conhecidas/preparadas pra
+  Shugenja também falta (schema do personagem já tem o campo, UI ainda não feita).
 - **`scripts/schema.py` (`CORE_TABLES`) + `scripts/extract_core_tables.py` + `scripts/build_core.py`**
-  — pipeline novo, separado do `run_all.ps1`, pra extrair do Core (só dele) as tabelas universais que
-  a ficha de personagem vai precisar calcular: níveis de ferimento, ranks de Discernimento, custos de
-  evolução em XP, fórmulas de iniciativa/NA/Discernimento. Decidi extrair essas tabelas do PDF via
-  Gemini em vez de digitar de memória — são números de regra, e eu não tinha 100% de certeza deles
-  de cor; o risco de errar silenciosamente um cálculo da ficha é maior que o custo de **mais 1
-  request** no Gemini. Ainda não rodou (precisa de cota) — ver "Retomar".
+  — pipeline separado do `run_all.ps1`, extrai do Core (só dele) as tabelas universais que a ficha
+  precisa calcular. Já rodou (ver "Conferência dos dados extraídos" acima).
 
 ## Wiki de clãs (iniciada em 09/out, não é mais "próxima fase")
 
@@ -193,12 +179,10 @@ ganchos de roleplay — navegável como enciclopédia (clicar num clã relaciona
   pra cada relação entre clãs (link clicável na wiki).
 - **`src/wiki.js`** — aba **Wiki** nova na ficha: lista de clãs + artigo com resumo/valores/
   aparência/papel/relações (clicáveis, pulam pro clã relacionado)/ganchos de roleplay. Mostra aviso
-  se `data/lore/clas.json` ainda não existir (caso de agora — só rodou com dado sintético pra testar
-  o pipeline, removido antes de commitar).
-- **Testado:** pipeline `extract_lore.py`→`build_lore.py` com um clã sintético (normalização de
-  nome, geração de id e de link entre clãs) — passou. **Não testado:** dado de verdade (precisa da
-  extração rodar) nem a aba Wiki num navegador de fato.
-- Ainda não rodou (precisa de cota) — ver "Retomar" acima.
+  se `data/lore/clas.json` não existir — não é mais o caso, já tem os 9 clãs de verdade.
+- **Rodou com dado real em 09/out:** 9 clãs extraídos (ver "Conferência dos dados extraídos" acima
+  pra qualidade/ressalvas). Visual num navegador de fato ainda não foi conferido (extensão do Chrome
+  não conectou nesta sessão) — abrir `https://vangruver.github.io/ficha-l5r4e/` e checar quando der.
 
 ## Segurança
 

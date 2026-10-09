@@ -1,0 +1,226 @@
+{
+  "clas": {
+    "clas": [
+      {
+        "cla": "Crab Clan",
+        "resumo_pt": "Os bravos defensores da fronteira sul que enfrentam as hordas malignas constantemente. Eles abrem mão da etiqueta e do refinamento social em nome de uma sobrevivência pragmática. Seu sacrifício diário garante a paz e a segurança de todo o império de Rokugan.",
+        "valores_pt": "Resistência inabalável, pragmatismo em combate, dever absoluto e a coragem necessária para encarar as piores abominações.",
+        "aparencia_pt": "Uso de armaduras pesadas e utilitárias, cabelos desalinhados e armas grandes como o tetsubo.",
+        "papel_pt": "Defesa militar permanente na grande muralha Kaiu Wall contra a ameaça das terras sombrias.",
+        "relacoes": [
+          {
+            "cla": "Crane Clan",
+            "tipo": "Rival",
+            "descricao_pt": "Consideram os samurais do Clã do Grou arrogantes e fracos, embora respeitem a tenacidade militar da família Daidoji."
+          },
+          {
+            "cla": "Lion Clan",
+            "tipo": "Tensão",
+            "descricao_pt": "Respeitam seu poder bélico, mas consideram sua obsessão por etiqueta e Honra clássica uma grande tolice."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Um jovem guerreiro da família Hida precisa realizar seu gempukku eliminando uma criatura nas terras sombrias, mas descobre um segredo militar guardado por uma patrulha rúnica.",
+          "Um shugenja da família Kuni tenta decifrar um novo método para conter a Mácula das Terras Sombrias usando rituais que desafiam a ortodoxia espiritual do império.",
+          "Um engenheiro da família Kaiu viaja infiltrado em busca de metais raros em terras inimigas para reparar uma seção danificada das defesas."
+        ],
+        "source_book": "The Great Clans"
+      },
+      {
+        "cla": "Crane Clan",
+        "resumo_pt": "Os guardiões da cultura, etiqueta e política do império, agindo como a corte perfeita. Eles buscam a beleza e a perfeição absoluta em todos os aspectos de suas vidas cotidianas. Através de sua influência política, moldam as leis e o comportamento da sociedade imperial.",
+        "valores_pt": "A busca contínua pela perfeição artística, honra refinada, o valor das artes sociais e a cortesia impecável.",
+        "aparencia_pt": "Roupas luxuosas de seda azul e branca, postura sempre elegante e cabelos frequentemente tingidos de branco puro.",
+        "papel_pt": "Preservação das artes, diplomacia refinada nas cortes e manutenção das tradições sociais.",
+        "relacoes": [
+          {
+            "cla": "Crab Clan",
+            "tipo": "Rival",
+            "descricao_pt": "Enxergam o Clã da Caranguejo como bárbaros sem refinamento, mas aceitam pontes de diálogo graças ao respeito mútuo com os guerreiros Daidoji."
+          },
+          {
+            "cla": "Lion Clan",
+            "tipo": "Rivalidade",
+            "descricao_pt": "Uma rivalidade milenar nascida de duelos históricos que se repete constantemente nas discussões da corte imperial."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Um cortesão da família Doji descobre uma trama secreta nas negociações de inverno que exige extrema sutileza política para ser revelada sem causar desonra.",
+          "Um guerreiro da família Kakita é desafiado a defender o prestígio artístico do clã através de um duelo de iaijutsu contra um mestre tradicionalista.",
+          "Um shugenja da família Asahina deseja criar um tsangusuri pacífico, mas precisa cooperar com contrabandistas rônins para reaver os ingredientes necessários."
+        ],
+        "source_book": "The Great Clans"
+      },
+      {
+        "cla": "Dragon Clan",
+        "resumo_pt": "Um clã místico e isolado no norte, cujos membros buscam o autoconhecimento e a harmonia espiritual. Eles agem de forma enigmática para o restante do império, focando-se na iluminação individual. Seus guerreiros e monges raramente interferem nas disputas políticas tradicionais.",
+        "valores_pt": "Individualismo ético, busca pela verdade factual, sabedoria através da introspecção profunda e desapego material.",
+        "aparencia_pt": "Uso de trajes verdes e dourados, cabeças raspadas ou coques simples, além das famosas tatuagens místicas dos guerreiros do templo.",
+        "papel_pt": "Observação imparcial das transformações do império, agindo como guardiões silenciosos do equilíbrio espiritual.",
+        "relacoes": [
+          {
+            "cla": "Scorpion Clan",
+            "tipo": "Tensão",
+            "descricao_pt": "Os métodos lógicos de investigação do Clã do Dragão entram em constante conflito com as mentiras articuladas pelo Clã do Escorpião."
+          },
+          {
+            "cla": "Phoenix Clan",
+            "tipo": "Tensão",
+            "descricao_pt": "Embora compartilhem caminhos de elevação espiritual, a deserção da família Agasha criou uma ferida histórica entre as lideranças."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Um monge da família Togashi precisa decifrar o surgimento espontâneo de uma tatuagem misteriosa em seu próprio corpo antes de ser consumido por visões intensas.",
+          "Um investigador da família Kitsuki tenta decifrar um assassinato na corte onde a palavra oficial de um samurai contradiz todas as evidências físicas encontradas.",
+          "Um combatente da família Mirumoto decide provar o valor de sua técnica Niten contra as críticas de puristas do iaijutsu que consideram seu estilo pouco honrado."
+        ],
+        "source_book": "The Great Clans"
+      },
+      {
+        "cla": "Lion Clan",
+        "resumo_pt": "A lendária força militar do império, dedicada inteiramente à proteção do trono e das escrituras clássicas. Eles são samurais austeros que enxergam a si mesmos primeiramente como soldados. Sua cultura é centrada na guerra, na reverência aos ancestrais e no dever absoluto ao trono imperial.",
+        "valores_pt": "Fidelidade absoluta ao imperador, respeito irredutível aos ancestrais, disciplina marcial rigorosa e obediência à hierarquia tradicional.",
+        "aparencia_pt": "Armaduras de cores terrosas e douradas com ornamentos heráldicos imponentes, além de expressões faciais severas e postura rígida.",
+        "papel_pt": "Exército principal do império, planejamento estratégico e preservação da história das guerras imperiais.",
+        "relacoes": [
+          {
+            "cla": "Crane Clan",
+            "tipo": "Rivalidade",
+            "descricao_pt": "Disputas constantes por territórios férteis e poder político geram atritos frequentes que testam o limite dos acordos de paz."
+          },
+          {
+            "cla": "Unicorn Clan",
+            "tipo": "Desconfiança",
+            "descricao_pt": "Enxergam os hábitos e táticas importadas do Clã do Unicórnio como uma invasão bárbara e desrespeitosa às tradições de Rokugan."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Um jovem guerreiro da família Matsu busca um combate de alto risco para se provar digno das lendas gravadas na linhagem de seus antepassados mais heroicos.",
+          "Um historiador da família Ikoma encontra um documento esquecido que questiona a glória de uma vitória militar clássica do clã, criando um impasse moral.",
+          "Um shugenja da família Kitsu recebe um aviso sombrio dos mortos sobre uma ameaça que exige uma ação imediata de seu exército."
+        ],
+        "source_book": "The Great Clans"
+      },
+      {
+        "cla": "Mantis Clan",
+        "resumo_pt": "Um clã nascido da união de antigos clãs menores que ascendeu ao topo através de poder mercantil e excelência náutica. Seus membros são conhecidos por sua independência feroz e atitude prática perante as regras imperiais. Eles dominam o comércio marítimo e as rotas costeiras de Rokugan.",
+        "valores_pt": "Ambição pessoal, sobrevivência através da adaptabilidade, orgulho de sua herança naval e pragmatismo econômico.",
+        "aparencia_pt": "Roupas verdes e douradas desenhadas para o trabalho marítimo rápido, pele curtida pelo vento do mar e uso de armas incomuns.",
+        "papel_pt": "Controle das frotas navais mercantes, defesa das águas imperiais contra pirataria e exploração ultramarina.",
+        "relacoes": [
+          {
+            "cla": "Crane Clan",
+            "tipo": "Competição",
+            "descricao_pt": "A rivalidade pelo controle de rotas de importação e portos costeiros mantém o relacionamento em constante conflito comercial."
+          },
+          {
+            "cla": "Phoenix Clan",
+            "tipo": "Neutro",
+            "descricao_pt": "Embora colaborem no estudo místico das tempestades, as ações impetuosas do Clã do Mantis causam descontentamento com as práticas pacifistas do Clã da Fênix."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Um marinheiro da família Yoritomo precisa ocultar mercadorias valiosas proibidas enquanto navega por uma zona costeira vigiada pela patrulha do império.",
+          "Um caçador de recompensas da família Tsuruchi rastreia um criminoso influente que buscou asilo político dentro de um palácio de outro clã.",
+          "Uma shugenja da família Moshi enfrenta uma proposta de casamento arranjada para garantir concessões de pesca, ameaçando seu papel de liderança matriarcal."
+        ],
+        "source_book": "The Great Clans"
+      },
+      {
+        "cla": "Phoenix Clan",
+        "resumo_pt": "O farol espiritual de Rokugan, conhecido por seus Shugenja excepcionais e sua dedicação sincera à paz. Eles valorizam a santidade da vida e tentam resolver todas as disputas através da harmonia diplomática. São os eternos guardiões das escrituras sagradas e da pureza mágica do império.",
+        "valores_pt": "Pacifismo radical, busca pelo equilíbrio cósmico e elemental, preservação das escrituras religiosas e autossacrifício benfeitor.",
+        "aparencia_pt": "Mantos elegantes e fluidos em tons de laranja, vermelho vivo e amarelo, frequentemente carregando pergaminhos sagrados e incensários.",
+        "papel_pt": "Aconselhamento espiritual do império e vigilância contínua contra heresias espirituais e seitas corrompidas.",
+        "relacoes": [
+          {
+            "cla": "Dragon Clan",
+            "tipo": "Neutro",
+            "descricao_pt": "Respeitam mútua sabedoria mística, embora a antiga transição da família Agasha continue a provocar tensões entre seus clérigos."
+          },
+          {
+            "cla": "Scorpion Clan",
+            "tipo": "Rivalidade",
+            "descricao_pt": "Desprezam o cinismo e a desonestidade do escorpião, mas ocasionalmente unem forças no combate oculto contra perigos e seitas perigosas."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Um shugenja da família Isawa descobre um ritual capaz de purificar uma grande heresia, mas a execução exige o sacrifício de suas próprias memórias rituais.",
+          "Um defensor da família Shiba assume a guarda de um monge determinado a realizar um retiro em uma província perigosa do Clã do Leão.",
+          "Um pesquisador da família Asako descobre uma pista antiga de um santuário perdido que reabre discussões históricas complexas sobre segredos guardados há séculos."
+        ],
+        "source_book": "The Great Clans"
+      },
+      {
+        "cla": "Scorpion Clan",
+        "resumo_pt": "Os executores do dever ingrato do império, fazendo aquilo que outros samurais rejeitam em nome da honra. Eles mantêm os segredos da corte e eliminam ameaças internas de forma furtiva. Suas famosas máscaras servem como um lembrete de que todas as convenções sociais são teatrais.",
+        "valores_pt": "Lealdade absoluta aos deveres do clã, sacrifício da própria reputação, astúcia estratégica e pragmatismo amoral.",
+        "aparencia_pt": "Uso constante de máscaras ou véus faciais elaborados, combinando vestes de cores preto e vermelho carmesim profundo.",
+        "papel_pt": "Segurança interna contra traições ao império, inteligência estratégica e controle das intrigas políticas.",
+        "relacoes": [
+          {
+            "cla": "Dragon Clan",
+            "tipo": "Tensão",
+            "descricao_pt": "Os cortesãos do Clã do Dragão insistem em verdades que ameaçam as operações secretas e as alianças de cortesia do escorpião."
+          },
+          {
+            "cla": "Lion Clan",
+            "tipo": "Rivalidade",
+            "descricao_pt": "Consideram o idealismo militar do leão uma debilidade perigosa que precisa ser controlada para evitar desastres imperiais maiores."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Um agente da família Shosuro recebe a missão de assumir uma falsa identidade na corte inimiga e influenciar decisões sem que suas reações quebrem o disfarce.",
+          "Um cortesão da família Bayushi planeja chantagear um herói virtuoso para assegurar segredos militares vitais para a sobrevivência do clã.",
+          "Um shugenja da família Yogo percebe indícios de que sua herança amaldiçoada se manifestará, colocando em risco a vida de seu melhor aliado de infância."
+        ],
+        "source_book": "The Great Clans"
+      },
+      {
+        "cla": "Unicorn Clan",
+        "resumo_pt": "Os cavaleiros que passaram séculos explorando o mundo exterior, retornando com magias raras e táticas revolucionárias. Eles trazem um espírito de compaixão e liberdade que quebra os moldes rígidos de Rokugan. Apesar de serem vistos com desconfiança por seus costumes estrangeiros, são aliados formidáveis.",
+        "valores_pt": "Liberdade pessoal, compaixão ativa pelos camponeses, pragmatismo no campo de batalha, honestidade direta e o amor pelos cavalos.",
+        "aparencia_pt": "Vestimentas combinando roxo e branco com couro e peles, sapatos projetados para montaria constante e selas inovadoras.",
+        "papel_pt": "Exploração de novas terras, comércio internacional e patrulhamento de fronteiras montadas.",
+        "relacoes": [
+          {
+            "cla": "Lion Clan",
+            "tipo": "Tensão",
+            "descricao_pt": "Disputas territoriais recorrentes no norte mantêm os guerreiros de ambos os exércitos em permanente prontidão de batalha."
+          },
+          {
+            "cla": "Crab Clan",
+            "tipo": "Aliança",
+            "descricao_pt": "Uma amizade duradoura nascida do apoio estratégico mútuo contra as forças do mal e na troca de táticas de patrulha."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Um shugenja da família Iuchi tenta traduzir as técnicas estrangeiras de meishodo para acalmar a desconfiança dos clãs tradicionais imperiais.",
+          "Uma guerreira da família Utaku busca investigar o desaparecimento de um espécime raro de montaria imperial antes que as tensões diplomáticas estourem.",
+          "Um embaixador da família Ide precisa guiar uma delegação estrangeira através de províncias controladas por samurais impiedosos do Clã do Leão."
+        ],
+        "source_book": "The Great Clans"
+      },
+      {
+        "cla": "Spider Clan",
+        "resumo_pt": "Um clã sombrio e herético fundado por Daigotsu na periferia de Rokugan, composto por samurais corrompidos, cultistas e criaturas do mal. Eles operam através de infiltração secreta na sociedade imperial, usando a filosofia do Shourido e se passando por uma força de proteção aos oprimidos para espalhar sua influência.",
+        "valores_pt": "Busca pelo poder individual através do código obscuro Shourido, sobrevivência do mais forte, sigilo absoluto e veneração secreta às forças do mal.",
+        "aparencia_pt": "Tons escuros de preto e roxo escuro, portando heráldicas ocultas sob mantos longos para esconder sinais físicos de impureza.",
+        "papel_pt": "Nenhum papel oficial por ser uma organização proscrita, agindo como infiltrados subversivos na sociedade tradicional.",
+        "relacoes": [
+          {
+            "cla": "All Clans",
+            "tipo": "Infiltração",
+            "descricao_pt": "Eles operam à margem das cortes oficiais, manipulando desavenças internas para enfraquecer todos os clãs tradicionais de Rokugan."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Um infiltrado da família Daigotsu precisa assegurar sua reputação como herói rônin local sabendo que sua herança de sangue pode ser revelada a qualquer momento.",
+          "Um necromante da família Chuda busca asilo em um mosteiro tradicional para roubar textos sagrados enquanto esconde suas práticas rituais de sangue.",
+          "Um guerreiro contaminado tenta subverter a guarda de uma província menor do Clã do Grou para facilitar uma invasão planejada por sua liderança secreta."
+        ],
+        "source_book": "The Great Clans"
+      }
+    ]
+  }
+}

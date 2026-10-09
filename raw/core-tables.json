@@ -1,0 +1,148 @@
+{
+  "core_tables": {
+    "aneis_traits": [
+      {
+        "anel": "Air",
+        "traits": [
+          "Reflexes",
+          "Awareness"
+        ]
+      },
+      {
+        "anel": "Earth",
+        "traits": [
+          "Stamina",
+          "Willpower"
+        ]
+      },
+      {
+        "anel": "Fire",
+        "traits": [
+          "Agility",
+          "Intelligence"
+        ]
+      },
+      {
+        "anel": "Water",
+        "traits": [
+          "Strength",
+          "Perception"
+        ]
+      },
+      {
+        "anel": "Void",
+        "traits": []
+      }
+    ],
+    "niveis_ferimento": [
+      {
+        "ordem": 1,
+        "nome_en": "Healthy",
+        "nome_pt": "Saudável",
+        "multiplicador_anel_terra": 5.0,
+        "penalidade": 0
+      },
+      {
+        "ordem": 2,
+        "nome_en": "Nicked",
+        "nome_pt": "Escoriado",
+        "multiplicador_anel_terra": 2.0,
+        "penalidade": 3
+      },
+      {
+        "ordem": 3,
+        "nome_en": "Grazed",
+        "nome_pt": "Machucado",
+        "multiplicador_anel_terra": 2.0,
+        "penalidade": 5
+      },
+      {
+        "ordem": 4,
+        "nome_en": "Hurt",
+        "nome_pt": "Ferido",
+        "multiplicador_anel_terra": 2.0,
+        "penalidade": 10
+      },
+      {
+        "ordem": 5,
+        "nome_en": "Injured",
+        "nome_pt": "Gravemente Ferido",
+        "multiplicador_anel_terra": 2.0,
+        "penalidade": 15
+      },
+      {
+        "ordem": 6,
+        "nome_en": "Crippled",
+        "nome_pt": "Incapacitado",
+        "multiplicador_anel_terra": 2.0,
+        "penalidade": 20
+      },
+      {
+        "ordem": 7,
+        "nome_en": "Down",
+        "nome_pt": "Abatido",
+        "multiplicador_anel_terra": 2.0,
+        "penalidade": 40
+      },
+      {
+        "ordem": 8,
+        "nome_en": "Out of Action",
+        "nome_pt": "Inconsciente",
+        "multiplicador_anel_terra": 0.0,
+        "penalidade": 0
+      }
+    ],
+    "ranks_discernimento": [
+      {
+        "rank": 1,
+        "discernimento_minimo": 0,
+        "discernimento_maximo": 149
+      },
+      {
+        "rank": 2,
+        "discernimento_minimo": 150,
+        "discernimento_maximo": 174
+      },
+      {
+        "rank": 3,
+        "discernimento_minimo": 175,
+        "discernimento_maximo": 199
+      },
+      {
+        "rank": 4,
+        "discernimento_minimo": 200,
+        "discernimento_maximo": 224
+      },
+      {
+        "rank": 5,
+        "discernimento_minimo": 225,
+        "discernimento_maximo": 249
+      },
+      {
+        "rank": 6,
+        "discernimento_minimo": 250,
+        "discernimento_maximo": 274
+      },
+      {
+        "rank": 7,
+        "discernimento_minimo": 275,
+        "discernimento_maximo": 299
+      },
+      {
+        "rank": 8,
+        "discernimento_minimo": 300,
+        "discernimento_maximo": 324
+      }
+    ],
+    "custos_evolucao": {
+      "trait_formula_pt": "4 vezes o próximo nível do Atributo",
+      "skill_formula_pt": "Igual ao próximo nível na Perícia (1 Ponto de Experiência para o nível 1)",
+      "void_point_formula_pt": "6 vezes o próximo nível do Anel de Vazio",
+      "emphasis_custo_xp": 2
+    },
+    "formula_iniciativa_pt": "Rolar Reflexos + Nível de Sabedoria, mantendo um número de dados igual a Reflexos (Reflexos / Nível de Sabedoria)",
+    "formula_na_armadura_pt": "(Reflexos x 5) + 5 + modificadores de armadura ou postura",
+    "formula_discernimento_pt": "(Soma de todos os Anéis x 10) + Soma de todos os Níveis de Perícias",
+    "source_book": "Core Rulebook"
+  }
+}

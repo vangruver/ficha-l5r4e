@@ -32,5 +32,38 @@
         "pagina": 204
       }
     ]
+  },
+  "kata_kiho": {
+    "kata_kiho": []
+  },
+  "skills": {
+    "skills": []
+  },
+  "spells": {
+    "spells": []
+  },
+  "advantages_disadvantages": {
+    "advantages": [
+      {
+        "nome": "Sage of the Sword and Fan",
+        "custo_pontos": 7,
+        "texto_pt": "Esta Vantagem pode ser adquirida (com a permissão do GM) após ler uma cópia original do Book of Sun Tao ou a cópia original de The Subtlety of the Court. Ler esta obra permite ao personagem perceber que a guerra e a política são fundamentalmente a mesma coisa. Você ganha os benefícios de Maestria de ambas as perícias Battle e Courtier, com base em qual das duas perícias você possui em um Rank mais elevado. Um número de vezes por dia igual ao seu Rank de Discernimento, você pode usar o Rank mais elevado nessas perícias ao realizar uma Rolagem de Perícia Disputada com qualquer uma delas. Esta Vantagem custa 1 ponto a menos para Cortesãos.",
+        "source_book": "Sword and Fan",
+        "pagina": 203
+      },
+      {
+        "nome": "Strategist",
+        "custo_pontos": 5,
+        "texto_pt": "Você estudou os principais tratados estratégicos, como o Book of Sun Tao e Akodo’s Leadership, e adquiriu uma compreensão instintiva de suas filosofias sobre estratégia na guerra. Você compreende a necessidade de manter o foco no quadro geral, de ver cada batalha como parte de uma campanha maior, e como isso contribuirá para alcançar seus objetivos estratégicos. Se o seu personagem for o comandante de um exército ou um de seus comandantes subordinados seniores (por exemplo, o comandante da Vanguard, ou de uma ala inteira do Main Body), ou fizer parte do estado-maior do comandante, então seu lado recebe um bônus de +2g0 na Rolagem de Battle (Mass Combat)/Percepção feita para determinar quem está Vencendo a cada Turno de Batalha em Massa. Você também recebe um bônus de +1g0 em qualquer outra Rolagem de Perícia de Battle que fizer durante um Turno de Batalha em Massa. Personagens do Clã do Leão podem adquirir esta Vantagem por 4 Pontos.",
+        "source_book": "Sword and Fan",
+        "pagina": 203
+      }
+    ],
+    "disadvantages": []
+  },
+  "equipment": {
+    "weapons": [],
+    "armor": [],
+    "gear": []
   }
 }
