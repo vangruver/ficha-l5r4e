@@ -29,6 +29,25 @@ personagem (`.barra-personagem`, select + 2 botões) e algumas linhas de texto l
 largura da tela (overflow horizontal) — não tem breakpoint pra isso ainda. Não mexi, só registrando;
 avisar o Carlos se for mexer na responsividade mobile depois.
 
+## 2ª conta Gemini (09/out) — dobra a cota diária
+
+Carlos tem uma 2ª conta Google (com Google AI Pro assinado) e perguntou se isso aumenta a cota. Não
+necessariamente — cota da API (free tier) e assinatura do app Gemini/Google AI Pro são produtos
+diferentes; o que aumenta cota de verdade é faturamento ativado no projeto (Carlos decidiu não
+ativar, ver "Bloqueio atual" acima). O que FUNCIONA com certeza: **cada conta Google tem sua própria
+cota gratuita de 20/dia**, independente — por isso uma 2ª conta = +20/dia.
+
+`scripts/extract.py` agora suporta uma 2ª chave: `GEMINI_API_KEY_2` opcional no ambiente. Quando a
+1ª bate RESOURCE_EXHAUSTED, troca pra ela sozinho (reenvia o PDF — o File API prende o arquivo à
+conta que subiu) e continua a extração, sem precisar trocar nada na mão. `GEMINI_API_KEY_2` **já
+está configurada** como variável de usuário no PC do Carlos (`setx`, 09/out) — chave de uma conta
+"carlos" separada, projeto `501724362430`. Formato novo de chave da Google, por sinal: começa com
+`AQ.` em vez do `AIzaSy...` que eu esperava — AI Studio deve ter mudado o formato depois do meu
+corte de conhecimento.
+
+Com as duas contas, a cota de hoje à noite vira **40/dia** em vez de 20 — mais que suficiente pros
+7 requests que faltam (Sword and Fan + core-tables + lore), tudo numa rodada só.
+
 ## Escopo (8 livros)
 
 Core + Book of Air/Earth/Fire/Water/Void + Sword and Fan + The Great Clans (extra, adicionado depois do escopo original).

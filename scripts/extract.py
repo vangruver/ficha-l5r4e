@@ -11,6 +11,9 @@ Categoria vazia nesse livro = lista vazia, não é erro.
 Requer:
     pip install google-genai
     GEMINI_API_KEY no ambiente
+    GEMINI_API_KEY_2 opcional — chave de uma 2ª conta Google. Quando a 1ª
+    bate a cota do dia, troca pra essa sozinho (reenvia o PDF, já que o
+    arquivo subido fica preso à conta que o enviou) em vez de desistir.
 """
 import json
 import os
@@ -32,6 +35,24 @@ MODEL = os.environ.get("GEMINI_API_MODEL", "gemini-2.0-flash")
 def carregar_glossario() -> dict:
     with open(GLOSSARIO_PATH, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def obter_chaves() -> list[str]:
+    chaves = [os.environ["GEMINI_API_KEY"]]
+    extra = os.environ.get("GEMINI_API_KEY_2")
+    if extra:
+        chaves.append(extra)
+    return chaves
+
+
+def subir_arquivo(client, pdf_path: str):
+    arquivo = client.files.upload(file=pdf_path)
+    while arquivo.state.name == "PROCESSING":
+        time.sleep(3)
+        arquivo = client.files.get(name=arquivo.name)
+    if arquivo.state.name != "ACTIVE":
+        raise RuntimeError(f"Upload falhou: {arquivo.state.name}")
+    return arquivo
 
 
 def montar_prompt(categoria: str, source_book: str, glossario: dict) -> str:
@@ -79,15 +100,12 @@ def extrair(pdf_path: str, slug: str, source_book: str | None = None, categorias
         print(f"{slug}: já tem todas as categorias, nada a fazer.")
         return
 
-    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+    chaves = obter_chaves()
+    indice_chave = 0
+    client = genai.Client(api_key=chaves[indice_chave])
 
-    print(f"Subindo {pdf_path} pro Gemini...")
-    arquivo = client.files.upload(file=pdf_path)
-    while arquivo.state.name == "PROCESSING":
-        time.sleep(3)
-        arquivo = client.files.get(name=arquivo.name)
-    if arquivo.state.name != "ACTIVE":
-        raise RuntimeError(f"Upload falhou: {arquivo.state.name}")
+    print(f"Subindo {pdf_path} pro Gemini (conta {indice_chave + 1}/{len(chaves)})...")
+    arquivo = subir_arquivo(client, pdf_path)
 
     for categoria in pendentes:
         response_schema = categorias[categoria]
@@ -112,7 +130,13 @@ def extrair(pdf_path: str, slug: str, source_book: str | None = None, categorias
                 time.sleep(espera)
             except errors.ClientError as e:
                 if "RESOURCE_EXHAUSTED" in str(e):
-                    print(f"    cota do dia esgotada, salvando progresso parcial em {out_path}")
+                    if indice_chave + 1 < len(chaves):
+                        indice_chave += 1
+                        print(f"    cota esgotada na conta {indice_chave}/{len(chaves)}, trocando pra conta {indice_chave + 1}/{len(chaves)}...")
+                        client = genai.Client(api_key=chaves[indice_chave])
+                        arquivo = subir_arquivo(client, pdf_path)
+                        continue
+                    print(f"    cota do dia esgotada em todas as contas, salvando progresso parcial em {out_path}")
                     with open(out_path, "w", encoding="utf-8") as f:
                         json.dump(resultado, f, ensure_ascii=False, indent=2)
                     raise
