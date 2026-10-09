@@ -2,7 +2,13 @@
 
 Ficha modular de L5R 4ª edição (AEG), nos moldes do dnd-sheet/ficha-tormenta20.
 Fase atual: extração de dados dos livros via Gemini (quase terminada) + primeira versão do
-compêndio pesquisável (pronta, rodando com os 7/8 livros já extraídos).
+compêndio pesquisável e da ficha de personagem (prontas, rodando com os 7/8 livros já extraídos).
+
+**Publicado no GitHub em 09/out/2026:** repo público [vangruver/ficha-l5r4e](https://github.com/vangruver/ficha-l5r4e),
+GitHub Pages ativado em <https://vangruver.github.io/ficha-l5r4e/> (mesmo esquema do dnd-sheet).
+`pdfs/` (dois arquivos vieram de fonte pirata) fica de fora via `.gitignore` — nunca sobe. `raw/` e
+`data/raw/` (texto traduzido dos livros) subiram junto a pedido do Carlos, ciente do risco de
+copyright (ver README.md da ficha). Pra atualizar o repo depois de rodar os scripts de novo: `git add -A && git commit -m "..." && git push`.
 
 ## Escopo (8 livros)
 
