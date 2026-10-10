@@ -207,11 +207,26 @@ tema persistindo, busca no Compêndio retornando resultado, navegação entre cl
 excluir personagem. `puppeteer-core` foi instalado só pra esse teste e removido do repositório depois
 — não é dependência do projeto.
 
-**O que falta pra ficha em si:** UI de magias conhecidas/preparadas pra Shugenja (schema do
-personagem já tem o campo `magiasConhecidas`, interface ainda não). Favicon.ico também falta
-(cosmético, 404 inofensivo no console). Rank de Escola continua digitado manualmente (é uma escolha
-de build — quais técnicas de escola você tem — relacionada a Sabedoria mas não idêntica a ela; ver
-"Cálculos automáticos" abaixo pro porquê de não serem a mesma coisa).
+**O que falta pra ficha em si:** só itens pequenos agora — Favicon.ico (cosmético, 404 inofensivo no
+console) e o limite oficial de pontos de Desvantagem (ainda não confirmado contra o Core, ver saldo
+de Vantagens/Desvantagens). Rank de Escola continua digitado manualmente (é uma escolha de build —
+quais técnicas de escola você tem — relacionada a Sabedoria mas não idêntica a ela; ver "Cálculos
+automáticos" abaixo pro porquê de não serem a mesma coisa).
+
+## Magias pra Shugenja (10/out)
+
+Seção nova **"Magias (Shugenja)"**: lista de magias conhecidas (adicionar/remover do compêndio, 92
+magias disponíveis) e rastreador **"Feitiços por Dia"** por anel (Terra/Ar/Fogo/Água/Vazio) — máximo
+de vagas editável com +/-, "usados hoje" que trava no máximo (não deixa passar). O máximo é digitado
+à mão — a fórmula oficial de quantas vagas por dia depende de Afinidade/Deficiência da escola, que a
+extração dos livros ainda não pega (mesma ressalva do campo Afinidade/Deficiência em Identidade).
+
+`personagem.feiticosPorDia` novo em `storage.js` (5 anéis, `max`+`usados` cada), com `normalizar()`
+preenchendo em fichas salvas antes dessa mudança.
+
+**Testado com clique de verdade:** adicionar/remover magia conhecida, não duplica clicando
+"adicionar" de novo com a mesma selecionada, +/- no máximo e nos usados do Feitiços por Dia, usados
+trava no máximo sem passar, tudo persiste depois de F5.
 
 ## Cálculos automáticos (10/out)
 
