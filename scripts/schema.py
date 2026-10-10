@@ -197,7 +197,7 @@ CATEGORIAS = {
 # ---------------------------------------------------------------------------
 # Tabelas universais de regra (não são "opções de personagem" por livro —
 # são as tabelas numéricas que a ficha usa pra calcular tudo: níveis de
-# ferimento, ranks de Discernimento, custos de evolução). Só existem no Core
+# ferimento, ranks de Sabedoria/Insight, custos de evolução). Só existem no Core
 # Rulebook, por isso ficam fora de CATEGORIAS (que o run_all.ps1 roda em
 # todos os livros) e usam um script e um arquivo de saída próprios
 # (scripts/extract_core_tables.py -> raw/core-tables.json).
@@ -232,7 +232,7 @@ CORE_TABLES = {
         },
         "ranks_discernimento": {
             "type": "array",
-            "description": "a tabela de Ranks de Discernimento (Insight Rank) e a faixa de pontos de Discernimento de cada",
+            "description": "a tabela de Ranks de Sabedoria (Insight Rank, termo oficial da ficha é \"Sabedoria\") e a faixa de pontos de cada",
             "items": {
                 "type": "object",
                 "properties": {
@@ -254,7 +254,7 @@ CORE_TABLES = {
         },
         "formula_iniciativa_pt": {"type": "string", "description": "como a Iniciativa é calculada e rolada"},
         "formula_na_armadura_pt": {"type": "string", "description": "como o NA (Número de Armadura) base é calculado antes da armadura"},
-        "formula_discernimento_pt": {"type": "string", "description": "como o total de Discernimento (Insight) é calculado"},
+        "formula_discernimento_pt": {"type": "string", "description": "como o total de Sabedoria (Insight) é calculado"},
         "source_book": {"type": "string"},
     }
 }

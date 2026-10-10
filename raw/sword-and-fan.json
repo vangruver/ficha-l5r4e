@@ -15,7 +15,7 @@
           {
             "rank": 1,
             "nome": "Social Butterfly",
-            "texto_pt": "Um Child of Doji faz amigos como quem respira e é capaz de invocá-los com a mera menção de um nome. Ao fazer qualquer teste Contestado de Perícia Social, você recebe um bônus de +Xk0, onde X é igual ao número de Allies que você possui nesta corte com uma Devotion de 2 ou maior (este bônus não pode exceder o seu Rank de Discernimento em dados). Além disso, se tiver pelo menos três desses Allies nesta corte, você pode gastar (perder) um desses Allies para ganhar a Vantagem Darling of the Court pelo restante desta estação (primavera, inverno, etc.)."
+            "texto_pt": "Um Child of Doji faz amigos como quem respira e é capaz de invocá-los com a mera menção de um nome. Ao fazer qualquer teste Contestado de Perícia Social, você recebe um bônus de +Xk0, onde X é igual ao número de Allies que você possui nesta corte com uma Devotion de 2 ou maior (este bônus não pode exceder sua Sabedoria em dados). Além disso, se tiver pelo menos três desses Allies nesta corte, você pode gastar (perder) um desses Allies para ganhar a Vantagem Darling of the Court pelo restante desta estação (primavera, inverno, etc.)."
           },
           {
             "rank": 2,
@@ -47,7 +47,7 @@
       {
         "nome": "Sage of the Sword and Fan",
         "custo_pontos": 7,
-        "texto_pt": "Esta Vantagem pode ser adquirida (com a permissão do GM) após ler uma cópia original do Book of Sun Tao ou a cópia original de The Subtlety of the Court. Ler esta obra permite ao personagem perceber que a guerra e a política são fundamentalmente a mesma coisa. Você ganha os benefícios de Maestria de ambas as perícias Battle e Courtier, com base em qual das duas perícias você possui em um Rank mais elevado. Um número de vezes por dia igual ao seu Rank de Discernimento, você pode usar o Rank mais elevado nessas perícias ao realizar uma Rolagem de Perícia Disputada com qualquer uma delas. Esta Vantagem custa 1 ponto a menos para Cortesãos.",
+        "texto_pt": "Esta Vantagem pode ser adquirida (com a permissão do GM) após ler uma cópia original do Book of Sun Tao ou a cópia original de The Subtlety of the Court. Ler esta obra permite ao personagem perceber que a guerra e a política são fundamentalmente a mesma coisa. Você ganha os benefícios de Maestria de ambas as perícias Battle e Courtier, com base em qual das duas perícias você possui em um Rank mais elevado. Um número de vezes por dia igual à sua Sabedoria, você pode usar o Rank mais elevado nessas perícias ao realizar uma Rolagem de Perícia Disputada com qualquer uma delas. Esta Vantagem custa 1 ponto a menos para Cortesãos.",
         "source_book": "Sword and Fan",
         "pagina": 203
       },

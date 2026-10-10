@@ -1,5 +1,5 @@
 {
-  "formula_iniciativa_pt": "Rolar Reflexos + Rank de Discernimento, mantendo um número de dados igual a Reflexos (Reflexos / Rank de Discernimento)",
+  "formula_iniciativa_pt": "Rolar Reflexos + Nível de Sabedoria, mantendo um número de dados igual a Reflexos (Reflexos / Nível de Sabedoria)",
   "formula_na_armadura_pt": "(Reflexos x 5) + 5 + modificadores de armadura ou postura",
-  "formula_discernimento_pt": "(Soma de todos os Anéis x 10) + Soma de todos os Níveis de Perícias"
+  "formula_sabedoria_pt": "(Soma de todos os Anéis x 10) + Soma de todos os Níveis de Perícias"
 }

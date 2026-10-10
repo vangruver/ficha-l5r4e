@@ -1,0 +1,42 @@
+[
+  {
+    "rank": 1,
+    "sabedoria_minima": 0,
+    "sabedoria_maxima": 149
+  },
+  {
+    "rank": 2,
+    "sabedoria_minima": 150,
+    "sabedoria_maxima": 174
+  },
+  {
+    "rank": 3,
+    "sabedoria_minima": 175,
+    "sabedoria_maxima": 199
+  },
+  {
+    "rank": 4,
+    "sabedoria_minima": 200,
+    "sabedoria_maxima": 224
+  },
+  {
+    "rank": 5,
+    "sabedoria_minima": 225,
+    "sabedoria_maxima": 249
+  },
+  {
+    "rank": 6,
+    "sabedoria_minima": 250,
+    "sabedoria_maxima": 274
+  },
+  {
+    "rank": 7,
+    "sabedoria_minima": 275,
+    "sabedoria_maxima": 299
+  },
+  {
+    "rank": 8,
+    "sabedoria_minima": 300,
+    "sabedoria_maxima": 324
+  }
+]

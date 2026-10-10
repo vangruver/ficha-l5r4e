@@ -189,7 +189,7 @@
         "pre_requisito": "Ring Mastery: Earth 6",
         "anel_ou_trait": "Terra",
         "custo": "N/A",
-        "texto_pt": "Tipo: Kármico. Uma vez ativado, este Kiho dura um número de Rodadas igual ao seu Rank de Discernimento +1. Enquanto este Kiho estiver ativo, toda vez que um atacante fizer um Aumento ao atacar ou realizar outra ação de combate ofensiva contra você (não incluindo feitiços), você ganha Redução igual ao dobro do número de Aumentos feitos. (Este efeito não é ativado por Aumentos Gratuitos.) A Redução é ganha no momento em que os Aumentos são declarados; o ataque inimigo não precisa ser bem-sucedido. Esses aumentos na Redução são cumulativos, mas a Redução total ganha não pode exceder sua Terra x 5. A Redução dura até que o Kiho seja desativado ou o confronto termine, o que ocorrer primeiro.",
+        "texto_pt": "Tipo: Kármico. Uma vez ativado, este Kiho dura um número de Rodadas igual à sua Sabedoria +1. Enquanto este Kiho estiver ativo, toda vez que um atacante fizer um Aumento ao atacar ou realizar outra ação de combate ofensiva contra você (não incluindo feitiços), você ganha Redução igual ao dobro do número de Aumentos feitos. (Este efeito não é ativado por Aumentos Gratuitos.) A Redução é ganha no momento em que os Aumentos são declarados; o ataque inimigo não precisa ser bem-sucedido. Esses aumentos na Redução são cumulativos, mas a Redução total ganha não pode exceder sua Terra x 5. A Redução dura até que o Kiho seja desativado ou o confronto termine, o que ocorrer primeiro.",
         "source_book": "Book of Earth",
         "pagina": 207
       },
