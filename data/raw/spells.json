@@ -704,6 +704,17 @@
     "pagina": 283
   },
   {
+    "id": "dart-of-void--secrets-of-the-empire",
+    "nome": "Dart of Void",
+    "anel": "Vazio",
+    "mastery_level": 4,
+    "area": "One target creature",
+    "duracao": "Instantaneous",
+    "texto_pt": "O feitiço Dart of Void foi criado pelo shugenja Ekuro em sua famosa batalha. O feitiço foi preservado como um segredo da Order of Five Weapons, mas acredita-se que o Clã da Fênix também possa ter o feitiço em suas bibliotecas, e é possível que outras famílias de shugenja também tenham cópias. Conjurar este feitiço exige gastar um Ponto de Vazio; o feitiço convoca um projétil de puro Vazio que voa e atinge infalivelmente qualquer alvo dentro do alcance. O Dart causa dano com uma Rolação de Dano (DR) igual ao seu Vazio. Este dano ignora Invulnerabilidade e Redução de todas as fontes. Aumentos (Raises): Alcance (+100' por Aumento), Alvos (+1 alvo a cada dois Aumentos, máximo de alvos igual ao seu Anel de Vazio).",
+    "source_book": "Secrets of the Empire",
+    "pagina": 236
+  },
+  {
     "id": "commune-with-the-void--book-of-void",
     "nome": "Commune with the Void",
     "anel": "Vazio",

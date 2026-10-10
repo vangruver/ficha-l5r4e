@@ -58,8 +58,8 @@ personagem de quem já joga.
 
 ## Fonte dos dados
 
-Os 8 livros-fonte (Core Rulebook, Book of Air/Earth/Fire/Water/Void, Sword and Fan, The Great Clans)
-foram extraídos via **Gemini File API**: o PDF de cada livro é enviado pro Gemini, que devolve os
+Os 9 livros-fonte (Core Rulebook, Book of Air/Earth/Fire/Water/Void, Sword and Fan, The Great Clans,
+Secrets of the Empire) foram extraídos via **Gemini File API**: o PDF de cada livro é enviado pro Gemini, que devolve os
 dados estruturados por categoria (`scripts/schema.py`), com o número de página de cada item. Os PDFs
 em si **não** estão neste repositório (ver `.gitignore` — alguns vieram de fontes piratas e nunca
 seriam publicados). O pipeline completo (extração, retomada incremental, junção dos livros num

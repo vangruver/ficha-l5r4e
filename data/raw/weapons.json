@@ -108,6 +108,15 @@
     "pagina": 138
   },
   {
+    "id": "sling--secrets-of-the-empire",
+    "nome": "Sling",
+    "dano": "1k2",
+    "preco": "1 zi",
+    "raridade": "Comum",
+    "source_book": "Secrets of the Empire",
+    "pagina": 239
+  },
+  {
     "id": "dragon-beard-hook-longxu-hook--book-of-water",
     "nome": "Dragon Beard Hook (Longxu Hook)",
     "dano": "1k2",

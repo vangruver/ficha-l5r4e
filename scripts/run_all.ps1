@@ -8,7 +8,8 @@ $livros = @(
     @{ pdf = "../pdfs/book-of-earth.pdf"; slug = "earth"; nome = "Book of Earth" },
     @{ pdf = "../pdfs/book-of-void.pdf"; slug = "void"; nome = "Book of Void" },
     @{ pdf = "../pdfs/sword-and-fan.pdf"; slug = "sword-and-fan"; nome = "Sword and Fan" },
-    @{ pdf = "../pdfs/great-clans.pdf"; slug = "great-clans"; nome = "The Great Clans" }
+    @{ pdf = "../pdfs/great-clans.pdf"; slug = "great-clans"; nome = "The Great Clans" },
+    @{ pdf = "../pdfs/secrets-of-the-empire.pdf"; slug = "secrets-of-the-empire"; nome = "Secrets of the Empire" }
 )
 
 foreach ($livro in $livros) {

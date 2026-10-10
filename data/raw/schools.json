@@ -857,6 +857,189 @@
     "pagina": 282
   },
   {
+    "id": "the-legion-of-two-thousand--secrets-of-the-empire",
+    "nome": "The Legion of Two Thousand",
+    "cla": "Ronin",
+    "familia": "None",
+    "tipo": "bushi",
+    "trait_inicial_bonus": "None",
+    "skills_de_escola": [],
+    "honra_inicial": 5.0,
+    "status_inicial": 0.0,
+    "equipamento_inicial": [],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "Stand as Two Thousand",
+        "texto_pt": "A Legiao ganhou fama em seus primeiros anos por proteger cantos remotos do Imperio e por ajudar a defender a Muralha Kaiu. Voce ganha um bonus de +1k0 em seus testes da Pericia Defense. Quando voce estiver lutando em defesa dos inocentes ou do povo comum, este bonus passa a ser +1k1."
+      },
+      {
+        "rank": 2,
+        "nome": "Kuronada's Honor",
+        "texto_pt": "Enquanto voce tiver uma Honra de 5.0 ou superior, ganha um bonus de +2k1 sempre que gastar um Ponto de Vazio em uma rolagem com uma Pericia de Escola, em vez do +1k1 normal. Esta habilidade nao pode ser usada na Postura do Centro."
+      },
+      {
+        "rank": 3,
+        "nome": "Tamago's Expertise",
+        "texto_pt": "A ascensao do brilhante tatico Tamago a lideranca da Legiao dos Dois Mil leva a Legiao a desenvolver um treinamento mais avancado. Voce pode realizar ataques corpo a corpo com armas de Samurai como Acoes Simples."
+      }
+    ],
+    "source_book": "Secrets of the Empire",
+    "pagina": 234
+  },
+  {
+    "id": "the-disciples-of-sun-tao--secrets-of-the-empire",
+    "nome": "The Disciples of Sun Tao",
+    "cla": "Ronin",
+    "familia": "None",
+    "tipo": "bushi",
+    "trait_inicial_bonus": "None",
+    "skills_de_escola": [],
+    "honra_inicial": 0.0,
+    "status_inicial": 0.0,
+    "equipamento_inicial": [],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "Terumoto's Lesson",
+        "texto_pt": "O principal discipulo de Sun Tao foi um guerreiro habilidoso que abracou a doutrina de seu mestre de estudar a batalha em todas as suas formas e dominar todos os tipos de guerra. Escolha quaisquer tres Pericias de Arma; voce ganha um bonus de +1k0 em suas rolagens com essas Pericias."
+      },
+      {
+        "rank": 2,
+        "nome": "Sun Tao's Legacy",
+        "texto_pt": "Todos os membros dos Discipulos estudam o Livro de Sun Tao, que os une como um grupo. Voce ganha um bonus de +1k1 em seus testes da Pericia Battle ao rolar para determinar quem esta ganhando uma batalha, e um bonus de +1k0 ao rolar para determinar seu status na Tabela de Batalha em Massa."
+      },
+      {
+        "rank": 3,
+        "nome": "Aikumo's Perfection",
+        "texto_pt": "O segundo lider dos Discipulos aperfeicoou seus ensinamentos e sua Tecnica e o apice do treinamento do grupo. Voce pode realizar ataques com armas corpo a corpo como uma Acao Simples."
+      }
+    ],
+    "source_book": "Secrets of the Empire",
+    "pagina": 235
+  },
+  {
+    "id": "generic-ronin--secrets-of-the-empire",
+    "nome": "Generic Ronin",
+    "cla": "Ronin",
+    "familia": "None",
+    "tipo": "bushi",
+    "trait_inicial_bonus": "+1 Agility",
+    "skills_de_escola": [
+      "Athletics",
+      "Defense",
+      "Hunting",
+      "Intimidation",
+      "Kenjutsu",
+      "Knives",
+      "Any one Weapon Skill"
+    ],
+    "honra_inicial": 4.5,
+    "status_inicial": 0.0,
+    "equipamento_inicial": [
+      "Light Armor",
+      "Sturdy Clothing",
+      "Daisho",
+      "Any 1 weapon",
+      "Traveling Pack",
+      "1 koku"
+    ],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "Strength of My Father",
+        "texto_pt": "Os ronin sao conhecidos por sua resiliencia diante da adversidade. Quando voce estiver sofrendo penalidades de TN devido a Feridas, pode fazer um Teste de Terra (ignorando penalidades de TN de Ferida) durante a Etapa de Reacoes de cada Rodada, com um TN igual a 5 + 5x o numero de Niveis de Ferida que estiver sofrendo no momento. Se o teste for bem-sucedido, voce pode ignorar os efeitos das suas penalidades de Ferida ate a proxima Etapa de Reacoes. Esta Tecnica nao funciona assim que voce atinge os Niveis de Ferida Caido (Down) ou Inconsciente (Out)."
+      },
+      {
+        "rank": 2,
+        "nome": "Never Yield",
+        "texto_pt": "Os ronin estao acostumados a ser os desfavorecidos. Quando voce estiver em menor numero em uma escaramuca, ganha um bonus no seu TN de Armadura igual a quantidade pela qual o numero de inimigos excede o numero dos seus aliados. Este bonus nao pode exceder o total do seu Rank de Escola x2."
+      },
+      {
+        "rank": 3,
+        "nome": "Bite of the Wolf",
+        "texto_pt": "Ronin veteranos sao lutadores rapidos e letais. Voce pode atacar como uma Acao Simples ao empunhar uma katana ou uma faca."
+      },
+      {
+        "rank": 4,
+        "nome": "Twice-Cutting Spirit",
+        "texto_pt": "A medida que os ronin se tornam verdadeiramente experientes, tornam-se ainda mais letais com muitas armas diferentes. Escolha uma arma corpo a corpo adicional: voce pode atacar com essa arma como uma Acao Simples. Uma vez por escaramuca, voce pode gastar um Ponto de Vazio em uma rolagem de dano, independentemente de qual arma esteja usando."
+      },
+      {
+        "rank": 5,
+        "nome": "Valor of the Wolf",
+        "texto_pt": "Aqueles ronin que sobrevivem o suficiente para aperfeicoar suas habilidades tornam-se lendas do campo de batalha, capazes de suportar todo tipo de adversidade e prevalecer apesar de ferimentos graves. Escolha outra arma corpo a corpo: voce pode atacar com essa arma como uma Acao Simples. Alem disso, voce pode gastar um Ponto de Vazio para ativar sua Tecnica de Rank 1 sem exigir um Teste do Traco Vontade; quando voce a ativa desta forma, ela dura um numero de Rodadas igual ao seu Anel de Fogo."
+      }
+    ],
+    "source_book": "Secrets of the Empire",
+    "pagina": 237
+  },
+  {
+    "id": "fuzake-shugenja-school--secrets-of-the-empire",
+    "nome": "Fuzake Shugenja School",
+    "cla": "Clãs Menores",
+    "familia": "Fuzake",
+    "tipo": "shugenja",
+    "trait_inicial_bonus": "None",
+    "skills_de_escola": [
+      "Calligraphy",
+      "Defense",
+      "Etiquette",
+      "Lore: Theology",
+      "Medicine",
+      "Spellcraft",
+      "Any one High or Merchant Skill"
+    ],
+    "honra_inicial": 5.5,
+    "status_inicial": 1.0,
+    "equipamento_inicial": [
+      "Robes",
+      "Wakizashi",
+      "Knife",
+      "Scroll Satchel",
+      "Traveling Pack",
+      "2 Koku"
+    ],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "The Sideways Path",
+        "texto_pt": "O shugenja que veio a ser conhecido como Fuzake Garou foi originalmente treinado pelos Kuni, mas passou muito de sua vida tentando proteger e curar aqueles ao seu redor. Ao conjurar uma magia que cura Feridas ou cura veneno ou doença (como Path to Inner Peace ou Peace of the Kami), voce pode optar por tambem gastar um ou mais slots de magia de Terra; cada slot gasto concede um Aumento Gratuito no seu Teste de Conjuraçao de Magia."
+      }
+    ],
+    "source_book": "Secrets of the Empire",
+    "pagina": 239
+  },
+  {
+    "id": "order-of-peaceful-repose--secrets-of-the-empire",
+    "nome": "Order of Peaceful Repose",
+    "cla": "Irmandade de Shinsei",
+    "familia": "None",
+    "tipo": "monk",
+    "trait_inicial_bonus": "+1 Awareness",
+    "skills_de_escola": [
+      "Athletics",
+      "Calligraphy",
+      "Jiujutsu",
+      "Lore: Ghosts",
+      "Lore: Theology (Emma-O)",
+      "Meditation",
+      "Any one Skill"
+    ],
+    "honra_inicial": 4.5,
+    "status_inicial": 1.0,
+    "equipamento_inicial": [],
+    "tecnica_por_rank": [
+      {
+        "rank": 1,
+        "nome": "Emma-O's Insight",
+        "texto_pt": "Voce pode detectar a presenca de fantasmas (yorei ou goryo, mas nao gaki) gastando 10 minutos em meditacao e fazendo um teste de Meditation / Awareness com TN 25. Voce pode fazer isso um numero de vezes por dia igual ao seu Rank de Vazio. Voce pode declarar Aumentos neste teste para aprender as seguintes informacoes adicionais (uma informacao por Aumento): a identidade do fantasma, sua maneira de morte e sua conexao com o mundo mortal. Por tres Aumentos, voce pode obter percepcao especifica sobre o que fara o fantasma descansar em paz."
+      }
+    ],
+    "source_book": "Secrets of the Empire",
+    "pagina": 243
+  },
+  {
     "id": "children-of-doji--sword-and-fan",
     "nome": "Children of Doji",
     "cla": "Clã do Grou",

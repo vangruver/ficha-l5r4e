@@ -2,11 +2,14 @@
 
 Ficha modular de L5R 4ª edição (AEG), nos moldes do dnd-sheet/ficha-tormenta20.
 
-**Extração 100% completa desde 09/out/2026** — os 8 livros, as tabelas universais do Core e a wiki
-de 9 clãs. **Ficha redesenhada em 09/out pra bater com os campos da ficha oficial** (ver seção
-"Redesenho contra a ficha oficial" abaixo). Fase atual: ligar os cálculos automáticos (Sabedoria,
-NA, Iniciativa, penalidade de ferimento) em cima dos dados que já existem (ver
-"O que falta pra ficha em si", perto do fim deste arquivo).
+**9 livros extraídos (10/out/2026)** — os 8 originais + **Secrets of the Empire**, adicionado pelo
+Carlos depois (PDF grande, 70MB, ele baixou manualmente do Drive pra `pdfs/` porque não dá pra puxar
+arquivo desse tamanho via Drive MCP sem estourar contexto). Extraiu de uma vez só, sem bater cota —
+as tabelas universais do Core e a wiki de 9 clãs continuam completas de antes. **Ficha redesenhada em
+09/out pra bater com os campos da ficha oficial** (ver seção "Redesenho contra a ficha oficial"
+abaixo). Fase atual: ligar os cálculos automáticos (Sabedoria, NA, Iniciativa, penalidade de
+ferimento) em cima dos dados que já existem (ver "O que falta pra ficha em si", perto do fim deste
+arquivo).
 
 **Publicado no GitHub em 09/out/2026:** repo público [vangruver/ficha-l5r4e](https://github.com/vangruver/ficha-l5r4e),
 GitHub Pages ativado em <https://vangruver.github.io/ficha-l5r4e/> (mesmo esquema do dnd-sheet).
@@ -54,11 +57,14 @@ corte de conhecimento.
 e `extract_lore.py` também rodaram sem problema. **Extração 100% completa em 09/out/2026, no mesmo dia,
 sem esperar reset nenhum.**
 
-## Escopo (8 livros)
+## Escopo (9 livros)
 
-Core + Book of Air/Earth/Fire/Water/Void + Sword and Fan + The Great Clans (extra, adicionado depois do escopo original).
+Core + Book of Air/Earth/Fire/Water/Void + Sword and Fan + The Great Clans + Secrets of the Empire
+(os 2 últimos adicionados depois do escopo original, a pedido do Carlos).
 
-PDFs em `pdfs/`, vieram do Drive do Carlos (pasta "Lenda dos 5 aneis").
+PDFs em `pdfs/`, vieram do Drive do Carlos (pasta "Lenda dos 5 aneis"). Secrets of the Empire é
+grande (70MB) — não deu pra baixar via Drive MCP (base64 estouraria o contexto), o Carlos baixou
+manual e colocou em `pdfs/secrets-of-the-empire.pdf`.
 
 ## Pipeline
 
@@ -87,16 +93,14 @@ caso, e então `git add -A && git commit -m "..." && git push`.
   **exatamente** com o que eu já tinha escrito à mão em `data/core/aneis.json`/`traits.json`
   (Terra: Stamina/Willpower, Ar: Reflexes/Awareness, Água: Strength/Perception, Fogo:
   Agility/Intelligence, Vazio: nenhum). Confirmado, não precisa mudar nada.
-- **Correção manual em `data/core/formulas.json`**: a fórmula de Iniciativa saiu do Gemini como
-  "Reflexos + **Nível de Sabedoria**" — termo que não existe em L5R (parece ter confundido com
-  "Wisdom" de outro sistema, ou é só uma tradução inconsistente de "Insight Rank"). Corrigi pra
-  "Reflexos + **Rank de Discernimento**" (nosso termo canônico do glossário) à mão — é só o nome do
-  termo que estava errado, a mecânica em si (Reflexos + Insight Rank, mantendo Reflexos) bate com o
-  que eu já sabia do sistema.
-- **`data/core/ranks-discernimento.json` só vai até o Rank 8** (0–324 pontos de Discernimento) — o
-  livro pode ter ranks mais altos que a extração não pegou (não confirmei se é porque a tabela do
-  Core realmente para aí, ou se o Gemini só não listou o resto). Não travar a ficha num personagem de
-  Rank 9+ sem checar isso contra o PDF antes.
+- **`data/core/formulas.json`**: **ATUALIZAÇÃO — ver "Redesenho contra a ficha oficial" abaixo.** A
+  extração original do Gemini já estava certa ("Reflexos + Sabedoria"); eu que "corrigi" errado pra
+  "Rank de Discernimento" sem checar, achando que era um erro do modelo. Revertido depois de abrir a
+  ficha oficial de verdade — "Sabedoria" é o termo correto, não "Discernimento".
+- **`data/core/ranks-sabedoria.json`** (renomeado de `ranks-discernimento.json`) **só vai até o
+  Rank 8** (0–324 pontos de Sabedoria) — o livro pode ter ranks mais altos que a extração não pegou
+  (não confirmei se é porque a tabela do Core realmente para aí, ou se o Gemini só não listou o
+  resto). Não travar a ficha num personagem de Rank 9+ sem checar isso contra o PDF antes.
 - **`data/lore/clas.json`**: 9 clãs (os 7 grandes + Mantis + Aranha), resumos originais, boa
   qualidade. Uma relação da Aranha aponta pro clã genérico `"All Clans"` (não é um clã de verdade) —
   o link da wiki pra essa relação especificamente fica sem ação ao clicar (`wiki.js` já trata isso
@@ -116,9 +120,10 @@ Baseada no mesmo esquema do [dnd-sheet](https://github.com/vangruver/dnd-sheet) 
 
 - **`scripts/merge.py`** — junta todo `raw/<slug>.json` (um por livro) num compêndio plano por
   categoria em `data/raw/*.json`, com um `id` estável por item (nome + livro de origem). Não chama
-  o Gemini, não gasta cota — roda a qualquer momento que `raw/` mudar. **Compêndio final dos 8
-  livros (09/out): 25 schools, 75 kata/kiho, 42 skills, 91 spells, 24 advantages, 15 disadvantages,
-  17 weapons, 11 armor, 12 gear — 312 itens.**
+  o Gemini, não gasta cota — roda a qualquer momento que `raw/` mudar. **Compêndio final dos 9
+  livros (10/out): 30 schools, 75 kata/kiho, 42 skills, 92 spells, 44 advantages, 15 disadvantages,
+  18 weapons, 11 armor, 12 gear — 339 itens.** (Secrets of the Empire contribuiu principalmente
+  escolas e vantagens — coerente com ser um livro de corte/política imperial.)
 - **`data/core/aneis.json` e `data/core/traits.json`** — os 5 Anéis e os 8 Traits com o mapeamento
   Anel→Trait (Terra: Vigor/Vontade, Ar: Reflexos/Prontidão, Água: Força/Percepção, Fogo:
   Agilidade/Intelecto, Vazio: nenhum) — escrito à mão, é regra básica estável do sistema desde
