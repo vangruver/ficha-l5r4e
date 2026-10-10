@@ -67,6 +67,30 @@
   </section>
 
   <section class="bloco">
+    <h2>Combate <small class="nota-inline">(calculado a partir dos Anéis/Traits/Skills — não editável aqui)</small></h2>
+    <div class="grid-aneis">
+      <div class="anel-box">
+        <h4>Sabedoria</h4>
+        <div class="trait-linha"><span>Total</span><b id="calc-sabedoria-total">—</b></div>
+        <div class="trait-linha"><span>Rank</span><b id="calc-sabedoria-rank">—</b></div>
+      </div>
+      <div class="anel-box">
+        <h4>NA (Número de Armadura)</h4>
+        <div class="trait-linha"><span>NA Atual</span><b id="calc-na">—</b></div>
+      </div>
+      <div class="anel-box">
+        <h4>Iniciativa</h4>
+        <div class="trait-linha"><span>Rolar / Manter</span><b id="calc-iniciativa">—</b></div>
+      </div>
+      <div class="anel-box">
+        <h4>Nível de Ferimento</h4>
+        <div class="trait-linha"><span>Atual</span><b id="calc-nivel-ferimento">—</b></div>
+        <div class="trait-linha"><span>Penalidade</span><b id="calc-penalidade-ferimento">—</b></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloco">
     <h2>Skills</h2>
     <div class="linha-add">
       <select id="f-skill-select"></select>
@@ -120,9 +144,9 @@
       <label>Anel de Vazio<input id="f-anel-vazio" type="number" min="1" max="10"></label>
       <label>Pontos de Vazio gastos<input id="f-vazio-gastos" type="number" min="0"></label>
       <label>Dano acumulado<input id="f-feridas" type="number" min="0"></label>
-      <label>Recuperação de Ferimentos<input id="f-recuperacao" type="number" min="0" placeholder="manual por ora"></label>
+      <label>Recuperação de Ferimentos <small class="nota-inline">(calculado)</small><input id="f-recuperacao" type="text" disabled></label>
     </div>
-    <p class="nota">Penalidade automática por Nível de Ferimento e o cálculo de Recuperação (Vigor x2 + Sabedoria) ainda não estão ligados — ver STATUS.md. Por enquanto o dano e a recuperação são só registrados, sem automação.</p>
+    <p class="nota">Nível de Ferimento e penalidade: ver bloco "Combate" acima, calculado a partir do dano acumulado aqui + Anel de Terra.</p>
   </section>
 
   <section class="bloco">

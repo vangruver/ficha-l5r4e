@@ -20,25 +20,34 @@ let cache = null;
 
 export async function carregarBanco() {
   if (cache) return cache;
-  const [aneis, traits, schools, kataKiho, skills, spells, advantages, disadvantages, weapons, armor, gear, lore] =
-    await Promise.all([
-      carregarJSON("data/core/aneis.json"),
-      carregarJSON("data/core/traits.json"),
-      carregarJSON("data/raw/schools.json"),
-      carregarJSON("data/raw/kata-kiho.json"),
-      carregarJSON("data/raw/skills.json"),
-      carregarJSON("data/raw/spells.json"),
-      carregarJSON("data/raw/advantages.json"),
-      carregarJSON("data/raw/disadvantages.json"),
-      carregarJSON("data/raw/weapons.json"),
-      carregarJSON("data/raw/armor.json"),
-      carregarJSON("data/raw/gear.json"),
-      // Wiki de lore (clãs) — gerada por scripts/extract_lore.py +
-      // scripts/build_lore.py. Ainda não foi extraída (precisa de cota do
-      // Gemini) — fica [] até lá, e a aba Wiki mostra um aviso.
-      carregarJSON("data/lore/clas.json"),
-    ]);
-  cache = { aneis, traits, schools, kataKiho, skills, spells, advantages, disadvantages, weapons, armor, gear, lore };
+  const [
+    aneis, traits, schools, kataKiho, skills, spells, advantages, disadvantages, weapons, armor, gear, lore,
+    niveisFerimento, ranksSabedoria, formulas,
+  ] = await Promise.all([
+    carregarJSON("data/core/aneis.json"),
+    carregarJSON("data/core/traits.json"),
+    carregarJSON("data/raw/schools.json"),
+    carregarJSON("data/raw/kata-kiho.json"),
+    carregarJSON("data/raw/skills.json"),
+    carregarJSON("data/raw/spells.json"),
+    carregarJSON("data/raw/advantages.json"),
+    carregarJSON("data/raw/disadvantages.json"),
+    carregarJSON("data/raw/weapons.json"),
+    carregarJSON("data/raw/armor.json"),
+    carregarJSON("data/raw/gear.json"),
+    // Wiki de lore (clãs) — gerada por scripts/extract_lore.py +
+    // scripts/build_lore.py.
+    carregarJSON("data/lore/clas.json"),
+    // Tabelas universais extraídas do Core (scripts/extract_core_tables.py +
+    // build_core.py) — usadas pelos cálculos em src/rules.js.
+    carregarJSON("data/core/niveis-ferimento.json"),
+    carregarJSON("data/core/ranks-sabedoria.json"),
+    carregarJSON("data/core/formulas.json", {}),
+  ]);
+  cache = {
+    aneis, traits, schools, kataKiho, skills, spells, advantages, disadvantages, weapons, armor, gear, lore,
+    niveisFerimento, ranksSabedoria, formulas,
+  };
   return cache;
 }
 

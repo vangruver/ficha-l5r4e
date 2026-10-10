@@ -88,10 +88,25 @@ function trocarPersonagem(id) {
   renderizarFicha();
 }
 
+function renderizarCombate() {
+  const total = regras.sabedoriaTotal(personagem);
+  const rank = regras.rankSabedoria(db, total);
+  $("calc-sabedoria-total").textContent = total;
+  $("calc-sabedoria-rank").textContent = rank;
+  $("calc-na").textContent = regras.naTotal(personagem);
+  const ini = regras.iniciativaPool(db, personagem);
+  $("calc-iniciativa").textContent = `${ini.rolar}k${ini.manter}`;
+  const nivel = regras.nivelFerimentoAtual(db, personagem);
+  $("calc-nivel-ferimento").textContent = nivel ? nivel.nome_pt : "—";
+  $("calc-penalidade-ferimento").textContent = nivel ? (nivel.penalidade ? `+${nivel.penalidade}` : "+0") : "—";
+  $("f-recuperacao").value = regras.recuperacaoFerimentos(db, personagem);
+}
+
 let timerIndicador = null;
 function salvar() {
   storage.salvarPersonagem(personagem);
   montarSelPersonagem();
+  renderizarCombate();
   const ind = $("salvo-indicador");
   ind.textContent = "salvo";
   clearTimeout(timerIndicador);
@@ -354,6 +369,7 @@ function renderizarFicha() {
   $("f-deficiencia").value = personagem.deficiencia || "";
   renderizarEscolasAdicionais();
   renderizarAneis();
+  renderizarCombate();
   renderizarSkills();
   renderizarTecnicas();
   renderizarTecnicasExtras();
@@ -366,7 +382,6 @@ function renderizarFicha() {
   $("f-anel-vazio").value = personagem.anelVazio;
   $("f-vazio-gastos").value = personagem.pontosVazioGastos;
   $("f-feridas").value = personagem.feridasAtuais;
-  $("f-recuperacao").value = personagem.recuperacaoFerimentos ?? "";
   $("f-arma1-tipo").value = personagem.armas.arma1.tipo;
   $("f-arma1-ataque").value = personagem.armas.arma1.ataque;
   $("f-arma1-dano").value = personagem.armas.arma1.dano;
@@ -448,7 +463,6 @@ function registrarEventosFicha() {
   bindNumero("f-macula", "maculaTerrasSombrias", { min: 0, max: 10 });
   bindNumero("f-vazio-gastos", "pontosVazioGastos", { min: 0 });
   bindNumero("f-feridas", "feridasAtuais", { min: 0 });
-  bindNumero("f-recuperacao", "recuperacaoFerimentos", { min: 0 });
   bindDinheiro("f-koku", "koku");
   bindDinheiro("f-bu", "bu");
   bindDinheiro("f-zeni", "zeni");
