@@ -46,7 +46,14 @@ export function novoPersonagem() {
     deficiencia: "", // anel, só pra Shugenja
     skills: [], // { texto, rank, emphases: [], deEscola: bool }
     tecnicasExtras: [], // ids de kata/kiho comprados fora da escola (do compêndio)
-    magiasConhecidas: [], // ids
+    magiasConhecidas: [], // ids do compêndio
+    feiticosPorDia: {
+      air: { max: 0, usados: 0 },
+      earth: { max: 0, usados: 0 },
+      fire: { max: 0, usados: 0 },
+      water: { max: 0, usados: 0 },
+      void: { max: 0, usados: 0 },
+    }, // vagas de conjuração por dia, por anel — máximo digitado à mão (a fórmula oficial depende de Afinidade/Deficiência, não extraída ainda)
     vantagens: [], // ids
     desvantagens: [], // ids
     honra: 5.0,
@@ -91,6 +98,14 @@ export function normalizar(p) {
   result.escolasAdicionais = p.escolasAdicionais || [];
   result.equipamento = p.equipamento || [];
   result.skills = p.skills || [];
+  result.magiasConhecidas = p.magiasConhecidas || [];
+  result.feiticosPorDia = {
+    air: { ...base.feiticosPorDia.air, ...(p.feiticosPorDia?.air || {}) },
+    earth: { ...base.feiticosPorDia.earth, ...(p.feiticosPorDia?.earth || {}) },
+    fire: { ...base.feiticosPorDia.fire, ...(p.feiticosPorDia?.fire || {}) },
+    water: { ...base.feiticosPorDia.water, ...(p.feiticosPorDia?.water || {}) },
+    void: { ...base.feiticosPorDia.void, ...(p.feiticosPorDia?.void || {}) },
+  };
   return result;
 }
 

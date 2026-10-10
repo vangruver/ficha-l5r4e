@@ -128,6 +128,9 @@ function preencherSelectsEstaticos() {
   $("f-tecnica-extra-select").innerHTML = `<option value="">— kata/kiho —</option>` +
     db.kataKiho.map((t) => `<option value="${esc(t.id)}">${esc(t.nome)} (${esc(t.tipo)})</option>`).join("");
 
+  $("f-magia-select").innerHTML = `<option value="">— magia —</option>` +
+    db.spells.map((m) => `<option value="${esc(m.id)}">${esc(m.nome)} (${esc(m.anel)})</option>`).join("");
+
   const escolasOrdenadas = [...db.schools].sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
   $("f-escola-adicional-select").innerHTML = `<option value="">— escola —</option>` +
     escolasOrdenadas.map((s) => `<option value="${esc(s.id)}">${esc(s.nome)} (${esc(s.cla)})</option>`).join("");
@@ -288,6 +291,66 @@ function renderizarEscolasAdicionais() {
   }));
 }
 
+const ANEIS_MAGIA = [
+  ["earth", "Terra"], ["air", "Ar"], ["fire", "Fogo"], ["water", "Água"], ["void", "Vazio"],
+];
+
+function renderizarMagias() {
+  const wrap = $("lista-magias");
+  wrap.innerHTML = (personagem.magiasConhecidas || []).map((id, i) => {
+    const m = porId(db.spells, id);
+    return `<div class="item-linha tecnica-linha">
+      <span class="nome">${esc(m?.nome || id)} <span class="tag">${esc(m?.anel || "")} · Mastery ${esc(m?.mastery_level ?? "?")}</span>
+        <button class="remover" data-acao="magia-remover" data-i="${i}" type="button">×</button></span>
+      <p>${esc(m?.texto_pt || "")}</p>
+    </div>`;
+  }).join("") || `<p class="vazio-mini">Nenhuma ainda.</p>`;
+
+  wrap.querySelectorAll('[data-acao="magia-remover"]').forEach((btn) => btn.addEventListener("click", () => {
+    personagem.magiasConhecidas.splice(Number(btn.dataset.i), 1);
+    salvar();
+    renderizarMagias();
+  }));
+}
+
+function renderizarFeiticosPorDia() {
+  const wrap = $("grid-feiticos-dia");
+  wrap.innerHTML = ANEIS_MAGIA.map(([chave, nome]) => {
+    const f = personagem.feiticosPorDia[chave];
+    return `<div class="anel-box">
+      <h4>${nome}</h4>
+      <div class="trait-linha">
+        <span>Máximo</span>
+        <button class="menos" data-feitico-max="${chave}" data-delta="-1" type="button">−</button>
+        <b>${f.max}</b>
+        <button class="mais" data-feitico-max="${chave}" data-delta="1" type="button">+</button>
+      </div>
+      <div class="trait-linha">
+        <span>Usados hoje</span>
+        <button class="menos" data-feitico-usados="${chave}" data-delta="-1" type="button">−</button>
+        <b>${f.usados} / ${f.max}</b>
+        <button class="mais" data-feitico-usados="${chave}" data-delta="1" type="button">+</button>
+      </div>
+    </div>`;
+  }).join("");
+
+  wrap.querySelectorAll("button[data-feitico-max]").forEach((btn) => btn.addEventListener("click", () => {
+    const chave = btn.dataset.feiticoMax;
+    const delta = Number(btn.dataset.delta);
+    personagem.feiticosPorDia[chave].max = Math.max(0, personagem.feiticosPorDia[chave].max + delta);
+    salvar();
+    renderizarFeiticosPorDia();
+  }));
+  wrap.querySelectorAll("button[data-feitico-usados]").forEach((btn) => btn.addEventListener("click", () => {
+    const chave = btn.dataset.feiticoUsados;
+    const delta = Number(btn.dataset.delta);
+    const f = personagem.feiticosPorDia[chave];
+    f.usados = Math.max(0, Math.min(f.max, f.usados + delta));
+    salvar();
+    renderizarFeiticosPorDia();
+  }));
+}
+
 function renderizarVantagensDesvantagens() {
   const { custoVantagens, pontosDesvantagens, saldo } = regras.saldoVantagensDesvantagens(db, personagem);
   $("saldo-vd").textContent = `Vantagens: ${custoVantagens} pts · Desvantagens concedem: ${pontosDesvantagens} pts · saldo: ${saldo} (limite oficial de Desvantagens ainda não confirmado contra o Core)`;
@@ -373,6 +436,8 @@ function renderizarFicha() {
   renderizarSkills();
   renderizarTecnicas();
   renderizarTecnicasExtras();
+  renderizarMagias();
+  renderizarFeiticosPorDia();
   renderizarVantagensDesvantagens();
   $("f-honra").value = personagem.honra;
   $("f-gloria").value = personagem.gloria;
@@ -562,6 +627,15 @@ function registrarEventosFicha() {
       $("f-equip-qtd").value = 1;
       salvar();
       renderizarEquipamento();
+    }
+  });
+
+  $("btn-add-magia").addEventListener("click", () => {
+    const id = $("f-magia-select").value;
+    if (id && !personagem.magiasConhecidas.includes(id)) {
+      personagem.magiasConhecidas.push(id);
+      salvar();
+      renderizarMagias();
     }
   });
 
