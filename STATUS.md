@@ -3,7 +3,9 @@
 Ficha modular de L5R 4ª edição (AEG), nos moldes do dnd-sheet/ficha-tormenta20.
 
 **Extração 100% completa desde 09/out/2026** — os 8 livros, as tabelas universais do Core e a wiki
-de 9 clãs. Fase atual: terminar a automação da ficha de personagem em cima desses dados (ver
+de 9 clãs. **Ficha redesenhada em 09/out pra bater com os campos da ficha oficial** (ver seção
+"Redesenho contra a ficha oficial" abaixo). Fase atual: ligar os cálculos automáticos (Sabedoria,
+NA, Iniciativa, penalidade de ferimento) em cima dos dados que já existem (ver
 "O que falta pra ficha em si", perto do fim deste arquivo).
 
 **Publicado no GitHub em 09/out/2026:** repo público [vangruver/ficha-l5r4e](https://github.com/vangruver/ficha-l5r4e),
@@ -145,21 +147,68 @@ Baseada no mesmo esquema do [dnd-sheet](https://github.com/vangruver/dnd-sheet) 
   Ferimentos (só dano acumulado por ora — **sem** penalidade automática, depende do `core_tables`
   pendente), Equipamento (sugestão da escola com botão de adicionar + lista livre) e Dinheiro
   (koku/bu/zeni). Tudo salva sozinho a cada mudança de campo.
-- **Validação feita sem navegador** (extensão do Chrome não conectou nesta sessão): sintaxe de todo
-  o JS (`node --check`), e a lógica de verdade (`rules.js` + `database.js`) rodada em Node direto
-  contra os dados reais extraídos (anéis derivados, técnicas por rank de uma escola real, saldo de
-  vantagens/desvantagens, busca/filtro) — todos os testes passaram. **O que não foi testado:** cliques
-  e renderização de fato num navegador — abrir `index.html` (local, `python -m http.server`, ou
-  publicado) e confirmar visualmente na primeira oportunidade.
-- **O que falta pra ficha em si (próximo passo real):** os dados (`data/core/niveis-ferimento.json`,
-  `ranks-discernimento.json`, `custos-evolucao.json`, `formulas.json`) já existem, extraídos de
-  verdade — falta **ligar isso em `src/rules.js`/`src/app.js`**: calcular Insight Rank de verdade
-  (hoje o Rank de Escola ainda é digitado manualmente), aplicar penalidade por Nível de Ferimento,
-  calcular NA de combate e Iniciativa pelas fórmulas extraídas. Magias conhecidas/preparadas pra
-  Shugenja também falta (schema do personagem já tem o campo, UI ainda não feita).
 - **`scripts/schema.py` (`CORE_TABLES`) + `scripts/extract_core_tables.py` + `scripts/build_core.py`**
   — pipeline separado do `run_all.ps1`, extrai do Core (só dele) as tabelas universais que a ficha
   precisa calcular. Já rodou (ver "Conferência dos dados extraídos" acima).
+
+## Redesenho contra a ficha oficial (09/out)
+
+Até aqui a estrutura da ficha (Identidade, Anéis/Traits, Skills, Técnicas, Vantagens/Desvantagens,
+Honra/Glória/Status/Infâmia, Vazio/Ferimentos, Equipamento, Dinheiro) tinha sido montada de memória
+— nunca fomos conferir a ficha de personagem OFICIAL de verdade. Ela existe: vem impressa no final
+do próprio Core Rulebook (edição PT-BR), **páginas 392-396 do PDF** (5 páginas: ficha principal,
+informações pessoais/vantagens/equipamento/técnicas, páginas extras de Bushi multiclasse, páginas
+extras de Shugenja/magias, ficha de resumo de campanha). Renderizei essas páginas como imagem
+(`pymupdf`) e comparei campo a campo.
+
+**Campos que faltavam e foram adicionados:**
+- Informações Pessoais (sexo, idade, altura, peso, cabelos, olhos, pai, mãe, irmãos, estado civil,
+  cônjuge, filhos)
+- Mácula das Terras Sombrias (mesmo padrão de Honra/Glória/Status/Infâmia)
+- Kata/Kiho comprados fora da progressão da escola (`personagem.tecnicasExtras`, select do
+  compêndio) — antes só existiam as técnicas automáticas por rank de escola
+- Escolas adicionais (multiclasse) — só registro/referência, sem automação de bônus
+- Afinidade/Deficiência elemental (Shugenja) — **campo manual por ora**, a extração das escolas não
+  pega esse dado ainda (`scripts/schema.py` SCHOOLS não tem esses campos); se quiser automatizar
+  depois, precisa adicionar ao schema e reextrair as escolas (custo: ~8 requests, 1 por livro)
+- Armas em slots estruturados (Arma 1 / Arma 2 / Flechas — Tipo/Ataque/Dano/Bônus/Notas)
+- Armadura consolidada (Tipo/Bônus de NA/Redução/Qualidade/Notas)
+- Local do equipamento (mochila/casa/ambos)
+- Conversão de dinheiro (1 Koku = 5 Bu = 50 Zeni · 1 Bu = 10 Zeni) — nota fixa, não é cálculo
+- Campo de Recuperação de Ferimentos (manual por ora — fórmula Vigor x2 + Sabedoria confirmada
+  contra a ficha oficial, falta ligar o cálculo automático)
+- Skills vindas da automação de escola agora ficam marcadas (`deEscola: true`, badge "escola" na
+  lista) — a ficha oficial tem uma coluna de círculos "Perícias de Escola" pro mesmo propósito
+
+**Descoberta importante nessa conferência: "Sabedoria" é o termo oficial pra Insight Rank, não
+"Discernimento"** (que eu tinha inventado sem checar) — ver a correção feita logo acima, antes desta
+seção, e `glossario.json`/`data/core/formulas.json`/`ranks-sabedoria.json`.
+
+**O que a ficha oficial tem e a nossa ainda não tenta replicar:** o diagrama circular dos 5 Anéis
+(a ilustração em si — a ficha usa um grid de cartões por anel, que carrega a mesma informação mas
+não visualmente). Decisão consciente de escopo, não esquecimento — reavaliar se o Carlos quiser algo
+mais próximo visualmente.
+
+**`storage.js` ganhou `normalizar(p)`:** preenche com os valores padrão qualquer campo que falte
+num personagem salvo antes dessas chaves existirem, pra não quebrar fichas salvas no navegador antes
+de 09/out.
+
+**Testado com interação de clique de verdade** (não só print estático desta vez): usei
+`puppeteer-core` + Chrome headless local pra simular alguém usando a ficha — 22 verificações, todas
+passaram: personagem novo, digitar nome e persistir, escolher clã→escola e ver o bônus de trait
+aplicar sozinho, skills de escola aparecerem automaticamente, adicionar skill/kata/equipamento
+manual, campos novos (info pessoal, arma, mácula) salvando, **persistência depois de F5**, troca de
+tema persistindo, busca no Compêndio retornando resultado, navegação entre clãs na Wiki, criar e
+excluir personagem. `puppeteer-core` foi instalado só pra esse teste e removido do repositório depois
+— não é dependência do projeto.
+
+**O que falta pra ficha em si (próximo passo real):** os dados de `data/core/` (níveis de ferimento,
+ranks de Sabedoria, custos de evolução, fórmulas) já existem e foram conferidos contra o livro —
+falta **ligar isso em `src/rules.js`/`src/app.js`**: calcular Sabedoria (Insight Rank) de verdade
+(hoje o Rank de Escola ainda é digitado manualmente), aplicar penalidade por Nível de Ferimento,
+calcular NA de combate, Iniciativa e Recuperação de Ferimentos pelas fórmulas extraídas. Magias
+conhecidas/preparadas pra Shugenja também falta (schema do personagem já tem o campo, UI ainda não
+feita). Favicon.ico também falta (cosmético, 404 inofensivo no console).
 
 ## Wiki de clãs (iniciada em 09/out, não é mais "próxima fase")
 
