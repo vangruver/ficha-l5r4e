@@ -5,11 +5,11 @@ Ficha modular de L5R 4ª edição (AEG), nos moldes do dnd-sheet/ficha-tormenta2
 **9 livros extraídos (10/out/2026)** — os 8 originais + **Secrets of the Empire**, adicionado pelo
 Carlos depois (PDF grande, 70MB, ele baixou manualmente do Drive pra `pdfs/` porque não dá pra puxar
 arquivo desse tamanho via Drive MCP sem estourar contexto). Extraiu de uma vez só, sem bater cota —
-as tabelas universais do Core e a wiki de 9 clãs continuam completas de antes. **Ficha redesenhada em
-09/out pra bater com os campos da ficha oficial** (ver seção "Redesenho contra a ficha oficial"
-abaixo). Fase atual: ligar os cálculos automáticos (Sabedoria, NA, Iniciativa, penalidade de
-ferimento) em cima dos dados que já existem (ver "O que falta pra ficha em si", perto do fim deste
-arquivo).
+as tabelas universais do Core e a wiki de 9 clãs continuam completas de antes. Compêndio final: 339
+itens, **conferido sem nenhuma duplicata** (nome repetido entre livros ou dentro do mesmo livro) —
+ver `scripts/checar_duplicatas.py`. **Ficha redesenhada em 09/out pra bater com os campos da ficha
+oficial** (ver seção "Redesenho contra a ficha oficial" abaixo). **Cálculos automáticos ligados em
+10/out** (Sabedoria, NA, Iniciativa, Nível de Ferimento — ver seção "Cálculos automáticos" abaixo).
 
 **Publicado no GitHub em 09/out/2026:** repo público [vangruver/ficha-l5r4e](https://github.com/vangruver/ficha-l5r4e),
 GitHub Pages ativado em <https://vangruver.github.io/ficha-l5r4e/> (mesmo esquema do dnd-sheet).
@@ -207,13 +207,50 @@ tema persistindo, busca no Compêndio retornando resultado, navegação entre cl
 excluir personagem. `puppeteer-core` foi instalado só pra esse teste e removido do repositório depois
 — não é dependência do projeto.
 
-**O que falta pra ficha em si (próximo passo real):** os dados de `data/core/` (níveis de ferimento,
-ranks de Sabedoria, custos de evolução, fórmulas) já existem e foram conferidos contra o livro —
-falta **ligar isso em `src/rules.js`/`src/app.js`**: calcular Sabedoria (Insight Rank) de verdade
-(hoje o Rank de Escola ainda é digitado manualmente), aplicar penalidade por Nível de Ferimento,
-calcular NA de combate, Iniciativa e Recuperação de Ferimentos pelas fórmulas extraídas. Magias
-conhecidas/preparadas pra Shugenja também falta (schema do personagem já tem o campo, UI ainda não
-feita). Favicon.ico também falta (cosmético, 404 inofensivo no console).
+**O que falta pra ficha em si:** UI de magias conhecidas/preparadas pra Shugenja (schema do
+personagem já tem o campo `magiasConhecidas`, interface ainda não). Favicon.ico também falta
+(cosmético, 404 inofensivo no console). Rank de Escola continua digitado manualmente (é uma escolha
+de build — quais técnicas de escola você tem — relacionada a Sabedoria mas não idêntica a ela; ver
+"Cálculos automáticos" abaixo pro porquê de não serem a mesma coisa).
+
+## Cálculos automáticos (10/out)
+
+Bloco novo **"Combate"** na ficha (logo depois de Anéis e Traits), calculado sozinho a partir de
+Anéis/Traits/Skills/Armadura/Dano — não é editável diretamente, só reage ao resto da ficha:
+
+- **Sabedoria** (= "Insight Rank" — termo oficial da ficha é "Sabedoria", ver "Redesenho contra a
+  ficha oficial" acima): total = (soma dos 5 Anéis, incluindo Vazio, x10) + soma de todos os níveis
+  de Perícia. O **rank** vem de `data/core/ranks-sabedoria.json` (só confirmado até o Rank 8 — ver
+  ressalva acima; acima de 324 pontos mostra "8+" em vez de inventar um rank não confirmado).
+- **NA (Número de Armadura):** Reflexos x5 + 5 + bônus digitado no campo "Bônus de NA" da Armadura
+  (texto livre, ex. "+3" — `rules.js` extrai o número).
+- **Iniciativa:** mostrado como **pool de dados** ("Rolar k Manter", ex. "5k4"), não um número único
+  — é pra rolar, não pra exibir um resultado fixo. Rolar = Rank de Sabedoria + Reflexos, Manter =
+  Reflexos.
+- **Nível de Ferimento + penalidade:** a partir do dano acumulado (`feridasAtuais`) e do Anel de
+  Terra, usando `data/core/niveis-ferimento.json`. Os limites são **cumulativos**: Saudável = Terra x5,
+  cada nível seguinte soma mais Terra x2 ao limite anterior (confirmado contra a nota da ficha
+  oficial: "Terra x2 por Nível, Terra x5 para Saudável").
+- **Recuperação de Ferimentos:** Vigor x2 + Rank de Sabedoria — o campo que antes era digitado à mão
+  agora é só leitura (`disabled`), preenchido sozinho.
+
+**Por que Rank de Escola continua manual:** Sabedoria e Rank de Escola são coisas relacionadas mas
+não idênticas no sistema — Rank de Escola é uma escolha de progressão (quais técnicas você já
+aprendeu), normalmente acompanha a Sabedoria mas pode divergir (multiclasse, por exemplo). Preferi
+não forçar os dois a serem sempre iguais sem confirmar essa regra específica contra o livro.
+
+`src/rules.js` ganhou `sabedoriaTotal`, `rankSabedoria`, `naTotal`, `iniciativaPool`,
+`recuperacaoFerimentos`, `nivelFerimentoAtual`. `src/database.js` carrega as tabelas de `data/core/`
+que faltavam (`niveisFerimento`, `ranksSabedoria`, `formulas`). O recálculo roda centralizado dentro
+de `salvar()` em `src/app.js` — qualquer mudança que persista o personagem também atualiza o bloco
+Combate.
+
+**Testado com clique de verdade** (`puppeteer-core` + Chrome headless local, instalado só pro teste
+e removido depois): valores iniciais corretos pra um personagem novo (Sabedoria 100/Rank 1, NA 15,
+Iniciativa 3k2, Recuperação 5, Saudável), NA e Iniciativa reagem a mudar Reflexos pelos botões +/-,
+NA reage ao bônus de armadura digitado, Nível de Ferimento muda corretamente com dano acumulado
+(inclusive a penalidade certa), Sabedoria sobe ao adicionar skill, tudo recalcula idêntico depois de
+recarregar a página.
 
 ## Wiki de clãs (iniciada em 09/out, não é mais "próxima fase")
 
