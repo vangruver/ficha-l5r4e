@@ -301,6 +301,39 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 10px;
 }
+.form-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
+.form-grid-3 fieldset {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.form-grid-3 legend {
+  font-size: 12px;
+  color: var(--ink-2);
+  padding: 0 6px;
+}
+.form-grid-3 label {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 12px;
+  color: var(--ink-2);
+}
+.form-grid-3 input {
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  border-radius: 6px;
+  padding: 7px 8px;
+  font: inherit;
+}
 .form-grid label {
   display: flex;
   flex-direction: column;

@@ -34,6 +34,7 @@ export function novoPersonagem() {
     familia: "",
     escolaId: "",
     rankEscola: 1,
+    escolasAdicionais: [], // ids de escola (multiclasse) — só registro, sem automação
     traits: {
       stamina: 2, willpower: 2,
       reflexes: 2, awareness: 2,
@@ -41,8 +42,10 @@ export function novoPersonagem() {
       agility: 2, intelligence: 2,
     },
     anelVazio: 2,
-    skills: [], // { id, rank, emphases: [] }
-    tecnicasExtras: [], // ids de kata/kiho comprados fora da escola
+    afinidade: "", // anel, só pra Shugenja (manual — não vem da extração ainda)
+    deficiencia: "", // anel, só pra Shugenja
+    skills: [], // { texto, rank, emphases: [], deEscola: bool }
+    tecnicasExtras: [], // ids de kata/kiho comprados fora da escola (do compêndio)
     magiasConhecidas: [], // ids
     vantagens: [], // ids
     desvantagens: [], // ids
@@ -50,20 +53,56 @@ export function novoPersonagem() {
     gloria: 0.0,
     status: 0.0,
     infamia: 0.0,
+    maculaTerrasSombrias: 0.0,
     pontosVazioGastos: 0,
     feridasAtuais: 0,
-    equipamento: [], // { nome, qtd }
+    recuperacaoFerimentos: null, // calculado depois (Vigor x2 + Sabedoria); null = não calculado ainda
+    armas: {
+      arma1: { tipo: "", ataque: "", dano: "", bonus: "", notas: "" },
+      arma2: { tipo: "", ataque: "", dano: "", bonus: "", notas: "" },
+      flechas: { tipo: "", dano: "", quantidade: "" },
+    },
+    armadura: { tipo: "", bonusNA: "", reducao: "", qualidade: "", notas: "" },
+    equipamento: [], // { nome, qtd, local: "mochila" | "casa" | "ambos" }
     dinheiro: { koku: 0, bu: 0, zeni: 0 },
+    infoPessoal: {
+      sexo: "", idade: "", altura: "", peso: "", cabelos: "", olhos: "",
+      pai: "", mae: "", irmaos: "", estadoCivil: "", conjuge: "", filhos: "",
+    },
     notas: "",
   };
 }
 
+// Preenche campos que faltarem num personagem salvo antes dessas chaves
+// existirem — sem isso, abrir uma ficha salva antes do redesenho (09/out)
+// quebra em qualquer render que leia um campo novo.
+export function normalizar(p) {
+  const base = novoPersonagem();
+  const result = { ...base, ...p };
+  result.traits = { ...base.traits, ...(p.traits || {}) };
+  result.armas = {
+    arma1: { ...base.armas.arma1, ...(p.armas?.arma1 || {}) },
+    arma2: { ...base.armas.arma2, ...(p.armas?.arma2 || {}) },
+    flechas: { ...base.armas.flechas, ...(p.armas?.flechas || {}) },
+  };
+  result.armadura = { ...base.armadura, ...(p.armadura || {}) };
+  result.dinheiro = { ...base.dinheiro, ...(p.dinheiro || {}) };
+  result.infoPessoal = { ...base.infoPessoal, ...(p.infoPessoal || {}) };
+  result.escolasAdicionais = p.escolasAdicionais || [];
+  result.equipamento = p.equipamento || [];
+  result.skills = p.skills || [];
+  return result;
+}
+
 export function listarPersonagens() {
-  return Object.values(lerTudo()).sort((a, b) => (a.nome || "").localeCompare(b.nome || "", "pt-BR"));
+  return Object.values(lerTudo())
+    .map(normalizar)
+    .sort((a, b) => (a.nome || "").localeCompare(b.nome || "", "pt-BR"));
 }
 
 export function carregarPersonagem(id) {
-  return lerTudo()[id] || null;
+  const p = lerTudo()[id];
+  return p ? normalizar(p) : null;
 }
 
 export function salvarPersonagem(p) {
