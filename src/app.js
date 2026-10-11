@@ -352,8 +352,11 @@ function renderizarFeiticosPorDia() {
 }
 
 function renderizarVantagensDesvantagens() {
-  const { custoVantagens, pontosDesvantagens, saldo } = regras.saldoVantagensDesvantagens(db, personagem);
-  $("saldo-vd").textContent = `Vantagens: ${custoVantagens} pts · Desvantagens concedem: ${pontosDesvantagens} pts · saldo: ${saldo} (limite oficial de Desvantagens ainda não confirmado contra o Core)`;
+  const { custoVantagens, pontosDesvantagens, saldo, acimaDoLimite } = regras.saldoVantagensDesvantagens(db, personagem);
+  const elSaldo = $("saldo-vd");
+  elSaldo.textContent = `Vantagens: ${custoVantagens} pts · Desvantagens concedem: ${pontosDesvantagens}/${regras.LIMITE_PONTOS_DESVANTAGENS} pts · saldo: ${saldo}` +
+    (acimaDoLimite ? " — acima do limite oficial de 10 pontos (Core, pág. 106)" : "");
+  elSaldo.classList.toggle("aviso", acimaDoLimite);
 
   $("lista-vantagens").innerHTML = (personagem.vantagens || []).map((id, i) => {
     const a = porId(db.advantages, id);

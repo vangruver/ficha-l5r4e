@@ -19,9 +19,12 @@ export function aneisDerivados(traits) {
 }
 
 // Soma líquida de pontos em Vantagens/Desvantagens: custo das vantagens
-// menos o que as desvantagens concedem. O limite oficial de pontos de
-// Desvantagem (lembrança: 10 pontos na 4ª ed.) ainda não foi confirmado
-// contra o PDF nesta ficha — por isso só mostra o saldo, não bloqueia nada.
+// menos o que as desvantagens concedem. Limite oficial de Desvantagens
+// confirmado contra o Core Rulebook PT-BR, pág. 106: máximo de 10 pontos
+// extras de XP concedidos por Desvantagens (excesso não bloqueado aqui,
+// só sinalizado — a ficha não impede escolhas narrativas do jogador).
+export const LIMITE_PONTOS_DESVANTAGENS = 10;
+
 export function saldoVantagensDesvantagens(db, personagem) {
   const custoVantagens = (personagem.vantagens || [])
     .map((id) => db.advantages.find((a) => a.id === id)?.custo_pontos ?? 0)
@@ -29,7 +32,13 @@ export function saldoVantagensDesvantagens(db, personagem) {
   const pontosDesvantagens = (personagem.desvantagens || [])
     .map((id) => db.disadvantages.find((d) => d.id === id)?.pontos_concedidos ?? 0)
     .reduce((a, b) => a + b, 0);
-  return { custoVantagens, pontosDesvantagens, saldo: custoVantagens - pontosDesvantagens };
+  const acimaDoLimite = pontosDesvantagens > LIMITE_PONTOS_DESVANTAGENS;
+  return {
+    custoVantagens,
+    pontosDesvantagens,
+    saldo: custoVantagens - pontosDesvantagens,
+    acimaDoLimite,
+  };
 }
 
 // Técnicas de escola que o personagem já tem, dado o rank de escola atual

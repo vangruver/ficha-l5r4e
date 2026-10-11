@@ -10,6 +10,10 @@ itens, **conferido sem nenhuma duplicata** (nome repetido entre livros ou dentro
 ver `scripts/checar_duplicatas.py`. **Ficha redesenhada em 09/out pra bater com os campos da ficha
 oficial** (ver seção "Redesenho contra a ficha oficial" abaixo). **Cálculos automáticos ligados em
 10/out** (Sabedoria, NA, Iniciativa, Nível de Ferimento — ver seção "Cálculos automáticos" abaixo).
+**Ficha considerada completa em 10/out** — Magias pra Shugenja, favicon e limite oficial de
+Desvantagens (10 pts, confirmado contra o Core pág. 106) foram os últimos itens fechados. O que
+resta é só automação futura opcional (Afinidade/Deficiência extraída do livro em vez de manual),
+não um item quebrado ou faltando.
 
 **Publicado no GitHub em 09/out/2026:** repo público [vangruver/ficha-l5r4e](https://github.com/vangruver/ficha-l5r4e),
 GitHub Pages ativado em <https://vangruver.github.io/ficha-l5r4e/> (mesmo esquema do dnd-sheet).
@@ -207,11 +211,28 @@ tema persistindo, busca no Compêndio retornando resultado, navegação entre cl
 excluir personagem. `puppeteer-core` foi instalado só pra esse teste e removido do repositório depois
 — não é dependência do projeto.
 
-**O que falta pra ficha em si:** só itens pequenos agora — Favicon.ico (cosmético, 404 inofensivo no
-console) e o limite oficial de pontos de Desvantagem (ainda não confirmado contra o Core, ver saldo
-de Vantagens/Desvantagens). Rank de Escola continua digitado manualmente (é uma escolha de build —
-quais técnicas de escola você tem — relacionada a Sabedoria mas não idêntica a ela; ver "Cálculos
-automáticos" abaixo pro porquê de não serem a mesma coisa).
+**O que falta pra ficha em si:** Rank de Escola continua digitado manualmente (é uma escolha de
+build — quais técnicas de escola você tem — relacionada a Sabedoria mas não idêntica a ela; ver
+"Cálculos automáticos" abaixo pro porquê de não serem a mesma coisa). Os dois itens pequenos que
+restavam (favicon e limite de Desvantagem) foram fechados em 10/out — ver seção abaixo.
+
+## Favicon e limite de Desvantagens (10/out)
+
+**Favicon:** `assets/favicon.svg` novo — 5 pontos vermelhos ao redor de um centro claro (lembra um
+mon/emblema, ecoa os 5 Anéis), em `#C8323F` sobre fundo escuro `#171A1F` (cores do tema Clean, fixas
+no SVG — favicon não lê variável CSS da página). Referenciado via `<link rel="icon" type="image/svg+xml">`
+no `<head>`; legível em 16px, sem precisar gerar `.ico` binário (todo navegador relevante aceita SVG).
+
+**Limite de Desvantagens confirmado:** abri `core.pdf` de novo e busquei o texto da regra (não
+estava nas tabelas já extraídas, só nas descrições narrativas do capítulo de criação de personagem).
+Achei na pág. 106: *"Desvantagens funcionam similarmente, exceto que personagens ganham Pontos de
+Experiência por escolhê-las, até um máximo de 10 pontos extras."* — confirma a lembrança que eu tinha
+anotado como não-confirmada: **10 pontos é o limite oficial**. `rules.js` ganhou
+`LIMITE_PONTOS_DESVANTAGENS = 10`; `saldoVantagensDesvantagens()` agora retorna `acimaDoLimite`. A
+ficha não bloqueia escolher mais (decisão narrativa do jogador/mestre), só avisa: o texto do saldo
+mostra `X/10 pts` e fica vermelho+negrito (`.aviso`) quando passa de 10. Testado com clique de
+verdade (`puppeteer-core` de novo, instalado/removido só pra esse teste): adicionar desvantagens até
+passar de 10 pts dispara o aviso, e ele persiste depois de F5.
 
 ## Magias pra Shugenja (10/out)
 
