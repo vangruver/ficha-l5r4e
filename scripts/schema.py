@@ -515,11 +515,66 @@ LOCAIS = {
     }
 }
 
+# Organizações políticas/místicas/marciais nomeadas que cada livro elemental
+# descreve (ex. Doji Innocents, Daidoji Trading Council, Mist Legion, Kitsu
+# Spirit Legion, Shosuro Defilers, Order of the Wind, Sisters of Sacred
+# Light...) — achado ao revisar o índice de cada livro: não são clã/família/
+# facção/ordem monástica (essas já têm categoria própria), mas grupos
+# menores dentro de um clã ou entre clãs. Shape "grupo" igual o resto, campo
+# próprio pelo mesmo motivo de TRADICOES_MARCIAIS (o livro sempre menciona o
+# clã do grupo ao lado do nome dele).
+GRUPOS = {
+    "type": "object",
+    "properties": {
+        "grupos": {
+            "type": "array",
+            "description": (
+                "organizações políticas, místicas ou marciais NOMEADAS "
+                "descritas no livro (sociedades dentro de um clã, grupos de "
+                "espiões/cortesãs, legiões de magos, etc.) — não incluir "
+                "clã, família, facção, ordem monástica ou tradição marcial "
+                "já cobertos por outras categorias"
+            ),
+            "items": _item_grupo_lore(
+                campo="nome_grupo",
+                descricao_campo=(
+                    "nome do GRUPO/ORGANIZAÇÃO em si, em inglês, ex. "
+                    "'Doji Innocents', 'Mist Legion', 'Kitsu Spirit Legion'. "
+                    "NUNCA o nome do clã associado a ele — isso vai em "
+                    "'patrono_pt', não aqui."
+                ),
+            ),
+        }
+    }
+}
+
+# Personagens históricos/narrativos notáveis citados pelo livro (generais,
+# duelistas, NPCs de destaque no local de aventura do capítulo dedicado) —
+# achado ao revisar o índice. Shape "entidade curta", igual artefatos/
+# criaturas/locais.
+PERSONAGENS = {
+    "type": "object",
+    "properties": {
+        "personagens": {
+            "type": "array",
+            "description": (
+                "pessoas notáveis citadas pelo livro pelo nome (generais, "
+                "duelistas, NPCs do local de aventura do capítulo dedicado, "
+                "figuras históricas) — resumo curto por pessoa, não listar "
+                "clãs/famílias/grupos inteiros aqui"
+            ),
+            "items": _ITEM_ENTIDADE_CURTA,
+        }
+    }
+}
+
 CATEGORIAS_ELEMENTAIS = {
     "tradicoes_marciais": TRADICOES_MARCIAIS,
     "artefatos": ARTEFATOS,
     "criaturas": CRIATURAS,
     "locais": LOCAIS,
+    "grupos": GRUPOS,
+    "personagens": PERSONAGENS,
 }
 
 # ---------------------------------------------------------------------------
@@ -546,6 +601,20 @@ ESTRANGEIROS = {
             "type": "array",
             "description": "nações/povos gaijin e sua relação com a política rokugani, do capítulo 'Outsiders in Rokugani Politics'",
             "items": _item_grupo_lore(),
+        }
+    }
+}
+
+# Generais notáveis do capítulo "Notable Generals of Rokugan" (Capítulo Um:
+# Strategy) — mesma categoria/shape "personagens" usada nos livros
+# elementais, reaproveitada aqui.
+PERSONAGENS_SWORD_FAN = {
+    "type": "object",
+    "properties": {
+        "personagens": {
+            "type": "array",
+            "description": "generais e estrategistas notáveis descritos no capítulo 'Notable Generals of Rokugan'",
+            "items": _ITEM_ENTIDADE_CURTA,
         }
     }
 }

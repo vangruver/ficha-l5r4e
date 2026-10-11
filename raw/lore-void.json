@@ -206,5 +206,194 @@
         "pagina": 195
       }
     ]
+  },
+  "tradicoes_marciais": {
+    "tradicoes_marciais": [
+      {
+        "nome_tradicao": "Kukan-do",
+        "resumo_pt": "Kukan-do não é um estilo físico engessado com formas rituais, mas uma filosofia martial abrangente fundada na compreensão do Vazio. A disciplina ensina que a arte do combate é inseparável das atividades da vida cotidiana, conectando mente, corpo e ambiente. Qualquer arte marcial praticada com iluminação, foco no momento presente e ausência de hesitação pode ser considerada uma expressão de Kukan-do. Seu objetivo supremo é permitir que o guerreiro aja por instinto puro sem o apego a técnicas predeterminadas.",
+        "valores_pt": "Preza o desapego do ego, a mente aberta de iniciante (shoshin), a atenção concentrada no momento (zanshin) e a perseverança estoica (gaman).",
+        "aparencia_pt": "Os praticantes movem-se com naturalidade fluida e sem desperdício de energia. Executam tarefas banais como varrer o chão ou preparar o chá com a mesma intenção concentrada de um confronto mortal.",
+        "papel_pt": "Serve como o fundamento filosófico mais elevado para os mestres de artes marciais do Império, elevando a prática das armas a uma busca por autoconhecimento e harmonia espiritual.",
+        "patrono_pt": "O Clã do Dragão e o Clã da Fênix são os principais defensores desta filosofia, embora ordens da Irmandade de Shinsei também a cultivem.",
+        "relacoes": [
+          {
+            "cla": "Dragon Clan",
+            "tipo": "aliado",
+            "descricao_pt": "Os combatentes Mirumoto e ascetas Togashi abraçam a ausência de formas fixas e a adaptação constante ao momento."
+          },
+          {
+            "cla": "Phoenix Clan",
+            "tipo": "aliado",
+            "descricao_pt": "A Fênix compreende o aspecto místico do Vazio e incentiva o cultivo da mente serena em seus guardiões Shiba."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Seu mestre exige que você passe meses realizando tarefas domésticas antes de lhe ensinar um único movimento de combate.",
+          "Durante um duelo decisivo, você percebe que precisa abandonar todas as técnicas aprendidas para reagir puramente por instinto.",
+          "Um samurai de um clã militarista ridiculariza sua filosofia de combate chamando-a de mera teoria de monastério."
+        ],
+        "source_book": "Book of Void"
+      },
+      {
+        "nome_tradicao": "Koga Ninja",
+        "resumo_pt": "Fundada no início do Império por um camponês chamado Koga após assassinar um cobrador de impostos abusivo, esta rede secreta opera exclusivamente para proteger as classes baixas. Seus membros recrutam servos e agricultores que passam despercebidos pela nobreza samurai. Eles utilizam disfarces cotidianos, conhecimentos sobre plantas venenosas e ferramentas adaptadas para eliminar opressores. A organização pune severamente tentativas de traição e mantém suas operações totalmente ocultas das autoridades imperiais.",
+        "valores_pt": "Lealdade absoluta à proteção dos camponeses, sigilo rigoroso e rejeição dos ideais de honra da nobreza.",
+        "aparencia_pt": "Misturam-se perfeitamente à população comum vestindo trajes de servos e camponeses. Em missões noturnas utilizam roupas escuras e utilitárias com armas ocultas.",
+        "papel_pt": "Atuam clandestinamente como guardiões e vingadores dos camponeses contra a tirania e os abusos cometidos por samurais corruptos.",
+        "patrono_pt": "",
+        "relacoes": [
+          {
+            "cla": "Lion Clan",
+            "tipo": "rival",
+            "descricao_pt": "Guardam um rancor histórico contra abusos militares cometidos por samurais sobre aldeias rurais."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Sua aldeia natal é ameaçada por um magistrado cruel e a organização exige sua intervenção silenciosa.",
+          "Um membro da sua rede decide chantagear um cortesão para ganho pessoal, violando o código de proteção aos heimin.",
+          "Você deve se infiltrar em uma fortaleza importante ocupando o lugar de um simples criado."
+        ],
+        "source_book": "Book of Void"
+      },
+      {
+        "nome_tradicao": "Hateru Ninja",
+        "resumo_pt": "Composta por descendentes dos seguidores de Ide que permaneceram em Rokugan após a partida do Clã Unicórnio, a família Hateru perdeu a fé na honra após ter suas terras invadidas. Estabelecidos em vilarejos remotos nas montanhas do Clã do Dragão, tornaram-se espiões e assassinos de aluguel mercenários. Eles vendem seus serviços para criminosos e nobres deshonestos mediante pagamentos elevados. Em público, costumam se disfarçar como samurais do Clã do Dragão.",
+        "valores_pt": "Pragmatismo impiedoso, busca por riqueza, preservação do segredo familiar e rejeição completa do Bushido.",
+        "aparencia_pt": "Adoptam a aparência e maneirismos de samurais do Clã do Dragão, mas trazem uma pequena tatuagem discreta de Ki-Rin para se identificarem entre si em segredo.",
+        "papel_pt": "Funcionam como uma organização mercenária de espionagem e assassinato para quem puder arcar com seus custos.",
+        "patrono_pt": "",
+        "relacoes": [
+          {
+            "cla": "Dragon Clan",
+            "tipo": "tenso",
+            "descricao_pt": "Infiltram-se em terras do Dragão e usam o nome do clã como disfarce, plantando pistas falsas para evitar serem descobertos."
+          },
+          {
+            "cla": "Lion Clan",
+            "tipo": "rival",
+            "descricao_pt": "Mantêm ódio ancestral pela invasão brutal que destruiu suas terras originais séculos atrás."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Seu novo contrato de assassinato envolve um alvo que salvou sua vida no passado.",
+          "Um magistrado do Clã do Dragão chega perigosamente perto de descobrir o vilarejo secreto da sua família nas montanhas.",
+          "Você precisa usar uma identidade falsa do Clã do Dragão para extrair segredos de um tribunal imperial."
+        ],
+        "source_book": "Book of Void"
+      },
+      {
+        "nome_tradicao": "Sesai Ninja",
+        "resumo_pt": "Fundada por um membro fanático da família Shiba determinado a proteger os shugenja Isawa por qualquer meio, a tradição Sesai recruta guarda-costas caídos em desgraça. Em sua fortaleza secreta nas Montanhas do Arrependimento, os recrutas recebem treinamento intenso em sabotagem, infiltração e assassinato. Após o treino, retornam às suas funções normais no Clã da Fênix até serem convocados para missões clandestinas em épocas de guerra.",
+        "valores_pt": "Devoção absoluta ao Clã da Fênix, disposição para sacrificar a própria honra pelo clã e cooperação tática silenciosa.",
+        "aparencia_pt": "Apresentam-se com o porte e armadura tradicionais dos guerreiros Shiba, mas usam marcas sutis na armadura e códigos escritos para se reconhecerem no campo de batalha.",
+        "papel_pt": "Atuam como a força secreta de operações táticas do Clã da Fênix, conferindo vantagens veladas ao exército em tempos de conflito.",
+        "patrono_pt": "Clã da Fênix (operam em segredo dentro da estrutura militar da família Shiba).",
+        "relacoes": [
+          {
+            "cla": "Phoenix Clan",
+            "tipo": "aliado",
+            "descricao_pt": "Servem ao clã em segredo absoluto, assumindo a desonra para manter a pureza espiritual dos mestres Isawa."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Você recebe ordens para assassinar um general inimigo antes de um confronto decisivo.",
+          "Um companheiro guerreiro Shiba descobre suas atividades secretas e o acusa de trair os ideais do clã.",
+          "Durante uma batalha, você precisa usar códigos secretos para coordenar um ato de sabotagem com outros agentes Sesai."
+        ],
+        "source_book": "Book of Void"
+      },
+      {
+        "nome_tradicao": "Paper Fan Fighting Style",
+        "resumo_pt": "Criado por Kakita Umeji enquanto estudava origami na Academia de Artesãos Kakita, este estilo esotérico utiliza leques de papel dobrado como ferramentas eficazes de autodefesa. Ao constatar a facilidade com que o papel pode cortar a pele, Umeji desenvolveu técnicas de manejo duplo que lembram apresentações artísticas. A prática tornou-se uma moda temporária na academia antes do desaparecimento misterioso de seu criador, sobrevivendo de forma restrita em um pequeno monastério isolado.",
+        "valores_pt": "Elegância estética, transformação de objetos banais em recursos de autodefesa e contenção sem ostentação de força.",
+        "aparencia_pt": "O praticante veste trajes nobres refinados e manipula leques de papel aparentemente inofensivos com movimentos fluidos e graciosos.",
+        "papel_pt": "Estilo não oficial de autodefesa discreta, ideal para ambientes nobres onde o porte de armas de aço é restrito.",
+        "patrono_pt": "Teve origem na Academia do Clã do Grou, embora não faça parte do currículo formal de suas escolas de bushi.",
+        "relacoes": [
+          {
+            "cla": "Crane Clan",
+            "tipo": "aliado",
+            "descricao_pt": "Desenvolvido por um artesão Kakita como uma expressão artística que combina graça social e eficiência técnica."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Você busca localizar o monastério escondido nas montanhas para aprender os segredos esquecidos de Kakita Umeji.",
+          "Desarmado em uma celebração diplomática, você precisa defender seu lorde utilizando apenas um par de leques de papel.",
+          "Um rival desafia você para um duelo não letal exigindo que ambos utilizem apenas leques de papel."
+        ],
+        "source_book": "Book of Void"
+      },
+      {
+        "nome_tradicao": "Deadly Chi Strikes",
+        "resumo_pt": "Esta tradição sinistra e envolta em mistério é associada às lendas sobre Bayushi Okimoto, um guerreiro do Clã do Escorpião. O estilo baseia-se na aplicação de golpes precisos nos pontos onde a energia espiritual (chi) flui pelo corpo humano. Com pequenos cortes de lâmina ou toques à mão livre, o praticante consegue paralisar membros, causar dores intensas ou provocar mortes posteriores que se assemelham a envenenamento ou causas naturais. O Clã do Escorpião mantém silêncio sobre a veracidade dessas técnicas.",
+        "valores_pt": "Precisão anatômica, eficiência letal sem alarde e exploração do terror psicológico sobre os adversários.",
+        "aparencia_pt": "O combatente luta de maneira calma e calculada, aplicando toques ou cortes superficiais quase imperceptíveis antes de se afastar enquanto o oponente colapsa.",
+        "papel_pt": "Método lendário de incapacitação e assassinato discreto que não deixa vestígios óbvios de envenenamento ou força bruta.",
+        "patrono_pt": "Clã do Escorpião (associado historicamente aos seus infiltradores e espiões).",
+        "relacoes": [
+          {
+            "cla": "Scorpion Clan",
+            "tipo": "patrono",
+            "descricao_pt": "O clã cultiva o mistério em torno desta arte para desencorajar inimigos nas cortes e no campo de batalha."
+          },
+          {
+            "cla": "Lion Clan",
+            "tipo": "rival",
+            "descricao_pt": "Guerreiros tradicionais do Leão abominam essas técnicas, considerando-as deshonrosas e covardes."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Um samurai influente morre sem ferimentos aparentes e você é encarregado de investigar se o golpe de chi foi empregado.",
+          "Você procura textos proibidos contendo o mapeamento dos pontos de chi para aprender a neutralizar agressores sem armas.",
+          "Um oponente atinge seus meridianos espirituais durante um combate, paralisando seus movimentos temporariamente."
+        ],
+        "source_book": "Book of Void"
+      }
+    ]
+  },
+  "locais": {
+    "locais": [
+      {
+        "nome": "The High House of Light",
+        "contexto_pt": "Sede da família Togashi e do Clã do Dragão, associada ao Elemento Vazio e à ordem dos homens tatuados nas montanhas nortistas.",
+        "resumo_pt": "Localizado no topo de uma montanha remota e de difícil acesso, este castelo serve como refúgio para o Kami Togashi e sua ordem de monásticos. Suas estruturas espartanas contam com inúmeros templos, pátios de treinamento e passagens subterrâneas antigas. A jornada até o local é perigosa e cercada por provações espirituais.",
+        "destaque_pt": "Abriga passagens físicas diretas para Tengoku e Yume-do, mantendo uma atmosfera de serenidade espiritual e contemplação única no Império.",
+        "source_book": "The Book of Void",
+        "pagina": 95
+      },
+      {
+        "nome": "Shinden Asahina",
+        "contexto_pt": "Santuário e templo do Clã do Grou, associado à família Asahina e à promoção da paz e harmonia.",
+        "resumo_pt": "Trata-se de um amplo complexo de templos e santuários mantido pelo Clã do Grou como um centro de meditação e pacificismo. Apesar da proximidade com territórios historicamente disputados, o local não possui defesas militares ativas e é respeitado como solo sagrado. Suas instalações contam com câmaras de meditação, bibliotecas e oficinas de artesanato espiritual.",
+        "destaque_pt": "Sede das fundições de Tsangusuri, onde shugenja pesquisam e produzem fetiches e nemuranai pacíficos para o Clã do Grou.",
+        "source_book": "The Book of Void",
+        "pagina": 97
+      },
+      {
+        "nome": "Nazo Mori",
+        "contexto_pt": "Grande floresta misteriosa e cenário principal de aventura do capítulo dedicado, não associada oficialmente a nenhum clã.",
+        "resumo_pt": "Uma floresta de tamanho modesto cuja existência é omitida de todos os mapas oficiais do Império por razões desconhecidas. Os vilarejos ao seu redor vivem sob o constante fardo da paranoia, temendo as estranhas aberrações, ruínas antigas e desaparições ligadas à mata. Eruditos que tentaram explorar seus segredos ao longo da história acabaram enlouquecendo ou morrendo tragicamente.",
+        "destaque_pt": "Servi de palco para uma campanha focada em mistério e horror psicológico, abrigando ruínas pré-humanas e a influência de uma entidade sombria ligada ao Vazio.",
+        "source_book": "The Book of Void",
+        "pagina": 148
+      },
+      {
+        "nome": "Kyuden Isawa",
+        "contexto_pt": "Sede do Clã da Fênix e da família Isawa, centro supremo de erudição mágica e estudos do Vazio.",
+        "resumo_pt": "Uma grande cidade-palácio caracterizada pela intensa atividade mística e acadêmica de seus habitantes. Em seus salões e bibliotecas, novos feitiços são desenvolvidos, pergaminhos sagrados são preservados e gerações de shugenja recebem treinamento. É o local que concentra a maior quantidade de ishiken e mestres do Vazio em todo o Império.",
+        "destaque_pt": "É o maior centro de aprendizado mágico de Rokugan e o local com a maior convergência natural e concentração de praticantes de magia do Vazio.",
+        "source_book": "The Book of Void",
+        "pagina": 118
+      },
+      {
+        "nome": "Pale Oak Castle",
+        "contexto_pt": "Castelo do Clã da Fênix, fortemente associado à pureza espiritual e ao Elemento Vazio.",
+        "resumo_pt": "Uma fortaleza formidável situada nas terras da Fênix que alia grande capacidade defensiva a uma profunda atmosfera de veneração. No interior de suas muralhas cresce o Grande Carvalho Branco, uma árvore ancestral de imenso valor sagrado. A presença da árvore abençoa o castelo com uma forte conexão com os espíritos e o Vazio.",
+        "destaque_pt": "Abriga o Grande Carvalho Branco, uma fonte de imenso poder espiritual e pureza que intensifica a presença do Vazio em toda a estrutura do castelo.",
+        "source_book": "The Book of Void",
+        "pagina": 118
+      }
+    ]
   }
 }

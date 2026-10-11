@@ -75,6 +75,27 @@ INSTRUCAO_POR_CATEGORIA = {
         "'destaque_pt' por que esse local é notável ou interessante pra "
         "uma aventura."
     ),
+    "grupos": (
+        "Cubra as organizações políticas/místicas/marciais NOMEADAS "
+        "descritas nos capítulos de Corte e Magia do livro (ex. grupos "
+        "como 'Doji Innocents', 'Daidoji Trading Council', 'Mist Legion', "
+        "'Kitsu Spirit Legion', 'Order of the Wind', 'Sisters of Sacred "
+        "Light' — sociedades/legiões/círculos dentro de um clã ou entre "
+        "clãs). NÃO inclua clã, família, facção, ordem monástica geral "
+        "ou tradição marcial — essas já têm categoria própria. IMPORTANTE: "
+        "o campo de nome é do GRUPO em si, nunca do clã associado a ele "
+        "— isso vai em 'patrono_pt'."
+    ),
+    "personagens": (
+        "Cubra as pessoas notáveis citadas pelo NOME no livro: "
+        "personalidades mencionadas nos capítulos de Guerra/Corte/Magia "
+        "(duelistas famosos, membros notáveis de grupos) e os NPCs "
+        "descritos no capítulo do grande local de aventura (seção "
+        "'Friends and Enemies'/'Notable Personages'/'Notable "
+        "Personalities', veja o sumário). Resumo curto por pessoa (2-3 "
+        "frases): quem é, o que faz, por que é notável. Em 'contexto_pt' "
+        "diga o clã/grupo/cargo dela."
+    ),
 }
 
 

@@ -114,6 +114,14 @@ def main() -> None:
             tradicoes.append(item)
     salvar("tradicoes-marciais", [normalizar_grupo(i) for i in tradicoes])
 
+    # Mesmo remapeamento, campo "nome_grupo" (ver schema.py GRUPOS).
+    grupos = []
+    for dados in livros_elementais.values():
+        for item in extrair_categoria(dados, "grupos"):
+            item["cla"] = item.pop("nome_grupo", None)
+            grupos.append(item)
+    salvar("grupos", [normalizar_grupo(i) for i in grupos])
+
     # --- famílias (shape "entidade curta", categoria extra pra filtrar) ----
     familias = []
     for item in extrair_categoria(lore_grandes, "familias"):
@@ -135,6 +143,14 @@ def main() -> None:
         for dados in livros_elementais.values():
             itens.extend(extrair_categoria(dados, categoria_raw))
         salvar(categoria_saida, com_ids_curta(itens))
+
+    # Personagens: mesma categoria "personagens" nos 5 livros elementais +
+    # Sword and Fan (generais notáveis) — shape "entidade curta", unificado.
+    personagens = []
+    for dados in livros_elementais.values():
+        personagens.extend(extrair_categoria(dados, "personagens"))
+    personagens.extend(extrair_categoria(lore_sword_fan, "personagens"))
+    salvar("personagens", com_ids_curta(personagens))
 
 
 if __name__ == "__main__":

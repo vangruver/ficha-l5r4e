@@ -1,1 +1,279 @@
-[]
+[
+  {
+    "resumo_pt": "A escola de iaijutsu fundada pelo lendário espadachim Kakita é reconhecida como o auge da arte do duelo em Rokugan. Localizada em terras centrais do Clã do Grou, a academia ensina a perfeição do corte único e a sintonia absoluta com o elemento Ar. Seus formandos dominam o duelo formal e a etiqueta das cortes, frequentemente servindo como campeões do Imperador ou defensores de honra.",
+    "valores_pt": "Busca pela perfeição estética, controle mental sereno, harmonia espiritual e domínio do golpe único decisivo.",
+    "aparencia_pt": "Trajes elegantes e impecáveis nas cores azul e branca do Clã do Grou, postura serena e refinamento artístico elevado.",
+    "papel_pt": "Formar os duelistas mais temidos e respeitados do Império, garantindo a supremacia do Clã do Grou nas disputas legais e rituais.",
+    "patrono_pt": "Clã do Grou",
+    "relacoes": [
+      {
+        "cla": "Clã do Leão",
+        "tipo": "rival",
+        "descricao_pt": "Rivalidade histórica originada no duelo inaugural entre Kakita e Matsu no primeiro Torneio do Imperador.",
+        "claId": "cla-do-leao"
+      },
+      {
+        "cla": "Clã do Dragão",
+        "tipo": "rival",
+        "descricao_pt": "Respeito mútuo mesclado com debate filosófico sobre a eficácia da lâmina única contra a técnica Niten de duas espadas.",
+        "claId": "cla-do-dragao"
+      }
+    ],
+    "ganchos_roleplay": [
+      "O personagem precisa defender a honra do dojo em um duelo público contra um provocador do Clã do Leão.",
+      "Um jovem duelista recebe a missão de rastrear uma técnica antiga da academia que foi vazada para uma escola rival.",
+      "O personagem deve atuar como campeão em uma disputa judicial complexa na corte imperial onde perder significa a ruína de sua família."
+    ],
+    "source_book": "Book of Air",
+    "cla": "Kakita Dueling Academy",
+    "id": "kakita-dueling-academy"
+  },
+  {
+    "resumo_pt": "O centro de duelos do Clã do Caranguejo foi estabelecido para treinar bushi nas tradições formais de iaijutsu exigidas pelas terras imperiais. Diferente da busca pela velocidade pura, o dojo ensina o praticante a suportar o primeiro golpe do oponente e responder com uma contra-ofensiva avassaladora. É frequentado principalmente por guerreiros destinados a atuar como yojimbo de diplomomatas Caranguejo.",
+    "valores_pt": "Resistência inabalável, pragmatismo militar, dever inflexível e capacidade de absorver dano para garantir o golpe final.",
+    "aparencia_pt": "Uso de armaduras pesadas durante os treinos, postura firme e direta, e rejeição de ornamentos puramente estéticos.",
+    "papel_pt": "Capacitar os guerreiros do Caranguejo a defenderem a honra do clã nas cortes imperiais sem renunciar à sua essência de durabilidade.",
+    "patrono_pt": "Clã do Caranguejo",
+    "relacoes": [
+      {
+        "cla": "Clã do Grou",
+        "tipo": "neutro",
+        "descricao_pt": "Reconhecimento técnico da superioridade do Grou em velocidade, embora o Caranguejo sustente que a resistência vence lutas reais.",
+        "claId": "cla-do-grou"
+      }
+    ],
+    "ganchos_roleplay": [
+      "O bushi precisa atuar como guarda de corpo de um diplomata Yasuki em uma corte hostil e enfrentar duelistas mais rápidos.",
+      "Um veterano do dojo busca provar que a resistência do Caranguejo pode superar a velocidade refinada de um mestre do Grou.",
+      "O personagem é enviado para reaprender etiquetas formais após se envolver em uma briga violenta em terras imperiais."
+    ],
+    "source_book": "Book of Air",
+    "cla": "Unbreakable Blade Dojo",
+    "id": "unbreakable-blade-dojo"
+  },
+  {
+    "resumo_pt": "Localizado nas montanhas do Clã do Dragão, este dojo ensina o estilo de iaijutsu de uma única espada, servindo como alternativa à técnica Niten. O treinamento enfatiza a observação analítica das posturas adversárias para identificar fraquezas e origens de treinamento. Muitos de seus graduados tornam-se Justicares Kitsuki, utilizando o duelo como ferramenta na busca por verdade e justiça.",
+    "valores_pt": "Observação atenta, autoconhecimento, imparcialidade e rejeição do orgulho pessoal em favor da verdade factual.",
+    "aparencia_pt": "Vestimentas austeras e funcionais, postura contemplativa e uso de espelhos no treinamento para aperfeiçoar a percepção visual.",
+    "papel_pt": "Treinar magistrados e duelistas do Dragão capazes de analisar o estilo do adversário e desarmar conflitos com precisão.",
+    "patrono_pt": "Clã do Dragão",
+    "relacoes": [
+      {
+        "cla": "Clã do Grou",
+        "tipo": "neutro",
+        "descricao_pt": "Estudo contínuo das rotinas da Kakita para compreender e neutralizar a velocidade do estilo tradicional do Grou.",
+        "claId": "cla-do-grou"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Um magistrado Kitsuki formado no dojo deve usar suas habilidades de observação para desmascarar um assassino em uma corte.",
+      "O personagem precisa enfrentar um oponente cujo estilo de combate é completamente desconhecido e não se encaixa nas escolas tradicionais.",
+      "Um duelista do dojo é desafiado por um samurai que busca vingança por uma sentença proferida durante uma investigação."
+    ],
+    "source_book": "Book of Air",
+    "cla": "The Dojo of the Mirror",
+    "id": "the-dojo-of-the-mirror"
+  },
+  {
+    "resumo_pt": "Este dojo mantido pela família Akodo é o principal centro de ensino de iaijutsu dentro do Clã do Leão. Embora a formação militar tradicional ocupe a maioria dos soldados do clã, os estudantes desta instituição dedicam-se rigorosamente ao duelo ritualístico. Seus formandos combinam a disciplina tática do Leão com a precisão do corte limpo para proteger a honra de seus senhores.",
+    "valores_pt": "Honra estrita, veneração aos ancestrais, coragem militar e disciplina pessoal inflexível.",
+    "aparencia_pt": "Trajes guerreiros elegantes em tons de marrom e dourado, postura militar ereta e rituais longos de citação da linhagem ancestral.",
+    "papel_pt": "Fornecer duelistas qualificados para representar o Clã do Leão em disputas legais e conflitos formais de honra.",
+    "patrono_pt": "Clã do Leão",
+    "relacoes": [
+      {
+        "cla": "Clã do Grou",
+        "tipo": "rival",
+        "descricao_pt": "Competição constante para provar que a dedicação à honra do Leão supera a elegância do Grou no campo do iaijutsu.",
+        "claId": "cla-do-grou"
+      }
+    ],
+    "ganchos_roleplay": [
+      "O personagem é encarregado de representar o Leão em um duelo autorizado por um magistrado imperial contra um nobre influente.",
+      "Um jovem graduado descobre que seu oponente em um duelo de honra é um antigo amigo de infância de outro clã.",
+      "O samurai deve realizar ritos detalhados para invocar o espírito de seus ancestrais antes de entrar em uma disputa mortal."
+    ],
+    "source_book": "Book of Air",
+    "cla": "Heart of the Katana",
+    "id": "heart-of-the-katana"
+  },
+  {
+    "resumo_pt": "Criada pelo homem tatuado Togashi Kaze no terceiro século, o Kaze-do é uma arte marcial desarmada desenvolvida originalmente para permitir que camponeses se defendessem sem quebrar leis imperiais sobre posse de armas. O estilo foca em esquivas, projeções e desarmes, utilizando a velocidade e a força do próprio atacante contra ele mesmo. A tradição sobrevive entre a Irmandade de Shinsei e praticantes isolados.",
+    "valores_pt": "Não-violência defensiva, humildade, evitação de conflitos diretos e aceitação de que a vitória vem ao deixar o oponente derrotar a si mesmo.",
+    "aparencia_pt": "Movimentos fluídos e evasivos como o vento, vestimentas simples de monge ou camponês e ausência total de postura rígida de combate.",
+    "papel_pt": "Oferecer um método de autodefesa não letal focado na proteção pessoal sem causar dor desnecessária.",
+    "patrono_pt": "",
+    "relacoes": [
+      {
+        "cla": "Irmandade de Shinsei",
+        "tipo": "aliado",
+        "descricao_pt": "Preservada e praticada por várias ordens monásticas como forma de meditação física e autodefesa ética.",
+        "claId": "irmandade-de-shinsei"
+      }
+    ],
+    "ganchos_roleplay": [
+      "O personagem aprende a arte secreta de um mestre itinerante e precisa defender uma vila humilde contra ronins sem usar lâminas.",
+      "Um monge praticante de Kaze-do é desafiado por um bushi arrogante que considera o combate desarmado uma ofensa ao código samurai.",
+      "O praticante precisa desarmar uma situação violenta na corte utilizando movimentos sutis sem que os presentes percebam a luta."
+    ],
+    "source_book": "Book of Air",
+    "cla": "The Way of Kaze-do",
+    "id": "the-way-of-kaze-do"
+  },
+  {
+    "resumo_pt": "Kukan-do não é um estilo físico engessado com formas rituais, mas uma filosofia martial abrangente fundada na compreensão do Vazio. A disciplina ensina que a arte do combate é inseparável das atividades da vida cotidiana, conectando mente, corpo e ambiente. Qualquer arte marcial praticada com iluminação, foco no momento presente e ausência de hesitação pode ser considerada uma expressão de Kukan-do. Seu objetivo supremo é permitir que o guerreiro aja por instinto puro sem o apego a técnicas predeterminadas.",
+    "valores_pt": "Preza o desapego do ego, a mente aberta de iniciante (shoshin), a atenção concentrada no momento (zanshin) e a perseverança estoica (gaman).",
+    "aparencia_pt": "Os praticantes movem-se com naturalidade fluida e sem desperdício de energia. Executam tarefas banais como varrer o chão ou preparar o chá com a mesma intenção concentrada de um confronto mortal.",
+    "papel_pt": "Serve como o fundamento filosófico mais elevado para os mestres de artes marciais do Império, elevando a prática das armas a uma busca por autoconhecimento e harmonia espiritual.",
+    "patrono_pt": "O Clã do Dragão e o Clã da Fênix são os principais defensores desta filosofia, embora ordens da Irmandade de Shinsei também a cultivem.",
+    "relacoes": [
+      {
+        "cla": "Clã do Dragão",
+        "tipo": "aliado",
+        "descricao_pt": "Os combatentes Mirumoto e ascetas Togashi abraçam a ausência de formas fixas e a adaptação constante ao momento.",
+        "claId": "cla-do-dragao"
+      },
+      {
+        "cla": "Clã da Fênix",
+        "tipo": "aliado",
+        "descricao_pt": "A Fênix compreende o aspecto místico do Vazio e incentiva o cultivo da mente serena em seus guardiões Shiba.",
+        "claId": "cla-da-fenix"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Seu mestre exige que você passe meses realizando tarefas domésticas antes de lhe ensinar um único movimento de combate.",
+      "Durante um duelo decisivo, você percebe que precisa abandonar todas as técnicas aprendidas para reagir puramente por instinto.",
+      "Um samurai de um clã militarista ridiculariza sua filosofia de combate chamando-a de mera teoria de monastério."
+    ],
+    "source_book": "Book of Void",
+    "cla": "Kukan-do",
+    "id": "kukan-do"
+  },
+  {
+    "resumo_pt": "Fundada no início do Império por um camponês chamado Koga após assassinar um cobrador de impostos abusivo, esta rede secreta opera exclusivamente para proteger as classes baixas. Seus membros recrutam servos e agricultores que passam despercebidos pela nobreza samurai. Eles utilizam disfarces cotidianos, conhecimentos sobre plantas venenosas e ferramentas adaptadas para eliminar opressores. A organização pune severamente tentativas de traição e mantém suas operações totalmente ocultas das autoridades imperiais.",
+    "valores_pt": "Lealdade absoluta à proteção dos camponeses, sigilo rigoroso e rejeição dos ideais de honra da nobreza.",
+    "aparencia_pt": "Misturam-se perfeitamente à população comum vestindo trajes de servos e camponeses. Em missões noturnas utilizam roupas escuras e utilitárias com armas ocultas.",
+    "papel_pt": "Atuam clandestinamente como guardiões e vingadores dos camponeses contra a tirania e os abusos cometidos por samurais corruptos.",
+    "patrono_pt": "",
+    "relacoes": [
+      {
+        "cla": "Clã do Leão",
+        "tipo": "rival",
+        "descricao_pt": "Guardam um rancor histórico contra abusos militares cometidos por samurais sobre aldeias rurais.",
+        "claId": "cla-do-leao"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Sua aldeia natal é ameaçada por um magistrado cruel e a organização exige sua intervenção silenciosa.",
+      "Um membro da sua rede decide chantagear um cortesão para ganho pessoal, violando o código de proteção aos heimin.",
+      "Você deve se infiltrar em uma fortaleza importante ocupando o lugar de um simples criado."
+    ],
+    "source_book": "Book of Void",
+    "cla": "Koga Ninja",
+    "id": "koga-ninja"
+  },
+  {
+    "resumo_pt": "Composta por descendentes dos seguidores de Ide que permaneceram em Rokugan após a partida do Clã Unicórnio, a família Hateru perdeu a fé na honra após ter suas terras invadidas. Estabelecidos em vilarejos remotos nas montanhas do Clã do Dragão, tornaram-se espiões e assassinos de aluguel mercenários. Eles vendem seus serviços para criminosos e nobres deshonestos mediante pagamentos elevados. Em público, costumam se disfarçar como samurais do Clã do Dragão.",
+    "valores_pt": "Pragmatismo impiedoso, busca por riqueza, preservação do segredo familiar e rejeição completa do Bushido.",
+    "aparencia_pt": "Adoptam a aparência e maneirismos de samurais do Clã do Dragão, mas trazem uma pequena tatuagem discreta de Ki-Rin para se identificarem entre si em segredo.",
+    "papel_pt": "Funcionam como uma organização mercenária de espionagem e assassinato para quem puder arcar com seus custos.",
+    "patrono_pt": "",
+    "relacoes": [
+      {
+        "cla": "Clã do Dragão",
+        "tipo": "tenso",
+        "descricao_pt": "Infiltram-se em terras do Dragão e usam o nome do clã como disfarce, plantando pistas falsas para evitar serem descobertos.",
+        "claId": "cla-do-dragao"
+      },
+      {
+        "cla": "Clã do Leão",
+        "tipo": "rival",
+        "descricao_pt": "Mantêm ódio ancestral pela invasão brutal que destruiu suas terras originais séculos atrás.",
+        "claId": "cla-do-leao"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Seu novo contrato de assassinato envolve um alvo que salvou sua vida no passado.",
+      "Um magistrado do Clã do Dragão chega perigosamente perto de descobrir o vilarejo secreto da sua família nas montanhas.",
+      "Você precisa usar uma identidade falsa do Clã do Dragão para extrair segredos de um tribunal imperial."
+    ],
+    "source_book": "Book of Void",
+    "cla": "Hateru Ninja",
+    "id": "hateru-ninja"
+  },
+  {
+    "resumo_pt": "Fundada por um membro fanático da família Shiba determinado a proteger os shugenja Isawa por qualquer meio, a tradição Sesai recruta guarda-costas caídos em desgraça. Em sua fortaleza secreta nas Montanhas do Arrependimento, os recrutas recebem treinamento intenso em sabotagem, infiltração e assassinato. Após o treino, retornam às suas funções normais no Clã da Fênix até serem convocados para missões clandestinas em épocas de guerra.",
+    "valores_pt": "Devoção absoluta ao Clã da Fênix, disposição para sacrificar a própria honra pelo clã e cooperação tática silenciosa.",
+    "aparencia_pt": "Apresentam-se com o porte e armadura tradicionais dos guerreiros Shiba, mas usam marcas sutis na armadura e códigos escritos para se reconhecerem no campo de batalha.",
+    "papel_pt": "Atuam como a força secreta de operações táticas do Clã da Fênix, conferindo vantagens veladas ao exército em tempos de conflito.",
+    "patrono_pt": "Clã da Fênix (operam em segredo dentro da estrutura militar da família Shiba).",
+    "relacoes": [
+      {
+        "cla": "Clã da Fênix",
+        "tipo": "aliado",
+        "descricao_pt": "Servem ao clã em segredo absoluto, assumindo a desonra para manter a pureza espiritual dos mestres Isawa.",
+        "claId": "cla-da-fenix"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Você recebe ordens para assassinar um general inimigo antes de um confronto decisivo.",
+      "Um companheiro guerreiro Shiba descobre suas atividades secretas e o acusa de trair os ideais do clã.",
+      "Durante uma batalha, você precisa usar códigos secretos para coordenar um ato de sabotagem com outros agentes Sesai."
+    ],
+    "source_book": "Book of Void",
+    "cla": "Sesai Ninja",
+    "id": "sesai-ninja"
+  },
+  {
+    "resumo_pt": "Criado por Kakita Umeji enquanto estudava origami na Academia de Artesãos Kakita, este estilo esotérico utiliza leques de papel dobrado como ferramentas eficazes de autodefesa. Ao constatar a facilidade com que o papel pode cortar a pele, Umeji desenvolveu técnicas de manejo duplo que lembram apresentações artísticas. A prática tornou-se uma moda temporária na academia antes do desaparecimento misterioso de seu criador, sobrevivendo de forma restrita em um pequeno monastério isolado.",
+    "valores_pt": "Elegância estética, transformação de objetos banais em recursos de autodefesa e contenção sem ostentação de força.",
+    "aparencia_pt": "O praticante veste trajes nobres refinados e manipula leques de papel aparentemente inofensivos com movimentos fluidos e graciosos.",
+    "papel_pt": "Estilo não oficial de autodefesa discreta, ideal para ambientes nobres onde o porte de armas de aço é restrito.",
+    "patrono_pt": "Teve origem na Academia do Clã do Grou, embora não faça parte do currículo formal de suas escolas de bushi.",
+    "relacoes": [
+      {
+        "cla": "Clã do Grou",
+        "tipo": "aliado",
+        "descricao_pt": "Desenvolvido por um artesão Kakita como uma expressão artística que combina graça social e eficiência técnica.",
+        "claId": "cla-do-grou"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Você busca localizar o monastério escondido nas montanhas para aprender os segredos esquecidos de Kakita Umeji.",
+      "Desarmado em uma celebração diplomática, você precisa defender seu lorde utilizando apenas um par de leques de papel.",
+      "Um rival desafia você para um duelo não letal exigindo que ambos utilizem apenas leques de papel."
+    ],
+    "source_book": "Book of Void",
+    "cla": "Paper Fan Fighting Style",
+    "id": "paper-fan-fighting-style"
+  },
+  {
+    "resumo_pt": "Esta tradição sinistra e envolta em mistério é associada às lendas sobre Bayushi Okimoto, um guerreiro do Clã do Escorpião. O estilo baseia-se na aplicação de golpes precisos nos pontos onde a energia espiritual (chi) flui pelo corpo humano. Com pequenos cortes de lâmina ou toques à mão livre, o praticante consegue paralisar membros, causar dores intensas ou provocar mortes posteriores que se assemelham a envenenamento ou causas naturais. O Clã do Escorpião mantém silêncio sobre a veracidade dessas técnicas.",
+    "valores_pt": "Precisão anatômica, eficiência letal sem alarde e exploração do terror psicológico sobre os adversários.",
+    "aparencia_pt": "O combatente luta de maneira calma e calculada, aplicando toques ou cortes superficiais quase imperceptíveis antes de se afastar enquanto o oponente colapsa.",
+    "papel_pt": "Método lendário de incapacitação e assassinato discreto que não deixa vestígios óbvios de envenenamento ou força bruta.",
+    "patrono_pt": "Clã do Escorpião (associado historicamente aos seus infiltradores e espiões).",
+    "relacoes": [
+      {
+        "cla": "Clã do Escorpião",
+        "tipo": "patrono",
+        "descricao_pt": "O clã cultiva o mistério em torno desta arte para desencorajar inimigos nas cortes e no campo de batalha.",
+        "claId": "cla-do-escorpiao"
+      },
+      {
+        "cla": "Clã do Leão",
+        "tipo": "rival",
+        "descricao_pt": "Guerreiros tradicionais do Leão abominam essas técnicas, considerando-as deshonrosas e covardes.",
+        "claId": "cla-do-leao"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Um samurai influente morre sem ferimentos aparentes e você é encarregado de investigar se o golpe de chi foi empregado.",
+      "Você procura textos proibidos contendo o mapeamento dos pontos de chi para aprender a neutralizar agressores sem armas.",
+      "Um oponente atinge seus meridianos espirituais durante um combate, paralisando seus movimentos temporariamente."
+    ],
+    "source_book": "Book of Void",
+    "cla": "Deadly Chi Strikes",
+    "id": "deadly-chi-strikes"
+  }
+]

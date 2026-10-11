@@ -313,5 +313,50 @@
     "destaque_pt": "Servi como o santuário protegido pelo insano Adkarst, sendo um dos locais mais perigosos e misteriosos do arquipélago.",
     "source_book": "The Book of Water",
     "pagina": 147
+  },
+  {
+    "id": "the-high-house-of-light--the-book-of-void",
+    "nome": "The High House of Light",
+    "contexto_pt": "Sede da família Togashi e do Clã do Dragão, associada ao Elemento Vazio e à ordem dos homens tatuados nas montanhas nortistas.",
+    "resumo_pt": "Localizado no topo de uma montanha remota e de difícil acesso, este castelo serve como refúgio para o Kami Togashi e sua ordem de monásticos. Suas estruturas espartanas contam com inúmeros templos, pátios de treinamento e passagens subterrâneas antigas. A jornada até o local é perigosa e cercada por provações espirituais.",
+    "destaque_pt": "Abriga passagens físicas diretas para Tengoku e Yume-do, mantendo uma atmosfera de serenidade espiritual e contemplação única no Império.",
+    "source_book": "The Book of Void",
+    "pagina": 95
+  },
+  {
+    "id": "shinden-asahina--the-book-of-void",
+    "nome": "Shinden Asahina",
+    "contexto_pt": "Santuário e templo do Clã do Grou, associado à família Asahina e à promoção da paz e harmonia.",
+    "resumo_pt": "Trata-se de um amplo complexo de templos e santuários mantido pelo Clã do Grou como um centro de meditação e pacificismo. Apesar da proximidade com territórios historicamente disputados, o local não possui defesas militares ativas e é respeitado como solo sagrado. Suas instalações contam com câmaras de meditação, bibliotecas e oficinas de artesanato espiritual.",
+    "destaque_pt": "Sede das fundições de Tsangusuri, onde shugenja pesquisam e produzem fetiches e nemuranai pacíficos para o Clã do Grou.",
+    "source_book": "The Book of Void",
+    "pagina": 97
+  },
+  {
+    "id": "nazo-mori--the-book-of-void",
+    "nome": "Nazo Mori",
+    "contexto_pt": "Grande floresta misteriosa e cenário principal de aventura do capítulo dedicado, não associada oficialmente a nenhum clã.",
+    "resumo_pt": "Uma floresta de tamanho modesto cuja existência é omitida de todos os mapas oficiais do Império por razões desconhecidas. Os vilarejos ao seu redor vivem sob o constante fardo da paranoia, temendo as estranhas aberrações, ruínas antigas e desaparições ligadas à mata. Eruditos que tentaram explorar seus segredos ao longo da história acabaram enlouquecendo ou morrendo tragicamente.",
+    "destaque_pt": "Servi de palco para uma campanha focada em mistério e horror psicológico, abrigando ruínas pré-humanas e a influência de uma entidade sombria ligada ao Vazio.",
+    "source_book": "The Book of Void",
+    "pagina": 148
+  },
+  {
+    "id": "kyuden-isawa--the-book-of-void",
+    "nome": "Kyuden Isawa",
+    "contexto_pt": "Sede do Clã da Fênix e da família Isawa, centro supremo de erudição mágica e estudos do Vazio.",
+    "resumo_pt": "Uma grande cidade-palácio caracterizada pela intensa atividade mística e acadêmica de seus habitantes. Em seus salões e bibliotecas, novos feitiços são desenvolvidos, pergaminhos sagrados são preservados e gerações de shugenja recebem treinamento. É o local que concentra a maior quantidade de ishiken e mestres do Vazio em todo o Império.",
+    "destaque_pt": "É o maior centro de aprendizado mágico de Rokugan e o local com a maior convergência natural e concentração de praticantes de magia do Vazio.",
+    "source_book": "The Book of Void",
+    "pagina": 118
+  },
+  {
+    "id": "pale-oak-castle--the-book-of-void",
+    "nome": "Pale Oak Castle",
+    "contexto_pt": "Castelo do Clã da Fênix, fortemente associado à pureza espiritual e ao Elemento Vazio.",
+    "resumo_pt": "Uma fortaleza formidável situada nas terras da Fênix que alia grande capacidade defensiva a uma profunda atmosfera de veneração. No interior de suas muralhas cresce o Grande Carvalho Branco, uma árvore ancestral de imenso valor sagrado. A presença da árvore abençoa o castelo com uma forte conexão com os espíritos e o Vazio.",
+    "destaque_pt": "Abriga o Grande Carvalho Branco, uma fonte de imenso poder espiritual e pureza que intensifica a presença do Vazio em toda a estrutura do castelo.",
+    "source_book": "The Book of Void",
+    "pagina": 118
   }
 ]

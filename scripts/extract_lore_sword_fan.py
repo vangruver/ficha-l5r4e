@@ -17,11 +17,11 @@ import json
 import os
 
 from extract import extrair
-from schema import AMEACAS, ESTRANGEIROS
+from schema import AMEACAS, ESTRANGEIROS, PERSONAGENS_SWORD_FAN
 
 PDF_PATH = os.path.join(os.path.dirname(__file__), "..", "pdfs", "sword-and-fan.pdf")
 
-CATEGORIAS = {"ameacas": AMEACAS, "estrangeiros": ESTRANGEIROS}
+CATEGORIAS = {"ameacas": AMEACAS, "estrangeiros": ESTRANGEIROS, "personagens": PERSONAGENS_SWORD_FAN}
 
 INSTRUCAO_POR_CATEGORIA = {
     "ameacas": (
@@ -33,6 +33,12 @@ INSTRUCAO_POR_CATEGORIA = {
     "estrangeiros": (
         "Cubra as nações/povos gaijin e sua relação com a política "
         "rokugani, do capítulo \"Outsiders in Rokugani Politics\"."
+    ),
+    "personagens": (
+        "Cubra os generais e estrategistas notáveis do capítulo "
+        "\"Notable Generals of Rokugan\" (Capítulo Um: Strategy). Resumo "
+        "curto por pessoa (2-3 frases): quem é, o que fez, por que é "
+        "notável. Em 'contexto_pt' diga o clã/exército que ela serve."
     ),
 }
 

@@ -15,12 +15,16 @@ Desvantagens (10 pts, confirmado contra o Core pág. 106) foram os últimos iten
 resta é só automação futura opcional (Afinidade/Deficiência extraída do livro em vez de manual),
 não um item quebrado ou faltando.
 
-**Wiki expandida de 9 pra 307 artigos em 10-11/out** — Carlos pediu uma wiki muito mais completa
+**Wiki expandida de 9 pra 323 artigos em 10-11/out** — Carlos pediu uma wiki muito mais completa
 depois de notar que só os 9 Clãs Grandes estavam lá ("cadê o Clã Oriole?" — era o Clã do Papa-figos,
-um dos 10 Clãs Menores do Secrets of the Empire que ainda não tinham sido extraídos). Ver seção
-"Wiki expandida (10-11/out)" abaixo pro detalhe completo — **falta reextrair 1 categoria com bug
-(tradições marciais) e extrair Sword & Fan (ameaças/estrangeiros)**, bloqueado pela cota diária do
-Gemini até ~21h de 11/out (ver "Cota pendente" nessa seção).
+um dos 10 Clãs Menores do Secrets of the Empire que ainda não tinham sido extraídos). Depois pediu
+pra revisar o índice de TODOS os livros em busca de qualquer conteúdo faltando — achei duas
+categorias novas (Grupos/Organizações e Personagens Notáveis, ver abaixo). Ver seção "Wiki expandida
+(10-11/out)" pro detalhe completo — **bug das tradições marciais confirmado corrigido** (11 itens,
+nomes reais de dojo/tradição, zero duplicata). **Falta ainda**: tradições marciais de
+earth/fire/water, grupos+personagens dos 5 livros elementais, e ameaças/estrangeiros/personagens do
+Sword & Fan — bloqueado pela cota diária do Gemini (esgotada de novo às ~03h de 11/out, retoma
+~21h de 11/out, ver "Cota pendente" nessa seção pro número exato de requests que faltam).
 
 **Publicado no GitHub em 09/out/2026:** repo público [vangruver/ficha-l5r4e](https://github.com/vangruver/ficha-l5r4e),
 GitHub Pages ativado em <https://vangruver.github.io/ficha-l5r4e/> (mesmo esquema do dnd-sheet).
@@ -325,7 +329,26 @@ mais completa possível, com todas as informações do livro." Fui atrás e ache
 **10 Clãs Menores** cobertos só por `secrets-of-the-empire.pdf` (capítulo "The Way of the Minor
 Clans") — nunca tinha sido extraído. Carlos então pediu pra ir além: todos os clãs de todos os
 livros, todas as famílias, e "qualquer outra informação" dos livros (reinos espirituais, tradições
-marciais, armas/estilos, etc.). A wiki foi de **9 artigos (só os Clãs Grandes) pra 307**.
+marciais, armas/estilos, etc.). A wiki foi de **9 artigos (só os Clãs Grandes) pra 323** (e mais
+~16 itens ainda pendentes de cota, ver "Cota pendente" abaixo).
+
+**Segunda rodada (11/out): revisão de índice completo.** Carlos pediu explicitamente pra olhar o
+índice (`doc.get_toc()` via `pymupdf`) de TODOS os 9 livros e achar qualquer conteúdo que ainda não
+tivesse categoria na wiki. Achados:
+- **Grupos e Organizações** (categoria nova) — sociedades políticas/místicas/marciais NOMEADAS
+  dentro dos 5 livros elementais (ex. "Doji Innocents", "Daidoji Trading Council", "Mist Legion",
+  "Kitsu Spirit Legion", "Order of the Wind", "Sisters of Sacred Light") — não são clã, família,
+  facção nem ordem monástica (essas já tinham categoria), mas aparecem nos capítulos de Corte e
+  Magia de cada livro, claramente indexadas no sumário, sem lugar na wiki até agora.
+- **Personagens Notáveis** (categoria nova) — generais/estrategistas do capítulo "Notable Generals
+  of Rokugan" (Sword & Fan) + os NPCs de destaque no grande local de aventura de cada livro elemental
+  (seções "Friends and Enemies"/"Notable Personages"/"Notable Personalities" do sumário).
+- **Descartado de propósito** (não é omissão): Sword & Fan tem capítulos inteiros de regras
+  procedurais (Mass Battle expandido, Estratégia/Tática de guerra, Etiqueta de Corte passo a passo,
+  tabelas de Heritage/histórico de personagem no Great Clans e no Secrets) — isso é MECÂNICA de jogo
+  nova, não "conteúdo de lore" que caiba no formato artigo-de-wiki; viraria uma feature de UI
+  separada (ex. uma calculadora de Mass Battle), não uma categoria de wiki. Registrando aqui pra não
+  parecer que ficou esquecido — é decisão de escopo, igual o diagrama circular dos 5 Anéis.
 
 **Categorias novas** (schema em `scripts/schema.py`, dois shapes reutilizáveis: "grupo" — rico, tipo
 clã, com resumo/valores/aparência/papel/relações/ganchos — e "entidade curta" — catálogo, um
@@ -342,8 +365,10 @@ parágrafo, tipo família/artefato):
 | **Artefatos** (nemuranai notáveis) | 5 livros elementais | 89 | `extract_lore_elementos.py` |
 | **Criaturas** (fortunas, espíritos, raças lendárias) | 5 livros elementais | 71 | `extract_lore_elementos.py` |
 | **Locais Notáveis** (cortes famosas + grande local de cada livro) | 5 livros elementais | 35 | `extract_lore_elementos.py` |
-| **Tradições Marciais** (dojos, estilos de combate nomeados) | 5 livros elementais | 0 (bug, ver abaixo) | `extract_lore_elementos.py` |
-| **Ameaças Externas** / **Estrangeiros** | Sword and Fan cap. "Enemies"/"Outsiders" | ainda não extraído | `extract_lore_sword_fan.py` |
+| **Tradições Marciais** (dojos, estilos de combate nomeados) | 5 livros elementais | 11 (Air+Void prontos; Earth/Fire/Water pendentes) | `extract_lore_elementos.py` |
+| **Grupos e Organizações** (sociedades políticas/místicas/marciais nomeadas) | 5 livros elementais | 0, pendente cota | `extract_lore_elementos.py` |
+| **Personagens Notáveis** (generais + NPCs de locais de aventura) | 5 livros elementais + Sword and Fan | 0, pendente cota | `extract_lore_elementos.py` + `extract_lore_sword_fan.py` |
+| **Ameaças Externas** / **Estrangeiros** | Sword and Fan cap. "Enemies"/"Outsiders" | 0, pendente cota | `extract_lore_sword_fan.py` |
 
 `src/database.js` carrega todos os `data/lore/*.json` novos. `src/wiki.js` foi reescrito do zero:
 antes era só lista+artigo de clã, agora tem uma barra de **seções** no topo (só mostra seção com
@@ -364,22 +389,33 @@ dos 5 `raw/lore-<elemento>.json`** pra forçar reextração com o schema corrigi
 categorias de cada um (`artefatos`/`criaturas`/`locais`) não tinham esse problema (conferido: ids
 únicos em todas as categorias, zero duplicata) e ficaram como estão.
 
-**Cota pendente (retomar quando resetar, ~21h de 11/out):** `GEMINI_API_MODEL` também precisou
-mudar — `gemini-2.0-flash` foi descontinuado pela Google entre sessões (`model no longer available`),
-e na troca `gemini-2.5-flash` deu 404 "no longer available to new users" e `gemini-3.8-flash`/
-`gemini-3.7-flash` estavam com sobrecarga de servidor (503) persistente. **`gemini-3.6-flash`
-funcionou bem** e é o valor atual de `GEMINI_API_MODEL` (setado via `setx`, mas lembrar de exportar
-de novo em terminal novo — ver nota de sempre sobre `GEMINI_API_KEY_2`/`setx` não propagar pra shell
-já aberto). Faltam **3 requests** pra fechar tudo: `tradicoes_marciais` dos 5 livros elementais (na
-real seriam 5 requests, mas Vazio já tem as outras 3 categorias, só falta reextrair essa 1 categoria
-nova ali também — total real: 5 de tradições + 2 do Sword & Fan = 7, não 3; corrigir essa conta
-quando for rodar). Comando pra retomar: `python extract_lore_elementos.py` (resumível, só pega o que
-falta) seguido de `python extract_lore_sword_fan.py`, depois `python build_lore.py` de novo.
+**Cota pendente (retomar quando resetar, ~21h de 11/out — esgotou de novo às 03h):**
+`GEMINI_API_MODEL` também precisou mudar — `gemini-2.0-flash` foi descontinuado pela Google entre
+sessões (`model no longer available`), e na troca `gemini-2.5-flash` deu 404 "no longer available to
+new users" e `gemini-3.8-flash`/`gemini-3.7-flash` estavam com sobrecarga de servidor (503)
+persistente. **`gemini-3.6-flash` funcionou bem** e é o valor atual de `GEMINI_API_MODEL` (setado via
+`setx`, mas lembrar de exportar de novo em terminal novo — ver nota de sempre sobre
+`GEMINI_API_KEY_2`/`setx` não propagar pra shell já aberto).
 
-**Testado com clique real** (`puppeteer-core`, instalado/removido só pra esse teste): as 9 seções
-com dado aparecem (nenhuma vazia — Ameaças/Estrangeiros/Tradições Marciais ficam escondidas até
-terem conteúdo), contagem de itens bate em cada uma, link cruzado entre clã e clã funciona, link de
-família pro clã-pai funciona, zero erro de console.
+**Contagem exata do que falta (conferida direto nos `raw/lore-*.json`, 11/out ~03h):**
+- Air: `grupos` + `personagens` (2 requests) — `tradicoes_marciais`/`artefatos`/`criaturas`/`locais` já prontos
+- Earth: `tradicoes_marciais` + `grupos` + `personagens` (3 requests)
+- Fire: `tradicoes_marciais` + `grupos` + `personagens` (3 requests)
+- Water: `tradicoes_marciais` + `grupos` + `personagens` (3 requests)
+- Void: `grupos` + `personagens` (2 requests) — `tradicoes_marciais`/`locais`/`artefatos`/`criaturas` já prontos
+- Sword and Fan: `ameacas` + `estrangeiros` + `personagens` (3 requests)
+- **Total: 16 requests**, bem dentro dos 40/dia (2 contas) depois do reset.
+
+Comando pra retomar: `python extract_lore_elementos.py` (resumível, só pega o que falta em cada
+`raw/lore-<elemento>.json`) seguido de `python extract_lore_sword_fan.py`, depois `python
+build_lore.py` de novo. Depois de rodar, checar duplicata de id em `data/lore/*.json` de novo (script
+inline Node usado nesta sessão, não ficou salvo como utilitário — só um `JSON.parse` + `.map(id)` +
+procurar repetido).
+
+**Testado com clique real** (`puppeteer-core`, instalado/removido só pra esse teste): as 10 seções
+com dado aparecem (Grupos/Personagens/Ameaças/Estrangeiros ficam escondidos até terem conteúdo),
+contagem de itens bate em cada uma (Locais agora 40, Tradições Marciais agora 11 com nomes corretos
+de dojo/tradição — confirma que o bug foi corrigido de verdade), zero erro de console.
 
 ## Segurança
 

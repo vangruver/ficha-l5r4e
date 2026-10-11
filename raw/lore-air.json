@@ -306,5 +306,119 @@
         "pagina": 134
       }
     ]
+  },
+  "tradicoes_marciais": {
+    "tradicoes_marciais": [
+      {
+        "nome_tradicao": "Kakita Dueling Academy",
+        "resumo_pt": "A escola de iaijutsu fundada pelo lendário espadachim Kakita é reconhecida como o auge da arte do duelo em Rokugan. Localizada em terras centrais do Clã do Grou, a academia ensina a perfeição do corte único e a sintonia absoluta com o elemento Ar. Seus formandos dominam o duelo formal e a etiqueta das cortes, frequentemente servindo como campeões do Imperador ou defensores de honra.",
+        "valores_pt": "Busca pela perfeição estética, controle mental sereno, harmonia espiritual e domínio do golpe único decisivo.",
+        "aparencia_pt": "Trajes elegantes e impecáveis nas cores azul e branca do Clã do Grou, postura serena e refinamento artístico elevado.",
+        "papel_pt": "Formar os duelistas mais temidos e respeitados do Império, garantindo a supremacia do Clã do Grou nas disputas legais e rituais.",
+        "patrono_pt": "Clã do Grou",
+        "relacoes": [
+          {
+            "cla": "Lion Clan",
+            "tipo": "rival",
+            "descricao_pt": "Rivalidade histórica originada no duelo inaugural entre Kakita e Matsu no primeiro Torneio do Imperador."
+          },
+          {
+            "cla": "Dragon Clan",
+            "tipo": "rival",
+            "descricao_pt": "Respeito mútuo mesclado com debate filosófico sobre a eficácia da lâmina única contra a técnica Niten de duas espadas."
+          }
+        ],
+        "ganchos_roleplay": [
+          "O personagem precisa defender a honra do dojo em um duelo público contra um provocador do Clã do Leão.",
+          "Um jovem duelista recebe a missão de rastrear uma técnica antiga da academia que foi vazada para uma escola rival.",
+          "O personagem deve atuar como campeão em uma disputa judicial complexa na corte imperial onde perder significa a ruína de sua família."
+        ],
+        "source_book": "Book of Air"
+      },
+      {
+        "nome_tradicao": "Unbreakable Blade Dojo",
+        "resumo_pt": "O centro de duelos do Clã do Caranguejo foi estabelecido para treinar bushi nas tradições formais de iaijutsu exigidas pelas terras imperiais. Diferente da busca pela velocidade pura, o dojo ensina o praticante a suportar o primeiro golpe do oponente e responder com uma contra-ofensiva avassaladora. É frequentado principalmente por guerreiros destinados a atuar como yojimbo de diplomomatas Caranguejo.",
+        "valores_pt": "Resistência inabalável, pragmatismo militar, dever inflexível e capacidade de absorver dano para garantir o golpe final.",
+        "aparencia_pt": "Uso de armaduras pesadas durante os treinos, postura firme e direta, e rejeição de ornamentos puramente estéticos.",
+        "papel_pt": "Capacitar os guerreiros do Caranguejo a defenderem a honra do clã nas cortes imperiais sem renunciar à sua essência de durabilidade.",
+        "patrono_pt": "Clã do Caranguejo",
+        "relacoes": [
+          {
+            "cla": "Crane Clan",
+            "tipo": "neutro",
+            "descricao_pt": "Reconhecimento técnico da superioridade do Grou em velocidade, embora o Caranguejo sustente que a resistência vence lutas reais."
+          }
+        ],
+        "ganchos_roleplay": [
+          "O bushi precisa atuar como guarda de corpo de um diplomata Yasuki em uma corte hostil e enfrentar duelistas mais rápidos.",
+          "Um veterano do dojo busca provar que a resistência do Caranguejo pode superar a velocidade refinada de um mestre do Grou.",
+          "O personagem é enviado para reaprender etiquetas formais após se envolver em uma briga violenta em terras imperiais."
+        ],
+        "source_book": "Book of Air"
+      },
+      {
+        "nome_tradicao": "The Dojo of the Mirror",
+        "resumo_pt": "Localizado nas montanhas do Clã do Dragão, este dojo ensina o estilo de iaijutsu de uma única espada, servindo como alternativa à técnica Niten. O treinamento enfatiza a observação analítica das posturas adversárias para identificar fraquezas e origens de treinamento. Muitos de seus graduados tornam-se Justicares Kitsuki, utilizando o duelo como ferramenta na busca por verdade e justiça.",
+        "valores_pt": "Observação atenta, autoconhecimento, imparcialidade e rejeição do orgulho pessoal em favor da verdade factual.",
+        "aparencia_pt": "Vestimentas austeras e funcionais, postura contemplativa e uso de espelhos no treinamento para aperfeiçoar a percepção visual.",
+        "papel_pt": "Treinar magistrados e duelistas do Dragão capazes de analisar o estilo do adversário e desarmar conflitos com precisão.",
+        "patrono_pt": "Clã do Dragão",
+        "relacoes": [
+          {
+            "cla": "Crane Clan",
+            "tipo": "neutro",
+            "descricao_pt": "Estudo contínuo das rotinas da Kakita para compreender e neutralizar a velocidade do estilo tradicional do Grou."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Um magistrado Kitsuki formado no dojo deve usar suas habilidades de observação para desmascarar um assassino em uma corte.",
+          "O personagem precisa enfrentar um oponente cujo estilo de combate é completamente desconhecido e não se encaixa nas escolas tradicionais.",
+          "Um duelista do dojo é desafiado por um samurai que busca vingança por uma sentença proferida durante uma investigação."
+        ],
+        "source_book": "Book of Air"
+      },
+      {
+        "nome_tradicao": "Heart of the Katana",
+        "resumo_pt": "Este dojo mantido pela família Akodo é o principal centro de ensino de iaijutsu dentro do Clã do Leão. Embora a formação militar tradicional ocupe a maioria dos soldados do clã, os estudantes desta instituição dedicam-se rigorosamente ao duelo ritualístico. Seus formandos combinam a disciplina tática do Leão com a precisão do corte limpo para proteger a honra de seus senhores.",
+        "valores_pt": "Honra estrita, veneração aos ancestrais, coragem militar e disciplina pessoal inflexível.",
+        "aparencia_pt": "Trajes guerreiros elegantes em tons de marrom e dourado, postura militar ereta e rituais longos de citação da linhagem ancestral.",
+        "papel_pt": "Fornecer duelistas qualificados para representar o Clã do Leão em disputas legais e conflitos formais de honra.",
+        "patrono_pt": "Clã do Leão",
+        "relacoes": [
+          {
+            "cla": "Crane Clan",
+            "tipo": "rival",
+            "descricao_pt": "Competição constante para provar que a dedicação à honra do Leão supera a elegância do Grou no campo do iaijutsu."
+          }
+        ],
+        "ganchos_roleplay": [
+          "O personagem é encarregado de representar o Leão em um duelo autorizado por um magistrado imperial contra um nobre influente.",
+          "Um jovem graduado descobre que seu oponente em um duelo de honra é um antigo amigo de infância de outro clã.",
+          "O samurai deve realizar ritos detalhados para invocar o espírito de seus ancestrais antes de entrar em uma disputa mortal."
+        ],
+        "source_book": "Book of Air"
+      },
+      {
+        "nome_tradicao": "The Way of Kaze-do",
+        "resumo_pt": "Criada pelo homem tatuado Togashi Kaze no terceiro século, o Kaze-do é uma arte marcial desarmada desenvolvida originalmente para permitir que camponeses se defendessem sem quebrar leis imperiais sobre posse de armas. O estilo foca em esquivas, projeções e desarmes, utilizando a velocidade e a força do próprio atacante contra ele mesmo. A tradição sobrevive entre a Irmandade de Shinsei e praticantes isolados.",
+        "valores_pt": "Não-violência defensiva, humildade, evitação de conflitos diretos e aceitação de que a vitória vem ao deixar o oponente derrotar a si mesmo.",
+        "aparencia_pt": "Movimentos fluídos e evasivos como o vento, vestimentas simples de monge ou camponês e ausência total de postura rígida de combate.",
+        "papel_pt": "Oferecer um método de autodefesa não letal focado na proteção pessoal sem causar dor desnecessária.",
+        "patrono_pt": "",
+        "relacoes": [
+          {
+            "cla": "Brotherhood of Shinsei",
+            "tipo": "aliado",
+            "descricao_pt": "Preservada e praticada por várias ordens monásticas como forma de meditação física e autodefesa ética."
+          }
+        ],
+        "ganchos_roleplay": [
+          "O personagem aprende a arte secreta de um mestre itinerante e precisa defender uma vila humilde contra ronins sem usar lâminas.",
+          "Um monge praticante de Kaze-do é desafiado por um bushi arrogante que considera o combate desarmado uma ofensa ao código samurai.",
+          "O praticante precisa desarmar uma situação violenta na corte utilizando movimentos sutis sem que os presentes percebam a luta."
+        ],
+        "source_book": "Book of Air"
+      }
+    ]
   }
 }

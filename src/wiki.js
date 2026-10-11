@@ -1,13 +1,14 @@
 // Aba "Wiki": enciclopédia por seção (Clãs Grandes, Clãs Menores, Famílias,
 // Facções, Ordens Monásticas, Reinos Espirituais, Tradições Marciais,
-// Artefatos, Criaturas, Locais, Ameaças, Estrangeiros), com lista de itens
-// e link cruzado entre clãs/grupos relacionados.
+// Grupos/Organizações, Artefatos, Criaturas, Locais, Personagens, Ameaças,
+// Estrangeiros), com lista de itens e link cruzado entre clãs/grupos
+// relacionados.
 //
 // Duas formas de artigo:
-// - "grupo" (clãs, facções, reinos, ordens, tradições marciais, ameaças,
-//   estrangeiros): resumo/valores/aparência/papel/relações/ganchos.
-// - "curta" (famílias, artefatos, criaturas, locais): entrada de catálogo,
-//   um parágrafo — nome/contexto/resumo/destaque.
+// - "grupo" (clãs, facções, reinos, ordens, tradições marciais, grupos,
+//   ameaças, estrangeiros): resumo/valores/aparência/papel/relações/ganchos.
+// - "curta" (famílias, artefatos, criaturas, locais, personagens): entrada
+//   de catálogo, um parágrafo — nome/contexto/resumo/destaque.
 //
 // Dados em data/lore/*.json, gerados por scripts/extract_lore*.py +
 // scripts/build_lore.py — resumo original, nunca tradução do livro (ver
@@ -40,9 +41,11 @@ const SECOES = [
   { id: "ordensMonasticas", titulo: "Ordens Monásticas", chave: "ordensMonasticas", tipo: "grupo" },
   { id: "reinosEspirituais", titulo: "Reinos Espirituais", chave: "reinosEspirituais", tipo: "grupo" },
   { id: "tradicoesMarciais", titulo: "Tradições Marciais", chave: "tradicoesMarciais", tipo: "grupo" },
+  { id: "grupos", titulo: "Grupos e Organizações", chave: "grupos", tipo: "grupo" },
   { id: "artefatos", titulo: "Artefatos", chave: "artefatos", tipo: "curta" },
   { id: "criaturas", titulo: "Criaturas", chave: "criaturas", tipo: "curta" },
   { id: "locais", titulo: "Locais Notáveis", chave: "locais", tipo: "curta" },
+  { id: "personagens", titulo: "Personagens Notáveis", chave: "personagens", tipo: "curta" },
   { id: "ameacas", titulo: "Ameaças Externas", chave: "ameacas", tipo: "grupo" },
   { id: "estrangeiros", titulo: "Estrangeiros", chave: "estrangeiros", tipo: "grupo" },
 ];
