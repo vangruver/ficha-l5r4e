@@ -1,0 +1,188 @@
+[
+  {
+    "cla": "The Four Temples",
+    "resumo_pt": "Criada sob o patrocínio da Lady Seppun no início da história imperial, esta é uma das facções mais prestigiadas e politicamente ativas de Rokugan. Seus monges acreditam que a iluminação deve ser buscada na convivência social e no aconselhamento dos governantes. A ordem guarda relíquias inestimáveis e mantém uma vasta rede de informações por todo o Império.",
+    "valores_pt": "Engajamento social, liderança moral, preservação das tradições espirituais e orientação dos líderes mortais.",
+    "aparencia_pt": "Monastérios opulentos e bem estruturados, com monges vestindo trajes alinhados e de boa apresentação.",
+    "papel_pt": "Atuar como porta-vozes da Irmandade junto ao Imperador e aconselhar os grandes líderes imperiais e de clãs.",
+    "patrono_pt": "Possui fortes ligações históricas e patrocínio contínuo das Famílias Imperiais, em especial da família Seppun.",
+    "relacoes": [
+      {
+        "cla": "Famílias Imperiais",
+        "tipo": "aliado",
+        "descricao_pt": "Atuam como conselheiros espirituais diretos da corte e guardiões de relíquias imperiais.",
+        "claId": "familias-imperiais"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Aconselhar um Daimyo jovem e impulsivo que pretende iniciar uma guerra de fronteira injusta.",
+      "Proteger uma das relíquias sagradas mantidas nos Quatro Templos contra um roubo articulado por heréticos.",
+      "Investigar discrepâncias entre relatos políticos e informações trazidas pela rede de monges da ordem."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "the-four-temples"
+  },
+  {
+    "cla": "The Shrine of the Seven Thunders",
+    "resumo_pt": "Localizada em um vale remoto nas Montanhas da Espinha do Mundo, esta ordem é totalmente voltada à veneração dos Sete Trovões originais. Seus integrantes vivem de maneira extremamente isolada e ascética, dedicando-se a estudar os feitos e as falhas humanas desses heróis mortais. A trilha para o templo principal é famosa por suas esculturas colossais gravadas na rocha.",
+    "valores_pt": "Reconhecimento da perfeição alcançada através da superação das imperfeições mortais e devoção aos Trovões.",
+    "aparencia_pt": "Templos rústicos encravados em penhascos, com monges de aparência austera e roupas de tecido cru.",
+    "papel_pt": "Preservar a história, relíquias e lições dos Trovões que enfrentaram o Kami Sombrio.",
+    "patrono_pt": "",
+    "relacoes": [],
+    "ganchos_roleplay": [
+      "Guiar uma comitiva de nobres exigentes pela difícil subida montanhosa até o santuário principal.",
+      "Impedir que um historiador de um Grande Clã divulgue um segredo vergonhoso sobre um dos Trovões originais.",
+      "Proteger uma relíquia recuperada de um Trovão contra forças sombrias que tentam profaná-la."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "the-shrine-of-the-seven-thunders"
+  },
+  {
+    "cla": "The Temple of Kaimetsu-Uo",
+    "resumo_pt": "Nascida a partir dos ensinamentos marciais de Togashi Kaze, esta ordem unificou a prática do Kaze-do com o espírito resoluto de Kaimetsu-Uo. Seus monges enfatizam o treinamento físico rigoroso e a autodefesa desarmada como ferramentas de purificação e equilíbrio interior. São muito admirados pelo povo comum por sua atuação em prol da paz e proteção dos fracos.",
+    "valores_pt": "Defesa dos desvalidos, purificação mental e física, rejeição da violência desnecessária e humildade.",
+    "aparencia_pt": "Monges em constante movimento, realizando exercícios físicos e artes marciais em praças de vilarejos ou pátios de templos.",
+    "papel_pt": "Defender camponeses indefesos contra injustiças e manter o equilíbrio nas comunidades rurais.",
+    "patrono_pt": "Guarda profunda ligação espiritual e histórica com o Clã do Mantis.",
+    "relacoes": [
+      {
+        "cla": "Clã do Mantis",
+        "tipo": "aliado",
+        "descricao_pt": "Partilham o respeito pelo ancestral comum Kaimetsu-Uo e pela sede do templo nas ilhas do clã.",
+        "claId": "cla-do-mantis"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Ensinar aos habitantes de uma aldeia como se defenderem de bandidos usando métodos não letais.",
+      "Investigar acusações de que um monge da ordem usou suas artes marciais para intimidação pessoal.",
+      "Proteger um vilarejo contra a opressão de um magistrado corrupto sem violar as leis do Império."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "the-temple-of-kaimetsu-uo"
+  },
+  {
+    "cla": "The Temple of Osano-Wo",
+    "resumo_pt": "Esta ordem abriga os sohei, monges guerreiros dedicados ao Fortuna do Fogo e do Trovão. Seus membros incluem ex-samurais violentos, criminosos em busca de redenção e veteranos de batalha que buscam direcionar sua fúria para a proteção da Irmandade. Conhecidos por sua estampa intimidadora e cicatrizes rituais, eles são a força de choque espiritual de Rokugan.",
+    "valores_pt": "Força indomável, bravura inflexível, redenção através do combate rigoroso e purificação pela dor.",
+    "aparencia_pt": "Guerreiros corpulentos usando faixas de pano que cobrem o rosto e corpo, ocultando marcas e cicatrizes de provações rituais.",
+    "papel_pt": "Proteger os locais sagrados contra ameaças físicas e combater abominações ou invasões do mal.",
+    "patrono_pt": "",
+    "relacoes": [
+      {
+        "cla": "Clã da Caranguejo",
+        "tipo": "aliado",
+        "descricao_pt": "Unidos pelo respeito ao espírito guerreiro de Osano-Wo e pelo combate direto às forças sombrias.",
+        "claId": "cla-da-caranguejo"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Comandar a defesa de um templo isolado cercado por criaturas vindas das Terras Sombrias.",
+      "Garantir asilo religioso a um guerreiro arrependido jurado de morte por seus antigos aliados.",
+      "Superar o doloroso ritual das cicatrizes nas tempestuosas Planícies do Trovão para provar seu valor."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "the-temple-of-osano-wo"
+  },
+  {
+    "cla": "The Temple of the Thousand Fortunes",
+    "resumo_pt": "Origem histórica da maioria das práticas religiosas do Império, esta ordem abrange o culto a todas as Fortunas Grandes e Menores. É a maior seita em número de seguidores e monastérios, atendendo diretamente camponeses e samurais em suas necessidades diárias. Seus monges gerenciam os templos mais visitados de Rokugan e realizam rituais de bênção por todo o território.",
+    "valores_pt": "Devoção às Fortunas, serviço imparcial à comunidade e manutenção do culto diário.",
+    "aparencia_pt": "Extrema diversidade de estilos, desde grandiosos complexos urbanos até pequenos altares rurais.",
+    "papel_pt": "Oferecer orientação espiritual, realizar bênçãos cotidianas e administrar os locais de culto às Fortunas.",
+    "patrono_pt": "",
+    "relacoes": [],
+    "ganchos_roleplay": [
+      "Descobrir qual Fortuna Menor foi ofendida após uma onda de más colheitas atingir uma província.",
+      "Mediar uma disputa entre vilarejos vizinhos pela posse de um altar sagrado antigo.",
+      "Organizar os preparativos para a elevação oficial de um novo herói falecido ao status de Fortuna."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "the-temple-of-the-thousand-fortunes"
+  },
+  {
+    "cla": "The Barefoot Brethren",
+    "resumo_pt": "Uma ordem de mendicantes andarilhos conhecidos por percorrer imensas distâncias a pé para entregar mensagens sem cobrar pagamento. Criada por um bushi do Caranguejo que correu até gastar as solas de suas sandálias, a seita é formada principalmente por camponeses e ex-guerreiros de baixa renda. Sua velocidade a pé é lendária, rivalizando com correios montados.",
+    "valores_pt": "Humildade absoluta, resistência física, caridade e auxílio irrestrito à comunicação entre o povo.",
+    "aparencia_pt": "Vestes extremamente simples e desgastadas, cajado de madeira, tigela de esmola e pés calejados sem calçados.",
+    "papel_pt": "Servir como rede de mensagens e comunicação acessível para camponeses e Clãs Menores.",
+    "patrono_pt": "",
+    "relacoes": [
+      {
+        "cla": "Clãs Menores",
+        "tipo": "aliado",
+        "descricao_pt": "Servem frequentemente como mensageiros discretos e econômicos para clãs de poucos recursos.",
+        "claId": "clas-menores"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Entregar um aviso urgente sobre uma praga a tempo de salvar uma região isolada.",
+      "Atravessar território em guerra esquivando-se de patrulhas para levar a carta de uma mãe ao seu filho guerreiro.",
+      "Descobrir um plano de traição ao transportar sem saber uma mensagem secreta entre dois nobres."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "the-barefoot-brethren"
+  },
+  {
+    "cla": "The Order of Peaceful Repose",
+    "resumo_pt": "Especializada na realização de ritos fúnebres e no apaziguamento de espíritos inquietos, esta ordem serve diretamente ao Fortuna da Morte, Emma-O. Seus monges atendem tanto nobres quanto camponeses e outcastas, garantindo que almas atormentadas não se tornem fantasmas perigosos. Mantêm rituais e costumes arcaicos que preservam tradições pré-imperiais.",
+    "valores_pt": "Respeito aos mortos, imparcialidade no dever, compaixão com os vivos e aceitação do destino cármico.",
+    "aparencia_pt": "Robes com padrões geométricos antigos e austeros, habitando edifícios de arquitetura rústica e solene.",
+    "papel_pt": "Conduzir cerimônias funerárias, apaziguar fantasma vingativos e libertar almas presas ao mundo mortal.",
+    "patrono_pt": "",
+    "relacoes": [
+      {
+        "cla": "Clã da Fênix",
+        "tipo": "aliado",
+        "descricao_pt": "Trocam conhecimentos teológicos e espirituais sobre o ciclo de reencarnação e o reino dos mortos.",
+        "claId": "cla-da-fenix"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Apaziguar o espírito de um guerreiro que se recusa a partir até que sua honra seja limpa.",
+      "Conduzir os ritos de uma chacina em um vilarejo para evitar que a dor do povo atraia espíritos malignos.",
+      "Investigar a causa do surgimento repentino de fantasmas ao redor de um antigo campo de batalha."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "the-order-of-peaceful-repose"
+  },
+  {
+    "cla": "Pure Song Shrine",
+    "resumo_pt": "Esta ordem professa que a pureza perfeita da alma é o único caminho para alcançar a Iluminação. Seus membros seguem um código de conduta incrivelmente rígido, abstendo-se de qualquer alimento que retire a vida da planta ou animal, vestindo apenas cânhamo e usando sinos para alertar pequenos insetos de seus passos. São famosos por criar melodias sutis e cânticos de beleza ímpar.",
+    "valores_pt": "Pureza espiritual absoluta, não violência incondicional, harmonia universal e modéstia.",
+    "aparencia_pt": "Túnicas de cânhamo cru sem tingimento, sinos amarrados aos tornozelos e cajados solenes.",
+    "papel_pt": "Inspirar o equilíbrio e a elevação espiritual através do exemplo de vida pura e do canto harmônico.",
+    "patrono_pt": "Encontram grande acolhida nas terras dos Clãs da Fênix, do Grou e do Mantis.",
+    "relacoes": [],
+    "ganchos_roleplay": [
+      "Manter o voto de não violência mesmo diante de provocações ou ameaças diretas à sua vida.",
+      "Usar o canto sagrado da ordem para acalmar um conflito prestes a explodir entre samurais rivais.",
+      "Procurar uma solução espiritual para uma infestação sem recorrer à destruição dos animais."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "pure-song-shrine"
+  },
+  {
+    "cla": "The Silent Ones",
+    "resumo_pt": "Uma ordem extremamente reduzida e misteriosa baseada nas terras do Escorpião, cujos iniciados perdem a capacidade de falar ao realizarem seus votos no altar do Fortuna dos Segredos. Eles atuam como cofres vivos para informações e segredos perigosos trazidos por nobres e samurais atormentados. Qualquer segredo confiado verbalmente a um Monge Silencioso torna-se inacessível por meios normais ou mágicos.",
+    "valores_pt": "Guarda inviolável de segredos, silêncio absoluto, disciplina e alívio das dores alheias.",
+    "aparencia_pt": "Monges totalmente mudos, de olhar firme e comportamento reservado, vivendo em um monastério oculto.",
+    "papel_pt": "Absorver e proteger segredos destrutivos para impedir que causem guerras ou ruína em Rokugan.",
+    "patrono_pt": "Mantidos sob proteção velada pelo Clã do Escorpião, que reconhece o valor estratégico de seus serviços.",
+    "relacoes": [
+      {
+        "cla": "Clã do Escorpião",
+        "tipo": "aliado",
+        "descricao_pt": "Utilizam a ordem para depositar verdades perigosas que jamais podem ser descobertas por rivais.",
+        "claId": "cla-do-escorpiao"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Proteger um Monge Silencioso contra um shugenja inquisidor que tenta extrair memórias de sua mente.",
+      "Acompanhar um samurai desesperado em uma peregrinação para entregar seu segredo mais sombrio ao templo.",
+      "Descobrir que alguém usou subterfúgio para tentar se infiltrar na ordem sem passar pelo rito do silêncio."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "the-silent-ones"
+  }
+]

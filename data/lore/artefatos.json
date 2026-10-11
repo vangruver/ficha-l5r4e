@@ -1,0 +1,803 @@
+[
+  {
+    "id": "yari-of-air--the-book-of-air",
+    "nome": "Yari of Air",
+    "contexto_pt": "Lança mística única criada por Asako Shingon e Iuchi Yogosha no século XII; associada ao elemento Ar.",
+    "resumo_pt": "Criada por shugenja das famílias Asako e Iuchi sob orientação indireta dos Oráculos Elementais, esta lança lendária foi feita para conter o desequilíbrio provocado pelos Terrores Elementais. Sua haste de madeira cinza-prateada e lâmina de aço são gravadas com desenhos de nuvens, ventos e raios. O artefato possui a propriedade mágica de ser completamente invisível para quase todos, revelando-se apenas a indivíduos fortemente sintonizados com o Ar.",
+    "destaque_pt": "Sendo invisível aos olhos comuns, a lança ignora parte da defesa de reflexos de seus alvos, permite ataques rápidos como ação simples e protege o empunhador contra projéteis.",
+    "source_book": "The Book of Air",
+    "pagina": 121
+  },
+  {
+    "id": "fan-of-command--the-book-of-air",
+    "nome": "Fan of Command",
+    "contexto_pt": "Leque militar (gunsen) associado ao Clã do Leão e ao Kami Akodo.",
+    "resumo_pt": "Este leque de guerra de aço refinado é laqueado em vermelho escuro e possui quinze hastes que lembram lanças negras, ostentando o kanji para 'Sempre'. Reapareceu em diversos momentos cruciais da história imperial, sendo notoriamente carregado por Toturi durante o período de seu exército ronin. Ele transmite uma aura mística de comando e estratégia no campo de batalha.",
+    "destaque_pt": "Aumenta a perícia com leques de guerra e concede vantagens táticas e de liderança como Tático, Liderança ou Grande Destino ao usuário.",
+    "source_book": "The Book of Air",
+    "pagina": 122
+  },
+  {
+    "id": "fan-of-the-grand-master--the-book-of-air",
+    "nome": "Fan of the Grand Master",
+    "contexto_pt": "Leque sagrado concedido aos Mestres Supremos dos Elementos (Naka).",
+    "resumo_pt": "Construído com hastes de madeira escura e folhas de um material néscio que lembra névoa dourada, este leque foi abençoado pelos próprios Dragões Elementais. Passado ao longo das gerações entre aqueles que receberam o título honorífico de Naka, o leque emite uma fina névoa dourada com símbolos oscilantes quando desdobrado. Apenas shugenja de elevado conhecimento conseguem despertar e usufruir de seus poderes.",
+    "destaque_pt": "Permite que um shugenja poderoso aumente temporariamente a proficiência de qualquer perícia conhecida com base em seu nível de Sabedoria.",
+    "source_book": "The Book of Air",
+    "pagina": 122
+  },
+  {
+    "id": "kaede-s-fan--the-book-of-air",
+    "nome": "Kaede's Fan",
+    "contexto_pt": "Leque pessoal da Imperatriz e Oráculo do Vazio, Isawa Kaede (Clã da Fênix).",
+    "resumo_pt": "Feito com finas hastes de carvalho escuro e folhas de papel de arroz amarelo-dourado pintadas com enigmáticos símbolos carmesim, este leque pertenceu à lendária Isawa Kaede. Apesar de sua aparência delicada e frágil, o artefato é extremamente resistente e praticamente impossível de ser danificado. Ele permaneceu no reino mortal após a partida de Kaede para o reino celestial.",
+    "destaque_pt": "Aumenta os testes de cortesão e etiqueta do portador de acordo com seu nível de Honra e concede pontos adicionais sempre que ele recebe Honra.",
+    "source_book": "The Book of Air",
+    "pagina": 122
+  },
+  {
+    "id": "the-imperial-standard--the-book-of-air",
+    "nome": "The Imperial Standard",
+    "contexto_pt": "Estandarte imperial soberano mantido pelas Famílias Imperiais desde Hantei I.",
+    "resumo_pt": "Este lendário estandarte de seda branca ostenta o símbolo do Crisântemo em fio de ouro e esteve presente nas maiores batalhas e procissões da história do Império. A magia que envolve o tecido o mantém impecável e livre de rasgos, sujeira ou desgastes do tempo. Ele serve como o ponto focal da lealdade dos samurai ao Trono Celestial.",
+    "destaque_pt": "Garante bônus de dano e imunidade ao medo para samurai leais nas proximidades, além de conceder grandes vantagens táticas ao general que o carrega.",
+    "source_book": "The Book of Air",
+    "pagina": 123
+  },
+  {
+    "id": "ancestral-standard-of-the-crab-noroshi--the-book-of-air",
+    "nome": "Ancestral Standard of the Crab (Noroshi)",
+    "contexto_pt": "Estandarte ancestral do Clã do Caranguejo, associado à família Hida.",
+    "resumo_pt": "Conhecido como Noroshi, este estandarte monumental é hasteado desde os tempos do Kami Hida e exibe os símbolos do clã e das famílias Hida, Hiruma e Kaiu, além do kanji do Fortuna Bishamon. Trata-se de uma peça massiva que exige dois porta-estandartes ou a montagem em um engenho de cerco. Jamais foi capturado ou derrubado em combate ao longo de toda a história de Rokugan.",
+    "destaque_pt": "Oferece redução de dano massiva e bônus de ataque para os guerreiros do Caranguejo, com eficácia reforçada ao enfrentar criaturas das Terras Sombrias.",
+    "source_book": "The Book of Air",
+    "pagina": 123
+  },
+  {
+    "id": "ancestral-standard-of-the-crane--the-book-of-air",
+    "nome": "Ancestral Standard of the Crane",
+    "contexto_pt": "Estandarte ancestral do Clã do Grou (Bandeira do Grou de Ferro).",
+    "resumo_pt": "Conhecido como a Bandeira do Grou de Ferro, este estandarte azul-celeste traz os símbolos do Clã do Grou, da família Daidoji e dos Fortunas Bishamon e Fukurokujin em prateado. Tem sido levado ao combate por séculos, estando no centro de batalhas lendárias nas quais as forças do Grou superaram exércitos numericamente superiores. Ele inspira precisão e disciplina tática extraordinárias.",
+    "destaque_pt": "Fornece bônus significativos no controle de conflitos de massa e na tabela de eventos de combate, que aumentam quando o exército do Grou está em desvantagem.",
+    "source_book": "The Book of Air",
+    "pagina": 124
+  },
+  {
+    "id": "ancestral-standard-of-the-dragon--the-book-of-air",
+    "nome": "Ancestral Standard of the Dragon",
+    "contexto_pt": "Estandarte ancestral do Clã do Dragão, mantido em Shiro Mirumoto.",
+    "resumo_pt": "De cor verde vibrante com o mon do clã bordado em ouro, este estandarte destaca-se por sua sobriedade sem ornamentos excessivos, alinhada com as filosofias ascéticas do Dragão. Raramente deixou as montanhas do clã, permanecendo guardado por séculos entre os conflitos. Quando levado à guerra, fortalece a conexão mística e espiritual dos guerreiros e praticantes do clã.",
+    "destaque_pt": "Permite ajustar os resultados na tabela de batalhas de massa, aumenta a precisão dos ataques e protege monges e shugenja dos custos colaterais dos kiho.",
+    "source_book": "The Book of Air",
+    "pagina": 124
+  },
+  {
+    "id": "ancestral-standard-of-the-lion-banner-of-the-roaring-tempest--the-book-of-air",
+    "nome": "Ancestral Standard of the Lion (Banner of the Roaring Tempest)",
+    "contexto_pt": "Estandarte ancestral do Clã do Leão (Bandeira da Tempestade Rugidora).",
+    "resumo_pt": "Despertado como um nemuranai durante a Batalha do Rio Adormecido quando uma samurai-ko da Orgulho de Matsu morreu mantendo-o erguido, este estandarte vibra com um som semelhante a leões rugindo em meio a uma tempestade. Ele carrega o espírito indomável de sacrifício dos heróis do Leão. Nenhuma força que sustentou este estandarte em batalha jamais debandou.",
+    "destaque_pt": "Aumenta perícias e dano dos aliados do Leão, concede imunidade ao medo e provoca um efeito de pavor e penalidades nas forças inimigas próximas.",
+    "source_book": "The Book of Air",
+    "pagina": 124
+  },
+  {
+    "id": "battle-standard-of-the-mantis--the-book-of-air",
+    "nome": "Battle Standard of the Mantis",
+    "contexto_pt": "Estandarte militar de retaguarda (sashimono) do Clã do Mantis.",
+    "resumo_pt": "Originalmente o sashimono pessoal do Campeão Hotaka durante as guerras contra A Bocarra, esta bandeira cinza traz três símbolos do Mantis e o kanji de Osano-Wo. É montada em uma haste de madeira sugi trocada anualmente no Festival de Ano Novo e só é desfraldada em campanhas terrestres ou combates navais com a maior parte da frota. Pode ser afixada diretamente no mastro do navio capitânia.",
+    "destaque_pt": "Concede bônus nas perícias de Kenjutsu e Kyujutsu para todas as tropas do Mantis ao redor e aumenta o dano geral dos ataques do exército.",
+    "source_book": "The Book of Air",
+    "pagina": 125
+  },
+  {
+    "id": "ancestral-standard-of-the-phoenix--the-book-of-air",
+    "nome": "Ancestral Standard of the Phoenix",
+    "contexto_pt": "Estandarte ancestral do Clã da Fênix, sob custódia da Guarda de Shiro Shiba.",
+    "resumo_pt": "Criado durante a Primeira Guerra contra Fu Leng, este estandarte alaranjado e dourado exibe as marcas de todas as famílias da Fênix, com o mon Agasha surgindo espontaneamente após a união da família. Ele é montado em uma haste de pau-brasil entalhada com provérbios do clã e tradicionalmente carregado pelo guerreiro Shiba mais jovem. Em tempos de paz, permanece exposto na sede do clã.",
+    "destaque_pt": "Aumenta a rolagem de dano dos guerreiros da Fênix, concede bônus para a conjuração de magias de shugenja e protege os monges ao ativarem kiho.",
+    "source_book": "The Book of Air",
+    "pagina": 125
+  },
+  {
+    "id": "ancestral-standard-of-the-scorpion--the-book-of-air",
+    "nome": "Ancestral Standard of the Scorpion",
+    "contexto_pt": "Estandarte ancestral de aura sinistra do Clã do Escorpião.",
+    "resumo_pt": "Fixado em uma haste de mogno escuro, este estandarte exibe um escorpião vermelho sobre fundo negro e vários kanji enigmáticos de significado incerto. É um objeto envolto em mistério que raramente foi visto em campos de batalha ao longo da história imperial. O Clã do Escorpião cultiva ativamente a reputação ameaçadora da peça para intimidar seus adversários.",
+    "destaque_pt": "Concede bônus de ataque e dano para as tropas do Escorpião e projeta uma aura mística de medo sobre todos os inimigos na área de efeito.",
+    "source_book": "The Book of Air",
+    "pagina": 125
+  },
+  {
+    "id": "ancestral-standard-of-the-unicorn--the-book-of-air",
+    "nome": "Ancestral Standard of the Unicorn",
+    "contexto_pt": "Estandarte ancestral de cavalaria do Clã do Unicórnio (originalmente Clã Ki-Rin).",
+    "resumo_pt": "Este sashimono roxo foi confeccionado antes de o clã partir de Rokugan e viajou com os cavaleiros durante seus oito séculos nas terras exteriores. É carregado por um cavaleiro que cavalga à direita do Campeão do Clã nas batalhas. A peça carrega a bênção espiritual e o peso histórico de gerações de ancestrais Ki-Rin e Unicórnio.",
+    "destaque_pt": "Melhora os testes de Equitação, ataque e dano das tropas montadas e causa um efeito terrível de medo na infantaria inimiga que combate a pé.",
+    "source_book": "The Book of Air",
+    "pagina": 125
+  },
+  {
+    "id": "tapestry-of-air--the-book-of-air",
+    "nome": "Tapestry of Air",
+    "contexto_pt": "Objeto místico decorativo confeccionado por artesãos da família Asahina (Clã do Grou).",
+    "resumo_pt": "Esta tapeçaria é confeccionada por aprendizes e mestres da escola de shugenja Asahina como forma de compreender os espíritos do Ar e a arte dos fetishes. As peças retratam cenas pastorais, paisagens serenas ou formas abstratas de nuvens e vento. Quando exposta em um local de meditação e contemplada regularmente por sete dias, abençoa a mente do morador.",
+    "destaque_pt": "Considera o Anel de Ar do usuário um ponto mais alto para a conjuração de magias de Ar enquanto a meditação mensal for mantida.",
+    "source_book": "The Book of Air",
+    "pagina": 126
+  },
+  {
+    "id": "incense-of-concentration--the-book-of-air",
+    "nome": "Incense of Concentration",
+    "contexto_pt": "Incenso alquímico sagrado criado pela família Asahina (Clã do Grou).",
+    "resumo_pt": "Uma fórmula de incenso que combina serragem, ervas secas e extratos vegetais impregnados com a magia do Ar. Inalar sua fumaça durante a meditação concede clareza mental e foco espiritual renovado ao praticante. Durante a Guerra dos Espíritos no século XII, Asahina Tsukiyoka desenvolveu uma versão aprimorada capaz de capacitar rituais místico-mágicos complexos.",
+    "destaque_pt": "Permite recuperar todos os Pontos de Vazio em um teste bem-sucedido de Meditação; sua versão aprimorada concede bônus em conjurações rituais coletivas.",
+    "source_book": "The Book of Air",
+    "pagina": 126
+  },
+  {
+    "id": "meiwaku-fans--the-book-of-air",
+    "nome": "Meiwaku Fans",
+    "contexto_pt": "Conjunto de leques mágicos criados por Asahina Meiwaku para o Clã do Escorpião.",
+    "resumo_pt": "Desenvolvidos no século X por uma mulher Asahina casada com um nobre Escorpião, estes dezessete leques encantados foram criados como sinal de lealdade à sua nova família. Cada leque ativa seu efeito místico quando aceito voluntariamente como um presente por um alvo. Treze permanecem em posse do Escorpião, enquanto quatro foram perdidos pelo Império ao longo dos anos.",
+    "destaque_pt": "Permite ao doador gastar Pontos de Vazio para ler mentalmente os pensamentos do presenteado enquanto este estiver em seu campo de visão.",
+    "source_book": "The Book of Air",
+    "pagina": 126
+  },
+  {
+    "id": "veil-of-deception--the-book-of-air",
+    "nome": "Veil of Deception",
+    "contexto_pt": "Máscara ilusória mantida e secreta pela família Soshi (Clã do Escorpião).",
+    "resumo_pt": "Trata-se de uma máscara de pano escuro com pequenos kanji prateados bordados na borda, mantida sob rigoroso segredo pela família Soshi. Quando ativada com poder espiritual, faz com que o usuário seja percebido por qualquer observador como a pessoa que ele mais espera ver naquele ambiente. O efeito gera uma ilusão sensorial completa mantida pelos espíritos do Ar.",
+    "destaque_pt": "Altera a imagem e voz do portador para a figura mais plausível esperada pelo alvo, sobrevivendo inclusive à perda de consciência do usuário.",
+    "source_book": "The Book of Air",
+    "pagina": 128
+  },
+  {
+    "id": "the-shakuhachi-of-air--the-book-of-air",
+    "nome": "The Shakuhachi of Air",
+    "contexto_pt": "Flauta de bambu sagrada sob custódia da família Ikoma (Clã do Leão).",
+    "resumo_pt": "Uma flauta de bambu rústico entalhada com kanji arcaicos e adornada com um cordão de seda vermelho, criada nos primeiros tempos do Império para inspirar o povo na guerra contra Fu Leng. Os kami do Ar residentes na flauta instruem e guiam espontaneamente qualquer pessoa que tente tocá-la. É utilizada pelos oradores do Leão para emocionar plateias em momentos solenes.",
+    "destaque_pt": "Garante proficiência na perícia de flauta, eleva a Prontidão de todos na área e concede bônus para outras apresentações artísticas ocorrendo em conjunto.",
+    "source_book": "The Book of Air",
+    "pagina": 128
+  },
+  {
+    "id": "takehiko-s-kite--the-book-of-air",
+    "nome": "Takehiko's Kite",
+    "contexto_pt": "Pipa tática de reconhecimento criada para o general Akodo Takehiko (Clã do Leão).",
+    "resumo_pt": "Desenvolvida no século IX por uma colaboração entre um general do Leão, um shugenja Kitsu e um artesão Isawa, esta pipa militar foi criada para obter visão aérea contra as táticas da cavalaria do Unicórnio. Estruturada de forma robusta e sem ornamentos desnecessários, permite que o condutor enxergue através da perspectiva da pipa no céu. É mantida como segredo militar e implantada apenas em situações de alto valor tático.",
+    "destaque_pt": "Projeta a visão do usuário para o ponto de vista elevado da pipa, concedendo bônus contra emboscadas e bônus no controle de batalhas de massa.",
+    "source_book": "The Book of Air",
+    "pagina": 129
+  },
+  {
+    "id": "aiko-s-pinwheels--the-book-of-air",
+    "nome": "Aiko's Pinwheels",
+    "contexto_pt": "Cataventos místico-detectores criados por Asahina Aiko (Clã do Grou).",
+    "resumo_pt": "Pequenos cataventos de papel em formato de hélice criados por uma shugenja Asahina como um mecanismo de alarme duradouro contra as forças do mal. Aiko desenvolveu uma forma de pedir aos espíritos do Ar que habitassem o papel e reagissem exclusivamente à presença da contaminação das Terras Sombrias. Eles permanecem imóveis com o vento comum, girando apenas quando há corrupção por perto.",
+    "destaque_pt": "Começa a girar automaticamente sempre que uma fonte significativa da Mácula das Terras Sombrias se aproxima a menos de 7,5 metros.",
+    "source_book": "The Book of Air",
+    "pagina": 129
+  },
+  {
+    "id": "agasha-kitsuki-s-armor--the-book-of-earth",
+    "nome": "Agasha Kitsuki's Armor",
+    "contexto_pt": "Armadura leve associada ao fundador da família Kitsuki do Clã do Dragão.",
+    "resumo_pt": "Criada como um presente dos Mirumoto para Agasha Kitsuki, esta armadura leve foi modificada ao longo de gerações para proteger órgãos vitais contra assassinos. Ela se tornou um registro físico da história da família e foi vestida por vários líderes, incluindo a Imperatriz Iweko I.",
+    "destaque_pt": "Elimina penalidades por ataques surpresa, reduz o dano sofrido e auxilia o usuário com a sabedoria de seus antepassados em investigações e interações sociais.",
+    "source_book": "The Book of Earth",
+    "pagina": 136
+  },
+  {
+    "id": "ancestral-armor-of-the-ki-rin--the-book-of-earth",
+    "nome": "Ancestral Armor of the Ki-Rin",
+    "contexto_pt": "Armadura leve de origem gaijin associada à linhagem de líderes do Clã do Unicórnio.",
+    "resumo_pt": "Presenteada a Shinjo pela tribo Ujik-hai nas Terras Queimadas, a Kami nunca a usou, mas a concedeu aos seus seguidores mais leais. Tornou-se a armadura cerimonial destinada ao herdeiro ou regente do Campeão do Clã do Unicórnio.",
+    "destaque_pt": "Facilita o combate montado, permitindo utilizar Postura de Ataque Total sem sofrer penalidades normais no Valor de Armadura.",
+    "source_book": "The Book of Earth",
+    "pagina": 138
+  },
+  {
+    "id": "armor-of-earth--the-book-of-earth",
+    "nome": "Armor of Earth",
+    "contexto_pt": "Armadura pesada criada por Asako Shingon e Iuchi Yogosha, associada aos oráculos e heróis do Império.",
+    "resumo_pt": "Uma das cinco armaduras elementais lendárias, cujos portadores ao longo da história demonstraram a tendência de se sacrificar bravamente diante de terríveis perigos. Ela passou por diversas mãos durante a Guerra dos Clãs e voltou a surgir durante a Guerra contra a Sombra.",
+    "destaque_pt": "Reduz o dano de ataques inimigos e pode tornar o usuário uma barreira inabalável, imune a efeitos que tentem movê-lo à força.",
+    "source_book": "The Book of Earth",
+    "pagina": 138
+  },
+  {
+    "id": "armor-of-the-five--the-book-of-earth",
+    "nome": "Armor of the Five",
+    "contexto_pt": "Armadura leve criada para a Voz dos Mestres Elementais do Clã da Fênix.",
+    "resumo_pt": "Esta armadura única foi forjada combinando a perícia dos armeiros da Fênix com as bênçãos de cada um dos cinco Mestres Elementais. Passada de geração em geração entre os que ocupam o posto de Voz dos Mestres, ela atua como símbolo oficial e elo mágico de comunicação com Kyuden Isawa.",
+    "destaque_pt": "Fornece enorme proteção, imuniza contra variações extremas de temperatura e permite cancelar ou ter sucesso automático em feitiços que visem o portador.",
+    "source_book": "The Book of Earth",
+    "pagina": 139
+  },
+  {
+    "id": "armor-of-the-golden-samurai--the-book-of-earth",
+    "nome": "Armor of the Golden Samurai",
+    "contexto_pt": "Armadura pesada de laca dourada, relíquia e herança da família Matsu do Clã do Leão.",
+    "resumo_pt": "Originalmente forjada por um artesão ronin chamado Kukinjin, a armadura foi recuperada por Matsu Toriko após um lorde da Fênix assassinar o ferreiro. Com a devoção de Toriko ao Bushido, o item despertou como um nemuranai que reluz brilhantemente em combate.",
+    "destaque_pt": "Manda uma aura de luz radiante que amedronta e cega oponentes, com eficácia proporcional à Honra de quem a veste.",
+    "source_book": "The Book of Earth",
+    "pagina": 140
+  },
+  {
+    "id": "armor-of-the-shadow-warrior--the-book-of-earth",
+    "nome": "Armor of the Shadow Warrior",
+    "contexto_pt": "Armadura pesada ancestral conhecida como Ketsuen, associada aos Campeões do Clã da Caranguejo.",
+    "resumo_pt": "Criada por Kaiu para o Kami Hida, esta armadura foi manchada pelo sangue de Fu Leng durante o duelo entre os irmãos divinos. Usada ao longo dos séculos por heróis Hida, absorveu a determinação imutável de seu dono original para resistir a magias de todos os tipos.",
+    "destaque_pt": "Garante excepcional proteção física e uma resistência mágica fortíssima contra feitiços hostis e maho, além de aumentar o dano de guerreiros de grande porte.",
+    "source_book": "The Book of Earth",
+    "pagina": 141
+  },
+  {
+    "id": "chousen-ancestral-armor-of-the-gusai-family--the-book-of-earth",
+    "nome": "Chousen, Ancestral Armor of the Gusai Family",
+    "contexto_pt": "Armadura leve de família extinta do Clã do Mantis.",
+    "resumo_pt": "Pertencente originalmente à linhagem de Gusai, o homem que enfrentou o Imperador com uma faca, a armadura sobreviveu à dissolução da família e foi preservada pelos Campeões do Mantis. O espírito de Gusai permanece nela, incitando o usuário a atitudes ousadas e desafiadoras.",
+    "destaque_pt": "Permite trocar armas rapidamente e concede bônus em testes de ataque e dano quando enfrentando oponentes de alto Status ou Glória.",
+    "source_book": "The Book of Earth",
+    "pagina": 142
+  },
+  {
+    "id": "destiny-s-anvil-armor-of-goju-kyoden--the-book-of-earth",
+    "nome": "Destiny's Anvil, Armor of Goju Kyoden",
+    "contexto_pt": "Armadura maculada associada a Goju Kyoden, o primeiro Campeão de Obsidiana do Clã da Aranha.",
+    "resumo_pt": "Esta armadura de tom escuro e aparência rochosa foi imbuída com o poder de Jigoku e resquícios da Sombra após servir ao guarda-costas de Daigotsu. Quando Kyoden morreu e foi trazido de volta à vida, o item se tornou um conduíte vivo de poder sombrio.",
+    "destaque_pt": "Concede bônus em perícias físicas baseados na Mácula das Terras Sombrias e dificulta a detecção de corrupção ou ataques mágicos não cristais.",
+    "source_book": "The Book of Earth",
+    "pagina": 142
+  },
+  {
+    "id": "ikoma-s-anvil--the-book-of-earth",
+    "nome": "Ikoma's Anvil",
+    "contexto_pt": "Tambores de guerra mágicos presenteados pela família Hida à família Ikoma do Clã do Leão.",
+    "resumo_pt": "Este par de grandes tambores de bronze foi dado a Ikoma Komori pelo Clã da Caranguejo para celebrar a aliança e amizade entre as famílias. Manchados pelo sangue de inúmeros bards e guerreiros que morreram protegendo-os, os tambores tornaram-se parte central do comando militar do Leão.",
+    "destaque_pt": "Sua música ressoa pelo campo de batalha, inspirando tropas do Clã do Leão em Batalhas de Massa e fortalecendo sua resistência contra medo.",
+    "source_book": "The Book of Earth",
+    "pagina": 143
+  },
+  {
+    "id": "indomitable-mutsuhito-s-armor--the-book-of-earth",
+    "nome": "Indomitable, Mutsuhito's Armor",
+    "contexto_pt": "Armadura pesada sombria criada por Fu Leng para seu primeiro general humano.",
+    "resumo_pt": "Forjada no coração das Terras Sombrias com metais corrompidos, esta armadura pertenceu a Mutsuhito, líder da tribo Noriaki e primeiro dos Perdidos. Após passar séculos perdida em Jigoku, reapareceu na invasão da Deusa Kali-Ma, destruindo a sanidade de quem tenta usá-la.",
+    "destaque_pt": "Garante Pontos de Vazio adicionais e aumentos gratuitos baseados no nível de Mácula do usuário, além de incutir medo em criaturas das Terras Sombrias.",
+    "source_book": "The Book of Earth",
+    "pagina": 144
+  },
+  {
+    "id": "kaiu-s-smithing-tools--the-book-of-earth",
+    "nome": "Kaiu's Smithing Tools",
+    "contexto_pt": "Ferramentas de forja lendárias pertencentes à linhagem dos daimyos da família Kaiu do Clã da Caranguejo.",
+    "resumo_pt": "Utilizadas originalmente pelo próprio Kaiu para criar as defesas do Império, estas ferramentas desenvolveram espíritos despertos de enorme poder artesanal. São usadas raríssimas vezes em cada geração, reservadas apenas para obras da mais alta importância estratégica ou Imperial.",
+    "destaque_pt": "Concedem múltiplos Aumentos Gratuitos em testes de perícias de ofício e reduzem drasticamente as necessidades de descanso do artesão durante o trabalho.",
+    "source_book": "The Book of Earth",
+    "pagina": 145
+  },
+  {
+    "id": "kote-of-the-daidoji-daimyo--the-book-of-earth",
+    "nome": "Kote of the Daidoji Daimyo",
+    "contexto_pt": "Manoplas de armadura defensivas usadas pelo daimyo da família Daidoji do Clã do Grou.",
+    "resumo_pt": "Oferecidas como presente da família Doji aos Daidoji para simbolizar seu papel como protetores do clã, estas manoplas possuem peso assimétrico para se adequar ao estilo de combate com armas de haste e arcos. São passadas cerimonialmente entre os líderes da família antes de irem para a guerra.",
+    "destaque_pt": "Permitem realizar a ação Proteger como uma Ação Livre com bônus aumentado no Valor de Armadura do aliado, além de anular tentativas de desviar o usuário de seu dever.",
+    "source_book": "The Book of Earth",
+    "pagina": 146
+  },
+  {
+    "id": "machimasu-ancestral-armor-of-the-mirumoto-family--the-book-of-earth",
+    "nome": "Machimasu, Ancestral Armor of the Mirumoto Family",
+    "contexto_pt": "Armadura pesada ancestral da família Mirumoto do Clã do Dragão.",
+    "resumo_pt": "Forjada por Agasha e presenteada a Mirumoto pouco antes da Primeira Guerra, esta armadura possui placas em formato de escamas de dragão. Ficou perdida nas Terras Sombrias por séculos até ser recuperada sem qualquer sinal de corrupção, refletindo a paciência e compostura de seu criador e dono.",
+    "destaque_pt": "Permite que bushi do Dragão ignorem penalidades de Agilidade e Reflexos e reajam a ataques mudando de Postura instantaneamente.",
+    "source_book": "The Book of Earth",
+    "pagina": 146
+  },
+  {
+    "id": "ouno-s-heart--the-book-of-earth",
+    "nome": "Ouno's Heart",
+    "contexto_pt": "Armadura pesada sagrada do Clã da Fênix, associada ao irmão de Isawa e aos líderes da Guarda Avalanche.",
+    "resumo_pt": "Criada por Ouno, o primeiro Mestre da Terra, para defender sua tribo durante a guerra contra Fu Leng. A intensa sintonia espiritual entre o artesão e o elemento Terra fez com que a armadura se fundisse ao corpo de Ouno antes de seu retiro espiritual.",
+    "destaque_pt": "Concede enorme resistência contra venenos, doenças e corrupção espiritual, além de Aumentos Gratuitos para shugenja conjurarem feitiços de purificação.",
+    "source_book": "The Book of Earth",
+    "pagina": 147
+  },
+  {
+    "id": "sasageru-ancestral-armor-of-the-crane-clan--the-book-of-earth",
+    "nome": "Sasageru, Ancestral Armor of the Crane Clan",
+    "contexto_pt": "Armadura leve ancestral do Clã do Grou, manifestada pela bênção de Lady Doji.",
+    "resumo_pt": "Diferente de outras relíquias, esta armadura não foi forjada por mãos humanas, surgindo milagrosamente do sopro e das bênçãos da Kami Doji para seu neto Doji Sasageru. Usada tradicionalmente pelos Campeões do Grou em tempos de guerra, carrega a voz de Sasageru inspirando atos de nobreza.",
+    "destaque_pt": "Aumenta a proteção física de acordo com a Honra do usuário e permite substituir atributos físicos e mentais pelo nível de Honra em testes.",
+    "source_book": "The Book of Earth",
+    "pagina": 148
+  },
+  {
+    "id": "shosuro-s-blackened-armor--the-book-of-earth",
+    "nome": "Shosuro's Blackened Armor",
+    "contexto_pt": "Armadura de ashigaru modificada, relíquia da família Shosuro do Clã do Escorpião.",
+    "resumo_pt": "Usada por Shosuro durante a Primeira Guerra, esta armadura foi escurecida por fumaça, suor e sangue ao longo de anos de missões furtivas. Ela absorveu fragmentos da Sombra com a qual Shosuro fez pacto, tornando-se uma vestimenta mística para os líderes da família.",
+    "destaque_pt": "Melhora a capacidade de ocultação do usuário, fornecendo Aumentos Gratuitos em Furtividade e a habilidade de se esconder mesmo sob vista desarmada uma vez ao dia.",
+    "source_book": "The Book of Earth",
+    "pagina": 149
+  },
+  {
+    "id": "sting-tsuruchi-s-kabuto--the-book-of-earth",
+    "nome": "Sting, Tsuruchi's Kabuto",
+    "contexto_pt": "Capacete de guerra (kabuto) de ferro pertencente a Tsuruchi, fundador do Clã do Mantis/Vespa.",
+    "resumo_pt": "Este elmo pertenceu ao lendário arqueiro Tsuruchi e foi impregnado com sua percepção aguçada e olhar inflexível. Tornou-se um símbolo da liderança da família Tsuruchi e é passado entre seus herdeiros.",
+    "destaque_pt": "Aumenta a Percepção do portador para testes de perícia e atributos, além de conceder um Aumento Gratuito automático para a Manobra Tiro Localizado ao usar arcos.",
+    "source_book": "The Book of Earth",
+    "pagina": 149
+  },
+  {
+    "id": "the-shield-of-moto-gaheris--the-book-of-earth",
+    "nome": "The Shield of Moto Gaheris",
+    "contexto_pt": "Escudo de madeira e aço da linhagem de Khan do Clã do Unicórnio.",
+    "resumo_pt": "Introduzido por Moto Gaheris ao retornar do Deserto das Areias Escaldantes, este escudo tornou-se uma relíquia familiar da liderança Moto. Embora a cultura rokugani desdenhe o uso de escudos, a peça provou sua eficácia e força em combate.",
+    "destaque_pt": "Concede bônus substancial ao Valor de Armadura e oferece forte resistência contra efeitos de Medo, Atordoado e Tonto.",
+    "source_book": "The Book of Earth",
+    "pagina": 150
+  },
+  {
+    "id": "the-toturi-armor--the-book-of-earth",
+    "nome": "The Toturi Armor",
+    "contexto_pt": "Armadura pesada de treino reparada, associada ao Imperador Toturi I e à sua dinastia.",
+    "resumo_pt": "Originalmente uma armadura de treino danificada entregue a Toturi quando ele foi despojado de seu nome, foi restaurada por ele durante sua jornada como ronin e marcada com os mon dos clãs que se uniram ao seu exército. Tornou-se um símbolo do Exército de Toturi e da reunificação de Rokugan.",
+    "destaque_pt": "Garante imunidade a efeitos de Medo baseados na Honra do usuário, concede a Vantagem Tático e permite liderar aliados para ignorar ferimentos e fadiga.",
+    "source_book": "The Book of Earth",
+    "pagina": 150
+  },
+  {
+    "id": "tsunetomo-s-dai-tsuchi--the-book-of-earth",
+    "nome": "Tsunetomo's Dai Tsuchi",
+    "contexto_pt": "Martelo de guerra (dai tsuchi) do célebre líder ronin Tsunetomo.",
+    "resumo_pt": "Utilizado pelo inteligente e direto ronin Tsunetomo no século IV, este martelo gigante de guerra acompanhou a criação de um domínio independente nas montanhas do Leão. Trata-se de uma arma surpreendentemente leve e precisa, capturada pelo Leão após a morte de seu dono.",
+    "destaque_pt": "Garante um Aumento Gratuito para a Manobra Tiro Localizado e permite gastar Pontos de Vazio para ignorar a Redução de Dano do alvo ao causar dano.",
+    "source_book": "The Book of Earth",
+    "pagina": 151
+  },
+  {
+    "id": "the-blade-of-secrets--book-of-fire",
+    "nome": "The Blade of Secrets",
+    "contexto_pt": "Katana lendária, criada por Kaiu Haru e posteriormente guardada pelo Clã do Grou",
+    "resumo_pt": "Esta katana despertada possui empunhadura e guarda esculpidas em ouro com a forma de um pato. Ela foi forjada por um armeiro da família Kaiu durante a invasão do Maw e perdida no combate, sendo redescoberta séculos depois.",
+    "destaque_pt": "Permite ao usuário aprimorar seus ataques sem aumentar a dificuldade do golpe, mas consome silenciosamente a energia vital e o Vazio do portador a cada uso.",
+    "source_book": "Book of Fire",
+    "pagina": 125
+  },
+  {
+    "id": "the-blade-of-truths--book-of-fire",
+    "nome": "The Blade of Truths",
+    "contexto_pt": "Katana amaldiçoada, espada irmã da Blade of Secrets",
+    "resumo_pt": "Apresenta empunhadura com detalhes em ouro e uma bainha decorada em laca e madeira. Assim como sua arma irmã, foi perdida na batalha contra as forças do Maw e ressurge periodicamente trazendo ruína aos seus portadores.",
+    "destaque_pt": "Seus golpes causam acertos críticos devastadores, mas ativam uma maldição que torna o portador extremamente vulnerável a ataques inimigos.",
+    "source_book": "Book of Fire",
+    "pagina": 125
+  },
+  {
+    "id": "the-bloodswords--book-of-fire",
+    "nome": "The Bloodswords",
+    "contexto_pt": "Quatro katanas amaldiçoadas e sencientes, criadas por Asahina Yajinden sob ordens de Iuchiban",
+    "resumo_pt": "Conjunto de quatro armas (Ambition, Judgment, Passion e Revenge) impregnadas com energia maligna e consciência própria. Elas devoram as almas das vítimas que matam, tornando-se mais poderosas e compelindo seus portadores à loucura e ao massacre.",
+    "destaque_pt": "Capazes de ferir até entidades imortais e oráculos, manipulando a mente de quem as empunha para desencadear conflitos catastróficos no Império.",
+    "source_book": "Book of Fire",
+    "pagina": 125
+  },
+  {
+    "id": "the-celestial-swords--book-of-fire",
+    "nome": "The Celestial Swords",
+    "contexto_pt": "Oito katanas sagradas forjadas no Tengoku por Tsi Xing Guo para os Campeões de Clã",
+    "resumo_pt": "Criadas pelo Fortuna do Aço para substituir as Espadas Ancestrais recolhidas pelos Céus, estas armas foram apresentadas aos líderes de cada Grande Clã. Cada uma reflete as virtudes e o elemento dominante do seu respectivo clã.",
+    "destaque_pt": "São consideradas Jade e Cristal para efeitos de combate contra criaturas malignas e concedem bênçãos espirituais únicas a cada Campeão de Clã.",
+    "source_book": "Book of Fire",
+    "pagina": 127
+  },
+  {
+    "id": "daidoji-uji-s-jade-aiguchi--book-of-fire",
+    "nome": "Daidoji Uji's Jade Aiguchi",
+    "contexto_pt": "Par de adagas de jade, trazidas por Daidoji Uji do Reino dos Destinos Frustrados para o Clã do Grou",
+    "resumo_pt": "Este par de adagas indestrutíveis foi trazido de uma realidade alternativa por Daidoji Uji ao retornar para Ningen-do. Elas foram abençoadas por espíritos da Terra para reforçar a lâmina de jade puro.",
+    "destaque_pt": "Afetam criaturas invulneráveis e possuem um corte tão afiado que ignoram a redução de dano de armaduras ou proteções naturais.",
+    "source_book": "Book of Fire",
+    "pagina": 129
+  },
+  {
+    "id": "dragon-s-claw-katana--book-of-fire",
+    "nome": "Dragon's Claw Katana",
+    "contexto_pt": "Katana divina criada pelo Dragão do Vazio para Agasha Ashiko e réplicas artesanais do Clã do Grou",
+    "resumo_pt": "A lâmina original foi esculpida a partir de uma garra do Dragão do Vazio durante a Guerra dos Clãs. Mais tarde, artesãos do Clã do Grou conseguiram replicar a técnica para criar oito réplicas com propriedades semelhantes.",
+    "destaque_pt": "A versão original concede Pontos de Vazio adicionais e bônus em testes de kenjutsu, enquanto réplicas que testemunham atos desonrosos se retorcem e se destroem.",
+    "source_book": "Book of Fire",
+    "pagina": 129
+  },
+  {
+    "id": "the-emperor-s-underhand--book-of-fire",
+    "nome": "The Emperor's Underhand",
+    "contexto_pt": "Tanto de jade puro, presente do Clã da Caranguejo para o Clã do Escorpião durante a Primeira Guerra",
+    "resumo_pt": "Forjada por Kaiu a pedido de Hida para presentear seu irmão Bayushi, esta adaga selou uma aliança não escrita entre os dois clãs. Com o tempo, tornou-se um símbolo de cargo passado entre os generais do Escorpião.",
+    "destaque_pt": "Protege seu portador contra a Mácula das Terras Sombrias como se ele carregasse um suprimento inagotável de jade, além de ferir criaturas invulneráveis.",
+    "source_book": "Book of Fire",
+    "pagina": 129
+  },
+  {
+    "id": "extinguishing-lantern--book-of-fire",
+    "nome": "Extinguishing Lantern",
+    "contexto_pt": "Lanternas mágicas criadas pelos shugenja do Clã da Fênix",
+    "resumo_pt": "Artefatos menores projetados para conter espíritos do fogo especialmente sintonizados que atraem as chamas ao redor para si. Elas foram criadas para apagar incêndios acidentais e proteger construções de madeira.",
+    "destaque_pt": "Absorvem todo o fogo em um raio de quinze metros, apavorando invasores ao mergulhar acampamentos ou guardas noturnos em escuridão total quando usadas para emboscadas.",
+    "source_book": "Book of Fire",
+    "pagina": 130
+  },
+  {
+    "id": "the-five-swords-of-legend--book-of-fire",
+    "nome": "The Five Swords of Legend",
+    "contexto_pt": "Cinco lâminas lendárias forjadas pela monja e armeira Togashi Nyoko para o Clã do Dragão",
+    "resumo_pt": "Conjunto lendário composto pelas lâminas Bitter, Courage, Honorable, Hunger e pela Mirumoto Wakizashi. Cada uma reflete aspectos da filosofia do Bushido e do equilíbrio mental da sua criadora.",
+    "destaque_pt": "Possuem grande poder em combate, mas impõem provações severas, pesadelos ou impulsos violentos a portadores de baixa honra ou temperamento instável.",
+    "source_book": "Book of Fire",
+    "pagina": 130
+  },
+  {
+    "id": "hojatsu-s-blade--book-of-fire",
+    "nome": "Hojatsu's Blade",
+    "contexto_pt": "Katana pessoal de Mirumoto Hojatsu, mantida no dojo da Montanha de Ferro do Clã do Dragão",
+    "resumo_pt": "Lâmina de estilo austero e funcional que acompanhou Hojatsu em suas lendárias lutas e duelos. A tradição afirma que foi esta a espada usada em seu duelo final contra Kakita.",
+    "destaque_pt": "Imbuída com o espírito da arte de duelos iaijutsu, ela concede ao portador conhecimentos avançados de avaliação e foco mesmo que ele não os tenha treinado formalmente.",
+    "source_book": "Book of Fire",
+    "pagina": 132
+  },
+  {
+    "id": "the-katana-of-fire--book-of-fire",
+    "nome": "The Katana of Fire",
+    "contexto_pt": "Lâmina elemental forjada por Iuchi Yugosha e Asako Shingon para Shiba Tsukune",
+    "resumo_pt": "Criada pelos Oráculos da Luz para combater os Terrores Elementais das Terras Sombrias, esta espada personifica a essência pura do Fogo. Embora pareça uma arma comum quando embainhada, ela incendeia-se ao ser sacada.",
+    "destaque_pt": "Envolve sua lâmina em chamas sagradas que causam dano adicional extraordinário, queimando com ainda mais intensidade contra oponentes maculados ou desonrados.",
+    "source_book": "Book of Fire",
+    "pagina": 132
+  },
+  {
+    "id": "mantles-of-fire--book-of-fire",
+    "nome": "Mantles of Fire",
+    "contexto_pt": "Vestes e mantos mágicos desenvolvidos pelos alquimistas das famílias Agasha, Tamori e pela Fênix",
+    "resumo_pt": "Capas e vestimentas cerimoniais tingidas nas cores do fogo e impregnadas com kami do Fogo. Existem variações ofensivas desenvolvidas no Clã do Dragão e versões defensivas pacíficas criadas na Fênix.",
+    "destaque_pt": "A versão ofensiva aumenta o poder de ataques e feitiços de Fogo do usuário, enquanto a versão defensiva retribui ataques recebidos queimando os agressores.",
+    "source_book": "Book of Fire",
+    "pagina": 132
+  },
+  {
+    "id": "shameswords--book-of-fire",
+    "nome": "Shameswords",
+    "contexto_pt": "Armas amaldiçoadas criadas pelo monge louco Kokujin na Bigorna do Desespero",
+    "resumo_pt": "Tentativas de emular as espadas de sangue de Yajinden, forjadas usando as almas aprisionadas de samurais do Clã do Dragão. As lâminas conhecidas incluem Blade of Fury, Blade of Guile, Blade of Hubris, Blade of the Meek, Blade of Penance e Blade of Slaughter.",
+    "destaque_pt": "São indestrutíveis, afiadas de forma sobrenatural e incitam seus portadores a falhas morais, raiva descontrolada, arrogância ou mentiras compulsivas.",
+    "source_book": "Book of Fire",
+    "pagina": 132
+  },
+  {
+    "id": "bronze-lanterns--book-of-fire",
+    "nome": "Bronze Lanterns",
+    "contexto_pt": "Lanternas trazidas das Terras Queimadas, mantidas em segredo pelo Clã do Escorpião",
+    "resumo_pt": "Lanternas metálicas de origem gaijin trazidas do Império Senpet que não obedecem às regras usuais da magia de Rokugan. Cada lanterna serve como uma prisão mágica para um espírito gaijin.",
+    "destaque_pt": "Aprisionam seres conhecidos como jinn, que podem ser invocados esfregando a lanterna e recitando uma palavra de comando para obedecer às ordens do portador.",
+    "source_book": "Book of Fire",
+    "pagina": 133
+  },
+  {
+    "id": "wyrmbone-katana--book-of-fire",
+    "nome": "Wyrmbone Katana",
+    "contexto_pt": "Espadas forjadas a partir de ossos de wyrms pelo alquimista Tamori Tomaru no Clã do Dragão",
+    "resumo_pt": "Lâminas criadas a partir dos esqueletos metálicos de wyrms incinerados no vulcão Tamori's Furnace durante a Guerra do Fogo Sombrio. Os ossos revelaram-se fáceis de trabalhar e naturalmente moldados no formato de katanas.",
+    "destaque_pt": "Concedem ao portador parte da agilidade e força sobrenatural dos wyrms, aumentando sua iniciativa e precisão em combate.",
+    "source_book": "Book of Fire",
+    "pagina": 135
+  },
+  {
+    "id": "yumi-of-fire--book-of-fire",
+    "nome": "Yumi of Fire",
+    "contexto_pt": "Arco mágico criado pelo Oráculo do Fogo, Isawa Mitori, e descoberto por Shinjo Jinturi",
+    "resumo_pt": "Artefato criado pelo Oráculo do Fogo para auxiliar a humanidade antes de se retirar de Ningen-do. Estava oculto em uma vila modesta até que um batedor do Unicórnio o usou para defender o povoado contra cultistas.",
+    "destaque_pt": "Guia as flechas disparadas com precisão sobre-humana e transforma os projéteis em chamas intensas ao voarem, incinerando os alvos atingidos.",
+    "source_book": "Book of Fire",
+    "pagina": 135
+  },
+  {
+    "id": "agasha-s-mirror--the-book-of-water",
+    "nome": "Agasha's Mirror",
+    "contexto_pt": "Espelho de mão criado por Lady Agasha, associado ao Clã do Dragão e posteriormente ao Clã da Fênix.",
+    "resumo_pt": "Criado originalmente durante os primeiros experimentos de Lady Agasha sobre os Elementos, este espelho despertou ao longo de gerações de cuidado. No século XII, acompanhou a maioria da família Agasha em sua migração para o Clã da Fênix.",
+    "destaque_pt": "Revela instantaneamente a estrutura e composição elemental de qualquer item, feitiço ou ser vivo, permitindo perceber os próprios kami da área.",
+    "source_book": "The Book of Water",
+    "pagina": 128
+  },
+  {
+    "id": "bag-of-necessity--the-book-of-water",
+    "nome": "Bag of Necessity",
+    "contexto_pt": "Bolsa de viagem de tecido associada à linhagem de daimyos Yasuki do Clã do Caranguejo.",
+    "resumo_pt": "Uma bolsa de pano aparentemente comum decorada com bordados de boa sorte. Pertenceu ao patrono mercador Yasuki Hohiro e foi mantida como um dos tesouros mais preciosos da família Yasuki.",
+    "destaque_pt": "Fornece a qualquer membro da família Yasuki que alcance seu interior exatamente o objeto necessário naquele momento, como moedas de koku, alimentos, minérios ou pequenos utensílios.",
+    "source_book": "The Book of Water",
+    "pagina": 128
+  },
+  {
+    "id": "the-drum-of-water--the-book-of-water",
+    "nome": "The Drum of Water",
+    "contexto_pt": "Tambor portátil de mão originalmente feito por shugenja da família Iuchi do Clã do Unicórnio.",
+    "resumo_pt": "Apesar de sua aparência simples semelhante a um brinquedo infantil com esferas de madeira presas por fios, este item místico foi replicado e adotado por vários clãs para uso tático.",
+    "destaque_pt": "Quando ativado por preces ritualísticas de um shugenja, os kami da Água amplificam seu som, permitindo que aliados em um raio de 15 metros se movam como se tivessem o dobro de sua Água.",
+    "source_book": "The Book of Water",
+    "pagina": 129
+  },
+  {
+    "id": "the-fan-of-command--the-book-of-water",
+    "nome": "The Fan of Command",
+    "contexto_pt": "Leque de guerra (gunsen) de madeira laqueada em vermelho, associado a generais e comandantes ronin.",
+    "resumo_pt": "Encontrado por um viajante nas montanhas Seikitsu, este leque histórico esteve nas mãos de figuras como Akodo e Toturi, o Negro. Possui quinze hastes de aço e o kanji para 'Sempre' gravado em sua estrutura.",
+    "destaque_pt": "Concede ao usuário bônus táticos avançados como as Vantagens Tático, Liderança ou Grande Destino, além de bônus substanciais em testes da perícia Ofício de Guerra.",
+    "source_book": "The Book of Water",
+    "pagina": 129
+  },
+  {
+    "id": "the-gunsen-of-water--the-book-of-water",
+    "nome": "The Gunsen of Water",
+    "contexto_pt": "Leque de guerra elemental criado por Iuchi Yogosha e Asako Shingon para combater os Terrores Elementais.",
+    "resumo_pt": "Confeccionado durante a Guerra dos Clãs a pedido dos Oráculos da Luz, este leque foi entregue a Bayushi Goshiu. Em contextos sociais, adapta sua forma para um elegante leque de corte feito de água pura.",
+    "destaque_pt": "Eleva a Armadura TN do portador com base no seu anel de Água, detecta magias de Água direcionadas ao usuário e concede bônus em testes de Batalha e Leque de Guerra.",
+    "source_book": "The Book of Water",
+    "pagina": 129
+  },
+  {
+    "id": "the-heavenly-kobune-of-suitengu--the-book-of-water",
+    "nome": "The Heavenly Kobune of Suitengu",
+    "contexto_pt": "Miniatura de navio esculpida em jade associada à Fortuna Suitengu, recuperada no Túmulo dos Sete Trovões.",
+    "resumo_pt": "Acredita-se que este artefato seja um fragmento da lendária embarcação da Fortuna dos Mares. Foi utilizado para transportar o espírito de Yoritomo aos Céus Celestiais para que se tornasse um Kami.",
+    "destaque_pt": "Garante vento favorável, águas calmas e proteção contra criaturas marinhas ao navio em que for transportado, podendo também expandir-se em uma embarcação capaz de viajar entre os Reinos Espirituais.",
+    "source_book": "The Book of Water",
+    "pagina": 130
+  },
+  {
+    "id": "the-hunter-s-kabuto--the-book-of-water",
+    "nome": "The Hunter's Kabuto",
+    "contexto_pt": "Elmo de ferro adornado com chifres de cervo, criado pela família Iuchi para o Campeão do Clã do Unicórnio.",
+    "resumo_pt": "Concebido como um presente para um líder Unicórnio entusiasta da caça, este elmo combina a estética pastoral da família com a bênção dos espíritos da Água.",
+    "destaque_pt": "Imbuído com espíritos da Água que concedem clareza e percepção, aumenta em um nível o atributo Percepção do usuário e oferece bônus em testes de Caça.",
+    "source_book": "The Book of Water",
+    "pagina": 130
+  },
+  {
+    "id": "the-ikoma-tessen--the-book-of-water",
+    "nome": "The Ikoma Tessen",
+    "contexto_pt": "Leque de guerra de sândalo presenteado por Akodo a Ikoma Komori, mantido pelos daimyos da família Ikoma.",
+    "resumo_pt": "Construído em sândalo nobre com o brasão do Clã do Leão, este leque esteve presente em inúmeros combates e negociações de corte antes da morte de Komori em duelo.",
+    "destaque_pt": "Concede bônus na Armadura TN em combate e melhora significativamente as perícias Cortesão, Etiqueta e História quando exibido em eventos sociais, de acordo com o anel de Água do portador.",
+    "source_book": "The Book of Water",
+    "pagina": 130
+  },
+  {
+    "id": "the-jade-mirror--the-book-of-water",
+    "nome": "The Jade Mirror",
+    "contexto_pt": "Espelho de jade sagrado mantido pelo Clã do Dragão e guardado pela ordem dos ise zumi Togashi.",
+    "resumo_pt": "Encontrado nas Terras Sombrias por Mirumoto Rosanjin, este espelho abriga poderosos espíritos de Água e Terra. É capaz de refletir o estado espiritual e moral de qualquer um que se olhe nele.",
+    "destaque_pt": "Revela instantaneamente se o indivíduo observado possui Segredos Sombrios ou contaminação pela Mácula, além de aumentar consideravelmente a dificuldade para conjurar magias maho nas proximidades.",
+    "source_book": "The Book of Water",
+    "pagina": 131
+  },
+  {
+    "id": "kitsuki-s-coin--the-book-of-water",
+    "nome": "Kitsuki's Coin",
+    "contexto_pt": "Moeda mística criada por Agasha Kitsuki, fundador da família Kitsuki do Clã do Dragão.",
+    "resumo_pt": "Criada pelo fundador da família Kitsuki quando este ainda tentava a via dos shugenja, a moeda foi considerada inútil pelos Agasha, mas tornou-se uma herança preciosa para os investigadores Kitsuki.",
+    "destaque_pt": "Cria um brilho vermelho sutil e visível a todos os presentes sempre que a pessoa que a carrega ou segura tenta mentir ou disfarçar a verdade.",
+    "source_book": "The Book of Water",
+    "pagina": 131
+  },
+  {
+    "id": "merchant-coins-of-the-yasuki--the-book-of-water",
+    "nome": "Merchant Coins of the Yasuki",
+    "contexto_pt": "Conjunto ancestral de 24 moedas de cobre associadas às negociações comerciais entre Grou e Caranguejo.",
+    "resumo_pt": "Estas moedas históricas trazem as figuras das doze criaturas do zodíaco rokugani e marcas de cunhagem do Clã do Grou. Embora muitas tenham se perdido, o conjunto permanece cercado de prestígio.",
+    "destaque_pt": "Garante sorte excepcional e bônus em testes de Comércio e Cortesão para acordos financeiros realizados durante a hora do dia correspondente à imagem estampada na moeda.",
+    "source_book": "The Book of Water",
+    "pagina": 131
+  },
+  {
+    "id": "rioshida-s-kusarigama--the-book-of-water",
+    "nome": "Rioshida's Kusarigama",
+    "contexto_pt": "Arma de corrente que pertenceu a Gusai Rioshida, preservada em um santuário isolado no Clã do Mantis.",
+    "resumo_pt": "Arma de assinatura do último Campeão Mantis da família Gusai, foi guardada pela Ordem de Osano-Wo após seu dono ser executado por traição ao tentar sequestrar o herdeiro imperial.",
+    "destaque_pt": "Possui a capacidade de ferir oponentes Invulneráveis e concede bônus nos testes de ataque proporcional à diferença de Status quando usada contra alvos de Status superior ao do usuário.",
+    "source_book": "The Book of Water",
+    "pagina": 132
+  },
+  {
+    "id": "the-yogo-jitte--the-book-of-water",
+    "nome": "The Yogo Jitte",
+    "contexto_pt": "Jitte de madeira que serve como insígnia de cargo do líder dos Kuroiban (Caçadores de Maho) do Clã do Escorpião.",
+    "resumo_pt": "Feita em madeira em vez de aço, esta arma desperta quando empunhada por um shugenja, canalizando espíritos de Água e Ar focados na purificação de praticantes de feitiçaria proibida.",
+    "destaque_pt": "Fere criaturas Invulneráveis, concede bônus de ataque e dano e permite armazenar um feitiço de Água para ser ativado instantaneamente como uma Ação Simples.",
+    "source_book": "The Book of Water",
+    "pagina": 132
+  },
+  {
+    "id": "yoritomo-s-kama--the-book-of-water",
+    "nome": "Yoritomo's Kama",
+    "contexto_pt": "Par de kama duplas pertencente a Yoritomo, o Líder Supremo do Clã do Mantis.",
+    "resumo_pt": "As ferramentas preferidas de combate de Yoritomo despertaram através de seus feitos lendários. Após sua morte, foram empunhadas por sua filha Kumiko até serem perdidas no mar e posteriormente recuperadas nos Reinos do Marfim.",
+    "destaque_pt": "Anulam penalidades de combate com duas armas e atingem seres Invulneráveis; nas mãos de um descendente de sangue de Yoritomo, desferem dano crítico capaz de matar o alvo instantaneamente.",
+    "source_book": "The Book of Water",
+    "pagina": 132
+  },
+  {
+    "id": "kaiu-otoge-s-sparrow--the-book-of-water",
+    "nome": "Kaiu Otoge's Sparrow",
+    "contexto_pt": "Pássaro mecânico criado por Kaiu Otoge na Cidade do Martelo de Água (Suigeki Toshi).",
+    "resumo_pt": "Forjado por um alegre ferreiro do Clã do Caranguejo como uma peça artística parecida com uma caixa de música, este artefato em formato de pardal revelou sua utilidade ao alertar sobre cultistas maho.",
+    "destaque_pt": "Ganha vida e começa a cantar sonoramente de forma automática sempre que uma criatura com a Mácula das Terras Sombrias se aproxima a menos de três metros.",
+    "source_book": "The Book of Water",
+    "pagina": 133
+  },
+  {
+    "id": "thunder-s-taiko--the-book-of-water",
+    "nome": "Thunder's Taiko",
+    "contexto_pt": "Tambor taiko cerimonial gigante criado pela artesã Asahina Kimita em Suigeki Toshi.",
+    "resumo_pt": "Trabalhado em isolamento durante um mês usando madeiras sagradas do Clã do Grou, este tambor monumental produz um som trovejante utilizado em festividades na Cidade do Martelo de Água.",
+    "destaque_pt": "Concede bônus baseados no anel de Água para testes de Música de quem o toca e inspira outros artesãos e intérpretes ouvintes a aprimorarem suas próprias rolagens de perícia.",
+    "source_book": "The Book of Water",
+    "pagina": 133
+  },
+  {
+    "id": "the-master-s-go-set--the-book-of-water",
+    "nome": "The Master's Go Set",
+    "contexto_pt": "Jogo de Go de mogno esculpido pela comandante Matsu Watako do Clã do Leão.",
+    "resumo_pt": "Esculpido em mogno por uma famosa tática militar do Clã do Leão, este jogo de Go foi impregnado com o senso de honra e astúcia tática de sua criadora.",
+    "destaque_pt": "Qualquer samurai que conclua uma partida usando este conjunto recebe uma bênção permanente de um mês que adiciona sua Honra e Água às suas rolagens de Batalha (Combate de Massas).",
+    "source_book": "The Book of Water",
+    "pagina": 133
+  },
+  {
+    "id": "amulet-of-amaterasu--the-book-of-water",
+    "nome": "Amulet of Amaterasu",
+    "contexto_pt": "Amuleto sagrado trabalhado por Moshi Jukio, antiga Campeã do Clã da Centopeia, na Cidade do Martelo de Água.",
+    "resumo_pt": "Criado durante sete dias de trabalho ininterrupto pela idosa Moshi Jukio como um ato final de devoção e contrição, este amuleto brilha com uma luz pura dedicada à Deusa do Sol.",
+    "destaque_pt": "Sob a luz do sol e quando portado por alguém de alta Honra, impede que criaturas de Jigoku ou espíritos kansen se aproximem voluntariamente do usuário.",
+    "source_book": "The Book of Water",
+    "pagina": 134
+  },
+  {
+    "id": "atsuke-s-hammer--the-book-of-water",
+    "nome": "Atsuke's Hammer",
+    "contexto_pt": "Martelo de forja criado pelo artesão pacifista Shiba Atsuke do Clã da Fênix.",
+    "resumo_pt": "Confeccionado por um ferreiro que recusava criar armas de guerra, este martelo perfeitamente equilibrado foi presenteado de volta ao Clã da Fênix após a morte de seu criador.",
+    "destaque_pt": "Oferece bônus em testes de Ofício e Artesanato para criar armaduras ou objetos artísticos, mas sofre penalidades se usado para criar armas e se destrói se utilizado para golpear seres vivos.",
+    "source_book": "The Book of Water",
+    "pagina": 134
+  },
+  {
+    "id": "the-saddle-of-water--the-book-of-water",
+    "nome": "The Saddle of Water",
+    "contexto_pt": "Sela mística criada pelo shugenja Moto Vordu na Grande Forja de Suigeki Toshi.",
+    "resumo_pt": "Confeccionada com fivelas metálicas e estribos de prata esculpidos com imagens de corcéis em galope, esta sela une a tradição dos nemuranai à magia de cavalaria dos Iuchi.",
+    "destaque_pt": "Permite invocar uma vez por dia um cavalo feito de água translúcida que pode carregar até dois cavaleiros e mover-se em altíssima velocidade durante várias horas.",
+    "source_book": "The Book of Water",
+    "pagina": 135
+  },
+  {
+    "id": "brilliant-ornaments-of-the-moon--the-book-of-void",
+    "nome": "Brilliant Ornaments of the Moon",
+    "contexto_pt": "Ornamentos de cristal, associados à família Asahina do Clã do Grou",
+    "resumo_pt": "Estes pequenos ornamentos em formato de lágrima nasceram da cristalização das lágrimas de Asahina Akusesari durante seus momentos finais. A jovem possuía um talento extraordinário com o Vazio e moldou estes itens antes de ser sacrificada por um culto sombrio.",
+    "destaque_pt": "Cada ornamento funciona uma única vez, concedendo uma bênção mágica que permite ao usuário alcançar o sucesso em uma tarefa extremamente difícil ou impossível.",
+    "source_book": "The Book of Void",
+    "pagina": 137
+  },
+  {
+    "id": "the-candle-of-the-void--the-book-of-void",
+    "nome": "The Candle of the Void",
+    "contexto_pt": "Velas mágicas de cera preta, associadas à Escola de Shugenja Isawa do Clã da Fênix",
+    "resumo_pt": "Criadas durante o treinamento inicial dos estudantes da Fênix, estas velas de cera preta contêm fragmentos sutis de todos os elementos. Ao serem acesas para pesquisas ou conjurações, a cera derrete formando padrões abstratos que refletem a natureza do Vazio.",
+    "destaque_pt": "Concede um Aumento Gratuito para feitiços elementares lançados em suas proximidades e fornece bônus em rolagens da perícia Meditação.",
+    "source_book": "The Book of Void",
+    "pagina": 137
+  },
+  {
+    "id": "the-dragon-helms--the-book-of-void",
+    "nome": "The Dragon Helms",
+    "contexto_pt": "Yelmos místico-dracônicos, criados por uma shugenja do Clã do Escorpião",
+    "resumo_pt": "Forjados originalmente para capturar uma fração da essência divina dos Dragões Elementais, estes yelmos ornamentados possuem aparências e cores correspondentes a cada um dos Dragões. A criadora original foi destruída pelo Oráculo do Fogo por sua audácia, mas seus aprendizes concluíram o trabalho.",
+    "destaque_pt": "Permitem ao usuário enxergar a verdadeira forma dos Dragões Elementais e emitir um único comando absoluto ao Dragão associado ao yelmo.",
+    "source_book": "The Book of Void",
+    "pagina": 137
+  },
+  {
+    "id": "dragon-puzzle-boxes--the-book-of-void",
+    "nome": "Dragon Puzzle Boxes",
+    "contexto_pt": "Caixas de quebra-cabeça mecânicas, populares no Clã do Dragão",
+    "resumo_pt": "Pequenos dispositivos mecânicos de madeira ou metal concebidos para desafiar a mente e conduzir à iluminação. Quando solucionadas após horas de intensa concentração, revelam um koan ou um pequeno objeto sem valor material.",
+    "destaque_pt": "Exigem testes difíceis da perícia Investigação para serem resolvidas, concedendo Aumentos Gratuitos temporários em rolagens de perícia devido ao sentimento de paz obtido.",
+    "source_book": "The Book of Void",
+    "pagina": 138
+  },
+  {
+    "id": "egg-of-the-void--the-book-of-void",
+    "nome": "Egg of the Void",
+    "contexto_pt": "Artefato lendário mantido no Conselho dos Mestres Elementais do Clã da Fênix",
+    "resumo_pt": "Um ovo mágico presenteado pelos Dragões Elementais aos Kami no início da história do Império. Ele atua como um canal direto entre o reino mortal e os Céus Celestiais, vibrando com a energia primordial dos Dragões.",
+    "destaque_pt": "Permite conversar diretamente com o Dragão Elemental do Vazio para obter respostas divinas, mas pode provocar colapso mental no usuário ou causar uma explosão temporal devastadora se for destruído.",
+    "source_book": "The Book of Void",
+    "pagina": 138
+  },
+  {
+    "id": "lucky-crickets--the-book-of-void",
+    "nome": "Lucky Crickets",
+    "contexto_pt": "Grilos mágicos em gaiolas ornamentadas, presentes em todo Rokugan",
+    "resumo_pt": "Grilos comuns mantidos em gaiolas em miniatura que ocasionalmente são tocados de forma espontânea pela essência do Vazio. Sua magia não pode ser despertada intencionalmente por shugenja e só funciona quando o item é presenteado a outra pessoa.",
+    "destaque_pt": "Concede um Ponto de Vazio bônus de uso único, cujo propósito de uso é determinado pelo tipo e material da gaiola na qual o grilo está contido.",
+    "source_book": "The Book of Void",
+    "pagina": 139
+  },
+  {
+    "id": "the-mempo-of-void--the-book-of-void",
+    "nome": "The Mempo of Void",
+    "contexto_pt": "Máscara de armadura viscosa, criada por shugenja dos clãs Fênix e Unicórnio",
+    "resumo_pt": "O último dos cinco tesouros elementais criados por Asako Shingon e Iuchi Higosha, exigindo o sacrifício de suas vidas para equilibrar as forças espirituais do reino. A máscara possui uma substância escura e mutável que cobre totalmente o rosto do portador.",
+    "destaque_pt": "Permite enxergar seres e objetos invisíveis, concede imunidade a efeitos de controle mental e previne a perda involuntária de Pontos de Vazio.",
+    "source_book": "The Book of Void",
+    "pagina": 139
+  },
+  {
+    "id": "norou-kubi-bukuro-the-accursed-head-bag--the-book-of-void",
+    "nome": "Norou Kubi Bukuro (The Accursed Head Bag)",
+    "contexto_pt": "Saco de pano para transporte de cabeças, criado com auxílio do Oráculo Sombrio do Vazio",
+    "resumo_pt": "Uma bolsa de aparência comum usada para armazenar a cabeça cortada de um inimigo, contendo uma intrincada teia de renda negra em seu interior. Foi criada por uma shugenja disposta a sacrificar sua própria reencarnação para condenar seus oponentes.",
+    "destaque_pt": "Prende a alma da cabeça decepada em seu interior, impedindo o espírito de reencarnar ou seguir para a vida após a morte enquanto os cordões permanecerem fechados.",
+    "source_book": "The Book of Void",
+    "pagina": 139
+  },
+  {
+    "id": "ofuda-of-the-unraveled-soul--the-book-of-void",
+    "nome": "Ofuda of the Unraveled Soul",
+    "contexto_pt": "Pergaminhos de madeira em branco, ligados ao Dragão do Vazio",
+    "resumo_pt": "Tiras de madeira presas por cordéis criadas por um Ishiken corrompido pela loucura. Qualquer feitiço pode ser inscrito em sua superfície, estabelecendo uma conexão instável e perigosa com os limites do domínio do Vazio.",
+    "destaque_pt": "Fornece Aumentos Gratuitos para o feitiço inscrito, mas libera efeitos caóticos e imprevisíveis toda vez que um Aumento Gratuito ou Ponto de Vazio é gasto na conjuração.",
+    "source_book": "The Book of Void",
+    "pagina": 140
+  },
+  {
+    "id": "rebirth-of-the-phoenix--the-book-of-void",
+    "nome": "Rebirth of the Phoenix",
+    "contexto_pt": "Esferas em formato de ovo, associadas ao Clã da Fênix e a Isawa Ujikki",
+    "resumo_pt": "Artefatos do tamanho de um punho com superfície lisa e escura como água, que parecem conter estrelas brilhantes em seu interior. Há debates se foram forjados pelo primeiro Mestre do Vazio ou se são ovos verdadeiros da mística Fênix.",
+    "destaque_pt": "Se o portador for morto, o ovo se rompe em chamas kármicas e consome o indivíduo, trazendo-o de volta à vida completamente curado, purificado de máculas, maldições e doenças.",
+    "source_book": "The Book of Void",
+    "pagina": 140
+  },
+  {
+    "id": "sharing-rings--the-book-of-void",
+    "nome": "Sharing Rings",
+    "contexto_pt": "Par de anéis de obsidiana e cristal, associados ao Clã do Escorpião",
+    "resumo_pt": "Dois anéis gravados com kanji misteriosos que entrelaçam a ressonância kármica de duas almas. Eles permanecem fisicamente separados, mas reaparecem nos dedos de seus respectivos donos caso sejam descartados ou destruídos.",
+    "destaque_pt": "Cria um Laço Kármico inquebrável entre os dois portadores, permitindo-lhes compartilhar sentidos, habilidades físicas e até Pontos de Vazio conforme o vínculo se aprofunda.",
+    "source_book": "The Book of Void",
+    "pagina": 141
+  },
+  {
+    "id": "the-one-hundred-and-eighteen-feathers--the-book-of-void",
+    "nome": "The One Hundred and Eighteen Feathers",
+    "contexto_pt": "Manto sagrado de penas, mantido pela Irmandade de Shinsei",
+    "resumo_pt": "Um manto confeccionado pelo monge Ichirai reunindo penas deixadas por mestres Kenku ao longo de sua jornada espiritual. Ao concluir cento e dezoito dias de oração, o monge transformou-se em corvo e voou em direção ao céu.",
+    "destaque_pt": "Permite ao usuário gastar qualquer quantidade de Pontos de Vazio em um único teste uma vez ao dia e concede a capacidade de se comunicar com corvos.",
+    "source_book": "The Book of Void",
+    "pagina": 141
+  },
+  {
+    "id": "tokiujis-prayers--the-book-of-void",
+    "nome": "Tokiuji’s Prayers",
+    "contexto_pt": "Colares de oração (mala), criados por Isawa Tokiuji do Clã da Fênix",
+    "resumo_pt": "Vinte colares de contas esculpidos em madeira da floresta Mori Isawa, abençoados pelo Mestre do Vazio para cada um dos quatro elementos primordiais. Foram entregues aos primeiros Adeptos da escola Isawa para auxiliá-los no ensino.",
+    "destaque_pt": "Ao meditar com o colar, o usuário sintoniza o Vazio com o elemento correspondente ao mala, permitindo utilizar esse Anel Elemental no lugar do Vazio para rolagens de Aumento e cálculo de Pontos de Vazio.",
+    "source_book": "The Book of Void",
+    "pagina": 142
+  }
+]

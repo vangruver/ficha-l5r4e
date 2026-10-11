@@ -1,0 +1,406 @@
+{
+  "artefatos": {
+    "artefatos": [
+      {
+        "nome": "Agasha Kitsuki's Armor",
+        "contexto_pt": "Armadura leve associada ao fundador da família Kitsuki do Clã do Dragão.",
+        "resumo_pt": "Criada como um presente dos Mirumoto para Agasha Kitsuki, esta armadura leve foi modificada ao longo de gerações para proteger órgãos vitais contra assassinos. Ela se tornou um registro físico da história da família e foi vestida por vários líderes, incluindo a Imperatriz Iweko I.",
+        "destaque_pt": "Elimina penalidades por ataques surpresa, reduz o dano sofrido e auxilia o usuário com a sabedoria de seus antepassados em investigações e interações sociais.",
+        "source_book": "The Book of Earth",
+        "pagina": 136
+      },
+      {
+        "nome": "Ancestral Armor of the Ki-Rin",
+        "contexto_pt": "Armadura leve de origem gaijin associada à linhagem de líderes do Clã do Unicórnio.",
+        "resumo_pt": "Presenteada a Shinjo pela tribo Ujik-hai nas Terras Queimadas, a Kami nunca a usou, mas a concedeu aos seus seguidores mais leais. Tornou-se a armadura cerimonial destinada ao herdeiro ou regente do Campeão do Clã do Unicórnio.",
+        "destaque_pt": "Facilita o combate montado, permitindo utilizar Postura de Ataque Total sem sofrer penalidades normais no Valor de Armadura.",
+        "source_book": "The Book of Earth",
+        "pagina": 138
+      },
+      {
+        "nome": "Armor of Earth",
+        "contexto_pt": "Armadura pesada criada por Asako Shingon e Iuchi Yogosha, associada aos oráculos e heróis do Império.",
+        "resumo_pt": "Uma das cinco armaduras elementais lendárias, cujos portadores ao longo da história demonstraram a tendência de se sacrificar bravamente diante de terríveis perigos. Ela passou por diversas mãos durante a Guerra dos Clãs e voltou a surgir durante a Guerra contra a Sombra.",
+        "destaque_pt": "Reduz o dano de ataques inimigos e pode tornar o usuário uma barreira inabalável, imune a efeitos que tentem movê-lo à força.",
+        "source_book": "The Book of Earth",
+        "pagina": 138
+      },
+      {
+        "nome": "Armor of the Five",
+        "contexto_pt": "Armadura leve criada para a Voz dos Mestres Elementais do Clã da Fênix.",
+        "resumo_pt": "Esta armadura única foi forjada combinando a perícia dos armeiros da Fênix com as bênçãos de cada um dos cinco Mestres Elementais. Passada de geração em geração entre os que ocupam o posto de Voz dos Mestres, ela atua como símbolo oficial e elo mágico de comunicação com Kyuden Isawa.",
+        "destaque_pt": "Fornece enorme proteção, imuniza contra variações extremas de temperatura e permite cancelar ou ter sucesso automático em feitiços que visem o portador.",
+        "source_book": "The Book of Earth",
+        "pagina": 139
+      },
+      {
+        "nome": "Armor of the Golden Samurai",
+        "contexto_pt": "Armadura pesada de laca dourada, relíquia e herança da família Matsu do Clã do Leão.",
+        "resumo_pt": "Originalmente forjada por um artesão ronin chamado Kukinjin, a armadura foi recuperada por Matsu Toriko após um lorde da Fênix assassinar o ferreiro. Com a devoção de Toriko ao Bushido, o item despertou como um nemuranai que reluz brilhantemente em combate.",
+        "destaque_pt": "Manda uma aura de luz radiante que amedronta e cega oponentes, com eficácia proporcional à Honra de quem a veste.",
+        "source_book": "The Book of Earth",
+        "pagina": 140
+      },
+      {
+        "nome": "Armor of the Shadow Warrior",
+        "contexto_pt": "Armadura pesada ancestral conhecida como Ketsuen, associada aos Campeões do Clã da Caranguejo.",
+        "resumo_pt": "Criada por Kaiu para o Kami Hida, esta armadura foi manchada pelo sangue de Fu Leng durante o duelo entre os irmãos divinos. Usada ao longo dos séculos por heróis Hida, absorveu a determinação imutável de seu dono original para resistir a magias de todos os tipos.",
+        "destaque_pt": "Garante excepcional proteção física e uma resistência mágica fortíssima contra feitiços hostis e maho, além de aumentar o dano de guerreiros de grande porte.",
+        "source_book": "The Book of Earth",
+        "pagina": 141
+      },
+      {
+        "nome": "Chousen, Ancestral Armor of the Gusai Family",
+        "contexto_pt": "Armadura leve de família extinta do Clã do Mantis.",
+        "resumo_pt": "Pertencente originalmente à linhagem de Gusai, o homem que enfrentou o Imperador com uma faca, a armadura sobreviveu à dissolução da família e foi preservada pelos Campeões do Mantis. O espírito de Gusai permanece nela, incitando o usuário a atitudes ousadas e desafiadoras.",
+        "destaque_pt": "Permite trocar armas rapidamente e concede bônus em testes de ataque e dano quando enfrentando oponentes de alto Status ou Glória.",
+        "source_book": "The Book of Earth",
+        "pagina": 142
+      },
+      {
+        "nome": "Destiny's Anvil, Armor of Goju Kyoden",
+        "contexto_pt": "Armadura maculada associada a Goju Kyoden, o primeiro Campeão de Obsidiana do Clã da Aranha.",
+        "resumo_pt": "Esta armadura de tom escuro e aparência rochosa foi imbuída com o poder de Jigoku e resquícios da Sombra após servir ao guarda-costas de Daigotsu. Quando Kyoden morreu e foi trazido de volta à vida, o item se tornou um conduíte vivo de poder sombrio.",
+        "destaque_pt": "Concede bônus em perícias físicas baseados na Mácula das Terras Sombrias e dificulta a detecção de corrupção ou ataques mágicos não cristais.",
+        "source_book": "The Book of Earth",
+        "pagina": 142
+      },
+      {
+        "nome": "Ikoma's Anvil",
+        "contexto_pt": "Tambores de guerra mágicos presenteados pela família Hida à família Ikoma do Clã do Leão.",
+        "resumo_pt": "Este par de grandes tambores de bronze foi dado a Ikoma Komori pelo Clã da Caranguejo para celebrar a aliança e amizade entre as famílias. Manchados pelo sangue de inúmeros bards e guerreiros que morreram protegendo-os, os tambores tornaram-se parte central do comando militar do Leão.",
+        "destaque_pt": "Sua música ressoa pelo campo de batalha, inspirando tropas do Clã do Leão em Batalhas de Massa e fortalecendo sua resistência contra medo.",
+        "source_book": "The Book of Earth",
+        "pagina": 143
+      },
+      {
+        "nome": "Indomitable, Mutsuhito's Armor",
+        "contexto_pt": "Armadura pesada sombria criada por Fu Leng para seu primeiro general humano.",
+        "resumo_pt": "Forjada no coração das Terras Sombrias com metais corrompidos, esta armadura pertenceu a Mutsuhito, líder da tribo Noriaki e primeiro dos Perdidos. Após passar séculos perdida em Jigoku, reapareceu na invasão da Deusa Kali-Ma, destruindo a sanidade de quem tenta usá-la.",
+        "destaque_pt": "Garante Pontos de Vazio adicionais e aumentos gratuitos baseados no nível de Mácula do usuário, além de incutir medo em criaturas das Terras Sombrias.",
+        "source_book": "The Book of Earth",
+        "pagina": 144
+      },
+      {
+        "nome": "Kaiu's Smithing Tools",
+        "contexto_pt": "Ferramentas de forja lendárias pertencentes à linhagem dos daimyos da família Kaiu do Clã da Caranguejo.",
+        "resumo_pt": "Utilizadas originalmente pelo próprio Kaiu para criar as defesas do Império, estas ferramentas desenvolveram espíritos despertos de enorme poder artesanal. São usadas raríssimas vezes em cada geração, reservadas apenas para obras da mais alta importância estratégica ou Imperial.",
+        "destaque_pt": "Concedem múltiplos Aumentos Gratuitos em testes de perícias de ofício e reduzem drasticamente as necessidades de descanso do artesão durante o trabalho.",
+        "source_book": "The Book of Earth",
+        "pagina": 145
+      },
+      {
+        "nome": "Kote of the Daidoji Daimyo",
+        "contexto_pt": "Manoplas de armadura defensivas usadas pelo daimyo da família Daidoji do Clã do Grou.",
+        "resumo_pt": "Oferecidas como presente da família Doji aos Daidoji para simbolizar seu papel como protetores do clã, estas manoplas possuem peso assimétrico para se adequar ao estilo de combate com armas de haste e arcos. São passadas cerimonialmente entre os líderes da família antes de irem para a guerra.",
+        "destaque_pt": "Permitem realizar a ação Proteger como uma Ação Livre com bônus aumentado no Valor de Armadura do aliado, além de anular tentativas de desviar o usuário de seu dever.",
+        "source_book": "The Book of Earth",
+        "pagina": 146
+      },
+      {
+        "nome": "Machimasu, Ancestral Armor of the Mirumoto Family",
+        "contexto_pt": "Armadura pesada ancestral da família Mirumoto do Clã do Dragão.",
+        "resumo_pt": "Forjada por Agasha e presenteada a Mirumoto pouco antes da Primeira Guerra, esta armadura possui placas em formato de escamas de dragão. Ficou perdida nas Terras Sombrias por séculos até ser recuperada sem qualquer sinal de corrupção, refletindo a paciência e compostura de seu criador e dono.",
+        "destaque_pt": "Permite que bushi do Dragão ignorem penalidades de Agilidade e Reflexos e reajam a ataques mudando de Postura instantaneamente.",
+        "source_book": "The Book of Earth",
+        "pagina": 146
+      },
+      {
+        "nome": "Ouno's Heart",
+        "contexto_pt": "Armadura pesada sagrada do Clã da Fênix, associada ao irmão de Isawa e aos líderes da Guarda Avalanche.",
+        "resumo_pt": "Criada por Ouno, o primeiro Mestre da Terra, para defender sua tribo durante a guerra contra Fu Leng. A intensa sintonia espiritual entre o artesão e o elemento Terra fez com que a armadura se fundisse ao corpo de Ouno antes de seu retiro espiritual.",
+        "destaque_pt": "Concede enorme resistência contra venenos, doenças e corrupção espiritual, além de Aumentos Gratuitos para shugenja conjurarem feitiços de purificação.",
+        "source_book": "The Book of Earth",
+        "pagina": 147
+      },
+      {
+        "nome": "Sasageru, Ancestral Armor of the Crane Clan",
+        "contexto_pt": "Armadura leve ancestral do Clã do Grou, manifestada pela bênção de Lady Doji.",
+        "resumo_pt": "Diferente de outras relíquias, esta armadura não foi forjada por mãos humanas, surgindo milagrosamente do sopro e das bênçãos da Kami Doji para seu neto Doji Sasageru. Usada tradicionalmente pelos Campeões do Grou em tempos de guerra, carrega a voz de Sasageru inspirando atos de nobreza.",
+        "destaque_pt": "Aumenta a proteção física de acordo com a Honra do usuário e permite substituir atributos físicos e mentais pelo nível de Honra em testes.",
+        "source_book": "The Book of Earth",
+        "pagina": 148
+      },
+      {
+        "nome": "Shosuro's Blackened Armor",
+        "contexto_pt": "Armadura de ashigaru modificada, relíquia da família Shosuro do Clã do Escorpião.",
+        "resumo_pt": "Usada por Shosuro durante a Primeira Guerra, esta armadura foi escurecida por fumaça, suor e sangue ao longo de anos de missões furtivas. Ela absorveu fragmentos da Sombra com a qual Shosuro fez pacto, tornando-se uma vestimenta mística para os líderes da família.",
+        "destaque_pt": "Melhora a capacidade de ocultação do usuário, fornecendo Aumentos Gratuitos em Furtividade e a habilidade de se esconder mesmo sob vista desarmada uma vez ao dia.",
+        "source_book": "The Book of Earth",
+        "pagina": 149
+      },
+      {
+        "nome": "Sting, Tsuruchi's Kabuto",
+        "contexto_pt": "Capacete de guerra (kabuto) de ferro pertencente a Tsuruchi, fundador do Clã do Mantis/Vespa.",
+        "resumo_pt": "Este elmo pertenceu ao lendário arqueiro Tsuruchi e foi impregnado com sua percepção aguçada e olhar inflexível. Tornou-se um símbolo da liderança da família Tsuruchi e é passado entre seus herdeiros.",
+        "destaque_pt": "Aumenta a Percepção do portador para testes de perícia e atributos, além de conceder um Aumento Gratuito automático para a Manobra Tiro Localizado ao usar arcos.",
+        "source_book": "The Book of Earth",
+        "pagina": 149
+      },
+      {
+        "nome": "The Shield of Moto Gaheris",
+        "contexto_pt": "Escudo de madeira e aço da linhagem de Khan do Clã do Unicórnio.",
+        "resumo_pt": "Introduzido por Moto Gaheris ao retornar do Deserto das Areias Escaldantes, este escudo tornou-se uma relíquia familiar da liderança Moto. Embora a cultura rokugani desdenhe o uso de escudos, a peça provou sua eficácia e força em combate.",
+        "destaque_pt": "Concede bônus substancial ao Valor de Armadura e oferece forte resistência contra efeitos de Medo, Atordoado e Tonto.",
+        "source_book": "The Book of Earth",
+        "pagina": 150
+      },
+      {
+        "nome": "The Toturi Armor",
+        "contexto_pt": "Armadura pesada de treino reparada, associada ao Imperador Toturi I e à sua dinastia.",
+        "resumo_pt": "Originalmente uma armadura de treino danificada entregue a Toturi quando ele foi despojado de seu nome, foi restaurada por ele durante sua jornada como ronin e marcada com os mon dos clãs que se uniram ao seu exército. Tornou-se um símbolo do Exército de Toturi e da reunificação de Rokugan.",
+        "destaque_pt": "Garante imunidade a efeitos de Medo baseados na Honra do usuário, concede a Vantagem Tático e permite liderar aliados para ignorar ferimentos e fadiga.",
+        "source_book": "The Book of Earth",
+        "pagina": 150
+      },
+      {
+        "nome": "Tsunetomo's Dai Tsuchi",
+        "contexto_pt": "Martelo de guerra (dai tsuchi) do célebre líder ronin Tsunetomo.",
+        "resumo_pt": "Utilizado pelo inteligente e direto ronin Tsunetomo no século IV, este martelo gigante de guerra acompanhou a criação de um domínio independente nas montanhas do Leão. Trata-se de uma arma surpreendentemente leve e precisa, capturada pelo Leão após a morte de seu dono.",
+        "destaque_pt": "Garante um Aumento Gratuito para a Manobra Tiro Localizado e permite gastar Pontos de Vazio para ignorar a Redução de Dano do alvo ao causar dano.",
+        "source_book": "The Book of Earth",
+        "pagina": 151
+      }
+    ]
+  },
+  "criaturas": {
+    "criaturas": [
+      {
+        "nome": "The Dragon of Earth",
+        "contexto_pt": "Espírito celestial / Dragão Elemental das Céis e da Terra",
+        "resumo_pt": "O Dragão da Terra é uma entidade celestial profundamente distante dos assuntos mortais, raramente intervindo no mundo humano. Quando decide agir, realiza suas intervenções com uma força avassaladora e inabalável.",
+        "destaque_pt": "Representa a paciência absoluta e o poder bruto elemental da Terra em sua forma suprema.",
+        "source_book": "The Book of Earth",
+        "pagina": 133
+      },
+      {
+        "nome": "Inari",
+        "contexto_pt": "Fortuna Menor do Arroz",
+        "resumo_pt": "Inari é uma das Fortunas mais veneradas em todo o Império de Rokugan devido à extrema importância do arroz na sociedade. Sendo uma divindade compassiva e atenta, sua bênção garante colheitas fartas, enquanto seu descontentamento traz a fome.",
+        "destaque_pt": "Sua boa vontade é fundamental para a sobrevivência econômica e alimentar do Império.",
+        "source_book": "The Book of Earth",
+        "pagina": 133
+      },
+      {
+        "nome": "Kenro-ji-jin",
+        "contexto_pt": "Fortuna do Solo",
+        "resumo_pt": "Esta Fortuna é venerada principalmente por agricultores, pedreiros e oleiros que dependem diretamente do solo para seu sustento. Kenro-ji-jin cuida da qualidade da terra e da nutrição do solo que sustenta as plantações.",
+        "destaque_pt": "Garante a fertilidade básica da terra e a firmeza dos materiais rochosos.",
+        "source_book": "The Book of Earth",
+        "pagina": 133
+      },
+      {
+        "nome": "Kuroshin",
+        "contexto_pt": "Fortuna da Agricultura",
+        "resumo_pt": "Kuroshin é uma Fortuna benevolente que recompensa aqueles que se dedicam ao cultivo da terra com sabedoria e respeito. Aqueles que abusam do solo ou maltratam suas colheitas atraem sua ira, resultando em pragas e campos estéreis.",
+        "destaque_pt": "Protege os métodos tradicionais de cultivo e pune o desperdício agrícola.",
+        "source_book": "The Book of Earth",
+        "pagina": 133
+      },
+      {
+        "nome": "Toyouke-Omikami",
+        "contexto_pt": "Fortuna dos Grãos",
+        "resumo_pt": "Venerada especialmente nas terras do Clã do Unicórnio, esta Fortuna cuida do cultivo de grãos secundários como cevada e aveia. Embora tenha um papel menor que Inari, é essencial para a manutenção dos rebanhos de cavalos.",
+        "destaque_pt": "Crucial para a alimentação animal e para regiões impróprias para o cultivo de arroz.",
+        "source_book": "The Book of Earth",
+        "pagina": 133
+      },
+      {
+        "nome": "Tsi Xing Guo",
+        "contexto_pt": "Fortuna do Aço",
+        "resumo_pt": "Esta Fortuna indiferente é venerada por ferreiros e artesãos que forjam armas, armaduras e ferramentas de metal. Ela se concentra no aprimoramento do próprio ofício e raramente concede favores a menos que seja profundamente impressionada.",
+        "destaque_pt": "Inspira a criação de obras-primas em metalurgia e armaria.",
+        "source_book": "The Book of Earth",
+        "pagina": 133
+      },
+      {
+        "nome": "Ryu of the Earth",
+        "contexto_pt": "Espírito celestial de Tengoku",
+        "resumo_pt": "Estes dragões serpentinos compostos de rochas e gemas preciosas habitam os picos mais altos de Rokugan. Silenciosos e observadores, eles movem-se pela terra sólida como se estivessem nadando e atacam com a ferocidade de um terremoto quando necessário.",
+        "destaque_pt": "Poderosos guardiões celestiais capazes de se deslocar através da rocha sólida.",
+        "source_book": "The Book of Earth",
+        "pagina": 133
+      },
+      {
+        "nome": "Kodama",
+        "contexto_pt": "Espírito da natureza / Árvores antigas",
+        "resumo_pt": "Os Kodama são espíritos que habitam as árvores mais antigas das grandes florestas de Rokugan. Sua vida está diretamente ligada à árvore hospedeira; se a árvore for destruída, o espírito morre, mas não sem antes lançar uma terrível maldição sobre o agressor.",
+        "destaque_pt": "Possuem a capacidade de abençoar a floresta e amaldiçoar gravemente quem destrói suas árvores.",
+        "source_book": "The Book of Earth",
+        "pagina": 133
+      },
+      {
+        "nome": "Myobu",
+        "contexto_pt": "Espírito kitsune / Servidor de Inari",
+        "resumo_pt": "Espíritos raposa sagrados de até oito caudas que servem diretamente à Fortuna Inari como mensageiros. Eles costumam assumir formas humanas para guiar os caminhos da colheita ou avisar sobre perigos iminentes de fome.",
+        "destaque_pt": "Capazes de abençoar lavouras ou rogar pragas agrícolas devastadoras.",
+        "source_book": "The Book of Earth",
+        "pagina": 133
+      },
+      {
+        "nome": "Yobuko",
+        "contexto_pt": "Espírito da montanha",
+        "resumo_pt": "Espíritos solitários de uma só perna que habitam passos de montanha e se assemelham a garotos camponeses. Eles repetem os ecos das vozes humanas e toleram viajantes por pouco tempo, desencadeando avalanches e deslizamentos se sua paciência se esgotar.",
+        "destaque_pt": "Podem provocar desastres naturais como terremotos e avalanches contra intrusos.",
+        "source_book": "The Book of Earth",
+        "pagina": 134
+      },
+      {
+        "nome": "Jinmenju",
+        "contexto_pt": "Criatura corrompida / Floresta e Terras Sombrias",
+        "resumo_pt": "Árvores sinistras encontradas nas Terras Sombrias e matas fechadas cujos frutos possuem o formato de rostos humanos vivos. Esses frutos gargalham, gritam e mordem com dentes afiados quando alguém se aproxima, mantendo-se vivos mesmo destacados do tronco.",
+        "destaque_pt": "Provocam terror psicológico extremo e mordidas venenosas que debilitam a energia vital.",
+        "source_book": "The Book of Earth",
+        "pagina": 134
+      },
+      {
+        "nome": "Zokujin",
+        "contexto_pt": "Raça Antiga da Terra",
+        "resumo_pt": "Conhecidos como gnomes do cobre, os Zokujin são uma das cinco raças antigas que habitavam o mundo antes da queda dos Kami. Eles alimentam-se de rochas e minerais, além de possuírem a habilidade nata de atravessar a terra e a rocha com extrema facilidade.",
+        "destaque_pt": "Capacidade incomum de se mover perfeitamente por meios subterrâneos e detectar veios minerais.",
+        "source_book": "The Book of Earth",
+        "pagina": 134
+      },
+      {
+        "nome": "Jimen no Oni",
+        "contexto_pt": "Terror Elemental Maior da Terra / Terras Sombrias",
+        "resumo_pt": "Um humanoide gigante feito de rocha e lama coagulada com sangue, ostentando rubis flamejantes no lugar dos olhos. Esta abominação obedece apenas ao Oráculo Sombrio da Terra e esmaga seus inimigos com força física incansável e brutal.",
+        "destaque_pt": "Inviolável por magia comum de Terra e capaz de abalar o chão a cada passo.",
+        "source_book": "The Book of Earth",
+        "pagina": 134
+      },
+      {
+        "nome": "Toichi no Kansen",
+        "contexto_pt": "Terror Elemental Menor da Terra / Terras Sombrias",
+        "resumo_pt": "Uma grande massa móvel de pedra e terra contaminada infundida por kansen malignos. Este monstro caça suas vítimas com determinação obstinada, arrastando-as para debaixo da terra para sufocá-las.",
+        "destaque_pt": "Arrasta alvos para o subsolo, provocando asfixia e morte rápida.",
+        "source_book": "The Book of Earth",
+        "pagina": 134
+      },
+      {
+        "nome": "Daidarabochi",
+        "contexto_pt": "Raça lendária / Gigantes das montanhas",
+        "resumo_pt": "Gigantes lendários das montanhas do norte que possuem pele extremamente espessa resistente ao frio congelante. Segundo o folclore, seus passos criam nascentes de água e seus arremessos de rochas formam lagos inteiros.",
+        "destaque_pt": "Força física colossal e extrema resistência a ambientes congelantes e impactos.",
+        "source_book": "The Book of Earth",
+        "pagina": 135
+      },
+      {
+        "nome": "Hibagon",
+        "contexto_pt": "Raça lendária / Homens-macacos das florestas",
+        "resumo_pt": "Seres simiescos cobertos de pelos que vivem no interior das florestas mais profundas de Rokugan. Embora sejam herbívoros e ariscos com humanos, possuem um ódio ancestral por criaturas maculadas, atacando-as com pedras e bastões.",
+        "destaque_pt": "Inimigos naturais da Mácula das Terras Sombrias que atacam em bando qualquer presença maligna.",
+        "source_book": "The Book of Earth",
+        "pagina": 135
+      },
+      {
+        "nome": "Cougar",
+        "contexto_pt": "Criatura mundana / Montanhas",
+        "resumo_pt": "Grandes felinos predadores que habitam as regiões montanhosas de Rokugan. Caçam espreitando suas presas com grande agilidade e força, escondendo os corpos nos galhos das árvores para se alimentarem ao longo dos dias.",
+        "destaque_pt": "Predador silencioso e ágil especializado em emboscadas nas montanhas.",
+        "source_book": "The Book of Earth",
+        "pagina": 136
+      },
+      {
+        "nome": "Komodo Dragon",
+        "contexto_pt": "Criatura mundana / Ilhas do Clã do Mantis",
+        "resumo_pt": "Répteis carnívoros de grande porte cobertos por escamas escuras que habitam as ilhas tropicais. Eles caçam por emboscada e possuem uma mordida altamente séptica e tóxica que enfraquece e mata rapidamente suas vítimas.",
+        "destaque_pt": "Sua saliva tóxica infecta a vítima, provocando definhamento contínuo da saúde.",
+        "source_book": "The Book of Earth",
+        "pagina": 136
+      },
+      {
+        "nome": "Mongoose",
+        "contexto_pt": "Criatura mundana / Ilhas e Colônias",
+        "resumo_pt": "Um pequeno mamífero extremamente veloz que habita florestas tropicais. Conhecido por sua agilidade impressionante e garras afiadas, é um caçador especializado em matar cobras venenosas e grandes répteis.",
+        "destaque_pt": "Velocidade e reflexos extraordinários capazes de superar serpentes peçonhentas.",
+        "source_book": "The Book of Earth",
+        "pagina": 137
+      },
+      {
+        "nome": "Panda",
+        "contexto_pt": "Criatura mundana / Florestas de bambu",
+        "resumo_pt": "Uma variedade rara de urso de pelagem preta e branca que habita regiões montanhosas próximas a florestas de bambu. Geralmente são animais solitários, calmos e muito pacíficos, raramente atacando sem provocação.",
+        "destaque_pt": "Grande porte e resistência física, mantendo uma natureza dócil.",
+        "source_book": "The Book of Earth",
+        "pagina": 137
+      },
+      {
+        "nome": "Rhinoceros",
+        "contexto_pt": "Criatura mundana / Planícies e Colônias",
+        "resumo_pt": "Um enorme quadrúpede herbívoro de couro espesso que ostenta um chifre temível sobre o focinho. Apesar de sua visão fraca, possui audição apurada e reage com extrema agressividade quando perturbado.",
+        "destaque_pt": "Cargas devastadoras e couro extremamente difícil de perfurar.",
+        "source_book": "The Book of Earth",
+        "pagina": 137
+      }
+    ]
+  },
+  "locais": {
+    "locais": [
+      {
+        "nome": "Kyuden Hida",
+        "contexto_pt": "Clã da Caranguejo, Família Hida",
+        "resumo_pt": "A maior e mais formidável fortaleza de Rokugan, esculpida diretamente na rocha das montanhas. Projetada pelo fundador Kaiu, é o centro do poder do Clã da Caranguejo e guarda a principal rota de acesso ao interior de suas terras.",
+        "destaque_pt": "Possui muralhas colossais de 55 metros de altura, portões de aço maciço e um pátio central equipado com armadilhas mecânicas capazes de transformar a área em um poço mortal em caso de invasão.",
+        "source_book": "The Book of Earth",
+        "pagina": 41
+      },
+      {
+        "nome": "Kosaten Shiro",
+        "contexto_pt": "Clã do Grou, Família Daidoji",
+        "resumo_pt": "Uma fortaleza militar do Clã do Grou construída predominantemente em madeira sobre uma alta base de pedra. Situa-se em um Ponto estratégico que intercepta a rota de invasão primária vinda do território do Clã do Leão.",
+        "destaque_pt": "Seu interior esconde uma rede intrincada de passagens secretas, frestas de arqueiro camufladas e paredes falsas para confundir invasores, além de terras circundantes repletas de armadilhas mortais.",
+        "source_book": "The Book of Earth",
+        "pagina": 42
+      },
+      {
+        "nome": "Kyuden Ashinagabachi",
+        "contexto_pt": "Clã do Mantis, Família Tsuruchi",
+        "resumo_pt": "Antigo palácio do Clã do Escorpião tomado e remodelado pela Família Tsuruchi para maximizar suas táticas de arquearia. Localizado em uma passagem montanhosa, possui linhas de visão amplas e estoque gigantesco de munição.",
+        "destaque_pt": "A vegetação ao redor do castelo foi completamente desmatada por milhas, forçando qualquer tropa hostil a marchar por terrenos abertos sob chuva constante de flechas extremamente precisas.",
+        "source_book": "The Book of Earth",
+        "pagina": 43
+      },
+      {
+        "nome": "Shiro Akatsuki",
+        "contexto_pt": "Terras Não-Alinhadas, Legião dos Dois Mil / Ronin",
+        "resumo_pt": "Uma fortaleza misteriosa encravada nas Montanhas do Arrependimento que esteve abandonada durante a Guerra dos Clãs antes de ser ocupada por companhias ronin. Opera de maneira independente de qualquer Great Clan.",
+        "destaque_pt": "Cada visitante ronin deve trazer uma pedra gravada com seu nome para auxiliar na manutenção das muralhas, deixando um registro histórico permanente dos defensores do local.",
+        "source_book": "The Book of Earth",
+        "pagina": 43
+      },
+      {
+        "nome": "Kyuden Gotei",
+        "contexto_pt": "Clã do Mantis, Ilhas de Especiarias e Seda",
+        "resumo_pt": "A opulenta e gigantesca sede do Clã do Mantis nas ilhas do sul. Trata-se de um complexo suntuoso coberto de joias, ouro e iluminação vibrante, refletindo a imensa riqueza acumulada pelo comércio marítimo do clã.",
+        "destaque_pt": "Acomoda os convidados com um luxo extravagante e inédito que costuma desestabilizar cortesãos tradicionais, garantindo ao Clã do Mantis vantagem política durante negociações em suas terras.",
+        "source_book": "The Book of Earth",
+        "pagina": 102
+      },
+      {
+        "nome": "Shiro Kaotsuki no Higashi",
+        "contexto_pt": "Clã da Caranguejo, Família Yasuki",
+        "resumo_pt": "Conhecido como o Castelo do Rosto do Leste, fica entre as Montanhas do Crepúsculo e a Floresta Shinomen. É a principal sede de negociações diplomáticas e acordos comerciais entre o Clã da Caranguejo e as outras facções do Império.",
+        "destaque_pt": "Apresenta uma estética militar austera planejada para lembrar os embaixadores do custo da guerra no sul, além de abrigar nos arredores o Mercado da Carpa Dourada para negociações clandestinas.",
+        "source_book": "The Book of Earth",
+        "pagina": 104
+      },
+      {
+        "nome": "Shiro Mirumoto",
+        "contexto_pt": "Clã do Dragão, Família Mirumoto",
+        "resumo_pt": "A principal corte do Clã do Dragão, caracterizada por uma infraestrutura sóbria, funcional e focada na contemplação. Oferece aos visitantes acomodações adequadas e acesso a bibliotecas e dojos, sem luxos ostensivos.",
+        "destaque_pt": "Nas profundezas do castelo encontra-se o Grande Estudo, uma instalação subterrânea secreta onde o Clã do Dragão guarda e pesquisa nemuranai e artefatos ancestrais perigosos.",
+        "source_book": "The Book of Earth",
+        "pagina": 106
+      },
+      {
+        "nome": "Heichi sano Negura",
+        "contexto_pt": "Clã do Javali, Montanhas do Crepúsculo",
+        "resumo_pt": "A fortaleza principal do cenário de aventura 'O Templo do Javali', erguida em um platô isolado nas montanhas. Com cinco andares construídos em estilo antigo, serve como lar para a comunidade remanescente do Clã do Javali.",
+        "destaque_pt": "Forasteiros que encontram o local são mantidos como residentes permanentes para impedir que o segredo de sua sobrevivência chegue ao Império ou aos inimigos do clã.",
+        "source_book": "The Book of Earth",
+        "pagina": 167
+      }
+    ]
+  }
+}

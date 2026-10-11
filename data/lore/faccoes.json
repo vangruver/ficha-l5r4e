@@ -1,0 +1,78 @@
+[
+  {
+    "cla": "Ronin",
+    "resumo_pt": "Samurai sem mestre que vagam por Rokugan buscando subsistência, redenção ou um novo propósito de vida. Eles variam desde mercenários honrados e protetores de vilarejos até bandidos e criminosos desiludidos. Embora vitais para preencher lacunas de combate e mão de obra barata, a sociedade rokugani os enxerga com desconfiança por estarem fora da ordem social tradicional. Alguns chegam a formar bandos organizados (otokodate) para sobrevivência mútua e até mesmo alcançam feitos heroicos dignos de reconhecimento imperial.",
+    "valores_pt": "Variam enormemente conforme o indivíduo; enquanto alguns buscam defender os preceitos do Bushido e a autossuficiência, outros priorizam puramente a sobrevivência diária e o ganho financeiro.",
+    "aparencia_pt": "Trajam quimonos desgastados e armaduras remendadas ou de segunda mão, frequentemente ostentando vestígios de símbolos de antigos clãs apagados ou modificados, além de carregarem o daisho como marca de sua casta.",
+    "papel_pt": "Atuam como mercenários, guardas de caravanas, protetores rurais de vilarejos desamparados e buchas de canhão temporárias para exércitos dos Clãs Grandes.",
+    "patrono_pt": "",
+    "relacoes": [
+      {
+        "cla": "Clã do Mantis",
+        "tipo": "aliado",
+        "descricao_pt": "O Clã do Mantis possui origens ronin e mantém forte laço histórico, recrutando-os com frequência e tratando-os de forma mais justa.",
+        "claId": "cla-do-mantis"
+      },
+      {
+        "cla": "Clã do Unicórnio",
+        "tipo": "aliado",
+        "descricao_pt": "Os Unicórnios, por também se sentirem forasteiros, costumam tratar os ronin com respeito e compaixão, oferecendo oportunidades de trabalho razoáveis.",
+        "claId": "cla-do-unicornio"
+      },
+      {
+        "cla": "Clã do Grou",
+        "tipo": "tenso",
+        "descricao_pt": "Os Grous costumam ver os ronin como plebeus armados sem educação, utilizando-os apenas como mercenários descartáveis em tempos de crise.",
+        "claId": "cla-do-grou"
+      },
+      {
+        "cla": "Clã do Leão",
+        "tipo": "rival",
+        "descricao_pt": "Os Leões enxergam os ronin com desdém estrutural por não possuírem linhagem ou dojo formal, caçando impiedosamente aqueles que viram bandidos.",
+        "claId": "cla-do-leao"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Contratado por uma aldeia camponesa isolada para protegê-la contra bandidos locais que ironicamente já foram seus antigos companheiros de armas.",
+      "Tentando provar seu valor e honra durante um combate para conquistar o direito de jurar lealdade a um Clã Menor ou Grande.",
+      "Atuando como guarda de corpo para um mercador rico enquanto lida com a humilhação de receber ordens de alguém de casta inferior."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "ronin"
+  },
+  {
+    "cla": "Irmandade de Shinsei",
+    "resumo_pt": "A Irmandade de Shinsei é uma vasta e descentralizada organização religiosa que reúne monges, monjas e sábios dedicados ao estudo do Tao de Shinsei e ao culto às Fortunas. Ela acolhe desde camponeses órfãos até samurais aposentados que abandonam suas espadas e nomes para buscar o Iluminismo. Seus membros servem à sociedade como conselheiros espirituais, historiadores, curandeiros e guardiões de locais sagrados. Embora permaneçam neutros na maioria dos conflitos políticos, a influência espiritual da Irmandade molda profundamente a cultura de Rokugan.",
+    "valores_pt": "A busca pelo Iluminismo, a moderação, o desapego material, a compaixão com os menos favorecidos e o cumprimento da Ordem Celestial por meio do Shintao.",
+    "aparencia_pt": "Vestem trajes austeros cor açafrão ou cinza simples, com cabeças raspadas e portando apenas itens essenciais como cajados (bo), tigelas de esmola e contas de oração.",
+    "papel_pt": "Preservar e ensinar a sabedoria do Tao de Shinsei, realizar rituais religiosos para o povo e para a nobreza, guiar almas no ciclo kármico e manter monastérios e templos em todo o Império.",
+    "patrono_pt": "O próprio Imperador detém a autoridade espiritual suprema sobre a Irmandade, e a ordem mantém fortes laços com a família Seppun e o Clã da Fênix.",
+    "relacoes": [
+      {
+        "cla": "Clã da Fênix",
+        "tipo": "aliado",
+        "descricao_pt": "A Fênix é a mais fervorosa protetora das tradições da Irmandade e colabora constantemente em pesquisas teológicas e espirituais.",
+        "claId": "cla-da-fenix"
+      },
+      {
+        "cla": "Famílias Imperiais",
+        "tipo": "aliado",
+        "descricao_pt": "A família Seppun atua como defensora ativa das doutrinas espirituais fundadas por Shinsei, mantendo laços estreitos com os grandes monastérios.",
+        "claId": "familias-imperiais"
+      },
+      {
+        "cla": "Clã da Caranguejo",
+        "tipo": "neutro",
+        "descricao_pt": "Os Caranguejos respeitam monastérios de ordens marciais (como a de Osano-Wo), mas geralmente consideram monges contemplativos pouco práticos para a guerra.",
+        "claId": "cla-da-caranguejo"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Um samurai idoso que se aposentou recentemente e precisa aprender a renunciar ao seu orgulho guerreiro para conviver como noviço ao lado de jovens camponeses.",
+      "Um monge peregrino investigando rumores de uma heresia doutrinária que ameaça desequilibrar a paz espiritual de uma província.",
+      "Um guardião sohei defendendo um templo remoto e seus refugiados rurais contra a incursão de cultistas ou criaturas das Terras Sombrias."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "irmandade-de-shinsei"
+  }
+]

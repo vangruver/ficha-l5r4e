@@ -1,0 +1,210 @@
+{
+  "artefatos": {
+    "artefatos": [
+      {
+        "nome": "Brilliant Ornaments of the Moon",
+        "contexto_pt": "Ornamentos de cristal, associados à família Asahina do Clã do Grou",
+        "resumo_pt": "Estes pequenos ornamentos em formato de lágrima nasceram da cristalização das lágrimas de Asahina Akusesari durante seus momentos finais. A jovem possuía um talento extraordinário com o Vazio e moldou estes itens antes de ser sacrificada por um culto sombrio.",
+        "destaque_pt": "Cada ornamento funciona uma única vez, concedendo uma bênção mágica que permite ao usuário alcançar o sucesso em uma tarefa extremamente difícil ou impossível.",
+        "source_book": "The Book of Void",
+        "pagina": 137
+      },
+      {
+        "nome": "The Candle of the Void",
+        "contexto_pt": "Velas mágicas de cera preta, associadas à Escola de Shugenja Isawa do Clã da Fênix",
+        "resumo_pt": "Criadas durante o treinamento inicial dos estudantes da Fênix, estas velas de cera preta contêm fragmentos sutis de todos os elementos. Ao serem acesas para pesquisas ou conjurações, a cera derrete formando padrões abstratos que refletem a natureza do Vazio.",
+        "destaque_pt": "Concede um Aumento Gratuito para feitiços elementares lançados em suas proximidades e fornece bônus em rolagens da perícia Meditação.",
+        "source_book": "The Book of Void",
+        "pagina": 137
+      },
+      {
+        "nome": "The Dragon Helms",
+        "contexto_pt": "Yelmos místico-dracônicos, criados por uma shugenja do Clã do Escorpião",
+        "resumo_pt": "Forjados originalmente para capturar uma fração da essência divina dos Dragões Elementais, estes yelmos ornamentados possuem aparências e cores correspondentes a cada um dos Dragões. A criadora original foi destruída pelo Oráculo do Fogo por sua audácia, mas seus aprendizes concluíram o trabalho.",
+        "destaque_pt": "Permitem ao usuário enxergar a verdadeira forma dos Dragões Elementais e emitir um único comando absoluto ao Dragão associado ao yelmo.",
+        "source_book": "The Book of Void",
+        "pagina": 137
+      },
+      {
+        "nome": "Dragon Puzzle Boxes",
+        "contexto_pt": "Caixas de quebra-cabeça mecânicas, populares no Clã do Dragão",
+        "resumo_pt": "Pequenos dispositivos mecânicos de madeira ou metal concebidos para desafiar a mente e conduzir à iluminação. Quando solucionadas após horas de intensa concentração, revelam um koan ou um pequeno objeto sem valor material.",
+        "destaque_pt": "Exigem testes difíceis da perícia Investigação para serem resolvidas, concedendo Aumentos Gratuitos temporários em rolagens de perícia devido ao sentimento de paz obtido.",
+        "source_book": "The Book of Void",
+        "pagina": 138
+      },
+      {
+        "nome": "Egg of the Void",
+        "contexto_pt": "Artefato lendário mantido no Conselho dos Mestres Elementais do Clã da Fênix",
+        "resumo_pt": "Um ovo mágico presenteado pelos Dragões Elementais aos Kami no início da história do Império. Ele atua como um canal direto entre o reino mortal e os Céus Celestiais, vibrando com a energia primordial dos Dragões.",
+        "destaque_pt": "Permite conversar diretamente com o Dragão Elemental do Vazio para obter respostas divinas, mas pode provocar colapso mental no usuário ou causar uma explosão temporal devastadora se for destruído.",
+        "source_book": "The Book of Void",
+        "pagina": 138
+      },
+      {
+        "nome": "Lucky Crickets",
+        "contexto_pt": "Grilos mágicos em gaiolas ornamentadas, presentes em todo Rokugan",
+        "resumo_pt": "Grilos comuns mantidos em gaiolas em miniatura que ocasionalmente são tocados de forma espontânea pela essência do Vazio. Sua magia não pode ser despertada intencionalmente por shugenja e só funciona quando o item é presenteado a outra pessoa.",
+        "destaque_pt": "Concede um Ponto de Vazio bônus de uso único, cujo propósito de uso é determinado pelo tipo e material da gaiola na qual o grilo está contido.",
+        "source_book": "The Book of Void",
+        "pagina": 139
+      },
+      {
+        "nome": "The Mempo of Void",
+        "contexto_pt": "Máscara de armadura viscosa, criada por shugenja dos clãs Fênix e Unicórnio",
+        "resumo_pt": "O último dos cinco tesouros elementais criados por Asako Shingon e Iuchi Higosha, exigindo o sacrifício de suas vidas para equilibrar as forças espirituais do reino. A máscara possui uma substância escura e mutável que cobre totalmente o rosto do portador.",
+        "destaque_pt": "Permite enxergar seres e objetos invisíveis, concede imunidade a efeitos de controle mental e previne a perda involuntária de Pontos de Vazio.",
+        "source_book": "The Book of Void",
+        "pagina": 139
+      },
+      {
+        "nome": "Norou Kubi Bukuro (The Accursed Head Bag)",
+        "contexto_pt": "Saco de pano para transporte de cabeças, criado com auxílio do Oráculo Sombrio do Vazio",
+        "resumo_pt": "Uma bolsa de aparência comum usada para armazenar a cabeça cortada de um inimigo, contendo uma intrincada teia de renda negra em seu interior. Foi criada por uma shugenja disposta a sacrificar sua própria reencarnação para condenar seus oponentes.",
+        "destaque_pt": "Prende a alma da cabeça decepada em seu interior, impedindo o espírito de reencarnar ou seguir para a vida após a morte enquanto os cordões permanecerem fechados.",
+        "source_book": "The Book of Void",
+        "pagina": 139
+      },
+      {
+        "nome": "Ofuda of the Unraveled Soul",
+        "contexto_pt": "Pergaminhos de madeira em branco, ligados ao Dragão do Vazio",
+        "resumo_pt": "Tiras de madeira presas por cordéis criadas por um Ishiken corrompido pela loucura. Qualquer feitiço pode ser inscrito em sua superfície, estabelecendo uma conexão instável e perigosa com os limites do domínio do Vazio.",
+        "destaque_pt": "Fornece Aumentos Gratuitos para o feitiço inscrito, mas libera efeitos caóticos e imprevisíveis toda vez que um Aumento Gratuito ou Ponto de Vazio é gasto na conjuração.",
+        "source_book": "The Book of Void",
+        "pagina": 140
+      },
+      {
+        "nome": "Rebirth of the Phoenix",
+        "contexto_pt": "Esferas em formato de ovo, associadas ao Clã da Fênix e a Isawa Ujikki",
+        "resumo_pt": "Artefatos do tamanho de um punho com superfície lisa e escura como água, que parecem conter estrelas brilhantes em seu interior. Há debates se foram forjados pelo primeiro Mestre do Vazio ou se são ovos verdadeiros da mística Fênix.",
+        "destaque_pt": "Se o portador for morto, o ovo se rompe em chamas kármicas e consome o indivíduo, trazendo-o de volta à vida completamente curado, purificado de máculas, maldições e doenças.",
+        "source_book": "The Book of Void",
+        "pagina": 140
+      },
+      {
+        "nome": "Sharing Rings",
+        "contexto_pt": "Par de anéis de obsidiana e cristal, associados ao Clã do Escorpião",
+        "resumo_pt": "Dois anéis gravados com kanji misteriosos que entrelaçam a ressonância kármica de duas almas. Eles permanecem fisicamente separados, mas reaparecem nos dedos de seus respectivos donos caso sejam descartados ou destruídos.",
+        "destaque_pt": "Cria um Laço Kármico inquebrável entre os dois portadores, permitindo-lhes compartilhar sentidos, habilidades físicas e até Pontos de Vazio conforme o vínculo se aprofunda.",
+        "source_book": "The Book of Void",
+        "pagina": 141
+      },
+      {
+        "nome": "The One Hundred and Eighteen Feathers",
+        "contexto_pt": "Manto sagrado de penas, mantido pela Irmandade de Shinsei",
+        "resumo_pt": "Um manto confeccionado pelo monge Ichirai reunindo penas deixadas por mestres Kenku ao longo de sua jornada espiritual. Ao concluir cento e dezoito dias de oração, o monge transformou-se em corvo e voou em direção ao céu.",
+        "destaque_pt": "Permite ao usuário gastar qualquer quantidade de Pontos de Vazio em um único teste uma vez ao dia e concede a capacidade de se comunicar com corvos.",
+        "source_book": "The Book of Void",
+        "pagina": 141
+      },
+      {
+        "nome": "Tokiuji’s Prayers",
+        "contexto_pt": "Colares de oração (mala), criados por Isawa Tokiuji do Clã da Fênix",
+        "resumo_pt": "Vinte colares de contas esculpidos em madeira da floresta Mori Isawa, abençoados pelo Mestre do Vazio para cada um dos quatro elementos primordiais. Foram entregues aos primeiros Adeptos da escola Isawa para auxiliá-los no ensino.",
+        "destaque_pt": "Ao meditar com o colar, o usuário sintoniza o Vazio com o elemento correspondente ao mala, permitindo utilizar esse Anel Elemental no lugar do Vazio para rolagens de Aumento e cálculo de Pontos de Vazio.",
+        "source_book": "The Book of Void",
+        "pagina": 142
+      }
+    ]
+  },
+  "criaturas": {
+    "criaturas": [
+      {
+        "nome": "Kotoamatsukami",
+        "contexto_pt": "Deuses Celestes Ancestrais",
+        "resumo_pt": "Entidades primordiais que existiam no imenso Vazio antes da formação do mundo por Lady Sun e Lord Moon. Elas moldaram o universo e os reinos espirituais a partir das sílabas esquecidas de seus próprios nomes.",
+        "destaque_pt": "Seus nomes verdadeiros foram esquecidos e lembrá-los ou pronunciá-los exigiria vivenciar a totalidade e o nada simultaneamente.",
+        "source_book": "The Book of Void",
+        "pagina": 124
+      },
+      {
+        "nome": "Void Dragon",
+        "contexto_pt": "Dragão Celestial",
+        "resumo_pt": "Entidade dracônica celestial que personifica o paradoxo de ser todas as coisas e nada ao mesmo tempo. Manifesta-se como a escuridão entre as estrelas com dois sóis brilhando em seus olhos.",
+        "destaque_pt": "É o mais ativo dos Dragões Celestiais na esfera mortal, intervindo com frequência e gerando grande impacto kármico.",
+        "source_book": "The Book of Void",
+        "pagina": 124
+      },
+      {
+        "nome": "Thunder Dragon",
+        "contexto_pt": "Dragão Celestial",
+        "resumo_pt": "Entidade celestial associada à coragem e ao potencial heroico dos mortais. Teve uma união com o Kami Hida que deu origem a Osano-Wo e à linhagem de heróis dos clãs Caranguejo e Mantis.",
+        "destaque_pt": "Renunciou à sua forma imortal nos Céus Celestiais no século XII por compaixão à humanidade para permitir a ascensão do Kami Yoritomo.",
+        "source_book": "The Book of Void",
+        "pagina": 124
+      },
+      {
+        "nome": "Ryoshun",
+        "contexto_pt": "Kami Celestial / Guardião de Meido",
+        "resumo_pt": "O décimo filho de Lady Sun e Lord Moon, morto ainda no ventre paterno e incapaz de cair em Ningen-do com seus irmãos. Assumiu o papel de guiar as almas dos mortos no reino de Meido.",
+        "destaque_pt": "Atua como o elo de conexão cósmica entre os reinos espirituais sem estar atrelado a nenhum dos quatro elementos físicos.",
+        "source_book": "The Book of Void",
+        "pagina": 125
+      },
+      {
+        "nome": "Emma-O",
+        "contexto_pt": "Fortuna da Morte / Senhor de Meido",
+        "resumo_pt": "A Fortuna que governa o Reino da Espera, responsável por julgar e encaminhar as almas mortais ao longo da roda da reencarnação. É formado diretamente da vontade celestial e da essência do Vazio.",
+        "destaque_pt": "Representa o ponto focal do julgamento e da transição espiritual, sem o qual o ciclo kármico de morte e renascimento não pode existir.",
+        "source_book": "The Book of Void",
+        "pagina": 125
+      },
+      {
+        "nome": "Kitsu",
+        "contexto_pt": "Raça Ancestral Lendária",
+        "resumo_pt": "Uma das cinco raças ancestrais que habitavam Rokugan antes da chegada dos Kami. Eram seres transmutadores e místico-espirituais com profunda conexão com o Vazio e com todos os reinos de espíritos.",
+        "destaque_pt": "Foram quase dizimados por Akodo, e os últimos sobreviventes cruzaram sua linhagem com os humanos para fundar a família Kitsu do Clã do Leão.",
+        "source_book": "The Book of Void",
+        "pagina": 126
+      },
+      {
+        "nome": "Ryu of Void",
+        "contexto_pt": "Espírito Dracônico de Tengoku",
+        "resumo_pt": "Espíritos dracônicos celestiais a serviço do Dragão do Vazio, parecendo silhuetas de sombra escura contendo olhos cintilantes como estrelas. Sentem imensa fascinação pela transitoriedade e experiências dos mortais.",
+        "destaque_pt": "São os mensageiros e agentes diretos do Dragão do Vazio quando este precisa agir ou observar Ningen-do.",
+        "source_book": "The Book of Void",
+        "pagina": 126
+      },
+      {
+        "nome": "Akeru no Oni",
+        "contexto_pt": "Terras Sombrias / Grande Terror Elemental do Vazio",
+        "resumo_pt": "Uma aberração monstruosa criada pela união dos Oráculos Sombrios para corromper a estrutura do Vazio. Surge como uma massa de energia negra com aspecto de inseto e patas garras.",
+        "destaque_pt": "Consegue roubar e consumir os Pontos de Vazio das vítimas, podendo apagá-las permanentemente do ciclo de reencarnação.",
+        "source_book": "The Book of Void",
+        "pagina": 194
+      },
+      {
+        "nome": "Kukanchi no Kansen",
+        "contexto_pt": "Terras Sombrias / Menor Terror Elemental do Vazio",
+        "resumo_pt": "Espíritos menores e maliciosos formados pelos resíduos de almas destruídas pelo Akeru no Oni. Manifestam-se como manchas fluidas de escuridão e atuam como batedores e espiões.",
+        "destaque_pt": "Permanecem intangíveis e invisíveis, drenando a energia vital e os Pontos de Vazio daqueles de quem se aproximam.",
+        "source_book": "The Book of Void",
+        "pagina": 194
+      },
+      {
+        "nome": "Cho",
+        "contexto_pt": "Criatura Mundana / Símbolo Espiritual",
+        "resumo_pt": "A borboleta é tida pela cultura rokugani como a personificação física passageira da alma humana, seja dos vivos ou dos mortos. Inúmeras lendas a conectam a presságios de amor, tragédia e iluminação.",
+        "destaque_pt": "Acredita-se que ferir uma borboleta traga severas punições kármicas para a alma do agressor.",
+        "source_book": "The Book of Void",
+        "pagina": 127
+      },
+      {
+        "nome": "Karasu",
+        "contexto_pt": "Criatura Mundana / Símbolo da Iluminação",
+        "resumo_pt": "Ave associada historicamente a Shinsei e venerada pela Irmandade como guia espiritual. Os corvos são vistos por nobres e camponeses como mensageiros e avisos preventivos de perigos iminentes.",
+        "destaque_pt": "É o símbolo vivo da sabedoria do Pequeno Professor e da busca pela iluminação interior.",
+        "source_book": "The Book of Void",
+        "pagina": 127
+      },
+      {
+        "nome": "Children of the Last Wish",
+        "contexto_pt": "Seres Espirituais do Vazio",
+        "resumo_pt": "Entidades semi-corpóreas criadas pela magia do lendário nemuranai O Último Desejo de Isawa. Assemelham-se a pequenas samurai femininas em miniatura cujos olhos brilham com poder místico.",
+        "destaque_pt": "Lutam com espadas formadas de puro Vazio que ignoram completamente as armaduras e defesas físicas dos oponentes.",
+        "source_book": "The Book of Void",
+        "pagina": 195
+      }
+    ]
+  }
+}

@@ -1,0 +1,641 @@
+[
+  {
+    "id": "kaze-no-kami--book-of-air",
+    "nome": "Kaze-no-Kami",
+    "contexto_pt": "Fortuna Primordial do Vento",
+    "resumo_pt": "Entidade celestial antiga e impessoal que personifica as forças dos ventos e tempestades em Rokugan. Indiferente aos desejos mortais, atua seguindo ciclos naturais caóticos sem responder diretamente a preces ou oferendas.",
+    "destaque_pt": "Capaz de conceder brisas benéficas ou desencadear tempestades e tufões devastadores sobre as terras do Império.",
+    "source_book": "Book of Air",
+    "pagina": 118
+  },
+  {
+    "id": "isora--book-of-air",
+    "nome": "Isora",
+    "contexto_pt": "Fortuna da Beira-mar",
+    "resumo_pt": "Divindade associada ao litoral e ao encontro entre a terra e a água, regendo as correntes de ar costeiras. É invocada por marinheiros e moradores litorâneos para acalmar os ventos que empurram embarcações contra rochedos.",
+    "destaque_pt": "Controla as rajadas litorâneas e protege assentamentos contra ressacas e tempestades marinhas.",
+    "source_book": "Book of Air",
+    "pagina": 118
+  },
+  {
+    "id": "fortunas-dos-quatro-ventos--book-of-air",
+    "nome": "Fortunas dos Quatro Ventos",
+    "contexto_pt": "Fortunas Cardinais do Ar (Jikoju, Komoku, Tamon, Zocho)",
+    "resumo_pt": "Conjunto de quatro Fortunas (Jikoju no Leste, Komoku no Oeste, Tamon no Norte e Zocho no Sul) que governam as direções do vento e as mudanças de estação. Cada uma possui temperamento próprio que afeta o clima e a fertilidade das terras rokugani.",
+    "destaque_pt": "Determinam o padrão climático das estações e o sucesso das colheitas em todo o Império.",
+    "source_book": "Book of Air",
+    "pagina": 118
+  },
+  {
+    "id": "ryu--book-of-air",
+    "nome": "Ryu",
+    "contexto_pt": "Espíritos Dragão de Tengoku",
+    "resumo_pt": "Seres celestiais sagrados que atuam como mensageiros dos Dragões Elementais no mundo mortal. Ondulam pelo ar sem a necessidade de asas físicas e demonstram sabedoria e poder espiritual elevados.",
+    "destaque_pt": "Os ryu alinhados ao Ar conseguem se tornar completamente invisíveis e intangíveis à vontade.",
+    "source_book": "Book of Air",
+    "pagina": 119
+  },
+  {
+    "id": "kenku--book-of-air",
+    "nome": "Kenku",
+    "contexto_pt": "Uma das Cinco Raças Antigas",
+    "resumo_pt": "Povo ancestral aviário humanoide de extrema inteligência, especialista em ilusões, magia do Ar e combate com espadas. Embora raros nas terras mortais, mantêm presença em Sakkaku e treinam espadachins notáveis.",
+    "destaque_pt": "Mestres lendários da esgrima e transmutações mágicas.",
+    "source_book": "Book of Air",
+    "pagina": 119
+  },
+  {
+    "id": "nue--book-of-air",
+    "nome": "Nue",
+    "contexto_pt": "Espírito Aviário de Chikushudo",
+    "resumo_pt": "Criaturas espirituais do Reino dos Animais com corpo de ave de rapina e feições faciais humanas. Atuam como predadores perspicazes que usam a astúcia para emboscar e caçar presas no mundo mortal.",
+    "destaque_pt": "Especialistas em emboscadas aéreas aproveitando o ofuscamento do sol e a cobertura de nuvens.",
+    "source_book": "Book of Air",
+    "pagina": 196
+  },
+  {
+    "id": "koumori--book-of-air",
+    "nome": "Koumori",
+    "contexto_pt": "Espíritos Morcego de Chikushudo e Meido",
+    "resumo_pt": "Espíritos morcegos capazes de adotar forma humana que auxiliam a guiar almas perdidas até o Reino dos Mortos. Mantêm laços profundos de aliança com o Clã do Morcego, auxiliando no treinamento de seus shugenja.",
+    "destaque_pt": "Habilidade excepcional de navegação na escuridão e transmutação entre forma humana e animal.",
+    "source_book": "Book of Air",
+    "pagina": 120
+  },
+  {
+    "id": "tsuru--book-of-air",
+    "nome": "Tsuru",
+    "contexto_pt": "Espírito Garça de Chikushudo",
+    "resumo_pt": "Espíritos transmorfos de postura nobre e graciosa, capazes de assumir formas de garças gigantes ou humanos elegantes. São profundamente orgulhosos e reagem com extrema severidade a qualquer afronta de mortais.",
+    "destaque_pt": "Duelistas fenomenais que dominam as artes do iaijutsu quando em forma humanoide.",
+    "source_book": "Book of Air",
+    "pagina": 197
+  },
+  {
+    "id": "wyrms--book-of-air",
+    "nome": "Wyrms",
+    "contexto_pt": "Criaturas Répteis das Estepes do Norte",
+    "resumo_pt": "Enormes serpentes de sangue quente que habitam as montanhas e estepes além da Grande Muralha do Norte. Podem possuir asas e são por vezes parcialmente domesticadas pelos bárbaros Yobanjin como montarias de guerra.",
+    "destaque_pt": "Predadores colossais capazes de voar ou deslocar-se em altíssima velocidade para constringir presas.",
+    "source_book": "Book of Air",
+    "pagina": 197
+  },
+  {
+    "id": "kaze-no-oni--book-of-air",
+    "nome": "Kaze no Oni",
+    "contexto_pt": "Grande Terror Elemental do Ar / Terras Sombrias",
+    "resumo_pt": "Monstruosidade criada pelo Oráculo Sombrio do Ar, parecendo um cadáver macabro de ave gigante com a parte inferior em forma de vapor. Possui forte afinidade com os kansen do Ar que lhe permite absorver magia divina.",
+    "destaque_pt": "Capaz de interceptar magias lançadas ao seu redor e rebatê-las contra os alvos do monstro.",
+    "source_book": "Book of Air",
+    "pagina": 196
+  },
+  {
+    "id": "yosuchi-no-oni--book-of-air",
+    "nome": "Yosuchi no Oni",
+    "contexto_pt": "Menor Terror Elemental do Ar / Terras Sombrias",
+    "resumo_pt": "Demônio insubstancial feito de névoa e escuridão que se desloca como uma rajada de vento. Alimenta-se do sofrimento e do ódio alheio enquanto drena diretamente a força vital de suas vítimas.",
+    "destaque_pt": "Entidade incorpórea que semeia discórdia e drena a essência vital através de apêndices vaporosos.",
+    "source_book": "Book of Air",
+    "pagina": 196
+  },
+  {
+    "id": "the-dragon-of-earth--the-book-of-earth",
+    "nome": "The Dragon of Earth",
+    "contexto_pt": "Espírito celestial / Dragão Elemental das Céis e da Terra",
+    "resumo_pt": "O Dragão da Terra é uma entidade celestial profundamente distante dos assuntos mortais, raramente intervindo no mundo humano. Quando decide agir, realiza suas intervenções com uma força avassaladora e inabalável.",
+    "destaque_pt": "Representa a paciência absoluta e o poder bruto elemental da Terra em sua forma suprema.",
+    "source_book": "The Book of Earth",
+    "pagina": 133
+  },
+  {
+    "id": "inari--the-book-of-earth",
+    "nome": "Inari",
+    "contexto_pt": "Fortuna Menor do Arroz",
+    "resumo_pt": "Inari é uma das Fortunas mais veneradas em todo o Império de Rokugan devido à extrema importância do arroz na sociedade. Sendo uma divindade compassiva e atenta, sua bênção garante colheitas fartas, enquanto seu descontentamento traz a fome.",
+    "destaque_pt": "Sua boa vontade é fundamental para a sobrevivência econômica e alimentar do Império.",
+    "source_book": "The Book of Earth",
+    "pagina": 133
+  },
+  {
+    "id": "kenro-ji-jin--the-book-of-earth",
+    "nome": "Kenro-ji-jin",
+    "contexto_pt": "Fortuna do Solo",
+    "resumo_pt": "Esta Fortuna é venerada principalmente por agricultores, pedreiros e oleiros que dependem diretamente do solo para seu sustento. Kenro-ji-jin cuida da qualidade da terra e da nutrição do solo que sustenta as plantações.",
+    "destaque_pt": "Garante a fertilidade básica da terra e a firmeza dos materiais rochosos.",
+    "source_book": "The Book of Earth",
+    "pagina": 133
+  },
+  {
+    "id": "kuroshin--the-book-of-earth",
+    "nome": "Kuroshin",
+    "contexto_pt": "Fortuna da Agricultura",
+    "resumo_pt": "Kuroshin é uma Fortuna benevolente que recompensa aqueles que se dedicam ao cultivo da terra com sabedoria e respeito. Aqueles que abusam do solo ou maltratam suas colheitas atraem sua ira, resultando em pragas e campos estéreis.",
+    "destaque_pt": "Protege os métodos tradicionais de cultivo e pune o desperdício agrícola.",
+    "source_book": "The Book of Earth",
+    "pagina": 133
+  },
+  {
+    "id": "toyouke-omikami--the-book-of-earth",
+    "nome": "Toyouke-Omikami",
+    "contexto_pt": "Fortuna dos Grãos",
+    "resumo_pt": "Venerada especialmente nas terras do Clã do Unicórnio, esta Fortuna cuida do cultivo de grãos secundários como cevada e aveia. Embora tenha um papel menor que Inari, é essencial para a manutenção dos rebanhos de cavalos.",
+    "destaque_pt": "Crucial para a alimentação animal e para regiões impróprias para o cultivo de arroz.",
+    "source_book": "The Book of Earth",
+    "pagina": 133
+  },
+  {
+    "id": "tsi-xing-guo--the-book-of-earth",
+    "nome": "Tsi Xing Guo",
+    "contexto_pt": "Fortuna do Aço",
+    "resumo_pt": "Esta Fortuna indiferente é venerada por ferreiros e artesãos que forjam armas, armaduras e ferramentas de metal. Ela se concentra no aprimoramento do próprio ofício e raramente concede favores a menos que seja profundamente impressionada.",
+    "destaque_pt": "Inspira a criação de obras-primas em metalurgia e armaria.",
+    "source_book": "The Book of Earth",
+    "pagina": 133
+  },
+  {
+    "id": "ryu-of-the-earth--the-book-of-earth",
+    "nome": "Ryu of the Earth",
+    "contexto_pt": "Espírito celestial de Tengoku",
+    "resumo_pt": "Estes dragões serpentinos compostos de rochas e gemas preciosas habitam os picos mais altos de Rokugan. Silenciosos e observadores, eles movem-se pela terra sólida como se estivessem nadando e atacam com a ferocidade de um terremoto quando necessário.",
+    "destaque_pt": "Poderosos guardiões celestiais capazes de se deslocar através da rocha sólida.",
+    "source_book": "The Book of Earth",
+    "pagina": 133
+  },
+  {
+    "id": "kodama--the-book-of-earth",
+    "nome": "Kodama",
+    "contexto_pt": "Espírito da natureza / Árvores antigas",
+    "resumo_pt": "Os Kodama são espíritos que habitam as árvores mais antigas das grandes florestas de Rokugan. Sua vida está diretamente ligada à árvore hospedeira; se a árvore for destruída, o espírito morre, mas não sem antes lançar uma terrível maldição sobre o agressor.",
+    "destaque_pt": "Possuem a capacidade de abençoar a floresta e amaldiçoar gravemente quem destrói suas árvores.",
+    "source_book": "The Book of Earth",
+    "pagina": 133
+  },
+  {
+    "id": "myobu--the-book-of-earth",
+    "nome": "Myobu",
+    "contexto_pt": "Espírito kitsune / Servidor de Inari",
+    "resumo_pt": "Espíritos raposa sagrados de até oito caudas que servem diretamente à Fortuna Inari como mensageiros. Eles costumam assumir formas humanas para guiar os caminhos da colheita ou avisar sobre perigos iminentes de fome.",
+    "destaque_pt": "Capazes de abençoar lavouras ou rogar pragas agrícolas devastadoras.",
+    "source_book": "The Book of Earth",
+    "pagina": 133
+  },
+  {
+    "id": "yobuko--the-book-of-earth",
+    "nome": "Yobuko",
+    "contexto_pt": "Espírito da montanha",
+    "resumo_pt": "Espíritos solitários de uma só perna que habitam passos de montanha e se assemelham a garotos camponeses. Eles repetem os ecos das vozes humanas e toleram viajantes por pouco tempo, desencadeando avalanches e deslizamentos se sua paciência se esgotar.",
+    "destaque_pt": "Podem provocar desastres naturais como terremotos e avalanches contra intrusos.",
+    "source_book": "The Book of Earth",
+    "pagina": 134
+  },
+  {
+    "id": "jinmenju--the-book-of-earth",
+    "nome": "Jinmenju",
+    "contexto_pt": "Criatura corrompida / Floresta e Terras Sombrias",
+    "resumo_pt": "Árvores sinistras encontradas nas Terras Sombrias e matas fechadas cujos frutos possuem o formato de rostos humanos vivos. Esses frutos gargalham, gritam e mordem com dentes afiados quando alguém se aproxima, mantendo-se vivos mesmo destacados do tronco.",
+    "destaque_pt": "Provocam terror psicológico extremo e mordidas venenosas que debilitam a energia vital.",
+    "source_book": "The Book of Earth",
+    "pagina": 134
+  },
+  {
+    "id": "zokujin--the-book-of-earth",
+    "nome": "Zokujin",
+    "contexto_pt": "Raça Antiga da Terra",
+    "resumo_pt": "Conhecidos como gnomes do cobre, os Zokujin são uma das cinco raças antigas que habitavam o mundo antes da queda dos Kami. Eles alimentam-se de rochas e minerais, além de possuírem a habilidade nata de atravessar a terra e a rocha com extrema facilidade.",
+    "destaque_pt": "Capacidade incomum de se mover perfeitamente por meios subterrâneos e detectar veios minerais.",
+    "source_book": "The Book of Earth",
+    "pagina": 134
+  },
+  {
+    "id": "jimen-no-oni--the-book-of-earth",
+    "nome": "Jimen no Oni",
+    "contexto_pt": "Terror Elemental Maior da Terra / Terras Sombrias",
+    "resumo_pt": "Um humanoide gigante feito de rocha e lama coagulada com sangue, ostentando rubis flamejantes no lugar dos olhos. Esta abominação obedece apenas ao Oráculo Sombrio da Terra e esmaga seus inimigos com força física incansável e brutal.",
+    "destaque_pt": "Inviolável por magia comum de Terra e capaz de abalar o chão a cada passo.",
+    "source_book": "The Book of Earth",
+    "pagina": 134
+  },
+  {
+    "id": "toichi-no-kansen--the-book-of-earth",
+    "nome": "Toichi no Kansen",
+    "contexto_pt": "Terror Elemental Menor da Terra / Terras Sombrias",
+    "resumo_pt": "Uma grande massa móvel de pedra e terra contaminada infundida por kansen malignos. Este monstro caça suas vítimas com determinação obstinada, arrastando-as para debaixo da terra para sufocá-las.",
+    "destaque_pt": "Arrasta alvos para o subsolo, provocando asfixia e morte rápida.",
+    "source_book": "The Book of Earth",
+    "pagina": 134
+  },
+  {
+    "id": "daidarabochi--the-book-of-earth",
+    "nome": "Daidarabochi",
+    "contexto_pt": "Raça lendária / Gigantes das montanhas",
+    "resumo_pt": "Gigantes lendários das montanhas do norte que possuem pele extremamente espessa resistente ao frio congelante. Segundo o folclore, seus passos criam nascentes de água e seus arremessos de rochas formam lagos inteiros.",
+    "destaque_pt": "Força física colossal e extrema resistência a ambientes congelantes e impactos.",
+    "source_book": "The Book of Earth",
+    "pagina": 135
+  },
+  {
+    "id": "hibagon--the-book-of-earth",
+    "nome": "Hibagon",
+    "contexto_pt": "Raça lendária / Homens-macacos das florestas",
+    "resumo_pt": "Seres simiescos cobertos de pelos que vivem no interior das florestas mais profundas de Rokugan. Embora sejam herbívoros e ariscos com humanos, possuem um ódio ancestral por criaturas maculadas, atacando-as com pedras e bastões.",
+    "destaque_pt": "Inimigos naturais da Mácula das Terras Sombrias que atacam em bando qualquer presença maligna.",
+    "source_book": "The Book of Earth",
+    "pagina": 135
+  },
+  {
+    "id": "cougar--the-book-of-earth",
+    "nome": "Cougar",
+    "contexto_pt": "Criatura mundana / Montanhas",
+    "resumo_pt": "Grandes felinos predadores que habitam as regiões montanhosas de Rokugan. Caçam espreitando suas presas com grande agilidade e força, escondendo os corpos nos galhos das árvores para se alimentarem ao longo dos dias.",
+    "destaque_pt": "Predador silencioso e ágil especializado em emboscadas nas montanhas.",
+    "source_book": "The Book of Earth",
+    "pagina": 136
+  },
+  {
+    "id": "komodo-dragon--the-book-of-earth",
+    "nome": "Komodo Dragon",
+    "contexto_pt": "Criatura mundana / Ilhas do Clã do Mantis",
+    "resumo_pt": "Répteis carnívoros de grande porte cobertos por escamas escuras que habitam as ilhas tropicais. Eles caçam por emboscada e possuem uma mordida altamente séptica e tóxica que enfraquece e mata rapidamente suas vítimas.",
+    "destaque_pt": "Sua saliva tóxica infecta a vítima, provocando definhamento contínuo da saúde.",
+    "source_book": "The Book of Earth",
+    "pagina": 136
+  },
+  {
+    "id": "mongoose--the-book-of-earth",
+    "nome": "Mongoose",
+    "contexto_pt": "Criatura mundana / Ilhas e Colônias",
+    "resumo_pt": "Um pequeno mamífero extremamente veloz que habita florestas tropicais. Conhecido por sua agilidade impressionante e garras afiadas, é um caçador especializado em matar cobras venenosas e grandes répteis.",
+    "destaque_pt": "Velocidade e reflexos extraordinários capazes de superar serpentes peçonhentas.",
+    "source_book": "The Book of Earth",
+    "pagina": 137
+  },
+  {
+    "id": "panda--the-book-of-earth",
+    "nome": "Panda",
+    "contexto_pt": "Criatura mundana / Florestas de bambu",
+    "resumo_pt": "Uma variedade rara de urso de pelagem preta e branca que habita regiões montanhosas próximas a florestas de bambu. Geralmente são animais solitários, calmos e muito pacíficos, raramente atacando sem provocação.",
+    "destaque_pt": "Grande porte e resistência física, mantendo uma natureza dócil.",
+    "source_book": "The Book of Earth",
+    "pagina": 137
+  },
+  {
+    "id": "rhinoceros--the-book-of-earth",
+    "nome": "Rhinoceros",
+    "contexto_pt": "Criatura mundana / Planícies e Colônias",
+    "resumo_pt": "Um enorme quadrúpede herbívoro de couro espesso que ostenta um chifre temível sobre o focinho. Apesar de sua visão fraca, possui audição apurada e reage com extrema agressividade quando perturbado.",
+    "destaque_pt": "Cargas devastadoras e couro extremamente difícil de perfurar.",
+    "source_book": "The Book of Earth",
+    "pagina": 137
+  },
+  {
+    "id": "amaterasu--the-book-of-fire",
+    "nome": "Amaterasu",
+    "contexto_pt": "Fortuna e Ser Celestial, deusa original do Sol",
+    "resumo_pt": "A deusa original do Sol e mãe dos Kami que caíram dos céus. Amaterasu representa o calor vital, a luz radiante e a purificação em Rokugan. Embora seja uma entidade de misericórdia e vida, seu poder também pode consumir os injustos em chamas purificadoras.",
+    "destaque_pt": "Personificação suprema da luz solar e do Fogo purificador em sua forma mais elevada.",
+    "source_book": "The Book of Fire",
+    "pagina": 121
+  },
+  {
+    "id": "the-jade-dragon--the-book-of-fire",
+    "nome": "The Jade Dragon",
+    "contexto_pt": "Fortuna e Ser Celestial, ascendeu como o novo Sol",
+    "resumo_pt": "O Dragão de Jade assumiu o papel de novo Sol do Império após a queda dos astros celestiais originais. Esta entidade combina a iluminação e o calor do Fogo com a força espiritual protetora do jade. Ela simboliza a justiça, a lei e a resistência sagrada contra a corrupção.",
+    "destaque_pt": "União da energia do Fogo com a pureza espiritual do jade contra as forças sombrias.",
+    "source_book": "The Book of Fire",
+    "pagina": 122
+  },
+  {
+    "id": "osano-wo--the-book-of-fire",
+    "nome": "Osano-Wo",
+    "contexto_pt": "Fortuna Maior do Fogo e Trovão, associado ao Clã do Caranguejo",
+    "resumo_pt": "Filho do Kami Hida, Osano-Wo ascendeu como uma das Fortunas mais veneradas do Império após sua morte trágica. Ele governa as tempestades, o raio e a fúria impetuosa da batalha, sendo um modelo de paixão inabalável e determinação.",
+    "destaque_pt": "Canaliza a destruição e a justiça divina na forma de raios e chamas avassaladoras.",
+    "source_book": "The Book of Fire",
+    "pagina": 122
+  },
+  {
+    "id": "the-dragon-of-fire--the-book-of-fire",
+    "nome": "The Dragon of Fire",
+    "contexto_pt": "Ser Celestial, Dragão Elemental do Fogo",
+    "resumo_pt": "O Dragão Elemental do Fogo é o mais dinâmico entre os dragões primordiais, atraído pelo conflito, pela mudança e pelas grandes batalhas do mundo mortal. Invisível à maioria das pessoas, sua aparição prenuncia momentos de profunda transição no mundo.",
+    "destaque_pt": "Personificação viva da transformação, destruição e paixão elemental de Rokugan.",
+    "source_book": "The Book of Fire",
+    "pagina": 122
+  },
+  {
+    "id": "basan--the-book-of-fire",
+    "nome": "Basan",
+    "contexto_pt": "Espírito e Criatura Sobrenatural do reino de Chikushudo",
+    "resumo_pt": "Conhecidos como galos da montanha, estes seres nativos do reino dos animais possuem plumagens brilhantes e coloridas que podem escurecer à vontade. De hábitos noturnos, eles costumam assustar vilarejos com seus chamados e soprando labaredas coloridas.",
+    "destaque_pt": "Capacidade de expelir fogueiras azuis e verdes e alterar o brilho de suas penas.",
+    "source_book": "The Book of Fire",
+    "pagina": 123
+  },
+  {
+    "id": "taki-bi-no-oni-greater-elemental-terror-of-fire--the-book-of-fire",
+    "nome": "Taki-bi no Oni (Greater Elemental Terror of Fire)",
+    "contexto_pt": "Monstruosidade das Terras Sombrias sintonizada com o Fogo",
+    "resumo_pt": "Uma entidade demoníaca assustadora que se manifesta como uma mulher de beleza sobrenatural feita de chamas verdes e intensas. O demônio voa pelos céus lançando bolas de fogo e manipulando incêndios comuns para reduzir tudo a cinzas.",
+    "destaque_pt": "Emissão de calor sufocante, ataques devastadores de chamas e imunidade total ao Fogo.",
+    "source_book": "The Book of Fire",
+    "pagina": 123
+  },
+  {
+    "id": "moetechi-no-oni-lesser-elemental-terror-of-fire--the-book-of-fire",
+    "nome": "Moetechi no Oni (Lesser Elemental Terror of Fire)",
+    "contexto_pt": "Monstruosidade das Terras Sombrias sintonizada com o Fogo",
+    "resumo_pt": "Pequenos espectros flamejantes com forma vagamente humanoide que flutuam através de obstáculos físicos. Eles espalham destruição descontrolada por onde passam e podem se fundir entre si para criar um demônio maior.",
+    "destaque_pt": "Intangibilidade que permite atravessar paredes e capacidade de fusão entre vários espécimes.",
+    "source_book": "The Book of Fire",
+    "pagina": 123
+  },
+  {
+    "id": "furaribi--the-book-of-fire",
+    "nome": "Furaribi",
+    "contexto_pt": "Espírito / Criatura Sobrenatural, resíduo de alma humana",
+    "resumo_pt": "Uma orbe de fogo roxo que flutua pelos locais onde ocorreu uma morte trágica ou onde a alma ficou presa. O toque do Furaribi não queima o corpo físico, mas drena a força espiritual da vítima até que ela definhe por completo.",
+    "destaque_pt": "Ataque espiritual que drena a energia vital e incapacita a utilização do Vazio.",
+    "source_book": "The Book of Fire",
+    "pagina": 123
+  },
+  {
+    "id": "fushicho--the-book-of-fire",
+    "nome": "Fushicho",
+    "contexto_pt": "Ser Celestial / Fênix de Fogo",
+    "resumo_pt": "Grandes aves sagradas compostas de fogo puro oriundas dos céus de Tengoku. Símbolos de graça, virtude e renascimento, suas imagens frequentemente decoram templos e festividades de casamento.",
+    "destaque_pt": "Chamas celestiais radiantes que representam a nobreza e a imortalidade do espírito.",
+    "source_book": "The Book of Fire",
+    "pagina": 123
+  },
+  {
+    "id": "wanyudo--the-book-of-fire",
+    "nome": "Wanyudo",
+    "contexto_pt": "Criatura de Jigoku, alma corrompida de monge ou daimyo",
+    "resumo_pt": "Manifestação demoníaca decorrente de uma alma vil que pecou gravemente em vida. O ser aparece como uma cabeça decepada flamejante presa ao eixo de uma roda de carroça, perseguindo os vivos com um grito estarrecedor.",
+    "destaque_pt": "Voo veloz envolto em chamas e urro capaz de paralisar mortais de terror.",
+    "source_book": "The Book of Fire",
+    "pagina": 124
+  },
+  {
+    "id": "bakeneko--the-book-of-fire",
+    "nome": "Bakeneko",
+    "contexto_pt": "Espírito / Criatura Sobrenatural de Chikushudo e Sakkaku",
+    "resumo_pt": "Gatos comuns que vivem além de um século e desenvolvem inteligência sobrenatural e caudas bifurcadas. Bastante ligados ao elemento Fogo, eles gostam de pregar peças nos humanos e conseguem invocar orbes flamejantes.",
+    "destaque_pt": "Capacidade de transmorfose e manipulação de pequenas esferas de fogo místico.",
+    "source_book": "The Book of Fire",
+    "pagina": 122
+  },
+  {
+    "id": "kitsune-spirits--the-book-of-fire",
+    "nome": "Kitsune Spirits",
+    "contexto_pt": "Espíritos metamorfos de Chikushudo",
+    "resumo_pt": "Espíritos de raposa astutos e brincalhões que possuem uma forte afinidade com o elemento Fogo. Conhecidos por conjurar pequenas luzes chamadas fogo-da-raposa (kitsune-bi), frequentemente assumem formas humanas para viver entre mortais.",
+    "destaque_pt": "Transmorfose graciosa e criação de fogo-da-raposa para ilusão ou orientação.",
+    "source_book": "The Book of Fire",
+    "pagina": 124
+  },
+  {
+    "id": "night-heron--the-book-of-fire",
+    "nome": "Night Heron",
+    "contexto_pt": "Criatura Mundana sintonizada com o Fogo",
+    "resumo_pt": "Uma ave noturna comum em florestas e pântanos do Império. Durante as noites de lua cheia, suas penas emitem um brilho azulado devido a esporos fosforescentes recolhidos na água, associando-a simbolicamente às propriedades do Fogo.",
+    "destaque_pt": "Brailho noturno característico e voo veloz para escapar de ameaças.",
+    "source_book": "The Book of Fire",
+    "pagina": 125
+  },
+  {
+    "id": "rooster--the-book-of-fire",
+    "nome": "Rooster",
+    "contexto_pt": "Criatura Mundana associada ao Fogo e ao Sol",
+    "resumo_pt": "O galo é considerado um animal sagrado em Rokugan por saudar o amanhecer do Sol. Muito respeitado em templos monásticos, o canto do galo é visto pela população camponesa como uma bênção capaz de espantar maus espíritos.",
+    "destaque_pt": "Canto ritualístico de boas-vindas ao Sol com fama de afastar entidades malévolas.",
+    "source_book": "The Book of Fire",
+    "pagina": 125
+  },
+  {
+    "id": "kenku--the-book-of-fire",
+    "nome": "Kenku",
+    "contexto_pt": "Raça Ancestral Lendária de mestres de kenjutsu",
+    "resumo_pt": "Uma raça antiga de seres imortais com características aviárias que vivem isolados em florestas densas. Conhecidos como os maiores professores de esgrima do mundo, foram responsáveis por treinar diversos heróis lendários do Império.",
+    "destaque_pt": "Domínio absoluto e imortal da arte da espada, superando qualquer duelista mortal.",
+    "source_book": "The Book of Fire",
+    "pagina": 29
+  },
+  {
+    "id": "elemental-dragon-of-water--the-book-of-water",
+    "nome": "Elemental Dragon of Water",
+    "contexto_pt": "Entidade Celestial / Dragão Elemental",
+    "resumo_pt": "Personificação divina da força, do movimento e das marés mutáveis do mundo. O Dragão da Água é notoriamente inconstante com os mortais, ignorando preces por longos períodos para subitamente intervir na vida de um indivíduo por puro capricho.",
+    "destaque_pt": "Comanda o poder das tempestades oceânicas e a essência da transformação espiritual.",
+    "source_book": "The Book of Water",
+    "pagina": 125
+  },
+  {
+    "id": "suitengu--the-book-of-water",
+    "nome": "Suitengu",
+    "contexto_pt": "Fortuna Primordial dos Mares",
+    "resumo_pt": "Uma das Fortunas mais antigas de Rokugan, governante dos oceanos e servo direto do Dragão da Água. Manifesta-se invariavelmente como um samurai austero de cabelos esvoaçantes e olhar severo, exigindo oferendas frequentes para aplacar sua fúria.",
+    "destaque_pt": "Comanda a destruição implacável dos mares e das tempestades costeiras.",
+    "source_book": "The Book of Water",
+    "pagina": 125
+  },
+  {
+    "id": "kappa--the-book-of-water",
+    "nome": "Kappa",
+    "contexto_pt": "Espírito Traquino de Sakkaku",
+    "resumo_pt": "Criaturas anfíbias do tamanho de crianças com cascos de tartaruga e uma cavidade no topo do crânio cheia de água mística. Costumam atrair viajantes para jogos mortais de adivinhação, mas mantêm um código estrito de honrar qualquer dívida assumida.",
+    "destaque_pt": "Se a água em sua cabeça for derramada, perdem quase toda a sua força física.",
+    "source_book": "The Book of Water",
+    "pagina": 126
+  },
+  {
+    "id": "ningyo--the-book-of-water",
+    "nome": "Ningyo",
+    "contexto_pt": "Raça Lendária da Água",
+    "resumo_pt": "Povo ancestral semelhante a sereias que habitava Rokugan muito antes da chegada da humanidade. Vivem em cidades submersas no oceano e mantêm uma aliança duradoura com os terríveis serpentes marinhos Orochi para garantir sua proteção.",
+    "destaque_pt": "Nativos do oceano com domínio nato sobre os mistérios profundos do elemento Água.",
+    "source_book": "The Book of Water",
+    "pagina": 126
+  },
+  {
+    "id": "orochi--the-book-of-water",
+    "nome": "Orochi",
+    "contexto_pt": "Monstro Marinho / Raça de Sakkaku",
+    "resumo_pt": "Serpentes marinhas de proporções colossais originárias do Reino da Travessura. Apesar de sua origem, são seres sérios e sem humor que desprezam travessuras, sendo capazes de firmar pactos duradouros com aqueles que demonstram grande força de vontade.",
+    "destaque_pt": "Enorme resistência mística e força física devastadora no ambiente aquático.",
+    "source_book": "The Book of Water",
+    "pagina": 126
+  },
+  {
+    "id": "hinotama--the-book-of-water",
+    "nome": "Hinotama",
+    "contexto_pt": "Espírito Sobrenatural Tempestuoso",
+    "resumo_pt": "Espíritos brincalhões mas perigosos formados pela união de energias de Água, Fogo e Ar durante violentas tempestades marinhas. Surgem como esferas luminosas roxas ou azuis que flutuam sobre objetos metálicos em embarcações.",
+    "destaque_pt": "Atravessam matéria física e emitem choques elétricos capazes de atordoar marinheiros.",
+    "source_book": "The Book of Water",
+    "pagina": 191
+  },
+  {
+    "id": "nure-onna--the-book-of-water",
+    "nome": "Nure-Onna",
+    "contexto_pt": "Criatura Sobrenatural Imortal",
+    "resumo_pt": "Espírito imortal conhecido como a Mulher Molhada, manifestando-se inicialmente como uma jovem melancólica banhando-se nas margens de rios ou mares. Caso seja perturbada, transforma-se em uma imensa serpente com cabeça humana disposta a esmagar o intruso.",
+    "destaque_pt": "Muda de forma instantaneamente para uma cobra gigante com ataque de constrição mortal.",
+    "source_book": "The Book of Water",
+    "pagina": 191
+  },
+  {
+    "id": "mizu-no-oni--the-book-of-water",
+    "nome": "Mizu no Oni",
+    "contexto_pt": "Grande Terror Elemental das Terras Sombrias",
+    "resumo_pt": "Monstro criado pelos Oráculos Sombrios que se assemelha a uma poça de líquido denso e poluído. Espreita em corpos d'água para engolfar e afogar alvos estratégicos, assumindo em seguida a forma e a voz da vítima.",
+    "destaque_pt": "Pode metamorfosear-se perfeitamente na vítima eliminada e possui imunidade à magia de Água.",
+    "source_book": "The Book of Water",
+    "pagina": 193
+  },
+  {
+    "id": "oyuchi-no-kansen--the-book-of-water",
+    "nome": "Oyuchi no Kansen",
+    "contexto_pt": "Pequeno Terror Elemental / Kansen de Água",
+    "resumo_pt": "Entidade maligna menor que se disfarça como poças de água, sangue ou saquê para realizar espionagem ou assassinar incautos. Pode infiltrar-se em cadáveres no campo de batalha para reanimá-los como montarias.",
+    "destaque_pt": "Camuflagem aquática quase perfeita e capacidade de reanimar corpos como mortos-vivos.",
+    "source_book": "The Book of Water",
+    "pagina": 194
+  },
+  {
+    "id": "yamato-no-orochi--the-book-of-water",
+    "nome": "Yamato no Orochi",
+    "contexto_pt": "Criatura Lendária da Água",
+    "resumo_pt": "A lendária serpente de oito cabeças e oito caudas criada nos primórdios por Suitengu para aterrorizar os mares. Contas antigas narram que o Deus do Trovão, Osano-Wo, batalhou contra a criatura e a aprisionou nas profundezas do oceano.",
+    "destaque_pt": "Capaz de realizar até quatro ataques de mordida livres por rodada ou esmagar grupos inteiros com o tronco.",
+    "source_book": "The Book of Water",
+    "pagina": 192
+  },
+  {
+    "id": "heikegani--the-book-of-water",
+    "nome": "Heikegani",
+    "contexto_pt": "Criatura Mundana Notável",
+    "resumo_pt": "Espécie de caranguejo marinho cujas carapaças apresentam padrões naturais que lembram o rosto irado de um samurai. Surgiram no litoral sul após uma batalha trágica entre irmãos Yasuki, sendo considerados maus augúrios pelos habitantes locais.",
+    "destaque_pt": "Carapaça única com traços faciais humanos associada a lendas de reencarnação guerreira.",
+    "source_book": "The Book of Water",
+    "pagina": 128
+  },
+  {
+    "id": "den-unagi--the-book-of-water",
+    "nome": "Den Unagi",
+    "contexto_pt": "Criatura Mundana Notável",
+    "resumo_pt": "Uma variedade de enguia de grande porte encontrada em águas coloniais e mares distantes. Ao contrário das enguias comuns de rio, esta espécie desenvolveu um mecanismo de defesa ativo contra predadores e pescadores.",
+    "destaque_pt": "Pode descarregar uma forte descarga elétrica na água para paralisar ameaças próximas.",
+    "source_book": "The Book of Water",
+    "pagina": 195
+  },
+  {
+    "id": "kotoamatsukami--the-book-of-void",
+    "nome": "Kotoamatsukami",
+    "contexto_pt": "Deuses Celestes Ancestrais",
+    "resumo_pt": "Entidades primordiais que existiam no imenso Vazio antes da formação do mundo por Lady Sun e Lord Moon. Elas moldaram o universo e os reinos espirituais a partir das sílabas esquecidas de seus próprios nomes.",
+    "destaque_pt": "Seus nomes verdadeiros foram esquecidos e lembrá-los ou pronunciá-los exigiria vivenciar a totalidade e o nada simultaneamente.",
+    "source_book": "The Book of Void",
+    "pagina": 124
+  },
+  {
+    "id": "void-dragon--the-book-of-void",
+    "nome": "Void Dragon",
+    "contexto_pt": "Dragão Celestial",
+    "resumo_pt": "Entidade dracônica celestial que personifica o paradoxo de ser todas as coisas e nada ao mesmo tempo. Manifesta-se como a escuridão entre as estrelas com dois sóis brilhando em seus olhos.",
+    "destaque_pt": "É o mais ativo dos Dragões Celestiais na esfera mortal, intervindo com frequência e gerando grande impacto kármico.",
+    "source_book": "The Book of Void",
+    "pagina": 124
+  },
+  {
+    "id": "thunder-dragon--the-book-of-void",
+    "nome": "Thunder Dragon",
+    "contexto_pt": "Dragão Celestial",
+    "resumo_pt": "Entidade celestial associada à coragem e ao potencial heroico dos mortais. Teve uma união com o Kami Hida que deu origem a Osano-Wo e à linhagem de heróis dos clãs Caranguejo e Mantis.",
+    "destaque_pt": "Renunciou à sua forma imortal nos Céus Celestiais no século XII por compaixão à humanidade para permitir a ascensão do Kami Yoritomo.",
+    "source_book": "The Book of Void",
+    "pagina": 124
+  },
+  {
+    "id": "ryoshun--the-book-of-void",
+    "nome": "Ryoshun",
+    "contexto_pt": "Kami Celestial / Guardião de Meido",
+    "resumo_pt": "O décimo filho de Lady Sun e Lord Moon, morto ainda no ventre paterno e incapaz de cair em Ningen-do com seus irmãos. Assumiu o papel de guiar as almas dos mortos no reino de Meido.",
+    "destaque_pt": "Atua como o elo de conexão cósmica entre os reinos espirituais sem estar atrelado a nenhum dos quatro elementos físicos.",
+    "source_book": "The Book of Void",
+    "pagina": 125
+  },
+  {
+    "id": "emma-o--the-book-of-void",
+    "nome": "Emma-O",
+    "contexto_pt": "Fortuna da Morte / Senhor de Meido",
+    "resumo_pt": "A Fortuna que governa o Reino da Espera, responsável por julgar e encaminhar as almas mortais ao longo da roda da reencarnação. É formado diretamente da vontade celestial e da essência do Vazio.",
+    "destaque_pt": "Representa o ponto focal do julgamento e da transição espiritual, sem o qual o ciclo kármico de morte e renascimento não pode existir.",
+    "source_book": "The Book of Void",
+    "pagina": 125
+  },
+  {
+    "id": "kitsu--the-book-of-void",
+    "nome": "Kitsu",
+    "contexto_pt": "Raça Ancestral Lendária",
+    "resumo_pt": "Uma das cinco raças ancestrais que habitavam Rokugan antes da chegada dos Kami. Eram seres transmutadores e místico-espirituais com profunda conexão com o Vazio e com todos os reinos de espíritos.",
+    "destaque_pt": "Foram quase dizimados por Akodo, e os últimos sobreviventes cruzaram sua linhagem com os humanos para fundar a família Kitsu do Clã do Leão.",
+    "source_book": "The Book of Void",
+    "pagina": 126
+  },
+  {
+    "id": "ryu-of-void--the-book-of-void",
+    "nome": "Ryu of Void",
+    "contexto_pt": "Espírito Dracônico de Tengoku",
+    "resumo_pt": "Espíritos dracônicos celestiais a serviço do Dragão do Vazio, parecendo silhuetas de sombra escura contendo olhos cintilantes como estrelas. Sentem imensa fascinação pela transitoriedade e experiências dos mortais.",
+    "destaque_pt": "São os mensageiros e agentes diretos do Dragão do Vazio quando este precisa agir ou observar Ningen-do.",
+    "source_book": "The Book of Void",
+    "pagina": 126
+  },
+  {
+    "id": "akeru-no-oni--the-book-of-void",
+    "nome": "Akeru no Oni",
+    "contexto_pt": "Terras Sombrias / Grande Terror Elemental do Vazio",
+    "resumo_pt": "Uma aberração monstruosa criada pela união dos Oráculos Sombrios para corromper a estrutura do Vazio. Surge como uma massa de energia negra com aspecto de inseto e patas garras.",
+    "destaque_pt": "Consegue roubar e consumir os Pontos de Vazio das vítimas, podendo apagá-las permanentemente do ciclo de reencarnação.",
+    "source_book": "The Book of Void",
+    "pagina": 194
+  },
+  {
+    "id": "kukanchi-no-kansen--the-book-of-void",
+    "nome": "Kukanchi no Kansen",
+    "contexto_pt": "Terras Sombrias / Menor Terror Elemental do Vazio",
+    "resumo_pt": "Espíritos menores e maliciosos formados pelos resíduos de almas destruídas pelo Akeru no Oni. Manifestam-se como manchas fluidas de escuridão e atuam como batedores e espiões.",
+    "destaque_pt": "Permanecem intangíveis e invisíveis, drenando a energia vital e os Pontos de Vazio daqueles de quem se aproximam.",
+    "source_book": "The Book of Void",
+    "pagina": 194
+  },
+  {
+    "id": "cho--the-book-of-void",
+    "nome": "Cho",
+    "contexto_pt": "Criatura Mundana / Símbolo Espiritual",
+    "resumo_pt": "A borboleta é tida pela cultura rokugani como a personificação física passageira da alma humana, seja dos vivos ou dos mortos. Inúmeras lendas a conectam a presságios de amor, tragédia e iluminação.",
+    "destaque_pt": "Acredita-se que ferir uma borboleta traga severas punições kármicas para a alma do agressor.",
+    "source_book": "The Book of Void",
+    "pagina": 127
+  },
+  {
+    "id": "karasu--the-book-of-void",
+    "nome": "Karasu",
+    "contexto_pt": "Criatura Mundana / Símbolo da Iluminação",
+    "resumo_pt": "Ave associada historicamente a Shinsei e venerada pela Irmandade como guia espiritual. Os corvos são vistos por nobres e camponeses como mensageiros e avisos preventivos de perigos iminentes.",
+    "destaque_pt": "É o símbolo vivo da sabedoria do Pequeno Professor e da busca pela iluminação interior.",
+    "source_book": "The Book of Void",
+    "pagina": 127
+  },
+  {
+    "id": "children-of-the-last-wish--the-book-of-void",
+    "nome": "Children of the Last Wish",
+    "contexto_pt": "Seres Espirituais do Vazio",
+    "resumo_pt": "Entidades semi-corpóreas criadas pela magia do lendário nemuranai O Último Desejo de Isawa. Assemelham-se a pequenas samurai femininas em miniatura cujos olhos brilham com poder místico.",
+    "destaque_pt": "Lutam com espadas formadas de puro Vazio que ignoram completamente as armaduras e defesas físicas dos oponentes.",
+    "source_book": "The Book of Void",
+    "pagina": 195
+  }
+]

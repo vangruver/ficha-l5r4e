@@ -1,0 +1,310 @@
+{
+  "artefatos": {
+    "artefatos": [
+      {
+        "nome": "Yari of Air",
+        "contexto_pt": "Lança mística única criada por Asako Shingon e Iuchi Yogosha no século XII; associada ao elemento Ar.",
+        "resumo_pt": "Criada por shugenja das famílias Asako e Iuchi sob orientação indireta dos Oráculos Elementais, esta lança lendária foi feita para conter o desequilíbrio provocado pelos Terrores Elementais. Sua haste de madeira cinza-prateada e lâmina de aço são gravadas com desenhos de nuvens, ventos e raios. O artefato possui a propriedade mágica de ser completamente invisível para quase todos, revelando-se apenas a indivíduos fortemente sintonizados com o Ar.",
+        "destaque_pt": "Sendo invisível aos olhos comuns, a lança ignora parte da defesa de reflexos de seus alvos, permite ataques rápidos como ação simples e protege o empunhador contra projéteis.",
+        "source_book": "The Book of Air",
+        "pagina": 121
+      },
+      {
+        "nome": "Fan of Command",
+        "contexto_pt": "Leque militar (gunsen) associado ao Clã do Leão e ao Kami Akodo.",
+        "resumo_pt": "Este leque de guerra de aço refinado é laqueado em vermelho escuro e possui quinze hastes que lembram lanças negras, ostentando o kanji para 'Sempre'. Reapareceu em diversos momentos cruciais da história imperial, sendo notoriamente carregado por Toturi durante o período de seu exército ronin. Ele transmite uma aura mística de comando e estratégia no campo de batalha.",
+        "destaque_pt": "Aumenta a perícia com leques de guerra e concede vantagens táticas e de liderança como Tático, Liderança ou Grande Destino ao usuário.",
+        "source_book": "The Book of Air",
+        "pagina": 122
+      },
+      {
+        "nome": "Fan of the Grand Master",
+        "contexto_pt": "Leque sagrado concedido aos Mestres Supremos dos Elementos (Naka).",
+        "resumo_pt": "Construído com hastes de madeira escura e folhas de um material néscio que lembra névoa dourada, este leque foi abençoado pelos próprios Dragões Elementais. Passado ao longo das gerações entre aqueles que receberam o título honorífico de Naka, o leque emite uma fina névoa dourada com símbolos oscilantes quando desdobrado. Apenas shugenja de elevado conhecimento conseguem despertar e usufruir de seus poderes.",
+        "destaque_pt": "Permite que um shugenja poderoso aumente temporariamente a proficiência de qualquer perícia conhecida com base em seu nível de Sabedoria.",
+        "source_book": "The Book of Air",
+        "pagina": 122
+      },
+      {
+        "nome": "Kaede's Fan",
+        "contexto_pt": "Leque pessoal da Imperatriz e Oráculo do Vazio, Isawa Kaede (Clã da Fênix).",
+        "resumo_pt": "Feito com finas hastes de carvalho escuro e folhas de papel de arroz amarelo-dourado pintadas com enigmáticos símbolos carmesim, este leque pertenceu à lendária Isawa Kaede. Apesar de sua aparência delicada e frágil, o artefato é extremamente resistente e praticamente impossível de ser danificado. Ele permaneceu no reino mortal após a partida de Kaede para o reino celestial.",
+        "destaque_pt": "Aumenta os testes de cortesão e etiqueta do portador de acordo com seu nível de Honra e concede pontos adicionais sempre que ele recebe Honra.",
+        "source_book": "The Book of Air",
+        "pagina": 122
+      },
+      {
+        "nome": "The Imperial Standard",
+        "contexto_pt": "Estandarte imperial soberano mantido pelas Famílias Imperiais desde Hantei I.",
+        "resumo_pt": "Este lendário estandarte de seda branca ostenta o símbolo do Crisântemo em fio de ouro e esteve presente nas maiores batalhas e procissões da história do Império. A magia que envolve o tecido o mantém impecável e livre de rasgos, sujeira ou desgastes do tempo. Ele serve como o ponto focal da lealdade dos samurai ao Trono Celestial.",
+        "destaque_pt": "Garante bônus de dano e imunidade ao medo para samurai leais nas proximidades, além de conceder grandes vantagens táticas ao general que o carrega.",
+        "source_book": "The Book of Air",
+        "pagina": 123
+      },
+      {
+        "nome": "Ancestral Standard of the Crab (Noroshi)",
+        "contexto_pt": "Estandarte ancestral do Clã do Caranguejo, associado à família Hida.",
+        "resumo_pt": "Conhecido como Noroshi, este estandarte monumental é hasteado desde os tempos do Kami Hida e exibe os símbolos do clã e das famílias Hida, Hiruma e Kaiu, além do kanji do Fortuna Bishamon. Trata-se de uma peça massiva que exige dois porta-estandartes ou a montagem em um engenho de cerco. Jamais foi capturado ou derrubado em combate ao longo de toda a história de Rokugan.",
+        "destaque_pt": "Oferece redução de dano massiva e bônus de ataque para os guerreiros do Caranguejo, com eficácia reforçada ao enfrentar criaturas das Terras Sombrias.",
+        "source_book": "The Book of Air",
+        "pagina": 123
+      },
+      {
+        "nome": "Ancestral Standard of the Crane",
+        "contexto_pt": "Estandarte ancestral do Clã do Grou (Bandeira do Grou de Ferro).",
+        "resumo_pt": "Conhecido como a Bandeira do Grou de Ferro, este estandarte azul-celeste traz os símbolos do Clã do Grou, da família Daidoji e dos Fortunas Bishamon e Fukurokujin em prateado. Tem sido levado ao combate por séculos, estando no centro de batalhas lendárias nas quais as forças do Grou superaram exércitos numericamente superiores. Ele inspira precisão e disciplina tática extraordinárias.",
+        "destaque_pt": "Fornece bônus significativos no controle de conflitos de massa e na tabela de eventos de combate, que aumentam quando o exército do Grou está em desvantagem.",
+        "source_book": "The Book of Air",
+        "pagina": 124
+      },
+      {
+        "nome": "Ancestral Standard of the Dragon",
+        "contexto_pt": "Estandarte ancestral do Clã do Dragão, mantido em Shiro Mirumoto.",
+        "resumo_pt": "De cor verde vibrante com o mon do clã bordado em ouro, este estandarte destaca-se por sua sobriedade sem ornamentos excessivos, alinhada com as filosofias ascéticas do Dragão. Raramente deixou as montanhas do clã, permanecendo guardado por séculos entre os conflitos. Quando levado à guerra, fortalece a conexão mística e espiritual dos guerreiros e praticantes do clã.",
+        "destaque_pt": "Permite ajustar os resultados na tabela de batalhas de massa, aumenta a precisão dos ataques e protege monges e shugenja dos custos colaterais dos kiho.",
+        "source_book": "The Book of Air",
+        "pagina": 124
+      },
+      {
+        "nome": "Ancestral Standard of the Lion (Banner of the Roaring Tempest)",
+        "contexto_pt": "Estandarte ancestral do Clã do Leão (Bandeira da Tempestade Rugidora).",
+        "resumo_pt": "Despertado como um nemuranai durante a Batalha do Rio Adormecido quando uma samurai-ko da Orgulho de Matsu morreu mantendo-o erguido, este estandarte vibra com um som semelhante a leões rugindo em meio a uma tempestade. Ele carrega o espírito indomável de sacrifício dos heróis do Leão. Nenhuma força que sustentou este estandarte em batalha jamais debandou.",
+        "destaque_pt": "Aumenta perícias e dano dos aliados do Leão, concede imunidade ao medo e provoca um efeito de pavor e penalidades nas forças inimigas próximas.",
+        "source_book": "The Book of Air",
+        "pagina": 124
+      },
+      {
+        "nome": "Battle Standard of the Mantis",
+        "contexto_pt": "Estandarte militar de retaguarda (sashimono) do Clã do Mantis.",
+        "resumo_pt": "Originalmente o sashimono pessoal do Campeão Hotaka durante as guerras contra A Bocarra, esta bandeira cinza traz três símbolos do Mantis e o kanji de Osano-Wo. É montada em uma haste de madeira sugi trocada anualmente no Festival de Ano Novo e só é desfraldada em campanhas terrestres ou combates navais com a maior parte da frota. Pode ser afixada diretamente no mastro do navio capitânia.",
+        "destaque_pt": "Concede bônus nas perícias de Kenjutsu e Kyujutsu para todas as tropas do Mantis ao redor e aumenta o dano geral dos ataques do exército.",
+        "source_book": "The Book of Air",
+        "pagina": 125
+      },
+      {
+        "nome": "Ancestral Standard of the Phoenix",
+        "contexto_pt": "Estandarte ancestral do Clã da Fênix, sob custódia da Guarda de Shiro Shiba.",
+        "resumo_pt": "Criado durante a Primeira Guerra contra Fu Leng, este estandarte alaranjado e dourado exibe as marcas de todas as famílias da Fênix, com o mon Agasha surgindo espontaneamente após a união da família. Ele é montado em uma haste de pau-brasil entalhada com provérbios do clã e tradicionalmente carregado pelo guerreiro Shiba mais jovem. Em tempos de paz, permanece exposto na sede do clã.",
+        "destaque_pt": "Aumenta a rolagem de dano dos guerreiros da Fênix, concede bônus para a conjuração de magias de shugenja e protege os monges ao ativarem kiho.",
+        "source_book": "The Book of Air",
+        "pagina": 125
+      },
+      {
+        "nome": "Ancestral Standard of the Scorpion",
+        "contexto_pt": "Estandarte ancestral de aura sinistra do Clã do Escorpião.",
+        "resumo_pt": "Fixado em uma haste de mogno escuro, este estandarte exibe um escorpião vermelho sobre fundo negro e vários kanji enigmáticos de significado incerto. É um objeto envolto em mistério que raramente foi visto em campos de batalha ao longo da história imperial. O Clã do Escorpião cultiva ativamente a reputação ameaçadora da peça para intimidar seus adversários.",
+        "destaque_pt": "Concede bônus de ataque e dano para as tropas do Escorpião e projeta uma aura mística de medo sobre todos os inimigos na área de efeito.",
+        "source_book": "The Book of Air",
+        "pagina": 125
+      },
+      {
+        "nome": "Ancestral Standard of the Unicorn",
+        "contexto_pt": "Estandarte ancestral de cavalaria do Clã do Unicórnio (originalmente Clã Ki-Rin).",
+        "resumo_pt": "Este sashimono roxo foi confeccionado antes de o clã partir de Rokugan e viajou com os cavaleiros durante seus oito séculos nas terras exteriores. É carregado por um cavaleiro que cavalga à direita do Campeão do Clã nas batalhas. A peça carrega a bênção espiritual e o peso histórico de gerações de ancestrais Ki-Rin e Unicórnio.",
+        "destaque_pt": "Melhora os testes de Equitação, ataque e dano das tropas montadas e causa um efeito terrível de medo na infantaria inimiga que combate a pé.",
+        "source_book": "The Book of Air",
+        "pagina": 125
+      },
+      {
+        "nome": "Tapestry of Air",
+        "contexto_pt": "Objeto místico decorativo confeccionado por artesãos da família Asahina (Clã do Grou).",
+        "resumo_pt": "Esta tapeçaria é confeccionada por aprendizes e mestres da escola de shugenja Asahina como forma de compreender os espíritos do Ar e a arte dos fetishes. As peças retratam cenas pastorais, paisagens serenas ou formas abstratas de nuvens e vento. Quando exposta em um local de meditação e contemplada regularmente por sete dias, abençoa a mente do morador.",
+        "destaque_pt": "Considera o Anel de Ar do usuário um ponto mais alto para a conjuração de magias de Ar enquanto a meditação mensal for mantida.",
+        "source_book": "The Book of Air",
+        "pagina": 126
+      },
+      {
+        "nome": "Incense of Concentration",
+        "contexto_pt": "Incenso alquímico sagrado criado pela família Asahina (Clã do Grou).",
+        "resumo_pt": "Uma fórmula de incenso que combina serragem, ervas secas e extratos vegetais impregnados com a magia do Ar. Inalar sua fumaça durante a meditação concede clareza mental e foco espiritual renovado ao praticante. Durante a Guerra dos Espíritos no século XII, Asahina Tsukiyoka desenvolveu uma versão aprimorada capaz de capacitar rituais místico-mágicos complexos.",
+        "destaque_pt": "Permite recuperar todos os Pontos de Vazio em um teste bem-sucedido de Meditação; sua versão aprimorada concede bônus em conjurações rituais coletivas.",
+        "source_book": "The Book of Air",
+        "pagina": 126
+      },
+      {
+        "nome": "Meiwaku Fans",
+        "contexto_pt": "Conjunto de leques mágicos criados por Asahina Meiwaku para o Clã do Escorpião.",
+        "resumo_pt": "Desenvolvidos no século X por uma mulher Asahina casada com um nobre Escorpião, estes dezessete leques encantados foram criados como sinal de lealdade à sua nova família. Cada leque ativa seu efeito místico quando aceito voluntariamente como um presente por um alvo. Treze permanecem em posse do Escorpião, enquanto quatro foram perdidos pelo Império ao longo dos anos.",
+        "destaque_pt": "Permite ao doador gastar Pontos de Vazio para ler mentalmente os pensamentos do presenteado enquanto este estiver em seu campo de visão.",
+        "source_book": "The Book of Air",
+        "pagina": 126
+      },
+      {
+        "nome": "Veil of Deception",
+        "contexto_pt": "Máscara ilusória mantida e secreta pela família Soshi (Clã do Escorpião).",
+        "resumo_pt": "Trata-se de uma máscara de pano escuro com pequenos kanji prateados bordados na borda, mantida sob rigoroso segredo pela família Soshi. Quando ativada com poder espiritual, faz com que o usuário seja percebido por qualquer observador como a pessoa que ele mais espera ver naquele ambiente. O efeito gera uma ilusão sensorial completa mantida pelos espíritos do Ar.",
+        "destaque_pt": "Altera a imagem e voz do portador para a figura mais plausível esperada pelo alvo, sobrevivendo inclusive à perda de consciência do usuário.",
+        "source_book": "The Book of Air",
+        "pagina": 128
+      },
+      {
+        "nome": "The Shakuhachi of Air",
+        "contexto_pt": "Flauta de bambu sagrada sob custódia da família Ikoma (Clã do Leão).",
+        "resumo_pt": "Uma flauta de bambu rústico entalhada com kanji arcaicos e adornada com um cordão de seda vermelho, criada nos primeiros tempos do Império para inspirar o povo na guerra contra Fu Leng. Os kami do Ar residentes na flauta instruem e guiam espontaneamente qualquer pessoa que tente tocá-la. É utilizada pelos oradores do Leão para emocionar plateias em momentos solenes.",
+        "destaque_pt": "Garante proficiência na perícia de flauta, eleva a Prontidão de todos na área e concede bônus para outras apresentações artísticas ocorrendo em conjunto.",
+        "source_book": "The Book of Air",
+        "pagina": 128
+      },
+      {
+        "nome": "Takehiko's Kite",
+        "contexto_pt": "Pipa tática de reconhecimento criada para o general Akodo Takehiko (Clã do Leão).",
+        "resumo_pt": "Desenvolvida no século IX por uma colaboração entre um general do Leão, um shugenja Kitsu e um artesão Isawa, esta pipa militar foi criada para obter visão aérea contra as táticas da cavalaria do Unicórnio. Estruturada de forma robusta e sem ornamentos desnecessários, permite que o condutor enxergue através da perspectiva da pipa no céu. É mantida como segredo militar e implantada apenas em situações de alto valor tático.",
+        "destaque_pt": "Projeta a visão do usuário para o ponto de vista elevado da pipa, concedendo bônus contra emboscadas e bônus no controle de batalhas de massa.",
+        "source_book": "The Book of Air",
+        "pagina": 129
+      },
+      {
+        "nome": "Aiko's Pinwheels",
+        "contexto_pt": "Cataventos místico-detectores criados por Asahina Aiko (Clã do Grou).",
+        "resumo_pt": "Pequenos cataventos de papel em formato de hélice criados por uma shugenja Asahina como um mecanismo de alarme duradouro contra as forças do mal. Aiko desenvolveu uma forma de pedir aos espíritos do Ar que habitassem o papel e reagissem exclusivamente à presença da contaminação das Terras Sombrias. Eles permanecem imóveis com o vento comum, girando apenas quando há corrupção por perto.",
+        "destaque_pt": "Começa a girar automaticamente sempre que uma fonte significativa da Mácula das Terras Sombrias se aproxima a menos de 7,5 metros.",
+        "source_book": "The Book of Air",
+        "pagina": 129
+      }
+    ]
+  },
+  "criaturas": {
+    "criaturas": [
+      {
+        "nome": "Kaze-no-Kami",
+        "contexto_pt": "Fortuna Primordial do Vento",
+        "resumo_pt": "Entidade celestial antiga e impessoal que personifica as forças dos ventos e tempestades em Rokugan. Indiferente aos desejos mortais, atua seguindo ciclos naturais caóticos sem responder diretamente a preces ou oferendas.",
+        "destaque_pt": "Capaz de conceder brisas benéficas ou desencadear tempestades e tufões devastadores sobre as terras do Império.",
+        "source_book": "Book of Air",
+        "pagina": 118
+      },
+      {
+        "nome": "Isora",
+        "contexto_pt": "Fortuna da Beira-mar",
+        "resumo_pt": "Divindade associada ao litoral e ao encontro entre a terra e a água, regendo as correntes de ar costeiras. É invocada por marinheiros e moradores litorâneos para acalmar os ventos que empurram embarcações contra rochedos.",
+        "destaque_pt": "Controla as rajadas litorâneas e protege assentamentos contra ressacas e tempestades marinhas.",
+        "source_book": "Book of Air",
+        "pagina": 118
+      },
+      {
+        "nome": "Fortunas dos Quatro Ventos",
+        "contexto_pt": "Fortunas Cardinais do Ar (Jikoju, Komoku, Tamon, Zocho)",
+        "resumo_pt": "Conjunto de quatro Fortunas (Jikoju no Leste, Komoku no Oeste, Tamon no Norte e Zocho no Sul) que governam as direções do vento e as mudanças de estação. Cada uma possui temperamento próprio que afeta o clima e a fertilidade das terras rokugani.",
+        "destaque_pt": "Determinam o padrão climático das estações e o sucesso das colheitas em todo o Império.",
+        "source_book": "Book of Air",
+        "pagina": 118
+      },
+      {
+        "nome": "Ryu",
+        "contexto_pt": "Espíritos Dragão de Tengoku",
+        "resumo_pt": "Seres celestiais sagrados que atuam como mensageiros dos Dragões Elementais no mundo mortal. Ondulam pelo ar sem a necessidade de asas físicas e demonstram sabedoria e poder espiritual elevados.",
+        "destaque_pt": "Os ryu alinhados ao Ar conseguem se tornar completamente invisíveis e intangíveis à vontade.",
+        "source_book": "Book of Air",
+        "pagina": 119
+      },
+      {
+        "nome": "Kenku",
+        "contexto_pt": "Uma das Cinco Raças Antigas",
+        "resumo_pt": "Povo ancestral aviário humanoide de extrema inteligência, especialista em ilusões, magia do Ar e combate com espadas. Embora raros nas terras mortais, mantêm presença em Sakkaku e treinam espadachins notáveis.",
+        "destaque_pt": "Mestres lendários da esgrima e transmutações mágicas.",
+        "source_book": "Book of Air",
+        "pagina": 119
+      },
+      {
+        "nome": "Nue",
+        "contexto_pt": "Espírito Aviário de Chikushudo",
+        "resumo_pt": "Criaturas espirituais do Reino dos Animais com corpo de ave de rapina e feições faciais humanas. Atuam como predadores perspicazes que usam a astúcia para emboscar e caçar presas no mundo mortal.",
+        "destaque_pt": "Especialistas em emboscadas aéreas aproveitando o ofuscamento do sol e a cobertura de nuvens.",
+        "source_book": "Book of Air",
+        "pagina": 196
+      },
+      {
+        "nome": "Koumori",
+        "contexto_pt": "Espíritos Morcego de Chikushudo e Meido",
+        "resumo_pt": "Espíritos morcegos capazes de adotar forma humana que auxiliam a guiar almas perdidas até o Reino dos Mortos. Mantêm laços profundos de aliança com o Clã do Morcego, auxiliando no treinamento de seus shugenja.",
+        "destaque_pt": "Habilidade excepcional de navegação na escuridão e transmutação entre forma humana e animal.",
+        "source_book": "Book of Air",
+        "pagina": 120
+      },
+      {
+        "nome": "Tsuru",
+        "contexto_pt": "Espírito Garça de Chikushudo",
+        "resumo_pt": "Espíritos transmorfos de postura nobre e graciosa, capazes de assumir formas de garças gigantes ou humanos elegantes. São profundamente orgulhosos e reagem com extrema severidade a qualquer afronta de mortais.",
+        "destaque_pt": "Duelistas fenomenais que dominam as artes do iaijutsu quando em forma humanoide.",
+        "source_book": "Book of Air",
+        "pagina": 197
+      },
+      {
+        "nome": "Wyrms",
+        "contexto_pt": "Criaturas Répteis das Estepes do Norte",
+        "resumo_pt": "Enormes serpentes de sangue quente que habitam as montanhas e estepes além da Grande Muralha do Norte. Podem possuir asas e são por vezes parcialmente domesticadas pelos bárbaros Yobanjin como montarias de guerra.",
+        "destaque_pt": "Predadores colossais capazes de voar ou deslocar-se em altíssima velocidade para constringir presas.",
+        "source_book": "Book of Air",
+        "pagina": 197
+      },
+      {
+        "nome": "Kaze no Oni",
+        "contexto_pt": "Grande Terror Elemental do Ar / Terras Sombrias",
+        "resumo_pt": "Monstruosidade criada pelo Oráculo Sombrio do Ar, parecendo um cadáver macabro de ave gigante com a parte inferior em forma de vapor. Possui forte afinidade com os kansen do Ar que lhe permite absorver magia divina.",
+        "destaque_pt": "Capaz de interceptar magias lançadas ao seu redor e rebatê-las contra os alvos do monstro.",
+        "source_book": "Book of Air",
+        "pagina": 196
+      },
+      {
+        "nome": "Yosuchi no Oni",
+        "contexto_pt": "Menor Terror Elemental do Ar / Terras Sombrias",
+        "resumo_pt": "Demônio insubstancial feito de névoa e escuridão que se desloca como uma rajada de vento. Alimenta-se do sofrimento e do ódio alheio enquanto drena diretamente a força vital de suas vítimas.",
+        "destaque_pt": "Entidade incorpórea que semeia discórdia e drena a essência vital através de apêndices vaporosos.",
+        "source_book": "Book of Air",
+        "pagina": 196
+      }
+    ]
+  },
+  "locais": {
+    "locais": [
+      {
+        "nome": "Kyuden Doji",
+        "contexto_pt": "Clã do Grou, Palácio ancestral da família Doji, região costeira",
+        "resumo_pt": "Kyuden Doji é o centro do poder político e cultural do Clã do Grou. Localizado no topo de um platô com vista para o mar, o castelo foi projetado para priorizar a beleza estética em vez da defesa militar, cercado por jardins deslumbrantes mantidos há séculos por gerações de jardineiros dedicados.",
+        "destaque_pt": "É a corte mais influente e refinada do Império, frequentemente escolhida para sediar a Corte de Inverno Imperial, onde a violência é totalmente abominada e a diplomacia atinge seu ápice.",
+        "source_book": "The Book of Air",
+        "pagina": 57
+      },
+      {
+        "nome": "Shiro no Shosuro",
+        "contexto_pt": "Clã do Escorpião, propriedade da família Shosuro, localizado sobre colinas próximas ao Rio do Ouro",
+        "resumo_pt": "Uma fortaleza intrigante do Clã do Escorpião, onde os interiores e as decorações mudam constantemente para confundir os visitantes e se adaptar aos caprichos estéticos dos anfitriões. O local conta com o famoso teatro O Sorriso de Seda e jardins repletos de plantas venenosas mantidas sob decreto Imperial.",
+        "destaque_pt": "Ambiente sutil e enganoso que desafia até os cortesãos mais experientes, servindo como centro cultural, dramático e de intrigas fatais.",
+        "source_book": "The Book of Air",
+        "pagina": 60
+      },
+      {
+        "nome": "Pale Oak Castle",
+        "contexto_pt": "Clã da Fênix, controlado pela família Isawa, construído em torno do túmulo do Imperador Hantei XVII",
+        "resumo_pt": "Erguido ao redor de um carvalho pálido gigante que brotou milagrosamente sobre a sepultura do Imperador Hantei XVII, este castelo funciona como o principal centro diplomático da Fênix. A estrutura serve de zona de amortecimento para proteger os segredos místicos de Kyuden Isawa contra visitantes estrangeiros.",
+        "destaque_pt": "É uma das poucas fortalezas elegíveis para sediar a Corte de Inverno Imperial fora da sede principal de uma grande família, famosa pelas propriedades curativas atribuídas à árvore sagrada.",
+        "source_book": "The Book of Air",
+        "pagina": 62
+      },
+      {
+        "nome": "Kyuden Komori",
+        "contexto_pt": "Clã do Morcego (Clã Menor), localizado em uma ilha tropical no mar Umi Amaterasu",
+        "resumo_pt": "Sede do Clã do Morcego fundada no século XII em uma ilha isolada rodeada por selva fechada. A estrutura principal é uma residência modesta situada em uma colina, com acomodações exóticas e uma relação muito próxima entre a nobreza samurai e a população camponesa local.",
+        "destaque_pt": "O interior da ilha abriga uma selva onde os limites com os reinos espirituais são tênues, abrigando espíritos koumori e tornando o local um terreno neutro único para encontros diplomáticos discretos.",
+        "source_book": "The Book of Air",
+        "pagina": 64
+      },
+      {
+        "nome": "Kyuden Seppun",
+        "contexto_pt": "Famílias Imperiais (Família Seppun), localizado ao norte das terras do Grou, perto de Otosan Uchi",
+        "resumo_pt": "Um dos bastiões Imperiais mais antigos e sagrados de Rokugan, servindo como palácio aberto e sem muralhas defensivas. O complexo abriga o túmulo da Senhora Seppun, as Bibliotecas Imperiais com tomos raros e os Quatro Templos que formam o coração histórico da Irmandade de Shinsei.",
+        "destaque_pt": "Local sagrado intocável que sediou inúmeras Cortes de Inverno Imperiais, servindo como refúgio de meditação e erudição espiritual para o próprio Imperador e peregrinos de todo o Império.",
+        "source_book": "The Book of Air",
+        "pagina": 66
+      },
+      {
+        "nome": "Kyuden Kurogane-Hana",
+        "contexto_pt": "Local neutro e genérico de campanha (adaptável a qualquer clã ou região), associado ao Templo de Emma-O",
+        "resumo_pt": "Kyuden Kurogane-Hana começou como uma fortaleza militar incompleta construída para proteger o santuário de Emma-O, mas foi convertida às pressas em um palácio esplêndido para sediar o funeral de um Imperador. A estrutura combina uma arquitetura defensiva em três níveis com rampas elegantes, jardins temáticos, salas de chá elevadas e catacumbas subterrâneas.",
+        "destaque_pt": "Um cenário completo focado em intriga política e espiritualidade do Ar, ideal para campanhas de corte, onde tradições de luto, segredos em catacumbas e disputas entre todas as facções do Império se encontram.",
+        "source_book": "The Book of Air",
+        "pagina": 134
+      }
+    ]
+  }
+}

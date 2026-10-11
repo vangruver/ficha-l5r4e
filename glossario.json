@@ -30,7 +30,18 @@
     { "en": "Imperial Families", "pt": "Famílias Imperiais" },
     { "en": "Minor Clans", "pt": "Clãs Menores" },
     { "en": "Ronin", "pt": "Ronin", "manter_original": true },
-    { "en": "Brotherhood of Shinsei", "pt": "Irmandade de Shinsei" }
+    { "en": "Brotherhood of Shinsei", "pt": "Irmandade de Shinsei" },
+    { "en": "Badger Clan", "pt": "Clã do Texugo" },
+    { "en": "Bat Clan", "pt": "Clã do Morcego" },
+    { "en": "Boar Clan", "pt": "Clã do Javali" },
+    { "en": "Dragonfly Clan", "pt": "Clã da Libélula" },
+    { "en": "Hare Clan", "pt": "Clã da Lebre" },
+    { "en": "Monkey Clan", "pt": "Clã do Macaco" },
+    { "en": "Oriole Clan", "pt": "Clã do Papa-figos" },
+    { "en": "Ox Clan", "pt": "Clã do Boi" },
+    { "en": "Sparrow Clan", "pt": "Clã do Pardal" },
+    { "en": "Tortoise Clan", "pt": "Clã da Tartaruga" },
+    { "en": "Fox Clan", "pt": "Clã da Raposa" }
   ],
   "termos_sistema": [
     { "en": "Roll and Keep", "pt": "Rolar e Manter" },

@@ -1,0 +1,366 @@
+{
+  "artefatos": {
+    "artefatos": [
+      {
+        "nome": "The Blade of Secrets",
+        "contexto_pt": "Katana lendária, criada por Kaiu Haru e posteriormente guardada pelo Clã do Grou",
+        "resumo_pt": "Esta katana despertada possui empunhadura e guarda esculpidas em ouro com a forma de um pato. Ela foi forjada por um armeiro da família Kaiu durante a invasão do Maw e perdida no combate, sendo redescoberta séculos depois.",
+        "destaque_pt": "Permite ao usuário aprimorar seus ataques sem aumentar a dificuldade do golpe, mas consome silenciosamente a energia vital e o Vazio do portador a cada uso.",
+        "source_book": "Book of Fire",
+        "pagina": 125
+      },
+      {
+        "nome": "The Blade of Truths",
+        "contexto_pt": "Katana amaldiçoada, espada irmã da Blade of Secrets",
+        "resumo_pt": "Apresenta empunhadura com detalhes em ouro e uma bainha decorada em laca e madeira. Assim como sua arma irmã, foi perdida na batalha contra as forças do Maw e ressurge periodicamente trazendo ruína aos seus portadores.",
+        "destaque_pt": "Seus golpes causam acertos críticos devastadores, mas ativam uma maldição que torna o portador extremamente vulnerável a ataques inimigos.",
+        "source_book": "Book of Fire",
+        "pagina": 125
+      },
+      {
+        "nome": "The Bloodswords",
+        "contexto_pt": "Quatro katanas amaldiçoadas e sencientes, criadas por Asahina Yajinden sob ordens de Iuchiban",
+        "resumo_pt": "Conjunto de quatro armas (Ambition, Judgment, Passion e Revenge) impregnadas com energia maligna e consciência própria. Elas devoram as almas das vítimas que matam, tornando-se mais poderosas e compelindo seus portadores à loucura e ao massacre.",
+        "destaque_pt": "Capazes de ferir até entidades imortais e oráculos, manipulando a mente de quem as empunha para desencadear conflitos catastróficos no Império.",
+        "source_book": "Book of Fire",
+        "pagina": 125
+      },
+      {
+        "nome": "The Celestial Swords",
+        "contexto_pt": "Oito katanas sagradas forjadas no Tengoku por Tsi Xing Guo para os Campeões de Clã",
+        "resumo_pt": "Criadas pelo Fortuna do Aço para substituir as Espadas Ancestrais recolhidas pelos Céus, estas armas foram apresentadas aos líderes de cada Grande Clã. Cada uma reflete as virtudes e o elemento dominante do seu respectivo clã.",
+        "destaque_pt": "São consideradas Jade e Cristal para efeitos de combate contra criaturas malignas e concedem bênçãos espirituais únicas a cada Campeão de Clã.",
+        "source_book": "Book of Fire",
+        "pagina": 127
+      },
+      {
+        "nome": "Daidoji Uji's Jade Aiguchi",
+        "contexto_pt": "Par de adagas de jade, trazidas por Daidoji Uji do Reino dos Destinos Frustrados para o Clã do Grou",
+        "resumo_pt": "Este par de adagas indestrutíveis foi trazido de uma realidade alternativa por Daidoji Uji ao retornar para Ningen-do. Elas foram abençoadas por espíritos da Terra para reforçar a lâmina de jade puro.",
+        "destaque_pt": "Afetam criaturas invulneráveis e possuem um corte tão afiado que ignoram a redução de dano de armaduras ou proteções naturais.",
+        "source_book": "Book of Fire",
+        "pagina": 129
+      },
+      {
+        "nome": "Dragon's Claw Katana",
+        "contexto_pt": "Katana divina criada pelo Dragão do Vazio para Agasha Ashiko e réplicas artesanais do Clã do Grou",
+        "resumo_pt": "A lâmina original foi esculpida a partir de uma garra do Dragão do Vazio durante a Guerra dos Clãs. Mais tarde, artesãos do Clã do Grou conseguiram replicar a técnica para criar oito réplicas com propriedades semelhantes.",
+        "destaque_pt": "A versão original concede Pontos de Vazio adicionais e bônus em testes de kenjutsu, enquanto réplicas que testemunham atos desonrosos se retorcem e se destroem.",
+        "source_book": "Book of Fire",
+        "pagina": 129
+      },
+      {
+        "nome": "The Emperor's Underhand",
+        "contexto_pt": "Tanto de jade puro, presente do Clã da Caranguejo para o Clã do Escorpião durante a Primeira Guerra",
+        "resumo_pt": "Forjada por Kaiu a pedido de Hida para presentear seu irmão Bayushi, esta adaga selou uma aliança não escrita entre os dois clãs. Com o tempo, tornou-se um símbolo de cargo passado entre os generais do Escorpião.",
+        "destaque_pt": "Protege seu portador contra a Mácula das Terras Sombrias como se ele carregasse um suprimento inagotável de jade, além de ferir criaturas invulneráveis.",
+        "source_book": "Book of Fire",
+        "pagina": 129
+      },
+      {
+        "nome": "Extinguishing Lantern",
+        "contexto_pt": "Lanternas mágicas criadas pelos shugenja do Clã da Fênix",
+        "resumo_pt": "Artefatos menores projetados para conter espíritos do fogo especialmente sintonizados que atraem as chamas ao redor para si. Elas foram criadas para apagar incêndios acidentais e proteger construções de madeira.",
+        "destaque_pt": "Absorvem todo o fogo em um raio de quinze metros, apavorando invasores ao mergulhar acampamentos ou guardas noturnos em escuridão total quando usadas para emboscadas.",
+        "source_book": "Book of Fire",
+        "pagina": 130
+      },
+      {
+        "nome": "The Five Swords of Legend",
+        "contexto_pt": "Cinco lâminas lendárias forjadas pela monja e armeira Togashi Nyoko para o Clã do Dragão",
+        "resumo_pt": "Conjunto lendário composto pelas lâminas Bitter, Courage, Honorable, Hunger e pela Mirumoto Wakizashi. Cada uma reflete aspectos da filosofia do Bushido e do equilíbrio mental da sua criadora.",
+        "destaque_pt": "Possuem grande poder em combate, mas impõem provações severas, pesadelos ou impulsos violentos a portadores de baixa honra ou temperamento instável.",
+        "source_book": "Book of Fire",
+        "pagina": 130
+      },
+      {
+        "nome": "Hojatsu's Blade",
+        "contexto_pt": "Katana pessoal de Mirumoto Hojatsu, mantida no dojo da Montanha de Ferro do Clã do Dragão",
+        "resumo_pt": "Lâmina de estilo austero e funcional que acompanhou Hojatsu em suas lendárias lutas e duelos. A tradição afirma que foi esta a espada usada em seu duelo final contra Kakita.",
+        "destaque_pt": "Imbuída com o espírito da arte de duelos iaijutsu, ela concede ao portador conhecimentos avançados de avaliação e foco mesmo que ele não os tenha treinado formalmente.",
+        "source_book": "Book of Fire",
+        "pagina": 132
+      },
+      {
+        "nome": "The Katana of Fire",
+        "contexto_pt": "Lâmina elemental forjada por Iuchi Yugosha e Asako Shingon para Shiba Tsukune",
+        "resumo_pt": "Criada pelos Oráculos da Luz para combater os Terrores Elementais das Terras Sombrias, esta espada personifica a essência pura do Fogo. Embora pareça uma arma comum quando embainhada, ela incendeia-se ao ser sacada.",
+        "destaque_pt": "Envolve sua lâmina em chamas sagradas que causam dano adicional extraordinário, queimando com ainda mais intensidade contra oponentes maculados ou desonrados.",
+        "source_book": "Book of Fire",
+        "pagina": 132
+      },
+      {
+        "nome": "Mantles of Fire",
+        "contexto_pt": "Vestes e mantos mágicos desenvolvidos pelos alquimistas das famílias Agasha, Tamori e pela Fênix",
+        "resumo_pt": "Capas e vestimentas cerimoniais tingidas nas cores do fogo e impregnadas com kami do Fogo. Existem variações ofensivas desenvolvidas no Clã do Dragão e versões defensivas pacíficas criadas na Fênix.",
+        "destaque_pt": "A versão ofensiva aumenta o poder de ataques e feitiços de Fogo do usuário, enquanto a versão defensiva retribui ataques recebidos queimando os agressores.",
+        "source_book": "Book of Fire",
+        "pagina": 132
+      },
+      {
+        "nome": "Shameswords",
+        "contexto_pt": "Armas amaldiçoadas criadas pelo monge louco Kokujin na Bigorna do Desespero",
+        "resumo_pt": "Tentativas de emular as espadas de sangue de Yajinden, forjadas usando as almas aprisionadas de samurais do Clã do Dragão. As lâminas conhecidas incluem Blade of Fury, Blade of Guile, Blade of Hubris, Blade of the Meek, Blade of Penance e Blade of Slaughter.",
+        "destaque_pt": "São indestrutíveis, afiadas de forma sobrenatural e incitam seus portadores a falhas morais, raiva descontrolada, arrogância ou mentiras compulsivas.",
+        "source_book": "Book of Fire",
+        "pagina": 132
+      },
+      {
+        "nome": "Bronze Lanterns",
+        "contexto_pt": "Lanternas trazidas das Terras Queimadas, mantidas em segredo pelo Clã do Escorpião",
+        "resumo_pt": "Lanternas metálicas de origem gaijin trazidas do Império Senpet que não obedecem às regras usuais da magia de Rokugan. Cada lanterna serve como uma prisão mágica para um espírito gaijin.",
+        "destaque_pt": "Aprisionam seres conhecidos como jinn, que podem ser invocados esfregando a lanterna e recitando uma palavra de comando para obedecer às ordens do portador.",
+        "source_book": "Book of Fire",
+        "pagina": 133
+      },
+      {
+        "nome": "Wyrmbone Katana",
+        "contexto_pt": "Espadas forjadas a partir de ossos de wyrms pelo alquimista Tamori Tomaru no Clã do Dragão",
+        "resumo_pt": "Lâminas criadas a partir dos esqueletos metálicos de wyrms incinerados no vulcão Tamori's Furnace durante a Guerra do Fogo Sombrio. Os ossos revelaram-se fáceis de trabalhar e naturalmente moldados no formato de katanas.",
+        "destaque_pt": "Concedem ao portador parte da agilidade e força sobrenatural dos wyrms, aumentando sua iniciativa e precisão em combate.",
+        "source_book": "Book of Fire",
+        "pagina": 135
+      },
+      {
+        "nome": "Yumi of Fire",
+        "contexto_pt": "Arco mágico criado pelo Oráculo do Fogo, Isawa Mitori, e descoberto por Shinjo Jinturi",
+        "resumo_pt": "Artefato criado pelo Oráculo do Fogo para auxiliar a humanidade antes de se retirar de Ningen-do. Estava oculto em uma vila modesta até que um batedor do Unicórnio o usou para defender o povoado contra cultistas.",
+        "destaque_pt": "Guia as flechas disparadas com precisão sobre-humana e transforma os projéteis em chamas intensas ao voarem, incinerando os alvos atingidos.",
+        "source_book": "Book of Fire",
+        "pagina": 135
+      }
+    ]
+  },
+  "criaturas": {
+    "criaturas": [
+      {
+        "nome": "Amaterasu",
+        "contexto_pt": "Fortuna e Ser Celestial, deusa original do Sol",
+        "resumo_pt": "A deusa original do Sol e mãe dos Kami que caíram dos céus. Amaterasu representa o calor vital, a luz radiante e a purificação em Rokugan. Embora seja uma entidade de misericórdia e vida, seu poder também pode consumir os injustos em chamas purificadoras.",
+        "destaque_pt": "Personificação suprema da luz solar e do Fogo purificador em sua forma mais elevada.",
+        "source_book": "The Book of Fire",
+        "pagina": 121
+      },
+      {
+        "nome": "The Jade Dragon",
+        "contexto_pt": "Fortuna e Ser Celestial, ascendeu como o novo Sol",
+        "resumo_pt": "O Dragão de Jade assumiu o papel de novo Sol do Império após a queda dos astros celestiais originais. Esta entidade combina a iluminação e o calor do Fogo com a força espiritual protetora do jade. Ela simboliza a justiça, a lei e a resistência sagrada contra a corrupção.",
+        "destaque_pt": "União da energia do Fogo com a pureza espiritual do jade contra as forças sombrias.",
+        "source_book": "The Book of Fire",
+        "pagina": 122
+      },
+      {
+        "nome": "Osano-Wo",
+        "contexto_pt": "Fortuna Maior do Fogo e Trovão, associado ao Clã do Caranguejo",
+        "resumo_pt": "Filho do Kami Hida, Osano-Wo ascendeu como uma das Fortunas mais veneradas do Império após sua morte trágica. Ele governa as tempestades, o raio e a fúria impetuosa da batalha, sendo um modelo de paixão inabalável e determinação.",
+        "destaque_pt": "Canaliza a destruição e a justiça divina na forma de raios e chamas avassaladoras.",
+        "source_book": "The Book of Fire",
+        "pagina": 122
+      },
+      {
+        "nome": "The Dragon of Fire",
+        "contexto_pt": "Ser Celestial, Dragão Elemental do Fogo",
+        "resumo_pt": "O Dragão Elemental do Fogo é o mais dinâmico entre os dragões primordiais, atraído pelo conflito, pela mudança e pelas grandes batalhas do mundo mortal. Invisível à maioria das pessoas, sua aparição prenuncia momentos de profunda transição no mundo.",
+        "destaque_pt": "Personificação viva da transformação, destruição e paixão elemental de Rokugan.",
+        "source_book": "The Book of Fire",
+        "pagina": 122
+      },
+      {
+        "nome": "Basan",
+        "contexto_pt": "Espírito e Criatura Sobrenatural do reino de Chikushudo",
+        "resumo_pt": "Conhecidos como galos da montanha, estes seres nativos do reino dos animais possuem plumagens brilhantes e coloridas que podem escurecer à vontade. De hábitos noturnos, eles costumam assustar vilarejos com seus chamados e soprando labaredas coloridas.",
+        "destaque_pt": "Capacidade de expelir fogueiras azuis e verdes e alterar o brilho de suas penas.",
+        "source_book": "The Book of Fire",
+        "pagina": 123
+      },
+      {
+        "nome": "Taki-bi no Oni (Greater Elemental Terror of Fire)",
+        "contexto_pt": "Monstruosidade das Terras Sombrias sintonizada com o Fogo",
+        "resumo_pt": "Uma entidade demoníaca assustadora que se manifesta como uma mulher de beleza sobrenatural feita de chamas verdes e intensas. O demônio voa pelos céus lançando bolas de fogo e manipulando incêndios comuns para reduzir tudo a cinzas.",
+        "destaque_pt": "Emissão de calor sufocante, ataques devastadores de chamas e imunidade total ao Fogo.",
+        "source_book": "The Book of Fire",
+        "pagina": 123
+      },
+      {
+        "nome": "Moetechi no Oni (Lesser Elemental Terror of Fire)",
+        "contexto_pt": "Monstruosidade das Terras Sombrias sintonizada com o Fogo",
+        "resumo_pt": "Pequenos espectros flamejantes com forma vagamente humanoide que flutuam através de obstáculos físicos. Eles espalham destruição descontrolada por onde passam e podem se fundir entre si para criar um demônio maior.",
+        "destaque_pt": "Intangibilidade que permite atravessar paredes e capacidade de fusão entre vários espécimes.",
+        "source_book": "The Book of Fire",
+        "pagina": 123
+      },
+      {
+        "nome": "Furaribi",
+        "contexto_pt": "Espírito / Criatura Sobrenatural, resíduo de alma humana",
+        "resumo_pt": "Uma orbe de fogo roxo que flutua pelos locais onde ocorreu uma morte trágica ou onde a alma ficou presa. O toque do Furaribi não queima o corpo físico, mas drena a força espiritual da vítima até que ela definhe por completo.",
+        "destaque_pt": "Ataque espiritual que drena a energia vital e incapacita a utilização do Vazio.",
+        "source_book": "The Book of Fire",
+        "pagina": 123
+      },
+      {
+        "nome": "Fushicho",
+        "contexto_pt": "Ser Celestial / Fênix de Fogo",
+        "resumo_pt": "Grandes aves sagradas compostas de fogo puro oriundas dos céus de Tengoku. Símbolos de graça, virtude e renascimento, suas imagens frequentemente decoram templos e festividades de casamento.",
+        "destaque_pt": "Chamas celestiais radiantes que representam a nobreza e a imortalidade do espírito.",
+        "source_book": "The Book of Fire",
+        "pagina": 123
+      },
+      {
+        "nome": "Wanyudo",
+        "contexto_pt": "Criatura de Jigoku, alma corrompida de monge ou daimyo",
+        "resumo_pt": "Manifestação demoníaca decorrente de uma alma vil que pecou gravemente em vida. O ser aparece como uma cabeça decepada flamejante presa ao eixo de uma roda de carroça, perseguindo os vivos com um grito estarrecedor.",
+        "destaque_pt": "Voo veloz envolto em chamas e urro capaz de paralisar mortais de terror.",
+        "source_book": "The Book of Fire",
+        "pagina": 124
+      },
+      {
+        "nome": "Bakeneko",
+        "contexto_pt": "Espírito / Criatura Sobrenatural de Chikushudo e Sakkaku",
+        "resumo_pt": "Gatos comuns que vivem além de um século e desenvolvem inteligência sobrenatural e caudas bifurcadas. Bastante ligados ao elemento Fogo, eles gostam de pregar peças nos humanos e conseguem invocar orbes flamejantes.",
+        "destaque_pt": "Capacidade de transmorfose e manipulação de pequenas esferas de fogo místico.",
+        "source_book": "The Book of Fire",
+        "pagina": 122
+      },
+      {
+        "nome": "Kitsune Spirits",
+        "contexto_pt": "Espíritos metamorfos de Chikushudo",
+        "resumo_pt": "Espíritos de raposa astutos e brincalhões que possuem uma forte afinidade com o elemento Fogo. Conhecidos por conjurar pequenas luzes chamadas fogo-da-raposa (kitsune-bi), frequentemente assumem formas humanas para viver entre mortais.",
+        "destaque_pt": "Transmorfose graciosa e criação de fogo-da-raposa para ilusão ou orientação.",
+        "source_book": "The Book of Fire",
+        "pagina": 124
+      },
+      {
+        "nome": "Night Heron",
+        "contexto_pt": "Criatura Mundana sintonizada com o Fogo",
+        "resumo_pt": "Uma ave noturna comum em florestas e pântanos do Império. Durante as noites de lua cheia, suas penas emitem um brilho azulado devido a esporos fosforescentes recolhidos na água, associando-a simbolicamente às propriedades do Fogo.",
+        "destaque_pt": "Brailho noturno característico e voo veloz para escapar de ameaças.",
+        "source_book": "The Book of Fire",
+        "pagina": 125
+      },
+      {
+        "nome": "Rooster",
+        "contexto_pt": "Criatura Mundana associada ao Fogo e ao Sol",
+        "resumo_pt": "O galo é considerado um animal sagrado em Rokugan por saudar o amanhecer do Sol. Muito respeitado em templos monásticos, o canto do galo é visto pela população camponesa como uma bênção capaz de espantar maus espíritos.",
+        "destaque_pt": "Canto ritualístico de boas-vindas ao Sol com fama de afastar entidades malévolas.",
+        "source_book": "The Book of Fire",
+        "pagina": 125
+      },
+      {
+        "nome": "Kenku",
+        "contexto_pt": "Raça Ancestral Lendária de mestres de kenjutsu",
+        "resumo_pt": "Uma raça antiga de seres imortais com características aviárias que vivem isolados em florestas densas. Conhecidos como os maiores professores de esgrima do mundo, foram responsáveis por treinar diversos heróis lendários do Império.",
+        "destaque_pt": "Domínio absoluto e imortal da arte da espada, superando qualquer duelista mortal.",
+        "source_book": "The Book of Fire",
+        "pagina": 29
+      }
+    ]
+  },
+  "locais": {
+    "locais": [
+      {
+        "nome": "Morning Glory Castle (Kyuden Asako)",
+        "contexto_pt": "Família Asako, Clã da Fênix, situado na borda leste de Isawa Mori.",
+        "resumo_pt": "Anteriormente conhecido como Castelo da Fênix Branca, este palácio é a sede da família Asako. Apesar de parecer uma fortaleza voltada à contemplação e estética das montanhas, possui defesas formidáveis situadas no topo de um pico íngreme. Suas muralhas refletem a luz do sol matinal em qualquer estação.",
+        "destaque_pt": "É um centro diplomático refinado e isolado, famoso por abrigar valiosos acervos religiosos e oferecer um ambiente sereno para negociações delicadas em tempos de crise.",
+        "source_book": "Book of Fire",
+        "pagina": 80
+      },
+      {
+        "nome": "The Shrine of Bishamon's Gift",
+        "contexto_pt": "Localizado em Kyuden Asako, associado às relações históricas entre o Clã da Fênix e o Clã do Leão.",
+        "resumo_pt": "Pequeno santuário construído em Kyuden Asako durante o reinado do Hantei XXXIII por Asako Hidehira. No local, guarda-se uma lança quebrada utilizada por seu avô durante a Batalha do Favor de Bishamon. O combate terminou em um duelo de yarijutsu que interrompeu o cerco promovido pelo exército do Leão.",
+        "destaque_pt": "Serve como monumento diplomático e de respeito ancestral, visitado tanto por samurais da Fênix quanto por membros do Leão que prestam homenagem aos seus antepassados.",
+        "source_book": "Book of Fire",
+        "pagina": 81
+      },
+      {
+        "nome": "Kyuden Ikoma",
+        "contexto_pt": "Família Ikoma, Clã do Leão, situado na borda ocidental.",
+        "resumo_pt": "Conhecido como o Palácio da Sentinela Sagrada, este castelo serve historicamente como corte tradicional e ponto de defesa nas fronteiras do Leão. Possui vista privilegiada para as planícies e rios que fazem divisa com as terras do Unicórnio e do Dragão. O ambiente é um dos mais abertos e hospitaleiros do Clã do Leão.",
+        "destaque_pt": "Abriga a principal biblioteca de crônicas imperiais e oferece instalações de entretenimento para visitantes diplomáticos de todos os clãs.",
+        "source_book": "Book of Fire",
+        "pagina": 81
+      },
+      {
+        "nome": "The Cave of Thunder",
+        "contexto_pt": "Próximo a Kyuden Ikoma, mantido pela Ordem dos Sete Trovões.",
+        "resumo_pt": "Santuário esculpido na encosta da montanha próximo a Kyuden Ikoma, contendo estátuas representativas dos Sete Trovões originais. Dentro da caverna silenciosa, existem sete mesas douradas dedicadas a cada um dos heróis imperiais. O local é mantido por monges em permanente estado de oração.",
+        "destaque_pt": "Ponto focal de peregrinação espiritual para visitantes da corte de inverno do Leão que buscam inspiração e senso de dever antes das decisões políticas.",
+        "source_book": "Book of Fire",
+        "pagina": 82
+      },
+      {
+        "nome": "Shiro Sano Kakita",
+        "contexto_pt": "Família Kakita, Clã do Grou.",
+        "resumo_pt": "Sede da família Kakita e uma das instituições de ensino artístico e marcial mais renomadas do Império. O complexo destaca-se pelo visual impecável e manicurado, onde o decoro e a perfeição estética são exigidos em cada detalhe. É um dos locais que mais disputou a recepção da Corte de Inverno Imperial com Kyuden Doji.",
+        "destaque_pt": "É o coração do ensino de esgrima e artes do Clã do Grou, oferecendo prestígio inigualável a qualquer evento diplomático lá realizado.",
+        "source_book": "Book of Fire",
+        "pagina": 82
+      },
+      {
+        "nome": "The Kakita Academy",
+        "contexto_pt": "Localizada dentro do complexo de Shiro Sano Kakita, Clã do Grou.",
+        "resumo_pt": "Extenso complexo de edifícios dedicados ao ensino de artes finas e ao dojo do estilo de esgrima Kakita. Suas instalações possuem um ambiente austero e focado na autoperfeição, onde alunos e mestres buscam o apogeu da expressão artística e do duelo. O local recebe visitas guiadas durante grandes eventos da corte.",
+        "destaque_pt": "Concentra os maiores artesãos e duelistas de Rokugan, servindo como o padrão de excelência cultural e marcial do Império.",
+        "source_book": "Book of Fire",
+        "pagina": 83
+      },
+      {
+        "nome": "The Asako Libraries",
+        "contexto_pt": "Família Asako, Clã da Fênix.",
+        "resumo_pt": "O maior e mais abrangente sistema de bibliotecas de Rokugan, dedicado a coletar e organizar todo o conhecimento do Império. Possui um complexo de depósitos de pergaminhos organizados por sistemas complexos compreendidos apenas pelos bibliotecários veteranos. O local é conectado a um grande santuário dedicado a Tenjin.",
+        "destaque_pt": "É a principal fonte de conhecimento teórico do Império, indispensável para estudiosos e cortesãos que buscam dados históricos, religiosos ou filosóficos raros.",
+        "source_book": "Book of Fire",
+        "pagina": 84
+      },
+      {
+        "nome": "The Izaku Library",
+        "contexto_pt": "Família Izaku (vassalos da Fênix/Dragão).",
+        "resumo_pt": "Biblioteca altamente confidencial criada após as Guerras de Clãs para reconstruir o conhecimento sagrado destruído pelas forças das Terras Sombrias. O acervo contém registros raros sobre magias, rituais e pesquisas sobre a Sombra Mentirosa guardados sob forte vigilância na cidade de Heibeisu.",
+        "destaque_pt": "Contém registros proibidos e secretos sobre ameaças sobrenaturais, tornando o acesso restrito a autorizações diretas dos daimyos e do Imperador.",
+        "source_book": "Book of Fire",
+        "pagina": 85
+      },
+      {
+        "nome": "The Otomo Library",
+        "contexto_pt": "Família Otomo, Famílias Imperiais.",
+        "resumo_pt": "Biblioteca focada no registro detalhado de linhagens nobres, certidões de nascimento, acordos de casamentos e tratados territoriais do Império. Os burocratas Otomo utilizam estes registros com rigor para administrar a política entre os clãs e manter o equilíbrio do poder imperial.",
+        "destaque_pt": "É o centro nevrálgico da burocracia e das negociações matrimoniais em Rokugan, onde favores políticos determinam a agilidade da busca por documentos.",
+        "source_book": "Book of Fire",
+        "pagina": 86
+      },
+      {
+        "nome": "The Ikoma Library",
+        "contexto_pt": "Família Ikoma, Clã do Leão.",
+        "resumo_pt": "Repositório oficial das crônicas históricas do Império, guardando os relatos originais de batalhas, feitos heroicos e discursos dos líderes. A maior parte das suas instalações é aberta ao público sob acompanhamento de atendentes, embora seus trechos mais detalhados exijam permissão especial.",
+        "destaque_pt": "É a autoridade máxima na narrativa histórica oficial de Rokugan, influenciando julgamentos e reivindicações de honra entre as famílias nobres.",
+        "source_book": "Book of Fire",
+        "pagina": 87
+      },
+      {
+        "nome": "The Shosuro-Ikoma Library",
+        "contexto_pt": "Aliança secreta entre as famílias Ikoma, Shosuro e Otomo, situada nas Montanhas Espinha do Mundo.",
+        "resumo_pt": "Pequena fortaleza isolada e escondida em uma passagem de difícil acesso nas montanhas, mantida por uma guarnição conjunta de samurais do Leão e do Escorpião sem mon familiar. O local armazena os fatos históricos reais que foram apagados ou alterados dos registros oficiais para preservar a reputação da dinastia imperial.",
+        "destaque_pt": "Um dos locais mais secretos do Império, guardando verdades perigosas capazes de abalar a estrutura política de Rokugan se reveladas.",
+        "source_book": "Book of Fire",
+        "pagina": 87
+      },
+      {
+        "nome": "The Kuni Library",
+        "contexto_pt": "Família Kuni, Clã da Caranguejo, espalhada pelos Desertos Kuni.",
+        "resumo_pt": "Ao contrário de uma biblioteca convencional, este acervo consiste na sabedoria coletiva espalhada por dezenas de pequenas cabanas de estudos de shugenjas Kuni. Guarda séculos de anotações sobre as Terras Sombrias, maho e a natureza dos oni, sem centralização em um único edifício para evitar destruição em ataques.",
+        "destaque_pt": "Maior fonte de conhecimento tático e ocultista sobre as ameaças da Mácula e das Terras Sombrias no Império, com acesso estritamente controlado.",
+        "source_book": "Book of Fire",
+        "pagina": 88
+      },
+      {
+        "nome": "The Hundred Stances Dojo",
+        "contexto_pt": "Administração Imperial Seppun, localizado em uma planície isolada e tempestuosa.",
+        "resumo_pt": "Dojo neutro fundado sobre os ensinamentos do ronin Oshiro e administrado pela família Seppun. O local atrai praticantes de kenjutsu de todos os clãs para aprender e desafiar o mestre atual em duelos ritualizados. O complexo inclui quatro alas, uma torre de vigia, alojamentos e um santuário ao criador.",
+        "destaque_pt": "Cenário principal de aventura do livro, onde disputas pelo posto de sensei e acesso aos pergaminhos sagrados geram intensos conflitos políticos e marciais.",
+        "source_book": "Book of Fire",
+        "pagina": 137
+      }
+    ]
+  }
+}

@@ -1,0 +1,317 @@
+[
+  {
+    "id": "kyuden-doji--the-book-of-air",
+    "nome": "Kyuden Doji",
+    "contexto_pt": "Clã do Grou, Palácio ancestral da família Doji, região costeira",
+    "resumo_pt": "Kyuden Doji é o centro do poder político e cultural do Clã do Grou. Localizado no topo de um platô com vista para o mar, o castelo foi projetado para priorizar a beleza estética em vez da defesa militar, cercado por jardins deslumbrantes mantidos há séculos por gerações de jardineiros dedicados.",
+    "destaque_pt": "É a corte mais influente e refinada do Império, frequentemente escolhida para sediar a Corte de Inverno Imperial, onde a violência é totalmente abominada e a diplomacia atinge seu ápice.",
+    "source_book": "The Book of Air",
+    "pagina": 57
+  },
+  {
+    "id": "shiro-no-shosuro--the-book-of-air",
+    "nome": "Shiro no Shosuro",
+    "contexto_pt": "Clã do Escorpião, propriedade da família Shosuro, localizado sobre colinas próximas ao Rio do Ouro",
+    "resumo_pt": "Uma fortaleza intrigante do Clã do Escorpião, onde os interiores e as decorações mudam constantemente para confundir os visitantes e se adaptar aos caprichos estéticos dos anfitriões. O local conta com o famoso teatro O Sorriso de Seda e jardins repletos de plantas venenosas mantidas sob decreto Imperial.",
+    "destaque_pt": "Ambiente sutil e enganoso que desafia até os cortesãos mais experientes, servindo como centro cultural, dramático e de intrigas fatais.",
+    "source_book": "The Book of Air",
+    "pagina": 60
+  },
+  {
+    "id": "pale-oak-castle--the-book-of-air",
+    "nome": "Pale Oak Castle",
+    "contexto_pt": "Clã da Fênix, controlado pela família Isawa, construído em torno do túmulo do Imperador Hantei XVII",
+    "resumo_pt": "Erguido ao redor de um carvalho pálido gigante que brotou milagrosamente sobre a sepultura do Imperador Hantei XVII, este castelo funciona como o principal centro diplomático da Fênix. A estrutura serve de zona de amortecimento para proteger os segredos místicos de Kyuden Isawa contra visitantes estrangeiros.",
+    "destaque_pt": "É uma das poucas fortalezas elegíveis para sediar a Corte de Inverno Imperial fora da sede principal de uma grande família, famosa pelas propriedades curativas atribuídas à árvore sagrada.",
+    "source_book": "The Book of Air",
+    "pagina": 62
+  },
+  {
+    "id": "kyuden-komori--the-book-of-air",
+    "nome": "Kyuden Komori",
+    "contexto_pt": "Clã do Morcego (Clã Menor), localizado em uma ilha tropical no mar Umi Amaterasu",
+    "resumo_pt": "Sede do Clã do Morcego fundada no século XII em uma ilha isolada rodeada por selva fechada. A estrutura principal é uma residência modesta situada em uma colina, com acomodações exóticas e uma relação muito próxima entre a nobreza samurai e a população camponesa local.",
+    "destaque_pt": "O interior da ilha abriga uma selva onde os limites com os reinos espirituais são tênues, abrigando espíritos koumori e tornando o local um terreno neutro único para encontros diplomáticos discretos.",
+    "source_book": "The Book of Air",
+    "pagina": 64
+  },
+  {
+    "id": "kyuden-seppun--the-book-of-air",
+    "nome": "Kyuden Seppun",
+    "contexto_pt": "Famílias Imperiais (Família Seppun), localizado ao norte das terras do Grou, perto de Otosan Uchi",
+    "resumo_pt": "Um dos bastiões Imperiais mais antigos e sagrados de Rokugan, servindo como palácio aberto e sem muralhas defensivas. O complexo abriga o túmulo da Senhora Seppun, as Bibliotecas Imperiais com tomos raros e os Quatro Templos que formam o coração histórico da Irmandade de Shinsei.",
+    "destaque_pt": "Local sagrado intocável que sediou inúmeras Cortes de Inverno Imperiais, servindo como refúgio de meditação e erudição espiritual para o próprio Imperador e peregrinos de todo o Império.",
+    "source_book": "The Book of Air",
+    "pagina": 66
+  },
+  {
+    "id": "kyuden-kurogane-hana--the-book-of-air",
+    "nome": "Kyuden Kurogane-Hana",
+    "contexto_pt": "Local neutro e genérico de campanha (adaptável a qualquer clã ou região), associado ao Templo de Emma-O",
+    "resumo_pt": "Kyuden Kurogane-Hana começou como uma fortaleza militar incompleta construída para proteger o santuário de Emma-O, mas foi convertida às pressas em um palácio esplêndido para sediar o funeral de um Imperador. A estrutura combina uma arquitetura defensiva em três níveis com rampas elegantes, jardins temáticos, salas de chá elevadas e catacumbas subterrâneas.",
+    "destaque_pt": "Um cenário completo focado em intriga política e espiritualidade do Ar, ideal para campanhas de corte, onde tradições de luto, segredos em catacumbas e disputas entre todas as facções do Império se encontram.",
+    "source_book": "The Book of Air",
+    "pagina": 134
+  },
+  {
+    "id": "kyuden-hida--the-book-of-earth",
+    "nome": "Kyuden Hida",
+    "contexto_pt": "Clã da Caranguejo, Família Hida",
+    "resumo_pt": "A maior e mais formidável fortaleza de Rokugan, esculpida diretamente na rocha das montanhas. Projetada pelo fundador Kaiu, é o centro do poder do Clã da Caranguejo e guarda a principal rota de acesso ao interior de suas terras.",
+    "destaque_pt": "Possui muralhas colossais de 55 metros de altura, portões de aço maciço e um pátio central equipado com armadilhas mecânicas capazes de transformar a área em um poço mortal em caso de invasão.",
+    "source_book": "The Book of Earth",
+    "pagina": 41
+  },
+  {
+    "id": "kosaten-shiro--the-book-of-earth",
+    "nome": "Kosaten Shiro",
+    "contexto_pt": "Clã do Grou, Família Daidoji",
+    "resumo_pt": "Uma fortaleza militar do Clã do Grou construída predominantemente em madeira sobre uma alta base de pedra. Situa-se em um Ponto estratégico que intercepta a rota de invasão primária vinda do território do Clã do Leão.",
+    "destaque_pt": "Seu interior esconde uma rede intrincada de passagens secretas, frestas de arqueiro camufladas e paredes falsas para confundir invasores, além de terras circundantes repletas de armadilhas mortais.",
+    "source_book": "The Book of Earth",
+    "pagina": 42
+  },
+  {
+    "id": "kyuden-ashinagabachi--the-book-of-earth",
+    "nome": "Kyuden Ashinagabachi",
+    "contexto_pt": "Clã do Mantis, Família Tsuruchi",
+    "resumo_pt": "Antigo palácio do Clã do Escorpião tomado e remodelado pela Família Tsuruchi para maximizar suas táticas de arquearia. Localizado em uma passagem montanhosa, possui linhas de visão amplas e estoque gigantesco de munição.",
+    "destaque_pt": "A vegetação ao redor do castelo foi completamente desmatada por milhas, forçando qualquer tropa hostil a marchar por terrenos abertos sob chuva constante de flechas extremamente precisas.",
+    "source_book": "The Book of Earth",
+    "pagina": 43
+  },
+  {
+    "id": "shiro-akatsuki--the-book-of-earth",
+    "nome": "Shiro Akatsuki",
+    "contexto_pt": "Terras Não-Alinhadas, Legião dos Dois Mil / Ronin",
+    "resumo_pt": "Uma fortaleza misteriosa encravada nas Montanhas do Arrependimento que esteve abandonada durante a Guerra dos Clãs antes de ser ocupada por companhias ronin. Opera de maneira independente de qualquer Great Clan.",
+    "destaque_pt": "Cada visitante ronin deve trazer uma pedra gravada com seu nome para auxiliar na manutenção das muralhas, deixando um registro histórico permanente dos defensores do local.",
+    "source_book": "The Book of Earth",
+    "pagina": 43
+  },
+  {
+    "id": "kyuden-gotei--the-book-of-earth",
+    "nome": "Kyuden Gotei",
+    "contexto_pt": "Clã do Mantis, Ilhas de Especiarias e Seda",
+    "resumo_pt": "A opulenta e gigantesca sede do Clã do Mantis nas ilhas do sul. Trata-se de um complexo suntuoso coberto de joias, ouro e iluminação vibrante, refletindo a imensa riqueza acumulada pelo comércio marítimo do clã.",
+    "destaque_pt": "Acomoda os convidados com um luxo extravagante e inédito que costuma desestabilizar cortesãos tradicionais, garantindo ao Clã do Mantis vantagem política durante negociações em suas terras.",
+    "source_book": "The Book of Earth",
+    "pagina": 102
+  },
+  {
+    "id": "shiro-kaotsuki-no-higashi--the-book-of-earth",
+    "nome": "Shiro Kaotsuki no Higashi",
+    "contexto_pt": "Clã da Caranguejo, Família Yasuki",
+    "resumo_pt": "Conhecido como o Castelo do Rosto do Leste, fica entre as Montanhas do Crepúsculo e a Floresta Shinomen. É a principal sede de negociações diplomáticas e acordos comerciais entre o Clã da Caranguejo e as outras facções do Império.",
+    "destaque_pt": "Apresenta uma estética militar austera planejada para lembrar os embaixadores do custo da guerra no sul, além de abrigar nos arredores o Mercado da Carpa Dourada para negociações clandestinas.",
+    "source_book": "The Book of Earth",
+    "pagina": 104
+  },
+  {
+    "id": "shiro-mirumoto--the-book-of-earth",
+    "nome": "Shiro Mirumoto",
+    "contexto_pt": "Clã do Dragão, Família Mirumoto",
+    "resumo_pt": "A principal corte do Clã do Dragão, caracterizada por uma infraestrutura sóbria, funcional e focada na contemplação. Oferece aos visitantes acomodações adequadas e acesso a bibliotecas e dojos, sem luxos ostensivos.",
+    "destaque_pt": "Nas profundezas do castelo encontra-se o Grande Estudo, uma instalação subterrânea secreta onde o Clã do Dragão guarda e pesquisa nemuranai e artefatos ancestrais perigosos.",
+    "source_book": "The Book of Earth",
+    "pagina": 106
+  },
+  {
+    "id": "heichi-sano-negura--the-book-of-earth",
+    "nome": "Heichi sano Negura",
+    "contexto_pt": "Clã do Javali, Montanhas do Crepúsculo",
+    "resumo_pt": "A fortaleza principal do cenário de aventura 'O Templo do Javali', erguida em um platô isolado nas montanhas. Com cinco andares construídos em estilo antigo, serve como lar para a comunidade remanescente do Clã do Javali.",
+    "destaque_pt": "Forasteiros que encontram o local são mantidos como residentes permanentes para impedir que o segredo de sua sobrevivência chegue ao Império ou aos inimigos do clã.",
+    "source_book": "The Book of Earth",
+    "pagina": 167
+  },
+  {
+    "id": "morning-glory-castle-kyuden-asako--book-of-fire",
+    "nome": "Morning Glory Castle (Kyuden Asako)",
+    "contexto_pt": "Família Asako, Clã da Fênix, situado na borda leste de Isawa Mori.",
+    "resumo_pt": "Anteriormente conhecido como Castelo da Fênix Branca, este palácio é a sede da família Asako. Apesar de parecer uma fortaleza voltada à contemplação e estética das montanhas, possui defesas formidáveis situadas no topo de um pico íngreme. Suas muralhas refletem a luz do sol matinal em qualquer estação.",
+    "destaque_pt": "É um centro diplomático refinado e isolado, famoso por abrigar valiosos acervos religiosos e oferecer um ambiente sereno para negociações delicadas em tempos de crise.",
+    "source_book": "Book of Fire",
+    "pagina": 80
+  },
+  {
+    "id": "the-shrine-of-bishamon-s-gift--book-of-fire",
+    "nome": "The Shrine of Bishamon's Gift",
+    "contexto_pt": "Localizado em Kyuden Asako, associado às relações históricas entre o Clã da Fênix e o Clã do Leão.",
+    "resumo_pt": "Pequeno santuário construído em Kyuden Asako durante o reinado do Hantei XXXIII por Asako Hidehira. No local, guarda-se uma lança quebrada utilizada por seu avô durante a Batalha do Favor de Bishamon. O combate terminou em um duelo de yarijutsu que interrompeu o cerco promovido pelo exército do Leão.",
+    "destaque_pt": "Serve como monumento diplomático e de respeito ancestral, visitado tanto por samurais da Fênix quanto por membros do Leão que prestam homenagem aos seus antepassados.",
+    "source_book": "Book of Fire",
+    "pagina": 81
+  },
+  {
+    "id": "kyuden-ikoma--book-of-fire",
+    "nome": "Kyuden Ikoma",
+    "contexto_pt": "Família Ikoma, Clã do Leão, situado na borda ocidental.",
+    "resumo_pt": "Conhecido como o Palácio da Sentinela Sagrada, este castelo serve historicamente como corte tradicional e ponto de defesa nas fronteiras do Leão. Possui vista privilegiada para as planícies e rios que fazem divisa com as terras do Unicórnio e do Dragão. O ambiente é um dos mais abertos e hospitaleiros do Clã do Leão.",
+    "destaque_pt": "Abriga a principal biblioteca de crônicas imperiais e oferece instalações de entretenimento para visitantes diplomáticos de todos os clãs.",
+    "source_book": "Book of Fire",
+    "pagina": 81
+  },
+  {
+    "id": "the-cave-of-thunder--book-of-fire",
+    "nome": "The Cave of Thunder",
+    "contexto_pt": "Próximo a Kyuden Ikoma, mantido pela Ordem dos Sete Trovões.",
+    "resumo_pt": "Santuário esculpido na encosta da montanha próximo a Kyuden Ikoma, contendo estátuas representativas dos Sete Trovões originais. Dentro da caverna silenciosa, existem sete mesas douradas dedicadas a cada um dos heróis imperiais. O local é mantido por monges em permanente estado de oração.",
+    "destaque_pt": "Ponto focal de peregrinação espiritual para visitantes da corte de inverno do Leão que buscam inspiração e senso de dever antes das decisões políticas.",
+    "source_book": "Book of Fire",
+    "pagina": 82
+  },
+  {
+    "id": "shiro-sano-kakita--book-of-fire",
+    "nome": "Shiro Sano Kakita",
+    "contexto_pt": "Família Kakita, Clã do Grou.",
+    "resumo_pt": "Sede da família Kakita e uma das instituições de ensino artístico e marcial mais renomadas do Império. O complexo destaca-se pelo visual impecável e manicurado, onde o decoro e a perfeição estética são exigidos em cada detalhe. É um dos locais que mais disputou a recepção da Corte de Inverno Imperial com Kyuden Doji.",
+    "destaque_pt": "É o coração do ensino de esgrima e artes do Clã do Grou, oferecendo prestígio inigualável a qualquer evento diplomático lá realizado.",
+    "source_book": "Book of Fire",
+    "pagina": 82
+  },
+  {
+    "id": "the-kakita-academy--book-of-fire",
+    "nome": "The Kakita Academy",
+    "contexto_pt": "Localizada dentro do complexo de Shiro Sano Kakita, Clã do Grou.",
+    "resumo_pt": "Extenso complexo de edifícios dedicados ao ensino de artes finas e ao dojo do estilo de esgrima Kakita. Suas instalações possuem um ambiente austero e focado na autoperfeição, onde alunos e mestres buscam o apogeu da expressão artística e do duelo. O local recebe visitas guiadas durante grandes eventos da corte.",
+    "destaque_pt": "Concentra os maiores artesãos e duelistas de Rokugan, servindo como o padrão de excelência cultural e marcial do Império.",
+    "source_book": "Book of Fire",
+    "pagina": 83
+  },
+  {
+    "id": "the-asako-libraries--book-of-fire",
+    "nome": "The Asako Libraries",
+    "contexto_pt": "Família Asako, Clã da Fênix.",
+    "resumo_pt": "O maior e mais abrangente sistema de bibliotecas de Rokugan, dedicado a coletar e organizar todo o conhecimento do Império. Possui um complexo de depósitos de pergaminhos organizados por sistemas complexos compreendidos apenas pelos bibliotecários veteranos. O local é conectado a um grande santuário dedicado a Tenjin.",
+    "destaque_pt": "É a principal fonte de conhecimento teórico do Império, indispensável para estudiosos e cortesãos que buscam dados históricos, religiosos ou filosóficos raros.",
+    "source_book": "Book of Fire",
+    "pagina": 84
+  },
+  {
+    "id": "the-izaku-library--book-of-fire",
+    "nome": "The Izaku Library",
+    "contexto_pt": "Família Izaku (vassalos da Fênix/Dragão).",
+    "resumo_pt": "Biblioteca altamente confidencial criada após as Guerras de Clãs para reconstruir o conhecimento sagrado destruído pelas forças das Terras Sombrias. O acervo contém registros raros sobre magias, rituais e pesquisas sobre a Sombra Mentirosa guardados sob forte vigilância na cidade de Heibeisu.",
+    "destaque_pt": "Contém registros proibidos e secretos sobre ameaças sobrenaturais, tornando o acesso restrito a autorizações diretas dos daimyos e do Imperador.",
+    "source_book": "Book of Fire",
+    "pagina": 85
+  },
+  {
+    "id": "the-otomo-library--book-of-fire",
+    "nome": "The Otomo Library",
+    "contexto_pt": "Família Otomo, Famílias Imperiais.",
+    "resumo_pt": "Biblioteca focada no registro detalhado de linhagens nobres, certidões de nascimento, acordos de casamentos e tratados territoriais do Império. Os burocratas Otomo utilizam estes registros com rigor para administrar a política entre os clãs e manter o equilíbrio do poder imperial.",
+    "destaque_pt": "É o centro nevrálgico da burocracia e das negociações matrimoniais em Rokugan, onde favores políticos determinam a agilidade da busca por documentos.",
+    "source_book": "Book of Fire",
+    "pagina": 86
+  },
+  {
+    "id": "the-ikoma-library--book-of-fire",
+    "nome": "The Ikoma Library",
+    "contexto_pt": "Família Ikoma, Clã do Leão.",
+    "resumo_pt": "Repositório oficial das crônicas históricas do Império, guardando os relatos originais de batalhas, feitos heroicos e discursos dos líderes. A maior parte das suas instalações é aberta ao público sob acompanhamento de atendentes, embora seus trechos mais detalhados exijam permissão especial.",
+    "destaque_pt": "É a autoridade máxima na narrativa histórica oficial de Rokugan, influenciando julgamentos e reivindicações de honra entre as famílias nobres.",
+    "source_book": "Book of Fire",
+    "pagina": 87
+  },
+  {
+    "id": "the-shosuro-ikoma-library--book-of-fire",
+    "nome": "The Shosuro-Ikoma Library",
+    "contexto_pt": "Aliança secreta entre as famílias Ikoma, Shosuro e Otomo, situada nas Montanhas Espinha do Mundo.",
+    "resumo_pt": "Pequena fortaleza isolada e escondida em uma passagem de difícil acesso nas montanhas, mantida por uma guarnição conjunta de samurais do Leão e do Escorpião sem mon familiar. O local armazena os fatos históricos reais que foram apagados ou alterados dos registros oficiais para preservar a reputação da dinastia imperial.",
+    "destaque_pt": "Um dos locais mais secretos do Império, guardando verdades perigosas capazes de abalar a estrutura política de Rokugan se reveladas.",
+    "source_book": "Book of Fire",
+    "pagina": 87
+  },
+  {
+    "id": "the-kuni-library--book-of-fire",
+    "nome": "The Kuni Library",
+    "contexto_pt": "Família Kuni, Clã da Caranguejo, espalhada pelos Desertos Kuni.",
+    "resumo_pt": "Ao contrário de uma biblioteca convencional, este acervo consiste na sabedoria coletiva espalhada por dezenas de pequenas cabanas de estudos de shugenjas Kuni. Guarda séculos de anotações sobre as Terras Sombrias, maho e a natureza dos oni, sem centralização em um único edifício para evitar destruição em ataques.",
+    "destaque_pt": "Maior fonte de conhecimento tático e ocultista sobre as ameaças da Mácula e das Terras Sombrias no Império, com acesso estritamente controlado.",
+    "source_book": "Book of Fire",
+    "pagina": 88
+  },
+  {
+    "id": "the-hundred-stances-dojo--book-of-fire",
+    "nome": "The Hundred Stances Dojo",
+    "contexto_pt": "Administração Imperial Seppun, localizado em uma planície isolada e tempestuosa.",
+    "resumo_pt": "Dojo neutro fundado sobre os ensinamentos do ronin Oshiro e administrado pela família Seppun. O local atrai praticantes de kenjutsu de todos os clãs para aprender e desafiar o mestre atual em duelos ritualizados. O complexo inclui quatro alas, uma torre de vigia, alojamentos e um santuário ao criador.",
+    "destaque_pt": "Cenário principal de aventura do livro, onde disputas pelo posto de sensei e acesso aos pergaminhos sagrados geram intensos conflitos políticos e marciais.",
+    "source_book": "Book of Fire",
+    "pagina": 137
+  },
+  {
+    "id": "yasuki-yashiki--the-book-of-water",
+    "nome": "Yasuki Yashiki",
+    "contexto_pt": "Clã do Caranguejo / Família Yasuki / Província Junkin",
+    "resumo_pt": "Conhecida historicamente como a Propriedade da Garça Negra, esta fortaleza pertenceu originalmente ao Clã do Grou antes da Primeira Guerra Yasuki. O complexo combina edificações palacianas refinadas com muralhas defensivas funcionais erguidas pelo Clã do Caranguejo. Suas torres elevadas proporcionam uma vista estratégica ampla sobre a Baía do Peixe Terremoto.",
+    "destaque_pt": "É o principal centro diplomático do Clã do Caranguejo e o único local em suas terras preparado para sediar uma Corte de Inverno Imperial.",
+    "source_book": "The Book of Water",
+    "pagina": 87
+  },
+  {
+    "id": "the-hogosha-estates--the-book-of-water",
+    "nome": "The Hogosha Estates",
+    "contexto_pt": "Clã do Mantis / Família Hogosha / Yasuki Yashiki",
+    "resumo_pt": "Esta propriedade palaciana localizada no complexo de Yasuki Yashiki foi concedida à família vassala Hogosha após a Segunda Guerra Yasuki. Mesmo com a retomada do controle total da região pelo Clã do Caranguejo, o local foi preservado e mantido sob domínio da linhagem Yoritomo. A estrutura permanece ativa como enclave diplomático e comercial permanente.",
+    "destaque_pt": "Garante ao Clã do Mantis uma presença de corte direta no coração do território comercial do Clã do Caranguejo.",
+    "source_book": "The Book of Water",
+    "pagina": 87
+  },
+  {
+    "id": "great-day-castle--the-book-of-water",
+    "nome": "Great Day Castle",
+    "contexto_pt": "Clã do Unicórnio / Família Ide / Província Garanto",
+    "resumo_pt": "Conhecido localmente como Shiro Ide, este castelo ergue-se na Província Garanto, próximo às margens do Lago das Pétalas de Crisântemo. Foi a primeira grande fortaleza erguida pelo Clã do Unicórnio após o retorno do exílio. Sua arquitetura busca integrar-se às formações rochosas das montanhas e prioriza o conforto de seus hóspedes.",
+    "destaque_pt": "É a principal sede diplomática do Clã do Unicórnio, projetada para receber visitantes de outros clãs sem causar choque cultural.",
+    "source_book": "The Book of Water",
+    "pagina": 88
+  },
+  {
+    "id": "calm-heart-dojo--the-book-of-water",
+    "nome": "Calm Heart Dojo",
+    "contexto_pt": "Clã do Unicórnio / Família Ide / Shiro Ide",
+    "resumo_pt": "O dojo central da Escola de Emissários Ide situa-se fora das muralhas de Shiro Ide, junto às margens do lago. A formação dos estudantes exige longos períodos de meditação diante das águas calmas da região. Essa rotina busca desenvolver o autocontrole e a compostura necessários para as interações na corte.",
+    "destaque_pt": "Ensina a calma imperturbável característica dos diplomatas Ide, associando a arte da diplomacia ao Elemento Água.",
+    "source_book": "The Book of Water",
+    "pagina": 88
+  },
+  {
+    "id": "kyuden-tonbo--the-book-of-water",
+    "nome": "Kyuden Tonbo",
+    "contexto_pt": "Clãs Menores / Clã da Libélula / Província Shinpi",
+    "resumo_pt": "Situado na Província Shinpi, logo ao sul das terras do Clã do Dragão, esta fortaleza serve como sede do Clã da Libélula. O palácio possui um histórico marcado por conflitos e reconstruções devido à rivalidade constante com o Clã do Leão. Apesar de portar o título de Kyuden, o local jamais conseguiu sediar uma Corte de Inverno Imperial.",
+    "destaque_pt": "Atua como ponto de recepção e triagem diplomática obrigatória para todos os visitantes que buscam audiência com o Clã do Dragão.",
+    "source_book": "The Book of Water",
+    "pagina": 89
+  },
+  {
+    "id": "fortune-s-favor-bridge--the-book-of-water",
+    "nome": "Fortune's Favor Bridge",
+    "contexto_pt": "Ilhas Eternas do Perigo / Conexão com o Continente",
+    "resumo_pt": "Uma massiva ponte natural de terra que surgiu subitamente do mar, conectando a costa sul do Clã do Grou à ilha de Hantei's Point. A elevação de terra possui largura suficiente para a passagem de várias carroças lado a lado. Ao longo de sua extensão, os exploradores ergueram estátuas e santuários dedicados aos Fortunas.",
+    "destaque_pt": "Atua como a única via de acesso segura para a exploração do arquipélago, atravessando os redemoinhos mortais da região.",
+    "source_book": "The Book of Water",
+    "pagina": 144
+  },
+  {
+    "id": "shiro-no-raiden--the-book-of-water",
+    "nome": "Shiro no Raiden",
+    "contexto_pt": "Ilhas Eternas do Perigo / Hantei's Point / Famílias Imperiais",
+    "resumo_pt": "Conhecido como Castelo do Relâmpago, é a estrutura central da Cidade do Alvorecer Próspero e sede da Administradora Imperial Miya Onako. A construção é marcada por constantes atrasos, acidentes e colapsos estruturais que mantêm suas muralhas e alojamentos inacabados. Muitos trabalhadores e sacerdotes atribuem esses problemas a uma maldição espiritual do arquipélago.",
+    "destaque_pt": "Funciona como a capital administrativa das ilhas, abrigando a corte da administradora e as delegações dos Grandes Clãs.",
+    "source_book": "The Book of Water",
+    "pagina": 144
+  },
+  {
+    "id": "naga-s-rest--the-book-of-water",
+    "nome": "Naga's Rest",
+    "contexto_pt": "Ilhas Eternas do Perigo / Território Naga",
+    "resumo_pt": "Esta ilha coberta por florestas densas é a área de desembarque mais próxima de Hantei's Point. O interior da mata abriga fontes cristalinas, criaturas espirituais e ruínas de uma antiga cidade da raça Naga. Em suas profundezas encontra-se o Poço dos Nado-Mortos, local repleto de ovos fossilizados transformados em pérolas.",
+    "destaque_pt": "Servi como o santuário protegido pelo insano Adkarst, sendo um dos locais mais perigosos e misteriosos do arquipélago.",
+    "source_book": "The Book of Water",
+    "pagina": 147
+  }
+]

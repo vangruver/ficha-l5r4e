@@ -23,6 +23,8 @@ export async function carregarBanco() {
   const [
     aneis, traits, schools, kataKiho, skills, spells, advantages, disadvantages, weapons, armor, gear, lore,
     niveisFerimento, ranksSabedoria, formulas,
+    clasMenores, faccoes, ordensMonasticas, reinosEspirituais, tradicoesMarciais,
+    familias, artefatos, criaturas, locais, ameacas, estrangeiros,
   ] = await Promise.all([
     carregarJSON("data/core/aneis.json"),
     carregarJSON("data/core/traits.json"),
@@ -35,18 +37,32 @@ export async function carregarBanco() {
     carregarJSON("data/raw/weapons.json"),
     carregarJSON("data/raw/armor.json"),
     carregarJSON("data/raw/gear.json"),
-    // Wiki de lore (clãs) — gerada por scripts/extract_lore.py +
-    // scripts/build_lore.py.
+    // Wiki de lore — gerada por scripts/extract_lore*.py + build_lore.py.
+    // "lore" fica só com os 9 Clãs Grandes por compatibilidade com quem já
+    // lia essa chave; as novas categorias vêm em campos próprios abaixo.
     carregarJSON("data/lore/clas.json"),
     // Tabelas universais extraídas do Core (scripts/extract_core_tables.py +
     // build_core.py) — usadas pelos cálculos em src/rules.js.
     carregarJSON("data/core/niveis-ferimento.json"),
     carregarJSON("data/core/ranks-sabedoria.json"),
     carregarJSON("data/core/formulas.json", {}),
+    carregarJSON("data/lore/clas-menores.json"),
+    carregarJSON("data/lore/faccoes.json"),
+    carregarJSON("data/lore/ordens-monasticas.json"),
+    carregarJSON("data/lore/reinos-espirituais.json"),
+    carregarJSON("data/lore/tradicoes-marciais.json"),
+    carregarJSON("data/lore/familias.json"),
+    carregarJSON("data/lore/artefatos.json"),
+    carregarJSON("data/lore/criaturas.json"),
+    carregarJSON("data/lore/locais.json"),
+    carregarJSON("data/lore/ameacas.json"),
+    carregarJSON("data/lore/estrangeiros.json"),
   ]);
   cache = {
     aneis, traits, schools, kataKiho, skills, spells, advantages, disadvantages, weapons, armor, gear, lore,
     niveisFerimento, ranksSabedoria, formulas,
+    clasMenores, faccoes, ordensMonasticas, reinosEspirituais, tradicoesMarciais,
+    familias, artefatos, criaturas, locais, ameacas, estrangeiros,
   };
   return cache;
 }

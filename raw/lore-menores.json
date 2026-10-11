@@ -1,0 +1,954 @@
+{
+  "clas_menores": {
+    "clas_menores": [
+      {
+        "cla": "Badger Clan",
+        "resumo_pt": "O Clã do Texugo foi fundado nas montanhas do norte para vigiar os passos montanhosos contra invasões externas. Isolados do restante de Rokugan, seus membros desenvolveram uma cultura de extrema autossuficiência e resiliência. Apesar de terem enfrentado quase a extinção devido a ameaças como o Oni de Hideo e o Exército do Fogo Sombrio, o clã reconstruiu suas fortalezas com obstinação. Eles também possuem a responsabilidade secreta de proteger o Santuário de Ryoshun, o décimo Kami.",
+        "valores_pt": "Prezam a força física individual, a determinação inabalável e a autossuficiência. Desconfiam do uso excessivo de magia e preferem resolver conflitos com o próprio esforço e vigor.",
+        "aparencia_pt": "Vestem-se de forma rústica e funcional para suportar o clima frio das montanhas. Raramente carregam suas daisho no dia a dia, preferindo armas pesadas como no-dachi, machados e martelos de guerra, além de praticarem wrestling sumai.",
+        "papel_pt": "Defesa militar dos passos montanhosos do norte da Muralha das Montanhas e proteção do santuário ancestral do Kami Ryoshun.",
+        "patrono_pt": "Possui laços históricos estreitos com o Clã do Caranguejo, de onde descendem os primeiros líderes e tradições marciais.",
+        "relacoes": [
+          {
+            "cla": "Crab Clan",
+            "tipo": "aliado",
+            "descricao_pt": "Partilham origens sanguíneas e valores marciais parecidos, mantendo respeito mútuo e assistência na reconstrução de fortalezas."
+          },
+          {
+            "cla": "Dragon Clan",
+            "tipo": "aliado",
+            "descricao_pt": "Vizinhos das montanhas com quem mantêm laços comerciais e cooperação defensiva local."
+          },
+          {
+            "cla": "Lion Clan",
+            "tipo": "tenso",
+            "descricao_pt": "Conflitos históricos pelas terras próximas ao passo montanhoso no início da história do Império."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Defender uma fortaleza isolada na passagem montanhosa contra uma incursão inesperada de ameaças estrangeiras.",
+          "Participar dos Grandes Jogos do clã para provar o valor em torneios de sumai e arremesso de pedras.",
+          "Investigar uma caverna esquecida que pode conter vestígios das criaturas geradas por Hideo no Oni.",
+          "Viajar como emissário para buscar fundos ou suprimentos em um Grande Clã sem abrir mão do orgulho e da dignidade."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "Bat Clan",
+        "resumo_pt": "Criado pelo shugenja Yoritomo Komori, um meio-espírito descendente de espíritos morcego koumori, o Clã do Morcego estabeleceu-se na ilha tropical do Ermo Perdido. O grupo dedica-se ao estudo da magia e à manutenção do equilíbrio espiritual, garantindo que portais entre os Reinos Espirituais e o mundo mortal permaneçam sob controle. Seus shugenja destacam-se pela capacidade única de enviar mensagens mágicas através do ar a longas distâncias.",
+        "valores_pt": "Valorizam a curiosidade intelectual, a busca contínua por conhecimento diário e a harmonia com o mundo dos espíritos. Enxergam a comunicação e o entendimento como ferramentas fundamentais.",
+        "aparencia_pt": "Favorecem quimonos pretos simples no cotidiano, mas usam trajes brancos em funerais em praias noturnas. Sua estética é influenciada pela cultura marítima e por templos rústicos construídos em madeira local.",
+        "papel_pt": "Guardiões espirituais da Ilha do Ermo Perdido, pacificadores de espíritos e provedores de rede de comunicação mágica a longa distância.",
+        "patrono_pt": "Clã do Mantis, que concedeu permissão para o recrutamento inicial e oferece proteção naval e apoio mercantil.",
+        "relacoes": [
+          {
+            "cla": "Mantis Clan",
+            "tipo": "aliado",
+            "descricao_pt": "Protetor direto e aliado próximo de onde o fundador do clã original surgiu."
+          },
+          {
+            "cla": "Phoenix Clan",
+            "tipo": "neutro",
+            "descricao_pt": "Colaboram em estudos acadêmicos e mágicos, embora haja rivalidade no campo de comunicações nas Colônias."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Explorar a selva densa da ilha ancestral para conter um portal espiritual enfraquecido antes que espíritos malignos escapem.",
+          "Atuar como mensageiro de elite enviando comunicações secretas durante um momento de crise política em uma corte distante.",
+          "Negociar a paz com espíritos brincalhões ou metamorfos koumori que estão pregando peças nas vilas costeiras."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "Boar Clan",
+        "resumo_pt": "O Clã do Javali surgiu no século quinto após um grupo de mineradores do Clã do Caranguejo ficar isolado nas Montanhas do Crepúsculo e sobreviver por conta própria com o auxílio do espírito Shakoki Dogu. Reconhecidos pelo Imperador por sua coragem e recursos minerais, tornaram-se mestres na extração de ferro e na forja de armaduras excepcionais. Infelizmente, o clã foi tragicamente massacrado pelo cultista sanguinário Agasha Ryuden para a criação da Bigorna do Desespero, sobrevivendo apenas como espíritos sob proteção do Shakoki Dogu.",
+        "valores_pt": "Prezam a resistência física, o dever incondicional, a vigilância constante e a lealdade inquebrável. Rejeitam a fraqueza e valorizam a capacidade de suportar o sofrimento.",
+        "aparencia_pt": "Utilizam armaduras pesadas e resistentes feitas de ferro de alta qualidade e empunham a lança mai chong. Seus membros possuem o hábito de manter lanternas sempre acesas devido à aversão à escuridão total.",
+        "papel_pt": "Mineração de ferro e jade, produção de armaduras de elite e guarda das fronteiras montanhosas contra invasões das Terras Sombrias.",
+        "patrono_pt": "Clã do Caranguejo, do qual se originaram e com quem mantinham os principais acordos comerciais e de parentesco.",
+        "relacoes": [
+          {
+            "cla": "Crab Clan",
+            "tipo": "aliado",
+            "descricao_pt": "Parentes históricos e principais parceiros de comércio que reassumiram suas terras após o massacre do clã."
+          },
+          {
+            "cla": "Scorpion Clan",
+            "tipo": "neutro",
+            "descricao_pt": "Antigos parceiros comerciais frequentes na aquisição de minérios e armaduras."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Investigar as ruínas amaldiçoadas de Shiro Heichi em busca de técnicas perdidas de forja de armaduras.",
+          "Enfrentar devotos do Culto dos Oradores do Sangue que tentam profanar os antigos locais de mineração do clã.",
+          "Descobrir um entreposto oculto do clã que sobreviveu ao massacre nas profundezas das montanhas."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "Dragonfly Clan",
+        "resumo_pt": "Nascido da união romântica entre um guerreiro Mirumoto e uma shugenja Isawa, o Clã da Libélula foi oficialmente reconhecido após uma intervenção conjunta dos Clãs do Dragão e da Fênix. Desde então, o clã atua como portaria e emissário oficial para os domínios reclusos do Clã do Dragão. Apesar de sua postura pacífica e de ter sofrido invasões devastadoras praticadas pelo Clã do Leão ao longo dos séculos, a Libélula mantém sua dedicação espiritual e diplomática.",
+        "valores_pt": "Acredita na não-violência, na impermanência do mundo material, no questionamento de doutrinas escritas e na busca por percepção espiritual autêntica.",
+        "aparencia_pt": "Seus membros vestem quimonos simples em tons sutis, mantendo uma atitude serena e calma mesmo em momentos de perigo ou provocação. Suas estruturas assemelham-se a complexos de templos austeros.",
+        "papel_pt": "Emissários, diplomatas e guardiões de acesso às terras do Clã do Dragão.",
+        "patrono_pt": "Clã do Dragão, que garante proteção militar perpétua e diretrizes para o acesso às suas montanhas.",
+        "relacoes": [
+          {
+            "cla": "Dragon Clan",
+            "tipo": "aliado",
+            "descricao_pt": "Protetores e patronos oficiais a quem o Clã da Libélula serve como filtro diplomático."
+          },
+          {
+            "cla": "Lion Clan",
+            "tipo": "rival",
+            "descricao_pt": "Rivalidade histórica e ressentimento profundo devido à antiga vingança de Akodo Yakutsu e invasões subsequentes."
+          },
+          {
+            "cla": "Phoenix Clan",
+            "tipo": "aliado",
+            "descricao_pt": "Laços ancestrais e de amizade espiritual duradouros através do legado da fundadora Isawa Maroko."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Gerenciar uma comitiva de visitantes impacientes em Kyuden Tonbo enquanto aguardam a autorização do Clã do Dragão.",
+          "Resolver uma disputa diplomática utilizando a filosofia da não-violência e perspicácia em vez de lâminas.",
+          "Acompanhar uma peregrinação espiritual pelas montanhas enfrentando aparições e fantasmas históricos do vale."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "Hare Clan",
+        "resumo_pt": "Fundado pelo ronin Reichin após salvar a vida do Campeão Esmeralda, o Clã da Lebre assumiu a perigosa missão de caçar o Culto dos Oradores do Sangue. No século doze, o clã sofreu uma falsa acusação de praticar feitiçaria maho urdida pelo Clã do Escorpião, resultando na destruição de seu castelo e dissolução oficial. No entanto, através dos esforços obstinados do herdeiro Usagi Ozaki, o clã provou sua inocência, desmascarou a conspiração e foi restaurado pelo Imperador.",
+        "valores_pt": "Prioriza a sobrevivência, a agilidade mental e física, a astúcia investigativa e a autossuficiência. Possui uma visão pragmática do Código do Bushido.",
+        "aparencia_pt": "Seus membros são geralmente magros, ágeis e práticos, vestindo armaduras leves e funcionais. São treinados desde cedo para reconhecer sinais de mácula e artefatos de feitiçaria.",
+        "papel_pt": "Caça a cultistas praticantes de maho, investigação de ameaças ocultas e proteção das vilas locais.",
+        "patrono_pt": "Sem patrono fixo, embora tenha mantido laços de suporte financeiro com o Clã do Grou durante sua reconstrução.",
+        "relacoes": [
+          {
+            "cla": "Scorpion Clan",
+            "tipo": "tenso",
+            "descricao_pt": "Histórico de extrema desconfiança e rivalidade devido ao cerco e destruição injusta de Shiro Usagi."
+          },
+          {
+            "cla": "Crane Clan",
+            "tipo": "aliado",
+            "descricao_pt": "Ofereceu apoio financeiro e militar decisivo para a reconstrução do clã após sua restauração."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Investigar boatos de atividades de feitiçaria maho em um vilarejo fronteiriço antes que Inquisidores intervenham.",
+          "Procurar pistas de pergaminhos antigos contendo códigos secretos sem atrair a atenção de espiões do Escorpião.",
+          "Defender camponeses locais contra bandidos em uma patrulha combinada com membros da nova família Ujina."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "Monkey Clan",
+        "resumo_pt": "Criado no início do século doze pelo camponês que se tornou guerreiro heroico Toku, o Clã do Macaco foi estabelecido pelo Imperador Toturi I como recompensa por sua lealdade inquebrável. O clã prosperou nas terras férteis do Vale do Macaco, destacando-se por sua atuação como magistrados e guardiões da ordem imperial. Após a morte e apoteose de seu fundador como a Fortuna da Virtude, o clã consolidou sua posição e influência no Império.",
+        "valores_pt": "Prezam o otimismo inabalável, a justiça, a compaixão e a aplicação literal das virtudes do Bushido. Acreditam no potencial heroico de cada indivíduo.",
+        "aparencia_pt": "Exibem uma postura alegre e entusiasmada, vestindo trajes em tons de verde e dourado. É comum carregarem diários pessoais e cópias do livro 'Liderança' de Akodo.",
+        "papel_pt": "Atuação como magistrados imperiais, patrulhamento de fronteiras e manutenção da justiça e paz no vale.",
+        "patrono_pt": "Dinastia Toturi e Famílias Imperiais, com forte aliança histórica com o Clã do Escorpião.",
+        "relacoes": [
+          {
+            "cla": "Scorpion Clan",
+            "tipo": "aliado",
+            "descricao_pt": "Aliança sólida selada por casamentos estratégicos, com o Escorpião agindo como um protetor astuto do jovem clã."
+          },
+          {
+            "cla": "Imperial Families",
+            "tipo": "aliado",
+            "descricao_pt": "Laço profundo de lealdade derivado da amizade entre Toku e o Imperador Toturi I."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Conduzir uma investigação rigorosa sobre crimes em um vilarejo promovendo a justiça sem discriminação de casta.",
+          "Defender camponeses contra os abusos de um samurai de um Grande Clã sem provocar uma guerra aberta.",
+          "Proteger um templo dedicado à Fortuna da Virtude durante uma celebração religiosa importante."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "Oriole Clan",
+        "resumo_pt": "Originado da antiga linhagem de armeiros Tsi, cujas raízes remontam ao primeiro século, o grupo atuou por séculos como vassalos imperiais de forja exclusiva. Após resistirem ao cativeiro durante a queda de Otosan Uchi e sabotarem as armas criadas para os servos do Nada, foram elevados a Clã do Papa-figos pelo Imperador Toturi Naseru. No século doze, o clã expandiu suas responsabilidades para incluir diplomatas, bushi e artesãos espalhados por diversas propriedades no Império.",
+        "valores_pt": "Enxergam a forja de espadas e armaduras como a forma mais elevada de arte e expressão, valorizando a perfeição estética, a serenidade mental e o trabalho árduo.",
+        "aparencia_pt": "Vestimentas de artesãos simples e discretas. Suas armaduras e lâminas possuem uma estética elegante e sem exageros ornamentais, altamente cobiçadas por guerreiros de todo o Império.",
+        "papel_pt": "Forja das melhores espadas e armaduras de Rokugan, guarda das ruínas de Otosan Uchi e diplomacia mercantil.",
+        "patrono_pt": "Famílias Imperiais, que mantiveram a família Tsi sob sua tutela direta por vários séculos.",
+        "relacoes": [
+          {
+            "cla": "Crab Clan",
+            "tipo": "aliado",
+            "descricao_pt": "Aliança militar e familiar através de casamento, trocando armas de alta qualidade por táticas de combate."
+          },
+          {
+            "cla": "Dragon Clan",
+            "tipo": "aliado",
+            "descricao_pt": "Colaboram no treinamento de bushi e na proteção de vilas rurais no norte."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Acompanhar uma lâmina obra-prima recém-forjada para entregá-la como presente político a um grande daimyō.",
+          "Recrutar ronin habilidosos para patrulhar as estradas que conectam as propriedades distantes e dispersas do clã.",
+          "Restaurar uma antiga forja nas ruínas perigosas de Otosan Uchi fornecendo armas sagradas para a Família Yotsu."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "Ox Clan",
+        "resumo_pt": "O Clã do Boi foi fundado por Morito, um antigo samurai do Clã do Unicórnio tornado ronin, que estabeleceu um domínio nas planícies do Coração do Dragão. O clã obteve reconhecimento oficial do Imperador por suas ações defensivas durante a Guerra dos Espíritos. Apesar de uma crise provocada pela secreta infiltração da conspiração Kolat em sua liderança inicial, o clã purgou a influência sombria e redimiu sua honra lutando bravamente na Guerra do Fogo Sombrio e na Guerra dos Destruidores.",
+        "valores_pt": "Valorizam a independência, a liberdade individual, a força militar bruta e a proteção dos fracos contra o crime organizado e opressão.",
+        "aparencia_pt": "Trajam peles e couros nos rigorosos invernos montanhosos, mantendo cavalarias robustas e postura informal entre oficiais e soldados.",
+        "papel_pt": "Patrulha e guarda das passagens montanhosas do norte, combate a tribos Yobanjin e repressão ao crime organizado.",
+        "patrono_pt": "Nenhum patrono oficial, mas possui fortes laços com o Clã do Unicórnio e apoio do Clã da Fênix.",
+        "relacoes": [
+          {
+            "cla": "Unicorn Clan",
+            "tipo": "aliado",
+            "descricao_pt": "Compartilham origens ancestrais, tradições de cavalaria e cooperação na caça a criminosos."
+          },
+          {
+            "cla": "Phoenix Clan",
+            "tipo": "aliado",
+            "descricao_pt": "Parceiros comerciais frequentes em vilas fronteiriças para troca de ervas raras e recursos."
+          },
+          {
+            "cla": "Scorpion Clan",
+            "tipo": "tenso",
+            "descricao_pt": "Relação complexa decorrente do expurgo da conspiração Kolat em Shiro Morito por tropas do Escorpião."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Comandar uma patrulha de cavalaria nas planícies do sul para conter incursões de bandidos ou remanescentes da mácula.",
+          "Interpalar uma operação de contrabando subterrâneo em Red Horn Village sem comprometer acordos delicados.",
+          "Liderar uma expedição de batedores nas montanhas congeladas durante o inverno para monitorar movimentos bárbaros."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "Sparrow Clan",
+        "resumo_pt": "Fundado por Doji Suzume após um comentário mal interpretado como profunda sabedoria sobre abrir mão das riquezas, o Clã do Pardal abraçou a filosofia da 'Pobreza Honorável'. Vivendo em um vale árido e inóspito, seus membros trabalham diretamente no campo ao lado dos camponeses para garantir o sustento do clã. Apesar de sua extrema escassez de recursos, o clã cumpre com rigor o dever sagrado de vigiar as férteis Planícies do Sol Dourado sem jamais usufruir de seus frutos.",
+        "valores_pt": "Abraçam a 'Pobreza Honorável', a rejeição ao acúmulo material, a humildade, o trabalho árduo, a honestidade e a preservação de tradições orais.",
+        "aparencia_pt": "Vestem-se de maneira extremamente simples e rústica, com roupas gastas e mãos calejadas pelo trabalho agrícola. Têm a atiradeira (sling) como sua arma característica.",
+        "papel_pt": "Guarda e proteção das Planícies do Sol Dourado para mantê-las intocadas conforme o decreto imperial.",
+        "patrono_pt": "Clã do Grou, do qual descendem os fundadores iniciais.",
+        "relacoes": [
+          {
+            "cla": "Crane Clan",
+            "tipo": "tenso",
+            "descricao_pt": "Laço ancestral distante, embora o Grou muitas vezes veja o Pardal com constrangimento por seu estilo de vida rústico."
+          },
+          {
+            "cla": "Crab Clan",
+            "tipo": "neutro",
+            "descricao_pt": "Vizinhos territoriais pacíficos estabelecidos após o fim da Primeira Guerra Yasuki."
+          },
+          {
+            "cla": "Spider Clan",
+            "tipo": "rival",
+            "descricao_pt": "Infiltraram o clã no século doze, gerando anos de manipulação até serem desmascarados e perdoados pela Imperatriz."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Patrulhar as Planícies do Sol Dourado e resistir à tentação de colher alimentos sagrados mesmo diante da fome no vale.",
+          "Entreter uma corte diplomática recitando velhas lendas e poesias haiku para conquistar a simpatia de um daimyō.",
+          "Ajudar a libertar os membros do clã da influência remanescente de infiltrados do Clã da Aranha."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "Tortoise Clan",
+        "resumo_pt": "O Clã da Tartaruga foi criado por Agasha Kasuga após a Batalha do Cervo Branco com a missão secreta de espionar nações estrangeiras (gaijin) e controlar o contrabando de artefatos proibidos. Para o restante de Rokugan, o clã aparenta ser apenas um grupo de comerciantes gananciosos e zeladores encarregados de limpar as ruas da capital. Seus membros aceitam de bom grado a vergonha e a desonra pública para cumprir seu dever sagrado de proteger o Império de ameaças externas invisíveis.",
+        "valores_pt": "Siga o 'Caminho de Nenhum Caminho', prezando o pragmatismo, o sacrifício pessoal da honra pelo bem do Império, a adaptabilidade e o individualismo.",
+        "aparencia_pt": "Aparência propositalmente desleixada e comum, muitas vezes acima do peso, com bigodes longos e trajes simples de marinheiros ou comerciantes.",
+        "papel_pt": "Espionagem de nações gaijin, controle do contrabando, administração portuária na Baía do Sol Dourado e manutenção da capital imperial.",
+        "patrono_pt": "Famílias Imperiais, servindo diretamente aos mandatos do Imperador.",
+        "relacoes": [
+          {
+            "cla": "Imperial Families",
+            "tipo": "aliado",
+            "descricao_pt": "Mestres diretos a quem o Campeão da Tartaruga presta contas e oferece seppuku a cada nova coroação."
+          },
+          {
+            "cla": "Crane Clan",
+            "tipo": "rival",
+            "descricao_pt": "Atritos e rivalidades frequentes devido a disputas de interesses comerciais e controle de rotas marítimas."
+          },
+          {
+            "cla": "Mantis Clan",
+            "tipo": "aliado",
+            "descricao_pt": "Parceiros frequentes em navegação e comércio oceânico nas ilhas do sul."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Embarcar em um 'Navio Vermelho' em uma missão secreta de reconhecimento nas terras distantes dos gaijin.",
+          "Infiltrar-se em uma rede de contrabando urbana para recuperar um artefato perigoso sem revelar a verdadeira identidade.",
+          "Manter a vigilância secreta dos túneis sob a capital imperial enquanto finge ser um humilde trabalhador de limpeza."
+        ],
+        "source_book": "Secrets of the Empire"
+      }
+    ]
+  },
+  "familias_menores": {
+    "familias_menores": [
+      {
+        "nome": "Fureheshu",
+        "cla_pai": "Badger Clan",
+        "familia_principal": "",
+        "resumo_pt": "A família Fureheshu foi fundada no século V por Ichiro Fureheshu, um guerreiro conhecido por sua força colossal ao derrotar um oni com as mãos nuas. Seus descendentes mantêm vivo o legado do fundador, priorizando o aprimoramento da força física acima de outros atributos. Eles frequentemente formam a linha de frente do clã e abastecem as fileiras de lutadores de sumai.",
+        "especialidade_pt": "Luta corporal desarmada, força física e wrestling sumai",
+        "source_book": "Secrets of the Empire",
+        "pagina": 21
+      },
+      {
+        "nome": "Tashimi",
+        "cla_pai": "Badger Clan",
+        "familia_principal": "",
+        "resumo_pt": "Esta família foi criada durante o período devastador que se seguiu ao ataque do Hideo no Oni, quando Ichiro Tashimi permaneceu como o único instrutor vivo da escola de bushi do clã. Diante da ameaça de extinção das técnicas marciais do Clã do Texugo, a família foi formada com o propósito específico de preservar os ensinamentos marciais. Seus membros atua essencialmente como professores e guardiões do estilo de combate Ichiro.",
+        "especialidade_pt": "Instrução marcial e preservação das técnicas de combate do clã",
+        "source_book": "Secrets of the Empire",
+        "pagina": 22
+      },
+      {
+        "nome": "Iongi",
+        "cla_pai": "Bat Clan",
+        "familia_principal": "",
+        "resumo_pt": "Fundada por Yoritomo Iongi, um shugenja do Clã do Mantis que encontrou a lendária relíquia Tetsubo do Trovão e a entregou aos cuidados do Clã do Morcego. Em reconhecimento pelo feito e pela sua sabedoria, a família foi estabelecida para guardar e administrar o templo onde o artefato sagrado permanece protegido.",
+        "especialidade_pt": "Guarda e preservação do santuário do Tetsubo do Trovão",
+        "source_book": "Secrets of the Empire",
+        "pagina": 30
+      },
+      {
+        "nome": "Koshei",
+        "cla_pai": "Dragonfly Clan",
+        "familia_principal": "",
+        "resumo_pt": "A família Koshei surgiu no século XII a partir dos atos de Akodo Koshei, um antigo oficial do Leão que ficou atormentado pelas atrocidades cometidas durante a invasão às terras da Libélula. Buscando redenção, ele ofereceu seus serviços a Toturi Sezaru para ajudar na reconstrução das províncias devastadas. Seus descendentes formam uma linhagem de guerreiros em um clã predominantemente pacífico.",
+        "especialidade_pt": "Guarda-costas (yojimbo) e defesa marcial",
+        "source_book": "Secrets of the Empire",
+        "pagina": 44
+      },
+      {
+        "nome": "Senkensha",
+        "cla_pai": "Dragonfly Clan",
+        "familia_principal": "",
+        "resumo_pt": "Esta linhagem remonta quase à fundação do próprio Clã da Libélula, criada para honrar Tonbo Senkensha, uma mulher abençoada com o dom de prever o futuro em seus sonhos. Graças às suas visões, o clã pôde se preparar para um inverno rigoroso que poderia ter causado sua ruína. Seus descendentes perpetuam o uso do dom místico da adivinhação a serviço do clã.",
+        "especialidade_pt": "Adivinhação e interpretação de presságios futuros",
+        "source_book": "Secrets of the Empire",
+        "pagina": 45
+      },
+      {
+        "nome": "Fuzake",
+        "cla_pai": "Monkey Clan",
+        "familia_principal": "",
+        "resumo_pt": "Originada de uma pequena ordem de shugenja ronin do Exército de Toturi, a família jurou lealdade ao Clã do Macaco logo após sua criação. Por muitos anos atuaram como uma família vassala dedicada ao auxílio dos feridos e à veneração excêntrica das Fortunas. No século XII, sua relevância e devoção levaram à sua elevação como família principal do clã.",
+        "especialidade_pt": "Cura mística, medicina e ritos religiosos dedicados às Fortunas",
+        "source_book": "Secrets of the Empire",
+        "pagina": 62
+      },
+      {
+        "nome": "Kijuro",
+        "cla_pai": "Ox Clan",
+        "familia_principal": "",
+        "resumo_pt": "A família recebeu o nome de Morito Kijuro, um guerreiro rústico que morreu garantindo a segurança do Emissário Imperial durante a era dos Quatro Ventos. Como recompensa por seu sacrifício, sua viúva e seu filho receberam o direito de fundar uma família vassala. A linhagem supervisiona o Mantenimento do Castelo Ocidental e gerencia a defesa das fronteiras do Clã do Boi.",
+        "especialidade_pt": "Patrulha de fronteira e comando de guarnições militares",
+        "source_book": "Secrets of the Empire",
+        "pagina": 82
+      },
+      {
+        "nome": "Edakumi",
+        "cla_pai": "Sparrow Clan",
+        "familia_principal": "",
+        "resumo_pt": "Fundada por Doji Edakumi, um artesão trazido para as terras do Pardal para oferecer beleza e arte à rotina austera dos membros do clã. Edakumi tornou-se o precursor da tradição artística do Pardal, estabelecendo a poesia e a oratória como elementos centrais do clã. Seus descendentes são reconhecidos como os melhores contadores de histórias entre os Clãs Menores.",
+        "especialidade_pt": "Contação de histórias, oratória e poesia",
+        "source_book": "Secrets of the Empire",
+        "pagina": 92
+      },
+      {
+        "nome": "Someisa",
+        "cla_pai": "Tortoise Clan",
+        "familia_principal": "",
+        "resumo_pt": "A linhagem gira em torno do mito de Someisa, uma mulher que teria aprendido o último segredo de Shinsei e se transformado em uma tartaruga após viver centenas de anos. A família possui sob sua guarda uma tartaruga lendária e aparentemente imortal que habita suas terras desde a fundação do clã. O Imperador concedeu o nome oficial à família para honrar essa função sagrada.",
+        "especialidade_pt": "Guarda e tutela da tartaruga sagrada do clã",
+        "source_book": "Secrets of the Empire",
+        "pagina": 102
+      },
+      {
+        "nome": "Hyobe",
+        "cla_pai": "Tortoise Clan",
+        "familia_principal": "",
+        "resumo_pt": "Criada no século XII por Kasuga Hyobe, um habilidoso capitão naval que desenvolveu um medo fóbico do mar após um acontecimento misterioso na navegação. Ao ser transferido para atribuições terrestres, ele organizou a defesa das propriedades do clã em terra. A família passou a formar o corpo de oficiais encarregado da segurança militar terrestre do Clã da Tartaruga.",
+        "especialidade_pt": "Comando militar terrestre e organização de defesas de propriedades",
+        "source_book": "Secrets of the Empire",
+        "pagina": 102
+      }
+    ]
+  },
+  "familias_imperiais": {
+    "familias_imperiais": [
+      {
+        "nome": "Hantei",
+        "cla_pai": "Imperial",
+        "familia_principal": "",
+        "resumo_pt": "Fundada pelo Kami Hantei, o primeiro Imperador de Rokugan, esta linhagem governou o Império por mais de mil anos. Seus membros mantiveram a estrutura social e religiosa das terras imperiais até a linha de sangue direta ser extinta após a Guerra dos Clãs.",
+        "especialidade_pt": "Dinastia governante e autoridade suprema do Império.",
+        "source_book": "Secrets of the Empire",
+        "pagina": 106
+      },
+      {
+        "nome": "Toturi",
+        "cla_pai": "Imperial",
+        "familia_principal": "",
+        "resumo_pt": "Estabelecida após a queda da Dinastia Hantei por Akodo Toturi, o herói da Guerra dos Clãs. A família liderou o Império durante quatro décadas tumultuadas de guerras e ameaças existenciais até seu fim abrupto no século XII.",
+        "especialidade_pt": "Liderança militar e preservação das tradições imperiais durante crises severas.",
+        "source_book": "Secrets of the Empire",
+        "pagina": 110
+      },
+      {
+        "nome": "Iweko",
+        "cla_pai": "Imperial",
+        "familia_principal": "",
+        "resumo_pt": "Fundada após o Torneio Celestial por Kitsuki Iweko, a nova Imperatriz abençoada diretamente pelos Céus. A linhagem Iweko governa Rokugan com um toque de divindade mais distante e isolado do que seus predecessores.",
+        "especialidade_pt": "Governança abençoada pelos céus, reforma administrativa e expansão para as Colônias.",
+        "source_book": "Secrets of the Empire",
+        "pagina": 112
+      },
+      {
+        "nome": "Seppun",
+        "cla_pai": "Imperial",
+        "familia_principal": "",
+        "resumo_pt": "Descendentes da primeira seguidora mortal dos Kami, a família Seppun é a guardiã espiritual e física do Trono Imperial. Seus membros dedicam a vida à proteção pessoal do Imperador e à preservação dos ensinamentos de Shinsei.",
+        "especialidade_pt": "Guarda-costas pessoais do Imperador (miharu), defesa mística contra ameaças espirituais e custódia dos templos.",
+        "source_book": "Secrets of the Empire",
+        "pagina": 114
+      },
+      {
+        "nome": "Otomo",
+        "cla_pai": "Imperial",
+        "familia_principal": "",
+        "resumo_pt": "Originalmente formada para acolher membros da família imperial fora da linha direta de sucessão, a família Otomo tornou-se mestra da burocracia e da manipulação política da corte. Sua missão principal é manter os Grandes Clãs divididos para proteger a estabilidade do Trono.",
+        "especialidade_pt": "Intriga política, diplomacia de divisão, administração da Burocracia Imperial e manutenção dos registros históricos.",
+        "source_book": "Secrets of the Empire",
+        "pagina": 116
+      },
+      {
+        "nome": "Miya",
+        "cla_pai": "Imperial",
+        "familia_principal": "",
+        "resumo_pt": "Criada por ordem do Segundo Imperador para recompensar o mensageiro que espalhou a notícia da vitória contra Fu Leng e ajudou na reconstrução de Rokugan. Os Miya atuam como os olhos, ouvidos e arautos imparciais do Imperador por todo o Império.",
+        "especialidade_pt": "Entrega de editos imperiais, mediação de conflitos entre clãs e assistência humanitária através da Bênção de Miya.",
+        "source_book": "Secrets of the Empire",
+        "pagina": 122
+      }
+    ]
+  },
+  "faccoes": {
+    "faccoes": [
+      {
+        "cla": "Ronin",
+        "resumo_pt": "Samurai sem mestre que vagam por Rokugan buscando subsistência, redenção ou um novo propósito de vida. Eles variam desde mercenários honrados e protetores de vilarejos até bandidos e criminosos desiludidos. Embora vitais para preencher lacunas de combate e mão de obra barata, a sociedade rokugani os enxerga com desconfiança por estarem fora da ordem social tradicional. Alguns chegam a formar bandos organizados (otokodate) para sobrevivência mútua e até mesmo alcançam feitos heroicos dignos de reconhecimento imperial.",
+        "valores_pt": "Variam enormemente conforme o indivíduo; enquanto alguns buscam defender os preceitos do Bushido e a autossuficiência, outros priorizam puramente a sobrevivência diária e o ganho financeiro.",
+        "aparencia_pt": "Trajam quimonos desgastados e armaduras remendadas ou de segunda mão, frequentemente ostentando vestígios de símbolos de antigos clãs apagados ou modificados, além de carregarem o daisho como marca de sua casta.",
+        "papel_pt": "Atuam como mercenários, guardas de caravanas, protetores rurais de vilarejos desamparados e buchas de canhão temporárias para exércitos dos Clãs Grandes.",
+        "patrono_pt": "",
+        "relacoes": [
+          {
+            "cla": "Mantis Clan",
+            "tipo": "aliado",
+            "descricao_pt": "O Clã do Mantis possui origens ronin e mantém forte laço histórico, recrutando-os com frequência e tratando-os de forma mais justa."
+          },
+          {
+            "cla": "Unicorn Clan",
+            "tipo": "aliado",
+            "descricao_pt": "Os Unicórnios, por também se sentirem forasteiros, costumam tratar os ronin com respeito e compaixão, oferecendo oportunidades de trabalho razoáveis."
+          },
+          {
+            "cla": "Crane Clan",
+            "tipo": "tenso",
+            "descricao_pt": "Os Grous costumam ver os ronin como plebeus armados sem educação, utilizando-os apenas como mercenários descartáveis em tempos de crise."
+          },
+          {
+            "cla": "Lion Clan",
+            "tipo": "rival",
+            "descricao_pt": "Os Leões enxergam os ronin com desdém estrutural por não possuírem linhagem ou dojo formal, caçando impiedosamente aqueles que viram bandidos."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Contratado por uma aldeia camponesa isolada para protegê-la contra bandidos locais que ironicamente já foram seus antigos companheiros de armas.",
+          "Tentando provar seu valor e honra durante um combate para conquistar o direito de jurar lealdade a um Clã Menor ou Grande.",
+          "Atuando como guarda de corpo para um mercador rico enquanto lida com a humilhação de receber ordens de alguém de casta inferior."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "Brotherhood of Shinsei",
+        "resumo_pt": "A Irmandade de Shinsei é uma vasta e descentralizada organização religiosa que reúne monges, monjas e sábios dedicados ao estudo do Tao de Shinsei e ao culto às Fortunas. Ela acolhe desde camponeses órfãos até samurais aposentados que abandonam suas espadas e nomes para buscar o Iluminismo. Seus membros servem à sociedade como conselheiros espirituais, historiadores, curandeiros e guardiões de locais sagrados. Embora permaneçam neutros na maioria dos conflitos políticos, a influência espiritual da Irmandade molda profundamente a cultura de Rokugan.",
+        "valores_pt": "A busca pelo Iluminismo, a moderação, o desapego material, a compaixão com os menos favorecidos e o cumprimento da Ordem Celestial por meio do Shintao.",
+        "aparencia_pt": "Vestem trajes austeros cor açafrão ou cinza simples, com cabeças raspadas e portando apenas itens essenciais como cajados (bo), tigelas de esmola e contas de oração.",
+        "papel_pt": "Preservar e ensinar a sabedoria do Tao de Shinsei, realizar rituais religiosos para o povo e para a nobreza, guiar almas no ciclo kármico e manter monastérios e templos em todo o Império.",
+        "patrono_pt": "O próprio Imperador detém a autoridade espiritual suprema sobre a Irmandade, e a ordem mantém fortes laços com a família Seppun e o Clã da Fênix.",
+        "relacoes": [
+          {
+            "cla": "Phoenix Clan",
+            "tipo": "aliado",
+            "descricao_pt": "A Fênix é a mais fervorosa protetora das tradições da Irmandade e colabora constantemente em pesquisas teológicas e espirituais."
+          },
+          {
+            "cla": "Imperial Families",
+            "tipo": "aliado",
+            "descricao_pt": "A família Seppun atua como defensora ativa das doutrinas espirituais fundadas por Shinsei, mantendo laços estreitos com os grandes monastérios."
+          },
+          {
+            "cla": "Crab Clan",
+            "tipo": "neutro",
+            "descricao_pt": "Os Caranguejos respeitam monastérios de ordens marciais (como a de Osano-Wo), mas geralmente consideram monges contemplativos pouco práticos para a guerra."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Um samurai idoso que se aposentou recentemente e precisa aprender a renunciar ao seu orgulho guerreiro para conviver como noviço ao lado de jovens camponeses.",
+          "Um monge peregrino investigando rumores de uma heresia doutrinária que ameaça desequilibrar a paz espiritual de uma província.",
+          "Um guardião sohei defendendo um templo remoto e seus refugiados rurais contra a incursão de cultistas ou criaturas das Terras Sombrias."
+        ],
+        "source_book": "Secrets of the Empire"
+      }
+    ]
+  },
+  "reinos_espirituais": {
+    "reinos_espirituais": [
+      {
+        "cla": "Chikushudo",
+        "resumo_pt": "Chikushudo é o Reino dos Animais, uma dimensão ligada ao ciclo da reencarnação, porém focada nas feras e na natureza intocada. É o destino das almas destinadas a regredir no ciclo karmico ou dos espíritos que ainda não alcançaram a forma humana. O reino existe em profunda harmonia natural, servindo como um refúgio selvagem onde a presença e o domínio dos homens são inexistentes. Para os mortais, representa o aspecto primordial e equilibrado das florestas e montanhas de Rokugan.",
+        "valores_pt": "Seus habitantes valorizam o respeito à ordem natural, a harmonia e o cumprimento de seus papéis instintivos na criação. Não há espaço para ganância, política ou artifícios humanos; o respeito é concedido aos seres mais antigos e sábios, como as raposas de nove caudas.",
+        "aparencia_pt": "O reino espelha a geografia de Rokugan, mas desprovido de qualquer marca de civilização, como estradas ou plantações. Os rios são mais amplos, as florestas mais fechadas e o ar transborda paz, destacando-se o vulcão extinto Kurokazan em seu centro.",
+        "papel_pt": "Atua como um guardião dos ecossistemas selvagens do mundo mortal, garantindo que o avanço humano não destrua o equilíbrio espiritual. Shugenja da família Kitsune e caçadores frequentemente entram em contato com o reino através de pontos de travessia como a floresta Kitsune Mori.",
+        "patrono_pt": "Inari, a Fortuna do Arroz, e os grandes espíritos Kitsune.",
+        "relacoes": [
+          {
+            "cla": "Ningen-Do",
+            "tipo": "próximo",
+            "descricao_pt": "Sua fronteira é extremamente fina em locais selvagens e preservados do mundo mortal."
+          },
+          {
+            "cla": "Sakkaku",
+            "tipo": "aliado",
+            "descricao_pt": "Muitos hengeyokai e espíritos trapaceiros transitam livremente entre Chikushudo e o Reino da Travessura."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Um samurai do Clã da Raposa precisa adentrar o reino para buscar a benção de um ancião hengeyokai e salvar sua vila de uma praga.",
+          "Caçadores do Clã do Leão acidentalmente abatem uma fera sagrada em uma zona de sobreposição com Chikushudo, atraindo a ira dos espíritos da floresta.",
+          "Um personagem descobre que seu companheiro animal é, na verdade, um espírito de Chikushudo enviado para avaliar o caráter do samurai."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "Gaki-Do",
+        "resumo_pt": "Gaki-Do é o Reino dos Mortos Famintos, uma área de expiação e punição karmica dentro do ciclo de reencarnação. Almas cujas vidas foram dominadas por desejos egoístas, ganância ou apego aos prazeres terrenos são enviadas para este plano. O propósito supremo do reino é depurar essas falhas por meio do sofrimento da fome insaciável, permitindo que a alma eventualmente se purifique e renasça. É um mal necessário para a preservação da Ordem Celestial.",
+        "valores_pt": "Os habitantes são movidos exclusivamente por suas fomes perpétuas e desejos não atendidos. Não existe sociedade ou solidariedade; cada gaki busca desesperadamente saciar sua aflição específica, seja por carne, sangue, dejetos ou histórias de terror.",
+        "aparencia_pt": "Um mundo em permanente estado de decomposição física e espiritual. A paisagem consiste em ruínas arruinadas, terreno coberto de sujeira, dejetos e névoas infectas sob um céu retumbante de trovões.",
+        "papel_pt": "Serve como a 'limpeza' do ciclo espiritual, purificando espíritos pecadores. Monges e shugenja interagem com o reino principalmente para banir gaki que escapam para o mundo mortal através de fendas espirituais.",
+        "patrono_pt": "",
+        "relacoes": [
+          {
+            "cla": "Meido",
+            "tipo": "subordinado",
+            "descricao_pt": "Meido atua como o tribunal que condena as almas pecadoras a cumprirem pena em Gaki-Do."
+          },
+          {
+            "cla": "Jigoku",
+            "tipo": "tenso",
+            "descricao_pt": "Devido à proximidade espiritual com o mal, muitos gaki acabam corrompidos pela Mácula e se tornam servos de Jigoku."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Um vilarejo é aterrorizado por um Shozai-gaki que escapou de Gaki-Do e exige sacrifícios sangrentos dos camponeses.",
+          "Os PJs precisam investigar um ritual sombrio onde um maho-tsukai tenta abrir uma fenda para Gaki-Do e invocar uma horda de devoradores.",
+          "O espírito de um ancestral do grupo foi enviado por engano a Gaki-Do, e os personagens precisam encontrar uma forma de expiar suas dívidas karmicas no mundo mortal."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "Jigoku",
+        "resumo_pt": "Jigoku é o Reino do Mal Absoluto, a antítese direta de Tengoku e a fonte primordial da corrupção conhecida como Mácula das Terras Sombrias. Sua única ambição é subjugar, corromper e reescrever toda a criação à sua imagem maligna. É um reino autoconsciente e proativo que busca incansavelmente destruir o equilíbrio celestial. Sem a presença de Tengoku, Jigoku não existiria, pois ambos representam a dualidade eterna do universo.",
+        "valores_pt": "A única lei em Jigoku é a força bruta, a dominação crueldade e o engano. Seus habitantes, desde os Oni Lords até as almas torturadas dos yokai, vivem em guerra constante para provar sua supremacia ou escapar do tormento.",
+        "aparencia_pt": "Um plano amorfo e mutável de escuridão sufocante, lodo negro e ardor abjeto. Os poucos locais definidos são os domínios pessoais dos Lordes Oni, que imitam castelos arruinados e terras devastadas.",
+        "papel_pt": "Serve como a força antagonista central de Rokugan. O Clã do Caranguejo dedica sua existência a conter suas invasões na Muralha Kaiu, enquanto os shugenja caçam a magia negra (maho) que se origina deste plano.",
+        "patrono_pt": "Fu Leng / Daigotsu (Master of Jigoku).",
+        "relacoes": [
+          {
+            "cla": "Tengoku",
+            "tipo": "rival",
+            "descricao_pt": "Opóstos morais e cosmológicos travando um conflito eterno pelo destino da criação."
+          },
+          {
+            "cla": "Ningen-Do",
+            "tipo": "alvo",
+            "descricao_pt": "O mundo mortal é o principal campo de batalha onde Jigoku tenta espalhar sua corrupção."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Um culto de maho-tsukai descobre um artefato capaz de conectar uma cidade de Rokugan diretamente a um sub-reino de Jigoku.",
+          "Os PJs devem resgatar a alma de um herói de seu clã antes que ela seja completamente torturada e transformada em um yokai em Jigoku.",
+          "Um Oni Lord consegue projetar sua vontade através de uma fissura e começa a corromper a mente dos líderes locais de uma província."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "Maigo no Musha",
+        "resumo_pt": "Maigo no Musha é o Reino do Destino Frustrado, o menor e mais recente dos reinos espirituais, surgido após a Abertura do Portão do Oblívio. Ele foi criado pela necessidade da Ordem Celestial de conter as desordens karmicas provocadas por espíritos que retornaram ao mundo dos mortais e alteraram fados alheios. Suas almas são aquelas cujas mortes violaram seus destinos corretos, impedindo-as de serem julgadas imediatamente em Meido.",
+        "valores_pt": "Habitado por almas inquietas que anseiam pelo cumprimento de seus destinos interrompidos. Os espíritos são de natureza dócil e melancólica, incapazes de agir com malícia, apenas aguardando a restauração de seu equilíbrio espiritual.",
+        "aparencia_pt": "Uma vasta e desolada planície cinzenta envolta em uma névoa espessa e constante, contendo réplicas exatas, porém vazias e silenciosas, de diversos locais do mundo mortal.",
+        "papel_pt": "Permitir que espíritos com desequilíbrio karmico purguem suas anomalias com o tempo antes de passarem pela reincarnação natural. É vigiado pelo espírito do ronin Sanzo.",
+        "patrono_pt": "Goemon (Fortuna dos Heróis) e Sanzo.",
+        "relacoes": [
+          {
+            "cla": "Meido",
+            "tipo": "subordinado",
+            "descricao_pt": "Atua como uma sala de espera secundária que Emma-O prefere manter isolada de seu próprio reino."
+          },
+          {
+            "cla": "Yomi",
+            "tipo": "aliado",
+            "descricao_pt": "Protegido pelas Legiões dos Mortos de Yomi durante sua criação contra as forças de Iuchiban."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Um PJ é abordado pelo espírito de um samurai preso em Maigo no Musha que pede que sua última mensagem seja entregue ao seu herdeiro mortal.",
+          "Monstros vindos de Jigoku tentam invadir o posto avançado de Sanzo em Maigo no Musha, e os PJs são arrastados para defender o reino.",
+          "Um shugenja do Clã do Leão tenta contatar um ancestral, mas descobre que a alma está retida em Maigo no Musha devido a uma fraude karmica."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "Meido",
+        "resumo_pt": "Meido é o Reino da Espera, o ponto central do ciclo de reencarnação humana em Rokugan. Todas as almas mortais chegam a este plano imediatamente após a morte para aguardarem o julgamento de Emma-O. O reino existe de forma estritamente funcional e monótona, pesando o cumprimento do dever e o karma de cada indivíduo dentro da Ordem Celestial. De Meido, os espíritos são direcionados para seus destinos finais ou para o renascimento em Ningen-Do.",
+        "valores_pt": "Representa a imparcialidade, o dever e a aceitação incondicional do destino. As multidões de almas aguardam em silêncio absoluto, desprovidas de desejos terrenos, dores ou ambições mortais.",
+        "aparencia_pt": "Uma planície cinzenta, vasta, plana e infinitamente monótona, onde nada se destaca além do monumental Palácio de Emma-O e o gigantesco Portão dos Mortos ao fundo.",
+        "papel_pt": "Servir como o tribunal supremo da morte, garantindo que o ciclo da Roda do Karma funcione sem desvios. Apenas shugenja Kitsu ou rituais muito específicos conseguem interagir de forma limitada com seus juízes.",
+        "patrono_pt": "Emma-O (Fortuna da Morte).",
+        "relacoes": [
+          {
+            "cla": "Ningen-Do",
+            "tipo": "destino",
+            "descricao_pt": "Recebe o fluxo ininterrupto de todas as almas que morrem no plano mortal."
+          },
+          {
+            "cla": "Yomi",
+            "tipo": "canal",
+            "descricao_pt": "Envia as almas sumamente honradas para o reino dos ancestrais abençoados."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Um importante magistrado morre antes de revelar onde escondeu provas vitais de uma traição, e o grupo busca a ajuda de um Kitsu para consultar a alma em Meido.",
+          "Uma anomalia faz com que uma alma recusada por Meido retorne ao mundo mortal como um goryo vingativo que precisa ser pacificado.",
+          "Os PJs precisam acompanhar uma comitiva religiosa até o Portão dos Mortos em um ritual raro para apelar da sentença de um herói injustiçado."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "Sakkaku",
+        "resumo_pt": "Sakkaku é o Reino da Travessura, um lugar enigmático que funciona como uma paródia das estruturas rígidas e solenes da Ordem Celestial. O reino existe para desafiar as percepções, rir das certezas e aplicar peças aos visitantes e a todos os outros reinos. Embora suas brincadeiras possam ser cruéis ou perigosas, a intenção de Sakkaku não é a corrupção absoluta de Jigoku, mas sim demonstrar a ilusão do mundo físico e da autoridade.",
+        "valores_pt": "Inhabitado por espíritos brincalhões e bizarros como mujina, bakeneko, kappa e os sábios kenku. Seus residentes valorizam o humor, a irreverência, a criatividade na enganação e o deboche de regras estritas.",
+        "aparencia_pt": "Superficialmente similar a Rokugan, mas com um aspecto nitidamente artificial, onde montanhas, florestas e vilas parecem cenários construídos para uma grande representação teatral.",
+        "papel_pt": "Quebrar a rigidez do universo através do riso e da incerteza. Mágicos e caçadores de espíritos lidam com Sakkaku quando suas criaturas escapam para aplicar trotes nos mortais.",
+        "patrono_pt": "",
+        "relacoes": [
+          {
+            "cla": "Chikushudo",
+            "tipo": "aliado",
+            "descricao_pt": "Compartilha uma vasta gama de espíritos metamorfos que passeiam entre os dois mundos."
+          },
+          {
+            "cla": "Tengoku",
+            "tipo": "oposto",
+            "descricao_pt": "Rejeitado pelos Céus devido ao seu desrespeito total por hierarquias e protocolos."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Um grupo de mujina invade uma corte de um Clã Grande e começa a personificar os diplomatas locais, criando um caos político hilário e perigoso.",
+          "Um mestre kenku de Sakkaku oferece treinamento de kenjutsu a um PJ, mas exige que o personagem vença uma série de desafios absurdos primeiro.",
+          "Os PJs entram acidentalmente em Sakkaku e começam a sofrer compulsões comportamentais estranhas à medida que o reino tenta transformá-los em parte da piada."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "Tengoku",
+        "resumo_pt": "Tengoku representa os Céus Celestiais, a morada dos deuses e o cume absoluto de toda a criação. De Tengoku emana a ordem, a lei e a luz que mantêm a estrutura do universo unida e impedem o caos primordial de destruir a realidade. O reino opera com perfeita pureza e rígida hierarquia, governando os destinos do cosmos a partir de uma distância serena e solene, quase sempre atuando no mundo dos mortais através de seus representantes escolhidos.",
+        "valores_pt": "Governada pelo Dragão Celestial, pelas Fortunas, pelo Sol e pela Lua. Seus habitantes valorizam o cumprimento impecável do dever celestial, a pureza, a justiça absoluta e a manutenção da harmonia universal.",
+        "aparencia_pt": "Um reino deslumbrante de nuvens resplandecentes, luz dourada e arquitetura divina. Abriga o gigantesco Palácio Celestial e a magnífica Corte dos Céus.",
+        "papel_pt": "Supervisionar a Ordem Celestial e abençoar a linhagem Imperial de Rokugan. Apenas seres divinos, os Kami e as almas dos Imperadores habitam o reino de forma permanente.",
+        "patrono_pt": "O Dragão Celestial / Amaterasu e Onnotangu.",
+        "relacoes": [
+          {
+            "cla": "Jigoku",
+            "tipo": "inimigo",
+            "descricao_pt": "Conflito cosmológico eterno entre a luz/ordem e as trevas/corrupção."
+          },
+          {
+            "cla": "Yomi",
+            "tipo": "aliado",
+            "descricao_pt": "Yomi serve como a antessala e guarda de elite que protege o caminho para Tengoku."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Um enviado celestial surge em uma visão para alertar os PJs de uma ameaça capaz de quebrar o equilíbrio entre os Céus e a Terra.",
+          "Os PJs precisam proteger um santuário Imperial que abriga uma relíquia diretamente tocada por uma Fortuna em Tengoku.",
+          "Uma disputa entre duas ordens religiosas sobre a interpretação do mandato celestial atrai a atenção indireta de um servo de Tengoku."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "Toshigoku",
+        "resumo_pt": "Toshigoku é o Reino do Massacre, o destino terrível reservado às almas dos guerreiros mortais que entregaram suas vidas à fúria, ao ódio e ao derramamento de sangue irracional. Diferente de Gaki-Do, Toshigoku representa uma condenação definitiva onde as almas não renascem, ficando presas em um ciclo infinito de combate brutal e sem propósito. É a personificação da perversão do ideal do samurai e do fracasso em seguir o Bushido.",
+        "valores_pt": "Os espíritos do massacre (Legado da Forja) e os brutais Tsuno vivem exclusivamente para a destruição, táticas de combate e derramamento de sangue. Não há honra, lealdade ou paz neste plano.",
+        "aparencia_pt": "Uma terra fria, estéril e desolada, composta por solo grestado, pedregulhos e rios de águas escuras, onde exércitos fantasmagóricos se chacoalham e se chacinam continuamente.",
+        "papel_pt": "Isolar almas tomadas pela fúria de guerra para evitar que contaminem o mundo dos mortais ao reencarnarem. Caçadores de espíritos e Kitsu monitoram o reino para conter aparições no mundo real.",
+        "patrono_pt": "",
+        "relacoes": [
+          {
+            "cla": "Meido",
+            "tipo": "subordinado",
+            "descricao_pt": "Almas julgadas como irrecuperáveis na sua violência por Emma-O são descartadas em Toshigoku."
+          },
+          {
+            "cla": "Yomi",
+            "tipo": "rival",
+            "descricao_pt": "Opósitos absolutos; os ancestrais virtuosos de Yomi por vezes realizam incursões para tentar resgatar almas de Toshigoku."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Um portal temporário se abre no campo de batalha de Toshi Ranbo, permitindo que uma horda de espíritos do massacre invada o mundo mortal.",
+          "O espírito de um renomado general do clã de um dos PJs foi enviado a Toshigoku, e o grupo descobre uma forma perigosa de tentar resgatá-lo.",
+          "Um maho-tsukai tenta invocar guerreiros de Toshigoku para criar um exército imparável, e os PJs devem intervir."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "Yomi",
+        "resumo_pt": "Yomi é o Reino dos Ancestrais Abençoados, o destino sagrado e a recompensa final para as almas mortais que cumpriram com virtude seu papel na Ordem Celestial. Os espíritos que habitam Yomi superaram as fraquezas terrenas e vivem em uma existência idealizada, desfrutando de paz, arte e honra eternas. Além de ser o lar dos ancestrais, Yomi serve como um bastião defensivo para Tengoku contra o mal de Jigoku.",
+        "valores_pt": "Habitado pelos shiryo (ancestrais abençoados) e pela Guarda Abençoada. Seus residentes valorizam a honra impecável, a orientação de seus descendentes mortais e o aperfeiçoamento contínuo das artes do samurai.",
+        "aparencia_pt": "Uma versão idílica e perfeita do Império de Rokugan em permanente primavera, pontilhada por castelos magnificentes, campos férteis e a montanha sagrada do Caminho para o Céu.",
+        "papel_pt": "Oferecer orientação espiritual, sabedoria e proteção aos seus descendentes em Ningen-Do através de orações, médiuns da família Kitsu e visões.",
+        "patrono_pt": "Os Ancestrais dos Grandes Clãs e Imperadores do passado.",
+        "relacoes": [
+          {
+            "cla": "Tengoku",
+            "tipo": "aliado",
+            "descricao_pt": "Yomi protege o Caminho para o Céu e serve como a primeira linha de defesa divina."
+          },
+          {
+            "cla": "Ningen-Do",
+            "tipo": "protetor",
+            "descricao_pt": "Os ancestrais mantêm um vínculo profundo e contínuo guiando os mortais honrados."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Um herói do grupo é visitado por um shiryo que exige a restauração da honra da família através de uma demanda ancestral perigosa.",
+          "Os PJs precisam defender um templo onde um espelho sagrado permite a comunicação direta com os generais de Yomi.",
+          "Durante uma crise militar, a intervenção de um ancestral de Yomi concede ao grupo a chave tática para derrotar um inimigo superior."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "Yume-Do",
+        "resumo_pt": "Yume-Do é o Reino dos Sonhos, a vasta e mutável dimensão formada pela imaginação, medos, aspirações e visões de todas as criaturas vivas e divinas da criação. É o maior de todos os reinos espirituais, preenchendo o espaço entre as realidades. Yume-Do protege a mente dos sonhadores, garantindo que os pensamentos de diferentes seres não se misturem e causem loucura, ao mesmo tempo em que oferece uma fonte incalculável de potencial criativo.",
+        "valores_pt": "Habitado pelos baku (espíritos metamorfos do sonho), Baku no Oni e pelos Transcendentes Nezumi. O reino é guiado pela criatividade bruta e pela constante mudança das mentes que sonham.",
+        "aparencia_pt": "Infinita e instável; é composta por milhões de bolhas de sonhos temporárias que variam desde um único cômodo até mundos inteiros com leis físicas próprias, alterando-se a cada noite.",
+        "papel_pt": "Permitir o descanso e o vislumbre de intuições para os mortais. Shugenja e sonhadores poderosos podem navegar por Yume-Do para descobrir segredos ocultos no subconsciente do mundo.",
+        "patrono_pt": "",
+        "relacoes": [
+          {
+            "cla": "Ningen-Do",
+            "tipo": "conectado",
+            "descricao_pt": "Acessado diariamente por todas as criaturas vivas ao adormecerem."
+          },
+          {
+            "cla": "Meido",
+            "tipo": "próximo",
+            "descricao_pt": "Muitas experiências de quase-morte e visões transitam pela fronteira entre o sonho e a morte."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Um Baku no Oni prende a mente de um daimyo em seu próprio pesadelo, e os PJs precisam entrar no mundo dos sonhos para derrotar o demônio.",
+          "Um PJ descobre que um segredo político crucial está guardado no sonho recorrente de um monástico recluso.",
+          "O grupo descobre um 'sonho permanente' dentro de Yume-Do que preserva uma cidade de Rokugan exatamente como ela era há quinhentos anos."
+        ],
+        "source_book": "Secrets of the Empire"
+      }
+    ]
+  },
+  "ordens_monasticas": {
+    "ordens_monasticas": [
+      {
+        "cla": "The Four Temples",
+        "resumo_pt": "Criada sob o patrocínio da Lady Seppun no início da história imperial, esta é uma das facções mais prestigiadas e politicamente ativas de Rokugan. Seus monges acreditam que a iluminação deve ser buscada na convivência social e no aconselhamento dos governantes. A ordem guarda relíquias inestimáveis e mantém uma vasta rede de informações por todo o Império.",
+        "valores_pt": "Engajamento social, liderança moral, preservação das tradições espirituais e orientação dos líderes mortais.",
+        "aparencia_pt": "Monastérios opulentos e bem estruturados, com monges vestindo trajes alinhados e de boa apresentação.",
+        "papel_pt": "Atuar como porta-vozes da Irmandade junto ao Imperador e aconselhar os grandes líderes imperiais e de clãs.",
+        "patrono_pt": "Possui fortes ligações históricas e patrocínio contínuo das Famílias Imperiais, em especial da família Seppun.",
+        "relacoes": [
+          {
+            "cla": "Imperial Families",
+            "tipo": "aliado",
+            "descricao_pt": "Atuam como conselheiros espirituais diretos da corte e guardiões de relíquias imperiais."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Aconselhar um Daimyo jovem e impulsivo que pretende iniciar uma guerra de fronteira injusta.",
+          "Proteger uma das relíquias sagradas mantidas nos Quatro Templos contra um roubo articulado por heréticos.",
+          "Investigar discrepâncias entre relatos políticos e informações trazidas pela rede de monges da ordem."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "The Shrine of the Seven Thunders",
+        "resumo_pt": "Localizada em um vale remoto nas Montanhas da Espinha do Mundo, esta ordem é totalmente voltada à veneração dos Sete Trovões originais. Seus integrantes vivem de maneira extremamente isolada e ascética, dedicando-se a estudar os feitos e as falhas humanas desses heróis mortais. A trilha para o templo principal é famosa por suas esculturas colossais gravadas na rocha.",
+        "valores_pt": "Reconhecimento da perfeição alcançada através da superação das imperfeições mortais e devoção aos Trovões.",
+        "aparencia_pt": "Templos rústicos encravados em penhascos, com monges de aparência austera e roupas de tecido cru.",
+        "papel_pt": "Preservar a história, relíquias e lições dos Trovões que enfrentaram o Kami Sombrio.",
+        "patrono_pt": "",
+        "relacoes": [],
+        "ganchos_roleplay": [
+          "Guiar uma comitiva de nobres exigentes pela difícil subida montanhosa até o santuário principal.",
+          "Impedir que um historiador de um Grande Clã divulgue um segredo vergonhoso sobre um dos Trovões originais.",
+          "Proteger uma relíquia recuperada de um Trovão contra forças sombrias que tentam profaná-la."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "The Temple of Kaimetsu-Uo",
+        "resumo_pt": "Nascida a partir dos ensinamentos marciais de Togashi Kaze, esta ordem unificou a prática do Kaze-do com o espírito resoluto de Kaimetsu-Uo. Seus monges enfatizam o treinamento físico rigoroso e a autodefesa desarmada como ferramentas de purificação e equilíbrio interior. São muito admirados pelo povo comum por sua atuação em prol da paz e proteção dos fracos.",
+        "valores_pt": "Defesa dos desvalidos, purificação mental e física, rejeição da violência desnecessária e humildade.",
+        "aparencia_pt": "Monges em constante movimento, realizando exercícios físicos e artes marciais em praças de vilarejos ou pátios de templos.",
+        "papel_pt": "Defender camponeses indefesos contra injustiças e manter o equilíbrio nas comunidades rurais.",
+        "patrono_pt": "Guarda profunda ligação espiritual e histórica com o Clã do Mantis.",
+        "relacoes": [
+          {
+            "cla": "Mantis Clan",
+            "tipo": "aliado",
+            "descricao_pt": "Partilham o respeito pelo ancestral comum Kaimetsu-Uo e pela sede do templo nas ilhas do clã."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Ensinar aos habitantes de uma aldeia como se defenderem de bandidos usando métodos não letais.",
+          "Investigar acusações de que um monge da ordem usou suas artes marciais para intimidação pessoal.",
+          "Proteger um vilarejo contra a opressão de um magistrado corrupto sem violar as leis do Império."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "The Temple of Osano-Wo",
+        "resumo_pt": "Esta ordem abriga os sohei, monges guerreiros dedicados ao Fortuna do Fogo e do Trovão. Seus membros incluem ex-samurais violentos, criminosos em busca de redenção e veteranos de batalha que buscam direcionar sua fúria para a proteção da Irmandade. Conhecidos por sua estampa intimidadora e cicatrizes rituais, eles são a força de choque espiritual de Rokugan.",
+        "valores_pt": "Força indomável, bravura inflexível, redenção através do combate rigoroso e purificação pela dor.",
+        "aparencia_pt": "Guerreiros corpulentos usando faixas de pano que cobrem o rosto e corpo, ocultando marcas e cicatrizes de provações rituais.",
+        "papel_pt": "Proteger os locais sagrados contra ameaças físicas e combater abominações ou invasões do mal.",
+        "patrono_pt": "",
+        "relacoes": [
+          {
+            "cla": "Crab Clan",
+            "tipo": "aliado",
+            "descricao_pt": "Unidos pelo respeito ao espírito guerreiro de Osano-Wo e pelo combate direto às forças sombrias."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Comandar a defesa de um templo isolado cercado por criaturas vindas das Terras Sombrias.",
+          "Garantir asilo religioso a um guerreiro arrependido jurado de morte por seus antigos aliados.",
+          "Superar o doloroso ritual das cicatrizes nas tempestuosas Planícies do Trovão para provar seu valor."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "The Temple of the Thousand Fortunes",
+        "resumo_pt": "Origem histórica da maioria das práticas religiosas do Império, esta ordem abrange o culto a todas as Fortunas Grandes e Menores. É a maior seita em número de seguidores e monastérios, atendendo diretamente camponeses e samurais em suas necessidades diárias. Seus monges gerenciam os templos mais visitados de Rokugan e realizam rituais de bênção por todo o território.",
+        "valores_pt": "Devoção às Fortunas, serviço imparcial à comunidade e manutenção do culto diário.",
+        "aparencia_pt": "Extrema diversidade de estilos, desde grandiosos complexos urbanos até pequenos altares rurais.",
+        "papel_pt": "Oferecer orientação espiritual, realizar bênçãos cotidianas e administrar os locais de culto às Fortunas.",
+        "patrono_pt": "",
+        "relacoes": [],
+        "ganchos_roleplay": [
+          "Descobrir qual Fortuna Menor foi ofendida após uma onda de más colheitas atingir uma província.",
+          "Mediar uma disputa entre vilarejos vizinhos pela posse de um altar sagrado antigo.",
+          "Organizar os preparativos para a elevação oficial de um novo herói falecido ao status de Fortuna."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "The Barefoot Brethren",
+        "resumo_pt": "Uma ordem de mendicantes andarilhos conhecidos por percorrer imensas distâncias a pé para entregar mensagens sem cobrar pagamento. Criada por um bushi do Caranguejo que correu até gastar as solas de suas sandálias, a seita é formada principalmente por camponeses e ex-guerreiros de baixa renda. Sua velocidade a pé é lendária, rivalizando com correios montados.",
+        "valores_pt": "Humildade absoluta, resistência física, caridade e auxílio irrestrito à comunicação entre o povo.",
+        "aparencia_pt": "Vestes extremamente simples e desgastadas, cajado de madeira, tigela de esmola e pés calejados sem calçados.",
+        "papel_pt": "Servir como rede de mensagens e comunicação acessível para camponeses e Clãs Menores.",
+        "patrono_pt": "",
+        "relacoes": [
+          {
+            "cla": "Minor Clans",
+            "tipo": "aliado",
+            "descricao_pt": "Servem frequentemente como mensageiros discretos e econômicos para clãs de poucos recursos."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Entregar um aviso urgente sobre uma praga a tempo de salvar uma região isolada.",
+          "Atravessar território em guerra esquivando-se de patrulhas para levar a carta de uma mãe ao seu filho guerreiro.",
+          "Descobrir um plano de traição ao transportar sem saber uma mensagem secreta entre dois nobres."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "The Order of Peaceful Repose",
+        "resumo_pt": "Especializada na realização de ritos fúnebres e no apaziguamento de espíritos inquietos, esta ordem serve diretamente ao Fortuna da Morte, Emma-O. Seus monges atendem tanto nobres quanto camponeses e outcastas, garantindo que almas atormentadas não se tornem fantasmas perigosos. Mantêm rituais e costumes arcaicos que preservam tradições pré-imperiais.",
+        "valores_pt": "Respeito aos mortos, imparcialidade no dever, compaixão com os vivos e aceitação do destino cármico.",
+        "aparencia_pt": "Robes com padrões geométricos antigos e austeros, habitando edifícios de arquitetura rústica e solene.",
+        "papel_pt": "Conduzir cerimônias funerárias, apaziguar fantasma vingativos e libertar almas presas ao mundo mortal.",
+        "patrono_pt": "",
+        "relacoes": [
+          {
+            "cla": "Phoenix Clan",
+            "tipo": "aliado",
+            "descricao_pt": "Trocam conhecimentos teológicos e espirituais sobre o ciclo de reencarnação e o reino dos mortos."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Apaziguar o espírito de um guerreiro que se recusa a partir até que sua honra seja limpa.",
+          "Conduzir os ritos de uma chacina em um vilarejo para evitar que a dor do povo atraia espíritos malignos.",
+          "Investigar a causa do surgimento repentino de fantasmas ao redor de um antigo campo de batalha."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "Pure Song Shrine",
+        "resumo_pt": "Esta ordem professa que a pureza perfeita da alma é o único caminho para alcançar a Iluminação. Seus membros seguem um código de conduta incrivelmente rígido, abstendo-se de qualquer alimento que retire a vida da planta ou animal, vestindo apenas cânhamo e usando sinos para alertar pequenos insetos de seus passos. São famosos por criar melodias sutis e cânticos de beleza ímpar.",
+        "valores_pt": "Pureza espiritual absoluta, não violência incondicional, harmonia universal e modéstia.",
+        "aparencia_pt": "Túnicas de cânhamo cru sem tingimento, sinos amarrados aos tornozelos e cajados solenes.",
+        "papel_pt": "Inspirar o equilíbrio e a elevação espiritual através do exemplo de vida pura e do canto harmônico.",
+        "patrono_pt": "Encontram grande acolhida nas terras dos Clãs da Fênix, do Grou e do Mantis.",
+        "relacoes": [],
+        "ganchos_roleplay": [
+          "Manter o voto de não violência mesmo diante de provocações ou ameaças diretas à sua vida.",
+          "Usar o canto sagrado da ordem para acalmar um conflito prestes a explodir entre samurais rivais.",
+          "Procurar uma solução espiritual para uma infestação sem recorrer à destruição dos animais."
+        ],
+        "source_book": "Secrets of the Empire"
+      },
+      {
+        "cla": "The Silent Ones",
+        "resumo_pt": "Uma ordem extremamente reduzida e misteriosa baseada nas terras do Escorpião, cujos iniciados perdem a capacidade de falar ao realizarem seus votos no altar do Fortuna dos Segredos. Eles atuam como cofres vivos para informações e segredos perigosos trazidos por nobres e samurais atormentados. Qualquer segredo confiado verbalmente a um Monge Silencioso torna-se inacessível por meios normais ou mágicos.",
+        "valores_pt": "Guarda inviolável de segredos, silêncio absoluto, disciplina e alívio das dores alheias.",
+        "aparencia_pt": "Monges totalmente mudos, de olhar firme e comportamento reservado, vivendo em um monastério oculto.",
+        "papel_pt": "Absorver e proteger segredos destrutivos para impedir que causem guerras ou ruína em Rokugan.",
+        "patrono_pt": "Mantidos sob proteção velada pelo Clã do Escorpião, que reconhece o valor estratégico de seus serviços.",
+        "relacoes": [
+          {
+            "cla": "Scorpion Clan",
+            "tipo": "aliado",
+            "descricao_pt": "Utilizam a ordem para depositar verdades perigosas que jamais podem ser descobertas por rivais."
+          }
+        ],
+        "ganchos_roleplay": [
+          "Proteger um Monge Silencioso contra um shugenja inquisidor que tenta extrair memórias de sua mente.",
+          "Acompanhar um samurai desesperado em uma peregrinação para entregar seu segredo mais sombrio ao templo.",
+          "Descobrir que alguém usou subterfúgio para tentar se infiltrar na ordem sem passar pelo rito do silêncio."
+        ],
+        "source_book": "Secrets of the Empire"
+      }
+    ]
+  }
+}

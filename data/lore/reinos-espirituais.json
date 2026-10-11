@@ -1,0 +1,292 @@
+[
+  {
+    "cla": "Chikushudo",
+    "resumo_pt": "Chikushudo é o Reino dos Animais, uma dimensão ligada ao ciclo da reencarnação, porém focada nas feras e na natureza intocada. É o destino das almas destinadas a regredir no ciclo karmico ou dos espíritos que ainda não alcançaram a forma humana. O reino existe em profunda harmonia natural, servindo como um refúgio selvagem onde a presença e o domínio dos homens são inexistentes. Para os mortais, representa o aspecto primordial e equilibrado das florestas e montanhas de Rokugan.",
+    "valores_pt": "Seus habitantes valorizam o respeito à ordem natural, a harmonia e o cumprimento de seus papéis instintivos na criação. Não há espaço para ganância, política ou artifícios humanos; o respeito é concedido aos seres mais antigos e sábios, como as raposas de nove caudas.",
+    "aparencia_pt": "O reino espelha a geografia de Rokugan, mas desprovido de qualquer marca de civilização, como estradas ou plantações. Os rios são mais amplos, as florestas mais fechadas e o ar transborda paz, destacando-se o vulcão extinto Kurokazan em seu centro.",
+    "papel_pt": "Atua como um guardião dos ecossistemas selvagens do mundo mortal, garantindo que o avanço humano não destrua o equilíbrio espiritual. Shugenja da família Kitsune e caçadores frequentemente entram em contato com o reino através de pontos de travessia como a floresta Kitsune Mori.",
+    "patrono_pt": "Inari, a Fortuna do Arroz, e os grandes espíritos Kitsune.",
+    "relacoes": [
+      {
+        "cla": "Ningen-Do",
+        "tipo": "próximo",
+        "descricao_pt": "Sua fronteira é extremamente fina em locais selvagens e preservados do mundo mortal.",
+        "claId": "ningen-do"
+      },
+      {
+        "cla": "Sakkaku",
+        "tipo": "aliado",
+        "descricao_pt": "Muitos hengeyokai e espíritos trapaceiros transitam livremente entre Chikushudo e o Reino da Travessura.",
+        "claId": "sakkaku"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Um samurai do Clã da Raposa precisa adentrar o reino para buscar a benção de um ancião hengeyokai e salvar sua vila de uma praga.",
+      "Caçadores do Clã do Leão acidentalmente abatem uma fera sagrada em uma zona de sobreposição com Chikushudo, atraindo a ira dos espíritos da floresta.",
+      "Um personagem descobre que seu companheiro animal é, na verdade, um espírito de Chikushudo enviado para avaliar o caráter do samurai."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "chikushudo"
+  },
+  {
+    "cla": "Gaki-Do",
+    "resumo_pt": "Gaki-Do é o Reino dos Mortos Famintos, uma área de expiação e punição karmica dentro do ciclo de reencarnação. Almas cujas vidas foram dominadas por desejos egoístas, ganância ou apego aos prazeres terrenos são enviadas para este plano. O propósito supremo do reino é depurar essas falhas por meio do sofrimento da fome insaciável, permitindo que a alma eventualmente se purifique e renasça. É um mal necessário para a preservação da Ordem Celestial.",
+    "valores_pt": "Os habitantes são movidos exclusivamente por suas fomes perpétuas e desejos não atendidos. Não existe sociedade ou solidariedade; cada gaki busca desesperadamente saciar sua aflição específica, seja por carne, sangue, dejetos ou histórias de terror.",
+    "aparencia_pt": "Um mundo em permanente estado de decomposição física e espiritual. A paisagem consiste em ruínas arruinadas, terreno coberto de sujeira, dejetos e névoas infectas sob um céu retumbante de trovões.",
+    "papel_pt": "Serve como a 'limpeza' do ciclo espiritual, purificando espíritos pecadores. Monges e shugenja interagem com o reino principalmente para banir gaki que escapam para o mundo mortal através de fendas espirituais.",
+    "patrono_pt": "",
+    "relacoes": [
+      {
+        "cla": "Meido",
+        "tipo": "subordinado",
+        "descricao_pt": "Meido atua como o tribunal que condena as almas pecadoras a cumprirem pena em Gaki-Do.",
+        "claId": "meido"
+      },
+      {
+        "cla": "Jigoku",
+        "tipo": "tenso",
+        "descricao_pt": "Devido à proximidade espiritual com o mal, muitos gaki acabam corrompidos pela Mácula e se tornam servos de Jigoku.",
+        "claId": "jigoku"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Um vilarejo é aterrorizado por um Shozai-gaki que escapou de Gaki-Do e exige sacrifícios sangrentos dos camponeses.",
+      "Os PJs precisam investigar um ritual sombrio onde um maho-tsukai tenta abrir uma fenda para Gaki-Do e invocar uma horda de devoradores.",
+      "O espírito de um ancestral do grupo foi enviado por engano a Gaki-Do, e os personagens precisam encontrar uma forma de expiar suas dívidas karmicas no mundo mortal."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "gaki-do"
+  },
+  {
+    "cla": "Jigoku",
+    "resumo_pt": "Jigoku é o Reino do Mal Absoluto, a antítese direta de Tengoku e a fonte primordial da corrupção conhecida como Mácula das Terras Sombrias. Sua única ambição é subjugar, corromper e reescrever toda a criação à sua imagem maligna. É um reino autoconsciente e proativo que busca incansavelmente destruir o equilíbrio celestial. Sem a presença de Tengoku, Jigoku não existiria, pois ambos representam a dualidade eterna do universo.",
+    "valores_pt": "A única lei em Jigoku é a força bruta, a dominação crueldade e o engano. Seus habitantes, desde os Oni Lords até as almas torturadas dos yokai, vivem em guerra constante para provar sua supremacia ou escapar do tormento.",
+    "aparencia_pt": "Um plano amorfo e mutável de escuridão sufocante, lodo negro e ardor abjeto. Os poucos locais definidos são os domínios pessoais dos Lordes Oni, que imitam castelos arruinados e terras devastadas.",
+    "papel_pt": "Serve como a força antagonista central de Rokugan. O Clã do Caranguejo dedica sua existência a conter suas invasões na Muralha Kaiu, enquanto os shugenja caçam a magia negra (maho) que se origina deste plano.",
+    "patrono_pt": "Fu Leng / Daigotsu (Master of Jigoku).",
+    "relacoes": [
+      {
+        "cla": "Tengoku",
+        "tipo": "rival",
+        "descricao_pt": "Opóstos morais e cosmológicos travando um conflito eterno pelo destino da criação.",
+        "claId": "tengoku"
+      },
+      {
+        "cla": "Ningen-Do",
+        "tipo": "alvo",
+        "descricao_pt": "O mundo mortal é o principal campo de batalha onde Jigoku tenta espalhar sua corrupção.",
+        "claId": "ningen-do"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Um culto de maho-tsukai descobre um artefato capaz de conectar uma cidade de Rokugan diretamente a um sub-reino de Jigoku.",
+      "Os PJs devem resgatar a alma de um herói de seu clã antes que ela seja completamente torturada e transformada em um yokai em Jigoku.",
+      "Um Oni Lord consegue projetar sua vontade através de uma fissura e começa a corromper a mente dos líderes locais de uma província."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "jigoku"
+  },
+  {
+    "cla": "Maigo no Musha",
+    "resumo_pt": "Maigo no Musha é o Reino do Destino Frustrado, o menor e mais recente dos reinos espirituais, surgido após a Abertura do Portão do Oblívio. Ele foi criado pela necessidade da Ordem Celestial de conter as desordens karmicas provocadas por espíritos que retornaram ao mundo dos mortais e alteraram fados alheios. Suas almas são aquelas cujas mortes violaram seus destinos corretos, impedindo-as de serem julgadas imediatamente em Meido.",
+    "valores_pt": "Habitado por almas inquietas que anseiam pelo cumprimento de seus destinos interrompidos. Os espíritos são de natureza dócil e melancólica, incapazes de agir com malícia, apenas aguardando a restauração de seu equilíbrio espiritual.",
+    "aparencia_pt": "Uma vasta e desolada planície cinzenta envolta em uma névoa espessa e constante, contendo réplicas exatas, porém vazias e silenciosas, de diversos locais do mundo mortal.",
+    "papel_pt": "Permitir que espíritos com desequilíbrio karmico purguem suas anomalias com o tempo antes de passarem pela reincarnação natural. É vigiado pelo espírito do ronin Sanzo.",
+    "patrono_pt": "Goemon (Fortuna dos Heróis) e Sanzo.",
+    "relacoes": [
+      {
+        "cla": "Meido",
+        "tipo": "subordinado",
+        "descricao_pt": "Atua como uma sala de espera secundária que Emma-O prefere manter isolada de seu próprio reino.",
+        "claId": "meido"
+      },
+      {
+        "cla": "Yomi",
+        "tipo": "aliado",
+        "descricao_pt": "Protegido pelas Legiões dos Mortos de Yomi durante sua criação contra as forças de Iuchiban.",
+        "claId": "yomi"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Um PJ é abordado pelo espírito de um samurai preso em Maigo no Musha que pede que sua última mensagem seja entregue ao seu herdeiro mortal.",
+      "Monstros vindos de Jigoku tentam invadir o posto avançado de Sanzo em Maigo no Musha, e os PJs são arrastados para defender o reino.",
+      "Um shugenja do Clã do Leão tenta contatar um ancestral, mas descobre que a alma está retida em Maigo no Musha devido a uma fraude karmica."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "maigo-no-musha"
+  },
+  {
+    "cla": "Meido",
+    "resumo_pt": "Meido é o Reino da Espera, o ponto central do ciclo de reencarnação humana em Rokugan. Todas as almas mortais chegam a este plano imediatamente após a morte para aguardarem o julgamento de Emma-O. O reino existe de forma estritamente funcional e monótona, pesando o cumprimento do dever e o karma de cada indivíduo dentro da Ordem Celestial. De Meido, os espíritos são direcionados para seus destinos finais ou para o renascimento em Ningen-Do.",
+    "valores_pt": "Representa a imparcialidade, o dever e a aceitação incondicional do destino. As multidões de almas aguardam em silêncio absoluto, desprovidas de desejos terrenos, dores ou ambições mortais.",
+    "aparencia_pt": "Uma planície cinzenta, vasta, plana e infinitamente monótona, onde nada se destaca além do monumental Palácio de Emma-O e o gigantesco Portão dos Mortos ao fundo.",
+    "papel_pt": "Servir como o tribunal supremo da morte, garantindo que o ciclo da Roda do Karma funcione sem desvios. Apenas shugenja Kitsu ou rituais muito específicos conseguem interagir de forma limitada com seus juízes.",
+    "patrono_pt": "Emma-O (Fortuna da Morte).",
+    "relacoes": [
+      {
+        "cla": "Ningen-Do",
+        "tipo": "destino",
+        "descricao_pt": "Recebe o fluxo ininterrupto de todas as almas que morrem no plano mortal.",
+        "claId": "ningen-do"
+      },
+      {
+        "cla": "Yomi",
+        "tipo": "canal",
+        "descricao_pt": "Envia as almas sumamente honradas para o reino dos ancestrais abençoados.",
+        "claId": "yomi"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Um importante magistrado morre antes de revelar onde escondeu provas vitais de uma traição, e o grupo busca a ajuda de um Kitsu para consultar a alma em Meido.",
+      "Uma anomalia faz com que uma alma recusada por Meido retorne ao mundo mortal como um goryo vingativo que precisa ser pacificado.",
+      "Os PJs precisam acompanhar uma comitiva religiosa até o Portão dos Mortos em um ritual raro para apelar da sentença de um herói injustiçado."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "meido"
+  },
+  {
+    "cla": "Sakkaku",
+    "resumo_pt": "Sakkaku é o Reino da Travessura, um lugar enigmático que funciona como uma paródia das estruturas rígidas e solenes da Ordem Celestial. O reino existe para desafiar as percepções, rir das certezas e aplicar peças aos visitantes e a todos os outros reinos. Embora suas brincadeiras possam ser cruéis ou perigosas, a intenção de Sakkaku não é a corrupção absoluta de Jigoku, mas sim demonstrar a ilusão do mundo físico e da autoridade.",
+    "valores_pt": "Inhabitado por espíritos brincalhões e bizarros como mujina, bakeneko, kappa e os sábios kenku. Seus residentes valorizam o humor, a irreverência, a criatividade na enganação e o deboche de regras estritas.",
+    "aparencia_pt": "Superficialmente similar a Rokugan, mas com um aspecto nitidamente artificial, onde montanhas, florestas e vilas parecem cenários construídos para uma grande representação teatral.",
+    "papel_pt": "Quebrar a rigidez do universo através do riso e da incerteza. Mágicos e caçadores de espíritos lidam com Sakkaku quando suas criaturas escapam para aplicar trotes nos mortais.",
+    "patrono_pt": "",
+    "relacoes": [
+      {
+        "cla": "Chikushudo",
+        "tipo": "aliado",
+        "descricao_pt": "Compartilha uma vasta gama de espíritos metamorfos que passeiam entre os dois mundos.",
+        "claId": "chikushudo"
+      },
+      {
+        "cla": "Tengoku",
+        "tipo": "oposto",
+        "descricao_pt": "Rejeitado pelos Céus devido ao seu desrespeito total por hierarquias e protocolos.",
+        "claId": "tengoku"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Um grupo de mujina invade uma corte de um Clã Grande e começa a personificar os diplomatas locais, criando um caos político hilário e perigoso.",
+      "Um mestre kenku de Sakkaku oferece treinamento de kenjutsu a um PJ, mas exige que o personagem vença uma série de desafios absurdos primeiro.",
+      "Os PJs entram acidentalmente em Sakkaku e começam a sofrer compulsões comportamentais estranhas à medida que o reino tenta transformá-los em parte da piada."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "sakkaku"
+  },
+  {
+    "cla": "Tengoku",
+    "resumo_pt": "Tengoku representa os Céus Celestiais, a morada dos deuses e o cume absoluto de toda a criação. De Tengoku emana a ordem, a lei e a luz que mantêm a estrutura do universo unida e impedem o caos primordial de destruir a realidade. O reino opera com perfeita pureza e rígida hierarquia, governando os destinos do cosmos a partir de uma distância serena e solene, quase sempre atuando no mundo dos mortais através de seus representantes escolhidos.",
+    "valores_pt": "Governada pelo Dragão Celestial, pelas Fortunas, pelo Sol e pela Lua. Seus habitantes valorizam o cumprimento impecável do dever celestial, a pureza, a justiça absoluta e a manutenção da harmonia universal.",
+    "aparencia_pt": "Um reino deslumbrante de nuvens resplandecentes, luz dourada e arquitetura divina. Abriga o gigantesco Palácio Celestial e a magnífica Corte dos Céus.",
+    "papel_pt": "Supervisionar a Ordem Celestial e abençoar a linhagem Imperial de Rokugan. Apenas seres divinos, os Kami e as almas dos Imperadores habitam o reino de forma permanente.",
+    "patrono_pt": "O Dragão Celestial / Amaterasu e Onnotangu.",
+    "relacoes": [
+      {
+        "cla": "Jigoku",
+        "tipo": "inimigo",
+        "descricao_pt": "Conflito cosmológico eterno entre a luz/ordem e as trevas/corrupção.",
+        "claId": "jigoku"
+      },
+      {
+        "cla": "Yomi",
+        "tipo": "aliado",
+        "descricao_pt": "Yomi serve como a antessala e guarda de elite que protege o caminho para Tengoku.",
+        "claId": "yomi"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Um enviado celestial surge em uma visão para alertar os PJs de uma ameaça capaz de quebrar o equilíbrio entre os Céus e a Terra.",
+      "Os PJs precisam proteger um santuário Imperial que abriga uma relíquia diretamente tocada por uma Fortuna em Tengoku.",
+      "Uma disputa entre duas ordens religiosas sobre a interpretação do mandato celestial atrai a atenção indireta de um servo de Tengoku."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "tengoku"
+  },
+  {
+    "cla": "Toshigoku",
+    "resumo_pt": "Toshigoku é o Reino do Massacre, o destino terrível reservado às almas dos guerreiros mortais que entregaram suas vidas à fúria, ao ódio e ao derramamento de sangue irracional. Diferente de Gaki-Do, Toshigoku representa uma condenação definitiva onde as almas não renascem, ficando presas em um ciclo infinito de combate brutal e sem propósito. É a personificação da perversão do ideal do samurai e do fracasso em seguir o Bushido.",
+    "valores_pt": "Os espíritos do massacre (Legado da Forja) e os brutais Tsuno vivem exclusivamente para a destruição, táticas de combate e derramamento de sangue. Não há honra, lealdade ou paz neste plano.",
+    "aparencia_pt": "Uma terra fria, estéril e desolada, composta por solo grestado, pedregulhos e rios de águas escuras, onde exércitos fantasmagóricos se chacoalham e se chacinam continuamente.",
+    "papel_pt": "Isolar almas tomadas pela fúria de guerra para evitar que contaminem o mundo dos mortais ao reencarnarem. Caçadores de espíritos e Kitsu monitoram o reino para conter aparições no mundo real.",
+    "patrono_pt": "",
+    "relacoes": [
+      {
+        "cla": "Meido",
+        "tipo": "subordinado",
+        "descricao_pt": "Almas julgadas como irrecuperáveis na sua violência por Emma-O são descartadas em Toshigoku.",
+        "claId": "meido"
+      },
+      {
+        "cla": "Yomi",
+        "tipo": "rival",
+        "descricao_pt": "Opósitos absolutos; os ancestrais virtuosos de Yomi por vezes realizam incursões para tentar resgatar almas de Toshigoku.",
+        "claId": "yomi"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Um portal temporário se abre no campo de batalha de Toshi Ranbo, permitindo que uma horda de espíritos do massacre invada o mundo mortal.",
+      "O espírito de um renomado general do clã de um dos PJs foi enviado a Toshigoku, e o grupo descobre uma forma perigosa de tentar resgatá-lo.",
+      "Um maho-tsukai tenta invocar guerreiros de Toshigoku para criar um exército imparável, e os PJs devem intervir."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "toshigoku"
+  },
+  {
+    "cla": "Yomi",
+    "resumo_pt": "Yomi é o Reino dos Ancestrais Abençoados, o destino sagrado e a recompensa final para as almas mortais que cumpriram com virtude seu papel na Ordem Celestial. Os espíritos que habitam Yomi superaram as fraquezas terrenas e vivem em uma existência idealizada, desfrutando de paz, arte e honra eternas. Além de ser o lar dos ancestrais, Yomi serve como um bastião defensivo para Tengoku contra o mal de Jigoku.",
+    "valores_pt": "Habitado pelos shiryo (ancestrais abençoados) e pela Guarda Abençoada. Seus residentes valorizam a honra impecável, a orientação de seus descendentes mortais e o aperfeiçoamento contínuo das artes do samurai.",
+    "aparencia_pt": "Uma versão idílica e perfeita do Império de Rokugan em permanente primavera, pontilhada por castelos magnificentes, campos férteis e a montanha sagrada do Caminho para o Céu.",
+    "papel_pt": "Oferecer orientação espiritual, sabedoria e proteção aos seus descendentes em Ningen-Do através de orações, médiuns da família Kitsu e visões.",
+    "patrono_pt": "Os Ancestrais dos Grandes Clãs e Imperadores do passado.",
+    "relacoes": [
+      {
+        "cla": "Tengoku",
+        "tipo": "aliado",
+        "descricao_pt": "Yomi protege o Caminho para o Céu e serve como a primeira linha de defesa divina.",
+        "claId": "tengoku"
+      },
+      {
+        "cla": "Ningen-Do",
+        "tipo": "protetor",
+        "descricao_pt": "Os ancestrais mantêm um vínculo profundo e contínuo guiando os mortais honrados.",
+        "claId": "ningen-do"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Um herói do grupo é visitado por um shiryo que exige a restauração da honra da família através de uma demanda ancestral perigosa.",
+      "Os PJs precisam defender um templo onde um espelho sagrado permite a comunicação direta com os generais de Yomi.",
+      "Durante uma crise militar, a intervenção de um ancestral de Yomi concede ao grupo a chave tática para derrotar um inimigo superior."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "yomi"
+  },
+  {
+    "cla": "Yume-Do",
+    "resumo_pt": "Yume-Do é o Reino dos Sonhos, a vasta e mutável dimensão formada pela imaginação, medos, aspirações e visões de todas as criaturas vivas e divinas da criação. É o maior de todos os reinos espirituais, preenchendo o espaço entre as realidades. Yume-Do protege a mente dos sonhadores, garantindo que os pensamentos de diferentes seres não se misturem e causem loucura, ao mesmo tempo em que oferece uma fonte incalculável de potencial criativo.",
+    "valores_pt": "Habitado pelos baku (espíritos metamorfos do sonho), Baku no Oni e pelos Transcendentes Nezumi. O reino é guiado pela criatividade bruta e pela constante mudança das mentes que sonham.",
+    "aparencia_pt": "Infinita e instável; é composta por milhões de bolhas de sonhos temporárias que variam desde um único cômodo até mundos inteiros com leis físicas próprias, alterando-se a cada noite.",
+    "papel_pt": "Permitir o descanso e o vislumbre de intuições para os mortais. Shugenja e sonhadores poderosos podem navegar por Yume-Do para descobrir segredos ocultos no subconsciente do mundo.",
+    "patrono_pt": "",
+    "relacoes": [
+      {
+        "cla": "Ningen-Do",
+        "tipo": "conectado",
+        "descricao_pt": "Acessado diariamente por todas as criaturas vivas ao adormecerem.",
+        "claId": "ningen-do"
+      },
+      {
+        "cla": "Meido",
+        "tipo": "próximo",
+        "descricao_pt": "Muitas experiências de quase-morte e visões transitam pela fronteira entre o sonho e a morte.",
+        "claId": "meido"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Um Baku no Oni prende a mente de um daimyo em seu próprio pesadelo, e os PJs precisam entrar no mundo dos sonhos para derrotar o demônio.",
+      "Um PJ descobre que um segredo político crucial está guardado no sonho recorrente de um monástico recluso.",
+      "O grupo descobre um 'sonho permanente' dentro de Yume-Do que preserva uma cidade de Rokugan exatamente como ela era há quinhentos anos."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "yume-do"
+  }
+]

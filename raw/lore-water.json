@@ -1,0 +1,334 @@
+{
+  "artefatos": {
+    "artefatos": [
+      {
+        "nome": "Agasha's Mirror",
+        "contexto_pt": "Espelho de mão criado por Lady Agasha, associado ao Clã do Dragão e posteriormente ao Clã da Fênix.",
+        "resumo_pt": "Criado originalmente durante os primeiros experimentos de Lady Agasha sobre os Elementos, este espelho despertou ao longo de gerações de cuidado. No século XII, acompanhou a maioria da família Agasha em sua migração para o Clã da Fênix.",
+        "destaque_pt": "Revela instantaneamente a estrutura e composição elemental de qualquer item, feitiço ou ser vivo, permitindo perceber os próprios kami da área.",
+        "source_book": "The Book of Water",
+        "pagina": 128
+      },
+      {
+        "nome": "Bag of Necessity",
+        "contexto_pt": "Bolsa de viagem de tecido associada à linhagem de daimyos Yasuki do Clã do Caranguejo.",
+        "resumo_pt": "Uma bolsa de pano aparentemente comum decorada com bordados de boa sorte. Pertenceu ao patrono mercador Yasuki Hohiro e foi mantida como um dos tesouros mais preciosos da família Yasuki.",
+        "destaque_pt": "Fornece a qualquer membro da família Yasuki que alcance seu interior exatamente o objeto necessário naquele momento, como moedas de koku, alimentos, minérios ou pequenos utensílios.",
+        "source_book": "The Book of Water",
+        "pagina": 128
+      },
+      {
+        "nome": "The Drum of Water",
+        "contexto_pt": "Tambor portátil de mão originalmente feito por shugenja da família Iuchi do Clã do Unicórnio.",
+        "resumo_pt": "Apesar de sua aparência simples semelhante a um brinquedo infantil com esferas de madeira presas por fios, este item místico foi replicado e adotado por vários clãs para uso tático.",
+        "destaque_pt": "Quando ativado por preces ritualísticas de um shugenja, os kami da Água amplificam seu som, permitindo que aliados em um raio de 15 metros se movam como se tivessem o dobro de sua Água.",
+        "source_book": "The Book of Water",
+        "pagina": 129
+      },
+      {
+        "nome": "The Fan of Command",
+        "contexto_pt": "Leque de guerra (gunsen) de madeira laqueada em vermelho, associado a generais e comandantes ronin.",
+        "resumo_pt": "Encontrado por um viajante nas montanhas Seikitsu, este leque histórico esteve nas mãos de figuras como Akodo e Toturi, o Negro. Possui quinze hastes de aço e o kanji para 'Sempre' gravado em sua estrutura.",
+        "destaque_pt": "Concede ao usuário bônus táticos avançados como as Vantagens Tático, Liderança ou Grande Destino, além de bônus substanciais em testes da perícia Ofício de Guerra.",
+        "source_book": "The Book of Water",
+        "pagina": 129
+      },
+      {
+        "nome": "The Gunsen of Water",
+        "contexto_pt": "Leque de guerra elemental criado por Iuchi Yogosha e Asako Shingon para combater os Terrores Elementais.",
+        "resumo_pt": "Confeccionado durante a Guerra dos Clãs a pedido dos Oráculos da Luz, este leque foi entregue a Bayushi Goshiu. Em contextos sociais, adapta sua forma para um elegante leque de corte feito de água pura.",
+        "destaque_pt": "Eleva a Armadura TN do portador com base no seu anel de Água, detecta magias de Água direcionadas ao usuário e concede bônus em testes de Batalha e Leque de Guerra.",
+        "source_book": "The Book of Water",
+        "pagina": 129
+      },
+      {
+        "nome": "The Heavenly Kobune of Suitengu",
+        "contexto_pt": "Miniatura de navio esculpida em jade associada à Fortuna Suitengu, recuperada no Túmulo dos Sete Trovões.",
+        "resumo_pt": "Acredita-se que este artefato seja um fragmento da lendária embarcação da Fortuna dos Mares. Foi utilizado para transportar o espírito de Yoritomo aos Céus Celestiais para que se tornasse um Kami.",
+        "destaque_pt": "Garante vento favorável, águas calmas e proteção contra criaturas marinhas ao navio em que for transportado, podendo também expandir-se em uma embarcação capaz de viajar entre os Reinos Espirituais.",
+        "source_book": "The Book of Water",
+        "pagina": 130
+      },
+      {
+        "nome": "The Hunter's Kabuto",
+        "contexto_pt": "Elmo de ferro adornado com chifres de cervo, criado pela família Iuchi para o Campeão do Clã do Unicórnio.",
+        "resumo_pt": "Concebido como um presente para um líder Unicórnio entusiasta da caça, este elmo combina a estética pastoral da família com a bênção dos espíritos da Água.",
+        "destaque_pt": "Imbuído com espíritos da Água que concedem clareza e percepção, aumenta em um nível o atributo Percepção do usuário e oferece bônus em testes de Caça.",
+        "source_book": "The Book of Water",
+        "pagina": 130
+      },
+      {
+        "nome": "The Ikoma Tessen",
+        "contexto_pt": "Leque de guerra de sândalo presenteado por Akodo a Ikoma Komori, mantido pelos daimyos da família Ikoma.",
+        "resumo_pt": "Construído em sândalo nobre com o brasão do Clã do Leão, este leque esteve presente em inúmeros combates e negociações de corte antes da morte de Komori em duelo.",
+        "destaque_pt": "Concede bônus na Armadura TN em combate e melhora significativamente as perícias Cortesão, Etiqueta e História quando exibido em eventos sociais, de acordo com o anel de Água do portador.",
+        "source_book": "The Book of Water",
+        "pagina": 130
+      },
+      {
+        "nome": "The Jade Mirror",
+        "contexto_pt": "Espelho de jade sagrado mantido pelo Clã do Dragão e guardado pela ordem dos ise zumi Togashi.",
+        "resumo_pt": "Encontrado nas Terras Sombrias por Mirumoto Rosanjin, este espelho abriga poderosos espíritos de Água e Terra. É capaz de refletir o estado espiritual e moral de qualquer um que se olhe nele.",
+        "destaque_pt": "Revela instantaneamente se o indivíduo observado possui Segredos Sombrios ou contaminação pela Mácula, além de aumentar consideravelmente a dificuldade para conjurar magias maho nas proximidades.",
+        "source_book": "The Book of Water",
+        "pagina": 131
+      },
+      {
+        "nome": "Kitsuki's Coin",
+        "contexto_pt": "Moeda mística criada por Agasha Kitsuki, fundador da família Kitsuki do Clã do Dragão.",
+        "resumo_pt": "Criada pelo fundador da família Kitsuki quando este ainda tentava a via dos shugenja, a moeda foi considerada inútil pelos Agasha, mas tornou-se uma herança preciosa para os investigadores Kitsuki.",
+        "destaque_pt": "Cria um brilho vermelho sutil e visível a todos os presentes sempre que a pessoa que a carrega ou segura tenta mentir ou disfarçar a verdade.",
+        "source_book": "The Book of Water",
+        "pagina": 131
+      },
+      {
+        "nome": "Merchant Coins of the Yasuki",
+        "contexto_pt": "Conjunto ancestral de 24 moedas de cobre associadas às negociações comerciais entre Grou e Caranguejo.",
+        "resumo_pt": "Estas moedas históricas trazem as figuras das doze criaturas do zodíaco rokugani e marcas de cunhagem do Clã do Grou. Embora muitas tenham se perdido, o conjunto permanece cercado de prestígio.",
+        "destaque_pt": "Garante sorte excepcional e bônus em testes de Comércio e Cortesão para acordos financeiros realizados durante a hora do dia correspondente à imagem estampada na moeda.",
+        "source_book": "The Book of Water",
+        "pagina": 131
+      },
+      {
+        "nome": "Rioshida's Kusarigama",
+        "contexto_pt": "Arma de corrente que pertenceu a Gusai Rioshida, preservada em um santuário isolado no Clã do Mantis.",
+        "resumo_pt": "Arma de assinatura do último Campeão Mantis da família Gusai, foi guardada pela Ordem de Osano-Wo após seu dono ser executado por traição ao tentar sequestrar o herdeiro imperial.",
+        "destaque_pt": "Possui a capacidade de ferir oponentes Invulneráveis e concede bônus nos testes de ataque proporcional à diferença de Status quando usada contra alvos de Status superior ao do usuário.",
+        "source_book": "The Book of Water",
+        "pagina": 132
+      },
+      {
+        "nome": "The Yogo Jitte",
+        "contexto_pt": "Jitte de madeira que serve como insígnia de cargo do líder dos Kuroiban (Caçadores de Maho) do Clã do Escorpião.",
+        "resumo_pt": "Feita em madeira em vez de aço, esta arma desperta quando empunhada por um shugenja, canalizando espíritos de Água e Ar focados na purificação de praticantes de feitiçaria proibida.",
+        "destaque_pt": "Fere criaturas Invulneráveis, concede bônus de ataque e dano e permite armazenar um feitiço de Água para ser ativado instantaneamente como uma Ação Simples.",
+        "source_book": "The Book of Water",
+        "pagina": 132
+      },
+      {
+        "nome": "Yoritomo's Kama",
+        "contexto_pt": "Par de kama duplas pertencente a Yoritomo, o Líder Supremo do Clã do Mantis.",
+        "resumo_pt": "As ferramentas preferidas de combate de Yoritomo despertaram através de seus feitos lendários. Após sua morte, foram empunhadas por sua filha Kumiko até serem perdidas no mar e posteriormente recuperadas nos Reinos do Marfim.",
+        "destaque_pt": "Anulam penalidades de combate com duas armas e atingem seres Invulneráveis; nas mãos de um descendente de sangue de Yoritomo, desferem dano crítico capaz de matar o alvo instantaneamente.",
+        "source_book": "The Book of Water",
+        "pagina": 132
+      },
+      {
+        "nome": "Kaiu Otoge's Sparrow",
+        "contexto_pt": "Pássaro mecânico criado por Kaiu Otoge na Cidade do Martelo de Água (Suigeki Toshi).",
+        "resumo_pt": "Forjado por um alegre ferreiro do Clã do Caranguejo como uma peça artística parecida com uma caixa de música, este artefato em formato de pardal revelou sua utilidade ao alertar sobre cultistas maho.",
+        "destaque_pt": "Ganha vida e começa a cantar sonoramente de forma automática sempre que uma criatura com a Mácula das Terras Sombrias se aproxima a menos de três metros.",
+        "source_book": "The Book of Water",
+        "pagina": 133
+      },
+      {
+        "nome": "Thunder's Taiko",
+        "contexto_pt": "Tambor taiko cerimonial gigante criado pela artesã Asahina Kimita em Suigeki Toshi.",
+        "resumo_pt": "Trabalhado em isolamento durante um mês usando madeiras sagradas do Clã do Grou, este tambor monumental produz um som trovejante utilizado em festividades na Cidade do Martelo de Água.",
+        "destaque_pt": "Concede bônus baseados no anel de Água para testes de Música de quem o toca e inspira outros artesãos e intérpretes ouvintes a aprimorarem suas próprias rolagens de perícia.",
+        "source_book": "The Book of Water",
+        "pagina": 133
+      },
+      {
+        "nome": "The Master's Go Set",
+        "contexto_pt": "Jogo de Go de mogno esculpido pela comandante Matsu Watako do Clã do Leão.",
+        "resumo_pt": "Esculpido em mogno por uma famosa tática militar do Clã do Leão, este jogo de Go foi impregnado com o senso de honra e astúcia tática de sua criadora.",
+        "destaque_pt": "Qualquer samurai que conclua uma partida usando este conjunto recebe uma bênção permanente de um mês que adiciona sua Honra e Água às suas rolagens de Batalha (Combate de Massas).",
+        "source_book": "The Book of Water",
+        "pagina": 133
+      },
+      {
+        "nome": "Amulet of Amaterasu",
+        "contexto_pt": "Amuleto sagrado trabalhado por Moshi Jukio, antiga Campeã do Clã da Centopeia, na Cidade do Martelo de Água.",
+        "resumo_pt": "Criado durante sete dias de trabalho ininterrupto pela idosa Moshi Jukio como um ato final de devoção e contrição, este amuleto brilha com uma luz pura dedicada à Deusa do Sol.",
+        "destaque_pt": "Sob a luz do sol e quando portado por alguém de alta Honra, impede que criaturas de Jigoku ou espíritos kansen se aproximem voluntariamente do usuário.",
+        "source_book": "The Book of Water",
+        "pagina": 134
+      },
+      {
+        "nome": "Atsuke's Hammer",
+        "contexto_pt": "Martelo de forja criado pelo artesão pacifista Shiba Atsuke do Clã da Fênix.",
+        "resumo_pt": "Confeccionado por um ferreiro que recusava criar armas de guerra, este martelo perfeitamente equilibrado foi presenteado de volta ao Clã da Fênix após a morte de seu criador.",
+        "destaque_pt": "Oferece bônus em testes de Ofício e Artesanato para criar armaduras ou objetos artísticos, mas sofre penalidades se usado para criar armas e se destrói se utilizado para golpear seres vivos.",
+        "source_book": "The Book of Water",
+        "pagina": 134
+      },
+      {
+        "nome": "The Saddle of Water",
+        "contexto_pt": "Sela mística criada pelo shugenja Moto Vordu na Grande Forja de Suigeki Toshi.",
+        "resumo_pt": "Confeccionada com fivelas metálicas e estribos de prata esculpidos com imagens de corcéis em galope, esta sela une a tradição dos nemuranai à magia de cavalaria dos Iuchi.",
+        "destaque_pt": "Permite invocar uma vez por dia um cavalo feito de água translúcida que pode carregar até dois cavaleiros e mover-se em altíssima velocidade durante várias horas.",
+        "source_book": "The Book of Water",
+        "pagina": 135
+      }
+    ]
+  },
+  "criaturas": {
+    "criaturas": [
+      {
+        "nome": "Elemental Dragon of Water",
+        "contexto_pt": "Entidade Celestial / Dragão Elemental",
+        "resumo_pt": "Personificação divina da força, do movimento e das marés mutáveis do mundo. O Dragão da Água é notoriamente inconstante com os mortais, ignorando preces por longos períodos para subitamente intervir na vida de um indivíduo por puro capricho.",
+        "destaque_pt": "Comanda o poder das tempestades oceânicas e a essência da transformação espiritual.",
+        "source_book": "The Book of Water",
+        "pagina": 125
+      },
+      {
+        "nome": "Suitengu",
+        "contexto_pt": "Fortuna Primordial dos Mares",
+        "resumo_pt": "Uma das Fortunas mais antigas de Rokugan, governante dos oceanos e servo direto do Dragão da Água. Manifesta-se invariavelmente como um samurai austero de cabelos esvoaçantes e olhar severo, exigindo oferendas frequentes para aplacar sua fúria.",
+        "destaque_pt": "Comanda a destruição implacável dos mares e das tempestades costeiras.",
+        "source_book": "The Book of Water",
+        "pagina": 125
+      },
+      {
+        "nome": "Kappa",
+        "contexto_pt": "Espírito Traquino de Sakkaku",
+        "resumo_pt": "Criaturas anfíbias do tamanho de crianças com cascos de tartaruga e uma cavidade no topo do crânio cheia de água mística. Costumam atrair viajantes para jogos mortais de adivinhação, mas mantêm um código estrito de honrar qualquer dívida assumida.",
+        "destaque_pt": "Se a água em sua cabeça for derramada, perdem quase toda a sua força física.",
+        "source_book": "The Book of Water",
+        "pagina": 126
+      },
+      {
+        "nome": "Ningyo",
+        "contexto_pt": "Raça Lendária da Água",
+        "resumo_pt": "Povo ancestral semelhante a sereias que habitava Rokugan muito antes da chegada da humanidade. Vivem em cidades submersas no oceano e mantêm uma aliança duradoura com os terríveis serpentes marinhos Orochi para garantir sua proteção.",
+        "destaque_pt": "Nativos do oceano com domínio nato sobre os mistérios profundos do elemento Água.",
+        "source_book": "The Book of Water",
+        "pagina": 126
+      },
+      {
+        "nome": "Orochi",
+        "contexto_pt": "Monstro Marinho / Raça de Sakkaku",
+        "resumo_pt": "Serpentes marinhas de proporções colossais originárias do Reino da Travessura. Apesar de sua origem, são seres sérios e sem humor que desprezam travessuras, sendo capazes de firmar pactos duradouros com aqueles que demonstram grande força de vontade.",
+        "destaque_pt": "Enorme resistência mística e força física devastadora no ambiente aquático.",
+        "source_book": "The Book of Water",
+        "pagina": 126
+      },
+      {
+        "nome": "Hinotama",
+        "contexto_pt": "Espírito Sobrenatural Tempestuoso",
+        "resumo_pt": "Espíritos brincalhões mas perigosos formados pela união de energias de Água, Fogo e Ar durante violentas tempestades marinhas. Surgem como esferas luminosas roxas ou azuis que flutuam sobre objetos metálicos em embarcações.",
+        "destaque_pt": "Atravessam matéria física e emitem choques elétricos capazes de atordoar marinheiros.",
+        "source_book": "The Book of Water",
+        "pagina": 191
+      },
+      {
+        "nome": "Nure-Onna",
+        "contexto_pt": "Criatura Sobrenatural Imortal",
+        "resumo_pt": "Espírito imortal conhecido como a Mulher Molhada, manifestando-se inicialmente como uma jovem melancólica banhando-se nas margens de rios ou mares. Caso seja perturbada, transforma-se em uma imensa serpente com cabeça humana disposta a esmagar o intruso.",
+        "destaque_pt": "Muda de forma instantaneamente para uma cobra gigante com ataque de constrição mortal.",
+        "source_book": "The Book of Water",
+        "pagina": 191
+      },
+      {
+        "nome": "Mizu no Oni",
+        "contexto_pt": "Grande Terror Elemental das Terras Sombrias",
+        "resumo_pt": "Monstro criado pelos Oráculos Sombrios que se assemelha a uma poça de líquido denso e poluído. Espreita em corpos d'água para engolfar e afogar alvos estratégicos, assumindo em seguida a forma e a voz da vítima.",
+        "destaque_pt": "Pode metamorfosear-se perfeitamente na vítima eliminada e possui imunidade à magia de Água.",
+        "source_book": "The Book of Water",
+        "pagina": 193
+      },
+      {
+        "nome": "Oyuchi no Kansen",
+        "contexto_pt": "Pequeno Terror Elemental / Kansen de Água",
+        "resumo_pt": "Entidade maligna menor que se disfarça como poças de água, sangue ou saquê para realizar espionagem ou assassinar incautos. Pode infiltrar-se em cadáveres no campo de batalha para reanimá-los como montarias.",
+        "destaque_pt": "Camuflagem aquática quase perfeita e capacidade de reanimar corpos como mortos-vivos.",
+        "source_book": "The Book of Water",
+        "pagina": 194
+      },
+      {
+        "nome": "Yamato no Orochi",
+        "contexto_pt": "Criatura Lendária da Água",
+        "resumo_pt": "A lendária serpente de oito cabeças e oito caudas criada nos primórdios por Suitengu para aterrorizar os mares. Contas antigas narram que o Deus do Trovão, Osano-Wo, batalhou contra a criatura e a aprisionou nas profundezas do oceano.",
+        "destaque_pt": "Capaz de realizar até quatro ataques de mordida livres por rodada ou esmagar grupos inteiros com o tronco.",
+        "source_book": "The Book of Water",
+        "pagina": 192
+      },
+      {
+        "nome": "Heikegani",
+        "contexto_pt": "Criatura Mundana Notável",
+        "resumo_pt": "Espécie de caranguejo marinho cujas carapaças apresentam padrões naturais que lembram o rosto irado de um samurai. Surgiram no litoral sul após uma batalha trágica entre irmãos Yasuki, sendo considerados maus augúrios pelos habitantes locais.",
+        "destaque_pt": "Carapaça única com traços faciais humanos associada a lendas de reencarnação guerreira.",
+        "source_book": "The Book of Water",
+        "pagina": 128
+      },
+      {
+        "nome": "Den Unagi",
+        "contexto_pt": "Criatura Mundana Notável",
+        "resumo_pt": "Uma variedade de enguia de grande porte encontrada em águas coloniais e mares distantes. Ao contrário das enguias comuns de rio, esta espécie desenvolveu um mecanismo de defesa ativo contra predadores e pescadores.",
+        "destaque_pt": "Pode descarregar uma forte descarga elétrica na água para paralisar ameaças próximas.",
+        "source_book": "The Book of Water",
+        "pagina": 195
+      }
+    ]
+  },
+  "locais": {
+    "locais": [
+      {
+        "nome": "Yasuki Yashiki",
+        "contexto_pt": "Clã do Caranguejo / Família Yasuki / Província Junkin",
+        "resumo_pt": "Conhecida historicamente como a Propriedade da Garça Negra, esta fortaleza pertenceu originalmente ao Clã do Grou antes da Primeira Guerra Yasuki. O complexo combina edificações palacianas refinadas com muralhas defensivas funcionais erguidas pelo Clã do Caranguejo. Suas torres elevadas proporcionam uma vista estratégica ampla sobre a Baía do Peixe Terremoto.",
+        "destaque_pt": "É o principal centro diplomático do Clã do Caranguejo e o único local em suas terras preparado para sediar uma Corte de Inverno Imperial.",
+        "source_book": "The Book of Water",
+        "pagina": 87
+      },
+      {
+        "nome": "The Hogosha Estates",
+        "contexto_pt": "Clã do Mantis / Família Hogosha / Yasuki Yashiki",
+        "resumo_pt": "Esta propriedade palaciana localizada no complexo de Yasuki Yashiki foi concedida à família vassala Hogosha após a Segunda Guerra Yasuki. Mesmo com a retomada do controle total da região pelo Clã do Caranguejo, o local foi preservado e mantido sob domínio da linhagem Yoritomo. A estrutura permanece ativa como enclave diplomático e comercial permanente.",
+        "destaque_pt": "Garante ao Clã do Mantis uma presença de corte direta no coração do território comercial do Clã do Caranguejo.",
+        "source_book": "The Book of Water",
+        "pagina": 87
+      },
+      {
+        "nome": "Great Day Castle",
+        "contexto_pt": "Clã do Unicórnio / Família Ide / Província Garanto",
+        "resumo_pt": "Conhecido localmente como Shiro Ide, este castelo ergue-se na Província Garanto, próximo às margens do Lago das Pétalas de Crisântemo. Foi a primeira grande fortaleza erguida pelo Clã do Unicórnio após o retorno do exílio. Sua arquitetura busca integrar-se às formações rochosas das montanhas e prioriza o conforto de seus hóspedes.",
+        "destaque_pt": "É a principal sede diplomática do Clã do Unicórnio, projetada para receber visitantes de outros clãs sem causar choque cultural.",
+        "source_book": "The Book of Water",
+        "pagina": 88
+      },
+      {
+        "nome": "Calm Heart Dojo",
+        "contexto_pt": "Clã do Unicórnio / Família Ide / Shiro Ide",
+        "resumo_pt": "O dojo central da Escola de Emissários Ide situa-se fora das muralhas de Shiro Ide, junto às margens do lago. A formação dos estudantes exige longos períodos de meditação diante das águas calmas da região. Essa rotina busca desenvolver o autocontrole e a compostura necessários para as interações na corte.",
+        "destaque_pt": "Ensina a calma imperturbável característica dos diplomatas Ide, associando a arte da diplomacia ao Elemento Água.",
+        "source_book": "The Book of Water",
+        "pagina": 88
+      },
+      {
+        "nome": "Kyuden Tonbo",
+        "contexto_pt": "Clãs Menores / Clã da Libélula / Província Shinpi",
+        "resumo_pt": "Situado na Província Shinpi, logo ao sul das terras do Clã do Dragão, esta fortaleza serve como sede do Clã da Libélula. O palácio possui um histórico marcado por conflitos e reconstruções devido à rivalidade constante com o Clã do Leão. Apesar de portar o título de Kyuden, o local jamais conseguiu sediar uma Corte de Inverno Imperial.",
+        "destaque_pt": "Atua como ponto de recepção e triagem diplomática obrigatória para todos os visitantes que buscam audiência com o Clã do Dragão.",
+        "source_book": "The Book of Water",
+        "pagina": 89
+      },
+      {
+        "nome": "Fortune's Favor Bridge",
+        "contexto_pt": "Ilhas Eternas do Perigo / Conexão com o Continente",
+        "resumo_pt": "Uma massiva ponte natural de terra que surgiu subitamente do mar, conectando a costa sul do Clã do Grou à ilha de Hantei's Point. A elevação de terra possui largura suficiente para a passagem de várias carroças lado a lado. Ao longo de sua extensão, os exploradores ergueram estátuas e santuários dedicados aos Fortunas.",
+        "destaque_pt": "Atua como a única via de acesso segura para a exploração do arquipélago, atravessando os redemoinhos mortais da região.",
+        "source_book": "The Book of Water",
+        "pagina": 144
+      },
+      {
+        "nome": "Shiro no Raiden",
+        "contexto_pt": "Ilhas Eternas do Perigo / Hantei's Point / Famílias Imperiais",
+        "resumo_pt": "Conhecido como Castelo do Relâmpago, é a estrutura central da Cidade do Alvorecer Próspero e sede da Administradora Imperial Miya Onako. A construção é marcada por constantes atrasos, acidentes e colapsos estruturais que mantêm suas muralhas e alojamentos inacabados. Muitos trabalhadores e sacerdotes atribuem esses problemas a uma maldição espiritual do arquipélago.",
+        "destaque_pt": "Funciona como a capital administrativa das ilhas, abrigando a corte da administradora e as delegações dos Grandes Clãs.",
+        "source_book": "The Book of Water",
+        "pagina": 144
+      },
+      {
+        "nome": "Naga's Rest",
+        "contexto_pt": "Ilhas Eternas do Perigo / Território Naga",
+        "resumo_pt": "Esta ilha coberta por florestas densas é a área de desembarque mais próxima de Hantei's Point. O interior da mata abriga fontes cristalinas, criaturas espirituais e ruínas de uma antiga cidade da raça Naga. Em suas profundezas encontra-se o Poço dos Nado-Mortos, local repleto de ovos fossilizados transformados em pérolas.",
+        "destaque_pt": "Servi como o santuário protegido pelo insano Adkarst, sendo um dos locais mais perigosos e misteriosos do arquipélago.",
+        "source_book": "The Book of Water",
+        "pagina": 147
+      }
+    ]
+  }
+}

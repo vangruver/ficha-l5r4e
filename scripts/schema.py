@@ -260,49 +260,292 @@ CORE_TABLES = {
 }
 
 # ---------------------------------------------------------------------------
-# Wiki de lore (clãs) — diferente de tudo acima: não é extração de regra
-# mecânica, é a parte NARRATIVA do livro (história, cultura, relações entre
-# clãs). Por isso o prompt (ver extract_lore.py) pede expressamente um
-# RESUMO ORIGINAL escrito a partir dos fatos do livro, nunca tradução ou
-# cópia de frase — é prosa autoral da AEG, risco de copyright bem maior que
-# traduzir uma lista de vantagens. Roda só contra The Great Clans (o livro
-# dedicado a isso) — script e arquivo de saída próprios
-# (scripts/extract_lore.py -> raw/lore.json).
+# Wiki de lore — diferente de tudo acima: não é extração de regra mecânica,
+# é a parte NARRATIVA dos livros (história, cultura, relações entre clãs e
+# famílias). Por isso os prompts (ver extract_lore.py e extract_lore_menores.py)
+# pedem expressamente um RESUMO ORIGINAL escrito a partir dos fatos do livro,
+# nunca tradução ou cópia de frase — é prosa autoral da AEG, risco de
+# copyright bem maior que traduzir uma lista de vantagens.
+#
+# Duas fontes, dois scripts:
+# - The Great Clans -> extract_lore.py -> raw/lore.json (clas + familias,
+#   as famílias vassalas dos 9 Clãs Grandes, Apêndice Dois do livro)
+# - Secrets of the Empire -> extract_lore_menores.py -> raw/lore-menores.json
+#   (clas_menores, familias_menores, familias_imperiais, faccoes — capítulos
+#   "The Way of the Minor Clans", "The Imperial Families", "The Way of the
+#   Ronin" e "The Brotherhood of Shinsei")
 # ---------------------------------------------------------------------------
+def _item_grupo_lore(campo: str = "cla", descricao_campo: str | None = None) -> dict:
+    """Shape reutilizável pra qualquer 'grupo' estilo clã: clã grande, clã
+    menor, facção (Ronin, Irmandade de Shinsei), ordem monástica, reino
+    espiritual, tradição marcial, ameaça externa, etc. O nome do campo é
+    "cla" por padrão (simplicidade de reuso no código — wiki.js,
+    build_lore.py — mesmo quando o grupo não é tecnicamente um clã), mas
+    categorias onde "cla" induz o modelo a preencher o CLÃ ASSOCIADO em vez
+    do nome do próprio grupo (ex. tradições marciais, que o livro sempre
+    menciona ao lado do clã que a pratica) devem passar um `campo` diferente
+    — build_lore.py remapeia de volta pra "cla" na hora de montar a saída."""
+    descricao_campo = descricao_campo or "nome do grupo em inglês, ex. 'Crab Clan', 'Badger Clan', 'Ronin', 'Brotherhood of Shinsei'"
+    return {
+        "type": "object",
+        "properties": {
+            campo: {"type": "string", "description": descricao_campo},
+            "resumo_pt": {"type": "string", "description": "resumo ORIGINAL (suas palavras, não tradução) de quem é o grupo e seu papel em Rokugan, 3-5 frases"},
+            "valores_pt": {"type": "string", "description": "resumo original dos valores/filosofia que o grupo preza"},
+            "aparencia_pt": {"type": "string", "description": "resumo original da estética/cultura visível (vestimenta, arquitetura, maneirismos)"},
+            "papel_pt": {"type": "string", "description": "resumo original do papel oficial do grupo no Império (ex. defesa, diplomacia, lei)"},
+            "patrono_pt": {"type": "string", "description": "se o grupo tiver um Clã Grande como patrono/protetor oficial, resumo original dessa relação; deixe vazio se não houver"},
+            "relacoes": {
+                "type": "array",
+                "description": "relação com outros clãs/grupos",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "cla": {"type": "string", "description": "nome do outro clã/grupo em inglês"},
+                        "tipo": {"type": "string", "description": "aliado, rival, neutro, tenso, etc."},
+                        "descricao_pt": {"type": "string", "description": "resumo original do porquê dessa relação"}
+                    }
+                }
+            },
+            "ganchos_roleplay": {
+                "type": "array",
+                "items": {"type": "string"},
+                "description": "3-6 ganchos de roleplay originais (situações, conflitos, ideias de história) pra um personagem desse grupo"
+            },
+            "source_book": {"type": "string"},
+        }
+    }
+
+
 LORE = {
     "type": "object",
     "properties": {
         "clas": {
             "type": "array",
-            "description": "um item por clã (os 7 grandes clãs + clãs menores relevantes + Ronin/Irmandade se o livro cobrir)",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "cla": {"type": "string", "description": "nome do clã em inglês, ex. 'Crab Clan'"},
-                    "resumo_pt": {"type": "string", "description": "resumo ORIGINAL (suas palavras, não tradução) de quem é o clã e seu papel em Rokugan, 3-5 frases"},
-                    "valores_pt": {"type": "string", "description": "resumo original dos valores/filosofia que o clã preza"},
-                    "aparencia_pt": {"type": "string", "description": "resumo original da estética/cultura visível (vestimenta, arquitetura, maneirismos)"},
-                    "papel_pt": {"type": "string", "description": "resumo original do papel oficial do clã no Império (ex. defesa, diplomacia, lei)"},
-                    "relacoes": {
-                        "type": "array",
-                        "description": "relação com outros clãs",
-                        "items": {
-                            "type": "object",
-                            "properties": {
-                                "cla": {"type": "string", "description": "nome do outro clã em inglês"},
-                                "tipo": {"type": "string", "description": "aliado, rival, neutro, tenso, etc."},
-                                "descricao_pt": {"type": "string", "description": "resumo original do porquê dessa relação"}
-                            }
-                        }
-                    },
-                    "ganchos_roleplay": {
-                        "type": "array",
-                        "items": {"type": "string"},
-                        "description": "3-6 ganchos de roleplay originais (situações, conflitos, ideias de história) pra um personagem desse clã"
-                    },
-                    "source_book": {"type": "string"},
-                }
-            }
+            "description": "um item por clã (os 9 grandes clãs)",
+            "items": _item_grupo_lore(),
+        }
+    }
+}
+
+# Clãs menores (Badger, Bat, Boar, Dragonfly, Hare, Monkey, Oriole, Ox,
+# Sparrow, Tortoise) — extraído de Secrets of the Empire, capítulo
+# "The Way of the Minor Clans". Mesmo shape de LORE.
+CLAS_MENORES = {
+    "type": "object",
+    "properties": {
+        "clas_menores": {
+            "type": "array",
+            "description": "um item por clã menor coberto pelo livro",
+            "items": _item_grupo_lore(),
+        }
+    }
+}
+
+# Facções que não são clãs mas funcionam como um no sistema (têm escolas
+# próprias no compêndio): Ronin e Irmandade de Shinsei. Mesmo shape de LORE.
+FACCOES = {
+    "type": "object",
+    "properties": {
+        "faccoes": {
+            "type": "array",
+            "description": "Ronin e Irmandade de Shinsei (e subgrupos relevantes, ex. ordens/seitas principais), se o livro cobrir",
+            "items": _item_grupo_lore(),
+        }
+    }
+}
+
+# Famílias vassalas (de clãs grandes ou menores) e Famílias Imperiais —
+# resumo mais curto que o de clãs/facções, uma família costuma ter só um
+# parágrafo no livro-fonte.
+_ITEM_FAMILIA = {
+    "type": "object",
+    "properties": {
+        "nome": {"type": "string", "description": "nome da família em romaji/inglês"},
+        "cla_pai": {"type": "string", "description": "nome em inglês do clã/grupo ao qual essa família é vassala (ou 'Imperial' se for uma Família Imperial, sem clã)"},
+        "familia_principal": {"type": "string", "description": "se a família vassala serve a uma família específica dentro do clã (ex. Fundai serve aos Kaiu), o nome dessa família principal; deixe vazio se servir ao clã como um todo"},
+        "resumo_pt": {"type": "string", "description": "resumo original (2-4 frases) da origem e papel da família"},
+        "especialidade_pt": {"type": "string", "description": "resumo original curto da função/especialidade prática da família (ex. diplomacia, construção naval, captura de criaturas das Terras Sombrias)"},
+        "source_book": {"type": "string"},
+        "pagina": {"type": "integer"},
+    }
+}
+
+FAMILIAS = {
+    "type": "object",
+    "properties": {
+        "familias": {
+            "type": "array",
+            "description": "famílias vassalas dos Clãs Grandes",
+            "items": _ITEM_FAMILIA,
+        }
+    }
+}
+
+FAMILIAS_MENORES = {
+    "type": "object",
+    "properties": {
+        "familias_menores": {
+            "type": "array",
+            "description": "famílias vassalas dos Clãs Menores",
+            "items": _ITEM_FAMILIA,
+        }
+    }
+}
+
+FAMILIAS_IMPERIAIS = {
+    "type": "object",
+    "properties": {
+        "familias_imperiais": {
+            "type": "array",
+            "description": "as Famílias Imperiais (Hantei, Toturi, Iweko, Seppun, Otomo, Miya e outras cobertas pelo livro)",
+            "items": _ITEM_FAMILIA,
+        }
+    }
+}
+
+# Reinos Espirituais (Chikushudo, Gaki-Do, Jigoku, Maigo no Musha, Meido,
+# Sakkaku, Tengoku, Toshigoku, Yomi, Yume-Do) e Ordens Monásticas principais
+# da Irmandade de Shinsei — mesmo shape "grupo" de clãs/facções, extraído de
+# Secrets of the Empire (capítulos "The Spirit Realms" e "The Brotherhood
+# of Shinsei").
+REINOS_ESPIRITUAIS = {
+    "type": "object",
+    "properties": {
+        "reinos_espirituais": {
+            "type": "array",
+            "description": "os reinos espirituais cobertos pelo livro (natureza do reino, quem o habita, como se interage com ele)",
+            "items": _item_grupo_lore(),
+        }
+    }
+}
+
+ORDENS_MONASTICAS = {
+    "type": "object",
+    "properties": {
+        "ordens_monasticas": {
+            "type": "array",
+            "description": "as principais ordens/seitas da Irmandade de Shinsei descritas pelo livro, além do resumo geral já coberto em 'faccoes'",
+            "items": _item_grupo_lore(),
+        }
+    }
+}
+
+# ---------------------------------------------------------------------------
+# Enciclopédia temática dos 5 livros elementais (Air/Earth/Fire/Water/Void) —
+# cada um segue a mesma estrutura: capítulo de Guerra (tradições marciais,
+# dojos famosos), capítulo do Mundo (criaturas, nemuranai/artefatos), e um
+# capítulo dedicado a um grande local de aventura (castelo, floresta, ilha,
+# dojo). Mesmo cuidado de copyright que o resto da wiki: resumo original.
+# ---------------------------------------------------------------------------
+
+# Tradições marciais e dojos nomeados (ex. Iaijutsu, Heart of the Katana,
+# Green Blade Dojo, Hundred Stances Dojo, Kukan-do, Sumai...). Shape "grupo"
+# porque tem bastante conteúdo narrativo (história, filosofia, praticantes).
+# Campo próprio ("nome_tradicao", não "cla") — tentativa anterior com "cla"
+# fez o modelo preencher o CLÃ ASSOCIADO à tradição em vez do nome da
+# tradição em si (ex. "Crane Clan" ao invés de "Heart of the Katana"),
+# porque o livro sempre menciona os dois juntos. build_lore.py remapeia
+# "nome_tradicao" -> "cla" na saída, então o resto do pipeline nem sabe
+# que o campo de origem tinha outro nome.
+TRADICOES_MARCIAIS = {
+    "type": "object",
+    "properties": {
+        "tradicoes_marciais": {
+            "type": "array",
+            "description": "artes marciais, estilos de combate e dojos/escolas de treino nomeados que o livro descrever (história, filosofia, o que ensinam, praticantes notáveis)",
+            "items": _item_grupo_lore(
+                campo="nome_tradicao",
+                descricao_campo=(
+                    "nome da TRADIÇÃO/ESTILO/DOJO em si, em inglês, ex. "
+                    "'Heart of the Katana', 'Iaijutsu', 'Kukan-do', 'Hundred "
+                    "Stances Dojo'. NUNCA o nome do clã associado a ela — "
+                    "isso vai em 'patrono_pt', não aqui."
+                ),
+            ),
+        }
+    }
+}
+
+# Entrada curta reutilizável pra catálogos grandes (artefatos, criaturas,
+# locais) — um parágrafo no livro-fonte, não dá pra (nem faz sentido) pedir
+# o mesmo tanto de detalhe do shape "grupo".
+_ITEM_ENTIDADE_CURTA = {
+    "type": "object",
+    "properties": {
+        "nome": {"type": "string", "description": "nome em romaji/inglês"},
+        "contexto_pt": {"type": "string", "description": "a quem/o que isso está associado — dono, clã/família, elemento, região (curto, texto livre)"},
+        "resumo_pt": {"type": "string", "description": "resumo original (2-4 frases) de origem/descrição"},
+        "destaque_pt": {"type": "string", "description": "resumo original curto do que torna essa entrada notável (poder, função, perigo, importância)"},
+        "source_book": {"type": "string"},
+        "pagina": {"type": "integer"},
+    }
+}
+
+ARTEFATOS = {
+    "type": "object",
+    "properties": {
+        "artefatos": {
+            "type": "array",
+            "description": "nemuranai (itens mágicos desperto) notáveis descritos no capítulo 'O Mundo de X' do livro",
+            "items": _ITEM_ENTIDADE_CURTA,
+        }
+    }
+}
+
+CRIATURAS = {
+    "type": "object",
+    "properties": {
+        "criaturas": {
+            "type": "array",
+            "description": "criaturas e seres sobrenaturais/outros mundos associados ao elemento do livro (fortunas, espíritos, raças lendárias, criaturas mundanas notáveis)",
+            "items": _ITEM_ENTIDADE_CURTA,
+        }
+    }
+}
+
+LOCAIS = {
+    "type": "object",
+    "properties": {
+        "locais": {
+            "type": "array",
+            "description": "cortes/castelos notáveis mencionados pelo livro, mais o grande local de aventura do capítulo dedicado (castelo, floresta, ilha, dojo, etc.)",
+            "items": _ITEM_ENTIDADE_CURTA,
+        }
+    }
+}
+
+CATEGORIAS_ELEMENTAIS = {
+    "tradicoes_marciais": TRADICOES_MARCIAIS,
+    "artefatos": ARTEFATOS,
+    "criaturas": CRIATURAS,
+    "locais": LOCAIS,
+}
+
+# ---------------------------------------------------------------------------
+# Sword & Fan — livro de política/guerra, não tem clã/família novo, mas tem
+# conteúdo narrativo só dele: ameaças externas (capítulo "Enemies") e nações
+# gaijin/estrangeiros na política rokugani (capítulo "Outsiders in Rokugani
+# Politics").
+# ---------------------------------------------------------------------------
+AMEACAS = {
+    "type": "object",
+    "properties": {
+        "ameacas": {
+            "type": "array",
+            "description": "ameaças externas ao Império descritas no capítulo 'Enemies' (grupos, não criaturas isoladas — ex. facções das Terras Sombrias, piratas, bandidos)",
+            "items": _item_grupo_lore(),
+        }
+    }
+}
+
+ESTRANGEIROS = {
+    "type": "object",
+    "properties": {
+        "estrangeiros": {
+            "type": "array",
+            "description": "nações/povos gaijin e sua relação com a política rokugani, do capítulo 'Outsiders in Rokugani Politics'",
+            "items": _item_grupo_lore(),
         }
     }
 }

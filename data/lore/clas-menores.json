@@ -1,0 +1,323 @@
+[
+  {
+    "cla": "Clã do Texugo",
+    "resumo_pt": "O Clã do Texugo foi fundado nas montanhas do norte para vigiar os passos montanhosos contra invasões externas. Isolados do restante de Rokugan, seus membros desenvolveram uma cultura de extrema autossuficiência e resiliência. Apesar de terem enfrentado quase a extinção devido a ameaças como o Oni de Hideo e o Exército do Fogo Sombrio, o clã reconstruiu suas fortalezas com obstinação. Eles também possuem a responsabilidade secreta de proteger o Santuário de Ryoshun, o décimo Kami.",
+    "valores_pt": "Prezam a força física individual, a determinação inabalável e a autossuficiência. Desconfiam do uso excessivo de magia e preferem resolver conflitos com o próprio esforço e vigor.",
+    "aparencia_pt": "Vestem-se de forma rústica e funcional para suportar o clima frio das montanhas. Raramente carregam suas daisho no dia a dia, preferindo armas pesadas como no-dachi, machados e martelos de guerra, além de praticarem wrestling sumai.",
+    "papel_pt": "Defesa militar dos passos montanhosos do norte da Muralha das Montanhas e proteção do santuário ancestral do Kami Ryoshun.",
+    "patrono_pt": "Possui laços históricos estreitos com o Clã do Caranguejo, de onde descendem os primeiros líderes e tradições marciais.",
+    "relacoes": [
+      {
+        "cla": "Clã da Caranguejo",
+        "tipo": "aliado",
+        "descricao_pt": "Partilham origens sanguíneas e valores marciais parecidos, mantendo respeito mútuo e assistência na reconstrução de fortalezas.",
+        "claId": "cla-da-caranguejo"
+      },
+      {
+        "cla": "Clã do Dragão",
+        "tipo": "aliado",
+        "descricao_pt": "Vizinhos das montanhas com quem mantêm laços comerciais e cooperação defensiva local.",
+        "claId": "cla-do-dragao"
+      },
+      {
+        "cla": "Clã do Leão",
+        "tipo": "tenso",
+        "descricao_pt": "Conflitos históricos pelas terras próximas ao passo montanhoso no início da história do Império.",
+        "claId": "cla-do-leao"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Defender uma fortaleza isolada na passagem montanhosa contra uma incursão inesperada de ameaças estrangeiras.",
+      "Participar dos Grandes Jogos do clã para provar o valor em torneios de sumai e arremesso de pedras.",
+      "Investigar uma caverna esquecida que pode conter vestígios das criaturas geradas por Hideo no Oni.",
+      "Viajar como emissário para buscar fundos ou suprimentos em um Grande Clã sem abrir mão do orgulho e da dignidade."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "cla-do-texugo"
+  },
+  {
+    "cla": "Clã do Morcego",
+    "resumo_pt": "Criado pelo shugenja Yoritomo Komori, um meio-espírito descendente de espíritos morcego koumori, o Clã do Morcego estabeleceu-se na ilha tropical do Ermo Perdido. O grupo dedica-se ao estudo da magia e à manutenção do equilíbrio espiritual, garantindo que portais entre os Reinos Espirituais e o mundo mortal permaneçam sob controle. Seus shugenja destacam-se pela capacidade única de enviar mensagens mágicas através do ar a longas distâncias.",
+    "valores_pt": "Valorizam a curiosidade intelectual, a busca contínua por conhecimento diário e a harmonia com o mundo dos espíritos. Enxergam a comunicação e o entendimento como ferramentas fundamentais.",
+    "aparencia_pt": "Favorecem quimonos pretos simples no cotidiano, mas usam trajes brancos em funerais em praias noturnas. Sua estética é influenciada pela cultura marítima e por templos rústicos construídos em madeira local.",
+    "papel_pt": "Guardiões espirituais da Ilha do Ermo Perdido, pacificadores de espíritos e provedores de rede de comunicação mágica a longa distância.",
+    "patrono_pt": "Clã do Mantis, que concedeu permissão para o recrutamento inicial e oferece proteção naval e apoio mercantil.",
+    "relacoes": [
+      {
+        "cla": "Clã do Mantis",
+        "tipo": "aliado",
+        "descricao_pt": "Protetor direto e aliado próximo de onde o fundador do clã original surgiu.",
+        "claId": "cla-do-mantis"
+      },
+      {
+        "cla": "Clã da Fênix",
+        "tipo": "neutro",
+        "descricao_pt": "Colaboram em estudos acadêmicos e mágicos, embora haja rivalidade no campo de comunicações nas Colônias.",
+        "claId": "cla-da-fenix"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Explorar a selva densa da ilha ancestral para conter um portal espiritual enfraquecido antes que espíritos malignos escapem.",
+      "Atuar como mensageiro de elite enviando comunicações secretas durante um momento de crise política em uma corte distante.",
+      "Negociar a paz com espíritos brincalhões ou metamorfos koumori que estão pregando peças nas vilas costeiras."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "cla-do-morcego"
+  },
+  {
+    "cla": "Clã do Javali",
+    "resumo_pt": "O Clã do Javali surgiu no século quinto após um grupo de mineradores do Clã do Caranguejo ficar isolado nas Montanhas do Crepúsculo e sobreviver por conta própria com o auxílio do espírito Shakoki Dogu. Reconhecidos pelo Imperador por sua coragem e recursos minerais, tornaram-se mestres na extração de ferro e na forja de armaduras excepcionais. Infelizmente, o clã foi tragicamente massacrado pelo cultista sanguinário Agasha Ryuden para a criação da Bigorna do Desespero, sobrevivendo apenas como espíritos sob proteção do Shakoki Dogu.",
+    "valores_pt": "Prezam a resistência física, o dever incondicional, a vigilância constante e a lealdade inquebrável. Rejeitam a fraqueza e valorizam a capacidade de suportar o sofrimento.",
+    "aparencia_pt": "Utilizam armaduras pesadas e resistentes feitas de ferro de alta qualidade e empunham a lança mai chong. Seus membros possuem o hábito de manter lanternas sempre acesas devido à aversão à escuridão total.",
+    "papel_pt": "Mineração de ferro e jade, produção de armaduras de elite e guarda das fronteiras montanhosas contra invasões das Terras Sombrias.",
+    "patrono_pt": "Clã do Caranguejo, do qual se originaram e com quem mantinham os principais acordos comerciais e de parentesco.",
+    "relacoes": [
+      {
+        "cla": "Clã da Caranguejo",
+        "tipo": "aliado",
+        "descricao_pt": "Parentes históricos e principais parceiros de comércio que reassumiram suas terras após o massacre do clã.",
+        "claId": "cla-da-caranguejo"
+      },
+      {
+        "cla": "Clã do Escorpião",
+        "tipo": "neutro",
+        "descricao_pt": "Antigos parceiros comerciais frequentes na aquisição de minérios e armaduras.",
+        "claId": "cla-do-escorpiao"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Investigar as ruínas amaldiçoadas de Shiro Heichi em busca de técnicas perdidas de forja de armaduras.",
+      "Enfrentar devotos do Culto dos Oradores do Sangue que tentam profanar os antigos locais de mineração do clã.",
+      "Descobrir um entreposto oculto do clã que sobreviveu ao massacre nas profundezas das montanhas."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "cla-do-javali"
+  },
+  {
+    "cla": "Clã da Libélula",
+    "resumo_pt": "Nascido da união romântica entre um guerreiro Mirumoto e uma shugenja Isawa, o Clã da Libélula foi oficialmente reconhecido após uma intervenção conjunta dos Clãs do Dragão e da Fênix. Desde então, o clã atua como portaria e emissário oficial para os domínios reclusos do Clã do Dragão. Apesar de sua postura pacífica e de ter sofrido invasões devastadoras praticadas pelo Clã do Leão ao longo dos séculos, a Libélula mantém sua dedicação espiritual e diplomática.",
+    "valores_pt": "Acredita na não-violência, na impermanência do mundo material, no questionamento de doutrinas escritas e na busca por percepção espiritual autêntica.",
+    "aparencia_pt": "Seus membros vestem quimonos simples em tons sutis, mantendo uma atitude serena e calma mesmo em momentos de perigo ou provocação. Suas estruturas assemelham-se a complexos de templos austeros.",
+    "papel_pt": "Emissários, diplomatas e guardiões de acesso às terras do Clã do Dragão.",
+    "patrono_pt": "Clã do Dragão, que garante proteção militar perpétua e diretrizes para o acesso às suas montanhas.",
+    "relacoes": [
+      {
+        "cla": "Clã do Dragão",
+        "tipo": "aliado",
+        "descricao_pt": "Protetores e patronos oficiais a quem o Clã da Libélula serve como filtro diplomático.",
+        "claId": "cla-do-dragao"
+      },
+      {
+        "cla": "Clã do Leão",
+        "tipo": "rival",
+        "descricao_pt": "Rivalidade histórica e ressentimento profundo devido à antiga vingança de Akodo Yakutsu e invasões subsequentes.",
+        "claId": "cla-do-leao"
+      },
+      {
+        "cla": "Clã da Fênix",
+        "tipo": "aliado",
+        "descricao_pt": "Laços ancestrais e de amizade espiritual duradouros através do legado da fundadora Isawa Maroko.",
+        "claId": "cla-da-fenix"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Gerenciar uma comitiva de visitantes impacientes em Kyuden Tonbo enquanto aguardam a autorização do Clã do Dragão.",
+      "Resolver uma disputa diplomática utilizando a filosofia da não-violência e perspicácia em vez de lâminas.",
+      "Acompanhar uma peregrinação espiritual pelas montanhas enfrentando aparições e fantasmas históricos do vale."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "cla-da-libelula"
+  },
+  {
+    "cla": "Clã da Lebre",
+    "resumo_pt": "Fundado pelo ronin Reichin após salvar a vida do Campeão Esmeralda, o Clã da Lebre assumiu a perigosa missão de caçar o Culto dos Oradores do Sangue. No século doze, o clã sofreu uma falsa acusação de praticar feitiçaria maho urdida pelo Clã do Escorpião, resultando na destruição de seu castelo e dissolução oficial. No entanto, através dos esforços obstinados do herdeiro Usagi Ozaki, o clã provou sua inocência, desmascarou a conspiração e foi restaurado pelo Imperador.",
+    "valores_pt": "Prioriza a sobrevivência, a agilidade mental e física, a astúcia investigativa e a autossuficiência. Possui uma visão pragmática do Código do Bushido.",
+    "aparencia_pt": "Seus membros são geralmente magros, ágeis e práticos, vestindo armaduras leves e funcionais. São treinados desde cedo para reconhecer sinais de mácula e artefatos de feitiçaria.",
+    "papel_pt": "Caça a cultistas praticantes de maho, investigação de ameaças ocultas e proteção das vilas locais.",
+    "patrono_pt": "Sem patrono fixo, embora tenha mantido laços de suporte financeiro com o Clã do Grou durante sua reconstrução.",
+    "relacoes": [
+      {
+        "cla": "Clã do Escorpião",
+        "tipo": "tenso",
+        "descricao_pt": "Histórico de extrema desconfiança e rivalidade devido ao cerco e destruição injusta de Shiro Usagi.",
+        "claId": "cla-do-escorpiao"
+      },
+      {
+        "cla": "Clã do Grou",
+        "tipo": "aliado",
+        "descricao_pt": "Ofereceu apoio financeiro e militar decisivo para a reconstrução do clã após sua restauração.",
+        "claId": "cla-do-grou"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Investigar boatos de atividades de feitiçaria maho em um vilarejo fronteiriço antes que Inquisidores intervenham.",
+      "Procurar pistas de pergaminhos antigos contendo códigos secretos sem atrair a atenção de espiões do Escorpião.",
+      "Defender camponeses locais contra bandidos em uma patrulha combinada com membros da nova família Ujina."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "cla-da-lebre"
+  },
+  {
+    "cla": "Clã do Macaco",
+    "resumo_pt": "Criado no início do século doze pelo camponês que se tornou guerreiro heroico Toku, o Clã do Macaco foi estabelecido pelo Imperador Toturi I como recompensa por sua lealdade inquebrável. O clã prosperou nas terras férteis do Vale do Macaco, destacando-se por sua atuação como magistrados e guardiões da ordem imperial. Após a morte e apoteose de seu fundador como a Fortuna da Virtude, o clã consolidou sua posição e influência no Império.",
+    "valores_pt": "Prezam o otimismo inabalável, a justiça, a compaixão e a aplicação literal das virtudes do Bushido. Acreditam no potencial heroico de cada indivíduo.",
+    "aparencia_pt": "Exibem uma postura alegre e entusiasmada, vestindo trajes em tons de verde e dourado. É comum carregarem diários pessoais e cópias do livro 'Liderança' de Akodo.",
+    "papel_pt": "Atuação como magistrados imperiais, patrulhamento de fronteiras e manutenção da justiça e paz no vale.",
+    "patrono_pt": "Dinastia Toturi e Famílias Imperiais, com forte aliança histórica com o Clã do Escorpião.",
+    "relacoes": [
+      {
+        "cla": "Clã do Escorpião",
+        "tipo": "aliado",
+        "descricao_pt": "Aliança sólida selada por casamentos estratégicos, com o Escorpião agindo como um protetor astuto do jovem clã.",
+        "claId": "cla-do-escorpiao"
+      },
+      {
+        "cla": "Famílias Imperiais",
+        "tipo": "aliado",
+        "descricao_pt": "Laço profundo de lealdade derivado da amizade entre Toku e o Imperador Toturi I.",
+        "claId": "familias-imperiais"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Conduzir uma investigação rigorosa sobre crimes em um vilarejo promovendo a justiça sem discriminação de casta.",
+      "Defender camponeses contra os abusos de um samurai de um Grande Clã sem provocar uma guerra aberta.",
+      "Proteger um templo dedicado à Fortuna da Virtude durante uma celebração religiosa importante."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "cla-do-macaco"
+  },
+  {
+    "cla": "Clã do Papa-figos",
+    "resumo_pt": "Originado da antiga linhagem de armeiros Tsi, cujas raízes remontam ao primeiro século, o grupo atuou por séculos como vassalos imperiais de forja exclusiva. Após resistirem ao cativeiro durante a queda de Otosan Uchi e sabotarem as armas criadas para os servos do Nada, foram elevados a Clã do Papa-figos pelo Imperador Toturi Naseru. No século doze, o clã expandiu suas responsabilidades para incluir diplomatas, bushi e artesãos espalhados por diversas propriedades no Império.",
+    "valores_pt": "Enxergam a forja de espadas e armaduras como a forma mais elevada de arte e expressão, valorizando a perfeição estética, a serenidade mental e o trabalho árduo.",
+    "aparencia_pt": "Vestimentas de artesãos simples e discretas. Suas armaduras e lâminas possuem uma estética elegante e sem exageros ornamentais, altamente cobiçadas por guerreiros de todo o Império.",
+    "papel_pt": "Forja das melhores espadas e armaduras de Rokugan, guarda das ruínas de Otosan Uchi e diplomacia mercantil.",
+    "patrono_pt": "Famílias Imperiais, que mantiveram a família Tsi sob sua tutela direta por vários séculos.",
+    "relacoes": [
+      {
+        "cla": "Clã da Caranguejo",
+        "tipo": "aliado",
+        "descricao_pt": "Aliança militar e familiar através de casamento, trocando armas de alta qualidade por táticas de combate.",
+        "claId": "cla-da-caranguejo"
+      },
+      {
+        "cla": "Clã do Dragão",
+        "tipo": "aliado",
+        "descricao_pt": "Colaboram no treinamento de bushi e na proteção de vilas rurais no norte.",
+        "claId": "cla-do-dragao"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Acompanhar uma lâmina obra-prima recém-forjada para entregá-la como presente político a um grande daimyō.",
+      "Recrutar ronin habilidosos para patrulhar as estradas que conectam as propriedades distantes e dispersas do clã.",
+      "Restaurar uma antiga forja nas ruínas perigosas de Otosan Uchi fornecendo armas sagradas para a Família Yotsu."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "cla-do-papa-figos"
+  },
+  {
+    "cla": "Clã do Boi",
+    "resumo_pt": "O Clã do Boi foi fundado por Morito, um antigo samurai do Clã do Unicórnio tornado ronin, que estabeleceu um domínio nas planícies do Coração do Dragão. O clã obteve reconhecimento oficial do Imperador por suas ações defensivas durante a Guerra dos Espíritos. Apesar de uma crise provocada pela secreta infiltração da conspiração Kolat em sua liderança inicial, o clã purgou a influência sombria e redimiu sua honra lutando bravamente na Guerra do Fogo Sombrio e na Guerra dos Destruidores.",
+    "valores_pt": "Valorizam a independência, a liberdade individual, a força militar bruta e a proteção dos fracos contra o crime organizado e opressão.",
+    "aparencia_pt": "Trajam peles e couros nos rigorosos invernos montanhosos, mantendo cavalarias robustas e postura informal entre oficiais e soldados.",
+    "papel_pt": "Patrulha e guarda das passagens montanhosas do norte, combate a tribos Yobanjin e repressão ao crime organizado.",
+    "patrono_pt": "Nenhum patrono oficial, mas possui fortes laços com o Clã do Unicórnio e apoio do Clã da Fênix.",
+    "relacoes": [
+      {
+        "cla": "Clã do Unicórnio",
+        "tipo": "aliado",
+        "descricao_pt": "Compartilham origens ancestrais, tradições de cavalaria e cooperação na caça a criminosos.",
+        "claId": "cla-do-unicornio"
+      },
+      {
+        "cla": "Clã da Fênix",
+        "tipo": "aliado",
+        "descricao_pt": "Parceiros comerciais frequentes em vilas fronteiriças para troca de ervas raras e recursos.",
+        "claId": "cla-da-fenix"
+      },
+      {
+        "cla": "Clã do Escorpião",
+        "tipo": "tenso",
+        "descricao_pt": "Relação complexa decorrente do expurgo da conspiração Kolat em Shiro Morito por tropas do Escorpião.",
+        "claId": "cla-do-escorpiao"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Comandar uma patrulha de cavalaria nas planícies do sul para conter incursões de bandidos ou remanescentes da mácula.",
+      "Interpalar uma operação de contrabando subterrâneo em Red Horn Village sem comprometer acordos delicados.",
+      "Liderar uma expedição de batedores nas montanhas congeladas durante o inverno para monitorar movimentos bárbaros."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "cla-do-boi"
+  },
+  {
+    "cla": "Clã do Pardal",
+    "resumo_pt": "Fundado por Doji Suzume após um comentário mal interpretado como profunda sabedoria sobre abrir mão das riquezas, o Clã do Pardal abraçou a filosofia da 'Pobreza Honorável'. Vivendo em um vale árido e inóspito, seus membros trabalham diretamente no campo ao lado dos camponeses para garantir o sustento do clã. Apesar de sua extrema escassez de recursos, o clã cumpre com rigor o dever sagrado de vigiar as férteis Planícies do Sol Dourado sem jamais usufruir de seus frutos.",
+    "valores_pt": "Abraçam a 'Pobreza Honorável', a rejeição ao acúmulo material, a humildade, o trabalho árduo, a honestidade e a preservação de tradições orais.",
+    "aparencia_pt": "Vestem-se de maneira extremamente simples e rústica, com roupas gastas e mãos calejadas pelo trabalho agrícola. Têm a atiradeira (sling) como sua arma característica.",
+    "papel_pt": "Guarda e proteção das Planícies do Sol Dourado para mantê-las intocadas conforme o decreto imperial.",
+    "patrono_pt": "Clã do Grou, do qual descendem os fundadores iniciais.",
+    "relacoes": [
+      {
+        "cla": "Clã do Grou",
+        "tipo": "tenso",
+        "descricao_pt": "Laço ancestral distante, embora o Grou muitas vezes veja o Pardal com constrangimento por seu estilo de vida rústico.",
+        "claId": "cla-do-grou"
+      },
+      {
+        "cla": "Clã da Caranguejo",
+        "tipo": "neutro",
+        "descricao_pt": "Vizinhos territoriais pacíficos estabelecidos após o fim da Primeira Guerra Yasuki.",
+        "claId": "cla-da-caranguejo"
+      },
+      {
+        "cla": "Clã da Aranha",
+        "tipo": "rival",
+        "descricao_pt": "Infiltraram o clã no século doze, gerando anos de manipulação até serem desmascarados e perdoados pela Imperatriz.",
+        "claId": "cla-da-aranha"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Patrulhar as Planícies do Sol Dourado e resistir à tentação de colher alimentos sagrados mesmo diante da fome no vale.",
+      "Entreter uma corte diplomática recitando velhas lendas e poesias haiku para conquistar a simpatia de um daimyō.",
+      "Ajudar a libertar os membros do clã da influência remanescente de infiltrados do Clã da Aranha."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "cla-do-pardal"
+  },
+  {
+    "cla": "Clã da Tartaruga",
+    "resumo_pt": "O Clã da Tartaruga foi criado por Agasha Kasuga após a Batalha do Cervo Branco com a missão secreta de espionar nações estrangeiras (gaijin) e controlar o contrabando de artefatos proibidos. Para o restante de Rokugan, o clã aparenta ser apenas um grupo de comerciantes gananciosos e zeladores encarregados de limpar as ruas da capital. Seus membros aceitam de bom grado a vergonha e a desonra pública para cumprir seu dever sagrado de proteger o Império de ameaças externas invisíveis.",
+    "valores_pt": "Siga o 'Caminho de Nenhum Caminho', prezando o pragmatismo, o sacrifício pessoal da honra pelo bem do Império, a adaptabilidade e o individualismo.",
+    "aparencia_pt": "Aparência propositalmente desleixada e comum, muitas vezes acima do peso, com bigodes longos e trajes simples de marinheiros ou comerciantes.",
+    "papel_pt": "Espionagem de nações gaijin, controle do contrabando, administração portuária na Baía do Sol Dourado e manutenção da capital imperial.",
+    "patrono_pt": "Famílias Imperiais, servindo diretamente aos mandatos do Imperador.",
+    "relacoes": [
+      {
+        "cla": "Famílias Imperiais",
+        "tipo": "aliado",
+        "descricao_pt": "Mestres diretos a quem o Campeão da Tartaruga presta contas e oferece seppuku a cada nova coroação.",
+        "claId": "familias-imperiais"
+      },
+      {
+        "cla": "Clã do Grou",
+        "tipo": "rival",
+        "descricao_pt": "Atritos e rivalidades frequentes devido a disputas de interesses comerciais e controle de rotas marítimas.",
+        "claId": "cla-do-grou"
+      },
+      {
+        "cla": "Clã do Mantis",
+        "tipo": "aliado",
+        "descricao_pt": "Parceiros frequentes em navegação e comércio oceânico nas ilhas do sul.",
+        "claId": "cla-do-mantis"
+      }
+    ],
+    "ganchos_roleplay": [
+      "Embarcar em um 'Navio Vermelho' em uma missão secreta de reconhecimento nas terras distantes dos gaijin.",
+      "Infiltrar-se em uma rede de contrabando urbana para recuperar um artefato perigoso sem revelar a verdadeira identidade.",
+      "Manter a vigilância secreta dos túneis sob a capital imperial enquanto finge ser um humilde trabalhador de limpeza."
+    ],
+    "source_book": "Secrets of the Empire",
+    "id": "cla-da-tartaruga"
+  }
+]

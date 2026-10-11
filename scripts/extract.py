@@ -29,7 +29,7 @@ from schema import CATEGORIAS
 GLOSSARIO_PATH = os.path.join(os.path.dirname(__file__), "..", "glossario.json")
 RAW_DIR = os.path.join(os.path.dirname(__file__), "..", "raw")
 
-MODEL = os.environ.get("GEMINI_API_MODEL", "gemini-2.0-flash")
+MODEL = os.environ.get("GEMINI_API_MODEL", "gemini-3.8-flash")
 
 
 def carregar_glossario() -> dict:
