@@ -24,7 +24,7 @@ export async function carregarBanco() {
     aneis, traits, schools, kataKiho, skills, spells, advantages, disadvantages, weapons, armor, gear, lore,
     niveisFerimento, ranksSabedoria, formulas,
     clasMenores, faccoes, ordensMonasticas, reinosEspirituais, tradicoesMarciais,
-    familias, artefatos, criaturas, locais, ameacas, estrangeiros, grupos, personagens,
+    familias, artefatos, criaturas, locais, ameacas, estrangeiros, grupos, personagens, regrasNotaveis,
   ] = await Promise.all([
     carregarJSON("data/core/aneis.json"),
     carregarJSON("data/core/traits.json"),
@@ -59,12 +59,13 @@ export async function carregarBanco() {
     carregarJSON("data/lore/estrangeiros.json"),
     carregarJSON("data/lore/grupos.json"),
     carregarJSON("data/lore/personagens.json"),
+    carregarJSON("data/lore/regras-notaveis.json"),
   ]);
   cache = {
     aneis, traits, schools, kataKiho, skills, spells, advantages, disadvantages, weapons, armor, gear, lore,
     niveisFerimento, ranksSabedoria, formulas,
     clasMenores, faccoes, ordensMonasticas, reinosEspirituais, tradicoesMarciais,
-    familias, artefatos, criaturas, locais, ameacas, estrangeiros, grupos, personagens,
+    familias, artefatos, criaturas, locais, ameacas, estrangeiros, grupos, personagens, regrasNotaveis,
   };
   return cache;
 }

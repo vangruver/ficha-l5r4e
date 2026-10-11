@@ -17,11 +17,16 @@ import json
 import os
 
 from extract import extrair
-from schema import AMEACAS, ESTRANGEIROS, PERSONAGENS_SWORD_FAN
+from schema import AMEACAS, ESTRANGEIROS, PERSONAGENS_SWORD_FAN, REGRAS_NOTAVEIS
 
 PDF_PATH = os.path.join(os.path.dirname(__file__), "..", "pdfs", "sword-and-fan.pdf")
 
-CATEGORIAS = {"ameacas": AMEACAS, "estrangeiros": ESTRANGEIROS, "personagens": PERSONAGENS_SWORD_FAN}
+CATEGORIAS = {
+    "ameacas": AMEACAS,
+    "estrangeiros": ESTRANGEIROS,
+    "personagens": PERSONAGENS_SWORD_FAN,
+    "regras_notaveis": REGRAS_NOTAVEIS,
+}
 
 INSTRUCAO_POR_CATEGORIA = {
     "ameacas": (
@@ -39,6 +44,18 @@ INSTRUCAO_POR_CATEGORIA = {
         "\"Notable Generals of Rokugan\" (Capítulo Um: Strategy). Resumo "
         "curto por pessoa (2-3 frases): quem é, o que fez, por que é "
         "notável. Em 'contexto_pt' diga o clã/exército que ela serve."
+    ),
+    "regras_notaveis": (
+        "Cubra os costumes/procedimentos NOMEADOS dos capítulos \"Tactics\" "
+        "(ex. a expansão das regras de Mass Battle, táticas proibidas), "
+        "\"Court and Civilization\" (etiqueta samurai, conduta na corte, "
+        "cerimônia do chá, herança) e \"Politics Through the Year\" "
+        "(estrutura da corte de inverno, diplomacia, casamentos arranjados). "
+        "Um item por costume/procedimento nomeado. Em 'contexto_pt' diga a "
+        "quem se aplica (samurai em geral, comandantes, cortesãos). Em "
+        "'destaque_pt' diga por que é notável ou o que acontece se for "
+        "desrespeitado. NÃO liste a tabela de regras passo a passo — "
+        "resuma o costume em prosa."
     ),
 }
 

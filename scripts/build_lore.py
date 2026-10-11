@@ -152,6 +152,9 @@ def main() -> None:
     personagens.extend(extrair_categoria(lore_sword_fan, "personagens"))
     salvar("personagens", com_ids_curta(personagens))
 
+    # Regras/costumes notáveis — só do Sword and Fan (ver schema.py REGRAS_NOTAVEIS).
+    salvar("regras-notaveis", com_ids_curta(extrair_categoria(lore_sword_fan, "regras_notaveis")))
+
 
 if __name__ == "__main__":
     main()

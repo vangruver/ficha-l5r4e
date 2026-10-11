@@ -618,3 +618,33 @@ PERSONAGENS_SWORD_FAN = {
         }
     }
 }
+
+# Regras/costumes NOMEADOS dos capítulos de Tática/Etiqueta/Corte do Sword
+# and Fan (Capítulo Dois: Tactics, Capítulo Cinco: Court and Civilization,
+# Capítulo Seis: Politics Through the Year) — conteúdo que antes eu tinha
+# descartado de propósito como "mecânica de jogo nova, fora do escopo da
+# wiki". Carlos pediu explicitamente pra incluir também. Shape "entidade
+# curta": resumo NARRATIVO do costume/procedimento e sua importância
+# social/militar, não a mecânica passo-a-passo/tabela de rolagem (isso
+# continua precisando de feature de UI própria se um dia for automatizado
+# — aqui é só referência de wiki, igual o resto).
+REGRAS_NOTAVEIS = {
+    "type": "object",
+    "properties": {
+        "regras_notaveis": {
+            "type": "array",
+            "description": (
+                "costumes, protocolos e regras de batalha/corte NOMEADOS "
+                "descritos pelo livro, ex. 'Expanding the Mass Battle "
+                "Rules', 'The Etiquette of Swords', 'The Etiquette of "
+                "Revenge', 'Guest and Host', 'The Tea Ceremony', 'Winter "
+                "Court', 'Inheritance in Rokugan' — um item por "
+                "costume/procedimento nomeado, cobrindo os capítulos "
+                "'Tactics', 'Court and Civilization' e 'Politics Through "
+                "the Year'. Resuma o QUE É e POR QUE importa socialmente, "
+                "não a tabela de regras passo a passo."
+            ),
+            "items": _ITEM_ENTIDADE_CURTA,
+        }
+    }
+}

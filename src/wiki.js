@@ -1,8 +1,8 @@
 // Aba "Wiki": enciclopédia por seção (Clãs Grandes, Clãs Menores, Famílias,
 // Facções, Ordens Monásticas, Reinos Espirituais, Tradições Marciais,
 // Grupos/Organizações, Artefatos, Criaturas, Locais, Personagens, Ameaças,
-// Estrangeiros), com lista de itens e link cruzado entre clãs/grupos
-// relacionados.
+// Estrangeiros, Regras e Costumes Notáveis), com lista de itens e link
+// cruzado entre clãs/grupos relacionados.
 //
 // Duas formas de artigo:
 // - "grupo" (clãs, facções, reinos, ordens, tradições marciais, grupos,
@@ -48,6 +48,7 @@ const SECOES = [
   { id: "personagens", titulo: "Personagens Notáveis", chave: "personagens", tipo: "curta" },
   { id: "ameacas", titulo: "Ameaças Externas", chave: "ameacas", tipo: "grupo" },
   { id: "estrangeiros", titulo: "Estrangeiros", chave: "estrangeiros", tipo: "grupo" },
+  { id: "regrasNotaveis", titulo: "Regras e Costumes Notáveis", chave: "regrasNotaveis", tipo: "curta" },
 ];
 
 // Seções "grupo" valem como alvo de link cruzado (relações entre clãs,
