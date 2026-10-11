@@ -412,11 +412,16 @@ Estratégia/Etiqueta) — nova categoria `regras_notaveis` (schema em `scripts/s
 and Fan) cobre os capítulos "Tactics", "Court and Civilization" e "Politics Through the Year" como
 referência narrativa (resumo do costume/procedimento e sua importância, não a tabela de regras passo
 a passo — isso ainda precisaria de feature de UI própria se um dia for automatizado). Wiki ganha uma
-13ª seção, "Regras e Costumes Notáveis" (`src/wiki.js`, shape "entidade curta"). **Agendei um cron
-job session-only** (`CronCreate`, id `13290fed`, dispara uma vez só em 11/10 21:17) pra retomar essa
-extração sozinho assim que a cota resetar — só funciona se esta sessão do Claude Code continuar
-aberta até lá; se ela for encerrada antes, o job se perde e a extração precisa ser retomada manualmente
-com os comandos abaixo.
+13ª seção, "Regras e Costumes Notáveis" (`src/wiki.js`, shape "entidade curta"). **Agendei duas camadas de retomada automática**, já que o Carlos perguntou como fazer isso
+independente da sessão do Claude Code: (1) `CronCreate` session-only (id `13290fed`, dispara uma vez
+em 11/10 21:17) — só funciona se esta sessão do Claude Code continuar aberta, mas faz a parte que
+precisa de julgamento (dedupe, teste com puppeteer, texto do STATUS.md/memória); (2) **Tarefa do
+Agendador de Tarefas do Windows** (`L5R_RetomarExtracao`, dispara 11/10 21:35, independente de
+qualquer sessão — só precisa do PC ligado/logado, não roda na bateria) rodando
+`scripts/retomar_extracao_agendada.ps1`: extrai o que falta, reconstrói a wiki e já comita+empurra
+pro GitHub sozinha (log em `scripts/retomada_agendada.log`). Se a camada 1 não rodar (sessão
+fechada), a camada 2 garante que ao menos a extração e o commit aconteçam; a parte de revisão
+(dedupe/teste/documentação) fica pra próxima sessão olhar o que foi commitado.
 
 Comando pra retomar (manual, se o cron não disparar): `python extract_lore_elementos.py` (resumível,
 só pega o que falta em cada `raw/lore-<elemento>.json`) seguido de `python extract_lore_sword_fan.py`,
