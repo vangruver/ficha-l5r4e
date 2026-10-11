@@ -403,14 +403,26 @@ persistente. **`gemini-3.6-flash` funcionou bem** e é o valor atual de `GEMINI_
 - Fire: `tradicoes_marciais` + `grupos` + `personagens` (3 requests)
 - Water: `tradicoes_marciais` + `grupos` + `personagens` (3 requests)
 - Void: `grupos` + `personagens` (2 requests) — `tradicoes_marciais`/`locais`/`artefatos`/`criaturas` já prontos
-- Sword and Fan: `ameacas` + `estrangeiros` + `personagens` (3 requests)
-- **Total: 16 requests**, bem dentro dos 40/dia (2 contas) depois do reset.
+- Sword and Fan: `ameacas` + `estrangeiros` + `personagens` + `regras_notaveis` (4 requests)
+- **Total: 17 requests**, bem dentro dos 40/dia (2 contas) depois do reset.
 
-Comando pra retomar: `python extract_lore_elementos.py` (resumível, só pega o que falta em cada
-`raw/lore-<elemento>.json`) seguido de `python extract_lore_sword_fan.py`, depois `python
-build_lore.py` de novo. Depois de rodar, checar duplicata de id em `data/lore/*.json` de novo (script
-inline Node usado nesta sessão, não ficou salvo como utilitário — só um `JSON.parse` + `.map(id)` +
-procurar repetido).
+**Mudança de escopo (11/out, depois do reset às 03h):** Carlos pediu explicitamente pra incluir
+também "as regras" que eu tinha descartado de propósito (ver nota acima sobre Mass Battle/
+Estratégia/Etiqueta) — nova categoria `regras_notaveis` (schema em `scripts/schema.py`, só no Sword
+and Fan) cobre os capítulos "Tactics", "Court and Civilization" e "Politics Through the Year" como
+referência narrativa (resumo do costume/procedimento e sua importância, não a tabela de regras passo
+a passo — isso ainda precisaria de feature de UI própria se um dia for automatizado). Wiki ganha uma
+13ª seção, "Regras e Costumes Notáveis" (`src/wiki.js`, shape "entidade curta"). **Agendei um cron
+job session-only** (`CronCreate`, id `13290fed`, dispara uma vez só em 11/10 21:17) pra retomar essa
+extração sozinho assim que a cota resetar — só funciona se esta sessão do Claude Code continuar
+aberta até lá; se ela for encerrada antes, o job se perde e a extração precisa ser retomada manualmente
+com os comandos abaixo.
+
+Comando pra retomar (manual, se o cron não disparar): `python extract_lore_elementos.py` (resumível,
+só pega o que falta em cada `raw/lore-<elemento>.json`) seguido de `python extract_lore_sword_fan.py`,
+depois `python build_lore.py` de novo. Depois de rodar, checar duplicata de id em `data/lore/*.json`
+de novo (script inline Node usado nesta sessão, não ficou salvo como utilitário — só um
+`JSON.parse` + `.map(id)` + procurar repetido).
 
 **Testado com clique real** (`puppeteer-core`, instalado/removido só pra esse teste): as 10 seções
 com dado aparecem (Grupos/Personagens/Ameaças/Estrangeiros ficam escondidos até terem conteúdo),
