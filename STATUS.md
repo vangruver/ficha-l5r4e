@@ -21,10 +21,10 @@ um dos 10 Clãs Menores do Secrets of the Empire que ainda não tinham sido extr
 pra revisar o índice de TODOS os livros em busca de qualquer conteúdo faltando — achei duas
 categorias novas (Grupos/Organizações e Personagens Notáveis, ver abaixo). Ver seção "Wiki expandida
 (10-11/out)" pro detalhe completo — **bug das tradições marciais confirmado corrigido** (11 itens,
-nomes reais de dojo/tradição, zero duplicata). **Falta ainda**: tradições marciais de
-earth/fire/water, grupos+personagens dos 5 livros elementais, e ameaças/estrangeiros/personagens do
-Sword & Fan — bloqueado pela cota diária do Gemini (esgotada de novo às ~03h de 11/out, retoma
-~21h de 11/out, ver "Cota pendente" nessa seção pro número exato de requests que faltam).
+nomes reais de dojo/tradição, zero duplicata). **Falta ainda (17 requests, inalterado em 12/out,
+ver "Retomada automática — tentativas e migração pro frank" abaixo)**: tradições marciais de
+earth/fire/water, grupos+personagens dos 5 livros elementais, e ameaças/estrangeiros/personagens/
+regras_notaveis do Sword & Fan — bloqueado pela cota diária do Gemini.
 
 **Publicado no GitHub em 09/out/2026:** repo público [vangruver/ficha-l5r4e](https://github.com/vangruver/ficha-l5r4e),
 GitHub Pages ativado em <https://vangruver.github.io/ficha-l5r4e/> (mesmo esquema do dnd-sheet).
@@ -412,19 +412,53 @@ Estratégia/Etiqueta) — nova categoria `regras_notaveis` (schema em `scripts/s
 and Fan) cobre os capítulos "Tactics", "Court and Civilization" e "Politics Through the Year" como
 referência narrativa (resumo do costume/procedimento e sua importância, não a tabela de regras passo
 a passo — isso ainda precisaria de feature de UI própria se um dia for automatizado). Wiki ganha uma
-13ª seção, "Regras e Costumes Notáveis" (`src/wiki.js`, shape "entidade curta"). **Agendei duas camadas de retomada automática**, já que o Carlos perguntou como fazer isso
-independente da sessão do Claude Code: (1) `CronCreate` session-only (id `13290fed`, dispara uma vez
-em 11/10 21:17) — só funciona se esta sessão do Claude Code continuar aberta, mas faz a parte que
-precisa de julgamento (dedupe, teste com puppeteer, texto do STATUS.md/memória); (2) **Tarefa do
-Agendador de Tarefas do Windows** (`L5R_RetomarExtracao`, dispara 11/10 21:35, independente de
-qualquer sessão — só precisa do PC ligado/logado, não roda na bateria) rodando
-`scripts/retomar_extracao_agendada.ps1`: extrai o que falta, reconstrói a wiki e já comita+empurra
-pro GitHub sozinha (log em `scripts/retomada_agendada.log`). Se a camada 1 não rodar (sessão
-fechada), a camada 2 garante que ao menos a extração e o commit aconteçam; a parte de revisão
-(dedupe/teste/documentação) fica pra próxima sessão olhar o que foi commitado.
+13ª seção, "Regras e Costumes Notáveis" (`src/wiki.js`, shape "entidade curta").
 
-Comando pra retomar (manual, se o cron não disparar): `python extract_lore_elementos.py` (resumível,
-só pega o que falta em cada `raw/lore-<elemento>.json`) seguido de `python extract_lore_sword_fan.py`,
+## Retomada automática — tentativas e migração pro frank (11-12/out)
+
+Três tentativas de automatizar a retomada, nenhuma completou a extração ainda (conferido em
+12/out: `raw/lore-*.json` seguem exatamente como estavam, nada perdido, nada corrompido — só não
+rodou):
+
+1. **`CronCreate` session-only** (id `13290fed`, disparou 11/10 21:17 como planejado) — disparou
+   certo, mas o comando em background foi **matado pelo próprio Claude Code por falta de memória**
+   no PC do Carlos (só 2,3 GB livres de 32 GB — Opera com várias janelas, Discord, WaveLink, Edge
+   WebView). Não chegou nem a subir o PDF pro Gemini. Claude Code bloqueia reinício automático
+   nesse caso de propósito (a sessão pode estar sob a mesma pressão de memória).
+2. **Tarefa do Agendador de Tarefas do Windows** (`L5R_RetomarExtracao`, devia disparar 11/10
+   21:35) — **nunca disparou** (`scripts/retomada_agendada.log` nem existe, "última execução"
+   continua no placeholder padrão do Windows pra "nunca rodou"). Causa provável: PC em
+   suspensão/tela de bloqueio no horário, e tarefa `/sc once` sem a flag de "rodar assim que
+   possível se perder o horário" simplesmente não recupera — fica para sempre como "Pronto" sem
+   avisar que falhou. **Lição: tarefa agendada única no Windows não é confiável pra isso**, meio
+   motivo de ter começado a migração abaixo.
+3. **Migração pro frank** (pedida pelo Carlos: "bota no frank essa parada de ter que ficar
+   ligado") — frank é sempre ligado, sem essa disputa de RAM com apps do dia a dia. Progresso até
+   12/out:
+   - **Deploy key dedicada criada e registrada** (`~/.ssh/id_ed25519_ficha_l5r4e` no frank,
+     registrada via `gh api repos/vangruver/ficha-l5r4e/keys` com escrita — id `166090443`,
+     `read_only:false`). Confirmada autenticando contra `git@github.com`.
+   - Repo clonado em **`/home/carlos/ficha-l5r4e`** no frank (não em `/srv/` — esse diretório é
+     `root`-only, `carlos` só tem escrita em `/srv/servidor`).
+   - **venv criado e `google-genai` instalado** (`~/ficha-l5r4e/.venv`, `import google.genai` OK).
+   - **Bloqueado:** falta copiar `GEMINI_API_KEY`/`GEMINI_API_KEY_2` do PC do Carlos pro
+     `~/ficha-l5r4e/.env` no frank. O classificador de modo automático do Claude Code bloqueou a
+     Claude de fazer essa cópia direto (razão: "Credential Leakage") — correto, é transferência de
+     segredo entre máquinas. Passei pro Carlos um comando com prefixo `!` pra ele mesmo rodar (lê
+     as env vars do Windows via `setx` e grava no frank por SSH, sem o valor passar pelo chat) —
+     **ele ainda não confirmou ter rodado** (checado por SSH em 12/out: `~/ficha-l5r4e/.env` não
+     existe ainda).
+   - Depois que o `.env` existir: falta escrever a versão Linux de
+     `retomar_extracao_agendada.ps1` (bash, usando o venv) e um `cron` do frank (não
+     `CronCreate`/Windows) pra rodar sozinho, sem depender de PC nem sessão nenhuma.
+
+**Nota lateral:** 12/out é um dia novo — a cota diária do Gemini deve ter resetado de novo
+independente de tudo isso (o esgotamento anterior foi registrado ~03h de 11/out). Dá pra tentar
+rodar manualmente a qualquer momento enquanto o frank não está pronto, só evitar rodar ao mesmo
+tempo nas duas máquinas (desperdiça cota sem ganhar nada, as duas competem pelas mesmas 2 contas).
+
+Comando pra retomar manualmente (PC do Carlos): `python extract_lore_elementos.py` (resumível, só
+pega o que falta em cada `raw/lore-<elemento>.json`) seguido de `python extract_lore_sword_fan.py`,
 depois `python build_lore.py` de novo. Depois de rodar, checar duplicata de id em `data/lore/*.json`
 de novo (script inline Node usado nesta sessão, não ficou salvo como utilitário — só um
 `JSON.parse` + `.map(id)` + procurar repetido).
